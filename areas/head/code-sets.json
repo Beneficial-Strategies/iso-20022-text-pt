@@ -1,0 +1,4 @@
+{
+ "BusinessMessagePriorityCode": "Especifica os níveis de prioridade da BusinessMessage.|As diferentes prioridades dependem normalmente do utilizador, do serviço ou da implementação. A semântica dos diferentes valores de uma mensagem (ou conjunto de mensagens) tem de ser definida pela comunidade de utilizadores relevante (SEG).",
+ "UnicodeChartsCode": "Lista de códigos com os nomes dos blocos de código UNICODE, tal como especificado em http://unicode.org/Public/UNIDATA/Blocks.txt."
+}

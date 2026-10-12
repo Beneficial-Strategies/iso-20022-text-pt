@@ -1,0 +1,21 @@
+{
+ "ExternalNotificationSubType1Code/CRED": "A notificação destina-se ao departamento de crédito.",
+ "ExternalNotificationSubType1Code/LIQI": "A notificação destina-se ao departamento de liquidez.",
+ "ExternalNotificationSubType1Code/LOAN": "A notificação destina-se ao departamento de empréstimos.",
+ "ExternalNotificationSubType1Code/PAOP": "A notificação destina-se ao departamento de operações de pagamento.",
+ "ExternalNotificationSubType1Code/SALE": "A notificação destina-se ao departamento comercial.",
+ "ExternalNotificationSubType1Code/SERV": "A notificação destina-se ao departamento de serviços.",
+ "ExternalNotificationType1Code/ADDR": "Notificação de alteração de morada.",
+ "ExternalNotificationType1Code/ATAC": "Notificação de condições novas ou alteradas de uma conta.",
+ "ExternalNotificationType1Code/COUP": "Notificação de dados de contacto novos ou alterados.",
+ "ExternalNotificationType1Code/CUHO": "Notificação de um feriado de uma moeda.",
+ "ExternalNotificationType1Code/INCH": "Notificação de quaisquer alterações relevantes do setor ou do mercado.",
+ "ExternalNotificationType1Code/INFO": "Partilha de informações.",
+ "ExternalNotificationType1Code/MERG": "Notificação de uma fusão e de quaisquer alterações associadas.",
+ "ExternalNotificationType1Code/OPEN": "Notificação de alteração do horário de funcionamento.",
+ "ExternalNotificationType1Code/OTHR": "Outro tipo de notificação.",
+ "ExternalNotificationType1Code/SSIS": "Notificação de alteração das instruções de liquidação permanentes (SSIs).",
+ "ExternalNotificationType1Code/SUSP": "Notificação de suspensão de um processo devido a um incidente.",
+ "ExternalNotificationType1Code/SYST": "Pedido de acesso a um sistema.",
+ "ExternalNotificationType1Code/TERM": "Notificação de cessação de um serviço, como o encerramento de uma conta."
+}

@@ -1,0 +1,5 @@
+{
+ "SettlementMethod2Code/CLRG": "A liquidação é feita através de um sistema de compensação de pagamentos.",
+ "SettlementMethod2Code/INDA": "A liquidação é feita pelo agente instruído para executar uma instrução de pagamento.",
+ "SettlementMethod2Code/INGA": "A liquidação é feita pelo agente instrutor, que reencaminha o pagamento para a parte seguinte da cadeia de pagamento."
+}

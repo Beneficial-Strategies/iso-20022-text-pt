@@ -1,0 +1,10 @@
+{
+ "AmountType3Choice": "Especifica o montante a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora.",
+ "GroupHeader122": "Conjunto de características comuns a todas as operações individuais incluídas na mensagem.",
+ "OriginalPaymentInformation10": "Fornece informações sobre a operação de pagamento original a que se aplica a mensagem de remessa.",
+ "RemittanceAdviceV07": "A mensagem RemittanceAdvice permite ao ordenante fornecer detalhes de remessa que podem ser associados a um pagamento.",
+ "RemittanceInformation27": "Informação fornecida para permitir a correspondência/reconciliação de um lançamento com os itens que o pagamento se destina a liquidar, como faturas comerciais num sistema de contas a receber.",
+ "RemittanceLocation10": "Fornece informações sobre o aviso de remessa.",
+ "RemittanceLocationAdviceV03": "A mensagem RemittanceLocationAdvice permite ao ordenante da mensagem identificar onde se encontra o aviso de remessa de um pagamento relacionado.",
+ "TransactionReferences8": "Identifica a operação subjacente."
+}

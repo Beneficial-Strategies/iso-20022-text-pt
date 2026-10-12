@@ -1,0 +1,3 @@
+{
+ "BusinessApplicationHeaderV04/RelatedPresentWhenCopyDupl": "Related TEM DE (MUST) conter os elementos BusinessMessageHeader relevantes da BusinessMessage com a qual esta BusinessMessage se relaciona.||Se CopyDuplicate estiver presente, Related TEM DE (MUST) estar presente."
+}
