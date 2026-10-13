@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxParty1",
+  "definition": "Detalhes sobre a entidade envolvida no imposto pago ou a pagar.",
+  "isoElements": {
+    "TaxIdentification": {
+      "definition": "Número de identificação fiscal do credor."
+    },
+    "RegistrationIdentification": {
+      "definition": "Identificação única, atribuída por uma organização, para identificar inequivocamente uma parte."
+    },
+    "TaxType": {
+      "definition": "Tipo de contribuinte."
+    }
+  }
+}

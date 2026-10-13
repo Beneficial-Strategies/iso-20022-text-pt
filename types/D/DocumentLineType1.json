@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentLineType1",
+  "definition": "Especifica o tipo de identificação da linha do documento.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Fornece os pormenores do tipo de identificação da linha do documento referido."
+    },
+    "Issuer": {
+      "definition": "Identificação do emitente do tipo de identificação da linha do documento de referência."
+    }
+  }
+}

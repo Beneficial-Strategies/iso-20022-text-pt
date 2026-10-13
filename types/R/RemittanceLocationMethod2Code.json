@@ -1,0 +1,30 @@
+{
+  "isoType": "RemittanceLocationMethod2Code",
+  "definition": "Especifica o método utilizado para entregar as informações do aviso de remessa.",
+  "isoCodes": {
+    "FAXI": {
+      "name": "Fax",
+      "definition": "As informações do aviso de remessa têm de ser enviadas por fax."
+    },
+    "EDIC": {
+      "name": "Intercâmbio eletrónico de dados",
+      "definition": "As informações do aviso de remessa têm de ser enviadas por intercâmbio eletrónico de dados (EDI)."
+    },
+    "URID": {
+      "name": "Identificador uniforme de recursos",
+      "definition": "As informações do aviso de remessa têm de ser enviadas para um Uniform Resource Identifier (URI). Um URI é uma cadeia compacta de carateres que identifica de forma única um recurso abstrato ou físico. Os URI são o superconjunto de identificadores, como URL, endereços de correio eletrónico, sítios ftp, etc., e fornecem, como tal, a sintaxe para todos os esquemas de identificação."
+    },
+    "EMAL": {
+      "name": "Correio eletrónico",
+      "definition": "As informações do aviso de remessa têm de ser enviadas por correio eletrónico."
+    },
+    "POST": {
+      "name": "Correio",
+      "definition": "As informações do aviso de remessa têm de ser enviadas pelos serviços postais."
+    },
+    "SMSM": {
+      "name": "SMS",
+      "definition": "As informações do aviso de remessa têm de ser enviadas por telefone, através de serviço de mensagens curtas (SMS)."
+    }
+  }
+}

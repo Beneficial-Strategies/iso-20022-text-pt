@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentIdentification6",
+  "definition": "Fornece outros meios de referenciar uma operação de pagamento.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identificação única, atribuída por uma parte instrutora a uma parte instruída, para identificar inequivocamente a instrução.||Utilização: A identificação da instrução é uma referência ponto a ponto que pode ser utilizada entre a parte instrutora e a parte instruída para referir a instrução individual. Pode ser incluída em várias mensagens relacionadas com a instrução."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identificação única atribuída pela parte iniciadora para identificar inequivocamente a operação. Esta identificação é transmitida, sem alterações, ao longo de toda a cadeia ponta a ponta.||Utilização: A identificação ponta a ponta pode ser utilizada para reconciliação ou para ligar tarefas relativas à operação. Pode ser incluída em várias mensagens relacionadas com a operação."
+    },
+    "UETR": {
+      "definition": "Identificador universalmente único para fornecer uma referência de ponta a ponta de uma operação de pagamento."
+    }
+  }
+}

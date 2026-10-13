@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateClassification1Code",
+  "definition": "Especifica o tipo de montante do débito direto, como fixo ou variável.",
+  "isoCodes": {
+    "FIXE": {
+      "name": "Fixo",
+      "definition": "O montante do débito direto é fixo."
+    },
+    "USGB": {
+      "name": "Baseado na utilização",
+      "definition": "O montante do débito direto baseia-se na utilização."
+    },
+    "VARI": {
+      "name": "Variável",
+      "definition": "O montante do débito direto é variável."
+    }
+  }
+}

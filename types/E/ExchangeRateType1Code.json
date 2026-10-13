@@ -1,0 +1,18 @@
+{
+  "isoType": "ExchangeRateType1Code",
+  "definition": "Especifica um tipo de documento financeiro ou comercial.",
+  "isoCodes": {
+    "SPOT": {
+      "name": "À vista",
+      "definition": "A taxa de câmbio aplicada é a taxa à vista."
+    },
+    "SALE": {
+      "name": "Venda",
+      "definition": "A taxa de câmbio aplicada é a taxa de mercado no momento da venda."
+    },
+    "AGRD": {
+      "name": "Acordado",
+      "definition": "A taxa de câmbio aplicada é a taxa acordada entre as partes."
+    }
+  }
+}

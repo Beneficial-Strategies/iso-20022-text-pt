@@ -1,0 +1,26 @@
+{
+  "isoType": "NamePrefix2Code",
+  "definition": "Especifica os termos utilizados para tratar formalmente uma pessoa.",
+  "isoCodes": {
+    "DOCT": {
+      "name": "Doutor",
+      "definition": "O título da pessoa é Doutor ou Dr."
+    },
+    "MADM": {
+      "name": "Senhora",
+      "definition": "O título da pessoa é Senhora."
+    },
+    "MISS": {
+      "name": "Menina",
+      "definition": "O título da pessoa é Menina."
+    },
+    "MIST": {
+      "name": "Senhor",
+      "definition": "O título da pessoa é Senhor ou Sr."
+    },
+    "MIKS": {
+      "name": "Género neutro",
+      "definition": "O título da pessoa é neutro quanto ao género (Mx)."
+    }
+  }
+}

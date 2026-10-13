@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAttributes1",
+  "definition": "Fornece informações sobre as operações com valores mobiliários que compõem o pagamento.",
+  "isoElements": {
+    "UniqueTransactionIdentifier": {
+      "definition": "O identificador único da operação será criado no momento em que a operação for executada pela primeira vez, partilhado com todas as entidades registadas e contrapartes envolvidas na operação, e utilizado para acompanhar essa operação durante o seu ciclo de vida. Este identificador pode também ser designado por Unique Swap Identifier (USI)."
+    },
+    "Amount": {
+      "definition": "Montante em dinheiro da operação."
+    }
+  }
+}

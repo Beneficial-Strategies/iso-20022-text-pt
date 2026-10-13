@@ -1,0 +1,121 @@
+{
+  "isoType": "ExternalServiceLevel1Code",
+  "isoCodes": {
+    "BKTR": {
+      "name": "Operação de transferência interna",
+      "definition": "Pagamento através de transferência interna entre contas."
+    },
+    "G001": {
+      "name": "Transferência a crédito de cliente com acompanhamento",
+      "definition": "Transferência a crédito de cliente com seguimento."
+    },
+    "G002": {
+      "name": "Paragem e recolha com acompanhamento",
+      "definition": "Parar e recolher com seguimento."
+    },
+    "G003": {
+      "name": "Transferência empresarial de saída com acompanhamento",
+      "definition": "Transferência empresarial de saída com seguimento."
+    },
+    "G004": {
+      "name": "Transferência entre instituições financeiras com acompanhamento",
+      "definition": "Transferência entre instituições financeiras com seguimento."
+    },
+    "NPCA": {
+      "name": "Transferência na área do Nordic Payments Council",
+      "definition": "Os pagamentos devem ser executados segundo o sistema de pagamento da área NPC."
+    },
+    "NUGP": {
+      "name": "Pagamento prioritário não urgente",
+      "definition": "O pagamento deve ser executado como operação não urgente com liquidação prioritária."
+    },
+    "NURG": {
+      "name": "Pagamento não urgente",
+      "definition": "O pagamento deve ser executado como operação não urgente, normalmente identificada como ACH ou operação de baixo valor."
+    },
+    "PRPT": {
+      "name": "Serviço prioritário da EBA",
+      "definition": "A operação deve ser processada de acordo com o Serviço Prioritário da EBA."
+    },
+    "SDVA": {
+      "name": "Valor no próprio dia",
+      "definition": "O pagamento deve ser executado com data-valor no mesmo dia para o credor."
+    },
+    "SEPA": {
+      "name": "Espaço Único de Pagamentos em Euros",
+      "definition": "O pagamento deve ser executado segundo o sistema da Área Única de Pagamentos em Euros."
+    },
+    "SVDE": {
+      "name": "Compensação e liquidação nacional de cheques",
+      "definition": "Execução do pagamento segundo o acordo sobre cheques e cheques de viagem do Comité Alemão do Setor Bancário (Die Deutsche Kreditwirtschaft - DK) e do Deutsche Bundesbank – Scheck Verrechnung Deutschland"
+    },
+    "URGP": {
+      "name": "Pagamento urgente",
+      "definition": "O pagamento deve ser executado como operação urgente compensada através de um sistema de liquidação bruta em tempo real, normalmente identificada como transferência telegráfica (wire) ou operação de elevado valor."
+    },
+    "URNS": {
+      "name": "Liquidação líquida de pagamento urgente",
+      "definition": "O pagamento deve ser executado como operação urgente compensada através de um sistema de liquidação líquida em tempo real, normalmente identificada como transferência telegráfica (wire) ou operação de elevado valor."
+    },
+    "INST": {
+      "name": "Transferência a crédito instantânea ou débito direto instantâneo",
+      "definition": "Utilizado na iniciação de pagamentos para identificar que a iniciação de um pagamento ou débito direto deve ser executada como instrumento de pagamento instantâneo ou em tempo real."
+    },
+    "SRTP": {
+      "name": "Serviço de pedido de pagamento",
+      "definition": "A operação de pedido de pagamento (RTP) refere-se a um sistema RTP (como, por exemplo, o sistema SEPA Request to Pay (SRTP))."
+    },
+    "SVAT": {
+      "name": "Scheck-Verarbeitung Áustria",
+      "definition": "Scheck Verarbeitung Austria (processamento de cheques)."
+    },
+    "G006": {
+      "name": "Gestão de processos com acompanhamento",
+      "definition": "Especifica as condições de serviço aplicáveis a um caso de exceções e inquéritos com seguimento."
+    },
+    "G007": {
+      "name": "Transferência a crédito de cliente de entrada com acompanhamento",
+      "definition": "Especifica o nível de serviço de uma transferência a crédito de cliente de entrada com seguimento."
+    },
+    "G005": {
+      "name": "Transferência a crédito instantânea de cliente com acompanhamento",
+      "definition": "Transferência a crédito instantânea de cliente com seguimento."
+    },
+    "G009": {
+      "name": "Transferência a crédito transfronteiriça de cliente de baixo valor com acompanhamento",
+      "definition": "Especifica o nível de serviço de uma transferência a crédito transfronteiras de cliente de baixo valor com seguimento."
+    },
+    "WFSM": {
+      "name": "Aguardar liquidação",
+      "definition": "A operação deve ser tratada como um aviso e aplicada à conta do credor ou da instituição seguinte apenas após a confirmação da liquidação da cobertura."
+    },
+    "EOLO": {
+      "name": "Euro com uma perna fora do espaço",
+      "definition": "O pagamento é executado segundo um sistema Euro One-Leg Out."
+    },
+    "SPLI": {
+      "name": "Pagamento fracionado",
+      "definition": "Um pagamento fracionado é um pagamento dividido em vários pagamentos de menor valor, nomeadamente com a finalidade de cumprir limites de montante máximo aplicáveis a algumas infraestruturas nacionais do mercado de pagamentos ou de reduzir o risco de liquidez da contraparte."
+    },
+    "IRCA": {
+      "name": "Área do Icelandic Rulebook Council",
+      "definition": "O pagamento deve ser executado segundo o sistema da Icelandic Rulebook Council Area (IRCA)."
+    },
+    "EAPS": {
+      "name": "Sistema de pagamentos da África Oriental",
+      "definition": "Identifica os pagamentos executados no âmbito do East African Payment System (EAPS), o sistema regional de liquidação transfronteiras operado pelos bancos centrais da EAC."
+    },
+    "SPSC": {
+      "name": "Esquema Swift",
+      "definition": "A operação deve ser processada de acordo com o regulamento do sistema Swift."
+    },
+    "SD01": {
+      "name": "Serviço digital Swift (Swift Ledger)",
+      "definition": "As operações com ativos digitais devem ser processadas de acordo com as regras do Swift Ledger."
+    },
+    "NOLO": {
+      "name": "NPC com uma perna fora do espaço",
+      "definition": "O pagamento é executado segundo o sistema NPC One-Leg Out."
+    }
+  }
+}

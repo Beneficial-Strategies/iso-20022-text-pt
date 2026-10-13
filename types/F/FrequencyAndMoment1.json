@@ -1,0 +1,12 @@
+{
+  "isoType": "FrequencyAndMoment1",
+  "definition": "Define uma frequência em termos de um momento específico dentro de um tipo de período especificado.",
+  "isoElements": {
+    "Type": {
+      "definition": "Período para o qual o número de instruções deve ser criado e tratado."
+    },
+    "PointInTime": {
+      "definition": "Informações adicionais sobre o momento exato em que o evento deve ocorrer."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ClearingSystemMemberIdentification2",
+  "definition": "Identificação única, atribuída por um sistema de compensação, para identificar de forma inequívoca um membro do sistema de compensação.",
+  "isoElements": {
+    "ClearingSystemIdentification": {
+      "definition": "Especificação de uma oferta previamente acordada entre agentes de compensação ou do canal através do qual a instrução de pagamento é processada."
+    },
+    "MemberIdentification": {
+      "definition": "Identificação de um membro de um sistema de compensação."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Authorisation1Choice",
+  "definition": "Fornece os detalhes sobre a identificação do utilizador ou qualquer chave de utilizador que permita verificar se a parte iniciadora está autorizada a emitir a operação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica a autorização, sob forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Especifica a autorização, em texto livre."
+    }
+  }
+}

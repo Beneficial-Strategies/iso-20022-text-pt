@@ -1,0 +1,14 @@
+{
+  "isoType": "AdviceType1Code",
+  "definition": "Especifica o tipo de aviso a fornecer de volta no relatório.",
+  "isoCodes": {
+    "ADWD": {
+      "name": "Aviso com detalhes",
+      "definition": "É solicitado um aviso com detalhes das operações."
+    },
+    "ADND": {
+      "name": "Aviso sem detalhes",
+      "definition": "É solicitado um aviso sem detalhes das operações."
+    }
+  }
+}

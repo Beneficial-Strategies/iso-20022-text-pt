@@ -1,0 +1,12 @@
+{
+  "isoType": "GarnishmentType1",
+  "definition": "Especifica o tipo de penhora.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Fornece os pormenores do tipo de penhora."
+    },
+    "Issuer": {
+      "definition": "Identificação do emitente do tipo de penhora."
+    }
+  }
+}

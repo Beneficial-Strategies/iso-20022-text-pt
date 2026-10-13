@@ -1,0 +1,29 @@
+{
+  "isoType": "StructuredRegulatoryReporting5",
+  "definition": "Informações necessárias por força de requisitos regulamentares e legais.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo das informações fornecidas nos detalhes do reporte regulamentar."
+    },
+    "Date": {
+      "definition": "Data relacionada com o tipo especificado de detalhes do reporte regulamentar."
+    },
+    "Country": {
+      "definition": "País relacionado com o tipo especificado de detalhes do reporte regulamentar."
+    },
+    "ReportingCode": {
+      "definition": "Especifica, sob forma codificada, a natureza, a finalidade e o motivo da operação a reportar para efeitos de requisitos regulamentares e legais."
+    },
+    "Amount": {
+      "definition": "Montante em dinheiro a reportar para efeitos de requisitos regulamentares e legais."
+    },
+    "Information": {
+      "definition": "Detalhes adicionais que respondem a requisitos regulamentares nacionais específicos."
+    }
+  },
+  "isoRules": {
+    "ReportingCodeAndInformationRule": {
+      "definition": "O código de reporte ou as informações de reporte têm de estar presentes. Ambos podem estar presentes."
+    }
+  }
+}

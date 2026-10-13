@@ -1,0 +1,61 @@
+{
+  "isoType": "ExternalCreditorAgentInstruction1Code",
+  "isoCodes": {
+    "CHQB": {
+      "name": "Pagar ao credor por cheque",
+      "definition": "O credor (final) tem de ser pago por cheque."
+    },
+    "HOLD": {
+      "name": "Reter numerário para o credor",
+      "definition": "O montante tem de ser mantido à disposição do credor (final), que o virá levantar. Pagar mediante identificação."
+    },
+    "PHOB": {
+      "name": "Contactar o beneficiário por telefone",
+      "definition": "Queira avisar/contactar o credor/requerente (final) por telefone."
+    },
+    "PRTK": {
+      "name": "Token do ordenante solicitado",
+      "definition": "Indica que é solicitado/utilizado um token do ordenante."
+    },
+    "RECI": {
+      "name": "Informações do cliente recetor",
+      "definition": "Mais informações sobre o destinatário pretendido."
+    },
+    "TELB": {
+      "name": "Telecomunicações",
+      "definition": "Queira avisar/contactar o credor/requerente (final) pelo meio de telecomunicação mais eficiente."
+    },
+    "TKCM": {
+      "name": "Contraparte do token não corresponde",
+      "definition": "Token encontrado com divergência de contraparte."
+    },
+    "TKSG": {
+      "name": "Token de utilização única",
+      "definition": "Token de utilização única já utilizado."
+    },
+    "TKSP": {
+      "name": "Token suspenso",
+      "definition": "Token encontrado com estado suspenso."
+    },
+    "TKVE": {
+      "name": "Limite de valor do token excedido",
+      "definition": "Token encontrado com violação da regra de limite de valor."
+    },
+    "TKXP": {
+      "name": "Token expirado",
+      "definition": "Token expirado."
+    },
+    "TOKN": {
+      "name": "Token",
+      "definition": "Informações do token."
+    },
+    "VLTK": {
+      "name": "Validação de token",
+      "definition": "Informações de validação adicionais a utilizar em conjunto com o token."
+    },
+    "SEID": {
+      "name": "Identificação secundária",
+      "definition": "Utilização da identificação secundária da conta do credor (que pode estar relacionada com a conta de cobrança da sede, o número de registo de uma building society ou o número de conta principal de um cartão de crédito)."
+    }
+  }
+}

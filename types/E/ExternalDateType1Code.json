@@ -1,0 +1,25 @@
+{
+  "isoType": "ExternalDateType1Code",
+  "isoCodes": {
+    "INDA": {
+      "name": "Data da fatura",
+      "definition": "Refere-se à data da fatura."
+    },
+    "PADD": {
+      "name": "Data de vencimento do pagamento",
+      "definition": "Refere-se à data de vencimento do pagamento."
+    },
+    "NXBD": {
+      "name": "Data da próxima faturação",
+      "definition": "Refere-se à próxima data de faturação."
+    },
+    "NTAV": {
+      "name": "Não disponível",
+      "definition": "O tipo de data não está disponível."
+    },
+    "PYDT": {
+      "name": "Data de processamento de salários",
+      "definition": "Refere-se à data do processamento de vencimentos."
+    }
+  }
+}

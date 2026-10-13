@@ -1,0 +1,12 @@
+{
+  "isoType": "Purpose2Choice",
+  "definition": "Especifica o motivo subjacente à operação de pagamento.|Utilização: A finalidade é utilizada pelos clientes finais, ou seja, a parte iniciadora, o devedor (final) e o credor (final), para fornecer informações sobre a natureza do pagamento. A finalidade é um elemento de conteúdo, que não é utilizado para tratamento por nenhuma das instituições envolvidas na cadeia de pagamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo subjacente à operação de pagamento, conforme publicado numa lista externa de códigos de finalidade."
+    },
+    "Proprietary": {
+      "definition": "Finalidade, sob forma proprietária."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "PreferredContactMethod2Code",
+  "definition": "Método preferido para contactar a pessoa de contacto numa organização.",
+  "isoCodes": {
+    "MAIL": {
+      "name": "Correio eletrónico",
+      "definition": "O método preferido para contactar é por correio eletrónico."
+    },
+    "FAXX": {
+      "name": "Fax",
+      "definition": "O método preferido para contactar é por fax."
+    },
+    "LETT": {
+      "name": "Carta",
+      "definition": "O método preferido para contactar é por carta."
+    },
+    "CELL": {
+      "name": "Telemóvel",
+      "definition": "O método preferido para contactar é por telemóvel."
+    },
+    "ONLI": {
+      "name": "Online",
+      "definition": "O método preferido para contactar é em linha."
+    },
+    "PHON": {
+      "name": "Telefone",
+      "definition": "O método preferido para contactar é por telefone."
+    }
+  }
+}

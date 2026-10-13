@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentType1",
+  "definition": "Especifica o tipo de documento referido nas informações de remessa.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Tipo de documento referido, em formato codificado ou proprietário."
+    },
+    "Issuer": {
+      "definition": "Identificação do emitente do tipo de documento de referência."
+    }
+  }
+}

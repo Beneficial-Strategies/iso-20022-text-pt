@@ -1,7 +1,0 @@
-{
- "AmountConsistencyType1Code/CONS": "A informação do montante corresponde ao registo de dados de referência.",
- "AmountConsistencyType1Code/ICFA": "A informação do montante confirmado ao credor não corresponde ao registo de dados de referência.",
- "AmountConsistencyType1Code/ICGA": "A informação do montante de encargos não corresponde ao registo de dados de referência.",
- "AmountConsistencyType1Code/ICNS": "A informação do montante não corresponde ao registo de dados de referência.",
- "AmountConsistencyType1Code/IISA": "A informação do montante de liquidação interbancária não corresponde ao registo de dados de referência."
-}

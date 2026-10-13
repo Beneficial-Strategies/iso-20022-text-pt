@@ -1,0 +1,14 @@
+{
+  "isoType": "CreditDebitCode",
+  "definition": "Especifica se uma operação é um aumento ou uma diminuição.",
+  "isoCodes": {
+    "CRDT": {
+      "name": "Crédito",
+      "definition": "A operação é um aumento."
+    },
+    "DBIT": {
+      "name": "Débito",
+      "definition": "A operação é uma diminuição."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DateType2Choice",
+  "definition": "Especifica o tipo de data do documento referido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o tipo de data, conforme publicado num conjunto externo de códigos de tipo de data."
+    },
+    "Proprietary": {
+      "definition": "Especifica o tipo de data, em texto livre."
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "isoType": "ExternalProxyAccountType1Code",
+  "isoCodes": {
+    "TELE": {
+      "name": "Número de telefone",
+      "definition": "Um número de telefone no formato especificado pelo plano internacional de numeração de telecomunicações públicas ITU-T E.164."
+    },
+    "EMAL": {
+      "name": "Endereço de correio eletrónico",
+      "definition": "Endereço internacionalizado de uma caixa de correio eletrónico para mensagens de internet."
+    },
+    "DNAM": {
+      "name": "Nome de domínio",
+      "definition": "Nome de domínio de internet internacionalizado."
+    },
+    "CINC": {
+      "name": "Número da certidão de constituição",
+      "definition": "Identificação de empresa emitida por uma instituição ou regulador nacional, utilizada como proxy de conta |(aplicável a proxy de conta de empresa)."
+    },
+    "COTX": {
+      "name": "Identificação fiscal de pessoa coletiva",
+      "definition": "Identificação fiscal única emitida pelo Estado, utilizada como proxy de conta para identificar a empresa (por exemplo, para efeitos fiscais) e normalmente associada à conta bancária da empresa (aplicável a proxy de conta de empresa)."
+    },
+    "COID": {
+      "name": "Identificação da autoridade do país",
+      "definition": "Identificação emitida por uma instituição ou regulador nacional (diferente de um sistema nacional, como um prestador de compensação), utilizada como proxy de conta (aplicável a proxy de conta de empresa ou de particular)."
+    },
+    "CUST": {
+      "name": "Número de identificação do cliente",
+      "definition": "Qualquer outro número de identificação de cliente emitido por uma empresa, banco ou outra organização, utilizado como proxy de conta.|(aplicável a proxy de conta de empresa ou de particular)."
+    },
+    "DRLC": {
+      "name": "Número da carta de condução",
+      "definition": "Identificação única emitida pelo Estado, utilizada como proxy de conta para identificar o particular (por exemplo, para taxas públicas, impostos de circulação e portagens, custos de vacinação) e normalmente associada à conta bancária do particular (aplicável a proxy de conta de particular)."
+    },
+    "EIDN": {
+      "name": "Identificação eletrónica",
+      "definition": "Identificação emitida pelo Estado (diferente de uma identificação de passaporte ou de uma identificação nacional). Utilizada como proxy de conta para identificar o particular (por exemplo, para prestações públicas) e normalmente associada à conta bancária do particular (aplicável a proxy de conta de particular)."
+    },
+    "EWAL": {
+      "name": "Identificação de carteira eletrónica",
+      "definition": "Instrumentos pré-pagos adotados pelo mercado, como carteiras eletrónicas, pagamentos para / a partir de carteiras eletrónicas a partir de / para contas bancárias (aplicável a proxy de conta de empresa ou de particular)."
+    },
+    "PVTX": {
+      "name": "Identificação fiscal de pessoa singular",
+      "definition": "Identificação fiscal única emitida pelo Estado, utilizada como proxy de conta para identificar o particular (por exemplo, para efeitos fiscais) e normalmente associada à conta bancária do particular (aplicável a proxy de conta de particular)."
+    },
+    "LEIC": {
+      "name": "Código identificador de entidade jurídica",
+      "definition": "Identificador de Pessoa Coletiva (LEI) utilizado como proxy de conta (aplicável a proxy de conta de empresa).|Casos de utilização: Pode ser utilizado pelas empresas como identificação \"emitida pelo Estado\" para registo em sistemas de pagamento como proxy. O proxy pode ainda ser utilizado para pagamentos e cobranças através das infraestruturas subjacentes de pagamentos instantâneos, para diversos casos de utilização empresarial."
+    },
+    "MBNO": {
+      "name": "Número de telemóvel",
+      "definition": "Número de telemóvel no formato especificado pelo “plano internacional de numeração de telecomunicações públicas ITU-T E 164\" (aplicável a proxy de conta de empresa ou de particular)."
+    },
+    "NIDN": {
+      "name": "Número de identificação nacional",
+      "definition": "Identificação única emitida pelo Estado, utilizada como proxy de conta para identificar o particular ou a empresa (por exemplo, para prestações públicas, subsídios estatais) e normalmente associada à conta bancária do particular / da empresa.|(aplicável a proxy de conta de empresa ou de particular)."
+    },
+    "CCPT": {
+      "name": "Número de passaporte",
+      "definition": "Identificação única emitida pelo Estado, utilizada como proxy de conta para identificar o particular (por exemplo, para taxas públicas, impostos de circulação, custos de vacinação) e normalmente associada à conta bancária do particular|(aplicável a proxy de conta de particular)."
+    },
+    "SHID": {
+      "name": "Número de identificação do esquema",
+      "definition": "Proxy de conta emitido por um sistema de pagamento (aplicável a proxy de conta de empresa ou de particular).|Casos de utilização: Quaisquer proxies emitidos por sistemas de compensação, por exemplo VPA (Índia), FPS Identifier (Hong Kong), Jompay (Malásia), CCIN (Canadá)."
+    },
+    "SOSE": {
+      "name": "Número de segurança social",
+      "definition": "Identificação única emitida pelo Estado, utilizada como proxy de conta para identificar o particular (por exemplo, para prestações públicas) e normalmente associada à conta bancária do particular (aplicável a proxy de conta de particular)."
+    },
+    "TOKN": {
+      "name": "Identificação de token",
+      "definition": "Identificação eletrónica utilizada, por exemplo, para ocultar um número de conta como forma de sigilo dos dados.|(aplicável a proxy de conta de empresa ou de particular)."
+    },
+    "UBIL": {
+      "name": "Identificação de assinatura de serviços públicos",
+      "definition": "Identificação de assinante de serviços de utilidade pública e outros serviços. Ao contrário de uma identificação de faturador, esta identificação é utilizada para o assinante do serviço (aplicável a proxy de conta de empresa ou de particular)."
+    },
+    "VIPN": {
+      "name": "Número da matrícula do veículo",
+      "definition": "Proxy de conta para receção de indemnizações de seguros, pagamento de prémios de seguros, pagamento de impostos de circulação, multas de trânsito, etc. (aplicável a proxy de conta de empresa ou de particular)."
+    },
+    "BIID": {
+      "name": "Identificação do subscritor do faturador",
+      "definition": "Os faturadores de determinados serviços de utilidade pública podem registar-se para obter uma identificação de faturador, conforme suportado pelo sistema de compensação, e utilizar essa identificação para cobranças (aplicável a proxy de conta de empresa)."
+    },
+    "OSID": {
+      "name": "Outro número de identificação do esquema",
+      "definition": "Identificador de sistema adicional utilizado para complementar a identificação principal do sistema, para que os bancos possam aplicar as respetivas validações do valor do proxy de acordo com o código de tipo fornecido."
+    }
+  }
+}

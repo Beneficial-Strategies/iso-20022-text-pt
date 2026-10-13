@@ -1,4 +1,0 @@
-{
- "AmountConsistencyType1Code": "Especifica um tipo de inconsistências de montante, ou seja, se o tipo de montante fornecido corresponde ou não ao montante de referência.",
- "ExternalPaymentScenario1Code": "Especifica o cenário de pagamento, tal como publicado numa lista de códigos externa de cenários de pagamento.|As listas de códigos externas podem ser descarregadas em www.iso20022.org."
-}

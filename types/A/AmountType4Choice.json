@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountType4Choice",
+  "definition": "Especifica o montante a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora.",
+  "isoElements": {
+    "InstructedAmount": {
+      "definition": "Montante a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora.  Utilização: este montante tem de ser transportado sem alterações ao longo da cadeia da operação."
+    },
+    "EquivalentAmount": {
+      "definition": "Montante a movimentar entre o devedor e o credor, expresso na moeda da conta do devedor e na moeda em que o montante vai ser movimentado."
+    }
+  }
+}

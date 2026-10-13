@@ -1,0 +1,45 @@
+{
+  "isoType": "Contact13",
+  "definition": "Especifica os dados da pessoa de contacto.",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Especifica os termos utilizados para tratar formalmente uma pessoa."
+    },
+    "Name": {
+      "definition": "Nome pelo qual uma parte é conhecida e que é normalmente utilizado para identificar essa parte."
+    },
+    "PhoneNumber": {
+      "definition": "Conjunto de informações que identificam um número de telefone, conforme definido pelos serviços de telecomunicações."
+    },
+    "MobileNumber": {
+      "definition": "Conjunto de informações que identificam um número de telemóvel, conforme definido pelos serviços de telecomunicações."
+    },
+    "FaxNumber": {
+      "definition": "Conjunto de informações que identificam um número de FAX, conforme definido pelos serviços de telecomunicações."
+    },
+    "URLAddress": {
+      "definition": "Endereço do Universal Resource Locator (URL), por exemplo um endereço utilizado no serviço www (HTTP)."
+    },
+    "EmailAddress": {
+      "definition": "Endereço de correio eletrónico (e-mail)."
+    },
+    "EmailPurpose": {
+      "definition": "Finalidade para a qual um endereço de correio eletrónico pode ser utilizado."
+    },
+    "JobTitle": {
+      "definition": "Título da função."
+    },
+    "Responsibility": {
+      "definition": "Papel de uma pessoa numa organização."
+    },
+    "Department": {
+      "definition": "Identificação de uma divisão de uma grande organização ou edifício."
+    },
+    "Other": {
+      "definition": "Dados de contacto sob outra forma."
+    },
+    "PreferredMethod": {
+      "definition": "Método preferido para contactar."
+    }
+  }
+}

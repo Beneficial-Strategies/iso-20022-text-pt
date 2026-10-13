@@ -1,0 +1,15 @@
+{
+  "isoType": "Frequency36Choice",
+  "definition": "Escolha do formato de uma frequência, por exemplo, a frequência de pagamento.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica uma frequência em termos de um tipo de período especificado."
+    },
+    "Period": {
+      "definition": "Especifica uma frequência em termos de um número de ocorrências por período dentro de um tipo de período especificado."
+    },
+    "PointInTime": {
+      "definition": "Especifica uma frequência em termos de um ponto exato no tempo ou de um momento dentro de um tipo de período especificado."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateTypeInformation2",
+  "definition": "Conjunto de elementos utilizados para detalhar melhor as informações relativas ao tipo de pagamento.",
+  "isoElements": {
+    "ServiceLevel": {
+      "definition": "Acordo ou regras ao abrigo dos quais o mandato se enquadra."
+    },
+    "LocalInstrument": {
+      "definition": "Instrumento específico da comunidade de utilizadores.|Utilização: Este elemento é utilizado para especificar um instrumento local, uma opção de compensação local e/ou para qualificar melhor o serviço ou o nível de serviço."
+    },
+    "CategoryPurpose": {
+      "definition": "Especifica a finalidade de alto nível do mandato com base num conjunto de categorias predefinidas."
+    },
+    "Classification": {
+      "definition": "Tipo de instrução de débito direto."
+    }
+  }
+}

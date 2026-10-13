@@ -1,0 +1,12 @@
+{
+  "isoType": "FrequencyPeriod1",
+  "definition": "Define uma frequência em termos de número de ocorrências por período, para um tipo de período específico.",
+  "isoElements": {
+    "Type": {
+      "definition": "Período para o qual o número de instruções deve ser criado e tratado."
+    },
+    "CountPerPeriod": {
+      "definition": "Número de instruções a criar e a tratar durante o período especificado."
+    }
+  }
+}

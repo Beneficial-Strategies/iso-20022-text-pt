@@ -1,0 +1,22 @@
+{
+  "isoType": "Authorisation1Code",
+  "definition": "Especifica o nível de aprovação em função de diversos fatores, incluindo o tipo de pagamento, o montante-limite ou a prática local do país ou das operações.",
+  "isoCodes": {
+    "AUTH": {
+      "name": "Ficheiro pré-autorizado",
+      "definition": "Indica que um ficheiro foi previamente autorizado ou aprovado no ambiente do cliente de origem e que não é necessária qualquer outra aprovação."
+    },
+    "FDET": {
+      "name": "Detalhes da autorização ao nível do ficheiro",
+      "definition": "Indica que um ficheiro requer uma aprovação adicional ao nível do ficheiro, com a possibilidade de consultar tanto o bloco de informações de pagamento como o detalhe das operações de crédito do cliente que o suportam."
+    },
+    "FSUM": {
+      "name": "Resumo da autorização ao nível do ficheiro",
+      "definition": "Indica que um ficheiro requer uma aprovação adicional ao nível do ficheiro, com a possibilidade de consultar apenas as informações ao nível do bloco de informações de pagamento."
+    },
+    "ILEV": {
+      "name": "Autorização ao nível da instrução",
+      "definition": "Indica que um ficheiro requer que todas as operações do cliente sejam autorizadas ou aprovadas."
+    }
+  }
+}

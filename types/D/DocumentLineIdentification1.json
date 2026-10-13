@@ -1,0 +1,15 @@
+{
+  "isoType": "DocumentLineIdentification1",
+  "definition": "Identifica os documentos referidos nas informações de remessa.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo de identificação da linha do documento referido."
+    },
+    "Number": {
+      "definition": "Identificação do tipo especificado para a linha do documento referido."
+    },
+    "RelatedDate": {
+      "definition": "Data associada à linha do documento referido."
+    }
+  }
+}

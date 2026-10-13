@@ -1,0 +1,12 @@
+{
+  "isoType": "AdviceType1",
+  "definition": "Especifica o tipo de aviso a comunicar de volta para a operação.",
+  "isoElements": {
+    "CreditAdvice": {
+      "definition": "Tipo de aviso de crédito solicitado."
+    },
+    "DebitAdvice": {
+      "definition": "Tipo de aviso de débito solicitado."
+    }
+  }
+}

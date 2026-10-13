@@ -1,0 +1,51 @@
+{
+  "isoAreas": {
+    "acmt": {
+      "name": "Gestão de contas",
+      "definition": "Mensagens que apoiam a gestão de atividades relacionadas com contas, como a abertura e a manutenção de uma conta."
+    },
+    "admi": {
+      "name": "Administração",
+      "definition": "Mensagens genéricas, ou seja, notificações de eventos do sistema, rejeições genéricas, etc."
+    },
+    "caam": {
+      "name": "Gestão de caixas automáticos",
+      "definition": "Mensagens que apoiam os serviços de gestão de terminais relacionados com cartões entre uma caixa automática (ATM) e um adquirente."
+    },
+    "camt": {
+      "name": "Gestão de tesouraria",
+      "definition": "Mensagens que apoiam a comunicação e o aviso do lado numerário de quaisquer operações financeiras, incluindo movimentos de numerário, operações e saldos, bem como quaisquer exceções e investigações relacionadas com operações de numerário."
+    },
+    "head": {
+      "name": "Cabeçalho de aplicação comercial",
+      "definition": "Cabeçalho que contém informações comerciais relevantes antes do processamento de uma mensagem."
+    },
+    "pacs": {
+      "name": "Compensação e liquidação de pagamentos",
+      "definition": "Mensagens que apoiam os processos de compensação e liquidação de operações de pagamento entre instituições financeiras."
+    },
+    "pain": {
+      "name": "Iniciação de pagamentos",
+      "definition": "Mensagens que apoiam a iniciação de um pagamento pelo cliente ordenante junto de uma instituição financeira que gere uma conta de numerário, e a comunicação do seu estado."
+    },
+    "remt": {
+      "name": "Avisos de remessa de pagamentos",
+      "definition": "Mensagens que apoiam a comunicação entre credores e devedores sobre os detalhes de remessa associados a pagamentos."
+    },
+    "seev": {
+      "name": "Eventos de valores mobiliários",
+      "definition": "Mensagens que apoiam a gestão de ativos, incluindo o voto por procuração, os rendimentos e as operações sobre valores mobiliários."
+    },
+    "semt": {
+      "name": "Gestão de valores mobiliários",
+      "definition": "Mensagens que apoiam os processos pós-liquidação de valores mobiliários (incluindo a informação sobre movimentos, transações e saldos de valores mobiliários), os processos necessários para proteger os direitos do beneficiário efetivo ao longo da liquidação, bem como as exceções e investigações relacionadas com transações de valores mobiliários."
+    },
+    "sese": {
+      "name": "Liquidação de valores mobiliários",
+      "definition": "Mensagens que suportam o processo de liquidação de valores mobiliários e comunicam o seu estado e confirmação."
+    },
+    "trck": {
+      "name": "Rastreamento de transações"
+    }
+  }
+}

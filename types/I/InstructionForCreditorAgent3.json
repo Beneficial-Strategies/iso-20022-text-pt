@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForCreditorAgent3",
+  "definition": "Informações adicionais relativas ao tratamento da instrução de pagamento que podem exigir uma ação por parte da instituição do credor. A instrução pode referir-se a um nível de serviço, pode ser uma instrução a executar pela instituição do credor ou pode ser uma informação necessária à instituição do credor.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informação codificada relativa ao tratamento da instrução de pagamento, fornecida pela parte iniciadora e destinada à instituição do credor."
+    },
+    "InstructionInformation": {
+      "definition": "Informações adicionais que complementam a instrução codificada ou a instrução dirigida à instituição do credor, acordadas bilateralmente ou específicas de uma comunidade de utilizadores."
+    }
+  }
+}

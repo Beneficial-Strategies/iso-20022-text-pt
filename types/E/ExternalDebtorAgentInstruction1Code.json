@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalDebtorAgentInstruction1Code",
+  "isoCodes": {
+    "HOLD": {
+      "name": "Reter numerário para o credor",
+      "definition": "O montante tem de ser mantido à disposição do credor (final), que o virá levantar. Pagar mediante identificação."
+    },
+    "CHQB": {
+      "name": "Pagar ao credor por cheque",
+      "definition": "O credor (final) tem de ser pago por cheque."
+    },
+    "PRTK": {
+      "name": "Token do ordenante solicitado",
+      "definition": "Indica que é solicitado/utilizado um token do ordenante."
+    },
+    "PHOB": {
+      "name": "Contactar o beneficiário por telefone",
+      "definition": "Queira avisar/contactar o credor/requerente (final) por telefone."
+    },
+    "TELB": {
+      "name": "Telecomunicações",
+      "definition": "Queira avisar/contactar o credor/requerente (final) pelo meio de telecomunicação mais eficiente."
+    },
+    "TOKN": {
+      "name": "Token",
+      "definition": "Informações do token."
+    },
+    "VLTK": {
+      "name": "Validação de token",
+      "definition": "Informações de validação adicionais a utilizar em conjunto com o token."
+    }
+  }
+}

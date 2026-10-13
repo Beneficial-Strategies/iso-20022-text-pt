@@ -1,0 +1,12 @@
+{
+  "isoType": "GarnishmentType1Choice",
+  "definition": "Especifica o tipo de penhora.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de penhora sob forma codificada. Sugere-se que seja uma lista externa de códigos contendo: GNCS    Penhora de um terceiro pagador para pensão de alimentos a menores GNDP    Penhora de um pagador direto para pensão de alimentos a menores GTPP     Penhora de um terceiro pagador para a autoridade fiscal."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de penhora."
+    }
+  }
+}

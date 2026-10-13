@@ -1,0 +1,47 @@
+{
+  "isoType": "Cheque19",
+  "definition": "Características de uma instrução de cheque, como o tipo de cheque ou o número do cheque.",
+  "isoElements": {
+    "ChequeType": {
+      "definition": "Especifica o tipo de cheque a emitir."
+    },
+    "ChequeNumber": {
+      "definition": "Identificação única e inequívoca de um cheque, atribuída pela instituição."
+    },
+    "ChequeFrom": {
+      "definition": "Identifica a parte que ordenou a emissão do cheque."
+    },
+    "DeliveryMethod": {
+      "definition": "Especifica o método de entrega do cheque pela instituição do devedor."
+    },
+    "DeliverTo": {
+      "definition": "Parte a quem a instituição do devedor deve enviar o cheque."
+    },
+    "InstructionPriority": {
+      "definition": "Urgência ou ordem de importância que o ordenante pretende que o destinatário da instrução de pagamento aplique ao processamento da instrução de pagamento."
+    },
+    "ChequeMaturityDate": {
+      "definition": "Data em que a letra se torna pagável e a conta do devedor é debitada."
+    },
+    "FormsCode": {
+      "definition": "Identifica, de forma codificada, o formato do cheque, o logótipo da empresa e a assinatura digitalizada a utilizar na impressão do cheque, conforme acordado entre a parte iniciadora e a instituição do devedor."
+    },
+    "MemoField": {
+      "definition": "Informações a imprimir num cheque, utilizadas pelo ordenante para acrescentar informações diversas."
+    },
+    "RegionalClearingZone": {
+      "definition": "Zona regional em que o cheque pode ser compensado, quando um país não dispõe de uma entidade de compensação de cheques de âmbito nacional."
+    },
+    "PrintLocation": {
+      "definition": "Especifica o local de impressão do cheque."
+    },
+    "Signature": {
+      "definition": "Assinatura a utilizar pelo prestador de serviços de cheques num determinado cheque a imprimir."
+    }
+  },
+  "isoRules": {
+    "ChequeMaturityDateRule": {
+      "definition": "Se ChequeMaturityDate estiver presente, então ChequeType deve estar presente e ser igual a DRFT ou ELDR."
+    }
+  }
+}
