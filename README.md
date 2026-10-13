@@ -29,6 +29,13 @@ node ../iso-20022-text/build/build.mjs --spoke . --out /path/to/output
 The output is the complete text of every type, in the shape of the [convention](https://github.com/Beneficial-Strategies/iso-20022-text/blob/main/SPECIFICATION.md).
 It is never edited by hand and not committed. There is no automatic check on pull requests yet.
 
+## Deployment
+
+This repository deploys the `pt` text host, `https://iso-20022-text-pt.beneficialstrategies.com`, as a Cloudflare Worker with static assets (`wrangler.jsonc`),
+through Cloudflare Workers Builds: the `main` branch deploys, and every other branch gets a preview address. The build fetches the
+[hub](https://github.com/Beneficial-Strategies/iso-20022-text) (`HUB_REF` and `HUB_REPO` choose another version of it, for a preview) and lays this repository
+over it, so a change in the hub reaches this host the next time this repository builds.
+
 ## Status, license and warranty
 
 This text is provided **free of charge and as is**, under the MIT license (see `LICENSE`), without warranty of any kind. We make our best-faith
