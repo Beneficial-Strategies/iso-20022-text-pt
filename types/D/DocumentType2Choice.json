@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentType2Choice",
+  "definition": "Especifica o tipo de documento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de documento de remessa, conforme publicado num conjunto externo de códigos de tipo de documento."
+    },
+    "Proprietary": {
+      "definition": "Tipo de documento de remessa, sob forma proprietária."
+    }
+  }
+}

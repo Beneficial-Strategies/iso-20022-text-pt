@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherContact1",
+  "definition": "Número do dispositivo de comunicação ou endereço eletrónico utilizado para comunicação.",
+  "isoElements": {
+    "ChannelType": {
+      "definition": "Método utilizado para contactar o contacto da instituição financeira para a região fiscal específica."
+    },
+    "Identification": {
+      "definition": "Valor de comunicação, como número de telefone ou endereço de correio eletrónico."
+    }
+  }
+}

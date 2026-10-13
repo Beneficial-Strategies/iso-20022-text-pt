@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditorReferenceInformation3",
+  "definition": "Informações de referência fornecidas pelo credor para permitir a identificação dos documentos subjacentes.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo de referência do credor."
+    },
+    "Reference": {
+      "definition": "Referência única, atribuída pelo credor, para se referir inequivocamente à operação de pagamento.||Utilização: Se disponível, a parte iniciadora deve fornecer esta referência nas informações de remessa estruturadas, para permitir a reconciliação pelo credor aquando da receção do montante em dinheiro.||Se o contexto comercial exigir a utilização de uma referência do credor ou de uma identificação de remessa de pagamento, e apenas puder ser transmitido um identificador ao longo de toda a cadeia, a referência do credor ou a identificação da remessa de pagamento deve ser indicada na identificação da operação de ponta a ponta."
+    }
+  }
+}

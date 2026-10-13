@@ -1,47 +1,45 @@
 # ISO 20022 text: pt
 
-The pt text of the ISO 20022 message explorer and library. This repository holds the **translation** of the ISO English text. Anything not written here shows the ISO English text. Every entry was first drafted by a machine and is shown as such until a person has reviewed it.
+The pt text of the ISO 20022 message explorer and library. This repository holds the **translation** of the ISO English text. Anything not written here shows the ISO English text. Entries may be machine drafts that no person has reviewed.
 
 ## What to edit
 
-`labels.json` has the form label of every element, one per element name, the same in every message that has it. Everything else is
-under `areas/<area>/`, where `<area>` is a business area (`pain`, `camt`, `seev`, ...) or `shared` for types that messages of two or
-more areas use. In each area folder:
+The English text this repository translates is in the [hub](https://github.com/Beneficial-Strategies/iso-20022-text), exactly as ISO has it. This repository
+holds only what differs from it: two things.
 
-| File | Key | What it is |
-|---|---|---|
-| `members.json` | `PostalAddress27/PostCode` | the definition of an element inside one type |
-| `types.json` | `PostalAddress27` | the definition of a type |
-| `codes.json`, `code-names.json` | `AddressType2Code/HOME` | a code's definition and the name shown after it in a dropdown |
-| `code-sets.json`, `rules.json` | `AddressType2Code`, `Type/RuleName` | a code set's definition; the text of a business rule |
+* **`glossary.json`** says how the **names** are translated: the names of types, elements and codes, which are also the values of a dropdown. Each entry is
+  a phrase of the hub's names and its Portuguese (`Post Code` -> `Código postal`). The build applies the glossary to every name, longest phrase first, in one
+  pass, so one entry fixes a name everywhere. Numbers in a name are left as they are. The first step of a language is to make every word of the names
+  an entry: `node build/glossary.mjs missing --spoke <this repository>` in the hub lists the words that are not covered yet.
+* **`types/<first letter>/<Type>.json`** holds the **definitions**, and any name that the glossary cannot express (for example one that needs a different word
+  order), as explicit entries: only what is translated, under `isoElements`, `isoCodes` and `isoRules`. For example
+  `{ "isoType": "AdviceType1Code", "isoCodes": { "ADWD": { "name": "Aviso com detalhes", "definition": "..." } } }`. An entry here wins over the glossary.
+  Keep `isoType`, the keys, element names, acronyms (IBAN, BIC, ...) and `|` (a line break) as they are in the hub. Translate with the glossary in hand,
+  so that a word is the same in a name and in a definition.
 
-Each file is one entry per line, sorted. Keep placeholders, element names, acronyms (IBAN, BIC, ...) and `|` (a line break) as they are in the English.
-You do not decide which area folder an entry goes in: `add` puts it in the right one, and `check` says if one is in the wrong place.
+Anything not written here shows the hub's English. A `format` (the text that says what a value must look like) is not translated yet.
+Who changed what and when is the repository's history.
 
-## Finding what to change, and checking your work
-
-The language tools live in the [Iso20022Headless](https://github.com/Beneficial-Strategies/Iso20022Headless) repository, in `tools/i18n`
-(currently on the `poc/text-packs` branch, until it is merged into `main`). Clone it, run `pnpm install`, and from `tools/i18n`:
+## Building what the host serves
 
 ```sh
-pnpm text-source build --out /tmp/text-source                          # the English of that version of the library
-pnpm text sync   --repo <this repository> --from /tmp/text-source      # puts it in source/ here (not committed)
-pnpm text status --repo <this repository>                              # overridden, reviewed, stale, orphaned, misplaced
-pnpm text add    --repo <this repository> --kind members --key PostalAddress27/PostCode   # copy an entry in, ready to edit
-pnpm text check  --repo <this repository>                              # lint (exit code 1 on errors)
+node ../iso-20022-text/build/build.mjs --spoke . --out /path/to/output
 ```
 
-* `source/` is the English of every text with a note on where it appears. Search it, then `add` copies the entry in.
-* `check`: run it before you open a pull request. There is no automatic check on pull requests yet.
-* `reviewed.json` lists the entries a person has approved. Anything else is a machine draft and is shown as such.
-* `text.lock.json` (and `areas/<area>/text.lock.json`) records the English each entry was written against; the tools keep them. Who changed what and when is the repository's history.
-* `glossary.json` lists terms that must be translated one way; `check` warns when an entry does not use them.
-* `review/label-conflicts.json` (when present) lists the element names the old catalog had translated more than one way, with the choice made. Settle them, then delete the file.
+The output is the complete text of every type, in the shape of the [convention](https://github.com/Beneficial-Strategies/iso-20022-text/blob/main/SPECIFICATION.md).
+It is never edited by hand and not committed. There is no automatic check on pull requests yet.
+
+## Deployment
+
+This repository deploys the `pt` text host, `https://iso-20022-text-pt.beneficialstrategies.com`, as a Cloudflare Worker with static assets (`wrangler.jsonc`),
+through Cloudflare Workers Builds: the `main` branch deploys, and every other branch gets a preview address. The build fetches the
+[hub](https://github.com/Beneficial-Strategies/iso-20022-text) (`HUB_REF` and `HUB_REPO` choose another version of it, for a preview) and lays this repository
+over it, so a change in the hub reaches this host the next time this repository builds.
 
 ## Status, license and warranty
 
 This text is provided **free of charge and as is**, under the MIT license (see `LICENSE`), without warranty of any kind. We make our best-faith
-effort toward an accurate text, but it is not verified by a professional translator, and until an entry is marked reviewed it is a machine draft.
+effort toward an accurate text, but it is not verified by a professional translator, and entries may be machine drafts that no person has reviewed.
 **Do not rely on it for legal, financial or compliance decisions**: the authoritative text is ISO's English.
 
 **The controls here are lax at present**: there is no formal review process, release gating or ownership policy beyond what you can see in this

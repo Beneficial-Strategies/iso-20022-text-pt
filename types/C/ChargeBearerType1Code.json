@@ -1,0 +1,22 @@
+{
+  "isoType": "ChargeBearerType1Code",
+  "definition": "Especifica a(s) parte(s) que pagará(ão) os encargos devidos pelo tratamento da instrução.",
+  "isoCodes": {
+    "DEBT": {
+      "name": "Suportado pelo devedor",
+      "definition": "Todos os encargos da operação ficam a cargo do devedor."
+    },
+    "CRED": {
+      "name": "Suportado pelo credor",
+      "definition": "Todos os encargos da operação ficam a cargo do credor."
+    },
+    "SHAR": {
+      "name": "Partilhado",
+      "definition": "Num contexto de transferência, significa que os encargos da operação do lado do remetente ficam a cargo do devedor e os encargos da operação do lado do destinatário ficam a cargo do credor. Num contexto de débito direto, significa que os encargos da operação do lado do remetente ficam a cargo do credor e os encargos da operação do lado do destinatário ficam a cargo do devedor."
+    },
+    "SLEV": {
+      "name": "Conforme o nível de serviço",
+      "definition": "Os encargos são aplicados de acordo com as regras acordadas no nível de serviço e/ou no esquema."
+    }
+  }
+}

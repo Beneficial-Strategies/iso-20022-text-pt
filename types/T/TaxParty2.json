@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxParty2",
+  "definition": "Detalhes sobre a entidade envolvida no imposto pago ou a pagar.",
+  "isoElements": {
+    "TaxIdentification": {
+      "definition": "Número de identificação fiscal do devedor."
+    },
+    "RegistrationIdentification": {
+      "definition": "Identificação única, atribuída por uma organização, para identificar inequivocamente uma parte."
+    },
+    "TaxType": {
+      "definition": "Tipo de contribuinte."
+    },
+    "Authorisation": {
+      "definition": "Detalhes da parte autorizada a pagar o imposto."
+    }
+  }
+}

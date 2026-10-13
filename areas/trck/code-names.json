@@ -1,7 +1,0 @@
-{
- "AmountConsistencyType1Code/CONS": "Montante consistente",
- "AmountConsistencyType1Code/ICFA": "Montante confirmado inconsistente",
- "AmountConsistencyType1Code/ICGA": "Montante de encargos inconsistente",
- "AmountConsistencyType1Code/ICNS": "Montante inconsistente",
- "AmountConsistencyType1Code/IISA": "Montante de liquidação interbancária inconsistente"
-}

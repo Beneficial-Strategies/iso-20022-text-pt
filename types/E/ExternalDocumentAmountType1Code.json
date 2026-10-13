@@ -1,0 +1,113 @@
+{
+  "isoType": "ExternalDocumentAmountType1Code",
+  "isoCodes": {
+    "APDS": {
+      "name": "Desconto promocional adicional",
+      "definition": "Desconto adicional baseado em atividade promocional comercial acordada com terceiros, ou seja, desconto extra de 10 por cento durante 15 dias)"
+    },
+    "STDS": {
+      "name": "Desconto permanente",
+      "definition": "Desconto baseado no volume adquirido."
+    },
+    "TMDS": {
+      "name": "Desconto por condições",
+      "definition": "Desconto baseado em condições negociadas para pagamento dentro de um prazo especificado, ou seja, 2/10 Net 30 (desconto de 2 por cento se pago em 10 dias; caso contrário, o montante líquido é devido em 30 dias)."
+    },
+    "CITY": {
+      "name": "Imposto municipal",
+      "definition": "Imposto cobrado pelas jurisdições municipais de um país."
+    },
+    "CNTY": {
+      "name": "Imposto de condado",
+      "definition": "Imposto cobrado pelas jurisdições de condado de um país."
+    },
+    "LOCL": {
+      "name": "Imposto local",
+      "definition": "Imposto cobrado pelas jurisdições locais de um país."
+    },
+    "PROV": {
+      "name": "Imposto provincial",
+      "definition": "Imposto cobrado pelas jurisdições provinciais de um país."
+    },
+    "STAT": {
+      "name": "Imposto estadual",
+      "definition": "Imposto cobrado pelas jurisdições estaduais de um país."
+    },
+    "CREN": {
+      "name": "Nota de crédito",
+      "definition": "O montante é uma nota de crédito."
+    },
+    "DUPA": {
+      "name": "Montante a pagar",
+      "definition": "O montante é devido e pagável."
+    },
+    "PRIN": {
+      "name": "Capital em dívida",
+      "definition": "O montante é o capital em dívida."
+    },
+    "TOTA": {
+      "name": "Pagamento total",
+      "definition": "O montante é o total."
+    },
+    "INTE": {
+      "name": "Pagamento de juros",
+      "definition": "O montante são os juros."
+    },
+    "ESCO": {
+      "name": "Caução",
+      "definition": "O montante está em caução (escrow)."
+    },
+    "TAXS": {
+      "name": "Imposto",
+      "definition": "O montante é imposto."
+    },
+    "INSU": {
+      "name": "Seguro",
+      "definition": "O montante é seguro."
+    },
+    "OBAL": {
+      "name": "Saldo em dívida",
+      "definition": "O montante é o saldo em dívida."
+    },
+    "SBAL": {
+      "name": "Saldo do extrato",
+      "definition": "O montante é o saldo do extrato."
+    },
+    "MIDU": {
+      "name": "Mínimo a pagar",
+      "definition": "O montante é o mínimo devido."
+    },
+    "PADU": {
+      "name": "Em atraso",
+      "definition": "O montante está vencido."
+    },
+    "CRTL": {
+      "name": "Crédito disponível",
+      "definition": "O montante é o crédito disponível."
+    },
+    "PBAL": {
+      "name": "Saldo anterior",
+      "definition": "O montante é o saldo anterior."
+    },
+    "CHAR": {
+      "name": "Novos encargos",
+      "definition": "O montante são novos encargos, por exemplo, novos encargos num cartão de crédito."
+    },
+    "FEES": {
+      "name": "Comissões",
+      "definition": "O montante são taxas."
+    },
+    "INTC": {
+      "name": "Encargos de juros",
+      "definition": "O montante são encargos de juros, por exemplo, encargos de juros num cartão de crédito."
+    },
+    "REMI": {
+      "name": "Remetido",
+      "definition": "Montante remetido."
+    },
+    "DISC": {
+      "name": "Desconto aplicado",
+      "definition": "Desconto aplicado. Utilização genérica se não puder ser especificado por nenhum outro código de desconto."
+    }
+  }
+}

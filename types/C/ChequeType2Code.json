@@ -1,0 +1,26 @@
+{
+  "isoType": "ChequeType2Code",
+  "definition": "Especifica o tipo de cheque.",
+  "isoCodes": {
+    "CCHQ": {
+      "name": "Cheque do cliente",
+      "definition": "Cheque sacado sobre a conta do devedor e debitado na conta do devedor aquando do seu levantamento. Sinónimo: 'cheque de empresa'."
+    },
+    "CCCH": {
+      "name": "Cheque visado do cliente",
+      "definition": "Cheque sacado sobre a conta do devedor e debitado na conta do devedor aquando do seu levantamento. A instituição financeira imprime e certifica o cheque, garantindo o pagamento."
+    },
+    "BCHQ": {
+      "name": "Cheque bancário",
+      "definition": "Cheque sacado sobre a conta da instituição financeira do devedor, que é debitado na conta do devedor aquando da emissão do cheque. Estes cheques são impressos pela instituição financeira do devedor e o pagamento é garantido pela instituição financeira. Sinónimo: 'cheque bancário'."
+    },
+    "DRFT": {
+      "name": "Saque",
+      "definition": "Cheque bancário garantido com data-valor futura (não pagar antes de], que em termos comerciais é um 'instrumento negociável': o beneficiário pode receber o pagamento antecipado de qualquer banco mediante a dedução de um desconto. A conta do cliente ordenante é debitada na data-valor."
+    },
+    "ELDR": {
+      "name": "Saque eletrónico",
+      "definition": "Instrumento com data-valor futura (não pagar antes de], que em termos comerciais é um 'instrumento negociável': o beneficiário pode receber o pagamento antecipado de qualquer banco mediante a dedução de um desconto. A conta do cliente ordenante é debitada na data-valor."
+    }
+  }
+}

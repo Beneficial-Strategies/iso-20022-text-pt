@@ -1,0 +1,12 @@
+{
+  "isoType": "PersonIdentification18",
+  "definition": "Forma única e inequívoca de identificar uma pessoa.",
+  "isoElements": {
+    "DateAndPlaceOfBirth": {
+      "definition": "Data e local de nascimento de uma pessoa."
+    },
+    "Other": {
+      "definition": "Identificação única de uma pessoa, atribuída por uma instituição, utilizando um esquema de identificação."
+    }
+  }
+}

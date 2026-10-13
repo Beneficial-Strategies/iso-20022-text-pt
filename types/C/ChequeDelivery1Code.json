@@ -1,0 +1,54 @@
+{
+  "isoType": "ChequeDelivery1Code",
+  "definition": "Especifica o método a utilizar para entregar um cheque a uma parte.",
+  "isoCodes": {
+    "MLDB": {
+      "name": "Correio para o devedor",
+      "definition": "O cheque deve ser enviado por serviço postal ao devedor."
+    },
+    "MLCD": {
+      "name": "Correio para o credor",
+      "definition": "O cheque deve ser enviado por serviço postal ao credor."
+    },
+    "MLFA": {
+      "name": "Correio para a instituição final",
+      "definition": "O cheque deve ser enviado por serviço postal à instituição do credor."
+    },
+    "CRDB": {
+      "name": "Estafeta para o devedor",
+      "definition": "O cheque deve ser enviado por serviço de correio expresso ao devedor."
+    },
+    "CRCD": {
+      "name": "Estafeta para o credor",
+      "definition": "O cheque deve ser enviado ao credor através de serviços de correio expresso."
+    },
+    "CRFA": {
+      "name": "Estafeta para a instituição final",
+      "definition": "O cheque deve ser enviado por serviço de correio expresso à instituição do credor."
+    },
+    "PUDB": {
+      "name": "Levantamento pelo devedor",
+      "definition": "O cheque será levantado pelo devedor."
+    },
+    "PUCD": {
+      "name": "Levantamento pelo credor",
+      "definition": "O cheque será levantado pelo credor."
+    },
+    "PUFA": {
+      "name": "Levantamento pela instituição final",
+      "definition": "O cheque será levantado pela instituição do credor."
+    },
+    "RGDB": {
+      "name": "Correio registado para o devedor",
+      "definition": "O cheque deve ser enviado por correio registado ao devedor."
+    },
+    "RGCD": {
+      "name": "Correio registado para o credor",
+      "definition": "O cheque deve ser enviado por correio registado ao credor."
+    },
+    "RGFA": {
+      "name": "Correio registado para a instituição final",
+      "definition": "O cheque deve ser enviado por correio registado à instituição do credor."
+    }
+  }
+}

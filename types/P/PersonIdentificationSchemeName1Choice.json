@@ -1,0 +1,12 @@
+{
+  "isoType": "PersonIdentificationSchemeName1Choice",
+  "definition": "Conjuntos de elementos para identificar o nome do esquema de identificação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Nome do esquema de identificação, em forma codificada, conforme publicado numa lista externa."
+    },
+    "Proprietary": {
+      "definition": "Nome do esquema de identificação, em texto livre."
+    }
+  }
+}

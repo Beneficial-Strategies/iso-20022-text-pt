@@ -1,0 +1,12 @@
+{
+  "isoType": "ChequeDeliveryMethod1Choice",
+  "definition": "Conjunto de características relativas a uma instrução de cheque, como o tipo de cheque ou o número do cheque.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o método de entrega do cheque pela instituição do devedor."
+    },
+    "Proprietary": {
+      "definition": "Especifica um método de entrega do cheque proprietário pela instituição do devedor."
+    }
+  }
+}

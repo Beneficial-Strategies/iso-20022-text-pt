@@ -1,0 +1,97 @@
+{
+  "isoType": "ExternalDocumentType1Code",
+  "isoCodes": {
+    "CINV": {
+      "name": "Fatura comercial",
+      "definition": "O documento é uma fatura."
+    },
+    "CNFA": {
+      "name": "Nota de crédito relativa a ajustamento financeiro",
+      "definition": "O documento é uma nota de crédito pelo montante final liquidado numa operação comercial."
+    },
+    "CONT": {
+      "name": "Contrato",
+      "definition": "O documento é um contrato que comprova um acordo entre o vendedor e o comprador para o fornecimento de bens e/ou serviços."
+    },
+    "CREN": {
+      "name": "Nota de crédito",
+      "definition": "O documento é uma nota de crédito."
+    },
+    "DEBN": {
+      "name": "Nota de débito",
+      "definition": "O documento é uma nota de débito."
+    },
+    "DISP": {
+      "name": "Aviso de expedição",
+      "definition": "O documento é um aviso de expedição das mercadorias."
+    },
+    "DNFA": {
+      "name": "Nota de débito relativa a ajustamento financeiro",
+      "definition": "O documento é uma nota de débito pelo montante final liquidado numa operação comercial."
+    },
+    "HIRI": {
+      "name": "Fatura de aluguer",
+      "definition": "O documento é uma fatura pela contratação de recursos humanos ou pelo aluguer de bens ou equipamentos."
+    },
+    "INVS": {
+      "name": "Fatura assinada",
+      "definition": "O documento é uma fatura assinada."
+    },
+    "MSIN": {
+      "name": "Fatura de serviço medido",
+      "definition": "O documento é uma fatura que reclama o pagamento do fornecimento de serviços medidos, por exemplo, gás ou eletricidade, fornecidos a um contador fixo."
+    },
+    "PROF": {
+      "name": "Fatura pró-forma",
+      "definition": "Nas operações comerciais, uma fatura pró-forma é um documento que expressa o compromisso do vendedor de vender mercadorias ao comprador a preços e condições especificados. É utilizada para declarar o valor da operação comercial. Não é uma fatura propriamente dita, porque não é utilizada para registar as contas a receber do vendedor e as contas a pagar do comprador."
+    },
+    "PUOR": {
+      "name": "Ordem de compra",
+      "definition": "O documento é uma nota de encomenda."
+    },
+    "QUOT": {
+      "name": "Cotação",
+      "definition": "O documento é uma cotação que estabelece as condições em que os bens e/ou serviços são oferecidos."
+    },
+    "SBIN": {
+      "name": "Autofaturação",
+      "definition": "O documento é um extrato das operações lançadas na conta do devedor junto do fornecedor."
+    },
+    "SPRR": {
+      "name": "Apresentação do vendedor",
+      "definition": "O documento é um documento apresentado pelo vendedor em apoio da aquisição de bens e/ou serviços."
+    },
+    "TISH": {
+      "name": "Folha de horas",
+      "definition": "O documento é uma folha de horas que regista os tempos da prestação de serviços e/ou da entrega de bens."
+    },
+    "USAR": {
+      "name": "Relatório de utilização",
+      "definition": "O documento é um relatório de utilização que indica o padrão de consumo de bens e/ou serviços designados."
+    },
+    "AROI": {
+      "name": "Item em aberto de contas a receber",
+      "definition": "O documento é um pagamento que se aplica a um documento de origem específico."
+    },
+    "BOLD": {
+      "name": "Conhecimento de embarque",
+      "definition": "O documento é uma notificação de envio."
+    },
+    "CMCN": {
+      "name": "Contrato comercial",
+      "definition": "O documento é um acordo entre as partes que estipula os termos e condições de entrega de bens ou serviços."
+    },
+    "SOAC": {
+      "name": "Extrato de conta",
+      "definition": "O documento é um extrato das operações lançadas na conta do devedor junto do fornecedor."
+    },
+    "TSUT": {
+      "name": "Operação de serviços públicos de comércio",
+      "definition": "O documento é um identificador de operação atribuído pelo Trade Services Utility."
+    },
+    "VCHR": {
+      "name": "Vale",
+      "definition": "O documento é um documento de pagamento eletrónico."
+    }
+  }
+}

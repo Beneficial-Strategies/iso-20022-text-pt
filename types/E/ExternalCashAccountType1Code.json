@@ -1,0 +1,117 @@
+{
+  "isoType": "ExternalCashAccountType1Code",
+  "isoCodes": {
+    "CACC": {
+      "name": "Corrente",
+      "definition": "Conta utilizada para lançar débitos e créditos quando não tenha sido designada nenhuma conta específica."
+    },
+    "CARD": {
+      "name": "Conta de cartão",
+      "definition": "Conta utilizada para pagamentos com cartão de crédito."
+    },
+    "CASH": {
+      "name": "Pagamento em numerário",
+      "definition": "Conta utilizada para o pagamento em numerário."
+    },
+    "CHAR": {
+      "name": "Encargos",
+      "definition": "Conta utilizada para encargos, se diferente da conta de|pagamento."
+    },
+    "CISH": {
+      "name": "Rendimento em numerário",
+      "definition": "Conta utilizada para o pagamento de rendimentos, se diferente da conta corrente de numerário"
+    },
+    "COMM": {
+      "name": "Comissão",
+      "definition": "Conta utilizada para comissões, se diferente da conta de|pagamento."
+    },
+    "CPAC": {
+      "name": "Conta de liquidação de participante na compensação",
+      "definition": "Conta utilizada para lançar movimentos de débito e crédito de liquidação em nome de um participante de compensação designado."
+    },
+    "LLSV": {
+      "name": "Conta poupança de liquidez limitada",
+      "definition": "Conta utilizada para poupança com condições especiais de juros e de levantamento."
+    },
+    "LOAN": {
+      "name": "Empréstimo",
+      "definition": "Conta utilizada para empréstimos."
+    },
+    "MGLD": {
+      "name": "Cedência marginal de liquidez",
+      "definition": "Conta utilizada para uma facilidade permanente de cedência de liquidez."
+    },
+    "MOMA": {
+      "name": "Mercado monetário",
+      "definition": "Conta utilizada para o mercado monetário, se diferente da conta de|numerário."
+    },
+    "NREX": {
+      "name": "Conta externa de não residente",
+      "definition": "Conta utilizada para não residentes externos."
+    },
+    "ODFT": {
+      "name": "Descoberto",
+      "definition": "Conta utilizada para descobertos."
+    },
+    "ONDP": {
+      "name": "Depósito overnight",
+      "definition": "Conta utilizada para depósitos overnight."
+    },
+    "OTHR": {
+      "name": "Outra conta",
+      "definition": "Conta não especificada de outra forma."
+    },
+    "SACC": {
+      "name": "Liquidação",
+      "definition": "Conta utilizada para lançar movimentos de débito e crédito resultantes de operações compensadas e liquidadas através de um sistema específico de compensação e liquidação."
+    },
+    "SLRY": {
+      "name": "Salário",
+      "definition": "Contas utilizadas para pagamentos de salários."
+    },
+    "SVGS": {
+      "name": "Poupança",
+      "definition": "Conta utilizada para poupança."
+    },
+    "TAXE": {
+      "name": "Imposto",
+      "definition": "Conta utilizada para impostos, se diferente da conta de|pagamento."
+    },
+    "TRAN": {
+      "name": "Conta transacional",
+      "definition": "Uma conta de operações é o tipo mais básico de conta bancária que se pode obter. A principal diferença entre as contas de operações e as contas de cheques é que, normalmente, não é fornecido um livro de cheques com a conta de operações nem é oferecida uma facilidade de descoberto."
+    },
+    "TRAS": {
+      "name": "Negociação em numerário",
+      "definition": "Conta utilizada para negociação, se diferente da conta corrente de numerário."
+    },
+    "VACC": {
+      "name": "Conta virtual",
+      "definition": "Conta criada virtualmente para facilitar a cobrança e a reconciliação."
+    },
+    "NFCA": {
+      "name": "Conta em moeda estrangeira de não residente",
+      "definition": "Conta em moeda estrangeira de particular/entidade não residente, detida no país."
+    },
+    "RFCA": {
+      "name": "Conta em moeda estrangeira de particular residente",
+      "definition": "Conta em moeda estrangeira de particular residente, detida no país."
+    },
+    "REFC": {
+      "name": "Moeda estrangeira de entidade residente",
+      "definition": "Conta em moeda estrangeira de entidade residente, detida no país."
+    },
+    "NLCY": {
+      "name": "Conta em moeda local de não residente",
+      "definition": "Conta em moeda nacional de não residente."
+    },
+    "RLCY": {
+      "name": "Moeda local de residente",
+      "definition": "Conta em moeda nacional de residente."
+    },
+    "ODEP": {
+      "name": "Depósito ordinário",
+      "definition": "Conta utilizada como depósito ordinário para depósitos e levantamentos do dia a dia."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "isoType": "ExternalPersonIdentification1Code",
+  "isoCodes": {
+    "ARNU": {
+      "name": "Número de registo de estrangeiro",
+      "definition": "Número atribuído por uma entidade da segurança social para identificar uma pessoa não residente."
+    },
+    "CCPT": {
+      "name": "Número de passaporte",
+      "definition": "Número atribuído por uma autoridade para identificar o número de passaporte de uma pessoa."
+    },
+    "CUST": {
+      "name": "Número de identificação do cliente",
+      "definition": "Número atribuído por um emitente para identificar um cliente."
+    },
+    "DRLC": {
+      "name": "Número da carta de condução",
+      "definition": "Número atribuído por uma autoridade para identificar uma carta de condução."
+    },
+    "EMPL": {
+      "name": "Número de identificação do trabalhador",
+      "definition": "Número atribuído por uma autoridade de registo a um trabalhador."
+    },
+    "NIDN": {
+      "name": "Número de identidade nacional",
+      "definition": "Número atribuído por uma autoridade para identificar o número de identificação nacional de uma pessoa."
+    },
+    "SOSE": {
+      "name": "Número de segurança social",
+      "definition": "Número atribuído por uma autoridade para identificar o número de segurança social de uma pessoa."
+    },
+    "TELE": {
+      "name": "Número de telefone",
+      "definition": "Número atribuído por um operador de telefone ou telemóvel para identificar uma pessoa. Uma pessoa pode ter vários números de telefone."
+    },
+    "TXID": {
+      "name": "Número de identificação fiscal",
+      "definition": "Número atribuído por uma autoridade fiscal para identificar uma pessoa."
+    },
+    "POID": {
+      "name": "Identificação comercial da pessoa",
+      "definition": "Identificação comercial da pessoa."
+    },
+    "BANK": {
+      "name": "Identificação da parte bancária",
+      "definition": "Atribuição única e inequívoca efetuada por um banco específico ou instituição financeira semelhante para identificar uma relação definida entre o banco e o seu cliente."
+    }
+  }
+}

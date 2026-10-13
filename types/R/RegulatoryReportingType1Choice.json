@@ -1,0 +1,12 @@
+{
+  "isoType": "RegulatoryReportingType1Choice",
+  "definition": "Tipo de reporte regulamentar.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de reporte regulamentar, sob forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de reporte regulamentar, sob forma proprietária."
+    }
+  }
+}

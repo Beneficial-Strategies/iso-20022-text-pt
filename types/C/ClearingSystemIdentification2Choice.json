@@ -1,0 +1,12 @@
+{
+  "isoType": "ClearingSystemIdentification2Choice",
+  "definition": "Escolha de um identificador de sistema de compensação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Identificação de um sistema de compensação, em forma codificada, conforme publicada numa lista externa."
+    },
+    "Proprietary": {
+      "definition": "Código de identificação de um sistema de compensação que ainda não foi identificado na lista de sistemas de compensação."
+    }
+  }
+}

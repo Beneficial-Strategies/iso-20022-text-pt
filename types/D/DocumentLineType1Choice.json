@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentLineType1Choice",
+  "definition": "Especifica o tipo de identificação da linha do documento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de identificação da linha, sob forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de documento de remessa."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "ExternalGarnishmentType1Code",
+  "isoCodes": {
+    "GNCS": {
+      "name": "Penhora para pensão de alimentos a menores",
+      "definition": "Penhora a partir de um pagador terceiro para pensão de alimentos a menores"
+    },
+    "GNDP": {
+      "name": "Penhora para pensão de alimentos a menores junto do pagador direto",
+      "definition": "Penhora a partir de um pagador direto para pensão de alimentos a menores"
+    },
+    "GTPP": {
+      "name": "Penhora a favor da autoridade tributária",
+      "definition": "Penhora a partir de um pagador terceiro para a administração fiscal"
+    }
+  }
+}

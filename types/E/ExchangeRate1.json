@@ -1,0 +1,18 @@
+{
+  "isoType": "ExchangeRate1",
+  "definition": "Informações mais detalhadas sobre a taxa de câmbio utilizada na operação de pagamento.",
+  "isoElements": {
+    "UnitCurrency": {
+      "definition": "Moeda em que a taxa de câmbio é expressa numa operação cambial. No exemplo 1GBP = xxxCUR, a moeda unitária é GBP."
+    },
+    "ExchangeRate": {
+      "definition": "Fator utilizado para converter um montante de uma moeda para outra. Reflete o preço a que uma moeda foi comprada com outra moeda."
+    },
+    "RateType": {
+      "definition": "Especifica o tipo utilizado para concluir a operação cambial."
+    },
+    "ContractIdentification": {
+      "definition": "Referência única e inequívoca ao contrato de câmbio acordado entre a parte iniciadora/o credor e a instituição do devedor."
+    }
+  }
+}

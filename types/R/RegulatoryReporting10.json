@@ -1,0 +1,15 @@
+{
+  "isoType": "RegulatoryReporting10",
+  "definition": "Informações necessárias por força de requisitos regulamentares e/ou legais.",
+  "isoElements": {
+    "DebitCreditReportingIndicator": {
+      "definition": "Identifica se as informações regulamentares se aplicam ao lado do débito, ao lado do crédito ou a ambos os lados, débito e crédito, da operação."
+    },
+    "Authority": {
+      "definition": "Entidade que exige as informações de reporte regulamentar."
+    },
+    "Details": {
+      "definition": "Conjunto de elementos utilizados para fornecer detalhes sobre as informações de reporte regulamentar."
+    }
+  }
+}

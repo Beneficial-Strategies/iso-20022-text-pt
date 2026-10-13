@@ -1,0 +1,12 @@
+{
+  "isoType": "Party52Choice",
+  "definition": "Especifica a identificação de uma pessoa ou de uma organização.",
+  "isoElements": {
+    "OrganisationIdentification": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    },
+    "PrivateIdentification": {
+      "definition": "Identificação única e inequívoca de uma pessoa, por exemplo um passaporte."
+    }
+  }
+}

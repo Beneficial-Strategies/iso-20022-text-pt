@@ -1,0 +1,12 @@
+{
+  "isoType": "CategoryPurpose1Choice",
+  "definition": "Especifica a finalidade de alto nível da instrução com base num conjunto de categorias predefinidas.|Utilização: É utilizado pela parte iniciadora para fornecer informações relativas ao tratamento do pagamento. É suscetível de desencadear um tratamento especial por qualquer das instituições envolvidas na cadeia de pagamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Finalidade da categoria, conforme publicada numa lista externa de códigos de finalidade da categoria."
+    },
+    "Proprietary": {
+      "definition": "Finalidade da categoria, sob forma proprietária."
+    }
+  }
+}

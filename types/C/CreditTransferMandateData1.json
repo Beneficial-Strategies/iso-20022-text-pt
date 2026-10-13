@@ -1,0 +1,33 @@
+{
+  "isoType": "CreditTransferMandateData1",
+  "definition": "Fornece mais pormenores sobre um mandato de transferência assinado entre o credor e o devedor.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identificação única, atribuída pelo credor, para identificar inequivocamente o mandato."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de mandato, como papel, eletrónico ou esquema."
+    },
+    "DateOfSignature": {
+      "definition": "Data em que o mandato de transferência foi assinado pelo devedor."
+    },
+    "DateOfVerification": {
+      "definition": "Data em que o mandato de transferência foi verificado."
+    },
+    "ElectronicSignature": {
+      "definition": "Disposições de segurança adicionais, como uma assinatura digital, fornecidas pelo devedor."
+    },
+    "FirstPaymentDate": {
+      "definition": "Data do primeiro pagamento de uma transferência recorrente ao abrigo do mandato."
+    },
+    "FinalPaymentDate": {
+      "definition": "Data do pagamento final de uma transferência recorrente ao abrigo do mandato."
+    },
+    "Frequency": {
+      "definition": "Regularidade com que as instruções de transferência devem ser criadas e tratadas."
+    },
+    "Reason": {
+      "definition": "Motivo da constituição do mandato de transferência.||Utilização: |O motivo permite ao utilizador distinguir entre diferentes mandatos do mesmo credor."
+    }
+  }
+}

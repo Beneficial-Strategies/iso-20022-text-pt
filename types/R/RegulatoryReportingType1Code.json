@@ -1,0 +1,18 @@
+{
+  "isoType": "RegulatoryReportingType1Code",
+  "definition": "Identifica se as informações regulamentares se aplicam ao lado do débito, ao lado do crédito ou a ambos os lados, débito e crédito, da operação.",
+  "isoCodes": {
+    "CRED": {
+      "name": "Crédito",
+      "definition": "As informações regulamentares aplicam-se ao lado do crédito."
+    },
+    "DEBT": {
+      "name": "Débito",
+      "definition": "As informações regulamentares aplicam-se ao lado do débito."
+    },
+    "BOTH": {
+      "name": "Ambos",
+      "definition": "As informações regulamentares aplicam-se a ambos os lados, crédito e débito."
+    }
+  }
+}

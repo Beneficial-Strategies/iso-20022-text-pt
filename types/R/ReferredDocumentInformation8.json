@@ -1,0 +1,18 @@
+{
+  "isoType": "ReferredDocumentInformation8",
+  "definition": "Conjunto de elementos utilizados para identificar os documentos referidos nas informações de remessa.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo de documento referido."
+    },
+    "Number": {
+      "definition": "Identificação única e inequívoca do documento referido."
+    },
+    "RelatedDate": {
+      "definition": "Data e tipo de data associados ao documento referido."
+    },
+    "LineDetails": {
+      "definition": "Conjunto de elementos utilizados para fornecer o conteúdo da linha do documento referido."
+    }
+  }
+}

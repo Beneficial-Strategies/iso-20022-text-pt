@@ -1,0 +1,12 @@
+{
+  "isoType": "EquivalentAmount2",
+  "definition": "Montante a movimentar entre o devedor e o credor, expresso na moeda da conta do devedor e na moeda em que o montante vai ser movimentado.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda da conta do devedor e a movimentar numa moeda diferente.|Utilização: o primeiro agente converterá o montante equivalente no montante a movimentar."
+    },
+    "CurrencyOfTransfer": {
+      "definition": "Especifica a moeda do montante a transferir, que é diferente da moeda da conta do devedor."
+    }
+  }
+}

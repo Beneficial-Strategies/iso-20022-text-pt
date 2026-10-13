@@ -1,0 +1,33 @@
+{
+  "isoType": "ExternalCreditorReferenceType1Code",
+  "isoCodes": {
+    "DISP": {
+      "name": "Aviso de expedição",
+      "definition": "O documento é um aviso de expedição."
+    },
+    "FXDR": {
+      "name": "Referência da operação cambial",
+      "definition": "O documento é uma operação cambial previamente acordada ou organizada a que a operação de pagamento se refere."
+    },
+    "PUOR": {
+      "name": "Ordem de compra",
+      "definition": "O documento é uma nota de encomenda."
+    },
+    "RPIN": {
+      "name": "Instrução de pagamento relacionada",
+      "definition": "O documento é uma instrução de pagamento associada à qual a instrução de pagamento em curso está relacionada, por exemplo, num cenário de cobertura."
+    },
+    "RADM": {
+      "name": "Mensagem de aviso de remessa",
+      "definition": "O documento é um aviso de remessa enviado separadamente da operação em curso."
+    },
+    "SCOR": {
+      "name": "Referência de comunicação estruturada",
+      "definition": "O documento é uma referência de comunicação estruturada fornecida pelo credor para identificar a operação referida."
+    },
+    "PRNB": {
+      "name": "Número de referência do pagamento",
+      "definition": "O documento é um número de referência de pagamento utilizado para identificar, associar ou reconciliar o pagamento de contribuição referido ou as informações de remessa relacionadas."
+    }
+  }
+}

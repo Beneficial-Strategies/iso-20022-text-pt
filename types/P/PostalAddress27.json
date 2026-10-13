@@ -1,0 +1,60 @@
+{
+  "isoType": "PostalAddress27",
+  "definition": "Informações que localizam e identificam um endereço específico, conforme definido pelos serviços postais.",
+  "isoElements": {
+    "AddressType": {
+      "definition": "Identifica a natureza do endereço postal."
+    },
+    "CareOf": {
+      "definition": "Identifica um destinatário que aceita a correspondência em nome do destinatário pretendido. A utilização de «aos cuidados de» garante que a correspondência chega ao destinatário correto, em vez de ser devolvida ao remetente."
+    },
+    "Department": {
+      "definition": "Identificação de uma divisão de uma grande organização ou edifício."
+    },
+    "SubDepartment": {
+      "definition": "Identificação de uma subdivisão de uma grande organização ou edifício."
+    },
+    "StreetName": {
+      "definition": "Nome de uma rua ou via pública."
+    },
+    "BuildingNumber": {
+      "definition": "Número que identifica a posição de um edifício numa rua."
+    },
+    "BuildingName": {
+      "definition": "Nome do edifício ou da casa."
+    },
+    "Floor": {
+      "definition": "Andar ou piso dentro de um edifício."
+    },
+    "UnitNumber": {
+      "definition": "Identifica um apartamento ou habitação dentro do edifício."
+    },
+    "PostBox": {
+      "definition": "Caixa numerada numa estação de correios, atribuída a uma pessoa ou organização, onde as cartas são guardadas até serem levantadas."
+    },
+    "Room": {
+      "definition": "Número da sala do edifício."
+    },
+    "PostCode": {
+      "definition": "Identificador constituído por um grupo de letras e/ou números que é acrescentado a uma morada postal para facilitar a triagem do correio."
+    },
+    "TownName": {
+      "definition": "Nome de uma zona urbanizada, com limites definidos e administração local."
+    },
+    "TownLocationName": {
+      "definition": "Nome de um local específico dentro da cidade."
+    },
+    "DistrictName": {
+      "definition": "Identifica uma subdivisão dentro de uma subdivisão de um país."
+    },
+    "CountrySubDivision": {
+      "definition": "Identifica uma subdivisão de um país, como estado, região ou distrito."
+    },
+    "Country": {
+      "definition": "Nação com governo próprio."
+    },
+    "AddressLine": {
+      "definition": "Informações que localizam e identificam um endereço específico, conforme definido pelos serviços postais, apresentadas em texto de formato livre."
+    }
+  }
+}

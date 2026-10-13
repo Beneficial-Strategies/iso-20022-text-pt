@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxAuthorisation1",
+  "definition": "Detalhes da parte autorizada a pagar o imposto.",
+  "isoElements": {
+    "Title": {
+      "definition": "Título ou cargo do devedor ou do representante autorizado do devedor."
+    },
+    "Name": {
+      "definition": "Nome do devedor ou do representante autorizado do devedor."
+    }
+  }
+}

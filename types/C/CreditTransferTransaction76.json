@@ -1,0 +1,113 @@
+{
+  "isoType": "CreditTransferTransaction76",
+  "definition": "Fornece detalhes adicionais específicos da(s) operação(ões) individual(is) incluída(s) na mensagem.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Conjunto de elementos utilizados para referenciar uma instrução de pagamento."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar melhor o tipo de operação."
+    },
+    "Amount": {
+      "definition": "Montante em dinheiro a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora."
+    },
+    "ExchangeRateInformation": {
+      "definition": "Fornece detalhes sobre a taxa de câmbio e o contrato de câmbio."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica a(s) parte(s) que suportará(ão) os encargos associados ao tratamento da operação de pagamento."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Fornece mais pormenores sobre o mandato assinado entre o credor e o devedor."
+    },
+    "ChequeInstruction": {
+      "definition": "Conjunto de elementos necessários para emitir um cheque."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que deve um montante em dinheiro ao credor (final)."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor.||Utilização: Se existir mais do que uma instituição intermediária, IntermediaryAgent1 identifica a instituição entre DebtorAgent e IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 1 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor.||Utilização: Se existirem mais do que duas instituições intermediárias, IntermediaryAgent2 identifica a instituição entre IntermediaryAgent1 e IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 2 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Agente entre a instituição do devedor e a instituição do credor.||Utilização: Se IntermediaryAgent3 estiver presente, identifica o agente entre o IntermediaryAgent 2 e o CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 3 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do credor junto da sua instituição gestora, a creditar em resultado da operação de pagamento."
+    },
+    "Creditor": {
+      "definition": "Parte a quem é devido um montante em dinheiro."
+    },
+    "CreditorAccount": {
+      "definition": "Identificação inequívoca da conta do credor a creditar em resultado da operação de pagamento."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a quem é devido um montante em dinheiro."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Informações adicionais relativas ao tratamento da instrução de pagamento, fornecidas pela parte iniciadora e destinadas à instituição do credor."
+    },
+    "InstructionForDebtorAgent": {
+      "definition": "Informações adicionais relativas ao tratamento da instrução de pagamento que podem exigir uma ação por parte da instituição do devedor, consoante o acordo entre o devedor e a instituição do devedor."
+    },
+    "Purpose": {
+      "definition": "Motivo subjacente à operação de pagamento.|Utilização: A finalidade é utilizada pelos clientes finais, ou seja, a parte iniciadora, o devedor (final) e o credor (final), para fornecer informações sobre a natureza do pagamento. A finalidade é um elemento de conteúdo, que não é utilizado para tratamento por nenhuma das instituições envolvidas na cadeia de pagamento."
+    },
+    "RegulatoryReporting": {
+      "definition": "Informações necessárias por força de requisitos regulamentares e legais."
+    },
+    "Tax": {
+      "definition": "Fornece detalhes sobre o imposto."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Fornece informações relativas ao tratamento das informações de remessa por qualquer das instituições na cadeia de tratamento da operação."
+    },
+    "RemittanceInformation": {
+      "definition": "Informações fornecidas para permitir a correspondência de um lançamento com os itens que a transferência se destina a liquidar, como faturas comerciais num sistema de contas a receber."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor só pode estar presente se for diferente de Creditor."
+    },
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor só pode estar presente se for diferente de Debtor."
+    },
+    "IntermediaryAgent2Rule": {
+      "definition": "Se IntermediaryAgent2 estiver presente, então IntermediaryAgent1 tem de estar presente."
+    },
+    "IntermediaryAgent3Rule": {
+      "definition": "Se IntermediaryAgent3 estiver presente, então IntermediaryAgent2 tem de estar presente."
+    },
+    "InstructionForCreditorAgentRule": {
+      "definition": "Se InstructionForCreditorAgent/Code contiver CHQB, então CreditorAccount não é permitido."
+    },
+    "IntermediaryAgent1AccountRule": {
+      "definition": "Se IntermediaryAgent1Account estiver presente, então IntermediaryAgent1 tem de estar presente."
+    },
+    "IntermediaryAgent2AccountRule": {
+      "definition": "Se IntermediaryAgent2Account estiver presente, então IntermediaryAgent2 tem de estar presente."
+    },
+    "IntermediaryAgent3AccountRule": {
+      "definition": "Se IntermediaryAgent3Account estiver presente, então IntermediaryAgent3 tem de estar presente."
+    }
+  }
+}
