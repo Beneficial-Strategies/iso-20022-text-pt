@@ -1,0 +1,29 @@
+{
+  "isoType": "CashAccountSearchCriteria8",
+  "definition": "Define os critérios utilizados para pesquisar uma conta.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "Type": {
+      "definition": "Especifica a natureza, ou a utilização, da conta de numerário."
+    },
+    "Currency": {
+      "definition": "Especifica a moeda da conta de numerário."
+    },
+    "Balance": {
+      "definition": "Saldo da conta que é objeto da consulta."
+    },
+    "AccountOwner": {
+      "definition": "Titular da conta que é objeto da consulta."
+    },
+    "AccountServicer": {
+      "definition": "Instituição gestora da conta que é objeto da consulta."
+    }
+  },
+  "isoRules": {
+    "CashAccountIdentificationGuideline": {
+      "definition": "Se a identificação da conta identificar um grupo de contas de tipos diferentes ou em moedas diferentes, a moeda e/ou o tipo de conta podem ser utilizados como critérios de pesquisa adicionais."
+    }
+  }
+}

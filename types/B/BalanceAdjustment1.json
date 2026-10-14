@@ -1,0 +1,30 @@
+{
+  "isoType": "BalanceAdjustment1",
+  "definition": "Especifica os ajustes de saldo relativos a um serviço específico.",
+  "isoElements": {
+    "Type": {
+      "definition": "Identifica o tipo de ajuste."
+    },
+    "Description": {
+      "definition": "Descrição e esclarecimento do ajuste em texto livre."
+    },
+    "BalanceAmount": {
+      "definition": "Montante do ajuste. Se o montante reduzir o saldo subjacente, deve ser indicado com sinal negativo. Expresso na moeda da conta."
+    },
+    "AverageAmount": {
+      "definition": "Montante líquido do ajuste, ponderado por dias, ao saldo médio cobrado durante o período do extrato."
+    },
+    "ErrorDate": {
+      "definition": "Data em que o erro ocorreu na conta de tesouraria subjacente."
+    },
+    "PostingDate": {
+      "definition": "Data em que o erro foi corrigido na conta de tesouraria. Se a data não for conhecida, utiliza-se o último dia do mês em que o erro foi corrigido."
+    },
+    "Days": {
+      "definition": "Número de dias do período a que o ajuste se aplica."
+    },
+    "EarningsAdjustmentAmount": {
+      "definition": "Ajuste do crédito de remuneração, a débito ou a crédito, resultante do efeito deste ajuste no saldo médio cobrado. Se o montante reduzir o crédito devido, deve ser indicado com sinal negativo."
+    }
+  }
+}

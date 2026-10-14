@@ -1,0 +1,56 @@
+{
+  "isoType": "AggregateBalancePerSafekeepingPlace3",
+  "definition": "Posição líquida de uma detenção segregada, num único valor mobiliário, no âmbito da posição global detida numa conta de valores mobiliários num local de custódia especificado.",
+  "isoElements": {
+    "AggregateQuantity": {
+      "definition": "Quantidade total de instrumentos financeiros da posição referenciada."
+    },
+    "AvailableQuantity": {
+      "definition": "Quantidade total de instrumentos financeiros da posição referenciada que está disponível."
+    },
+    "NotAvailableQuantity": {
+      "definition": "Quantidade total de instrumentos financeiros da posição referenciada que não está disponível."
+    },
+    "DaysAccrued": {
+      "definition": "Especifica o número de dias utilizado para calcular o montante dos juros corridos."
+    },
+    "HoldingValue": {
+      "definition": "Valor total de um saldo da conta de valores mobiliários para um instrumento financeiro específico, expresso numa ou mais moedas."
+    },
+    "PreviousHoldingValue": {
+      "definition": "Valor total anterior de um saldo da conta de valores mobiliários para um instrumento financeiro específico, expresso numa ou mais moedas."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Montante de juros que se venceram entre os períodos de pagamento de cupões."
+    },
+    "AccruedInterestAmountSign": {
+      "definition": "Indica se os juros corridos são um montante positivo ou negativo."
+    },
+    "BookValue": {
+      "definition": "Valor de um valor mobiliário, tal como contabilizado numa conta. O valor contabilístico é frequentemente diferente do valor de mercado atual do valor mobiliário."
+    },
+    "SafekeepingPlace": {
+      "definition": "Local onde os valores mobiliários são guardados, física ou nocionalmente. Este local pode ser, por exemplo, um custodiante local, uma central de depósito de valores mobiliários (CSD) ou uma central internacional de depósito de valores mobiliários (ICSD)."
+    },
+    "PriceDetails": {
+      "definition": "Preço do instrumento financeiro numa ou mais moedas."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Operação cambial relacionada com uma ordem sobre valores mobiliários."
+    },
+    "BalanceBreakdownDetails": {
+      "definition": "Posição líquida de uma detenção segregada de um único valor mobiliário no âmbito da posição global detida numa conta de valores mobiliários, por exemplo, subsaldo por estado."
+    },
+    "AdditionalBalanceBreakdownDetails": {
+      "definition": "Posição líquida de uma detenção segregada, num único valor mobiliário, no âmbito da posição global detida numa conta de valores mobiliários."
+    }
+  },
+  "isoRules": {
+    "AggregateQuantityGuideline": {
+      "definition": "AggregateQuantity deve ser a soma de AvailableQuantity e NotAvailableQuantity se AvailableQuantityand NotAvailableQuantity estiverem ambos presentes."
+    },
+    "AccruedInterestAmountSignRule": {
+      "definition": "Se AccruedInterestAmount estiver presente, então AccruedInterestAmountSign deve estar presente. Se AccruedInterestAmount não estiver presente, então AccruedInterestAmountSign não pode estar presente."
+    }
+  }
+}

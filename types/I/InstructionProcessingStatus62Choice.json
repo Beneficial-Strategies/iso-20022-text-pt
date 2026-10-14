@@ -1,0 +1,33 @@
+{
+  "isoType": "InstructionProcessingStatus62Choice",
+  "definition": "Escolha entre diferentes estados de processamento da instrução.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "A instrução é aceite."
+    },
+    "Cancelled": {
+      "definition": "Instrução cancelada por instrução de cancelamento do cliente."
+    },
+    "AcceptedForFurtherProcessing": {
+      "definition": "Fornece informações de estado relativas a um pedido de instrução aceite. Isto significa que a instrução foi recebida, é processável e foi validada para tratamento posterior."
+    },
+    "Rejected": {
+      "definition": "Instrução rejeitada pelo destinatário."
+    },
+    "Pending": {
+      "definition": "A instrução não foi concluída."
+    },
+    "PendingCancellation": {
+      "definition": "A instrução de cancelamento está pendente."
+    },
+    "Covered": {
+      "definition": "A instrução de proteção foi totalmente coberta."
+    },
+    "Uncovered": {
+      "definition": "A instrução de cobertura de proteção foi aceite, mas não cobriu totalmente a instrução de proteção."
+    },
+    "Returned": {
+      "definition": "As unidades instruídas são devolvidas, total ou parcialmente, à parte que instrui."
+    }
+  }
+}

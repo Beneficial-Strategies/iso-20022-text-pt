@@ -1,0 +1,12 @@
+{
+  "isoType": "AllOtherCash1",
+  "definition": "Especifica se todos os ativos remanescentes numa carteira não indicados para transferência devem ser liquidados e transferidos em numerário",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indica se todos os ativos remanescentes numa carteira não indicados para transferência devem ser liquidados e transferidos em numerário."
+    },
+    "Currency": {
+      "definition": "Moeda do numerário."
+    }
+  }
+}

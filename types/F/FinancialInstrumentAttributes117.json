@@ -1,0 +1,39 @@
+{
+  "isoType": "FinancialInstrumentAttributes117",
+  "definition": "Descrição do instrumento financeiro.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identifica o instrumento financeiro."
+    },
+    "Quantity": {
+      "definition": "Quantidade de valores mobiliários intermédios a que se tem direito com base no saldo dos valores mobiliários subjacentes."
+    },
+    "RenounceableEntitlementStatusType": {
+      "definition": "Especifica se os termos do evento permitem a revenda dos direitos."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica como serão tratadas as frações resultantes de valores mobiliários derivados ou como serão arredondadas as decisões objeto de rateio, se for fornecida uma taxa de rateio."
+    },
+    "IntermediateSecuritiesToUnderlyingRatio": {
+      "definition": "Quantidade de valores mobiliários intermédios atribuídos por uma dada quantidade de valores mobiliários subjacentes."
+    },
+    "MarketPrice": {
+      "definition": "Último preço comunicado/conhecido de um instrumento financeiro num mercado."
+    },
+    "ExpiryDate": {
+      "definition": "Data em que uma ordem expira ou em que um privilégio ou oferta termina."
+    },
+    "PostingDate": {
+      "definition": "Data do lançamento (a crédito ou a débito) na conta."
+    },
+    "TradingPeriod": {
+      "definition": "Período durante o qual os valores mobiliários intermédios ou de resultado são transacionáveis num mercado secundário."
+    },
+    "UninstructedBalance": {
+      "definition": "Saldo da posição não instruída."
+    },
+    "InstructedBalance": {
+      "definition": "Saldo da posição instruída."
+    }
+  }
+}

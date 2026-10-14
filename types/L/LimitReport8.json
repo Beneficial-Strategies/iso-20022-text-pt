@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitReport8",
+  "definition": "Relata o limite de gestão de risco ou um erro de negócio.",
+  "isoElements": {
+    "LimitIdentification": {
+      "definition": "Identificação do limite sobre o qual são pedidas informações."
+    },
+    "LimitOrError": {
+      "definition": "Informações pedidas sobre o limite ou relatório de erro de negócio quando as informações não foram encontradas."
+    }
+  }
+}

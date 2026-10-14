@@ -1,0 +1,26 @@
+{
+  "isoType": "ProceedsDelivery1",
+  "definition": "Fornece informações sobre a conta.",
+  "isoElements": {
+    "SecuritiesAccountIdentification": {
+      "definition": "Identificação da conta de valores mobiliários para a qual os valores mobiliários têm de ser entregues."
+    },
+    "CashAccountIdentification": {
+      "definition": "Identificação da conta de numerário para a qual o numerário tem de ser entregue."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identificação da parte titular da conta."
+    },
+    "AccountServicerIdentification": {
+      "definition": "Identificação da instituição que gere a conta."
+    }
+  },
+  "isoRules": {
+    "SecuritiesAccountIdentificationOrCashAccountIdentificationRule": {
+      "definition": "Tem de estar presente SecuritiesAccountIdentification ou CashAccountIdentification."
+    },
+    "SecuritiesAccountIdentificationOrCashAccountIdentificationRuleNotBoth": {
+      "definition": "Tem de estar presente SecuritiesAccountIdentification ou CashAccountIdentification."
+    }
+  }
+}

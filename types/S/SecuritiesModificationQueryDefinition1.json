@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesModificationQueryDefinition1",
+  "definition": "Define as informações que são pesquisadas através da definição de critérios específicos.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Define o tipo de consulta."
+    },
+    "SearchCriteria": {
+      "definition": "Define os critérios para extrair as informações da instrução de movimento intraposição."
+    }
+  }
+}

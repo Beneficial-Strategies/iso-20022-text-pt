@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemMemberStatus1Choice",
+  "definition": "Especifica o estado de um membro num sistema.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado do membro do sistema, em formato codificado."
+    },
+    "Proprietary": {
+      "definition": "Estado do membro do sistema, em formato proprietário."
+    }
+  }
+}

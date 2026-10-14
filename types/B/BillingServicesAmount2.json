@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingServicesAmount2",
+  "definition": "Conversões para a moeda de origem do montante do encargo de serviço tributável.",
+  "isoElements": {
+    "HostAmount": {
+      "definition": "Soma dos valores do montante de origem do encargo original e do montante de origem do imposto do serviço. Representa o encargo total de um serviço (incluindo impostos) expresso na moeda de origem."
+    },
+    "SettlementAmount": {
+      "definition": "Soma dos valores do montante de origem do encargo original e do montante de origem do imposto do serviço, mas expressa na moeda de liquidação."
+    },
+    "PricingAmount": {
+      "definition": "Soma dos valores do montante de origem do encargo original e do montante de origem do imposto do serviço, mas expressa na moeda de tarifação."
+    }
+  }
+}

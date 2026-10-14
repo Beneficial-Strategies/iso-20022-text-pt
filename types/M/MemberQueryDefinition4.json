@@ -1,0 +1,12 @@
+{
+  "isoType": "MemberQueryDefinition4",
+  "definition": "Define os critérios da consulta.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Especifica o tipo de itens correspondentes a devolver na resposta à consulta."
+    },
+    "MemberCriteria": {
+      "definition": "Define os critérios da consulta de membros."
+    }
+  }
+}

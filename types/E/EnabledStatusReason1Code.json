@@ -1,0 +1,10 @@
+{
+  "isoType": "EnabledStatusReason1Code",
+  "definition": "Especifica o motivo de um estado ativo.",
+  "isoCodes": {
+    "MODI": {
+      "name": "Modificado",
+      "definition": "Está em curso uma alteração aos dados da conta."
+    }
+  }
+}

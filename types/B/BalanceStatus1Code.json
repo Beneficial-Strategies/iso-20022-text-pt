@@ -1,0 +1,14 @@
+{
+  "isoType": "BalanceStatus1Code",
+  "definition": "Especifica o saldo das operações com um determinado estado.",
+  "isoCodes": {
+    "PDNG": {
+      "name": "Pendente",
+      "definition": "Saldo correspondente às operações pendentes."
+    },
+    "STLD": {
+      "name": "Liquidado",
+      "definition": "Estado final de uma operação quando a transferência de numerário associada foi processada com êxito."
+    }
+  }
+}

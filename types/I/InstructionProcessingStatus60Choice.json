@@ -1,0 +1,36 @@
+{
+  "isoType": "InstructionProcessingStatus60Choice",
+  "definition": "Escolha entre diferentes estados de processamento da instrução.",
+  "isoElements": {
+    "Cancelled": {
+      "definition": "Informações de estado e de quantidade relativas a um pedido de instrução cancelado."
+    },
+    "AcceptedForFurtherProcessing": {
+      "definition": "Informações de estado relativas a um pedido de instrução que é aceite. Isto significa que a instrução foi recebida, é processável e foi validada para processamento posterior."
+    },
+    "Forwarded": {
+      "definition": "A instrução foi aceite e reencaminhada para o intermediário seguinte na cadeia."
+    },
+    "Rejected": {
+      "definition": "Informações de estado relativas a um pedido de instrução rejeitado para processamento posterior por razões de sistema."
+    },
+    "Pending": {
+      "definition": "Informações de estado relativas a uma instrução pendente."
+    },
+    "Returned": {
+      "definition": "As unidades instruídas são devolvidas, total ou parcialmente, à parte que instrui."
+    },
+    "DefaultAction": {
+      "definition": "É tomada a ação por defeito."
+    },
+    "StandingInstruction": {
+      "definition": "Foi aplicada a instrução permanente."
+    },
+    "ReceivedByIssuerOrOfferor": {
+      "definition": "A instrução foi recebida e aceite pelo emitente ou pelo oferente."
+    },
+    "ProprietaryStatus": {
+      "definition": "Estado proprietário relativo a uma instrução."
+    }
+  }
+}

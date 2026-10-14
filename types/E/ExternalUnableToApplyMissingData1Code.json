@@ -1,0 +1,82 @@
+{
+  "isoType": "ExternalUnableToApplyMissingData1Code",
+  "definition": "Especifica o motivo de um unable to apply devido a dados em falta, conforme publicado numa lista de códigos externa de dados em falta de unable to apply.|As listas de códigos externas podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "MS01": {
+      "name": "Informações de remessa em falta",
+      "definition": "Faltam as informações de remessa (RemittanceInformation)."
+    },
+    "MS02": {
+      "name": "Instrução para a instituição seguinte em falta",
+      "definition": "Falta a instrução para a instituição seguinte (anteriormente MissingSenderToReceiverInformation, dividido em informações do devedor, do crédito e da instituição seguinte)."
+    },
+    "MS03": {
+      "name": "Devedor em falta",
+      "definition": "Falta o devedor."
+    },
+    "MS04": {
+      "name": "Conta do devedor em falta",
+      "definition": "Falta a conta do devedor (DebtorAccount)."
+    },
+    "MS05": {
+      "name": "Instituição do devedor em falta",
+      "definition": "Falta a instituição do devedor (DebtorAgent) (anteriormente MissingFirstAgent para transferências)."
+    },
+    "MS06": {
+      "name": "Montante em falta",
+      "definition": "Falta o montante."
+    },
+    "MS07": {
+      "name": "Conta de liquidação em falta",
+      "definition": "Falta a conta de liquidação (SettlementAccount). (anteriormente MissingNostroVostroAccount)."
+    },
+    "MS08": {
+      "name": "Intermediário em falta",
+      "definition": "Falta o intermediário."
+    },
+    "MS09": {
+      "name": "Instituição de reembolso ordenante em falta",
+      "definition": "Falta a instituição de reembolso ordenante (InstructingReimbursementAgent) (anteriormente MissingReimbursementAgent1)."
+    },
+    "MS10": {
+      "name": "Instituição de reembolso ordenada em falta",
+      "definition": "Falta a instituição de reembolso ordenada (InstructedReimbursementAgent) (anteriormente MissingReimbursementAgent2)."
+    },
+    "MS11": {
+      "name": "Terceira instituição de reembolso em falta",
+      "definition": "Falta a terceira instituição de reembolso (anteriormente MissingReimbursementAgent)."
+    },
+    "MS12": {
+      "name": "Credor em falta",
+      "definition": "Falta o credor."
+    },
+    "MS13": {
+      "name": "Conta do credor em falta",
+      "definition": "Falta a conta do credor (CreditorAccount)."
+    },
+    "MS14": {
+      "name": "Instrução em falta",
+      "definition": "Falta a instrução de pagamento."
+    },
+    "MS15": {
+      "name": "Instituição do credor em falta",
+      "definition": "Falta a instituição do credor (anteriormente MissingFirstAgent para débitos diretos)."
+    },
+    "MS16": {
+      "name": "Instrução para a instituição do credor em falta",
+      "definition": "Falta a instrução para a instituição do credor (anteriormente MissingSenderToReceiverInformation, dividido em informações do devedor, do crédito e da instituição seguinte)."
+    },
+    "MS17": {
+      "name": "Instrução para a instituição do devedor em falta",
+      "definition": "Falta a instrução para a instituição do devedor (anteriormente MissingSenderToReceiverInformation, dividido em informações do devedor, do crédito e da instituição seguinte)."
+    },
+    "MS18": {
+      "name": "Informações de remessa conexas em falta",
+      "definition": "Faltam as informações de remessa relacionadas (RelatedRemittanceInformation)."
+    },
+    "NARR": {
+      "name": "Descritivo",
+      "definition": "Consulte o campo narrativo para informações adicionais."
+    }
+  }
+}

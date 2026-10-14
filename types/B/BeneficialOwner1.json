@@ -1,0 +1,36 @@
+{
+  "isoType": "BeneficialOwner1",
+  "definition": "Fornece informações sobre o beneficiário efetivo dos valores mobiliários.",
+  "isoElements": {
+    "BeneficialOwnerIdentification": {
+      "definition": "Identificação da parte que é o proprietário efetivo dos valores mobiliários especificados."
+    },
+    "AdditionalIdentification": {
+      "definition": "Identificação adicional da parte que é o proprietário efetivo dos valores mobiliários especificados."
+    },
+    "Nationality": {
+      "definition": "Nacionalidade do beneficiário efetivo."
+    },
+    "DomicileCountry": {
+      "definition": "País em que uma pessoa tem domicílio permanente (o local da residência permanente de uma pessoa)."
+    },
+    "NonDomicileCountry": {
+      "definition": "O titular do valor mobiliário tem de certificar, em conformidade com os termos da operação sobre títulos, que não tem domicílio no país indicado."
+    },
+    "CertificationIndicator": {
+      "definition": "Indica se é ou não exigida certificação por parte do titular da conta. |Yes: certificação exigida |No: certificação não exigida."
+    },
+    "CertificationType": {
+      "definition": "Tipo de certificação exigida."
+    },
+    "DeclarationDetails": {
+      "definition": "Fornece uma descrição narrativa dos detalhes da declaração relativa ao instrumento financeiro, p. ex., a titularidade efetiva."
+    },
+    "SecurityIdentification": {
+      "definition": "Identificação do instrumento financeiro."
+    },
+    "ElectedSecuritiesQuantity": {
+      "definition": "Quantidade de valores mobiliários escolhida pelo proprietário efetivo."
+    }
+  }
+}

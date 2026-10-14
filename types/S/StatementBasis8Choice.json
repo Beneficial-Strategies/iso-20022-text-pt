@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementBasis8Choice",
+  "definition": "Escolha do formato da base do extrato.",
+  "isoElements": {
+    "Code": {
+      "definition": "Base do extrato expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Base do extrato expressa como um código proprietário."
+    }
+  }
+}

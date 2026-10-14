@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyOrGroup3Choice",
+  "definition": "Especifica uma escolha entre uma parte ou um grupo de partes.",
+  "isoElements": {
+    "GroupIdentification": {
+      "definition": "Especifica a identificação de um grupo de partes."
+    },
+    "Party": {
+      "definition": "Especifica uma parte."
+    }
+  }
+}

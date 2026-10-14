@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesBalanceType6Choice",
+  "definition": "Escolha do formato para o tipo de saldo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Subsaldo expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Subsaldo expresso como um código proprietário."
+    }
+  }
+}

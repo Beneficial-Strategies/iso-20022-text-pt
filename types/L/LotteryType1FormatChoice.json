@@ -1,0 +1,12 @@
+{
+  "isoType": "LotteryType1FormatChoice",
+  "definition": "Escolha de formatos para exprimir o tipo de sorteio.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de sorteio."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir o tipo de sorteio."
+    }
+  }
+}

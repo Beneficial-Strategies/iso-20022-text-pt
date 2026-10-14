@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationCancellationAllowed4Choice",
+  "definition": "Escolha do formato das informações sobre a modificação e o cancelamento.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica se um terceiro tem permissão para modificar ou cancelar a operação."
+    },
+    "Proprietary": {
+      "definition": "Informações sobre a permissão de modificação e cancelamento expressas como um código próprio."
+    }
+  }
+}

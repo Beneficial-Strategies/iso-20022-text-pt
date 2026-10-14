@@ -1,0 +1,12 @@
+{
+  "isoType": "ErrorHandling5",
+  "definition": "Especifica o erro resultante do processamento de um pedido.",
+  "isoElements": {
+    "Error": {
+      "definition": "Especificação do erro, em formato codificado ou proprietário."
+    },
+    "Description": {
+      "definition": "Especificação do erro, em formato livre."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "PaymentCard37",
+  "definition": "Cartão que efetua a operação de levantamento.",
+  "isoElements": {
+    "CardDataEntryMode": {
+      "definition": "Modo de entrada utilizado para obter os dados do cartão."
+    },
+    "FallbackIndicator": {
+      "definition": "Indica a ocorrência de um recurso (fall-back) no modo de entrada do cartão.|Utilização: quando ausente, o valor por omissão é Falso."
+    },
+    "ProtectedCardData": {
+      "definition": "Substituição do elemento de mensagem PlainCardData por um envelope digital que utiliza uma chave criptográfica."
+    },
+    "PlainCardData": {
+      "definition": "Dados sensíveis associados ao cartão que efetua a operação."
+    },
+    "CardCountryCode": {
+      "definition": "Código do país atribuído ao cartão pelo emitente do cartão."
+    },
+    "CardCurrencyCode": {
+      "definition": "Código da moeda do emitente do cartão (código numérico ISO 4217)."
+    },
+    "ElectronicPurseBalance": {
+      "definition": "Saldo do cartão retido ou da carteira eletrónica, se disponível."
+    }
+  }
+}

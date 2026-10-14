@@ -1,0 +1,15 @@
+{
+  "isoType": "InstructionStatus14Choice",
+  "definition": "Estado aplicável globalmente à instrução recebida.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Estado que informa sobre o tratamento da instrução."
+    },
+    "Rejected": {
+      "definition": "Estado que informa sobre a rejeição da instrução e sobre o motivo da rejeição."
+    },
+    "Pending": {
+      "definition": "Estado que informa que a instrução está pendente e sobre o motivo do estado de pendente."
+    }
+  }
+}

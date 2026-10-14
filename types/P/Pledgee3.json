@@ -1,0 +1,17 @@
+{
+  "isoType": "Pledgee3",
+  "definition": "Identifica a entidade a favor da qual os instrumentos financeiros são penhorados.",
+  "isoElements": {
+    "PledgeeTypeAndIdentification": {
+      "definition": "Identificação única da parte."
+    },
+    "LEI": {
+      "definition": "Identificação da entidade jurídica como identificação alternativa de uma parte."
+    }
+  },
+  "isoRules": {
+    "PledgeeTypeAndIdentificationOrLEIRule": {
+      "definition": "PledgeeTypeAndIdentification deve estar presente ou LEI deve estar presente."
+    }
+  }
+}

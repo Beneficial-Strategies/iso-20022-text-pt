@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferReason1Choice",
+  "definition": "Escolha entre formatos para um motivo de transferência.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo da transferência expresso como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Motivo da transferência expresso como código proprietário."
+    }
+  }
+}

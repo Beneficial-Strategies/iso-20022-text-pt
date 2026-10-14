@@ -1,0 +1,30 @@
+{
+  "isoType": "AdditionalParameters16",
+  "definition": "Especifica parâmetros adicionais da mensagem ou da operação.",
+  "isoElements": {
+    "PartialSettlement": {
+      "definition": "Especifica as informações sobre a liquidação parcial."
+    },
+    "PreviousPartialConfirmationIdentification": {
+      "definition": "Identificação da confirmação anteriormente enviada para confirmar a liquidação parcial de uma operação."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pelo titular da conta (ou pela parte instrutora que gere a conta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pela instituição gestora da conta."
+    },
+    "PoolIdentification": {
+      "definition": "Referência coletiva que identifica um conjunto de mensagens."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificação atribuída pela instituição gestora da conta para identificar inequivocamente um evento societário."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador."
+    }
+  }
+}

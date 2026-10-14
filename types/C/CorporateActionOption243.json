@@ -1,0 +1,65 @@
+{
+  "isoType": "CorporateActionOption243",
+  "definition": "Fornece informações sobre a opção de operação sobre títulos.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "OptionFeatures": {
+      "definition": "Especifica as características que podem aplicar-se a uma opção de evento societário."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica o tratamento dado a montantes/quantidades fracionários."
+    },
+    "ChangeType": {
+      "definition": "Tipo de alterações que afetam a forma do valor mobiliário."
+    },
+    "EligibleForCollateralIndicator": {
+      "definition": "Indica que a instrução relativa à operação sobre títulos deve ser processada utilizando o conjunto Available-for-Collateral."
+    },
+    "SolicitationDealerFeeIndicator": {
+      "definition": "Indica se existe uma comissão de solicitação no evento. Esta comissão é paga pelo intermediário solicitante."
+    },
+    "CurrencyToBuy": {
+      "definition": "O prestador de serviços de conta recebe instrução para comprar a moeda indicada após a receção do produto em numerário."
+    },
+    "CurrencyToSell": {
+      "definition": "O prestador de serviços de conta recebe instrução para vender a moeda indicada a fim de obter a moeda necessária para financiar a operação nesta mensagem de instrução."
+    },
+    "CurrencyOption": {
+      "definition": "Moeda em que o produto em numerário deve ser creditado ou debitado."
+    },
+    "SecurityIdentification": {
+      "definition": "Identifica o instrumento financeiro."
+    },
+    "SecuritiesQuantityOrInstructedAmount": {
+      "definition": "Fornece informações sobre a quantidade de valores mobiliários associada a uma opção de operação sobre títulos."
+    },
+    "ExecutionRequestedDateTime": {
+      "definition": "Data/hora em que a parte que instrui solicita que a instrução seja executada."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fornece informações sobre taxas e montantes relacionados com uma opção de operação sobre títulos."
+    },
+    "PriceDetails": {
+      "definition": "Fornece informações sobre os preços relacionados com uma opção de operação sobre títulos."
+    },
+    "ShareholderNumber": {
+      "definition": "Número de referência atribuído para identificar um investidor ou um acionista junto do emitente ou do prestador de registo (por exemplo, código de atribuição)."
+    },
+    "AdditionalInformation": {
+      "definition": "Fornece informações adicionais."
+    }
+  },
+  "isoRules": {
+    "OptionNumber1Rule": {
+      "definition": "Para diferenciar as opções, deve ser utilizado o OptionNumber em vez do OptionType, por exemplo, no caso em que duas ou mais ofertas possam ser descritas pelo mesmo código de opção de operação sobre títulos. Por conseguinte, o valor de OptionNumber tem de ser diferente para cada opção."
+    },
+    "OptionNumber2Rule": {
+      "definition": "Quando CorporateActionInstruction não foi solicitada, isto é, a instrução não foi precedida de uma Corporate ActionNotification, então OptionNumber/code tem de ser UNSO (unsolicited)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementReason9",
+  "definition": "Especifica informações adicionais sobre a instrução tratada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo indicado para o estado."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser indicadas num campo estruturado."
+    }
+  }
+}

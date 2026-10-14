@@ -1,0 +1,18 @@
+{
+  "isoType": "MandateAdjustment1",
+  "definition": "Especifica os detalhes do ajustamento do mandato.",
+  "isoElements": {
+    "DateAdjustmentRuleIndicator": {
+      "definition": "Especifica se um ajustamento deve ou não ser aplicado na data de cobrança previamente acordada."
+    },
+    "Category": {
+      "definition": "Define a categoria do ajustamento."
+    },
+    "Amount": {
+      "definition": "Montante previamente acordado para aumentar ou diminuir o montante do mandato, conforme justificado pelas informações da categoria."
+    },
+    "Rate": {
+      "definition": "Taxa de aumento ou diminuição previamente acordada que será aplicada ao montante de cobrança."
+    }
+  }
+}

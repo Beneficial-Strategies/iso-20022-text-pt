@@ -1,0 +1,66 @@
+{
+  "isoType": "PendingReason41Code",
+  "definition": "Especifica um motivo pelo qual a instrução está pendente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "A instrução foi recebida depois do prazo limite da entidade gestora da conta. Será gerida de acordo com o acordo de serviço bilateral entre a entidade gestora da conta e o titular da conta."
+    },
+    "ADDM": {
+      "name": "Documentação adicional em falta",
+      "definition": "Faltam os documentos adicionais solicitados."
+    },
+    "DREM": {
+      "name": "Prazo de registo ultrapassado",
+      "definition": "O prazo de registo foi ultrapassado."
+    },
+    "IPED": {
+      "name": "Instrução anterior à data do direito",
+      "definition": "A instrução foi recebida antes da data de direito."
+    },
+    "IPOS": {
+      "name": "Posição insuficiente para o limiar",
+      "definition": "A posição é inferior ao limiar exigido."
+    },
+    "LACK": {
+      "name": "Falta de valores mobiliários",
+      "definition": "Instrumentos financeiros insuficientes na sua conta."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "A instrução foi recebida após o prazo limite do mercado."
+    },
+    "IPOA": {
+      "name": "POA em falta ou inválida",
+      "definition": "Procuração em falta ou inválida."
+    },
+    "NPOS": {
+      "name": "Sem posição registada",
+      "definition": "Posição registada insuficiente ou inexistente."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "FULL": {
+      "name": "Dados do beneficiário efetivo pendentes",
+      "definition": "A aguardar a receção dos dados do titular beneficiário."
+    },
+    "PENR": {
+      "name": "Receção pendente",
+      "definition": "A instrução aguarda a receção de valores mobiliários, por exemplo, de uma compra ou de um empréstimo."
+    },
+    "PRXY": {
+      "name": "Discrepância no cartão de procuração",
+      "definition": "Informações de mandatário inválidas."
+    },
+    "DQUA": {
+      "name": "Desacordo quanto à quantidade",
+      "definition": "A quantidade de instrumentos financeiros não corresponde."
+    },
+    "IREG": {
+      "name": "Discrepância no registo",
+      "definition": "Discrepância de registo inválido."
+    }
+  }
+}

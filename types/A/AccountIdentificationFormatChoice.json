@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountIdentificationFormatChoice",
+  "definition": "Escolha entre formatos para a identificação da conta.",
+  "isoElements": {
+    "SimpleIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "IdentificationAndPurpose": {
+      "definition": "Identificação da conta expressa com um número de conta e um código."
+    },
+    "IdentificationAsDSS": {
+      "definition": "Identificação da conta expressa com um esquema da fonte de dados, um código utilizado nesse esquema e a identificação da conta."
+    }
+  }
+}

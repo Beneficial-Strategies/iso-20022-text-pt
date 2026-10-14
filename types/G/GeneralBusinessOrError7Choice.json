@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneralBusinessOrError7Choice",
+  "definition": "Utilizado para fornecer a alguns ou a todos os membros informações relacionadas com o processamento do sistema.",
+  "isoElements": {
+    "OperationalError": {
+      "definition": "Indica que foi emitido um erro operacional durante o processamento do pedido associado."
+    },
+    "BusinessReport": {
+      "definition": "Informa sobre as informações de negócio ou sobre um erro de negócio."
+    }
+  }
+}

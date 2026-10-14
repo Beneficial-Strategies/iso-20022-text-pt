@@ -1,0 +1,18 @@
+{
+  "isoType": "ResolutionStatus2Code",
+  "definition": "Especifica o estado de uma deliberação na ordem de trabalhos de uma assembleia.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Aceite",
+      "definition": "A deliberação da assembleia foi aceite."
+    },
+    "REJT": {
+      "name": "Rejeitado",
+      "definition": "A deliberação da assembleia foi rejeitada."
+    },
+    "WDRA": {
+      "name": "Retirado",
+      "definition": "A deliberação da assembleia foi retirada."
+    }
+  }
+}

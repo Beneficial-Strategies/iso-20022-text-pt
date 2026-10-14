@@ -1,0 +1,12 @@
+{
+  "isoType": "IssuerOfferorTaxabilityIndicator2Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o estado de tributação do emitente / oferente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar informações relativas ao estado de tributação do emitente / oferente."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária para especificar informações relativas ao estado de tributação do emitente / oferente."
+    }
+  }
+}

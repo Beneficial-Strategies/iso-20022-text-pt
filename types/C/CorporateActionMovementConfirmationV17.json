@@ -1,0 +1,41 @@
+{
+  "isoType": "CorporateActionMovementConfirmationV17",
+  "definition": "Âmbito|A mensagem CorporateActionMovementConfirmation é enviada por um prestador de serviços de conta a um titular de conta ou ao seu agente designado para confirmar o lançamento de valores mobiliários ou de numerário em resultado de um evento de operação sobre ativos.|Utilização|A mensagem também pode ser utilizada para:|- reenviar uma mensagem enviada anteriormente (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem para fins informativos (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem para fins informativos (a subfunção da mensagem é Copy Duplicate), utilizando os elementos relevantes no cabeçalho aplicacional de negócio (BAH).",
+  "isoElements": {
+    "MovementConfirmationIdentification": {
+      "definition": "Identificação única do grupo de mensagens de confirmação de movimento de operação sobre ativos quando a confirmação de movimento é dividida em várias mensagens (paginadas)."
+    }
+  },
+  "isoRules": {
+    "OptionNumberRule": {
+      "definition": "O valor de CorporateActionConfirmationDetails/OptionNumber fornecido deve ser o mesmo que o fornecido no elemento CorporateActionOptionDetails/OptionNumber correspondente das mensagens CorporateActionNotification ou CorporateActionMovementPreliminaryAdvice enviadas anteriormente."
+    },
+    "ScripOrDividendReinvestment1Rule": {
+      "definition": "Se CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/CashAmountCarriedForward ou CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/CashAmountBroughtForward estiver presente, então o valor de CorporateActionGeneralInformation/EventType/Code deve ser DVSC (ScripDividend) ou DRIP (DividendReinvestment)."
+    },
+    "ScripOrDividendReinvestment2Rule": {
+      "definition": "Se CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/NotionalDividendPayableAmount ou CorporateActionConfirmationDetails/CashMovementDetails/AmountDetails/NotionalTaxAmount estiver presente, então o valor de CorporateActionGeneralInformation/EventType/Code deve ser DVSC (ScripDividend)."
+    },
+    "ScripOrDividendReinvestment3Rule": {
+      "definition": "Se CorporateActionConfirmationDetails/CashMovementDetails/TaxVoucherDetails/BargainDate ou CorporateActionConfirmationDetails/CashMovementDetails/TaxVoucherDetails/BargainSettlementDate estiver presente, então o valor de CorporateActionGeneralInformation/EventType/Code deve ser DRIP (DividendReinvestment)."
+    },
+    "AdditionalInformationRule": {
+      "definition": "Todos os elementos da sequência AdditionalInformation não devem conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral ou indicação em contrário na definição do elemento, como em AdditionalInformation/NarrativeVersion."
+    },
+    "IssuerAgentGuideline": {
+      "definition": "IssuerAgent só deve ser utilizado na comunicação entre um CSD e custodiantes locais."
+    },
+    "IncentivePremiumEventType1Rule": {
+      "definition": "Se o valor de Code for igual a INCP (IncentivePremiumPayment) em  CorporateActionDetails/AdditionalBusinessProcessIndicator, então o valor de CorporateActionGeneralInformation/EventType/Code deve ser igual a CONS (Consent).|(MT 566 NVR C9)"
+    },
+    "IntermediateSecuritiesDistribution1Rule": {
+      "definition": "Se CorporateActionGeneralInformation/EventType/Code for RHDI (IntermediateSecuritiesDistribution), então CorporateActionDetails/|IntermediateSecuritiesDistributionType deve estar presente.|(MT 566 NVR C5)."
+    },
+    "IncentivePremiumEventTypeUG1Rule": {
+      "definition": "Se o valor de Code for igual a INCP (IncentivePremiumPayment) em qualquer ocorrência de CorporateActionDetails/AdditionalBusinessProcessIndicator, o valor de CorporateActionGeneralInformation/EventType/Code deve ser igual a CONS (Consent).|(MT 564 NVR C26)"
+    },
+    "PaginationRule": {
+      "definition": "Se a paginação estiver presente, então MovementConfirmationIdentification deve estar presente."
+    }
+  }
+}

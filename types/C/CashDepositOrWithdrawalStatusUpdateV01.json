@@ -1,0 +1,4 @@
+{
+  "isoType": "CashDepositOrWithdrawalStatusUpdateV01",
+  "definition": "A mensagem CashDepositOrWithdrawalStatusUpdate comunica o estado de um pedido de depósito de numerário ou de um pedido de levantamento de numerário.|Quando comunica o estado de um pedido de depósito de numerário, é enviada por um destinatário de numerário a um remetente de numerário.|Quando comunica o estado de um pedido de levantamento de numerário, é enviada por um remetente de numerário a um destinatário de numerário."
+}

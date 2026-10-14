@@ -1,0 +1,9 @@
+{
+  "isoType": "BuyerProtectionInstructionCancellationRequestStatusAdviceV01",
+  "definition": "Âmbito|A mensagem BuyerProtectionInstructionCancellationRequestStatusAdvice é enviada por uma entidade gestora de contas a um titular de conta ou ao seu agente designado para comunicar o estado de uma mensagem BuyerProtectionInstructionCancellationRequest anteriormente recebida, enviada pelo titular da conta. Inclui o aviso de receção/rejeição de um pedido de cancelamento de uma instrução pendente. ||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem anteriormente enviada (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy Duplicate), utilizando os elementos pertinentes do cabeçalho aplicacional de negócio (BAH).",
+  "isoElements": {
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador da instrução que não seja o titular da conta, o intermediário da conta nem a infraestrutura do mercado."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "AgentCAMovementStatusAdviceV01",
+  "definition": "Âmbito|Esta mensagem é enviada por uma CSD a um emitente (ou ao seu agente) para comunicar o estado, ou uma alteração de estado, de:|- um aviso de estado de distribuição global emitido por um emitente (ou pelo seu agente);|- uma instrução de movimento emitida por um emitente (ou pelo seu agente);|- um pedido de cancelamento de movimento enviado pelo emitente (ou pelo seu agente); e|- a não liquidação dos movimentos na CSD.|Utilização|Esta mensagem é utilizada para comunicar o estado de:|- os movimentos resultantes de uma mensagem de instrução de movimento, caso em que a Agent Corporate Action Movement Instruction Identification tem de estar presente;|- os movimentos resultantes de uma mensagem de aviso de estado de distribuição global (com o estado, autorizado), caso em que a Agent Corporate Action Global Distribution Status Advice Identification tem de estar presente;|- o pedido de cancelamento de movimento, caso em que a Agent Corporate Action Movement Cancellation Request Identification tem de estar presente; e|- os movimentos resultantes de um aviso de estado de escolha (se o estado do aviso de escolha for rejeitado ou se o estado do pedido de cancelamento ou de alteração de escolha for aceite) caso exista um problema de liquidação. A Election Status Advice Identification tem de estar presente.|No caso de uma falha de liquidação, a mensagem contém detalhes do movimento, tais como dados da conta, informações sobre valores mobiliários ou numerário e o motivo da falha.|Esta mensagem não deve ser utilizada para fornecer a confirmação da liquidação; deve ser utilizada, em alternativa, a mensagem Agent Corporate Action Movement Confirmation.",
+  "isoRules": {
+    "StatusIdentificationRule": {
+      "definition": "Tem de estar presente AgentCAElectionStatusAdviceIdentification ou AgentCAGlobalDistributionStatusAdviceIdentification ou AgentCAMovementInstructionIdentification ou AgentCAMovementCancellationRequestIdentification."
+    },
+    "StatusIdentificationRuleNotBoth": {
+      "definition": "Tem de estar presente AgentCAElectionStatusAdviceIdentification ou AgentCAGlobalDistributionStatusAdviceIdentification ou AgentCAMovementInstructionIdentification ou AgentCAMovementCancellationRequestIdentification."
+    },
+    "StatusIdentificationRuleNotBoth2": {
+      "definition": "Tem de estar presente AgentCAElectionStatusAdviceIdentification ou AgentCAGlobalDistributionStatusAdviceIdentification ou AgentCAMovementInstructionIdentification ou AgentCAMovementCancellationRequestIdentification."
+    },
+    "StatusIdentificationRuleNotBoth3": {
+      "definition": "Tem de estar presente AgentCAElectionStatusAdviceIdentification ou AgentCAGlobalDistributionStatusAdviceIdentification ou AgentCAMovementInstructionIdentification ou AgentCAMovementCancellationRequestIdentification."
+    },
+    "MovementStatusDetailsOrMovementCancellationStatusDetailsRule": {
+      "definition": "Tem de estar presente MovementStatusDetails ou MovementCancellationStatusDetails, mas não ambos."
+    },
+    "MovementStatusDetailsOrMovementCancellationStatusDetailsRuleNotBoth": {
+      "definition": "Tem de estar presente MovementStatusDetails ou MovementCancellationStatusDetails, mas não ambos."
+    },
+    "MovementStatusDetailsRule": {
+      "definition": "Se AgentCAElectionStatusAdviceIdentification, AgentCAGlobalDistributionStatusAdviceIdentification ou AgentCAMovementInstructionIdentification estiver presente, então MovementStatusDetails tem de estar presente."
+    },
+    "MovementCancellationStatusDetailsRule": {
+      "definition": "Se AgentCAMovementCancellationRequestIdentification estiver presente, MovementCancellationStatusDetails tem de estar presente."
+    }
+  }
+}

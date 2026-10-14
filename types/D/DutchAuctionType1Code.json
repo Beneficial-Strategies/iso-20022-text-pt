@@ -1,0 +1,14 @@
+{
+  "isoType": "DutchAuctionType1Code",
+  "definition": "Especifica o tipo de leilão holandês.",
+  "isoCodes": {
+    "MDFD": {
+      "name": "Modificado",
+      "definition": "Todas as instruções são aceites ao mesmo preço (oferta do emitente)."
+    },
+    "UNMD": {
+      "name": "Não modificado",
+      "definition": "Todas as instruções são aceites ao preço instruído (oferta de compra)."
+    }
+  }
+}

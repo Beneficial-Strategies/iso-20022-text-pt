@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementTimeRequest2",
+  "definition": "Fornece informações sobre o(s) momento(s) de liquidação solicitado(s) da instrução de pagamento.",
+  "isoElements": {
+    "CLSTime": {
+      "definition": "Hora até à qual o montante tem de ser creditado, com confirmação, na conta do CLS Bank junto do banco central.|Utilização: A hora deve ser expressa em hora da Europa Central (CET)."
+    },
+    "TillTime": {
+      "definition": "Hora até à qual o pagamento pode ser liquidado."
+    },
+    "FromTime": {
+      "definition": "Hora a partir da qual o pagamento pode ser liquidado."
+    },
+    "RejectTime": {
+      "definition": "Hora até à qual o pagamento tem de ser liquidado para evitar a rejeição."
+    }
+  }
+}

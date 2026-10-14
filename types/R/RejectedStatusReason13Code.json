@@ -1,0 +1,194 @@
+{
+  "isoType": "RejectedStatusReason13Code",
+  "definition": "Especifica o motivo do estado de rejeição de uma instrução de transferência ou de liquidação.",
+  "isoCodes": {
+    "BLCA": {
+      "name": "Conta bloqueada por operação sobre títulos",
+      "definition": "A conta de investimento está bloqueada devido a uma ação societária."
+    },
+    "DOCC": {
+      "name": "Conta bloqueada por documentos em falta",
+      "definition": "A conta de investimento está bloqueada até à conclusão de determinados processos judiciais, por exemplo, documentos legais do sucessor, processos judiciais devido a falência."
+    },
+    "IAQD": {
+      "name": "Data de aquisição",
+      "definition": "A data de aquisição não é reconhecida ou é inválida."
+    },
+    "ICTN": {
+      "name": "Número do certificado",
+      "definition": "O número do certificado não é reconhecido ou é inválido."
+    },
+    "CYPA": {
+      "name": "Parcial do ano corrente",
+      "definition": "A transferência parcial do ano em curso não é permitida, isto é, não é possível transferir um ativo do ano em curso porque são detidos outros ativos do ano em curso."
+    },
+    "TREF": {
+      "name": "Referência de transferência duplicada",
+      "definition": "A referência da transferência é duplicada de uma transferência recebida anteriormente."
+    },
+    "DSEC": {
+      "name": "Identificação do instrumento financeiro",
+      "definition": "A identificação do valor mobiliário não é reconhecida ou é inválida."
+    },
+    "IDNA": {
+      "name": "Identificação e denominação do instrumento financeiro",
+      "definition": "A identificação do valor mobiliário e o nome do valor mobiliário não coincidem."
+    },
+    "DQUA": {
+      "name": "Quantidade do instrumento financeiro",
+      "definition": "A quantidade do instrumento financeiro é inválida."
+    },
+    "FTAX": {
+      "name": "Ano fiscal do instrumento financeiro",
+      "definition": "O instrumento financeiro não é válido para o ano fiscal solicitado."
+    },
+    "INID": {
+      "name": "Dados do investidor insuficientes",
+      "definition": "Os dados do investidor são insuficientes. Aplicável quando não é seguida a prática de mercado obrigatória."
+    },
+    "INAC": {
+      "name": "Gestor de conta inválido",
+      "definition": "O prestador de serviços da conta não é reconhecido ou é inválido."
+    },
+    "CASH": {
+      "name": "Conta de numerário inválida",
+      "definition": "A conta de numerário não é reconhecida ou é inválida."
+    },
+    "INPM": {
+      "name": "Novo gestor do plano inválido",
+      "definition": "O novo gestor do plano não é reconhecido ou é inválido."
+    },
+    "INNA": {
+      "name": "Conta de depositário designado inválida",
+      "definition": "A conta de nominee não é reconhecida ou é inválida."
+    },
+    "SAFE": {
+      "name": "Conta de investimento",
+      "definition": "A identificação da conta de investimento não é reconhecida ou é inválida."
+    },
+    "INUK": {
+      "name": "Nome e morada do investidor desconhecidos",
+      "definition": "O nome e a morada do investidor não são reconhecidos."
+    },
+    "LEGL": {
+      "name": "Legalmente impossível",
+      "definition": "Cancelamento legalmente impossível."
+    },
+    "NSLA": {
+      "name": "Não conforme com o SLA",
+      "definition": "A instrução não está em conformidade com o acordo de nível de serviço."
+    },
+    "SECU": {
+      "name": "Instrumentos financeiros insuficientes",
+      "definition": "Não existem valores mobiliários suficientes na conta para processar a instrução."
+    },
+    "PTNS": {
+      "name": "Parcial não suportado",
+      "definition": "A transferência parcial não é suportada. Aplicável quando os anos fiscais são agregados e, por exemplo, é recebido um pedido de transferência apenas para o ano fiscal de 2000, não sendo possível processá-lo porque o investidor detém também outros anos fiscais."
+    },
+    "DLVY": {
+      "name": "Entrega física impossível",
+      "definition": "A ordem contém detalhes de entrega física, mas o fundo não pode ser entregue fisicamente."
+    },
+    "DDAT": {
+      "name": "Data de liquidação",
+      "definition": "A data de liquidação em numerário não é reconhecida ou é inválida."
+    },
+    "ISTP": {
+      "name": "Partes na liquidação",
+      "definition": "Uma ou várias partes de liquidação não são reconhecidas ou são inválidas."
+    },
+    "DEPT": {
+      "name": "Local de liquidação",
+      "definition": "O local de liquidação não é reconhecido ou é inválido."
+    },
+    "ISAT": {
+      "name": "Tipo de ISA inválido",
+      "definition": "O tipo de ISA não é reconhecido ou é inválido."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro motivo para o estado de rejeição."
+    },
+    "NCON": {
+      "name": "Não convertível",
+      "definition": "As duas classes de unidades de participação não fazem parte do mesmo fundo."
+    },
+    "ACLO": {
+      "name": "Ativo encerrado",
+      "definition": "O ativo objeto da instrução de transferência está encerrado."
+    },
+    "NASS": {
+      "name": "Ativo não suportado",
+      "definition": "O ativo não suporta novo registo."
+    },
+    "NQTY": {
+      "name": "Quantidade inferior ao mínimo",
+      "definition": "A quantidade a transferir é demasiado reduzida."
+    },
+    "BLTR": {
+      "name": "Conta bloqueada para transferência",
+      "definition": "A conta de investimento está bloqueada devido a uma transferência de saída de fundos de investimento."
+    },
+    "COSE": {
+      "name": "Já executado",
+      "definition": "A ordem ou transferência já foi executada e a confirmação foi enviada."
+    },
+    "ILLI": {
+      "name": "Ativos ilíquidos",
+      "definition": "Os ativos são ilíquidos."
+    },
+    "BMRV": {
+      "name": "Inferior ao montante mínimo retido",
+      "definition": "A posição ficará abaixo do valor mínimo a manter."
+    },
+    "DINV": {
+      "name": "Dados inválidos",
+      "definition": "Os dados na ordem ou na instrução de transferência são inválidos."
+    },
+    "ICAG": {
+      "name": "Instituição entregadora",
+      "definition": "O agente entregador não é reconhecido ou é inválido."
+    },
+    "IPAC": {
+      "name": "Parte ordenante não autorizada para a conta",
+      "definition": "A parte ordenante não está autorizada a dar instruções para esta conta de investimento."
+    },
+    "INTE": {
+      "name": "Intermediário",
+      "definition": "O intermediário não é reconhecido ou é inválido."
+    },
+    "DMON": {
+      "name": "Montante de liquidação inválido",
+      "definition": "Montante de liquidação não reconhecido ou inválido."
+    },
+    "PRCT": {
+      "name": "Violação da percentagem de participação",
+      "definition": "Violação da percentagem de participação, por exemplo, regras PPM; regras fiscais (ERISA)."
+    },
+    "IVAG": {
+      "name": "Instituição recetora",
+      "definition": "O agente recetor não é reconhecido ou é inválido."
+    },
+    "NCRR": {
+      "name": "Moeda do montante de liquidação",
+      "definition": "Moeda do montante de liquidação não reconhecida ou inválida."
+    },
+    "DTRD": {
+      "name": "Data de negociação",
+      "definition": "Data da negociação, data de negociação solicitada ou data de negociação futura não reconhecida ou inválida."
+    },
+    "UPAY": {
+      "name": "Método de pagamento não aceite",
+      "definition": "O método de pagamento, por exemplo, cheque ou cartão de pagamento, não é aceite."
+    },
+    "URSC": {
+      "name": "Moeda de liquidação solicitada não aceite",
+      "definition": "A moeda de liquidação solicitada não é suportada."
+    },
+    "NCMP": {
+      "name": "Não conforme com a prática de mercado",
+      "definition": "A instrução não está em conformidade com a prática de mercado aplicável."
+    }
+  }
+}

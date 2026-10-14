@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason42Choice",
+  "definition": "Escolha do formato do motivo de rejeição.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução/pedido tem o estado de reparação ou rejeição."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo pelo qual a instrução/pedido tem o estado de reparação ou rejeição."
+    }
+  }
+}

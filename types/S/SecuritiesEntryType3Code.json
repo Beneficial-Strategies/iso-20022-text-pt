@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesEntryType3Code",
+  "definition": "Especifica o tipo de lançamento de valores mobiliários numa conta.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Elegível",
+      "definition": "Número total de valores mobiliários elegíveis para este evento."
+    },
+    "UNBA": {
+      "name": "Saldo sem instruções",
+      "definition": "Saldo da posição não instruída."
+    },
+    "INBA": {
+      "name": "Saldo com instruções",
+      "definition": "Saldo da posição instruída."
+    }
+  }
+}

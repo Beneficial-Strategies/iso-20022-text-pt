@@ -1,0 +1,70 @@
+{
+  "isoType": "OptionFeatures15Code",
+  "definition": "Especifica as características que podem aplicar-se a uma opção de evento societário.",
+  "isoCodes": {
+    "NOSE": {
+      "name": "Nenhum serviço oferecido",
+      "definition": "Característica pela qual o detentor tem de optar diretamente junto do agente do emitente (opção suportada apenas pelo emitente)."
+    },
+    "CAOS": {
+      "name": "Aplicabilidade da opção",
+      "definition": "A aplicabilidade da opção não depende da decisão do titular da conta, mas dos termos definidos pelo emitente, por exemplo, no caso de títulos indexados a ações ou de warrants."
+    },
+    "COND": {
+      "name": "Condicional",
+      "definition": "Característica pela qual o detentor pode optar por impor uma condição à aceitação da opção."
+    },
+    "MAXC": {
+      "name": "Numerário máximo",
+      "definition": "Opção de numerário máximo, que pode estar sujeita a redução proporcional, pelo que pode receber-se uma combinação de numerário e valores mobiliários como resultado."
+    },
+    "MAXS": {
+      "name": "Valores mobiliários máximos",
+      "definition": "Opção de ações máxima, que pode estar sujeita a redução proporcional, pelo que pode receber-se uma combinação de valores mobiliários e numerário como resultado."
+    },
+    "OPLF": {
+      "name": "Preferência por lote irregular",
+      "definition": "Oferta ou troca com preferência para lotes incompletos."
+    },
+    "PROR": {
+      "name": "Rateio",
+      "definition": "Característica pela qual a opção pode estar sujeita a rateio em caso, por exemplo, de excesso de subscrição."
+    },
+    "VVPR": {
+      "name": "Retenção na fonte reduzida",
+      "definition": "Aplica-se à opção uma taxa reduzida de imposto retido na fonte."
+    },
+    "PINS": {
+      "name": "Invalidade da instrução anterior",
+      "definition": "Indica que as instruções enviadas anteriormente deixam de ser válidas. Aplica-se apenas após uma prorrogação do prazo de mercado."
+    },
+    "ASVO": {
+      "name": "Opção da instituição gestora da conta",
+      "definition": "A opção é oferecida apenas pela instituição gestora da conta."
+    },
+    "BOIS": {
+      "name": "Instrução do beneficiário efetivo",
+      "definition": "Indica que o detentor só tem de dar instruções ao nível do titular efetivo."
+    },
+    "QCAS": {
+      "name": "Instruir montante em numerário",
+      "definition": "Característica pela qual o detentor só deve dar instruções sobre um montante em numerário."
+    },
+    "SHAR": {
+      "name": "Número do acionista",
+      "definition": "Indica a utilização de um número de referência para identificar um investidor ou um acionista junto do emitente ou do prestador de serviços de registo (por exemplo, código de atribuição)."
+    },
+    "RGRS": {
+      "name": "Reinvestimento do dividendo bruto",
+      "definition": "O dividendo bruto é reinvestido."
+    },
+    "RNET": {
+      "name": "Reinvestimento do dividendo líquido",
+      "definition": "O reinvestimento do dividendo é processado líquido de imposto retido na fonte."
+    },
+    "FCFS": {
+      "name": "Por ordem de chegada",
+      "definition": "Os valores mobiliários serão aceites pela ordem em que tenham sido apresentados até se atingir a quantidade-alvo pretendida."
+    }
+  }
+}

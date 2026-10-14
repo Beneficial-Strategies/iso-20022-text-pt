@@ -1,0 +1,30 @@
+{
+  "isoType": "TransactionDates3",
+  "definition": "Conjunto de elementos utilizados para fornecer informações sobre as datas relativas à operação individual subjacente.",
+  "isoElements": {
+    "AcceptanceDateTime": {
+      "definition": "Momento em que a ordem de pagamento da parte iniciadora satisfaz as condições de tratamento da instituição gestora da conta. Isto significa que a instituição gestora da conta recebeu a ordem de pagamento e aplicou verificações como a autorização e a disponibilidade de fundos."
+    },
+    "TradeActivityContractualSettlementDate": {
+      "definition": "Identifica quando um montante deveria ter sido contratualmente creditado ou debitado na conta, por oposição ao momento em que o montante foi efetivamente liquidado (debitado/creditado) na conta de caixa."
+    },
+    "TradeDate": {
+      "definition": "Data em que a operação foi executada."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Data em que o montante deixa de estar disponível para a instituição que o deve e em que passa a estar disponível para a instituição a quem é devido."
+    },
+    "StartDate": {
+      "definition": "Data de início da operação subjacente, por exemplo, uma operação de tesouraria ou um plano de investimento."
+    },
+    "EndDate": {
+      "definition": "Data de fim da operação subjacente, por exemplo, uma operação de tesouraria ou um plano de investimento."
+    },
+    "TransactionDateTime": {
+      "definition": "Data e hora da operação subjacente."
+    },
+    "Proprietary": {
+      "definition": "Data proprietária relativa à operação subjacente."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "PriceValueType5Code",
+  "definition": "Especifica o valor de um preço.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "O preço é desconhecido do remetente ou não foi estabelecido."
+    },
+    "OPEN": {
+      "name": "Sem data de termo",
+      "definition": "O preço não foi estabelecido."
+    }
+  }
+}

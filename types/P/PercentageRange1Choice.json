@@ -1,0 +1,21 @@
+{
+  "isoType": "PercentageRange1Choice",
+  "definition": "Escolha entre intervalos de taxas em que uma taxa percentual é considerada válida ou uma taxa percentual especificada que tem de coincidir ou não coincidir para ser válida.",
+  "isoElements": {
+    "From": {
+      "definition": "Limite inferior de um intervalo de taxas percentuais."
+    },
+    "To": {
+      "definition": "Limite superior de um intervalo de taxas percentuais."
+    },
+    "FromTo": {
+      "definition": "Intervalo de taxas percentuais válidas."
+    },
+    "Equal": {
+      "definition": "A taxa percentual exata tem de coincidir para ser considerada válida."
+    },
+    "NotEqual": {
+      "definition": "Valor com o qual a taxa percentual não deve coincidir para ser considerada válida."
+    }
+  }
+}

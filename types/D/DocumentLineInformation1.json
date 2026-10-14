@@ -1,0 +1,15 @@
+{
+  "isoType": "DocumentLineInformation1",
+  "definition": "Fornece informações sobre a linha do documento.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Fornece a identificação da linha do documento."
+    },
+    "Description": {
+      "definition": "Descrição associada à linha do documento."
+    },
+    "Amount": {
+      "definition": "Fornece detalhes sobre os montantes da linha do documento."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingProcessingReason19Choice",
+  "definition": "Escolha do formato para o motivo de processamento pendente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de processamento pendente."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de processamento pendente."
+    }
+  }
+}

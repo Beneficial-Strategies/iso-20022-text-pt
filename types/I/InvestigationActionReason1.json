@@ -1,0 +1,20 @@
+{
+  "isoType": "InvestigationActionReason1",
+  "definition": "Fornece informações sobre o motivo da ação.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Parte que solicita a ação."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo da ação."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalhes adicionais sobre o motivo da ação."
+    }
+  },
+  "isoRules": {
+    "StatusReasonRule": {
+      "definition": "Se Reason/Code for igual a NARR, então AddititionalInformation tem de estar presente."
+    }
+  }
+}

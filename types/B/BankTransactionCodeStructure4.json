@@ -1,0 +1,20 @@
+{
+  "isoType": "BankTransactionCodeStructure4",
+  "definition": "Conjunto de elementos utilizados para identificar o tipo ou o código de operação de um lançamento.",
+  "isoElements": {
+    "Domain": {
+      "definition": "Conjunto de elementos utilizados para fornecer o domínio, a família e a subfamília do código de operação bancária, num formato estruturado e hierárquico.||Utilização: se não puder ser fornecido um código de família ou subfamília específico, deve ser fornecido o código de família genérico definido para o domínio ou o código de subfamília genérico definido para a família."
+    },
+    "Proprietary": {
+      "definition": "Código de operação bancária em formato proprietário, conforme definido pelo emitente."
+    }
+  },
+  "isoRules": {
+    "DomainOrProprietaryRule": {
+      "definition": "Tem de estar presente Proprietary, Domain ou ambos."
+    },
+    "FamilyAndSubFamilyRule": {
+      "definition": "Se um código Family específico (não genérico) não estiver presente, então um código SubFamily específico (não genérico) não é permitido."
+    }
+  }
+}

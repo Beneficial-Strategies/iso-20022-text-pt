@@ -1,0 +1,15 @@
+{
+  "isoType": "Recipient4Choice",
+  "definition": "Chave de transporte ou chave de cifra de chaves (KEK) para o destinatário.",
+  "isoElements": {
+    "KeyTransport": {
+      "definition": "Chave de cifra que utiliza uma chave pública assimétrica previamente distribuída."
+    },
+    "KEK": {
+      "definition": "Chave de cifra de chaves que utiliza uma chave simétrica previamente distribuída."
+    },
+    "KeyIdentifier": {
+      "definition": "Identificação de uma chave de proteção sem chave de sessão, partilhada e previamente trocada entre o iniciador e o destinatário."
+    }
+  }
+}

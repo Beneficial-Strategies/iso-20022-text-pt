@@ -1,0 +1,17 @@
+{
+  "isoType": "ReportHeader6",
+  "definition": "Fornece os detalhes do cabeçalho do relatório.",
+  "isoElements": {
+    "ReportIdentification": {
+      "definition": "Identificação de um extrato de faturação."
+    },
+    "MessagePagination": {
+      "definition": "Fornece detalhes sobre o número de página da mensagem.||Utilização: a paginação da mensagem só é permitida quando acordada entre as partes."
+    }
+  },
+  "isoRules": {
+    "MessagePaginationRule": {
+      "definition": "Se MessagePagination estiver presente, então ReportIdentification deve ser idêntico em todas as páginas."
+    }
+  }
+}

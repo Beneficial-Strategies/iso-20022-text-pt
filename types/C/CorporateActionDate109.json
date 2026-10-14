@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDate109",
+  "definition": "Especifica a data da operação sobre ativos.",
+  "isoElements": {
+    "CoverExpirationDeadline": {
+      "definition": "Último dia em que um detentor pode entregar os valores mobiliários sobre os quais optou e/ou que protegeu anteriormente."
+    },
+    "TradingDate": {
+      "definition": "Data/hora em que a transação (direitos) foi acordada."
+    }
+  }
+}

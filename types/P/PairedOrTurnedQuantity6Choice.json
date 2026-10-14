@@ -1,0 +1,12 @@
+{
+  "isoType": "PairedOrTurnedQuantity6Choice",
+  "definition": "Escolha entre uma quantidade de inversão (turnaround) e de compensação (pair-off) para dar instruções de compensação ou inversão (parcial) de um para muitos e de muitos para muitos.",
+  "isoElements": {
+    "PairedOffQuantity": {
+      "definition": "Quantidade de instrumentos financeiros da operação ligada a compensar (pair-off)."
+    },
+    "TurnedQuantity": {
+      "definition": "Quantidade de instrumentos financeiros da operação ligada a inverter (turn)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "NettingEligibility5Choice",
+  "definition": "Escolha do formato da informação sobre elegibilidade para compensação por saldos líquidos (netting).",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica se a operação de liquidação é elegível para compensação por saldos líquidos (netting)."
+    },
+    "Proprietary": {
+      "definition": "Elegibilidade para compensação por saldos líquidos (netting) expressa como um código proprietário."
+    }
+  }
+}

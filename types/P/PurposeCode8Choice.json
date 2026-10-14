@@ -1,0 +1,12 @@
+{
+  "isoType": "PurposeCode8Choice",
+  "definition": "Escolha entre um código e um esquema de fonte de dados para determinar o tipo de conta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Finalidade da conta de valores mobiliários como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Finalidade da conta de valores mobiliários como um código proprietário."
+    }
+  }
+}

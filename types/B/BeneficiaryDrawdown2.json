@@ -1,0 +1,21 @@
+{
+  "isoType": "BeneficiaryDrawdown2",
+  "definition": "Informações sobre o beneficiário de um levantamento.",
+  "isoElements": {
+    "BeneficiaryType": {
+      "definition": "Tipo de beneficiário."
+    },
+    "DeathUnderLimit": {
+      "definition": "Indica se o titular original da pensão tinha idade inferior ao limite etário à data do falecimento. Normalmente, no UK, esse limite é de setenta e cinco anos."
+    },
+    "DateOfDeath": {
+      "definition": "Data de falecimento do titular original da pensão."
+    },
+    "DateDesignatedToBeneficiary": {
+      "definition": "Data em que o novo beneficiário foi designado."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o destinatário do levantamento."
+    }
+  }
+}

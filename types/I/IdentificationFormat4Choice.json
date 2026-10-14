@@ -1,0 +1,15 @@
+{
+  "isoType": "IdentificationFormat4Choice",
+  "definition": "Escolha entre um formato de identificação curto, longo ou proprietário.",
+  "isoElements": {
+    "ShortIdentification": {
+      "definition": "Formato expresso como identificação curta."
+    },
+    "LongIdentification": {
+      "definition": "Formato expresso como identificação longa."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Formato expresso como identificação proprietária."
+    }
+  }
+}

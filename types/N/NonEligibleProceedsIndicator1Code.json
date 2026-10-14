@@ -1,0 +1,18 @@
+{
+  "isoType": "NonEligibleProceedsIndicator1Code",
+  "definition": "Especifica informações relativas à não elegibilidade dos recursos resultantes.",
+  "isoCodes": {
+    "NELC": {
+      "name": "Moeda não elegível",
+      "definition": "Moeda não elegível para liquidação no Depositário Central de Valores Mobiliários (CSD)."
+    },
+    "ACLI": {
+      "name": "Limitação da conta",
+      "definition": "Limitação da conta do participante."
+    },
+    "ONEL": {
+      "name": "Outra não elegibilidade",
+      "definition": "Outra origem de não elegibilidade."
+    }
+  }
+}

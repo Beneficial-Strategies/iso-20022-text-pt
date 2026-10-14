@@ -1,0 +1,48 @@
+{
+  "isoType": "ATMCassetteCounters5",
+  "definition": "Contadores dos meios no interior de uma cassete de ATM.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de contadores."
+    },
+    "AddedNumber": {
+      "definition": "Número de meios acrescentados durante as operações de serviço."
+    },
+    "RemovedNumber": {
+      "definition": "Número de suportes retirados durante as operações de manutenção."
+    },
+    "RemovedAmount": {
+      "definition": "Montante dos suportes retirados durante as operações de manutenção."
+    },
+    "DispensedNumber": {
+      "definition": "Número total de meios retirados da cassete."
+    },
+    "DepositedNumber": {
+      "definition": "Número total de meios depositados na cassete."
+    },
+    "DepositedAmount": {
+      "definition": "Montante de meios depositados na cassete."
+    },
+    "RecycledNumber": {
+      "definition": "Número total de suportes reciclados do cassete."
+    },
+    "RetractedNumber": {
+      "definition": "Número total de suportes retraídos provenientes do cassete."
+    },
+    "RetractedAmount": {
+      "definition": "Montante total retraído durante a operação. Destina-se apenas a ser utilizado quando os itens do cassete não têm todos o mesmo valor (por exemplo, na retração de cheques)."
+    },
+    "RejectedNumber": {
+      "definition": "Número total de suportes deste cassete que se encontram no depósito de rejeitados."
+    },
+    "PresentedNumber": {
+      "definition": "Número total de meios apresentados ao cliente."
+    },
+    "InitialNumber": {
+      "definition": "Número inicial acrescentado durante uma operação de serviço."
+    },
+    "InitialAmount": {
+      "definition": "Montante inicial acrescentado durante uma operação de serviço."
+    }
+  }
+}

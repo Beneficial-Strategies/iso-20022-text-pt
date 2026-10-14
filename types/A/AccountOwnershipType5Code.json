@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountOwnershipType5Code",
+  "definition": "Especifica o tipo de titularidade da conta.",
+  "isoCodes": {
+    "USUF": {
+      "name": "Usufrutuário",
+      "definition": "Pessoa com o direito temporário de utilizar e retirar rendimentos ou benefícios de bens de outrem."
+    },
+    "OWNR": {
+      "name": "Proprietário",
+      "definition": "Uma pessoa tem a propriedade plena do ativo."
+    },
+    "BOWN": {
+      "name": "Nu-proprietário",
+      "definition": "Uma pessoa tem a nua propriedade do ativo."
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "isoType": "CreditTransferTransaction73",
+  "definition": "Fornece detalhes adicionais específicos da(s) operação(ões) individual(is) incluída(s) na mensagem.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Conjunto de elementos utilizados para referenciar uma instrução de pagamento."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar melhor o tipo de operação."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montante em dinheiro movimentado entre a instituição instrutora e a instituição instruída."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Data em que o montante em dinheiro deixa de estar disponível para a instituição que o deve e em que passa a estar disponível para a instituição a quem é devido."
+    },
+    "SettlementPriority": {
+      "definition": "Indicador da urgência ou da ordem de importância que a parte instrutora pretende que a parte instruída aplique ao tratamento da instrução de liquidação."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Fornece informações sobre o momento de liquidação ocorrido da operação de pagamento."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Fornece informações sobre o momento de liquidação solicitado da instrução de pagamento."
+    },
+    "AdditionalDateTime": {
+      "definition": "Série de dados adicionais de data e hora que podem ser aplicados ao pagamento."
+    },
+    "InstructedAmount": {
+      "definition": "Montante em dinheiro a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora.|Utilização: Este montante tem de ser transportado sem alterações ao longo da cadeia da operação."
+    },
+    "ExchangeRate": {
+      "definition": "Fator utilizado para converter um montante de uma moeda para outra. Reflete o preço a que uma moeda foi comprada com outra moeda."
+    },
+    "AgreedRate": {
+      "definition": "Conjunto de elementos que fornecem informações sobre uma taxa de câmbio previamente acordada.||Utilização: Este elemento só pode ser utilizado quando acordado bilateral ou multilateralmente no âmbito de um esquema de pagamento."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica a(s) parte(s) que suportará(ão) os encargos associados ao tratamento da operação de pagamento."
+    },
+    "ChargesInformation": {
+      "definition": "Fornece informações sobre os encargos a pagar pela(s) parte(s) responsável(is) pelos encargos relacionados com a operação de pagamento."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Fornece mais pormenores sobre o mandato assinado entre o credor e o devedor."
+    },
+    "PaymentSignature": {
+      "definition": "Chave criptográfica que identifica os termos acordados entre os agentes da cadeia de pagamento antes da liquidação. Esta chave pode também ser utilizada após a liquidação para confirmar que o pagamento foi creditado conforme previsto."
+    },
+    "PreviousInstructingAgent1": {
+      "definition": "Agente entre a instituição do devedor e o agente instrutor. ||Utilização: Se estiver presente mais do que um agente instrutor anterior, PreviousInstructingAgent1 identifica o agente entre o DebtorAgent e o PreviousInstructingAgent2."
+    },
+    "PreviousInstructingAgent1Account": {
+      "definition": "Identificação inequívoca da conta do agente instrutor anterior junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "PreviousInstructingAgent2": {
+      "definition": "Agente entre a instituição do devedor e o agente instrutor. ||Utilização: Se estiverem presentes mais de dois agentes instrutores anteriores, PreviousInstructingAgent2 identifica o agente entre o PreviousInstructingAgent1 e o PreviousInstructingAgent3."
+    },
+    "PreviousInstructingAgent2Account": {
+      "definition": "Identificação inequívoca da conta do agente instrutor anterior junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "PreviousInstructingAgent3": {
+      "definition": "Agente entre a instituição do devedor e o agente instrutor. ||Utilização: Se PreviousInstructingAgent3 estiver presente, PreviousInstructingAgent3 identifica o agente entre o PreviousInstructingAgent2 e o InstructingAgent."
+    },
+    "PreviousInstructingAgent3Account": {
+      "definition": "Identificação inequívoca da conta do agente instrutor anterior junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "InstructingAgent": {
+      "definition": "Instituição que instrui a parte seguinte da cadeia para executar a(s) instrução(ões)."
+    },
+    "InstructedAgent": {
+      "definition": "Instituição instruída pela parte anterior da cadeia para executar a(s) instrução(ões)."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor.||Utilização: Se existir mais do que uma instituição intermediária, IntermediaryAgent1 identifica a instituição entre DebtorAgent e IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 1 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor.||Utilização: Se existirem mais do que duas instituições intermediárias, IntermediaryAgent2 identifica a instituição entre IntermediaryAgent1 e IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 2 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Agente entre a instituição do devedor e a instituição do credor.||Utilização: Se IntermediaryAgent3 estiver presente, identifica o agente entre o IntermediaryAgent 2 e o CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 3 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que deve um montante em dinheiro ao credor (final)."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia o pagamento.|Utilização: Pode ser o devedor ou uma parte que inicia a transferência em nome do devedor."
+    },
+    "Debtor": {
+      "definition": "Parte que deve um montante em dinheiro ao credor (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificação inequívoca da conta do devedor a debitar em resultado da operação."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do devedor junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do credor junto da sua instituição gestora, a creditar em resultado da operação de pagamento."
+    },
+    "Creditor": {
+      "definition": "Parte a quem é devido um montante em dinheiro."
+    },
+    "CreditorAccount": {
+      "definition": "Identificação inequívoca da conta do credor a creditar em resultado da operação de pagamento."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a quem é devido um montante em dinheiro."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Informações adicionais relativas ao tratamento da instrução de pagamento, fornecidas pela parte iniciadora e destinadas à instituição do credor."
+    },
+    "InstructionForNextAgent": {
+      "definition": "Informações adicionais relativas ao tratamento da instrução de pagamento que podem exigir uma ação por parte do agente seguinte. ||Utilização: O agente seguinte pode não ser a instituição do credor.|A instrução pode referir-se a um nível de serviço, pode ser uma instrução a executar pelo agente ou pode ser uma informação necessária ao agente seguinte."
+    },
+    "Purpose": {
+      "definition": "Motivo subjacente à operação de pagamento.|Utilização: A finalidade é utilizada pelos clientes finais, ou seja, a parte iniciadora, o devedor (final) e o credor (final), para fornecer informações sobre a natureza do pagamento. A finalidade é um elemento de conteúdo, que não é utilizado para tratamento por nenhuma das instituições envolvidas na cadeia de pagamento."
+    },
+    "RegulatoryReporting": {
+      "definition": "Informações necessárias por força de requisitos regulamentares e legais."
+    },
+    "Tax": {
+      "definition": "Fornece detalhes sobre o imposto."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Fornece informações relativas ao tratamento das informações de remessa por qualquer das instituições na cadeia de tratamento da operação."
+    },
+    "RemittanceInformation": {
+      "definition": "Informações fornecidas para permitir a correspondência de um lançamento com os itens que a transferência se destina a liquidar, como faturas comerciais num sistema de contas a receber."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "ChargesInformationGuideline": {
+      "definition": "O elemento repetitivo ChargesInformation deve conter todas as informações sobre o montante dos encargos e sobre a parte que os cobrou, separadamente para cada agente ao longo da cadeia de pagamento."
+    },
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor só pode estar presente se for diferente de Debtor."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor só pode estar presente se for diferente de Creditor."
+    },
+    "InstructedAmountAndExchangeRate1Rule": {
+      "definition": "Se InstructedAmount estiver presente e a moeda for diferente da moeda de InterbankSettlementAmount, então ExchangeRate tem de estar presente."
+    },
+    "InstructedAmountAndExchangeRate2Rule": {
+      "definition": "Se InstructedAmount estiver presente e a moeda for a mesma que a moeda de InterbankSettlementAmount, então ExchangeRate não é permitido."
+    },
+    "ChargesInformationAndInstructedAmountRule": {
+      "definition": "Se ChargesInformation estiver presente, então InstructedAmount tem de estar presente."
+    },
+    "ChargesAmountGuideline": {
+      "definition": "Se ChargesInformation estiver presente, recomenda-se que a moeda de ChargesInformation/ChargesAmount seja a mesma que a moeda de InterbankSettlementAmount."
+    },
+    "ChargeBearerAndChargesInformationRule": {
+      "definition": "Se ChargeBearer contiver DEBT, ChargesInformation pode estar presente para comunicar os encargos que foram acrescentados pelo(s) InstructedAgent(s). Se ChargeBearer contiver CRED, tem de estar presente pelo menos uma ocorrência de ChargesInformation para comunicar os encargos que foram deduzidos do InstructedAmount pelo(s) InstructingAgent(s). Se ChargeBearer contiver SHAR ou SLEV, ChargesInformation é facultativo."
+    },
+    "InstructionForCreditorAgentRule": {
+      "definition": "Se InstructionForCreditorAgent/Code contiver CHQB (PayCreditorByCheque), CreditorAccount não é permitido."
+    },
+    "IntermediaryAgent2Rule": {
+      "definition": "Se IntermediaryAgent2 estiver presente, então IntermediaryAgent1 tem de estar presente."
+    },
+    "IntermediaryAgent3Rule": {
+      "definition": "Se IntermediaryAgent3 estiver presente, então IntermediaryAgent2 tem de estar presente."
+    },
+    "IntermediaryAgent1AccountRule": {
+      "definition": "Se IntermediaryAgent1Account estiver presente, então IntermediaryAgent1 tem de estar presente."
+    },
+    "IntermediaryAgent2AccountRule": {
+      "definition": "Se IntermediaryAgent2Account estiver presente, então IntermediaryAgent2 tem de estar presente."
+    },
+    "IntermediaryAgent3AccountRule": {
+      "definition": "Se IntermediaryAgent3Account estiver presente, então IntermediaryAgent3 tem de estar presente."
+    },
+    "InstructedAmountAndExchangeRate3Rule": {
+      "definition": "Se InstructedAmount não estiver presente, então ExchangeRate não é permitido."
+    },
+    "PreviousInstructingAgent2AccountRule": {
+      "definition": "Se PreviousInstructingAgent2Account estiver presente, PreviousInstructingAgent2 tem de estar presente."
+    },
+    "PreviousInstructingAgent3AccountRule": {
+      "definition": "Se PreviousInstructingAgent3Account estiver presente, PreviousInstructingAgent3 tem de estar presente."
+    },
+    "PreviousInstructingAgent1Guideline": {
+      "definition": "Recomenda-se que, quando presente, PreviousInstructingAgent1 seja o mais próximo do DebtorAgent na cadeia de pagamento."
+    },
+    "PreviousInstructingAgent2Rule": {
+      "definition": "Se PreviousInstructingAgent2 estiver presente, PreviousInstructingAgent1 tem de estar presente."
+    },
+    "PreviousInstructingAgent3Rule": {
+      "definition": "Se PreviousInstructingAgent3 estiver presente, PreviousInstructingAgent2 tem de estar presente."
+    },
+    "PreviousInstructingAgent1AccountRule": {
+      "definition": "Se PreviousInstructingAgent1Account estiver presente, PreviousInstructingAgent1 tem de estar presente."
+    }
+  }
+}

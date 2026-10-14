@@ -1,0 +1,20 @@
+{
+  "isoType": "PartyIdentification143",
+  "definition": "Fornece informações sobre a identificação da parte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação de uma parte."
+    },
+    "ProcessingIdentification": {
+      "definition": "Referência significativa para a parte identificada."
+    },
+    "AlternateIdentification": {
+      "definition": "Fornece uma identificação alternativa para uma parte utilizando um tipo de identificador, um código de país e um campo de texto."
+    }
+  },
+  "isoRules": {
+    "AdditionalInforrmationRule": {
+      "definition": "O campo AdditionalInformation em todos os elementos não deve conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral ou indicação em contrário na definição do elemento, como em NarrativeVersion."
+    }
+  }
+}

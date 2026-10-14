@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionCancellation3",
+  "definition": "Estado e motivo do cancelamento do evento de operação sobre ativos.",
+  "isoElements": {
+    "CancellationReasonCode": {
+      "definition": "Especifica os motivos de cancelamento de um evento de operação sobre ativos."
+    },
+    "CancellationReason": {
+      "definition": "Informações adicionais sobre o cancelamento de um evento de operação sobre ativos."
+    },
+    "ProcessingStatus": {
+      "definition": "Especifica o estado dos detalhes do evento."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesAccount34",
+  "definition": "Conta a ou de que é efetuado um lançamento de valores mobiliários.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação inequívoca da conta entre o titular da conta e a instituição que gere a conta.”."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de conta de valores mobiliários."
+    },
+    "Name": {
+      "definition": "Descrição da conta."
+    }
+  }
+}

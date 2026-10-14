@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionDate99",
+  "definition": "Especifica as datas da operação de sociedade.",
+  "isoElements": {
+    "PostingDate": {
+      "definition": "Data/hora do lançamento (crédito ou débito) na conta."
+    },
+    "ValueDate": {
+      "definition": "Data/hora do cálculo do benefício económico para um montante em numerário."
+    },
+    "ForeignExchangeRateFixingDate": {
+      "definition": "Data/hora em que será determinada uma taxa de câmbio."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Data/hora em que um pagamento pode ser efetuado, por exemplo, se a data de pagamento for um dia não útil ou para indicar a primeira data de pagamento de uma oferta."
+    },
+    "PaymentDate": {
+      "definition": "Data em que a distribuição deve ter lugar (numerário e/ou valores mobiliários)."
+    }
+  }
+}

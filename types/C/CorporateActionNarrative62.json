@@ -1,0 +1,44 @@
+{
+  "isoType": "CorporateActionNarrative62",
+  "definition": "Fornece informações adicionais, tais como as condições de tributação.",
+  "isoElements": {
+    "AdditionalText": {
+      "definition": "Fornece informações adicionais ou especifica de forma mais detalhada o conteúdo de uma mensagem. Este campo só pode ser utilizado quando a informação a transmitir não puder ser codificada."
+    },
+    "NarrativeVersion": {
+      "definition": "Fornece informações que podem ser ignoradas no tratamento automatizado; - reiteração de informações já incluídas em campos estruturados desta mensagem, - ou informações narrativas não necessárias para o tratamento automático."
+    },
+    "InformationConditions": {
+      "definition": "Fornece informações condicionais relacionadas com o evento, por exemplo, uma oferta sujeita a aceitação de 50 por cento, ou o oferente permite que o titular dos valores mobiliários estabeleça algumas condições."
+    },
+    "InformationToComplyWith": {
+      "definition": "Fornece ao titular da conta informações sobre condições que têm de ser cumpridas, por exemplo, não aberto a residentes nos US/Canadá, Qualified Institutional Buyers (QIB) ou SIL (Sophisticated Investor Letter) a fornecer."
+    },
+    "TaxationConditions": {
+      "definition": "Fornece condições fiscais que não podem ser incluídas nos campos estruturados desta mensagem e que não foram mencionadas no acordo de nível de serviço (SLA)."
+    },
+    "Disclaimer": {
+      "definition": "Fornece uma declaração de exoneração de responsabilidade relativa às informações fornecidas na mensagem. Pode ser ignorada para efeitos de processamento automático."
+    },
+    "PartyContactNarrative": {
+      "definition": "Fornece informações adicionais sobre a parte, por exemplo, a unidade de contacto ou a pessoa responsável pela operação identificada na mensagem."
+    },
+    "RegistrationDetails": {
+      "definition": "Fornece as informações necessárias para o registo."
+    },
+    "BasketOrIndexInformation": {
+      "definition": "Fornece informações adicionais sobre o cabaz ou índice subjacente a um valor mobiliário, por exemplo, um warrant."
+    },
+    "CertificationBreakdown": {
+      "definition": "Fornece informações adicionais sobre o tipo de certificação/discriminação exigido."
+    },
+    "ProcessingTextForNextIntermediary": {
+      "definition": "Fornece informações adicionais da entidade gestora da conta ou de um prestador de serviços destinadas exclusivamente ao titular da conta imediatamente seguinte, a fim de permitir ou facilitar o tratamento do evento entre as partes."
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "O campo AdditionalInformation em todos os elementos não deve conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral ou indicação em contrário na definição do elemento, como em NarrativeVersion."
+    }
+  }
+}

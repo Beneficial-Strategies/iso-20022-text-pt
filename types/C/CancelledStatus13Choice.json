@@ -1,0 +1,18 @@
+{
+  "isoType": "CancelledStatus13Choice",
+  "definition": "Motivo do estado cancelado.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que não existe motivo disponível ou a reportar."
+    },
+    "Reason": {
+      "definition": "Motivo do estado cancelado."
+    },
+    "ExtendedReason": {
+      "definition": "Motivo do estado cancelado."
+    },
+    "DataSourceScheme": {
+      "definition": "Identificação proprietária do motivo do estado cancelado."
+    }
+  }
+}

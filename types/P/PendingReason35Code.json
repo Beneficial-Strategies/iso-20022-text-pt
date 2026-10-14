@@ -1,0 +1,38 @@
+{
+  "isoType": "PendingReason35Code",
+  "definition": "Especifica o motivo pelo qual um pedido de cancelamento enviado para a instrução associada está pendente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "A instrução foi recebida depois do prazo limite da entidade gestora da conta. Será gerida de acordo com o acordo de serviço bilateral entre a entidade gestora da conta e o titular da conta."
+    },
+    "CONF": {
+      "name": "A aguardar confirmação",
+      "definition": "A aguardar confirmação da contraparte."
+    },
+    "CDCY": {
+      "name": "Condicional à moeda",
+      "definition": "A execução está condicionada à execução de um processo associado à moeda da operação."
+    },
+    "CDAC": {
+      "name": "Entrega condicional a aguardar cancelamento",
+      "definition": "A aguardar o cancelamento por uma das partes."
+    },
+    "CDRE": {
+      "name": "Condicional ao realinhamento",
+      "definition": "A execução está condicionada à execução de um processo de realinhamento no CSD emitente."
+    },
+    "CDRG": {
+      "name": "Condicional ao agente de registo",
+      "definition": "A execução está condicionada à execução de um processo junto do registador."
+    },
+    "INBC": {
+      "name": "Contagem de número incompleta",
+      "definition": "Nem todas as instruções que fazem parte de um conjunto foram recebidas."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    }
+  }
+}

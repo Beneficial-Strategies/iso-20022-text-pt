@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionNarrative33",
+  "definition": "Fornece informações adicionais, tais como as informações a respeitar.",
+  "isoElements": {
+    "InformationToComplyWith": {
+      "definition": "Fornece ao titular da conta condições de informação a respeitar, por exemplo, não aberto a residentes nos US/Canadá, a Qualified Institutional Buyers (QIB) ou carta de Sophisticated Investor Letter (SIL) a fornecer."
+    },
+    "DeliveryDetails": {
+      "definition": "Fornece informações adicionais sobre os detalhes de entrega dos valores mobiliários resultantes (derivados). Este texto narrativo só deve ser utilizado caso os valores mobiliários não sejam elegíveis junto do agente/custodiante, e não pode ser utilizado para instruções de liquidação."
+    },
+    "ForeignExchangeInstructionsAdditionalInformation": {
+      "definition": "Fornece detalhes adicionais relativos a instruções de câmbio."
+    },
+    "InstructionAdditionalInformation": {
+      "definition": "Fornece detalhes adicionais relativos à instrução da operação sobre títulos."
+    }
+  }
+}

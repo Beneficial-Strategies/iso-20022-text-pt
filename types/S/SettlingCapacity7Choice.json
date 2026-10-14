@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlingCapacity7Choice",
+  "definition": "Escolha do formato da informação sobre a capacidade de liquidação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Capacidade de liquidação expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Capacidade de liquidação expressa como um código proprietário."
+    }
+  }
+}

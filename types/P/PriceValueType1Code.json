@@ -1,0 +1,18 @@
+{
+  "isoType": "PriceValueType1Code",
+  "definition": "Especifica um tipo de valor do preço.",
+  "isoCodes": {
+    "DISC": {
+      "name": "Desconto",
+      "definition": "Preço expresso como um número de pontos percentuais abaixo do valor nominal; por exemplo, um preço com desconto de 2.0% equivale a um preço de 98 quando o valor nominal é 100."
+    },
+    "PREM": {
+      "name": "Prémio",
+      "definition": "Preço expresso como um número de pontos percentuais acima do valor nominal; por exemplo, um preço com prémio de 2.0% equivale a um preço de 102 quando o valor nominal é 100."
+    },
+    "PARV": {
+      "name": "Ao par",
+      "definition": "O preço é o valor nominal."
+    }
+  }
+}

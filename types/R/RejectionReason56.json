@@ -1,0 +1,17 @@
+{
+  "isoType": "RejectionReason56",
+  "definition": "Informações sobre um estado rejeitado.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motivo do estado rejeitado."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informações adicionais sobre o motivo do estado rejeitado."
+    }
+  },
+  "isoRules": {
+    "OtherRule": {
+      "definition": "Se Reason/Code/OTHR (Outro) estiver presente, então AdditionReasonInformation tem de estar presente e o motivo do estado de rejeição tem de ser indicado."
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "isoType": "StatusTrail11",
+  "definition": "Fornece o historial de estados e motivos de uma operação pendente, lançada ou cancelada.",
+  "isoElements": {
+    "StatusDate": {
+      "definition": "Data e hora em que o estado foi atribuído."
+    },
+    "SendingOrganisationIdentification": {
+      "definition": "Forma única e inequívoca de identificar a organização que enviou a instância da mensagem."
+    },
+    "UserIdentification": {
+      "definition": "Forma única e inequívoca de identificar o utilizador que criou a instância da mensagem."
+    },
+    "ProcessingStatus": {
+      "definition": "Fornece detalhes sobre o estado de processamento da operação."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Fornece o estado de correspondência de uma instrução, segundo a instituição gestora da conta ou a infraestrutura de mercado, com base numa alegação. Neste momento, não ocorreu qualquer correspondência no mercado (na CSD/ICSD/MI)."
+    },
+    "MatchingStatus": {
+      "definition": "Fornece o estado de correspondência da instrução."
+    },
+    "SettlementStatus": {
+      "definition": "Fornece o estado da liquidação de uma operação."
+    },
+    "ModificationProcessingStatus": {
+      "definition": "Fornece detalhes sobre o estado de processamento da modificação da operação."
+    },
+    "CancellationStatus": {
+      "definition": "Fornece detalhes sobre o estado de processamento do pedido de cancelamento."
+    },
+    "Settled": {
+      "definition": "O estado é liquidado."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  }
+}

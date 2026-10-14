@@ -1,0 +1,24 @@
+{
+  "isoType": "SecuritiesSettlementTransactionGenerationNotificationV13",
+  "definition": "Âmbito|Uma instituição gestora da conta envia um SecuritiesSettlementTransactionGenerationNotification a um titular da conta para o informar de uma operação de liquidação de valores mobiliários que foi gerada/criada pela instituição gestora da conta para o titular da conta. O motivo da criação pode variar desde a transformação automática de instruções de liquidação pendentes na sequência de um evento societário até à recuperação da base de dados de operações de um titular da conta, iniciada pela respetiva instituição gestora da conta.|A relação entre a instituição gestora da conta e o titular da conta pode ser:|- um depositário central de valores mobiliários ou outra infraestrutura de mercado de liquidação que atua em nome dos seus participantes|- um agente (subcustodiante) que atua em nome do seu cliente custodiante global, ou|- um custodiante que atua em nome de uma instituição de gestão de investimentos ou de um corretor/negociador||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente,|- fornecer a um terceiro uma cópia de uma mensagem a título informativo,|- reenviar a um terceiro uma cópia de uma mensagem a título informativo utilizando os elementos relevantes do Business Application Header.",
+  "isoRules": {
+    "SettlementAmountRule": {
+      "definition": "Se TransactionIdentificationDetails/Payment for igual a \"Against Payment Settlement\" (APMT), então SettlementAmount tem de estar presente."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Se TransactionIdentificationDetails/SecuritiesMovementType for igual a \"Delivery\" (DELI), então ReceivingSettlementParties/Depository e ReceivingSettlementParties/Party1 têm de estar presentes."
+    },
+    "AdditionalPhysicalOrRegistrationDetailsRule": {
+      "definition": "Se AdditionalPhysicalOrRegistrationDetails estiver presente, então a operação tem de ser sem pagamento."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Se TransactionIdentificationDetails/SecuritiesMovementType for igual a \"Receive\" (RECE), então DeliveringSettlementParties/Depository e DeliveringSettlementParties/Party1 têm de estar presentes."
+    },
+    "CurrencyToSellRule": {
+      "definition": "Se CurrencyToSell estiver presente, então a operação tem de ser uma receção."
+    },
+    "CurrencyToBuyRule": {
+      "definition": "Se CurrencyToBuy estiver presente, então a operação tem de ser uma entrega."
+    }
+  }
+}

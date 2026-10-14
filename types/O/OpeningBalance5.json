@@ -1,0 +1,17 @@
+{
+  "isoType": "OpeningBalance5",
+  "definition": "Saldo de abertura do período do extrato (primeiro saldo de abertura) ou desta página (saldo de abertura intermédio).",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "definition": "Indicação de que a posição é curta ou longa."
+    },
+    "OpeningBalance": {
+      "definition": "Saldo de abertura do período do extrato (primeiro saldo de abertura) ou desta página (saldo de abertura intermédio)."
+    }
+  },
+  "isoRules": {
+    "ShortLongDefaultRule": {
+      "definition": "Se Shortlong estiver ausente, o valor predefinido é long, isto é, o saldo é positivo."
+    }
+  }
+}

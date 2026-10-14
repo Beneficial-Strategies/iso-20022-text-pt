@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestHandling2",
+  "definition": "Explica o estado do pedido associado.",
+  "isoElements": {
+    "StatusCode": {
+      "definition": "Especifica o estado do pedido, por exemplo o resultado da validação do esquema ou um resultado/erro de processamento comercial."
+    },
+    "StatusDateTime": {
+      "definition": "Data e hora em que o estado foi gerado."
+    },
+    "Description": {
+      "definition": "Descrição do estado, em texto de formato livre."
+    }
+  }
+}

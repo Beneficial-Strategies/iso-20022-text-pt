@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForChequeAgent1",
+  "definition": "Informações adicionais relacionadas com o processamento da instrução de cheque, que podem exigir ação por parte da instituição destinatária.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informações codificadas relacionadas com o processamento do cheque, destinadas à instituição destinatária."
+    },
+    "InstructionInformation": {
+      "definition": "Informações adicionais que complementam a instrução codificada ou a instrução à instituição de cheques, acordadas bilateralmente ou específicas de uma comunidade de utilizadores."
+    }
+  }
+}

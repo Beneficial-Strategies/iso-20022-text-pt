@@ -1,0 +1,24 @@
+{
+  "isoType": "RemittanceAmount2",
+  "definition": "Natureza do montante e da moeda num documento referido na secção de remessa, normalmente o montante original devido/a pagar ou o montante efetivamente remetido para o documento referido.",
+  "isoElements": {
+    "DuePayableAmount": {
+      "definition": "O montante especificado é o montante exato devido e a pagar ao credor."
+    },
+    "DiscountAppliedAmount": {
+      "definition": "O montante especificado para o documento referido é o montante do desconto a aplicar ao montante devido e a pagar ao credor."
+    },
+    "CreditNoteAmount": {
+      "definition": "O montante especificado para o documento referido é o montante de uma nota de crédito."
+    },
+    "TaxAmount": {
+      "definition": "Quantia em numerário resultante do cálculo do imposto."
+    },
+    "AdjustmentAmountAndReason": {
+      "definition": "Especifica informações detalhadas sobre o montante e o motivo do ajustamento do documento."
+    },
+    "RemittedAmount": {
+      "definition": "Montante de dinheiro remetido para o documento referido."
+    }
+  }
+}

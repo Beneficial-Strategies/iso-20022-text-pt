@@ -1,0 +1,17 @@
+{
+  "isoType": "RejectedStatusReason53",
+  "definition": "Especifica os motivos do estado de rejeitado.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Especifica o motivo pelo qual a instrução ou o cancelamento da instrução foi rejeitado."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre a instrução processada."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "O elemento AdditionalReasonInformation não deve conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral."
+    }
+  }
+}

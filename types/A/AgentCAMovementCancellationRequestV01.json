@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAMovementCancellationRequestV01",
+  "definition": "Âmbito|Esta mensagem é enviada por um emitente (ou pelo seu agente) a uma CSD para solicitar o cancelamento de um ou mais movimentos enviados anteriormente através de um Agent Corporate Action Movement Instruction.|Utilização|Esta mensagem pode ser utilizada para cancelar na íntegra uma mensagem Agent Corporate Action Movement Instruction enviada anteriormente pelo emitente (ou pelo seu agente) ou movimentos específicos.|Esta mensagem tem de conter a identificação do Agent Corporate Action Movement Instruction que contém o(s) movimento(s) a cancelar, a identificação do agente e as referências da operação sobre títulos. Esta mensagem tem também de conter detalhes do(s) movimento(s) a cancelar."
+}

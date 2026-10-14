@@ -1,0 +1,18 @@
+{
+  "isoType": "PoliticallyExposedPersonStatus1Code",
+  "definition": "Estado de uma pessoa politicamente exposta.",
+  "isoCodes": {
+    "PE03": {
+      "name": "Associado próximo",
+      "definition": "Pessoa conhecida como estreitamente associada à pessoa politicamente exposta. Uma pessoa conhecida como estreitamente associada inclui: |a) uma pessoa singular que se saiba ser coproprietária efetiva de entidades jurídicas ou de centros de interesses coletivos sem personalidade jurídica, ou que mantenha com a pessoa politicamente exposta quaisquer outras relações comerciais estreitas,|b) uma pessoa singular que seja a única proprietária efetiva de uma entidade jurídica ou de um centro de interesses coletivos sem personalidade jurídica que se saiba ter sido constituído em benefício de facto de uma pessoa politicamente exposta."
+    },
+    "PE01": {
+      "name": "Pessoa singular com funções de confiança",
+      "definition": "Pessoa singular que exerce ou exerceu funções públicas proeminentes."
+    },
+    "PE02": {
+      "name": "Familiar",
+      "definition": "Membro da família da pessoa politicamente exposta. Um membro da família inclui: |a) o cônjuge, ou uma pessoa considerada equivalente a cônjuge, da pessoa politicamente exposta,|b) os filhos e os respetivos cônjuges, ou pessoas consideradas equivalentes a cônjuge, da pessoa politicamente exposta,|c) os pais da pessoa politicamente exposta."
+    }
+  }
+}

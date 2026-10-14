@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMCommand5Code",
+  "definition": "Tipo de comando executado pelo ATM.",
+  "isoCodes": {
+    "ABAL": {
+      "name": "Saldo do ATM",
+      "definition": "Fornecer os contadores do ATM, repondo a zero os que forem aplicáveis."
+    },
+    "CCNT": {
+      "name": "Consulta de contadores",
+      "definition": "Pedir o valor dos contadores do ATM."
+    },
+    "RPTC": {
+      "name": "Relatório de contadores",
+      "definition": "Fornecer o valor dos contadores do ATM, sem reinicialização dos contadores."
+    }
+  }
+}

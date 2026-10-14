@@ -1,0 +1,122 @@
+{
+  "isoType": "TaxExemptReason1Code",
+  "definition": "Especifica o motivo pelo qual um determinado imposto não foi cobrado/deduzido numa dada operação.",
+  "isoCodes": {
+    "NONE": {
+      "name": "Nenhum",
+      "definition": "A conta não está isenta de imposto."
+    },
+    "MASA": {
+      "name": "ISA máxima",
+      "definition": "Maxi Individual Savings Account (ISA). A conta é uma ISA com um único gestor de ISA, podendo conter numerário, ações, fundos de investimento e seguros de vida até ao limite anual de subscrição prescrito (exigido no UK). A Maxi ISA permite ao investidor poupar nos três elementos de investimento ISA permitidos, junto de uma única instituição de poupança, numa única conta."
+    },
+    "MISA": {
+      "name": "ISA mínima em numerário",
+      "definition": "Mini Cash Individual Savings Account (ISA). A conta é uma ISA com um único gestor de ISA, podendo conter numerário, ações, fundos de investimento e seguros de vida até ao limite anual de subscrição prescrito (exigido no UK). Um investidor pode deter mais do que uma Mini ISA para utilizar o limite global de investimento das Mini ISA, e pode investir junto de mais do que uma instituição de poupança, mas apenas um dos três elementos de investimento ISA é permitido numa única conta."
+    },
+    "SISA": {
+      "name": "ISA mínima em ações e participações",
+      "definition": "Mini Stocks and Shares Individual Savings Account (ISA). A conta é uma ISA com um gestor de ISA, que só pode conter ações, participações e investimentos coletivos até ao limite anual de subscrição prescrito (exigido no UK)."
+    },
+    "IISA": {
+      "name": "ISA mínima de seguros",
+      "definition": "Mini Insurance Individual Savings Account (ISA). A conta é uma ISA com um gestor de ISA, que só pode conter investimentos em seguros de vida até ao limite anual de subscrição prescrito (exigido no UK)."
+    },
+    "CUYP": {
+      "name": "Pagamento do ano corrente",
+      "definition": "A conta destina-se a pagamentos do ano em curso para uma conta de reforma de investimento (exigido nos US)."
+    },
+    "PRYP": {
+      "name": "Pagamento do ano anterior",
+      "definition": "A conta destina-se a um pagamento de um ano anterior para uma conta de reforma de investimento (exigido nos US)."
+    },
+    "ASTR": {
+      "name": "Transferência de ativos",
+      "definition": "A conta destina-se a uma transferência de ativos para uma conta de reforma de investimento (exigido nos US)."
+    },
+    "EMPY": {
+      "name": "Trabalhador, ano anterior",
+      "definition": "A conta destina-se a contribuições do trabalhador de anos anteriores para uma conta de reforma de investimento (exigido nos US)."
+    },
+    "EMCY": {
+      "name": "Trabalhador, ano corrente",
+      "definition": "A conta destina-se a contribuições do trabalhador do ano em curso para uma conta de reforma de investimento (exigido nos US)."
+    },
+    "EPRY": {
+      "name": "Empregador, ano anterior",
+      "definition": "A conta destina-se a contribuições da entidade patronal de anos anteriores para uma conta de reforma de investimento (exigido nos US)."
+    },
+    "ECYE": {
+      "name": "Empregador, ano corrente",
+      "definition": "A conta destina-se a contribuições da entidade patronal do ano em curso para uma conta de reforma de investimento (exigido nos US)."
+    },
+    "NFPI": {
+      "name": "IRA protótipo não fundo",
+      "definition": "A conta destina-se a uma Individual Retirement Account (IRA) protótipo sem fundo, numa conta de reforma de investimento (exigido nos US)."
+    },
+    "NFQP": {
+      "name": "Plano qualificado não fundo",
+      "definition": "A conta destina-se a um plano qualificado sem fundo, numa conta de reforma de investimento (exigido nos US)."
+    },
+    "DECP": {
+      "name": "Plano de contribuição definida",
+      "definition": "A conta destina-se a um plano de contribuição definida (exigido nos US)."
+    },
+    "IRAC": {
+      "name": "Conta individual de reforma",
+      "definition": "A conta é uma Individual Retirement Account (IRA) (exigido nos US)."
+    },
+    "IRAR": {
+      "name": "Transferência de conta individual de reforma",
+      "definition": "A conta destina-se a uma Individual Retirement Account (IRA) - Rollover (exigido nos US)."
+    },
+    "KEOG": {
+      "name": "KEOGH",
+      "definition": "KEOGH. A conta é um plano de reforma com imposto diferido, concebido para ajudar trabalhadores por conta própria ou pessoas com rendimentos de atividade independente a constituir um programa de poupança para a reforma (exigido nos US)."
+    },
+    "PFSP": {
+      "name": "Plano de participação nos lucros",
+      "definition": "A conta é um plano de participação nos lucros (exigido nos US)."
+    },
+    "401K": {
+      "name": "401(k)",
+      "definition": "401k. A conta é um plano de reforma facultativo, oferecido por muitas empresas, em que o rendimento é investido antes de ser tributado (exigido nos US)."
+    },
+    "SIRA": {
+      "name": "IRA autogerida",
+      "definition": "Individual Retirement Account (IRA) autogerida (exigido nos US)."
+    },
+    "403B": {
+      "name": "403(b)",
+      "definition": "403(b). A conta é um programa de investimento e poupança com imposto diferido para trabalhadores de hospitais, instituições de ensino e outras organizações sem fins lucrativos, para pouparem e investirem para a sua própria reforma. O nome refere-se à secção pertinente do Internal Revenue Code dos US (exigido nos US)."
+    },
+    "457X": {
+      "name": "457",
+      "definition": "457. A conta é um programa de remuneração diferida não qualificado, disponível para administrações estaduais e locais e para entidades patronais sem fins lucrativos (exigido nos US)."
+    },
+    "RIRA": {
+      "name": "Roth IRA protótipo fundo",
+      "definition": "Roth Individual Retirement Account (IRA) Fund Prototype. A conta é uma conta de reforma com imposto diferido baseada no princípio inverso de uma IRA tradicional. As contribuições para a reforma são tributadas à partida, mas os levantamentos podem ser efetuados sem imposto quando se atinge uma determinada idade, desde que a Roth IRA tenha sido constituída há um determinado período de tempo (exigido nos US)."
+    },
+    "RIAN": {
+      "name": "Roth IRA não protótipo",
+      "definition": "Roth Individual Retirement Account (IRA) Non-Prototype. A conta é uma conta de reforma com imposto diferido baseada no princípio inverso de uma IRA tradicional. As contribuições para a reforma são tributadas à partida, mas os levantamentos podem ser efetuados sem imposto quando se atinge uma determinada idade, desde que a Roth IRA tenha sido constituída há um determinado período de tempo (exigido nos US)."
+    },
+    "RCRF": {
+      "name": "IRA de conversão Roth protótipo fundo",
+      "definition": "Roth Conversion Individual Retirement Account (IRA) Fund Prototype. A conta é uma conta de reforma constituída quando uma parte muda de uma IRA normal (exigido nos US)."
+    },
+    "RCIP": {
+      "name": "IRA de conversão Roth não protótipo",
+      "definition": "Roth Conversion Individual Retirement Account (IRA) Non-Prototype. A conta é uma conta de reforma constituída quando uma parte muda de uma IRA normal (exigido nos US)."
+    },
+    "EIFP": {
+      "name": "IRA de educação protótipo fundo",
+      "definition": "Education Individual Retirement Account Fund Prototype (também conhecida como Education Savings Account). A conta é um plano de poupança aberto a qualquer pessoa com menos de 18 anos. Quando o titular da conta levanta dinheiro para pagar despesas qualificadas de ensino superior, os levantamentos são, em geral, isentos de imposto (exigido nos US)."
+    },
+    "EIOP": {
+      "name": "IRA de educação não protótipo",
+      "definition": "Education Individual Retirement Account Non-Prototype (também conhecida como Education Savings Account). A conta é um plano de poupança aberto a qualquer pessoa com menos de 18 anos. Quando o titular da conta levanta dinheiro para pagar despesas qualificadas de ensino superior, os levantamentos são, em geral, isentos de imposto (exigido nos US)."
+    }
+  }
+}

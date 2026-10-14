@@ -1,0 +1,18 @@
+{
+  "isoType": "Traceability4",
+  "definition": "Identificação dos parceiros envolvidos na troca do ATM para o emitente, com a data e hora relativas das respetivas trocas.",
+  "isoElements": {
+    "RelayIdentification": {
+      "definition": "Identificação de um parceiro de uma troca de mensagens."
+    },
+    "SequenceNumber": {
+      "definition": "Identificação do nó de retransmissão no percurso, para permitir a identificação de vários anfitriões em paralelo."
+    },
+    "TraceDateTimeIn": {
+      "definition": "Data e hora da troca de dados de entrada para retransmissão ou processamento."
+    },
+    "TraceDateTimeOut": {
+      "definition": "Data e hora da troca de saída para retransmissão ou processamento."
+    }
+  }
+}

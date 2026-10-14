@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateSuspensionRequestV04",
+  "definition": "Âmbito|A mensagem MandateSuspensionRequest é enviada pelo iniciador do pedido à sua instituição. O iniciador pode ser o devedor, a instituição do devedor, o credor ou a instituição do credor.|A mensagem MandateSuspensionRequest é utilizada para solicitar a suspensão de um mandato existente até que a suspensão seja levantada. |Utilização|A mensagem MandateSuspensionRequest pode conter um ou mais pedidos de suspensão.|As mensagens podem ser trocadas entre o credor e a instituição do credor, entre o devedor e a instituição do devedor e entre a instituição do credor e a instituição do devedor.|A mensagem MandateSuspensionRequest pode ser utilizada em cenários nacionais e transfronteiras.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "O bloco SupplementaryData ao nível da mensagem não pode ser utilizado para fornecer informações adicionais sobre uma operação. O elemento SupplementaryData ao nível da operação deve ser utilizado para esse efeito."
+    }
+  }
+}

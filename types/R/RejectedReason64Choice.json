@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedReason64Choice",
+  "definition": "Escolha entre um código normalizado e um código proprietário para especificar o motivo pelo qual a instrução ou o pedido de cancelamento tem o estado de rejeitado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o motivo pelo qual a instrução/pedido de cancelamento tem o estado de rejeitado."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do motivo pelo qual a instrução/pedido de cancelamento tem o estado de rejeitado."
+    }
+  }
+}

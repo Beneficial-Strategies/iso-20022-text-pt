@@ -1,0 +1,12 @@
+{
+  "isoType": "ServiceCategory1Choice",
+  "definition": "Acordo ou regras ao abrigo dos quais a operação deve ser processada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Categoria de serviço, conforme publicada numa lista externa de códigos de motivo."
+    },
+    "Proprietary": {
+      "definition": "Categoria de serviço, em formato proprietário."
+    }
+  }
+}

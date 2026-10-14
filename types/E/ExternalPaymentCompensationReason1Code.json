@@ -1,0 +1,10 @@
+{
+  "isoType": "ExternalPaymentCompensationReason1Code",
+  "definition": "Especifica o motivo da compensação pelo processamento de um pagamento, conforme publicado num conjunto de códigos externo.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "VADA": {
+      "name": "Ajustamento da data-valor",
+      "definition": "Compensação solicitada para correção da data-valor."
+    }
+  }
+}

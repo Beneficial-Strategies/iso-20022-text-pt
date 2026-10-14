@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionIdentifier1",
+  "definition": "Identificação inequívoca da operação.",
+  "isoElements": {
+    "TransactionDateTime": {
+      "definition": "Data e hora locais da operação, atribuídas pelo POI (Point Of Interaction)."
+    },
+    "TransactionReference": {
+      "definition": "Identificação da operação, que tem de ser única durante um determinado período."
+    }
+  }
+}

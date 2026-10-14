@@ -1,0 +1,35 @@
+{
+  "isoType": "FundConfirmedCashForecastReport3",
+  "definition": "Informações sobre um relatório de previsão de caixa.",
+  "isoElements": {
+    "FundOrSubFundDetails": {
+      "definition": "Informações sobre o fundo/subfundo, quando o relatório especifica o fluxo de caixa do fundo/subfundo ou de uma classe de ações do fundo/subfundo."
+    },
+    "FundCashForecastDetails": {
+      "definition": "Informações relacionadas com os fluxos de caixa de entrada e de saída de uma data de negociação específica, resultantes de operações sobre fundos de investimento, por exemplo, subscrições, resgates ou conversões de/para um fundo de investimento especificado."
+    },
+    "ConsolidatedNetCashForecast": {
+      "definition": "Caixa líquida estimada resultante dos fluxos de caixa de entrada e de saída."
+    },
+    "Extension": {
+      "definition": "Informações adicionais que não possam ser captadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "TradeDate1Rule": {
+      "definition": "Se estiver presente qualquer ocorrência de FundCashForecastDetails, então não é permitida nenhuma ocorrência de FundOrSubFundDetails/TradeDateTime."
+    },
+    "PreviousTradeDate1Rule": {
+      "definition": "Se estiver presente qualquer ocorrência de FundCashForecastDetails, então não é permitida nenhuma ocorrência de FundOrSubFundDetails/PreviousTradeDateTime."
+    },
+    "TradeDate2Rule": {
+      "definition": "Se FundCashForecastDetails não estiver presente, então deve estar presente pelo menos uma ocorrência de FundOrSubFundDetails/TradeDateTime."
+    },
+    "ConsolidatedNetCashRule": {
+      "definition": "Se ConsolidatedNetCashForecast estiver presente, então deve estar presente pelo menos uma ocorrência de FundOrSubFundDetails ou de FundCashForecastDetails. Ambos, FundOrSubFundDetails e FundCashForecastDetails, podem estar presentes."
+    },
+    "FundOrSubFundAndShareClassGuideline": {
+      "definition": "Quando a mensagem é utilizada para indicar os montantes de entrada e saída de caixa de mais de um fundo/subfundo e de mais de uma classe de ações (são utilizadas duas ou mais sequências FundOrSubFundDetails e duas ou mais sequências FundCashForecastDetails), não é possível determinar, a partir do conteúdo da própria mensagem, a que fundo/subfundo pertence cada classe de ações, o que pode não ser desejável, pelo que este tipo de utilização deve ser acordado bilateralmente."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryAgent5",
+  "definition": "Identifica uma parte proprietária.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo de instituição proprietária."
+    },
+    "Agent": {
+      "definition": "Organização criada principalmente para prestar serviços financeiros."
+    }
+  }
+}

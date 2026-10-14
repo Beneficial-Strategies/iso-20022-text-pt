@@ -1,0 +1,29 @@
+{
+  "isoType": "Meeting7",
+  "definition": "Informações sobre a data e o(s) local(is) de uma assembleia geral.",
+  "isoElements": {
+    "DateAndTime": {
+      "definition": "Data e hora em que a assembleia terá lugar."
+    },
+    "DateStatus": {
+      "definition": "Estado da data da assembleia."
+    },
+    "QuorumRequired": {
+      "definition": "Indica se é necessário um número mínimo de valores mobiliários representados para realizar uma assembleia."
+    },
+    "Location": {
+      "definition": "Local em que a assembleia terá lugar."
+    },
+    "QuorumQuantity": {
+      "definition": "Quantidade mínima de valores mobiliários necessária para realizar uma assembleia."
+    },
+    "URLAddress": {
+      "definition": "Endereço do Universal Resource Locator (URL), por exemplo, utilizado no serviço www (HTTP)."
+    }
+  },
+  "isoRules": {
+    "DateStatus1Rule": {
+      "definition": "Se DateAndTime/DateCode for \"UKWN\" (desconhecido), então DateStatus não deve estar presente."
+    }
+  }
+}

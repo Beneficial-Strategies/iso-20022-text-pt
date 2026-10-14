@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMReconciliationAdvice3",
+  "definition": "Informações relativas à reconciliação de um ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Ambiente do ATM."
+    },
+    "CommandResult": {
+      "definition": "Resultado do comando de reinicialização dos contadores de operações."
+    },
+    "CommandContext": {
+      "definition": "Parte que solicitou a reconciliação."
+    },
+    "Transaction": {
+      "definition": "Informações sobre o pedido de reconciliação."
+    }
+  }
+}

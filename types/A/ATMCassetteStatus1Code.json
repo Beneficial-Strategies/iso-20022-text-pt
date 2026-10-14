@@ -1,0 +1,46 @@
+{
+  "isoType": "ATMCassetteStatus1Code",
+  "definition": "Estado de uma cassete num ATM.",
+  "isoCodes": {
+    "CUOK": {
+      "name": "Ok",
+      "definition": "A unidade de numerário está em bom estado."
+    },
+    "CUFL": {
+      "name": "Cheio",
+      "definition": "A unidade de numerário está cheia."
+    },
+    "CUHG": {
+      "name": "Alto",
+      "definition": "A unidade de numerário está alta, ou seja, atingiu ou excedeu o limiar definido para esta cassete."
+    },
+    "CULW": {
+      "name": "Baixo",
+      "definition": "A unidade de numerário está baixa, ou seja, atingiu ou está abaixo do limiar definido para esta cassete."
+    },
+    "CUMT": {
+      "name": "Vazio",
+      "definition": "A unidade de numerário está vazia."
+    },
+    "CUNP": {
+      "name": "Inoperacional",
+      "definition": "A unidade de numerário está inoperacional."
+    },
+    "CUMS": {
+      "name": "Em falta",
+      "definition": "A unidade de numerário está em falta."
+    },
+    "CUNA": {
+      "name": "Não disponível",
+      "definition": "Os valores desta unidade de numerário não estão disponíveis."
+    },
+    "CUNR": {
+      "name": "Sem referência",
+      "definition": "Não existem valores de referência disponíveis para esta unidade de numerário."
+    },
+    "CUMP": {
+      "name": "Manipulado",
+      "definition": "O dispositivo foi inserido quando não se encontrava num estado de troca."
+    }
+  }
+}

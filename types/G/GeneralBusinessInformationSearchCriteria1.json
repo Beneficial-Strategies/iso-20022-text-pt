@@ -1,0 +1,15 @@
+{
+  "isoType": "GeneralBusinessInformationSearchCriteria1",
+  "definition": "Define os critérios utilizados para pesquisar informações de negócio.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referência única e inequívoca atribuída a um sistema de informação de negócio geral."
+    },
+    "Subject": {
+      "definition": "Linha de assunto de uma informação de negócio geral, que resume o tema e o destino pretendido da informação."
+    },
+    "Qualifier": {
+      "definition": "Informações adicionais sobre a criticidade ou a importância de um sistema de informação de negócio geral."
+    }
+  }
+}

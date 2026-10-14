@@ -1,0 +1,35 @@
+{
+  "isoType": "InvestigationData18",
+  "definition": "Fornece as informações detalhadas da resposta à investigação.",
+  "isoElements": {
+    "OriginalInvestigationSequence": {
+      "definition": "Sequência original da investigação, conforme fornecida no pedido de investigação."
+    },
+    "OriginalInvestigationReason": {
+      "definition": "Motivo original da investigação, conforme fornecido no pedido de investigação."
+    },
+    "OriginalInvestigationReasonSubType": {
+      "definition": "Subtipo do motivo original da investigação, conforme fornecido no pedido de investigação."
+    },
+    "ResponseData": {
+      "definition": "Resposta à investigação, conforme fornecida pelo respondente."
+    },
+    "RelatedInvestigationData": {
+      "definition": "Informações adicionais que serão enviadas em separado da mensagem, como a cópia de um passaporte."
+    },
+    "EnclosedFile": {
+      "definition": "Documento ou modelo anexo à mensagem.||Utilização: a utilização do elemento EnclosedFile tem de ser acordada bilateralmente."
+    },
+    "RelatedFileData": {
+      "definition": "Detalhes de um documento não anexo à mensagem que será enviado ou disponibilizado em separado."
+    },
+    "ResponseOriginator": {
+      "definition": "Identificação da instituição ou parte que originou a resposta.||Utilização: o elemento só deve ser fornecido quando for diferente do Responder."
+    }
+  },
+  "isoRules": {
+    "InvestigationDataGuideline": {
+      "definition": "O InvestigationData só deve ser repetido quando o pedido de investigação original contiver várias ocorrências do bloco InvestigationData."
+    }
+  }
+}

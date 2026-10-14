@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationToReceiveStatusReportV09",
+  "definition": "Âmbito|A mensagem NotificationToReceiveStatusReport é enviada por uma instituição prestadora de serviços de conta a um titular de conta ou a uma parte que atue em nome do titular da conta. É utilizada para notificar o titular da conta sobre o estado de um ou mais pagamentos esperados que foram avisados numa mensagem NotificationToReceive anterior.|Utilização|A mensagem NotificationToReceiveStatusReport é enviada em resposta a uma mensagem NotificationToReceive e pode ser utilizada num cenário direto ou de retransmissão. É utilizada para avisar o titular da conta da receção dos fundos conforme esperado. É também utilizada para notificar o titular da conta da não receção de fundos ou de discrepâncias nos fundos recebidos."
+}

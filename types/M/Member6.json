@@ -1,0 +1,15 @@
+{
+  "isoType": "Member6",
+  "definition": "Informações sobre os membros de um sistema.",
+  "isoElements": {
+    "MemberReturnAddress": {
+      "definition": "Endereço físico/lógico pertencente a um membro, segregado do seu endereço principal utilizado para as operações normais. O endereço de devolução de fundos é utilizado para encaminhar mensagens que requerem atenção específica ou tratamento de exceções, por exemplo, devoluções ou rejeições."
+    },
+    "ContactReference": {
+      "definition": "Pessoa a contactar numa determinada organização."
+    },
+    "CommunicationAddress": {
+      "definition": "Número, ou endereço virtual, utilizado para comunicação."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxableIncomePerShareCalculated2Choice",
+  "definition": "Escolha de formatos para o rendimento tributável por ação calculado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Rendimento tributável por ação (TIS) calculado, expresso como código."
+    },
+    "Proprietary": {
+      "definition": "Rendimento tributável por ação calculado (TIS), expresso como código proprietário."
+    }
+  }
+}

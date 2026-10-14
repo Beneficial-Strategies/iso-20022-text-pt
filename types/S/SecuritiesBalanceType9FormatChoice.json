@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesBalanceType9FormatChoice",
+  "definition": "Escolha de formatos para expressar o tipo de saldo de valores mobiliários.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de saldo de valores mobiliários."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para expressar o tipo de saldo de valores mobiliários."
+    }
+  }
+}

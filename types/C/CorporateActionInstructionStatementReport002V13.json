@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionInstructionStatementReport002V13",
+  "definition": "Âmbito|A mensagem CorporateActionInstructionStatementReport é enviada por uma entidade gestora de contas a um titular de conta ou ao seu agente designado para reportar saldos ao nível da conta de custódia para um ou mais eventos de operações sobre ativos ou ao nível do evento de operação sobre ativos para uma ou mais contas de custódia.|Utilização|A mensagem também pode ser utilizada para:|- reenviar uma mensagem enviada anteriormente (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy Duplicate), utilizando os elementos pertinentes do cabeçalho aplicacional da mensagem (BAH).",
+  "isoRules": {
+    "MultipleAccountAndStatementDetailsRule": {
+      "definition": "Se StatementGeneralDetails/ReportingType for MASE (Multiple Accounts), então AccountAndStatementDetails pode ser repetido e AccountAndStatementDetails/CorporateActionEventAndBalance não deve ser repetido em nenhuma ocorrência de AccountAndStatementDetails.|Se StatementGeneralDetails/ReportingType for SAME (Multiple Events), então AccountAndStatementDetails não deve ser repetido e AccountAndStatementDetails/CorporateActionEventAndBalance pode ser repetido."
+    },
+    "CorporateActionEventAndBalanceRule": {
+      "definition": "Se StatementGeneralDetails/ActivityIndicator for 'true' ou '1' (Yes), então deve estar presente pelo menos uma ocorrência de AccountAndStatementDetails/CorporateActionEventAndBalance.|Se StatementGeneralDetails/ActivityIndicator for 'false' ou '0' (No), então AccountAndStatementDetails/CorporateActionEventAndBalance não deve estar presente em nenhuma ocorrência de AccountAndStatementDetails."
+    },
+    "PaginationRule": {
+      "definition": "Se a paginação estiver presente, então StatementGeneralDetails/StatementIdentification deve estar presente."
+    }
+  }
+}

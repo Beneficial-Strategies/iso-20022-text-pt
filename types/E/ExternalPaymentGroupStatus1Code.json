@@ -1,0 +1,58 @@
+{
+  "isoType": "ExternalPaymentGroupStatus1Code",
+  "definition": "Especifica o estado de um grupo de instruções de pagamento, conforme publicado num conjunto de códigos externo de estados de grupos de pagamentos.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "ACCP": {
+      "name": "Perfil do cliente aceite",
+      "definition": "A verificação técnica prévia da validação foi bem-sucedida. A verificação do perfil do cliente também foi bem-sucedida."
+    },
+    "ACCC": {
+      "name": "Aceite, liquidação concluída na conta do credor",
+      "definition": "A liquidação na conta do credor foi concluída."
+    },
+    "ACSC": {
+      "name": "Aceite, liquidação concluída na conta do devedor",
+      "definition": "A liquidação na conta do devedor foi concluída.|Utilização : pode ser utilizado pela primeira instituição para comunicar ao devedor que a operação foi concluída. |Aviso : este estado é fornecido para fins de estado da operação, não para informação financeira. Só pode ser utilizado após acordo bilateral"
+    },
+    "ACSP": {
+      "name": "Aceite, liquidação em curso",
+      "definition": "Todas as verificações anteriores, como a validação técnica e o perfil do cliente, foram bem-sucedidas, pelo que a iniciação do pagamento foi aceite para execução."
+    },
+    "ACTC": {
+      "name": "Aceite, validação técnica",
+      "definition": "A autenticação e a validação sintática e semântica foram bem-sucedidas"
+    },
+    "ACWC": {
+      "name": "Aceite com alteração",
+      "definition": "A instrução é aceite, mas será efetuada uma alteração, por exemplo da data ou da informação de remessa não enviada."
+    },
+    "PART": {
+      "name": "Parcialmente aceite",
+      "definition": "Um certo número de operações foi aceite, ao passo que outro número de operações ainda não atingiu o|estado 'aceite'."
+    },
+    "PDNG": {
+      "name": "Pendente",
+      "definition": "A iniciação do pagamento ou uma operação individual incluída na iniciação do pagamento está pendente. Serão realizadas mais verificações e atualizações de estado."
+    },
+    "RCVD": {
+      "name": "Recebido",
+      "definition": "A iniciação do pagamento foi recebida pela instituição recetora"
+    },
+    "RJCT": {
+      "name": "Rejeitado",
+      "definition": "A iniciação do pagamento ou uma operação individual incluída na iniciação do pagamento foi rejeitada."
+    },
+    "RCVC": {
+      "name": "Recebido, verificação concluída",
+      "definition": "Foram aplicadas às operações recebidas as verificações do beneficiário, indicando que estão concluídas sem dados divergentes."
+    },
+    "RVCM": {
+      "name": "Recebido, verificação concluída com discrepâncias",
+      "definition": "Foram aplicadas às operações recebidas as verificações do beneficiário, indicando que estão concluídas e que contêm dados divergentes."
+    },
+    "RVNC": {
+      "name": "Recebido, verificação não concluída",
+      "definition": "A verificação da parte nas operações recebidas ainda não está concluída."
+    }
+  }
+}

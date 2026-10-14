@@ -1,0 +1,12 @@
+{
+  "isoType": "BankToCustomerStatementV14",
+  "definition": "Âmbito|A mensagem BankToCustomerStatement é enviada pela instituição gestora da conta a um titular da conta ou a uma parte autorizada pelo titular da conta para receber a mensagem. É utilizada para informar o titular da conta, ou a parte autorizada, dos lançamentos contabilizados na conta e para fornecer ao titular informações sobre o saldo da conta num determinado momento.|Utilização|A mensagem BankToCustomerStatement pode conter relatórios de mais de uma conta. Fornece informações para a gestão de tesouraria e/ou reconciliação.|Contém informações apenas sobre lançamentos contabilizados.|Pode incluir pormenores subjacentes das operações que foram incluídas no lançamento.|A mensagem é trocada conforme definido entre a instituição gestora da conta e o titular da conta. Fornece informações sobre os itens que foram contabilizados na conta e também informações sobre o saldo. Consoante os serviços e o calendário acordados entre os bancos e os seus clientes, os extratos podem ser gerados e trocados em conformidade, por exemplo para períodos intradiários ou do dia anterior.|É possível que o destinatário da mensagem não seja o titular da conta, mas uma parte habilitada, por acordo com o titular da conta, a receber as informações da conta (também designada destinatário).",
+  "isoRules": {
+    "MessageOrStatementPaginationRule": {
+      "definition": "MessagePagination pode estar presente ou StatementPagination pode estar presente, mas não ambos."
+    },
+    "SupplementaryDataRule": {
+      "definition": "O bloco SupplementaryData ao nível da mensagem não deve ser utilizado para fornecer informações adicionais sobre uma operação. Para esse fim, deve ser utilizado o elemento SupplementaryData ao nível da operação."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "NotificationCancellationReason2",
+  "definition": "Fornece detalhes adicionais sobre o motivo do pedido de cancelamento.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Parte que emite o pedido de cancelamento."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo do cancelamento."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalhes adicionais sobre o motivo do pedido de cancelamento."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionQuantity13",
+  "definition": "Especifica as quantidades de uma operação de sociedade.",
+  "isoElements": {
+    "BaseDenomination": {
+      "definition": "Montante integral mínimo de valores mobiliários que cada titular de conta tem de conservar após a aplicação dos montantes resgatados."
+    },
+    "IncrementalDenomination": {
+      "definition": "Montante utilizado quando o montante resgatado não é atingido ao realizar o sorteio com a denominação de base."
+    }
+  }
+}

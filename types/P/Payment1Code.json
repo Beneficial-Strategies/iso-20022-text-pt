@@ -1,0 +1,14 @@
+{
+  "isoType": "Payment1Code",
+  "definition": "Especifica o tipo de pagamento.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Pagamento efetivo",
+      "definition": "O pagamento em numerário ocorre ou ocorrerá aquando da receção do produto do emitente."
+    },
+    "CONT": {
+      "name": "Pagamento contratual",
+      "definition": "O pagamento em numerário ocorre ou ocorrerá antes da receção do produto proveniente do emitente e com base num acordo contratual estabelecido com o prestador de serviços de conta."
+    }
+  }
+}

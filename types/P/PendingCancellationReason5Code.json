@@ -1,0 +1,26 @@
+{
+  "isoType": "PendingCancellationReason5Code",
+  "definition": "Especifica o motivo pelo qual o pedido de cancelamento tem um estado pendente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "DQUA": {
+      "name": "Rejeição da quantidade",
+      "definition": "Quantidade instruída não reconhecida ou inválida."
+    },
+    "DQCS": {
+      "name": "Rejeição do montante",
+      "definition": "Montante em numerário instruído não reconhecido ou inválido."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    }
+  }
+}

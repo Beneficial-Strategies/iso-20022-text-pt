@@ -1,0 +1,45 @@
+{
+  "isoType": "PaymentTransaction178",
+  "definition": "Fornece mais pormenores sobre as operações originais a que se refere a mensagem de relatório de estado.",
+  "isoElements": {
+    "StatusIdentification": {
+      "definition": "Identificação única, atribuída por uma parte instrutora a uma parte instruída, para identificar inequivocamente o estado comunicado.|Utilização: A parte instrutora é a parte que envia a mensagem de estado e não a parte que enviou a instrução original sobre a qual é feito o relatório."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificação única, atribuída pela parte instrutora original à parte instruída original, para identificar inequivocamente a instrução original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora original, para identificar inequivocamente a operação original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador universalmente único para fornecer a referência de ponta a ponta original de uma operação de pagamento."
+    },
+    "TransactionStatus": {
+      "definition": "Especifica o estado de uma operação, conforme publicado numa lista externa de códigos de estado de operações de pagamento."
+    },
+    "StatusReasonInformation": {
+      "definition": "Fornece informações pormenorizadas sobre o motivo do estado."
+    },
+    "ChargesInformation": {
+      "definition": "Fornece informações sobre os encargos relacionados com o processamento da rejeição da instrução.|Utilização: é transmitido apenas a título informativo. A liquidação dos encargos será efetuada separadamente."
+    },
+    "TrackerData": {
+      "definition": "Fornece informações sobre o seguimento da operação interbancária relacionada com o pagamento."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Momento em que a ordem de pagamento da parte iniciadora satisfaz as condições de tratamento da instituição gestora da conta. Isto significa que a instituição gestora da conta recebeu a ordem de pagamento e aplicou verificações como a autorização e a disponibilidade de fundos."
+    },
+    "AccountServicerReference": {
+      "definition": "Referência única, atribuída pela instituição gestora da conta, para identificar inequivocamente a instrução."
+    },
+    "ClearingSystemReference": {
+      "definition": "Referência única, atribuída por um sistema de compensação, para identificar inequivocamente a instrução."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos principais utilizados para identificar a operação original a que se refere."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  }
+}

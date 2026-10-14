@@ -1,0 +1,23 @@
+{
+  "isoType": "MovementReport1",
+  "definition": "Características do relatório.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identificação da mensagem de consulta enviada para solicitar este extrato."
+    },
+    "ReportIdentification": {
+      "definition": "Referência comum a todas as páginas de um relatório."
+    },
+    "QueryType": {
+      "definition": "Define o tipo de consulta."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica se o extrato comunica atividade ou atualização de informação."
+    }
+  },
+  "isoRules": {
+    "ReportIdentificationRule": {
+      "definition": "Se for utilizado um número longo (Exact5NumericText), o relatório tem de ser um relatório delta (UpdateType: DELT).|Se o relatório tiver várias páginas, a ReportIdentification tem de permanecer a mesma em todas as páginas. É um número único do relatório.|Dois relatórios do mesmo tipo enviados um a seguir ao outro ao mesmo destinatário, relativos à mesma conta de custódia, têm de ter identificações de relatório diferentes. Por exemplo, um relatório diário enviado no dia 1 teria a ReportIdentification 001, no dia 2, 002, etc."
+    }
+  }
+}

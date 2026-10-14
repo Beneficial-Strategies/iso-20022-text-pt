@@ -1,0 +1,18 @@
+{
+  "isoType": "Charges14",
+  "definition": "Fornece informações sobre os encargos relativos à operação de pagamento.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Encargos da operação a pagar pelo responsável pelos encargos."
+    },
+    "Agent": {
+      "definition": "Instituição que recebe os encargos da operação ou a quem os encargos da operação são devidos."
+    },
+    "AgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição que será creditada em resultado dos encargos."
+    },
+    "Type": {
+      "definition": "Define o tipo de encargos."
+    }
+  }
+}

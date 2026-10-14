@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestorCapacity4Choice",
+  "definition": "Escolha do formato da qualidade do investidor.",
+  "isoElements": {
+    "Code": {
+      "definition": "Qualidade do investidor expressa como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Qualidade do investidor expressa como código proprietário."
+    }
+  }
+}

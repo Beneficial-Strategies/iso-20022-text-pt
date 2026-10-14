@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionReportOrError7Choice",
+  "definition": "Escolha entre operações e lançamentos registados junto do administrador das operações ou um erro operacional quando os dados pedidos não podem ser obtidos.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Relata operações de pagamento."
+    },
+    "OperationalError": {
+      "definition": "Indica que foi emitido um erro operacional durante o processamento do pedido associado."
+    }
+  }
+}

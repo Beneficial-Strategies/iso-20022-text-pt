@@ -1,0 +1,102 @@
+{
+  "isoType": "ATMServiceType11Code",
+  "definition": "Descreve o tipo de serviço selecionado pelo cliente.",
+  "isoCodes": {
+    "TRFC": {
+      "name": "Transferência do cliente",
+      "definition": "Transferência de fundos entre contas do cliente no mesmo banco."
+    },
+    "TRFI": {
+      "name": "Transferência entre clientes",
+      "definition": "Transferência de fundos para outro cliente."
+    },
+    "TRFP": {
+      "name": "Pagamento",
+      "definition": "Transferência de fundos para pagar a um terceiro."
+    },
+    "ASTS": {
+      "name": "Extratos de conta",
+      "definition": "Solicitar um extrato completo (isto é, um extrato legal) relativo a uma conta do cliente."
+    },
+    "BLCQ": {
+      "name": "Consulta de saldo",
+      "definition": "Consulta de saldo."
+    },
+    "CDVF": {
+      "name": "Verificação do cartão",
+      "definition": "Verificação do cartão."
+    },
+    "CHSN": {
+      "name": "Levantamento escolhido",
+      "definition": "O montante e os valores das notas são escolhidos pelo cliente."
+    },
+    "CMPF": {
+      "name": "Perfil do cliente",
+      "definition": "Solicitar o perfil do cliente com as eventuais informações de conta associadas."
+    },
+    "DCCS": {
+      "name": "Conversão dinâmica de moeda",
+      "definition": "Solicitar a um prestador de serviços DCC que qualifique a conversão de moeda para o cartão."
+    },
+    "XRTD": {
+      "name": "Depósito com taxa de câmbio",
+      "definition": "Solicitar a taxa de câmbio para a operação de depósito em curso."
+    },
+    "XRTW": {
+      "name": "Levantamento com taxa de câmbio",
+      "definition": "Solicitar a taxa de câmbio para a operação de levantamento em curso."
+    },
+    "MCHG": {
+      "name": "Troco",
+      "definition": "Troco entre tipos de suporte."
+    },
+    "DPSN": {
+      "name": "Depósito não verificado",
+      "definition": "Depósito de itens de suporte não verificados pelo ATM, por exemplo num envelope."
+    },
+    "PINC": {
+      "name": "Alteração de PIN",
+      "definition": "Alteração do valor do PIN do cartão."
+    },
+    "PINR": {
+      "name": "Recuperação de PIN",
+      "definition": "Reposição de um PIN."
+    },
+    "PINU": {
+      "name": "Desbloqueio de PIN",
+      "definition": "Desbloquear o PIN."
+    },
+    "PATH": {
+      "name": "Levantamento pré-autorizado",
+      "definition": "A operação de levantamento foi pré-autorizada por outro canal, por exemplo um telemóvel. O montante pode estar ausente da mensagem de pedido de levantamento."
+    },
+    "PRFL": {
+      "name": "Levantamento por perfil",
+      "definition": "O montante e os valores das notas são predefinidos pelo perfil do cliente."
+    },
+    "EMVS": {
+      "name": "Seleção de aplicação EMV",
+      "definition": "Selecionar as aplicações EMV permitidas pelo adquirente."
+    },
+    "STDR": {
+      "name": "Levantamento normal",
+      "definition": "Levantamento normal de itens."
+    },
+    "SPRV": {
+      "name": "Levantamento supervisionado",
+      "definition": "Levantamento autorizado por um supervisor."
+    },
+    "DPSV": {
+      "name": "Depósito verificado",
+      "definition": "Depósito de itens de suporte verificados pelo ATM."
+    },
+    "ACCD": {
+      "name": "Descarregamento de conta",
+      "definition": "Descarregar as contas associadas ao cartão do cliente."
+    },
+    "MINI": {
+      "name": "Mini-extrato",
+      "definition": "Solicitar um mini-extrato (isto é, um extrato parcial) relativo a uma conta do cliente."
+    }
+  }
+}

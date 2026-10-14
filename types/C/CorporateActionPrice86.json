@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionPrice86",
+  "definition": "Especifica preços relacionados com uma opção de evento societário.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "definition": "Pagamento em numerário em vez de ações; normalmente em vez de uma quantidade fracionária."
+    },
+    "OverSubscriptionDepositPrice": {
+      "definition": "Montante em dinheiro exigido por ação objeto de excesso de subscrição, conforme definido pelo emitente."
+    },
+    "MaximumCashToInstruct": {
+      "definition": "Montante máximo em numerário que pode ser instruído."
+    },
+    "MinimumCashToInstruct": {
+      "definition": "Montante mínimo em numerário que pode ser instruído."
+    },
+    "MinimumMultipleCashToInstruct": {
+      "definition": "Múltiplo mínimo de um montante em numerário que pode ser instruído."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "TaxationBasis2Code",
+  "definition": "Especifica a base do imposto.",
+  "isoCodes": {
+    "FLAT": {
+      "name": "Montante fixo",
+      "definition": "A base do encargo/imposto é um montante fixo."
+    },
+    "PERU": {
+      "name": "Por unidade",
+      "definition": "A base dos encargos/imposto é por unidade de instrumento financeiro."
+    }
+  }
+}

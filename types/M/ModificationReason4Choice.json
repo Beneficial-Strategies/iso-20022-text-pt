@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationReason4Choice",
+  "definition": "Escolha do formato do motivo de modificação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução relacionada é modificada ou o pedido de modificação relacionado é executado."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo pelo qual a instrução relacionada é modificada ou o pedido de modificação relacionado é executado."
+    }
+  }
+}

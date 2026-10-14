@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestmentAccount77",
+  "definition": "Informações sobre uma conta de valores mobiliários e as suas características.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "AccountName": {
+      "definition": "Nome da conta. Constitui um meio adicional de identificação e é designado pela instituição gestora da conta de acordo com o titular da conta."
+    },
+    "AccountDesignation": {
+      "definition": "Informações de registo suplementares aplicáveis a um bloco específico de unidades para efeitos de negociação e de reporte. As informações de registo suplementares podem ser utilizadas quando todas as unidades estão registadas, por exemplo, numa plataforma de fundos, mas as posições de cada investidor têm de ser reconciliadas individualmente."
+    },
+    "OwnerIdentification": {
+      "definition": "Identificação do titular da conta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gere a conta em nome do titular da conta, ou seja, gere o registo e o lançamento dos movimentos na conta, calcula os saldos da conta e presta informações sobre a conta."
+    }
+  }
+}

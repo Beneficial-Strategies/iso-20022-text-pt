@@ -1,0 +1,4 @@
+{
+  "isoType": "MultilateralSettlementRequestV02",
+  "definition": "A mensagem MultilateralSettlementRequest é enviada por um agente instrutor a uma infraestrutura de mercado para liquidar obrigações entre os seus participantes utilizando contas detidas num serviço de liquidação.||Utilização: A mensagem MultilateralSettlementRequest pode conter uma ou mais instruções de liquidação com vários movimentos entre contas. Por defeito, todos os movimentos presentes numa instrução individual devem ser tratados como um lançamento em lote e não como um lançamento único por cada movimento individual."
+}

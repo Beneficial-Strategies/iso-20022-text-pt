@@ -1,0 +1,51 @@
+{
+  "isoType": "Vote21",
+  "definition": "Voto expresso para uma deliberação.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Número da deliberação, conforme especificado pelo emitente ou pelo seu agente."
+    },
+    "ListingGroupResolutionLabel": {
+      "definition": "Identifica sob a mesma designação um grupo de deliberações da ordem de trabalhos em que um voto a favor só pode ser atribuído a uma deliberação desse grupo."
+    },
+    "For": {
+      "definition": "Número de valores mobiliários para os quais é instruído o voto a favor."
+    },
+    "Against": {
+      "definition": "Número de valores mobiliários para os quais é instruído o voto contra."
+    },
+    "Abstain": {
+      "definition": "Número de valores mobiliários para os quais é instruída a abstenção."
+    },
+    "Withhold": {
+      "definition": "Número de valores mobiliários para os quais é instruída a retenção do voto."
+    },
+    "WithManagement": {
+      "definition": "Número de valores mobiliários para os quais é instruído o voto em linha com os votos da administração."
+    },
+    "AgainstManagement": {
+      "definition": "Número de valores mobiliários para os quais é instruído o voto contra a recomendação de voto da administração."
+    },
+    "Discretionary": {
+      "definition": "Número de valores mobiliários para os quais a decisão é deixada à parte que exercerá o direito de voto."
+    },
+    "OneYear": {
+      "definition": "Número de valores mobiliários para os quais é instruído o voto a favor por um ano numa deliberação do tipo \"say on pay\"."
+    },
+    "TwoYears": {
+      "definition": "Número de valores mobiliários para os quais é instruído o voto a favor por dois anos numa deliberação do tipo \"say on pay\"."
+    },
+    "ThreeYears": {
+      "definition": "Número de valores mobiliários para os quais é instruído o voto a favor por três anos numa deliberação do tipo \"say on pay\"."
+    },
+    "NoAction": {
+      "definition": "Não votar."
+    },
+    "Blank": {
+      "definition": "O voto é emitido em branco, mas é contabilizado."
+    },
+    "Proprietary": {
+      "definition": "Outro tipo de voto expresso sob a forma de código proprietário."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraBalanceOrOperationalError11Choice",
+  "definition": "Escolha entre os dados do relatório ou um erro operacional.",
+  "isoElements": {
+    "Movements": {
+      "definition": "Identifica as operações."
+    },
+    "OperationalError": {
+      "definition": "Erro operacional resultante de uma rejeição."
+    }
+  }
+}

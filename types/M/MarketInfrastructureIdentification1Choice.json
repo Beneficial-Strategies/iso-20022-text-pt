@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketInfrastructureIdentification1Choice",
+  "definition": "Especifica a identificação da infraestrutura de mercado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Infraestrutura através da qual a instrução de pagamento é processada, tal como publicada numa lista externa de códigos de identificação de sistemas de compensação."
+    },
+    "Proprietary": {
+      "definition": "Identificação do sistema de compensação em formato proprietário.|."
+    }
+  }
+}

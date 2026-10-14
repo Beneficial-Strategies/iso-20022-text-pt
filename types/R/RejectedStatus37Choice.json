@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus37Choice",
+  "definition": "Escolha entre um motivo e a ausência de motivo para o estado de rejeição do tratamento da instrução de operação sobre ativos.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo não especificado."
+    },
+    "Reason": {
+      "definition": "Motivo do estado rejeitado."
+    }
+  }
+}

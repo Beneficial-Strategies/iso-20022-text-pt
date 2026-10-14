@@ -1,0 +1,18 @@
+{
+  "isoType": "TrackerRecord5",
+  "definition": "Especifica as informações do sistema de seguimento específico de uma instituição relativas a uma operação de pagamento.",
+  "isoElements": {
+    "Agent": {
+      "definition": "Identificação de uma instituição no sistema de seguimento."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica a(s) parte(s) que suportará(ão) os encargos associados ao tratamento da operação de pagamento."
+    },
+    "ChargesAmount": {
+      "definition": "Encargos da operação a pagar pelo responsável pelos encargos."
+    },
+    "ExchangeRateData": {
+      "definition": "Fornece detalhes da taxa e das moedas utilizadas na operação cambial."
+    }
+  }
+}

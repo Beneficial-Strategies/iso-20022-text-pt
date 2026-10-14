@@ -1,0 +1,34 @@
+{
+  "isoType": "Algorithm13Code",
+  "definition": "Algoritmos criptográficos para a proteção de chaves transportadas.",
+  "isoCodes": {
+    "EA2C": {
+      "name": "AES128CBC",
+      "definition": "Cifra AES (Advanced Encryption Standard) em modo CBC (Chaining Block Cypher) com chave criptográfica de 128 bits, conforme definida pelas Federal Information Processing Standards (FIPS 197 - 6 de novembro de 2001 - Advanced Encryption Standard)."
+    },
+    "E3DC": {
+      "name": "DES112CBC",
+      "definition": "Cifra Triple DES (Data Encryption Standard) em modo CBC (Chaining Block Cypher) com chave de comprimento duplo (112 bits), conforme definida na FIPS PUB 46-3 - (ASN.1 Object Identifier: des-ede3-cbc)."
+    },
+    "DKP9": {
+      "name": "DUKPT2009",
+      "definition": "Algoritmo DUKPT (Derived Unique Key Per Transaction), conforme especificado na norma ANSI X9.24-2009, Anexo A."
+    },
+    "UKPT": {
+      "name": "UKPT",
+      "definition": "Cifra de chaves UKPT (Unique Key Per Transaction) ou Master Session Key - (ASN.1 Object Identifier: id-ukpt-wrap)."
+    },
+    "UKA1": {
+      "name": "UKPTwithAES128",
+      "definition": "Cifra de chaves UKPT (Unique Key Per Transaction) ou Master Session Key, com Advanced Encryption Standard e chave criptográfica de 128 bits, aprovada pelas Federal Information Processing Standards (FIPS 197 - 6 de novembro de 2001 - Advanced Encryption Standard)."
+    },
+    "EA9C": {
+      "name": "AES192CBC",
+      "definition": "Cifra AES (Advanced Encryption Standard) em modo CBC (Chaining Block Cypher) com chave criptográfica de 192 bits, conforme definida pelas Federal Information Processing Standards (FIPS 197 – 6 de novembro de 2001 - Advanced Encryption Standard)."
+    },
+    "EA5C": {
+      "name": "AES256CBC",
+      "definition": "Cifra AES (Advanced Encryption Standard) em modo CBC (Chaining Block Cypher) com chave criptográfica de 256 bits, conforme definida pelas Federal Information Processing Standards (FIPS 197 – 6 de novembro de 2001 - Advanced Encryption Standard)."
+    }
+  }
+}

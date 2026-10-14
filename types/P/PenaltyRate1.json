@@ -1,0 +1,15 @@
+{
+  "isoType": "PenaltyRate1",
+  "definition": "Especifica os dados da taxa de penalização se os valores mobiliários estiverem sujeitos a penalizações.",
+  "isoElements": {
+    "MarketIdentification": {
+      "definition": "Local de negociação da operação relacionada."
+    },
+    "SMEGrowthMarket": {
+      "definition": "Classificação binária que indica se o valor mobiliário foi negociado num mercado de crescimento de PME ou não.||Utilização: se não for indicado, o indicador não é relevante para o cálculo da penalização (SME)."
+    },
+    "Rate": {
+      "definition": "Taxa de penalização aplicável ao tipo de ativo."
+    }
+  }
+}

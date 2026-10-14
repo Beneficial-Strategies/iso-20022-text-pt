@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitStructure6",
+  "definition": "Detalhes de um limite específico definido pelo membro e gerido pelo administrador de operações.",
+  "isoElements": {
+    "LimitIdentification": {
+      "definition": "Identificação do limite por defeito."
+    },
+    "StartDateTime": {
+      "definition": "Data e hora a partir das quais o limite produz efeitos."
+    },
+    "Amount": {
+      "definition": "Montante em dinheiro do limite, expresso numa moeda elegível."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica se um limite é um limite de débito ou um limite de crédito."
+    }
+  }
+}

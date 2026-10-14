@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader116",
+  "definition": "Fornece informações adicionais sobre a mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela instituição gestora da conta e enviada ao titular da conta ou à parte autorizada a receber a mensagem, para identificar de forma inequívoca a mensagem.|Utilização: a instituição gestora da conta tem de garantir que MessageIdentification é única por titular da conta durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    },
+    "MessageRecipient": {
+      "definition": "Parte autorizada pelo titular da conta a receber informações sobre os movimentos da conta.|Utilização: MessageRecipient só deve ser identificado quando for diferente do titular da conta."
+    },
+    "MessagePagination": {
+      "definition": "Fornece informações sobre o número de página da mensagem.||Utilização: a paginação da mensagem só é permitida se acordada entre as partes."
+    },
+    "OriginalBusinessQuery": {
+      "definition": "Identificação única, atribuída pelo requerente original, para identificar de forma inequívoca a mensagem de consulta comercial."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a mensagem."
+    }
+  }
+}

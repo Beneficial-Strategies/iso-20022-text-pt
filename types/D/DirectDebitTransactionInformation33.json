@@ -1,0 +1,56 @@
+{
+  "isoType": "DirectDebitTransactionInformation33",
+  "definition": "Fornece mais pormenores específicos das operações individuais de débito direto incluídas na mensagem.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Referências utilizadas para uma instrução de pagamento."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Especifica o tipo de operação."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montante em dinheiro movimentado entre a instituição instrutora e a instituição instruída."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Data em que o montante em dinheiro deixa de estar disponível para a instituição que o deve e em que passa a estar disponível para a instituição a quem é devido."
+    },
+    "SettlementPriority": {
+      "definition": "Indicador da urgência ou da ordem de importância que a parte instrutora pretende que a parte instruída aplique ao tratamento da instrução de liquidação."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Fornece informações sobre o(s) momento(s) de liquidação ocorrido(s) da operação de pagamento."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Fornece informações sobre o(s) momento(s) de liquidação solicitado(s) da instrução de pagamento."
+    },
+    "UltimateDebtor": {
+      "definition": "Instituição financeira final que deve um montante ao credor institucional (final)."
+    },
+    "Debtor": {
+      "definition": "Instituição financeira que deve um montante ao credor institucional financeiro (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificação inequívoca da conta do devedor a debitar em resultado da operação."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do devedor junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "InstructionForDebtorAgent": {
+      "definition": "Informações adicionais relativas ao tratamento da instrução de pagamento que podem exigir uma ação por parte da instituição do devedor, consoante o acordo entre o devedor e a instituição do devedor."
+    },
+    "Purpose": {
+      "definition": "Motivo subjacente à operação de pagamento.|Utilização: A finalidade é utilizada pelos clientes finais, ou seja, a parte iniciadora, o devedor (final) e o credor (final), para fornecer informações sobre a natureza do pagamento. A finalidade é um elemento de conteúdo, que não é utilizado para tratamento por nenhuma das instituições envolvidas na cadeia de pagamento."
+    },
+    "RemittanceInformation": {
+      "definition": "Informações fornecidas para permitir a correspondência de um lançamento com os itens que a transferência se destina a liquidar, como faturas comerciais num sistema de contas a receber."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor só pode estar presente se for diferente de Debtor."
+    }
+  }
+}

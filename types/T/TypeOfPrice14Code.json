@@ -1,0 +1,10 @@
+{
+  "isoType": "TypeOfPrice14Code",
+  "definition": "Especifica o tipo de preço da operação.",
+  "isoCodes": {
+    "AVER": {
+      "name": "Média",
+      "definition": "O preço é um preço médio de execução."
+    }
+  }
+}

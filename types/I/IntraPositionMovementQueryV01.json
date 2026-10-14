@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraPositionMovementQueryV01",
+  "definition": "A mensagem IntraPositionMovementQuery é enviada por um titular de conta/requerente a uma infraestrutura de liquidação para consultar instruções de movimento intraposição, juntamente com o respetivo estado atual, com base num conjunto de critérios de pesquisa.|A mensagem também pode ser utilizada para: |- reenviar uma mensagem enviada pelo titular da conta ao prestador de serviços de conta (a subfunção da mensagem é \"Duplicate\") |- fornecer a um terceiro uma cópia de uma mensagem enviada pelo titular da conta, a título informativo (a subfunção da mensagem é \"Copy\") |- reenviar a um terceiro uma cópia de uma mensagem enviada pelo titular da conta, a título informativo (a subfunção da mensagem é \"Copy Duplicate\")."
+}

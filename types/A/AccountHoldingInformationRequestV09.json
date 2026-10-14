@@ -1,0 +1,26 @@
+{
+  "isoType": "AccountHoldingInformationRequestV09",
+  "definition": "Âmbito|A mensagem AccountHoldingInformationRequest é enviada por uma parte ordenante, por exemplo, um (novo) gestor de planos (cessionário), à parte executante, por exemplo, um (antigo) gestor de planos (cedente), em nome da parte iniciadora, por exemplo, um investidor (cliente), para solicitar informações sobre os instrumentos financeiros detidos em nome do cliente.|Utilização|A mensagem AccountHoldingInformationRequest é utilizada para solicitar informações sobre os ativos detidos em nome do cliente para os quais pretende dar instruções de transferência de carteira numa fase posterior.",
+  "isoElements": {
+    "BusinessFlowDirectionType": {
+      "definition": "Sentido do fluxo de negócio (ativos a entregar ou a receber)."
+    }
+  },
+  "isoRules": {
+    "NomineeAccountServicerRule": {
+      "definition": "NomineeAccount/Servicer tem de estar presente quando, e apenas quando, for diferente de TransferorAccount/Servicer."
+    },
+    "Investor1Rule": {
+      "definition": "Se PrimaryIndividualInvestor não estiver presente, então SecondaryIndividualInvestor não é permitido.|Se PrimaryIndividualInvestor estiver presente, então SecondaryIndividualInvestor pode estar presente."
+    },
+    "Investor2Rule": {
+      "definition": "Se PrimaryIndividualInvestor não estiver presente, então OtherIndividualInvestor não é permitido. |Se PrimaryIndividualInvestor estiver presente, então OtherIndividualInvestor pode estar presente."
+    },
+    "Corporate2Rule": {
+      "definition": "Se PrimaryCorporateInvestor não estiver presente, então OtherCorporateInvestor não é permitido.|Se PrimaryCorporateInvestor estiver presente, então OtherCorporateInvestor pode estar presente."
+    },
+    "Corporate1Rule": {
+      "definition": "Se PrimaryCorporateInvestor não estiver presente, então SecondaryCorporateInvestor não é permitido.|Se PrimaryCorporateInvestor estiver presente, então SecondaryCorporateInvestor pode estar presente."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "ReservationIdentification4",
+  "definition": "Liquidez reservada pelo titular da conta para fins específicos.",
+  "isoElements": {
+    "ReservationIdentification": {
+      "definition": "Identificação única da reserva."
+    },
+    "SystemIdentification": {
+      "definition": "Identificação de um sistema de compensação de numerário específico."
+    },
+    "Type": {
+      "definition": "Natureza da reserva."
+    },
+    "AccountOwner": {
+      "definition": "Titular da conta que é objeto da consulta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "Crystallisation2",
+  "definition": "Número de unidades cristalizadas.",
+  "isoElements": {
+    "TrancheIdentification": {
+      "definition": "Identificação da tranche."
+    },
+    "CrystallisedUnitsNumber": {
+      "definition": "Número de unidades cristalizadas."
+    },
+    "UncrystallisedUnitsNumber": {
+      "definition": "Número de unidades não cristalizadas."
+    },
+    "CrystallisedAmount": {
+      "definition": "Soma que representa o montante cristalizado."
+    },
+    "UncrystallisedAmount": {
+      "definition": "Soma que representa o montante não cristalizado."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a cristalização."
+    }
+  }
+}

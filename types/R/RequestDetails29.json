@@ -1,0 +1,56 @@
+{
+  "isoType": "RequestDetails29",
+  "definition": "Detalhes do pedido de modificação da condição de liquidação.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referências da operação para a qual é solicitada a modificação da condição de liquidação de valores mobiliários."
+    },
+    "RestrictionReference": {
+      "definition": "Referências de restrição aplicadas à operação para a qual é solicitada a modificação da condição de liquidação de valores mobiliários."
+    },
+    "AutomaticBorrowing": {
+      "definition": "Condição para o empréstimo automático."
+    },
+    "RetainIndicator": {
+      "definition": "Indica se a instrução prestes a expirar está confirmada para liquidação."
+    },
+    "Linkage": {
+      "definition": "Especifica o tipo de associação solicitada."
+    },
+    "Priority": {
+      "definition": "Especifica se a operação deve ser executada com prioridade elevada."
+    },
+    "OtherProcessing": {
+      "definition": "Especifica outro tipo de pedido de alteração de tratamento."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica se a liquidação parcial é permitida."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Especifica se a operação de liquidação deve ser liquidada através de um sistema RTGS ou não RTGS."
+    },
+    "HoldIndicator": {
+      "definition": "Especifica se a operação está retida/bloqueada/congelada."
+    },
+    "MatchingDenial": {
+      "definition": "Especifica a alteração solicitada ao processamento de emparelhamento."
+    },
+    "UnilateralSplit": {
+      "definition": "Especifica que é solicitada a divisão unilateral da operação."
+    },
+    "Linkages": {
+      "definition": "Informações relativas à associação solicitada."
+    }
+  },
+  "isoRules": {
+    "ModificationRequestPresenceRule": {
+      "definition": "Tem de estar presente pelo menos um tipo de pedido de modificação das condições de liquidação de valores mobiliários."
+    },
+    "OtherProcessingRule": {
+      "definition": "Se OtherProcessing for utilizado, a sua utilização tem de ser previamente acordada entre o remetente e o destinatário."
+    },
+    "SettlementConditionModificationApplicabilityRule": {
+      "definition": "Nem todos os tipos de pedido de modificação das condições de liquidação se aplicam a todos os prestadores de serviços de conta."
+    }
+  }
+}

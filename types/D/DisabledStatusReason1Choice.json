@@ -1,0 +1,12 @@
+{
+  "isoType": "DisabledStatusReason1Choice",
+  "definition": "Escolha de formatos para um motivo de estado desativado.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Não existe nenhum motivo disponível ou a comunicar para o estado desativado da conta."
+    },
+    "Reason": {
+      "definition": "Motivo do estado desativado da conta."
+    }
+  }
+}

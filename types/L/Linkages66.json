@@ -1,0 +1,18 @@
+{
+  "isoType": "Linkages66",
+  "definition": "Informações relativas a uma operação associada.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Especifica quando a operação deve ser executada relativamente a uma operação ligada."
+    },
+    "MessageNumber": {
+      "definition": "Número do tipo de mensagem/identificador da mensagem referenciada na sequência de associação."
+    },
+    "Reference": {
+      "definition": "Referência à operação associada."
+    },
+    "ReferenceOwner": {
+      "definition": "Parte que gera a referência."
+    }
+  }
+}

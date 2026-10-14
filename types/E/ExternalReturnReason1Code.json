@@ -1,0 +1,422 @@
+{
+  "isoType": "ExternalReturnReason1Code",
+  "definition": "Especifica o motivo da devolução, tal como publicado numa lista externa de códigos de motivos de devolução.|As listas de códigos externas podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "AC01": {
+      "name": "Número de conta incorreto",
+      "definition": "O formato do número de conta especificado não está correto"
+    },
+    "AC03": {
+      "name": "Número de conta do credor inválido",
+      "definition": "IBAN incorreto numa SCT"
+    },
+    "AC04": {
+      "name": "Número de conta encerrada",
+      "definition": "O número de conta especificado foi encerrado nos livros do banco da conta"
+    },
+    "AC06": {
+      "name": "Conta bloqueada",
+      "definition": "A conta especificada está bloqueada, impedindo o lançamento de operações."
+    },
+    "AC13": {
+      "name": "Tipo de conta do devedor inválido",
+      "definition": "O tipo de conta do devedor está em falta ou é inválido"
+    },
+    "AC14": {
+      "name": "Agente inválido",
+      "definition": "Uma instituição na cadeia de pagamento é inválida."
+    },
+    "AC15": {
+      "name": "Dados da conta alterados",
+      "definition": "Os dados da conta foram alterados."
+    },
+    "AC16": {
+      "name": "Conta sob sequestro",
+      "definition": "A conta está sob sequestro."
+    },
+    "AC17": {
+      "name": "Conta em liquidação",
+      "definition": "A conta está em liquidação."
+    },
+    "AG01": {
+      "name": "Operação proibida",
+      "definition": "Operação proibida neste tipo de conta (anteriormente NoAgreement)"
+    },
+    "AG02": {
+      "name": "Código de operação bancária inválido",
+      "definition": "O código de operação bancária especificado na mensagem não é válido para o destinatário"
+    },
+    "AM01": {
+      "name": "Montante zero",
+      "definition": "O montante da mensagem especificado é igual a zero"
+    },
+    "AM02": {
+      "name": "Montante não permitido",
+      "definition": "O montante da operação/mensagem específica é superior ao máximo permitido"
+    },
+    "AM03": {
+      "name": "Moeda não permitida",
+      "definition": "O montante da mensagem especificado está numa moeda não processável fora do acordo existente"
+    },
+    "AM04": {
+      "name": "Fundos insuficientes",
+      "definition": "O montante de fundos disponível para cobrir o montante da mensagem especificado é insuficiente."
+    },
+    "AM05": {
+      "name": "Duplicação",
+      "definition": "Duplicação"
+    },
+    "AM06": {
+      "name": "Montante demasiado baixo",
+      "definition": "O montante da operação especificado é inferior ao mínimo acordado."
+    },
+    "AM07": {
+      "name": "Montante bloqueado",
+      "definition": "O montante especificado na mensagem foi bloqueado pelas autoridades reguladoras."
+    },
+    "AM09": {
+      "name": "Montante errado",
+      "definition": "O montante recebido não é o acordado ou esperado"
+    },
+    "AM10": {
+      "name": "Soma de controlo inválida",
+      "definition": "A soma dos montantes instruídos não é igual à soma de controlo."
+    },
+    "ARDT": {
+      "name": "Operação já devolvida",
+      "definition": "SCT original já devolvida"
+    },
+    "BE01": {
+      "name": "Incoerente com o cliente final",
+      "definition": "A identificação do cliente final não é coerente com o número de conta associado, o identificador da organização ou o identificador da pessoa singular (ID)."
+    },
+    "BE04": {
+      "name": "Morada do credor em falta",
+      "definition": "A especificação da morada do credor, necessária para o pagamento, está em falta/incorreta (anteriormente IncorrectCreditorAddress)."
+    },
+    "BE05": {
+      "name": "Parte iniciadora não reconhecida",
+      "definition": "A parte que iniciou a mensagem não é reconhecida pelo cliente final"
+    },
+    "BE06": {
+      "name": "Cliente final desconhecido",
+      "definition": "O cliente final especificado não é conhecido no código de agência/código bancário nacional associado ou já não existe nos livros"
+    },
+    "BE07": {
+      "name": "Morada do devedor em falta",
+      "definition": "A especificação da morada do devedor, necessária para o pagamento, está em falta/incorreta."
+    },
+    "BE08": {
+      "name": "Erro do banco",
+      "definition": "Devolvido na sequência de um erro do banco."
+    },
+    "CN01": {
+      "name": "Autorização cancelada",
+      "definition": "A autorização foi cancelada."
+    },
+    "CNOR": {
+      "name": "Banco do credor não registado",
+      "definition": "O banco do credor não está registado com este BIC no CSM"
+    },
+    "CNPC": {
+      "name": "Numerário não levantado",
+      "definition": "Numerário não levantado pelo credor ou numerário que não pôde ser entregue ao credor"
+    },
+    "CURR": {
+      "name": "Moeda incorreta",
+      "definition": "A moeda do pagamento está incorreta"
+    },
+    "CUST": {
+      "name": "Solicitado pelo cliente",
+      "definition": "Cancelamento solicitado pelo devedor"
+    },
+    "DNOR": {
+      "name": "Banco do devedor não registado",
+      "definition": "O banco do devedor não está registado com este BIC no CSM"
+    },
+    "DS28": {
+      "name": "Devolução por motivo técnico",
+      "definition": "Devolução na sequência de problemas técnicos que resultaram numa operação errónea."
+    },
+    "DT01": {
+      "name": "Data inválida",
+      "definition": "Data inválida (por exemplo, data de liquidação errada)"
+    },
+    "DT02": {
+      "name": "Cheque expirado",
+      "definition": "O cheque foi emitido mas não depositado e é considerado caducado."
+    },
+    "ED01": {
+      "name": "Banco correspondente não possível",
+      "definition": "Banco correspondente não possível."
+    },
+    "ED03": {
+      "name": "Pedido de informações de saldo",
+      "definition": "São solicitadas informações complementares da balança de pagamentos"
+    },
+    "ED05": {
+      "name": "Liquidação falhada",
+      "definition": "A liquidação da operação falhou."
+    },
+    "EMVL": {
+      "name": "Transferência de responsabilidade EMV",
+      "definition": "O pagamento com cartão é fraudulento e não foi processado com tecnologia EMV para um cartão EMV."
+    },
+    "ERIN": {
+      "name": "Opção ERI não suportada",
+      "definition": "A opção Extended Remittance Information (ERI) não é suportada."
+    },
+    "FF05": {
+      "name": "Código de instrumento local inválido",
+      "definition": "O código de instrumento local está em falta ou é inválido"
+    },
+    "FOCR": {
+      "name": "Na sequência de pedido de cancelamento",
+      "definition": "Devolução na sequência de um pedido de cancelamento"
+    },
+    "FR01": {
+      "name": "Fraude",
+      "definition": "Devolvido em resultado de fraude."
+    },
+    "FRTR": {
+      "name": "Resposta final: mandato cancelado",
+      "definition": "A resposta final/o rastreio é revogado porque o mandato foi cancelado."
+    },
+    "MD01": {
+      "name": "Sem mandato",
+      "definition": "Sem mandato"
+    },
+    "MD02": {
+      "name": "Informações obrigatórias em falta no mandato",
+      "definition": "Faltam os dados relacionados com o mandato exigidos pelo esquema."
+    },
+    "MD06": {
+      "name": "Pedido de reembolso pelo cliente final",
+      "definition": "Devolução de fundos solicitada pelo cliente final"
+    },
+    "MD07": {
+      "name": "Cliente final falecido",
+      "definition": "O cliente final faleceu."
+    },
+    "MS02": {
+      "name": "Motivo não especificado, gerado pelo cliente",
+      "definition": "O motivo não foi especificado pelo cliente final"
+    },
+    "MS03": {
+      "name": "Motivo não especificado gerado pela instituição",
+      "definition": "O motivo não foi especificado pela instituição."
+    },
+    "NARR": {
+      "name": "Descritivo",
+      "definition": "O motivo é fornecido como informação narrativa nas informações adicionais sobre o motivo."
+    },
+    "NOAS": {
+      "name": "Sem resposta do cliente",
+      "definition": "Sem resposta do beneficiário"
+    },
+    "NOCM": {
+      "name": "Não conforme",
+      "definition": "A conta do cliente não cumpre os requisitos regulamentares, por exemplo FICA (na África do Sul) ou quaisquer outros requisitos regulamentares que tornem uma conta inativa para determinado processamento."
+    },
+    "NOOR": {
+      "name": "Operação original não recebida",
+      "definition": "SCT original nunca recebida"
+    },
+    "PINL": {
+      "name": "Transferência de responsabilidade PIN",
+      "definition": "O pagamento com cartão é fraudulento (fraude por perda e roubo) e foi processado como operação EMV sem verificação de PIN."
+    },
+    "RC01": {
+      "name": "Identificador do banco incorreto",
+      "definition": "O código de identificação bancária especificado na mensagem tem um formato incorreto (anteriormente IncorrectFormatForRoutingCode)."
+    },
+    "RC07": {
+      "name": "Identificador BIC do credor inválido",
+      "definition": "BIC incorreto do banco do beneficiário na SCTR"
+    },
+    "RF01": {
+      "name": "Referência da operação não única",
+      "definition": "A referência da operação não é única na mensagem."
+    },
+    "RR01": {
+      "name": "Conta ou identificação do devedor em falta",
+      "definition": "A especificação da conta do devedor ou da identificação única necessária por motivos de requisitos regulamentares é insuficiente ou está em falta"
+    },
+    "RR02": {
+      "name": "Nome ou morada do devedor em falta",
+      "definition": "A especificação do nome e/ou morada do devedor necessária para requisitos regulamentares é insuficiente ou está em falta."
+    },
+    "RR03": {
+      "name": "Nome ou morada do credor em falta",
+      "definition": "A especificação do nome e/ou morada do credor necessária para requisitos regulamentares é insuficiente ou está em falta."
+    },
+    "RR04": {
+      "name": "Motivo regulamentar",
+      "definition": "Motivo regulamentar"
+    },
+    "RUTA": {
+      "name": "Devolução por impossibilidade de aplicação",
+      "definition": "Devolução na sequência de um pedido de investigação sem possibilidade de correção."
+    },
+    "SL01": {
+      "name": "Serviço específico oferecido pela instituição do devedor",
+      "definition": "Devido a um serviço específico oferecido pela instituição do devedor"
+    },
+    "SL02": {
+      "name": "Serviço específico oferecido pela instituição do credor",
+      "definition": "Devido a um serviço específico oferecido pela instituição do credor"
+    },
+    "SL11": {
+      "name": "Credor não consta da lista branca do devedor",
+      "definition": "Serviço de lista branca oferecido pela instituição do devedor; o devedor ainda não incluiu o credor na sua “lista branca”. Na lista branca, o devedor pode indicar todos os credores autorizados a debitar a conta bancária do devedor."
+    },
+    "SL12": {
+      "name": "Credor consta da lista negra do devedor",
+      "definition": "Serviço de lista negra oferecido pela instituição do devedor; o devedor incluiu o credor na sua “lista negra”. Na lista negra, o devedor pode indicar todos os credores não autorizados a debitar a conta bancária do devedor."
+    },
+    "SL13": {
+      "name": "Número máximo de operações de débito direto excedido",
+      "definition": "Devido ao serviço de número máximo de débitos diretos permitidos por período oferecido pela instituição do devedor."
+    },
+    "SL14": {
+      "name": "Montante máximo de operação de débito direto excedido",
+      "definition": "Devido ao serviço de montante máximo de débito direto permitido oferecido pela instituição do devedor."
+    },
+    "SP01": {
+      "name": "Pagamento suspenso",
+      "definition": "O pagamento foi interrompido pelo titular da conta."
+    },
+    "SP02": {
+      "name": "Anteriormente suspenso",
+      "definition": "Anteriormente interrompido por meio de um aviso de ordem de não pagamento."
+    },
+    "SVNR": {
+      "name": "Serviço não prestado",
+      "definition": "O pagamento com cartão é devolvido porque o montante em numerário entregue não estava correto ou porque não foram prestados bens ou serviços ao cliente, por exemplo, numa situação de comércio eletrónico."
+    },
+    "TM01": {
+      "name": "Hora-limite",
+      "definition": "A mensagem associada foi recebida após a hora-limite de processamento acordada."
+    },
+    "TRAC": {
+      "name": "Removido do rastreio",
+      "definition": "Devolução na sequência da remoção do débito direto do processo de rastreio."
+    },
+    "UPAY": {
+      "name": "Pagamento indevido",
+      "definition": "O pagamento não se justifica."
+    },
+    "AGNT": {
+      "name": "Agente incorreto",
+      "definition": "A instituição no fluxo de pagamento está incorreta."
+    },
+    "FF06": {
+      "name": "Código de categoria de finalidade inválido",
+      "definition": "O código de finalidade da categoria está em falta ou é inválido."
+    },
+    "RC08": {
+      "name": "Identificador de membro do sistema de compensação inválido",
+      "definition": "O ClearingSystemMemberidentifier é inválido ou está em falta.|Utilização genérica se não for possível especificar entre conta a débito ou a crédito."
+    },
+    "BE11": {
+      "name": "País do credor inválido",
+      "definition": "O código do país do credor está em falta ou é inválido."
+    },
+    "BE17": {
+      "name": "Código de identificação do credor inválido",
+      "definition": "O código de identificação do credor ou do credor final está em falta ou é inválido."
+    },
+    "AC02": {
+      "name": "Número de conta do devedor inválido",
+      "definition": "Número de conta do devedor inválido ou em falta."
+    },
+    "RR11": {
+      "name": "Identificação do serviço da instituição do devedor inválida",
+      "definition": "Identificação de um serviço proprietário do banco inválida ou em falta."
+    },
+    "BE10": {
+      "name": "País do devedor inválido",
+      "definition": "O código do país do devedor está em falta ou é inválido."
+    },
+    "BE16": {
+      "name": "Código de identificação do devedor inválido",
+      "definition": "Código de identificação do devedor ou do devedor final em falta ou inválido."
+    },
+    "RC11": {
+      "name": "Instituição intermediária inválida",
+      "definition": "A instituição intermediária é inválida ou está em falta."
+    },
+    "RR12": {
+      "name": "Identificação da parte inválida",
+      "definition": "Identificação exigida num determinado país ou tipo de pagamento inválida ou em falta."
+    },
+    "FF03": {
+      "name": "Informações do tipo de pagamento inválidas",
+      "definition": "As informações de tipo de pagamento estão em falta ou são inválidas.|Utilização genérica se não for possível especificar o código de nível de serviço ou de instrumento local."
+    },
+    "FF07": {
+      "name": "Finalidade inválida",
+      "definition": "A finalidade está em falta ou é inválida."
+    },
+    "FF04": {
+      "name": "Código de nível de serviço inválido",
+      "definition": "O código de nível de serviço está em falta ou é inválido."
+    },
+    "RR09": {
+      "name": "Referência estruturada do credor inválida",
+      "definition": "Referência estruturada do credor inválida ou em falta."
+    },
+    "RR05": {
+      "name": "Informações regulamentares inválidas",
+      "definition": "Informações de reporte regulamentar ou ao banco central em falta, incompletas ou inválidas."
+    },
+    "RR07": {
+      "name": "Informações de remessa inválidas",
+      "definition": "A estrutura das informações de remessa não cumpre as regras do tipo de pagamento."
+    },
+    "RR08": {
+      "name": "Informações de remessa truncadas",
+      "definition": "As informações de remessa foram truncadas para cumprir as regras do tipo de pagamento."
+    },
+    "RR06": {
+      "name": "Informações fiscais inválidas",
+      "definition": "Informações fiscais em falta, incompletas ou inválidas."
+    },
+    "AG07": {
+      "name": "Débito direto sem êxito",
+      "definition": "A conta do devedor não pode ser debitada por um motivo genérico.|Utilização: o valor do código pode ser utilizado para fins gerais e como substituto de AM04 se o banco do devedor não revelar a insuficiência de fundos do seu cliente por razões de privacidade."
+    },
+    "G004": {
+      "name": "Crédito pendente de fundos",
+      "definition": "Numa transferência de cliente FIToFI: o crédito na conta do credor está pendente, o originador do estado aguarda fundos fornecidos através de uma cobertura. O originador do estado enviará uma atualização."
+    },
+    "MD05": {
+      "name": "Cobrança não vencida",
+      "definition": "O credor ou a instituição do credor não deveria ter cobrado o débito direto."
+    },
+    "AC07": {
+      "name": "Número de conta do credor encerrada",
+      "definition": "Número de conta do credor encerrado."
+    },
+    "DC04": {
+      "name": "Nenhuma transferência a crédito de cliente recebida",
+      "definition": "Devolução da liquidação de cobertura devido ao facto de os dados da transferência subjacente não terem sido recebidos."
+    },
+    "RC04": {
+      "name": "Identificador do banco do credor inválido",
+      "definition": "O identificador do banco do credor é inválido ou está em falta."
+    },
+    "DT04": {
+      "name": "Data futura não suportada",
+      "definition": "Data futura não suportada."
+    },
+    "DUPL": {
+      "name": "Pagamento duplicado",
+      "definition": "O pagamento é duplicado de outro pagamento."
+    },
+    "RC03": {
+      "name": "Identificador do banco do devedor inválido",
+      "definition": "O identificador do banco do devedor é inválido ou está em falta."
+    }
+  }
+}

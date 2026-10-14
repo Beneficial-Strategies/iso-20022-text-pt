@@ -1,0 +1,17 @@
+{
+  "isoType": "OwnershipBeneficiaryRate1",
+  "definition": "Percentagem de propriedade ou de propriedade efetiva das ações/unidades de participação na conta.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Propriedade ou propriedade efetiva expressa em percentagem."
+    },
+    "Fraction": {
+      "definition": "Propriedade ou propriedade efetiva expressa sob a forma de fração ou de outra forma."
+    }
+  },
+  "isoRules": {
+    "OwnershipBeneficiaryRateRule": {
+      "definition": "Tem de estar presente Rate ou Fraction. Podem estar presentes ambos."
+    }
+  }
+}

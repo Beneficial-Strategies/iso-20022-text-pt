@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionQuery8",
+  "definition": "Define os critérios da consulta.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Especifica o tipo de itens correspondentes a devolver na resposta à consulta."
+    },
+    "TransactionCriteria": {
+      "definition": "Define os critérios da consulta de operações de pagamento."
+    }
+  }
+}

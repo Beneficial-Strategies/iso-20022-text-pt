@@ -1,0 +1,18 @@
+{
+  "isoType": "ProrationReturnQuantityTreatment1Code",
+  "definition": "Indica como serão tratadas as instruções objeto de rateio quando o direito rateado resultar num valor inferior à denominação mínima.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Aceitar",
+      "definition": "As instruções objeto de rateio que resultem em valor inferior às denominações mínimas serão aceites na totalidade."
+    },
+    "ADJT": {
+      "name": "Ajustar",
+      "definition": "As instruções objeto de rateio que resultem em valor inferior às denominações mínimas serão ajustadas por excesso."
+    },
+    "REJT": {
+      "name": "Rejeição",
+      "definition": "As instruções objeto de rateio que resultem em valor inferior às denominações mínimas serão rejeitadas na totalidade."
+    }
+  }
+}

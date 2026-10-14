@@ -1,0 +1,29 @@
+{
+  "isoType": "IntraPositionMovements6",
+  "definition": "Fornece as operações na resposta.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte que é titular da conta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "StatusAndReason": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "Movement": {
+      "definition": "Identifica a operação individual."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount tem de estar presente ou Movement(*)/SafekeepingAccount tem de estar presente, mas não ambos."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner tem de estar presente ou Movement(*)/AccountOwner tem de estar presente, mas não ambos."
+    },
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason tem de estar presente ou Movement(*)/StatusAndReason tem de estar presente, mas não ambos."
+    }
+  }
+}

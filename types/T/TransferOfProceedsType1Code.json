@@ -1,0 +1,18 @@
+{
+  "isoType": "TransferOfProceedsType1Code",
+  "definition": "Especifica o tipo de transferência para o produto da reclamação de mercado.",
+  "isoCodes": {
+    "CLFT": {
+      "name": "Transferência total do produto recebido",
+      "definition": "A reclamação de mercado destina-se a transferir para a parte com direito o produto recebido do emitente."
+    },
+    "CLPT": {
+      "name": "Sem transferência do produto recebido",
+      "definition": "A reclamação de mercado destina-se a compensar em numerário a parte com direito pela parte que não cumpriu a sua obrigação. Não foi recebido qualquer produto do emitente."
+    },
+    "CLNT": {
+      "name": "Transferência parcial do produto recebido",
+      "definition": "A reclamação de mercado destina-se a transferir para a parte com direito o produto parcialmente recebido do emitente. Uma parte é compensada em numerário pela parte que não cumpriu a sua obrigação."
+    }
+  }
+}

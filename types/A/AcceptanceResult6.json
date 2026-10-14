@@ -1,0 +1,15 @@
+{
+  "isoType": "AcceptanceResult6",
+  "definition": "Conjunto de elementos utilizados para fornecer informações detalhadas sobre o resultado da aceitação.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "Indica se o pedido de mandato foi aceite ou rejeitado."
+    },
+    "RejectReason": {
+      "definition": "Especifica o motivo da rejeição de um pedido de mandato."
+    },
+    "AdditionalRejectReasonInformation": {
+      "definition": "Detalhes adicionais sobre o motivo da rejeição."
+    }
+  }
+}

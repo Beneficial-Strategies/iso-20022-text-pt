@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification241",
+  "definition": "Conjunto de elementos utilizados para identificar uma pessoa ou uma organização.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação da parte."
+    },
+    "AdditionalIdentificationInformation": {
+      "definition": "Informações de identificação complementares sobre a parte."
+    }
+  }
+}

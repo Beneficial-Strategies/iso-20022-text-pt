@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentCondition2",
+  "definition": "Especifica as condições de execução do pagamento.",
+  "isoElements": {
+    "AmountModificationAllowed": {
+      "definition": "Indica se o devedor pode pagar um montante diferente do montante solicitado.||Utilização: quando o elemento não está presente, o valor por omissão é \"Não aplicável\"."
+    },
+    "EarlyPaymentAllowed": {
+      "definition": "Indica se o devedor pode pagar antes da data de execução solicitada.||Utilização: quando o elemento não está presente, o valor por omissão é \"Não aplicável\"."
+    },
+    "DelayPenalty": {
+      "definition": "Penalização a aplicar por um pagamento em atraso, ou seja, quando o pagamento é efetuado após a data de execução solicitada."
+    },
+    "ImmediatePaymentRebate": {
+      "definition": "Taxa de desconto aplicada ao pagamento imediato após a receção do pedido."
+    },
+    "GuaranteedPaymentRequested": {
+      "definition": "Indica se é solicitada uma garantia de pagamento, partindo do princípio de que existe um contrato de garantia de pagamento entre os diferentes intervenientes.||Utilização: quando o elemento não está presente, o valor por omissão é \"Não aplicável\"."
+    }
+  }
+}

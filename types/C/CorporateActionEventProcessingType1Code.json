@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventProcessingType1Code",
+  "definition": "Especifica o tipo de tratamento do evento.",
+  "isoCodes": {
+    "GENL": {
+      "name": "Geral",
+      "definition": "Sem débito nem crédito de recursos."
+    },
+    "DISN": {
+      "name": "Distribuição",
+      "definition": "O titular do valor mobiliário em causa numa determinada data, por exemplo, a data de registo, receberá um benefício sem abdicar do valor mobiliário subjacente."
+    },
+    "REOR": {
+      "name": "Reorganização",
+      "definition": "O valor mobiliário subjacente será debitado e poderá ser substituído por outro recurso (ou outros recursos)."
+    }
+  }
+}

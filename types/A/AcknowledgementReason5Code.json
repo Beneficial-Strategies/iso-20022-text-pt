@@ -1,0 +1,42 @@
+{
+  "isoType": "AcknowledgementReason5Code",
+  "definition": "Especifica informações adicionais sobre a instrução tratada.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo da instituição gestora da conta não cumprido",
+      "definition": "Recebida após o prazo limite da instituição gestora da conta. Tratada com o melhor esforço."
+    },
+    "SMPG": {
+      "name": "Divergência com regra de prática de mercado",
+      "definition": "A instrução é aceite, mas não cumpre a regra de prática de mercado publicada para o mercado ou processo em causa."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "CDCY": {
+      "name": "Moeda condicional",
+      "definition": "A execução está condicionada à execução de um processo associado à moeda da operação."
+    },
+    "CDRG": {
+      "name": "Registador condicional",
+      "definition": "A execução está condicionada à execução de um processo junto do agente de registo."
+    },
+    "CDRE": {
+      "name": "Realinhamento condicional",
+      "definition": "A execução está condicionada à execução de um processo de realinhamento na CSD emitente."
+    },
+    "NSTP": {
+      "name": "Sem processamento direto",
+      "definition": "A instrução não foi tratada de forma totalmente automatizada e teve de ser tratada manualmente."
+    },
+    "RQWV": {
+      "name": "Aceite sem direitos de voto",
+      "definition": "O registo da instrução é aceite, mas o registo não é integral, ou seja, não inclui direitos de voto."
+    },
+    "LATE": {
+      "name": "Prazo do mercado não cumprido",
+      "definition": "A instrução foi recebida após o prazo limite do mercado."
+    }
+  }
+}

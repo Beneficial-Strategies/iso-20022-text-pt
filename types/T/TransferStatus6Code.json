@@ -1,0 +1,38 @@
+{
+  "isoType": "TransferStatus6Code",
+  "definition": "Especifica o estado de uma instrução de transferência ou de liquidação.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Aceite",
+      "definition": "A instrução de transferência ou de liquidação foi reconhecida / aceite para processamento posterior."
+    },
+    "COSE": {
+      "name": "Já executado",
+      "definition": "A instrução de transferência ou de liquidação está totalmente executada e a confirmação foi enviada."
+    },
+    "COMP": {
+      "name": "Completo",
+      "definition": "A transferência de carteira está concluída."
+    },
+    "DELY": {
+      "name": "Atrasado",
+      "definition": "A instrução de transferência ou de liquidação está atrasada."
+    },
+    "MACH": {
+      "name": "Correspondido",
+      "definition": "A instrução de transferência ou de liquidação foi emparelhada."
+    },
+    "RECE": {
+      "name": "Recebido",
+      "definition": "A instrução foi recebida, ou seja, a validação técnica da mensagem está correta e a mensagem encontra-se agora do lado do destinatário."
+    },
+    "STNP": {
+      "name": "Enviado à parte seguinte",
+      "definition": "A instrução de transferência ou de liquidação foi enviada à parte seguinte, ou seja, ao intermediário seguinte."
+    },
+    "SETT": {
+      "name": "Liquidado",
+      "definition": "A instrução de transferência ou de liquidação está liquidada."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Drawdown3",
+  "definition": "Informações sobre um levantamento.",
+  "isoElements": {
+    "EmploymentDetails": {
+      "definition": "Informações sobre o emprego anterior."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o levantamento."
+    }
+  }
+}

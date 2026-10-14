@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketType15Choice",
+  "definition": "Escolha do formato do tipo de mercado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de mercado expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de mercado expresso como um código proprietário."
+    }
+  }
+}

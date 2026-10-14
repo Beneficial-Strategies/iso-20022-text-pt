@@ -1,0 +1,15 @@
+{
+  "isoType": "Charges6Choice",
+  "definition": "Fornece informações sobre os encargos a pagar pela(s) parte(s) responsável(is) pelos encargos relacionados com o processamento da operação subjacente.",
+  "isoElements": {
+    "Single": {
+      "definition": "Encargos relacionados com uma única operação de pagamento."
+    },
+    "PerTransaction": {
+      "definition": "Encargos discriminados por operação de pagamento."
+    },
+    "PerType": {
+      "definition": "Encargos discriminados por tipo de encargos."
+    }
+  }
+}

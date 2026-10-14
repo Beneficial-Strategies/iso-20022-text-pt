@@ -1,0 +1,90 @@
+{
+  "isoType": "AccountOwnershipType6Code",
+  "definition": "Especifica o tipo de titularidade da conta.",
+  "isoCodes": {
+    "BOWN": {
+      "name": "Nu-proprietário",
+      "definition": "Uma pessoa tem a nua propriedade do ativo."
+    },
+    "CORP": {
+      "name": "Sociedade anónima",
+      "definition": "O titular da conta é uma sociedade comercial."
+    },
+    "CUST": {
+      "name": "Conta de custódia",
+      "definition": "Conta de menor, registada em nome do menor. Dado que o menor não pode legalmente ser proprietário de bens, o tutor da conta mantém o controlo da mesma."
+    },
+    "ENTR": {
+      "name": "Empresarial",
+      "definition": "Conta empresarial."
+    },
+    "EURE": {
+      "name": "Entidade residual da UE",
+      "definition": "O titular da conta é uma entidade localizada na União Europeia que não pode ser considerada nem uma pessoa coletiva (por exemplo, empresa, sociedade), nem uma pessoa singular, nem um fundo UCITS (Organismos de Investimento Coletivo em Valores Mobiliários)."
+    },
+    "PART": {
+      "name": "Sociedade formal",
+      "definition": "O titular da conta é uma organização empresarial contratual em que duas ou mais pessoas acordam em reunir os seus fundos para gerir e explorar um negócio."
+    },
+    "TRUS": {
+      "name": "Fideicomisso formal",
+      "definition": "O titular da conta é uma organização que atua como fiduciário de pessoas singulares ou empresas na administração de serviços como a transferência de ações, o registo e fundos fiduciários."
+    },
+    "GOVO": {
+      "name": "Organismo público",
+      "definition": "O titular da conta é uma organização pública."
+    },
+    "JOIT": {
+      "name": "Conta conjunta",
+      "definition": "Duas ou mais pessoas maiores de idade são titulares de quotas da mesma conta."
+    },
+    "COMO": {
+      "name": "Conta conjunta em comum",
+      "definition": "Duas ou mais pessoas maiores de idade são titulares de quotas da mesma conta. Em caso de falecimento de um dos titulares, a respetiva percentagem de titularidade é transferida para a herança do falecido."
+    },
+    "JOIN": {
+      "name": "Conta conjunta com direito de sobrevivência",
+      "definition": "Duas ou mais pessoas são titulares de quotas da mesma conta. Em caso de falecimento de um dos titulares, a totalidade da titularidade da conta é transferida para os titulares sobrevivos."
+    },
+    "LLCO": {
+      "name": "Sociedade de responsabilidade limitada",
+      "definition": "A conta pertence a uma sociedade de responsabilidade limitada."
+    },
+    "LIPA": {
+      "name": "Sociedade em comandita",
+      "definition": "O titular da conta é uma sociedade em comandita ou um empresário em nome individual."
+    },
+    "NOMI": {
+      "name": "Mandatário",
+      "definition": "O titular da conta é uma pessoa ou empresa em cujo nome são transferidos valores mobiliários ou outros bens para facilitar operações, mantendo-se o cliente como verdadeiro proprietário."
+    },
+    "NFPO": {
+      "name": "Organização sem fins lucrativos",
+      "definition": "O titular da conta é uma associação à qual é concedido estatuto de isenção fiscal em razão da natureza das suas atividades, como uma organização de beneficência."
+    },
+    "ONIS": {
+      "name": "Outra entidade não singular",
+      "definition": "O titular da conta é outro tipo de organização que não é uma pessoa singular."
+    },
+    "OWNR": {
+      "name": "Proprietário",
+      "definition": "Uma pessoa tem a propriedade plena do ativo."
+    },
+    "RGIC": {
+      "name": "Sociedade de investimento registada",
+      "definition": "A conta pertence a uma sociedade de investimento registada."
+    },
+    "SIGL": {
+      "name": "Conta de titular único",
+      "definition": "A conta tem um único titular, pessoa singular."
+    },
+    "UNCO": {
+      "name": "Não constituída em sociedade",
+      "definition": "O titular da conta é uma sociedade de pessoas sem personalidade jurídica ou um empresário em nome individual."
+    },
+    "USUF": {
+      "name": "Usufrutuário",
+      "definition": "Pessoa com o direito temporário de utilizar e retirar rendimentos ou benefícios de bens de outrem."
+    }
+  }
+}

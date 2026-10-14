@@ -1,0 +1,14 @@
+{
+  "isoType": "ShortLong1Code",
+  "definition": "Especifica se a posição em valores mobiliários é curta ou longa, isto é, se o saldo é negativo ou positivo.",
+  "isoCodes": {
+    "SHOR": {
+      "name": "Curta",
+      "definition": "A posição é curta, isto é, o saldo é negativo."
+    },
+    "LONG": {
+      "name": "Longa",
+      "definition": "A posição é longa, isto é, o saldo é positivo."
+    }
+  }
+}

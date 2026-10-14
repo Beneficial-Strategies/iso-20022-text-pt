@@ -1,0 +1,23 @@
+{
+  "isoType": "IndividualMovementStatus1",
+  "definition": "Fornece informações sobre o estado de tratamento.",
+  "isoElements": {
+    "MovementIdentification": {
+      "definition": "Identificação do movimento."
+    },
+    "ProcessedStatus": {
+      "definition": "Fornece informações sobre o estado de tratamento do movimento individual."
+    },
+    "RejectedStatus": {
+      "definition": "Fornece informações sobre o estado de rejeição."
+    }
+  },
+  "isoRules": {
+    "ProcessedStatusOrRejectedStatusRule": {
+      "definition": "ProcessedStatus ou RejectedStatus."
+    },
+    "ProcessedStatusOrRejectedStatusRuleNotBoth": {
+      "definition": "ProcessedStatus ou RejectedStatus."
+    }
+  }
+}

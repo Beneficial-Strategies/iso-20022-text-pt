@@ -1,0 +1,12 @@
+{
+  "isoType": "CommunicationAddress11",
+  "definition": "Número do dispositivo de comunicação ou endereço eletrónico utilizado para comunicação.",
+  "isoElements": {
+    "EmailAddress": {
+      "definition": "Endereço de correio eletrónico (e-mail)."
+    },
+    "URLAddress": {
+      "definition": "Endereço do localizador universal de recursos (URL), utilizado, por exemplo, no serviço www (HTTP)."
+    }
+  }
+}

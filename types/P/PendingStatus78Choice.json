@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus78Choice",
+  "definition": "Escolha entre um motivo ou nenhum motivo para o estado pendente do processamento da instrução relativa à operação sobre títulos.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo não especificado."
+    },
+    "Reason": {
+      "definition": "Motivo do estado de pendente."
+    }
+  }
+}

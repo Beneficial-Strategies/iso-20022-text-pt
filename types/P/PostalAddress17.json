@@ -1,0 +1,30 @@
+{
+  "isoType": "PostalAddress17",
+  "definition": "Informação que localiza e identifica uma morada específica, conforme definida pelos serviços postais ou em texto de formato livre.",
+  "isoElements": {
+    "AddressLine": {
+      "definition": "Informação que localiza e identifica uma morada específica, conforme definida pelos serviços postais, apresentada em texto de formato livre."
+    },
+    "StreetName": {
+      "definition": "Nome de uma rua ou via pública."
+    },
+    "BuildingNumber": {
+      "definition": "Número que identifica a posição de um edifício numa rua."
+    },
+    "PostCode": {
+      "definition": "Identificador constituído por um grupo de letras e/ou números que é acrescentado a uma morada postal para facilitar a triagem do correio."
+    },
+    "TownName": {
+      "definition": "Nome de uma zona urbanizada, com limites definidos e administração local."
+    },
+    "CountrySubDivision": {
+      "definition": "Identifica uma subdivisão de um país, por exemplo estado, região, condado."
+    },
+    "Country": {
+      "definition": "Nação com governo próprio, que ocupa um território determinado."
+    },
+    "GeoLocation": {
+      "definition": "Localização geográfica do ATM especificada por coordenadas geográficas ou coordenadas UTM."
+    }
+  }
+}

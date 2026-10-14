@@ -1,0 +1,12 @@
+{
+  "isoType": "MemberReport6",
+  "definition": "Informa sobre um membro ou sobre um erro de negócio.",
+  "isoElements": {
+    "MemberIdentification": {
+      "definition": "Identificação única e inequívoca de um membro num sistema, atribuída com base no esquema de identificação de membros do sistema."
+    },
+    "MemberOrError": {
+      "definition": "Informa sobre um membro ou sobre um erro de negócio."
+    }
+  }
+}

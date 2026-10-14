@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationSource1Choice",
+  "definition": "Escolha de um esquema de identificação proprietário ou nacional que identifique de forma única um valor mobiliário.",
+  "isoElements": {
+    "Domestic": {
+      "definition": "País do esquema de identificação proprietário."
+    },
+    "Proprietary": {
+      "definition": "Entidade que emite a identificação proprietária."
+    }
+  }
+}

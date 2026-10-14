@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingServiceParameters3",
+  "definition": "Especifica os parâmetros detalhados de um serviço a faturar.",
+  "isoElements": {
+    "BankService": {
+      "definition": "Especifica os detalhes para identificar completamente o serviço bancário."
+    },
+    "Volume": {
+      "definition": "Contagem ou número de itens (volume) envolvidos no encargo."
+    }
+  }
+}

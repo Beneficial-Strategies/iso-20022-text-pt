@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrentAndDefaultReservation6",
+  "definition": "Comunica informações sobre reservas.",
+  "isoElements": {
+    "CurrentReservation": {
+      "definition": "O relatório é fornecido para uma reserva corrente."
+    },
+    "DefaultReservation": {
+      "definition": "O relatório é fornecido para uma reserva por defeito."
+    }
+  }
+}

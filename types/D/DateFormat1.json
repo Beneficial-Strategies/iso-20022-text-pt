@@ -1,0 +1,12 @@
+{
+  "isoType": "DateFormat1",
+  "definition": "Formato para exprimir uma data e um modo de data.",
+  "isoElements": {
+    "Date": {
+      "definition": "Data em que o evento ocorre."
+    },
+    "DateMode": {
+      "definition": "Especifica se um evento para o qual é fornecida uma data ocorre tipicamente no \"início do dia\" ou no \"fim do dia\"."
+    }
+  }
+}

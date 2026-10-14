@@ -1,0 +1,66 @@
+{
+  "isoType": "EventFrequency8Code",
+  "definition": "Especifica a regularidade de um evento.",
+  "isoCodes": {
+    "ADHO": {
+      "name": "Ad hoc",
+      "definition": "O evento ocorre sempre que necessário."
+    },
+    "YEAR": {
+      "name": "Anual",
+      "definition": "O evento ocorre todos os anos ou uma vez por ano."
+    },
+    "DAIL": {
+      "name": "Diário",
+      "definition": "O evento ocorre todos os dias."
+    },
+    "FOMN": {
+      "name": "A cada quatro meses",
+      "definition": "O evento ocorre de quatro em quatro meses ou três vezes por ano."
+    },
+    "TOMN": {
+      "name": "Bimestral",
+      "definition": "O evento ocorre de dois em dois meses."
+    },
+    "TOWK": {
+      "name": "Quinzenal",
+      "definition": "O evento ocorre de duas em duas semanas."
+    },
+    "TYEA": {
+      "name": "A cada dois anos",
+      "definition": "O evento ocorre de dois em dois anos."
+    },
+    "INDA": {
+      "name": "Intradiário",
+      "definition": "O evento ocorre várias vezes por dia."
+    },
+    "MNTH": {
+      "name": "Mensal",
+      "definition": "O evento ocorre todos os meses ou uma vez por mês."
+    },
+    "ONDE": {
+      "name": "A pedido",
+      "definition": "O evento ocorre a pedido."
+    },
+    "OVNG": {
+      "name": "Overnight",
+      "definition": "O evento ocorre durante a noite."
+    },
+    "QUTR": {
+      "name": "Trimestral",
+      "definition": "O evento ocorre de três em três meses ou quatro vezes por ano."
+    },
+    "SEMI": {
+      "name": "Semestral",
+      "definition": "O evento ocorre de seis em seis meses ou duas vezes por ano."
+    },
+    "TWMN": {
+      "name": "Duas vezes por mês",
+      "definition": "O evento ocorre duas vezes por mês."
+    },
+    "WEEK": {
+      "name": "Semanal",
+      "definition": "O evento ocorre uma vez por semana."
+    }
+  }
+}

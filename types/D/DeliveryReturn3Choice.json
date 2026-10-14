@@ -1,0 +1,12 @@
+{
+  "isoType": "DeliveryReturn3Choice",
+  "definition": "Escolha do formato das informações sobre a devolução da entrega.",
+  "isoElements": {
+    "Code": {
+      "definition": "Devolução da entrega expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Devolução da entrega expressa como um código próprio."
+    }
+  }
+}

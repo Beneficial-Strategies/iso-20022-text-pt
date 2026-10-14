@@ -1,0 +1,83 @@
+{
+  "isoType": "PaymentInstruction48",
+  "definition": "Instrução para pagar um montante a um beneficiário final, em nome de um ordenante. Esta instrução pode ter de ser reencaminhada várias vezes para concluir a cadeia de liquidação.",
+  "isoElements": {
+    "PaymentInformationIdentification": {
+      "definition": "Referência atribuída por uma parte emissora para identificar de forma inequívoca o bloco de informações de pagamento na mensagem."
+    },
+    "PaymentMethod": {
+      "definition": "Especifica o meio de pagamento que será utilizado para movimentar o montante em dinheiro."
+    },
+    "RequestedAdviceType": {
+      "definition": "Tipo de detalhes do aviso solicitados."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar melhor o tipo de operação."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Data em que a parte iniciadora solicita à instituição de compensação que processe o pagamento. Se o pagamento for por cheque, a data em que o cheque deve ser gerado pelo banco.||Utilização: é a data em que a(s) conta(s) do devedor deve(m) ser debitada(s)."
+    },
+    "ExpiryDate": {
+      "definition": "Data até à qual o devedor deve ter aceitado ou rejeitado o pedido.||Utilização: |Após esta data, o pedido torna-se nulo e já não pode ser processado."
+    },
+    "PaymentCondition": {
+      "definition": "Condições de execução do pagamento."
+    },
+    "Debtor": {
+      "definition": "Parte que deve um montante em dinheiro ao credor (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Conta utilizada para processar os encargos associados a uma operação."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do devedor junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que deve um montante em dinheiro ao credor (final)."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica a(s) parte(s) que suportará(ão) os encargos associados ao tratamento da operação de pagamento."
+    },
+    "CreditTransferTransaction": {
+      "definition": "Processos de pagamento necessários para transferir numerário do devedor para o credor."
+    }
+  },
+  "isoRules": {
+    "PaymentTypeInformationRule": {
+      "definition": "Se PaymentTypeInformation estiver presente, então CreditTransferTransaction/PaymentTypeInformation não é permitido."
+    },
+    "ChequeInstructionRule": {
+      "definition": "Se PaymentMethod for CHK (cheque), então CreditTransferTransaction/ChequeInstruction é facultativo. Se PaymentMethod for diferente de CHK (cheque), então CreditTransferTransaction/ChequeInstruction não é permitido. Justificação da regra: ChequeInstructionDetails pode estar presente se o método de pagamento for cheque. Não deve estar presente se o método de pagamento for 'Transfer'."
+    },
+    "CreditorAndOrCreditorAgentRule": {
+      "definition": "Se PaymentMethod for CHK (cheque), então CreditTransferTransaction/CreditorAccount não é permitido. Se PaymentMethod for diferente de CHK (cheque) e se CreditTransferTransaction/Creditor não estiver presente, então CreditTransferTransaction/CreditorAccount é obrigatório. Se PaymentMethod for diferente de CHK (cheque) e se CreditTransferTransaction/Creditor estiver presente, então CreditTransferTransaction/CreditorAccount é facultativo."
+    },
+    "CreditorAgentRule": {
+      "definition": "Se PaymentMethod for CHK (cheque) e se CreditTransferTransaction/ ChequeInstruction/DeliveryMethod estiver presente e for igual a CRFA (CourierToFinalAgent), MLFA (MailToFinalAgent), PUFA (PickUpByFinalAgent) ou RGFA (RegisteredMailToFinalAgent), então CreditTransferTransaction/CreditorAgent é obrigatório. Se PaymentMethod for CHK (cheque) e se CreditTransferTransaction/ ChequeInstruction/DeliveryMethod não estiver presente ou não for igual a CRFA (CourierToFinalAgent), MLFA (MailToFinalAgent), PUFA (PickUpByFinalAgent) ou RGFA (RegisteredMailToFinalAgent), então CreditTransferTransaction/CreditorAgent não é permitido."
+    },
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor só pode estar presente se for diferente de Debtor."
+    },
+    "ChequeInstructionDeliverToDebtorGuideline": {
+      "definition": "Se CreditTransferTransaction/ChequeInstruction/DeliveryMethod estiver presente e se CreditTransferTransaction/ChequeInstruction/DeliveryMethod/Code for CRDB (CourierToDebtor), MLDB (MailToDebtor), PUDB (PickUpByDebtor) ou RGDB (RegisteredMailToDebtor), então CreditTransferTransaction/ChequeInstruction/DeliverTo só pode estar presente se for diferente do devedor."
+    },
+    "ChequeInstructionDeliverToCreditorGuideline": {
+      "definition": "Se CreditTransferTransaction/ChequeInstruction/DeliveryMethod estiver presente e for CRCD (CourierToCreditor), MLCD (MailToCreditor), PUCD (PickUpByCreditor) ou RGCD (RegisteredMailToCreditor), então CreditTransferTransaction/ChequeInstruction/DeliverTo só pode estar presente se for diferente de CreditTransferTransaction/Creditor."
+    },
+    "ChequeInstructionDeliverToCreditorAgentGuideline": {
+      "definition": "Se CreditTransferTransaction/ChequeInstruction/DeliveryMethod estiver presente e for CRFA (CourierToFinalAgent), MLFA (MailToFinalAgent), PUFA (PickUpByFinalAgent) ou RGFA (RegisteredMailToFinalAgent), então CreditTransferTransaction/ChequeInstruction/DeliverTo só pode estar presente se for diferente de CreditTransferTransaction/Creditor."
+    },
+    "ChequeFromGuideline": {
+      "definition": "CreditTransferTransaction/ChequeInstruction/ChequeFrom só pode estar presente se for diferente de CreditTransferTransaction/UltimateDebtor ou de Debtor."
+    },
+    "ChargeBearerRule": {
+      "definition": "Se ChargeBearer estiver presente, então CreditTransferTransaction/ChargeBearer não é permitido. Se CreditTransferTransaction/ChargeBearer estiver presente, então ChargeBearer não é permitido. CreditTransferTransaction/ChargeBearer e ChargeBearer podem estar ambos ausentes."
+    },
+    "RequestedExecutionDateRule": {
+      "definition": "RequestedExecutionDate deve estar ausente ou CreditTransferTransaction/RequestedExecutionDate deve estar ausente. Ambos podem estar ausentes."
+    }
+  }
+}

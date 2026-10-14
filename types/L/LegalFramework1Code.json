@@ -1,0 +1,10 @@
+{
+  "isoType": "LegalFramework1Code",
+  "definition": "Identifica o enquadramento jurídico da operação.",
+  "isoCodes": {
+    "FRAN": {
+      "name": "Pension livrée",
+      "definition": "Refere-se ao enquadramento jurídico francês para repos, isto é, a uma \"Pension Livrée\"."
+    }
+  }
+}

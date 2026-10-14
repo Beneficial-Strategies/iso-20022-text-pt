@@ -1,0 +1,15 @@
+{
+  "isoType": "BranchData4",
+  "definition": "Informação que localiza e identifica uma agência específica de uma instituição financeira.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca de uma agência de uma instituição financeira."
+    },
+    "Name": {
+      "definition": "Nome pelo qual uma parte é conhecida e que é normalmente utilizado para identificar essa parte."
+    },
+    "PostalAddress": {
+      "definition": "Informações que localizam e identificam um endereço específico, conforme definido pelos serviços postais."
+    }
+  }
+}

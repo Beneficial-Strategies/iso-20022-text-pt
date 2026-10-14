@@ -1,0 +1,21 @@
+{
+  "isoType": "CashNote1",
+  "definition": "Levantamento ou depósito de um montante em dinheiro definido em notas.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de numerário."
+    },
+    "BoxReference": {
+      "definition": "Referência da caixa que contém estas notas."
+    },
+    "NoteDenomination": {
+      "definition": "Especifica a denominação da nota, incluindo a moeda, por exemplo uma nota de 50 euros."
+    },
+    "NumberOfNotes": {
+      "definition": "Especifica o número de notas da mesma denominação."
+    },
+    "Amount": {
+      "definition": "Especifica o montante total em dinheiro correspondente a esta denominação de notas, isto é, a denominação da nota multiplicada pelo número de notas."
+    }
+  }
+}

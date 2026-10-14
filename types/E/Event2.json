@@ -1,0 +1,18 @@
+{
+  "isoType": "Event2",
+  "definition": "Fornece informações sobre um evento ocorrido num sistema.",
+  "isoElements": {
+    "EventCode": {
+      "definition": "Código proprietário utilizado para especificar um evento ocorrido num sistema."
+    },
+    "EventParameter": {
+      "definition": "Descreve os parâmetros de um evento ocorrido num sistema."
+    },
+    "EventDescription": {
+      "definition": "Texto livre utilizado para descrever um evento ocorrido num sistema."
+    },
+    "EventTime": {
+      "definition": "Data e hora em que o evento ocorreu."
+    }
+  }
+}

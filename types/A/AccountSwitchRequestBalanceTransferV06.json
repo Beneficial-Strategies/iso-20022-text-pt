@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchRequestBalanceTransferV06",
+  "definition": "A mensagem AccountSwitchRequestBalanceTransfer é enviada pela nova instituição gestora da conta à instituição gestora da conta que anteriormente detinha a conta, para solicitar a transferência do saldo de encerramento. Pode ser endereçada à nova conta ou a uma conta alternativa indicada pela nova instituição gestora da conta."
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "IntraPosition6",
+  "definition": "Detalhes do movimento intraposição.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financeiros que representam um conjunto de direitos do investidor face ao emitente."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantidade total de valores mobiliários a liquidar."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora a que os valores mobiliários devem ser movimentados."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo de origem dos valores mobiliários a movimentar."
+    },
+    "BalanceTo": {
+      "definition": "Saldo de destino dos valores mobiliários a movimentar."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Número que identifica um lote que constitui o subsaldo."
+    },
+    "Priority": {
+      "definition": "Especifica se a operação deve ser executada com prioridade elevada."
+    }
+  }
+}

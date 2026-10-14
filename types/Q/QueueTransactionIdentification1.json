@@ -1,0 +1,12 @@
+{
+  "isoType": "QueueTransactionIdentification1",
+  "definition": "Identificação de uma instrução de pagamento pela sua posição relativa numa fila de operações de pagamento gerida pelo agente de compensação.",
+  "isoElements": {
+    "QueueIdentification": {
+      "definition": "Identificação da fila de pagamentos onde se encontra a instrução de pagamento."
+    },
+    "PositionInQueue": {
+      "definition": "Posição da instrução de pagamento na fila identificada."
+    }
+  }
+}

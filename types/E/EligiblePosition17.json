@@ -1,0 +1,32 @@
+{
+  "isoType": "EligiblePosition17",
+  "definition": "Informações sobre uma posição em valores mobiliários e sobre os titulares dos direitos.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação da conta de valores mobiliários."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Endereço blockchain ou carteira onde os ativos digitais são mantidos. É o equivalente da conta de custódia para os ativos digitais."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "HoldingBalance": {
+      "definition": "Posição líquida de uma detenção segregada de um único valor mobiliário no âmbito da posição global detida numa conta de valores mobiliários, por exemplo, subsaldo por estado."
+    }
+  },
+  "isoRules": {
+    "HoldingBalanceTypeRule": {
+      "definition": "Em todas as ocorrências de HoldingBalance, um e apenas um BalanceType pode ser ELIG (elegível)."
+    },
+    "AccountIdentificationOrBlockChainAddress1Rule": {
+      "definition": "Tem de estar presente AccountIdentification ou BlockChainAddressOrWallet, mas não ambos."
+    },
+    "AccountIdentificationOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, então AccountIdentification tem de estar ausente."
+    },
+    "AccountIdentificationOrBlockChainAddress3Rule": {
+      "definition": "Se AccountIdentification estiver presente, então BlockChainAddressOrWallet tem de estar ausente."
+    }
+  }
+}

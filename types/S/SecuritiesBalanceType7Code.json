@@ -1,0 +1,42 @@
+{
+  "isoType": "SecuritiesBalanceType7Code",
+  "definition": "Especifica a natureza do saldo de valores mobiliários ou de fundos de investimento.",
+  "isoCodes": {
+    "COLA": {
+      "name": "Elegível para efeitos de garantia",
+      "definition": "Saldo de valores mobiliários elegíveis para efeitos de garantia."
+    },
+    "OTHR": {
+      "name": "Não classificado",
+      "definition": "Outro. Ver Narrative."
+    },
+    "CLEN": {
+      "name": "Isento de imposto",
+      "definition": "Os instrumentos financeiros isentos de imposto devem ser liquidados."
+    },
+    "DIRT": {
+      "name": "Não isento de imposto",
+      "definition": "Os instrumentos financeiros tributáveis devem ser liquidados."
+    },
+    "NOMI": {
+      "name": "Nominativo",
+      "definition": "Saldo de instrumentos financeiros registados (em nome de um mandatário ou em nome do beneficiário efetivo)."
+    },
+    "SPOS": {
+      "name": "Posição em nome do intermediário",
+      "definition": "Saldo de instrumentos financeiros que permanecem registados em nome do anterior beneficiário efetivo."
+    },
+    "UNRG": {
+      "name": "Não registado",
+      "definition": "Saldo de valores mobiliários que não puderam ser registados devido a uma limitação de propriedade estrangeira."
+    },
+    "ISSU": {
+      "name": "Emitido",
+      "definition": "Na comunicação entre agente emitente e depositário, saldo de instrumentos financeiros emitidos para os quais foi recebida a documentação legal."
+    },
+    "QUAS": {
+      "name": "Quase emitido",
+      "definition": "Na comunicação entre agente emitente e depositário, saldo de instrumentos financeiros emitidos para os quais a documentação legal ainda não foi recebida."
+    }
+  }
+}

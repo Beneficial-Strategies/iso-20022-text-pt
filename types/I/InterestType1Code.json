@@ -1,0 +1,14 @@
+{
+  "isoType": "InterestType1Code",
+  "definition": "Indica o tipo de juro aplicado a um saldo remanescente numa conta.",
+  "isoCodes": {
+    "INDY": {
+      "name": "Intradiário",
+      "definition": "Durante um dia útil ou dentro do mesmo."
+    },
+    "OVRN": {
+      "name": "Overnight",
+      "definition": "Período compreendido entre o fim de um dia útil e o início do dia útil seguinte (normalmente o dia seguinte)."
+    }
+  }
+}

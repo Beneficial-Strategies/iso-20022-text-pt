@@ -1,0 +1,34 @@
+{
+  "isoType": "CivilStatus1Code",
+  "definition": "Especifica o estado civil de uma pessoa.",
+  "isoCodes": {
+    "DIVO": {
+      "name": "Divorciado",
+      "definition": "A pessoa é divorciada."
+    },
+    "LDIV": {
+      "name": "Divorciado legalmente",
+      "definition": "A pessoa é legalmente divorciada."
+    },
+    "MARR": {
+      "name": "Casado",
+      "definition": "A pessoa é casada."
+    },
+    "SEPA": {
+      "name": "Separado",
+      "definition": "A pessoa é separada."
+    },
+    "SING": {
+      "name": "Solteiro",
+      "definition": "A pessoa é solteira."
+    },
+    "UNIO": {
+      "name": "União estável",
+      "definition": "A pessoa vive em união de facto."
+    },
+    "WIDO": {
+      "name": "Viúvo",
+      "definition": "A pessoa é viúva."
+    }
+  }
+}

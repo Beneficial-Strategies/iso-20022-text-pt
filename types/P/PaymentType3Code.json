@@ -1,0 +1,102 @@
+{
+  "isoType": "PaymentType3Code",
+  "definition": "Especifica o tipo, ou a natureza, do pagamento.",
+  "isoCodes": {
+    "CBS": {
+      "name": "Pagamento transfronteiriço",
+      "definition": "O pagamento tem origem num país, destino noutro e é efetuado na moeda do país de origem ou de destino."
+    },
+    "BCK": {
+      "name": "Contingência",
+      "definition": "O pagamento é efetuado ao abrigo do procedimento de recuperação para movimentar liquidez de/para a conta de liquidação de um membro, de acordo com as especificações do sistema."
+    },
+    "BAL": {
+      "name": "Saldo de retalho",
+      "definition": "A operação é um pagamento que compensa o saldo líquido de numerário devido num sistema de pagamentos de retalho."
+    },
+    "CLS": {
+      "name": "Pagamento CLS",
+      "definition": "O pagamento está associado a atividades do CLS."
+    },
+    "CTR": {
+      "name": "Operação do banco central",
+      "definition": "O pagamento é efetuado para liquidar uma operação realizada com o banco central."
+    },
+    "CBH": {
+      "name": "Pagamento transfronteiriço de elevado montante",
+      "definition": "A operação é um pagamento de elevado montante com origem num país e destino noutro país, efetuado na moeda do país de origem ou de destino."
+    },
+    "CBP": {
+      "name": "Pagamento transfronteiriço prioritário",
+      "definition": "A operação é um pagamento prioritário com origem num país e destino noutro, efetuado na moeda do país de origem ou de destino."
+    },
+    "DPG": {
+      "name": "DVP bruto",
+      "definition": "Pagamento bruto em numerário que compensa o montante devido na liquidação de uma operação sobre valores mobiliários."
+    },
+    "DPN": {
+      "name": "DVP líquido",
+      "definition": "Pagamento líquido que compensa o saldo de numerário devido na liquidação de uma série de operações sobre valores mobiliários."
+    },
+    "EXP": {
+      "name": "Pagamento expresso",
+      "definition": "A operação é um pagamento que é processado sempre que existe liquidez disponível na conta de liquidação de um membro do sistema RTGSPlus."
+    },
+    "TCH": {
+      "name": "Pagamento de elevado montante em moeda terceira",
+      "definition": "A operação é um pagamento de elevado montante efetuado numa terceira moeda, diferente da dos países de origem e de destino. Os países de origem e de destino podem ser o mesmo país."
+    },
+    "LMT": {
+      "name": "Pagamento de limite",
+      "definition": "A operação é um pagamento que é processado quando o conjunto de liquidez excede o valor mínimo reservado para um pagamento expresso no sistema RTGSPlus."
+    },
+    "LIQ": {
+      "name": "Transferência de liquidez",
+      "definition": "O pagamento é efetuado para transferir liquidez de/para a conta de liquidação de um membro, de/para a conta corrente detida na instituição central ou em qualquer outra instituição."
+    },
+    "DPP": {
+      "name": "Pagamento interno prioritário",
+      "definition": "A operação é um pagamento prioritário com origem e destino no mesmo país, efetuado na moeda desse país."
+    },
+    "DPH": {
+      "name": "Pagamento interno de elevado montante",
+      "definition": "A operação é um pagamento de elevado montante com origem e destino no mesmo país, efetuado na moeda desse país."
+    },
+    "DPS": {
+      "name": "Pagamento interno",
+      "definition": "O pagamento tem origem e destino no mesmo país e é efetuado na moeda desse país."
+    },
+    "STF": {
+      "name": "Facilidades permanentes",
+      "definition": "O pagamento está associado a depósitos overnight e à facilidade permanente de cedência de liquidez."
+    },
+    "TRP": {
+      "name": "Pagamento do Tesouro Público",
+      "definition": "O pagamento está associado ao Tesouro Público."
+    },
+    "TCS": {
+      "name": "Pagamento em moeda terceira",
+      "definition": "A operação é um pagamento efetuado numa terceira moeda, diferente da dos países de origem e de destino. Os países de origem e de destino podem ser o mesmo país."
+    },
+    "LOA": {
+      "name": "Empréstimo",
+      "definition": "A operação é o pagamento de um montante específico emprestado por um credor/mutuante."
+    },
+    "LOR": {
+      "name": "Reembolso de empréstimo",
+      "definition": "A operação é um montante transferido para reembolso de um empréstimo."
+    },
+    "TCP": {
+      "name": "Pagamento prioritário em moeda terceira",
+      "definition": "O pagamento é efetuado numa terceira moeda, diferente da dos países de origem e de destino. Os países de origem e de destino podem ser o mesmo país."
+    },
+    "OND": {
+      "name": "Depósito overnight",
+      "definition": "A operação está associada a um depósito overnight."
+    },
+    "MGL": {
+      "name": "Cedência marginal de liquidez",
+      "definition": "A operação está associada à facilidade permanente de cedência de liquidez."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "InvestigationDataRecord12Choice",
+  "definition": "Especifica os elementos de dados relativos à resposta a um pedido de investigação.",
+  "isoElements": {
+    "DebitAuthorisation": {
+      "definition": "Indica se a autorização de débito é ou não concedida."
+    },
+    "Compensation": {
+      "definition": "Indica a compensação devida pelo pedido."
+    },
+    "Valuation": {
+      "definition": "Indica a compensação devida pelo pedido."
+    },
+    "Confirmation": {
+      "definition": "Fornece a confirmação de que um pagamento debitou ou creditou uma conta."
+    },
+    "TransactionStatus": {
+      "definition": "Fornece o estado de um pagamento que ainda não debitou nem creditou uma conta."
+    },
+    "TransactionData": {
+      "definition": "Fornece dados relativos a um pedido."
+    },
+    "ResponseNarrative": {
+      "definition": "Fornece informações adicionais sobre a resposta em forma narrativa."
+    }
+  }
+}

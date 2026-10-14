@@ -1,0 +1,14 @@
+{
+  "isoType": "FailureReason5Code",
+  "definition": "Incidente ocorrido num dispositivo.",
+  "isoCodes": {
+    "SECR": {
+      "name": "Valor mobiliário",
+      "definition": "Erro de segurança geral."
+    },
+    "HRDW": {
+      "name": "Equipamento",
+      "definition": "Erro de hardware no dispositivo."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "InvestmentFundRole7Code",
+  "definition": "Especifica o papel da parte.",
+  "isoCodes": {
+    "CONC": {
+      "name": "Concentrador",
+      "definition": "Parte que atua como agregador de fundos, também designada plataforma de fundos."
+    },
+    "DIST": {
+      "name": "Distribuidor",
+      "definition": "Parte que atua como grossista de fundos."
+    },
+    "FMCO": {
+      "name": "Sociedade gestora de fundos",
+      "definition": "Parte que constitui um fundo, decide a estratégia de investimento, nomeia agentes e é responsável pela promoção e comercialização do fundo. Esta parte toma todas as decisões estratégicas relacionadas com um fundo."
+    },
+    "INTR": {
+      "name": "Intermediário",
+      "definition": "Parte que presta serviços a investidores relacionados com produtos financeiros. Estes serviços podem incluir alguns ou todos os seguintes: prestação de informações e aconselhamento sobre produtos, colocação de ordens de investimento, transmissão de pagamentos, custódia de ativos e administração de direitos e benefícios. No quadro específico do setor dos fundos de investimento, um intermediário pode apresentar informações sobre fundos a potenciais investidores e angariar ordens para o fundo. Este intermediário pode facilitar a transmissão de ordens e informações de/para os investidores e/ou outros intermediários. O intermediário recebe uma comissão do fundo e/ou taxas do investidor."
+    },
+    "PAYI": {
+      "name": "Agente pagador",
+      "definition": "Agente que executa o pagamento. No contexto do setor dos fundos de investimento, o agente pagador é o representante legal local do fundo. Pode pagar dividendos e cobra o dinheiro para a compra de fundos quando um cliente negoceia diretamente com o fundo e/ou quando negoceia com ações ao portador. Paga o resgate do fundo, pode distribuir informações sobre o fundo e presta informações jurídicas sobre o fundo."
+    },
+    "TRAG": {
+      "name": "Agente de transferência",
+      "definition": "Parte nomeada pela sociedade gestora do fundo. Esta parte atualiza os registos das contas de investidores para refletir as compras, resgates, mudanças, transferências e novos registos diários dos investidores. Assegura a liquidação atempada das operações e pode fornecer informações fiscais ao investidor e/ou aos seus intermediários. Pode calcular, cobrar e reembolsar comissões. Prepara e distribui confirmações que refletem as operações, resultando em movimentos de unidades de participação ou de conta de numerário para o investidor ou para o intermediário do investidor. Responde a pedidos de informação sobre o estado da conta e processa a distribuição de rendimentos."
+    },
+    "CUST": {
+      "name": "Depositário",
+      "definition": "Parte que guarda e administra ativos em nome do titular."
+    },
+    "CACO": {
+      "name": "Correspondente de numerário",
+      "definition": "Instituição financeira que executa transferências de numerário em nome dos seus clientes."
+    },
+    "FACT": {
+      "name": "Contabilista do fundo",
+      "definition": "Parte que mantém os registos contabilísticos dos ativos e passivos disponíveis do fundo. Esta parte calcula os preços das operações e o Valor Líquido Global (NAV) do fundo, e pode fornecer dados sobre o desempenho e a fiscalidade do fundo."
+    },
+    "INVE": {
+      "name": "Gestor de investimentos",
+      "definition": "Parte que implementa a estratégia de investimento, ou seja, seleciona os investimentos da carteira de acordo com os objetivos e a estratégia do prospeto do fundo, e coloca ordens para realizar ou liquidar os investimentos selecionados em função do fluxo líquido de capital que entra ou sai do fundo."
+    },
+    "INVS": {
+      "name": "Investidor",
+      "definition": "Parte, pessoa singular ou organização, cujos ativos estão a ser investidos."
+    }
+  }
+}

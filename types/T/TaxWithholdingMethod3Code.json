@@ -1,0 +1,42 @@
+{
+  "isoType": "TaxWithholdingMethod3Code",
+  "definition": "Especifica o método pelo qual o imposto sobre os juros deve ser tratado, isto é, retido na fonte, comunicado às autoridades fiscais ou se o beneficiário apresentou um certificado fiscal.",
+  "isoCodes": {
+    "MITX": {
+      "name": "Imposto sobre participações minoritárias",
+      "definition": "O imposto sobre participações minoritárias é retido."
+    },
+    "INVE": {
+      "name": "Sociedade de investimento",
+      "definition": "A retenção na fonte é aplicada a uma sociedade de investimento."
+    },
+    "ACCT": {
+      "name": "Contabilista",
+      "definition": "O imposto sobre dividendos está isento, segundo o contabilista."
+    },
+    "EXMT": {
+      "name": "Isento",
+      "definition": "O imposto sobre dividendos está isento."
+    },
+    "REPT": {
+      "name": "Declarar imposto",
+      "definition": "As informações fiscais são comunicadas às autoridades fiscais e, por conseguinte, não são retidas na fonte."
+    },
+    "CRTF": {
+      "name": "Certificado fiscal",
+      "definition": "O beneficiário apresenta um certificado fiscal da sua autoridade fiscal no país de residência. Por conseguinte, a obrigação de retenção na fonte é dispensada e as informações fiscais serão comunicadas às autoridades fiscais."
+    },
+    "WHCO": {
+      "name": "Retenção de imposto sobre sociedades",
+      "definition": "A retenção na fonte é aplicada a uma sociedade comercial."
+    },
+    "WTHD": {
+      "name": "Reter imposto",
+      "definition": "O imposto é retido na fonte."
+    },
+    "WTRE": {
+      "name": "Reter imposto e declarar",
+      "definition": "O imposto é retido na fonte e as informações fiscais são igualmente comunicadas às autoridades fiscais."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "MailType1Code",
+  "definition": "Especifica o tipo de serviço de correio.",
+  "isoCodes": {
+    "AIRM": {
+      "name": "Correio aéreo",
+      "definition": "Correio aéreo."
+    },
+    "ORDM": {
+      "name": "Correio normal",
+      "definition": "Correio normal."
+    },
+    "REGM": {
+      "name": "Correio registado",
+      "definition": "Correio registado."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "SystemAvailabilityAndEvents3",
+  "definition": "Especifica os detalhes sobre a disponibilidade do sistema e os eventos do sistema conexos que podem afetar a disponibilidade.",
+  "isoElements": {
+    "SystemCurrency": {
+      "definition": "Moeda que pode ser processada pelo sistema. Um sistema pode processar operações numa única moeda ou em várias moedas."
+    },
+    "SessionPeriod": {
+      "definition": "Janela temporal de atividade do sistema."
+    },
+    "Event": {
+      "definition": "Informações detalhadas sobre um evento que ocorre num sistema, planeado, como a hora-limite para um tipo específico de transferência elegível, ou não planeado (uma falha não solicitada), conforme estipulado nas especificações do sistema."
+    },
+    "ClosureInformation": {
+      "definition": "Informações relativas à hora de encerramento de um sistema."
+    }
+  }
+}

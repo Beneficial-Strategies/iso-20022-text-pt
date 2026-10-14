@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceCalculationMethod2Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o método aplicado no cálculo do preço.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o método aplicado para o cálculo do preço."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária para especificar o método aplicado no cálculo do preço."
+    }
+  }
+}

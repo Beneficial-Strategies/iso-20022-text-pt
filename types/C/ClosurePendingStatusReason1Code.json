@@ -1,0 +1,14 @@
+{
+  "isoType": "ClosurePendingStatusReason1Code",
+  "definition": "Especifica o motivo do estado de encerramento pendente.",
+  "isoCodes": {
+    "CLOS": {
+      "name": "Encerramento de conta em curso",
+      "definition": "O encerramento da conta está em curso."
+    },
+    "PEND": {
+      "name": "Condições pendentes",
+      "definition": "A conta será encerrada quando as condições forem cumpridas."
+    }
+  }
+}

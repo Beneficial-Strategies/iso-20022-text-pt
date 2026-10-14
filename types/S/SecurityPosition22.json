@@ -1,0 +1,12 @@
+{
+  "isoType": "SecurityPosition22",
+  "definition": "Identificação de um valor mobiliário e do seu saldo.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificação do valor mobiliário, tal como atribuída ao abrigo de um esquema de identificação formal ou proprietário."
+    },
+    "Position": {
+      "definition": "Montante de valores mobiliários elegíveis para a votação."
+    }
+  }
+}

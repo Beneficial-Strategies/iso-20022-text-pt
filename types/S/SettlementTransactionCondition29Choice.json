@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementTransactionCondition29Choice",
+  "definition": "Escolha do formato das condições da operação de liquidação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condições de liquidação expressas como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Condições de liquidação expressas como um código proprietário."
+    }
+  }
+}

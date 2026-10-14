@@ -1,0 +1,20 @@
+{
+  "isoType": "MeetingVoteExecutionConfirmationV12",
+  "definition": "Âmbito|A mensagem MeetingVoteExecutionConfirmation é enviada por um emitente, pelo seu agente ou por um intermediário a outro intermediário, a uma parte que detém o direito de voto, a um titular registado de valores mobiliários ou a um titular efetivo, para confirmar ao remetente da mensagem MeetingInstruction que o seu voto foi registado e contabilizado pelo emitente.|Utilização|Esta mensagem é enviada após a realização da assembleia de acionistas. O remetente desta mensagem confirma a execução do voto na assembleia.|Esta mensagem é enviada se o remetente da mensagem MeetingInstruction tiver solicitado essa confirmação ou se as práticas de mercado ou a regulamentação estipularem a necessidade de uma pista de auditoria completa.|Esta definição de mensagem destina-se a ser utilizada com o Business Application Header (BAH).",
+  "isoElements": {
+    "VoteExecutionConfirmationIdentification": {
+      "definition": "Identificação única do grupo de mensagens de confirmação de execução de voto quando a confirmação de execução de voto é dividida em várias mensagens (paginadas)."
+    },
+    "MeetingInstructionIdentification": {
+      "definition": "Identificação da mensagem original de instrução de assembleia para a qual é fornecida a confirmação de execução de voto."
+    },
+    "VoteInstructionsConfirmationURLAddress": {
+      "definition": "Endereço a utilizar através do serviço www (HTTP) onde podem ser encontradas as confirmações das instruções de voto."
+    }
+  },
+  "isoRules": {
+    "PaginationRule": {
+      "definition": "Se pagination estiver presente, então VoteExecutionConfirmationIdentification tem de estar presente."
+    }
+  }
+}

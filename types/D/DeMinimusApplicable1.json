@@ -1,0 +1,12 @@
+{
+  "isoType": "DeMinimusApplicable1",
+  "definition": "Condições aplicáveis quando o investidor está abrangido pela isenção \"de minimis\".",
+  "isoElements": {
+    "NewIssuePermission": {
+      "definition": "Indica se o investidor permite que os seus beneficiários efetivos que sejam pessoas restritas, se existirem, participem nos lucros e perdas imputados ao investidor que sejam atribuíveis a valores mobiliários de nova emissão."
+    },
+    "Percentage": {
+      "definition": "Percentagem dos lucros e perdas de novas emissões que recebe, atribuída aos beneficiários efetivos que sejam pessoas restritas."
+    }
+  }
+}

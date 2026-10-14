@@ -1,0 +1,23 @@
+{
+  "isoType": "RelatedSettlementInstruction4",
+  "definition": "Informações sobre uma instrução de liquidação relacionada.",
+  "isoElements": {
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador da instrução que não seja o titular da conta, o intermediário da conta nem a infraestrutura do mercado."
+    },
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Identificação inequívoca da instrução de liquidação relacionada atribuída pelo titular da conta."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Identificador Único de Operação (UTI) tal como acordado com a outra contraparte."
+    }
+  },
+  "isoRules": {
+    "MarketInfrastructureOrProcessorTransactionIdentificationRule": {
+      "definition": "Deve estar presente MarketInfrastructureTransactionIdentification ou ProcessorTransactionIdentification; podem estar presentes ambos."
+    }
+  }
+}

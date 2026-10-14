@@ -1,0 +1,30 @@
+{
+  "isoType": "FractionDispositionType11Code",
+  "definition": "Indica que o valor fracionário deve ser mantido; sem arredondamento.",
+  "isoCodes": {
+    "BUYU": {
+      "name": "Aquisição adicional",
+      "definition": "Comprar valores mobiliários até ao número inteiro seguinte."
+    },
+    "CINL": {
+      "name": "Numerário em substituição de fração",
+      "definition": "Parte fracionária em numerário. Receber numerário em vez de frações."
+    },
+    "DIST": {
+      "name": "Emitir fração",
+      "definition": "Receber a distribuição de frações sob a forma de valores mobiliários."
+    },
+    "RDDN": {
+      "name": "Arredondar por defeito",
+      "definition": "Arredondar o direito por defeito para a última unidade completa/quantidade nominal mínima; as frações são descartadas."
+    },
+    "STAN": {
+      "name": "Arredondar ao mais próximo",
+      "definition": "Se a fração for superior ou igual a 0,5 do valor mobiliário resultante, arredondar por excesso; caso contrário, arredondar por defeito, conforme especificado nos respetivos códigos RDUP e RDDN (0.5)."
+    },
+    "RDUP": {
+      "name": "Arredondar por excesso",
+      "definition": "Arredondar por excesso para a unidade completa/quantidade nominal mínima seguinte, sem custos."
+    }
+  }
+}

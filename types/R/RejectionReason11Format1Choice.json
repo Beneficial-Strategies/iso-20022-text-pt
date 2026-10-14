@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason11Format1Choice",
+  "definition": "Escolha de formatos para expressar o motivo de uma rejeição do pedido de cancelamento de notificação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o motivo de uma rejeição do pedido de cancelamento de notificação."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para expressar o motivo de uma rejeição do pedido de cancelamento de notificação."
+    }
+  }
+}

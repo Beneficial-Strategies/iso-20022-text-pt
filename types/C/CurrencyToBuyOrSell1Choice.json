@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyToBuyOrSell1Choice",
+  "definition": "Escolha do tipo de contraparte.",
+  "isoElements": {
+    "CurrencyToBuy": {
+      "definition": "O prestador de serviços de conta recebe instrução para comprar a moeda indicada após a receção do produto em numerário."
+    },
+    "CurrencyToSell": {
+      "definition": "O prestador de serviços de conta é instruído a vender a moeda indicada, a fim de obter a moeda necessária para financiar a operação."
+    }
+  }
+}

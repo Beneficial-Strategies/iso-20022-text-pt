@@ -1,0 +1,14 @@
+{
+  "isoType": "ClosedStatusReason1Code",
+  "definition": "Especifica o motivo do estado encerrado.",
+  "isoCodes": {
+    "ASIN": {
+      "name": "Instrução da instituição gestora da conta",
+      "definition": "A conta está encerrada, na sequência de uma instrução do prestador de serviços da conta para encerrar a conta."
+    },
+    "CLIN": {
+      "name": "Instrução do cliente",
+      "definition": "A conta está encerrada, na sequência de uma instrução do cliente, ou de uma parte autorizada, para encerrar a conta."
+    }
+  }
+}

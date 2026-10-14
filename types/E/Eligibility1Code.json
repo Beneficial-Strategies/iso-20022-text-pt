@@ -1,0 +1,18 @@
+{
+  "isoType": "Eligibility1Code",
+  "definition": "Identifica o tipo de investidor. As regras aplicáveis a cada tipo de cliente são diferentes.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Contraparte elegível",
+      "definition": "Os clientes elegíveis constituem o nível mais sofisticado de investidor, podendo optar por não beneficiar de algumas das proteções conferidas pelas regras de conduta profissional."
+    },
+    "RETL": {
+      "name": "Cliente não profissional",
+      "definition": "Os clientes não profissionais constituem o nível menos sofisticado de investidor."
+    },
+    "PROF": {
+      "name": "Cliente profissional",
+      "definition": "Os clientes profissionais são, por exemplo, empresas de investimento, instituições de crédito e empresas de seguros."
+    }
+  }
+}

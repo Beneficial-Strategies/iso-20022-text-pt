@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity51Choice",
+  "definition": "Escolha do formato da quantidade.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantidade do instrumento financeiro em unidades, montante nominal original ou montante nominal atual."
+    },
+    "OriginalAndCurrentFace": {
+      "definition": "Valor original e atual de um instrumento titularizado."
+    }
+  }
+}

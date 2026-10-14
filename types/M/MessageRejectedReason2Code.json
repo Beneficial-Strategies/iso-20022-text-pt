@@ -1,0 +1,14 @@
+{
+  "isoType": "MessageRejectedReason2Code",
+  "definition": "Especifica o motivo do estado de rejeição de uma mensagem.",
+  "isoCodes": {
+    "NALO": {
+      "name": "Pedido não permitido",
+      "definition": "A parte remetente não está autorizada a enviar este pedido."
+    },
+    "REFE": {
+      "name": "Referência inválida ou não reconhecida",
+      "definition": "O pedido contém uma referência comercial inválida ou não reconhecida."
+    }
+  }
+}

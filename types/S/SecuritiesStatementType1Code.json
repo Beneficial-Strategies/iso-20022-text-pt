@@ -1,0 +1,14 @@
+{
+  "isoType": "SecuritiesStatementType1Code",
+  "definition": "Especifica se o extrato é um extrato contabilístico ou de custódia.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Custódia",
+      "definition": "O extrato é um extrato de custódia."
+    },
+    "ACCT": {
+      "name": "Contabilização",
+      "definition": "O extrato é um extrato contabilístico."
+    }
+  }
+}

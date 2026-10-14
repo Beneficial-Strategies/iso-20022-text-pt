@@ -1,0 +1,9 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactionsV02",
+  "definition": "Âmbito|Um intermediário da conta, por exemplo, um agente de transferências, envia a mensagem StatementOfInvestmentFundTransactions ao titular da conta, por exemplo, um gestor de investimentos ou o seu representante autorizado, para fornecer as operações pormenorizadas (aumentos e diminuições) das posições ocorridas durante um período de tempo especificado.|Utilização|A mensagem StatementOfInvestmentFundTransactions é utilizada para listar as operações sobre posições de uma única conta (principal) ou de várias subcontas.|Esta mensagem deve ser utilizada com a frequência acordada bilateralmente entre o intermediário da conta e o titular da conta.|Esta mensagem não deve ser utilizada em substituição das mensagens de confirmação.",
+  "isoRules": {
+    "TransactionOnAccountOrSubAccountDetailsRule": {
+      "definition": "Se StatementGeneralDetails/ActivityIndicator for \"true\" ou \"1\" (Sim), então TransactionOnAccount ou SubAccountDetails é obrigatório. Se StatementGeneralDetails/ActivityIndicator for \"false\" ou \"0\" (Não), então TransactionOnAccount e SubAccountDetails não são permitidos."
+    }
+  }
+}

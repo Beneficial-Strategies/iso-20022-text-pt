@@ -1,0 +1,21 @@
+{
+  "isoType": "CashOption1",
+  "definition": "Fornece informações sobre a opção em numerário.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indica se se trata de um débito ou de um crédito."
+    },
+    "Currency": {
+      "definition": "Moeda da opção."
+    },
+    "DateDetails": {
+      "definition": "Fornece informações sobre as datas relacionadas com um movimento de numerário."
+    },
+    "AmountDetails": {
+      "definition": "Fornece informações sobre os montantes relacionados com um movimento de numerário."
+    },
+    "ExchangeRate": {
+      "definition": "Fornece informações sobre uma operação cambial."
+    }
+  }
+}

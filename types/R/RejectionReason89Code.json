@@ -1,0 +1,194 @@
+{
+  "isoType": "RejectionReason89Code",
+  "definition": "Especifica o motivo pelo qual o pedido de instrução tem um estado rejeitado.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "CERT": {
+      "name": "Certificação incorreta",
+      "definition": "A instrução é rejeitada porque a certificação fornecida está incorreta ou incompleta."
+    },
+    "INVA": {
+      "name": "Inválido para as autoridades fiscais",
+      "definition": "No caso de reembolso de imposto, o pedido de reembolso é inválido para as autoridades fiscais."
+    },
+    "OPTY": {
+      "name": "Tipo de opção inválido",
+      "definition": "Tipo de opção inválido."
+    },
+    "ULNK": {
+      "name": "Referência inválida",
+      "definition": "A referência associada é desconhecida."
+    },
+    "LACK": {
+      "name": "Falta de valores mobiliários",
+      "definition": "A posição instruída excede o saldo elegível."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "NMTY": {
+      "name": "Divergência",
+      "definition": "Divergência entre o número da opção e o tipo de opção."
+    },
+    "FULL": {
+      "name": "Detalhes do beneficiário efetivo em falta",
+      "definition": "Rejeitado por falta dos dados do beneficiário efetivo."
+    },
+    "CANC": {
+      "name": "Opção cancelada",
+      "definition": "A opção não é válida; foi cancelada pelo mercado ou pelo prestador de serviços e não pode ser objeto de resposta. Quaisquer respostas já processadas relativamente a esta opção são consideradas nulas e serão necessárias novas respostas."
+    },
+    "INTV": {
+      "name": "Opção inativa",
+      "definition": "A opção não está ativa e já não pode ser objeto de resposta. Quaisquer respostas já processadas relativamente a esta opção permanecem válidas, por exemplo, opção expirada."
+    },
+    "OPNM": {
+      "name": "Rejeição do número da opção",
+      "definition": "Número de opção não reconhecido."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "DQUA": {
+      "name": "Rejeição da quantidade",
+      "definition": "Quantidade instruída não reconhecida ou inválida."
+    },
+    "REFT": {
+      "name": "Recusado pelas autoridades fiscais",
+      "definition": "O pedido de reembolso é recusado pelas autoridades fiscais."
+    },
+    "SAFE": {
+      "name": "Rejeição da conta de guarda",
+      "definition": "Conta de custódia do remetente da mensagem não reconhecida ou inválida."
+    },
+    "EVNM": {
+      "name": "Identificação não reconhecida",
+      "definition": "Número de evento não reconhecido."
+    },
+    "DQCS": {
+      "name": "Rejeição do montante",
+      "definition": "Montante em numerário instruído não reconhecido ou inválido."
+    },
+    "DQCC": {
+      "name": "Rejeição da moeda",
+      "definition": "Moeda instruída inválida."
+    },
+    "DQAM": {
+      "name": "Rejeição do tipo de instrução",
+      "definition": "Utilização inválida dos qualificadores de montante instruído (QCAS) ou de quantidade instruída (QINS)."
+    },
+    "IRDQ": {
+      "name": "Utilização inválida da quantidade de arredondamento por excesso",
+      "definition": "A instrução é rejeitada devido à utilização inválida da quantidade adicional de arredondamento por excesso."
+    },
+    "DQBV": {
+      "name": "Valor de oferta inválido",
+      "definition": "O preço de oferta / pontos base / percentagem está fora do intervalo de ofertas para o evento (geralmente utilizado em Dutch Auctions ou Bid Tenders)."
+    },
+    "DQBI": {
+      "name": "Incremento de oferta inválido",
+      "definition": "Incrementos do preço de oferta / pontos base / percentagem rejeitados devido a incremento de oferta inválido para o evento (geralmente utilizado em Dutch Auctions ou Bid Tenders)."
+    },
+    "SHAR": {
+      "name": "Rejeição do número de acionista",
+      "definition": "Número de acionista não reconhecido, em falta ou inválido."
+    },
+    "ITAX": {
+      "name": "Taxa de imposto incorreta",
+      "definition": "A taxa de imposto fornecida está incorreta. Está fora dos valores aceitáveis para esse país de investimento."
+    },
+    "NTAX": {
+      "name": "Taxa de imposto inconsistente",
+      "definition": "A taxa de imposto não é coerente com a documentação existente."
+    },
+    "MTAX": {
+      "name": "Taxa de imposto em falta",
+      "definition": "A taxa de imposto está em falta."
+    },
+    "ISOL": {
+      "name": "Utilização inválida da comissão do intermediário de solicitação",
+      "definition": "Utilização inválida do indicador de comissão do intermediário solicitante."
+    },
+    "BSTR": {
+      "name": "Antes do período de instrução",
+      "definition": "A instrução é submetida antes da data de início da instrução."
+    },
+    "CTCT": {
+      "name": "Contacto em falta",
+      "definition": "As informações de contacto estão em falta."
+    },
+    "DUPL": {
+      "name": "Instrução duplicada",
+      "definition": "A instrução é rejeitada devido a identificador de mensagem de negócio duplicado."
+    },
+    "PROI": {
+      "name": "Identificação de proteção em falta",
+      "definition": "A identificação da proteção é obrigatória para instruções de cobertura de proteção."
+    },
+    "PRON": {
+      "name": "Sem privilégio de proteção",
+      "definition": "Não existe privilégio de proteção para este evento."
+    },
+    "PROT": {
+      "name": "Data de proteção em falta",
+      "definition": "A data de proteção é obrigatória para instruções de cobertura de proteção."
+    },
+    "TRTI": {
+      "name": "Tipo de operação em falta",
+      "definition": "O tipo de operação está em falta ou é inválido para instruções de proteção ou de cobertura de proteção."
+    },
+    "IPAW": {
+      "name": "Documentação inválida",
+      "definition": "A documentação exigida é inválida, incompleta ou está em falta."
+    },
+    "REJA": {
+      "name": "Rejeitado pelo agente do emitente",
+      "definition": "Instrução rejeitada pelo agente do emitente."
+    },
+    "IPED": {
+      "name": "Instrução anterior à data do direito",
+      "definition": "A instrução foi recebida antes da data de direito."
+    },
+    "BUMM": {
+      "name": "Divergência na proteção do comprador",
+      "definition": "Desacordo da contraparte quanto ao resultado escolhido da operação sobre títulos."
+    },
+    "TRTY": {
+      "name": "Tipo de operação incorreto",
+      "definition": "O tipo de operação está incorreto."
+    },
+    "DSNA": {
+      "name": "Proteção do comprador não permitida",
+      "definition": "O tipo/estado da operação subjacente não permite uma proteção do comprador."
+    },
+    "DUCK": {
+      "name": "Operação subjacente cancelada",
+      "definition": "Instrução de proteção do comprador rejeitada, uma vez que a operação de liquidação subjacente foi cancelada."
+    },
+    "DUST": {
+      "name": "Operação subjacente já liquidada",
+      "definition": "A instrução de proteção do comprador foi rejeitada, porque a operação de liquidação subjacente já foi liquidada."
+    },
+    "ECMD": {
+      "name": "Prazo de mercado da eleição para a contraparte não cumprido",
+      "definition": "Recebida após o prazo de mercado da escolha junto da contraparte."
+    },
+    "ECRD": {
+      "name": "Prazo de resposta da eleição para a contraparte não cumprido",
+      "definition": "Recebida após o prazo de mercado de resposta à escolha junto da contraparte."
+    },
+    "INSA": {
+      "name": "Instrução não suportada ou não permitida",
+      "definition": "A instrução não é suportada nem permitida."
+    },
+    "DSEC": {
+      "name": "Valor mobiliário inválido",
+      "definition": "Identificação do instrumento financeiro não reconhecida ou inválida."
+    }
+  }
+}

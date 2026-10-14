@@ -1,0 +1,14 @@
+{
+  "isoType": "TaxWrapperAmountType1Code",
+  "definition": "Especifica um tipo de montante.",
+  "isoCodes": {
+    "BONU": {
+      "name": "Bónus",
+      "definition": "O tipo de montante é uma bonificação, por exemplo, uma bonificação estatal."
+    },
+    "WTHD": {
+      "name": "Levantamento",
+      "definition": "O tipo de montante é um levantamento, por exemplo, um levantamento para a primeira aquisição de habitação."
+    }
+  }
+}

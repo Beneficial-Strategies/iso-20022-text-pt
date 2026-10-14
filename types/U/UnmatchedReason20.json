@@ -1,0 +1,12 @@
+{
+  "isoType": "UnmatchedReason20",
+  "definition": "Estado de uma instrução, aviso ou pedido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de sem correspondência."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser fornecidas num campo estruturado."
+    }
+  }
+}

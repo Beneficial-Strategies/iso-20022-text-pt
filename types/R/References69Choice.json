@@ -1,0 +1,65 @@
+{
+  "isoType": "References69Choice",
+  "definition": "Escolha de referência.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionConfirmationIdentification": {
+      "definition": "Identificação inequívoca da confirmação a cancelar."
+    },
+    "IntraPositionMovementConfirmationIdentification": {
+      "definition": "Identificação inequívoca, pelo prestador de serviços de conta, da confirmação de movimento intraposição a cancelar."
+    },
+    "SecuritiesBalanceAccountingReportIdentification": {
+      "definition": "Identificação inequívoca da mensagem de relatório a cancelar."
+    },
+    "SecuritiesBalanceCustodyReportIdentification": {
+      "definition": "Identificação inequívoca da mensagem de relatório a cancelar."
+    },
+    "IntraPositionMovementPostingReportIdentification": {
+      "definition": "Identificação do relatório de lançamento de movimento intraposição a cancelar."
+    },
+    "SecuritiesFinancingConfirmationIdentification": {
+      "definition": "Identificação inequívoca da confirmação a cancelar."
+    },
+    "SecuritiesTransactionPendingReportIdentification": {
+      "definition": "Identificação inequívoca da mensagem de relatório a cancelar."
+    },
+    "SecuritiesTransactionPostingReportIdentification": {
+      "definition": "Identificação inequívoca da mensagem de relatório a cancelar."
+    },
+    "SecuritiesSettlementTransactionAllegementReportIdentification": {
+      "definition": "Identificação inequívoca do relatório a cancelar."
+    },
+    "SecuritiesSettlementTransactionAllegementNotificationTransactionIdentification": {
+      "definition": "Identificação inequívoca da notificação de alegação a cancelar, conforme conhecida pelo prestador de serviços de conta."
+    },
+    "PortfolioTransferNotificationIdentification": {
+      "definition": "Identificação da transferência de carteira."
+    },
+    "SecuritiesSettlementTransactionGenerationNotificationIdentification": {
+      "definition": "Identificação inequívoca da mensagem de notificação a cancelar."
+    },
+    "OtherMessageIdentification": {
+      "definition": "Identificação inequívoca da mensagem a cancelar."
+    },
+    "TotalPortfolioValuationReportIdentification": {
+      "definition": "Identificação única do relatório."
+    },
+    "TripartyCollateralTransactionInstructionProcessingStatusAdviceIdentification": {
+      "definition": "Identificação inequívoca do aviso de estado da instrução de operação de garantia tripartida a cancelar."
+    },
+    "TripartyCollateralStatusAdviceIdentification": {
+      "definition": "Identificação inequívoca do aviso de estado de garantia tripartida a cancelar."
+    },
+    "TripartyCollateralAndExposureReportIdentification": {
+      "definition": "Identificação inequívoca do relatório de garantia e exposição tripartido a cancelar."
+    }
+  },
+  "isoRules": {
+    "SecuritiesSettlementTransactionAllegementNotificationRule": {
+      "definition": "O SecuritiesMessageCancellationAdvice pode ser utilizado para cancelar um SecuritiesSettlementTransactionAllegementNotification por dois motivos: |- A mensagem foi enviada por engano|- A contraparte cancelou a sua instrução."
+    },
+    "OtherMessageIdentificationUsageRule": {
+      "definition": "Se OtherMessageIdentification for utilizado, então a mensagem a cancelar não pode ser uma que possa ser identificada através da identificação de mensagem disponível na lista de escolhas."
+    }
+  }
+}

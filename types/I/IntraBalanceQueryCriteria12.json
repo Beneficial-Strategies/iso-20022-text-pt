@@ -1,0 +1,27 @@
+{
+  "isoType": "IntraBalanceQueryCriteria12",
+  "definition": "Define os critérios com base nos quais a informação é incluída.",
+  "isoElements": {
+    "ModificationRequestIdentification": {
+      "definition": "Referência coletiva que identifica um conjunto de mensagens."
+    },
+    "ProcessingStatus": {
+      "definition": "Indica o estado de liquidação de uma operação."
+    },
+    "CashAccount": {
+      "definition": "Conta na qual é mantido o numerário."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte titular da conta."
+    },
+    "CashAccountServicer": {
+      "definition": "Parte que gere a conta de numerário por conta do titular da conta, ou seja, gere o registo e o lançamento de movimentos na conta, calcula os saldos da conta e presta informações sobre a conta."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originou a mensagem, se diferente do remetente."
+    },
+    "CreationDateTime": {
+      "definition": "Especifica a data/hora de criação do movimento intrassaldo."
+    }
+  }
+}

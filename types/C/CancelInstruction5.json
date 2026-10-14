@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelInstruction5",
+  "definition": "Instrução a cancelar.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identificação da instrução individual enviada anteriormente."
+    },
+    "InstructedPosition": {
+      "definition": "Conta e posições instruídas a que o pedido de cancelamento de instrução de assembleia se aplica."
+    }
+  }
+}

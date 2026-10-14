@@ -1,0 +1,34 @@
+{
+  "isoType": "InvestmentFundFee2Code",
+  "definition": "Tipo de serviço pelo qual é solicitado ou pago um encargo.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Comissão de saída",
+      "definition": "Comissão paga pelo investidor ao fundo ou à sociedade gestora do fundo no momento do resgate."
+    },
+    "FEND": {
+      "name": "Comissão de entrada",
+      "definition": "Comissão paga pelo investidor ao fundo ou à sociedade gestora do fundo no momento da subscrição."
+    },
+    "TRAN": {
+      "name": "Comissão de transferência",
+      "definition": "Em fundos de investimento, taxa cobrada pela transferência de titularidade de um fundo de investimento."
+    },
+    "POST": {
+      "name": "Despesas de correio",
+      "definition": "Encargo pelo porte do correio."
+    },
+    "REGF": {
+      "name": "Taxa regulamentar",
+      "definition": "Comissão cobrada por uma autoridade reguladora, por exemplo, taxas de bolsa e de valores mobiliários."
+    },
+    "SHIP": {
+      "name": "Despesas de envio",
+      "definition": "Encargo de expedição, incluindo o seguro dos valores mobiliários."
+    },
+    "SPCN": {
+      "name": "Condições especiais",
+      "definition": "Comissões, utilização de crédito ou outra redução ou acréscimo ao preço da operação."
+    }
+  }
+}

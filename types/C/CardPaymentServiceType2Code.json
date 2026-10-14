@@ -1,0 +1,50 @@
+{
+  "isoType": "CardPaymentServiceType2Code",
+  "definition": "Serviço prestado pela operação de pagamento com cartão, para além do serviço principal.",
+  "isoCodes": {
+    "AGGR": {
+      "name": "Agregação",
+      "definition": "Agregação de pagamentos de baixo valor."
+    },
+    "DCCV": {
+      "name": "DCC",
+      "definition": "Conversão dinâmica de moeda (DCC)."
+    },
+    "GRTT": {
+      "name": "Gorjeta",
+      "definition": "Pagamento com cartão com gratificação."
+    },
+    "INSP": {
+      "name": "Prestação",
+      "definition": "Pagamento em prestações."
+    },
+    "LOYT": {
+      "name": "Fidelização",
+      "definition": "Serviços de fidelização."
+    },
+    "NRES": {
+      "name": "Não comparência",
+      "definition": "Não comparência após reserva."
+    },
+    "PUCO": {
+      "name": "Compra empresarial",
+      "definition": "Compra e dados empresariais."
+    },
+    "RECP": {
+      "name": "Pagamento recorrente",
+      "definition": "Pagamento recorrente."
+    },
+    "SOAF": {
+      "name": "Fundos disponíveis solicitados",
+      "definition": "Fundos disponíveis solicitados."
+    },
+    "UNAF": {
+      "name": "Fundos disponíveis não solicitados",
+      "definition": "Fundos disponíveis não solicitados."
+    },
+    "VCAU": {
+      "name": "Autorização por voz",
+      "definition": "Autorização por voz."
+    }
+  }
+}

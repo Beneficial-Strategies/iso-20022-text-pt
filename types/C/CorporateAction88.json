@@ -1,0 +1,131 @@
+{
+  "isoType": "CorporateAction88",
+  "definition": "Fornece informações sobre o evento de operação sobre títulos.",
+  "isoElements": {
+    "DateDetails": {
+      "definition": "Fornece informações sobre as datas relacionadas com um evento de operação sobre títulos."
+    },
+    "EventBalanceDetails": {
+      "definition": "Saldos relacionados com o evento de operação sobre títulos."
+    },
+    "AmountDetails": {
+      "definition": "Fornece informações sobre os montantes relacionados com um evento de operação sobre títulos."
+    },
+    "PeriodDetails": {
+      "definition": "Fornece informações sobre os períodos relacionados com um evento de operação sobre títulos."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fornece informações sobre taxas e montantes relacionados com um evento de operação sobre títulos."
+    },
+    "PriceDetails": {
+      "definition": "Fornece informações sobre os preços relacionados com um evento de operação sobre títulos."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Fornece informações sobre a quantidade de valores mobiliários associada a uma operação sobre títulos."
+    },
+    "InterestAccruedNumberOfDays": {
+      "definition": "Número de dias utilizado para o cálculo do montante de juros corridos."
+    },
+    "AcceptancePriorityLevel": {
+      "definition": "Nível de prioridade da oferta apresentada que será aceite pelo emitente/agente no âmbito da estrutura escalonada do evento.|Os eventos de oferta estão, em muitos casos, sujeitos a rateio."
+    },
+    "ChargesAppliedIndicator": {
+      "definition": "Indica se são aplicáveis encargos ao titular, por exemplo encargos de reembolso."
+    },
+    "RestrictionIndicator": {
+      "definition": "Indica se são aplicáveis ou não restrições ao evento de operação sobre títulos."
+    },
+    "AccruedInterestIndicator": {
+      "definition": "Indica se o titular tem direito a juros corridos."
+    },
+    "SupplementaryIndicators": {
+      "definition": "Identificação de um elemento de dados suplementares."
+    },
+    "ForfeitureOfInterestIndicator": {
+      "definition": "Indica que os obrigacionistas que efetuem a conversão entre a data de registo e a data de pagamento perderão os seus juros."
+    },
+    "DividendType": {
+      "definition": "Especifica as condições em que um dividendo é pago."
+    },
+    "OccurrenceType": {
+      "definition": "Especifica as condições em que ocorrem as instruções e/ou o pagamento do produto."
+    },
+    "OfferType": {
+      "definition": "Especifica as condições aplicáveis à oferta."
+    },
+    "RenounceableEntitlementStatusType": {
+      "definition": "Especifica se os termos do evento permitem a revenda dos direitos."
+    },
+    "EventStage": {
+      "definition": "Fase do ciclo de vida do evento de operação sobre títulos."
+    },
+    "AdditionalBusinessProcessIndicator": {
+      "definition": "Especifica o tipo de processo de negócio adicional associado ao evento de operação sobre títulos, como uma indemnização por reclamação ou um reembolso de imposto."
+    },
+    "ChangeType": {
+      "definition": "Especifica o tipo de alteração anunciada."
+    },
+    "FollowingEventTypeIndicator": {
+      "definition": "Especifica o tipo de evento do evento seguinte."
+    },
+    "CapitalGainInOutIndicator": {
+      "definition": "Especifica se a mais-valia se insere no âmbito da diretiva da EU relativa à tributação dos rendimentos da poupança, para o rendimento obtido aquando da venda, reembolso ou resgate de ações e unidades de participação (.) (Artigo 6.º, n.º 1, alínea d))."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "definition": "Especifica se o instrumento financeiro calcula o rendimento tributável por dividendo/rendimento tributável por ação."
+    },
+    "LotteryEventInformation": {
+      "definition": "Especifica os detalhes de um sorteio."
+    },
+    "CertificationType": {
+      "definition": "Especifica o formato de certificação exigido, ou seja, formato físico ou eletrónico."
+    },
+    "ConsentType": {
+      "definition": "Especifica o tipo de consentimento anunciado."
+    },
+    "InformationType": {
+      "definition": "Especifica o tipo de evento de informação."
+    },
+    "TaxOnNonDistributedProceedsIndicator": {
+      "definition": "Especifica o regime fiscal atribuído ao evento de produto não distribuído ou a qualquer outro evento."
+    },
+    "DutchAuctionType": {
+      "definition": "Especifica se um leilão holandês é modificado ou não modificado."
+    },
+    "ReverseDutchAuctionIndicator": {
+      "definition": "Indica que o evento de leilão holandês é um leilão holandês inverso."
+    },
+    "NewPlaceOfIncorporation": {
+      "definition": "Local de constituição da nova sociedade."
+    },
+    "NoticeType": {
+      "definition": "Especifica se um anúncio de resgate se refere a certificados detidos apenas junto do depositário ou também fora do depositário."
+    },
+    "ProrationReturnMinimumQuantityTreatment": {
+      "definition": "Indica como serão tratadas as instruções objeto de rateio quando o direito rateado resultar num valor inferior à denominação mínima."
+    },
+    "CertificateDetails": {
+      "definition": "Detalhes dos certificados que foram chamados a resgate."
+    },
+    "AdditionalInformation": {
+      "definition": "Fornece informações adicionais. Este campo só pode ser utilizado quando a informação a transmitir não puder ser codificada."
+    }
+  },
+  "isoRules": {
+    "DissenterRights1UGRule": {
+      "definition": "Se o valor de OfferType/Code for igual a DISS (DissenterRights), então um valor de OfferType/Code igual a NDIS (DissenterRightsNotApplicable) não é permitido em nenhuma ocorrência de OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2UGRule": {
+      "definition": "Se o valor de OfferType/Code for igual a NDIS (DissenterRightsNotApplicable), então um valor de OfferType/Code igual a DISS (DissenterRights) não é permitido em nenhuma ocorrência de OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights1Rule": {
+      "definition": "Se o valor de OfferType/Code for igual a DISS (DissenterRights), então um valor de OfferType/Code igual a NDIS (DissenterRightsNotApplicable) não é permitido em nenhuma ocorrência de OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2Rule": {
+      "definition": "Se o valor de OfferType/Code for igual a NDISS (DissenterRightsNotApplicable), então um valor de OfferType/Code igual a DISS (DissenterRights) não é permitido em nenhuma ocorrência de OfferType.|(MT 564 NVR C27)"
+    },
+    "AcceptancePriorityLevelUGRule": {
+      "definition": "Se OfferType/Code for igual a AcceptancePriority (ACPR), então AcceptancePriorityLevel tem de estar presente."
+    }
+  }
+}

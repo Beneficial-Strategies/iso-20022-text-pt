@@ -1,0 +1,15 @@
+{
+  "isoType": "UpdateType38Choice",
+  "definition": "Especifica o tipo de atualização solicitada, ou seja, adição, eliminação ou modificação.",
+  "isoElements": {
+    "Addition": {
+      "definition": "Adição de informação à operação com valores mobiliários."
+    },
+    "Deletion": {
+      "definition": "Eliminação de informação na operação com valores mobiliários."
+    },
+    "Modification": {
+      "definition": "Modificação de informação na operação com valores mobiliários."
+    }
+  }
+}

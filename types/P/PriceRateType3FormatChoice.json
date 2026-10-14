@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceRateType3FormatChoice",
+  "definition": "Escolha de formatos para exprimir o tipo de taxa de preço.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de taxa de preço."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir o tipo de taxa de preço."
+    }
+  }
+}

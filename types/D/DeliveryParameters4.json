@@ -1,0 +1,20 @@
+{
+  "isoType": "DeliveryParameters4",
+  "definition": "Parâmetros de uma entrega física.",
+  "isoElements": {
+    "RegisteredAddressIndicator": {
+      "definition": "Indica se o endereço da entrega física é a morada registada."
+    },
+    "NameAndAddress": {
+      "definition": "Nome e endereço para/de onde deve ter lugar a entrega/receção física do instrumento financeiro."
+    },
+    "ContactPerson": {
+      "definition": "Pessoa de contacto e informações de contacto."
+    }
+  },
+  "isoRules": {
+    "NameAndAddress1Rule": {
+      "definition": "Se RegisteredAddressIndicator for \"true\" ou \"1\" (Sim), então NameAndAddress não é permitido.|Se RegisteredAddressIndicator for \"false\" ou \"0\" (Não), então NameAndAddress tem de estar presente."
+    }
+  }
+}

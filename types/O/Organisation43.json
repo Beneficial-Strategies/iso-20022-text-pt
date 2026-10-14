@@ -1,0 +1,60 @@
+{
+  "isoType": "Organisation43",
+  "definition": "Estrutura organizada, constituída para um fim determinado. Por exemplo, uma empresa, um organismo público, um departamento, uma organização de caridade ou uma instituição financeira.",
+  "isoElements": {
+    "FullLegalName": {
+      "definition": "Nome pelo qual uma parte é conhecida e que é normalmente utilizado para identificar essa parte."
+    },
+    "TradingName": {
+      "definition": "Nome utilizado por uma empresa para fins comerciais, embora a sua denominação legal registada, utilizada para contratos e outras situações formais, possa ser outra."
+    },
+    "OrganisationLegalStatus": {
+      "definition": "Estatuto de uma entidade jurídica."
+    },
+    "EstablishedDate": {
+      "definition": "A data de estabelecimento ou de fundação de uma instituição é a data que essa instituição escolhe reivindicar como ponto de partida."
+    },
+    "RegistrationNumber": {
+      "definition": "Número de registo da organização."
+    },
+    "RegistrationCountry": {
+      "definition": "País em que a organização está registada."
+    },
+    "RegistrationDate": {
+      "definition": "Data em que uma determinada organização foi oficialmente registada."
+    },
+    "TaxationIdentificationNumber": {
+      "definition": "Número de referência fiscal único."
+    },
+    "TaxationCountry": {
+      "definition": "País de tributação de uma pessoa singular ou de uma organização."
+    },
+    "CountryOfOperation": {
+      "definition": "País em que a organização exerce a sua atividade empresarial."
+    },
+    "BoardResolutionIndicator": {
+      "definition": "Indica que o novo banco possui uma cópia da deliberação do conselho de administração de uma sociedade registada relativa à mudança de conta."
+    },
+    "BusinessAddress": {
+      "definition": "Endereço onde a atividade empresarial é exercida."
+    },
+    "OperationalAddress": {
+      "definition": "Endereço, por exemplo, de um centro de serviços partilhados."
+    },
+    "LegalAddress": {
+      "definition": "Endereço onde a entidade reside e está registada. De forma mais genérica, é o endereço de domicílio (endereço de residência)."
+    },
+    "RepresentativeOfficer": {
+      "definition": "Pessoa da organização do cliente que pode ser contactada pela instituição gestora da conta."
+    },
+    "TreasuryManager": {
+      "definition": "Pessoa responsável pelo departamento de tesouraria de uma organização."
+    },
+    "MainMandateHolder": {
+      "definition": "Pessoa que delegará alguma autoridade noutros indivíduos (titulares de mandato) para efetuarem determinadas operações bancárias específicas na conta."
+    },
+    "Sender": {
+      "definition": "Remetente de uma mensagem relacionada com o ciclo de vida de uma conta."
+    }
+  }
+}

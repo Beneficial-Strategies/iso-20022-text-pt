@@ -1,0 +1,14 @@
+{
+  "isoType": "CashAssetType1Code",
+  "definition": "Especifica uma origem do ativo em numerário.",
+  "isoCodes": {
+    "CSH2": {
+      "name": "Numerário em carteira",
+      "definition": "O numerário é numerário da posição ainda não investido."
+    },
+    "CSH1": {
+      "name": "Investimento em numerário",
+      "definition": "O numerário é atribuído a um investimento em numerário."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "TransactionIdentification1",
+  "definition": "Fornece informações de identificação da operação.",
+  "isoElements": {
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    }
+  }
+}

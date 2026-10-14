@@ -1,0 +1,26 @@
+{
+  "isoType": "ReservationStatus1Code",
+  "definition": "Especifica o estado atual de um limite.",
+  "isoCodes": {
+    "ENAB": {
+      "name": "Ativado",
+      "definition": "A reserva está atualmente em vigor."
+    },
+    "DISA": {
+      "name": "Desativado",
+      "definition": "A reserva não está atualmente em vigor.|."
+    },
+    "DELD": {
+      "name": "Eliminado",
+      "definition": "A reserva foi eliminada ou suspensa."
+    },
+    "REQD": {
+      "name": "Solicitado",
+      "definition": "A reserva foi solicitada e ainda não está ativada.|."
+    },
+    "BLKD": {
+      "name": "Bloqueado",
+      "definition": "A reserva está bloqueada ou congelada devido a circunstâncias externas, como uma ordem judicial, o falecimento do beneficiário ou do titular da conta, ou insolvência."
+    }
+  }
+}

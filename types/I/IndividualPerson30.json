@@ -1,0 +1,21 @@
+{
+  "isoType": "IndividualPerson30",
+  "definition": "Entidade humana, por oposição a uma entidade coletiva (por vezes designada «pessoa artificial»).",
+  "isoElements": {
+    "GivenName": {
+      "definition": "Nome próprio da pessoa."
+    },
+    "MiddleName": {
+      "definition": "Segundo nome da pessoa."
+    },
+    "Name": {
+      "definition": "Nome pelo qual a parte é conhecida e que é normalmente utilizado para identificar essa parte."
+    },
+    "Gender": {
+      "definition": "Género da pessoa."
+    },
+    "BirthDate": {
+      "definition": "Data em que a pessoa nasceu."
+    }
+  }
+}

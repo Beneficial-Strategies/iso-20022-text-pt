@@ -1,0 +1,12 @@
+{
+  "isoType": "CentralCounterPartyEligibility5Choice",
+  "definition": "Escolha do formato da informação sobre elegibilidade para CCP.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica se a operação de liquidação é elegível para CCP (contraparte central)."
+    },
+    "Proprietary": {
+      "definition": "Informação sobre elegibilidade para contraparte central expressa como um código proprietário."
+    }
+  }
+}

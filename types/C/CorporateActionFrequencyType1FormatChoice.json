@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionFrequencyType1FormatChoice",
+  "definition": "Escolha de formatos para exprimir a periodicidade de um evento de CA.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar a periodicidade de um evento de CA."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir a periodicidade de um evento de CA."
+    }
+  }
+}

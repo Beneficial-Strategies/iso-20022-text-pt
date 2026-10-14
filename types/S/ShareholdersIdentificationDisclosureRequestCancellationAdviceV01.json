@@ -1,0 +1,9 @@
+{
+  "isoType": "ShareholdersIdentificationDisclosureRequestCancellationAdviceV01",
+  "definition": "A mensagem ShareholdersIdentificationDisclosureCancellationAdvice é enviada por um emitente ou por um terceiro nomeado pelo emitente (como um agente do emitente) aos primeiros intermediários de uma cadeia de custódia, ou por qualquer intermediário de uma cadeia de custódia ao intermediário seguinte da cadeia (no sentido do investidor), a fim de retirar/cancelar o pedido de divulgação da identidade dos acionistas enviado anteriormente.",
+  "isoElements": {
+    "CancellationReason": {
+      "definition": "Fornece o motivo do cancelamento do pedido de divulgação da identificação de acionistas."
+    }
+  }
+}

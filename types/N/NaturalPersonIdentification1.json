@@ -1,0 +1,12 @@
+{
+  "isoType": "NaturalPersonIdentification1",
+  "definition": "Número de identificação e tipo de identificação de uma pessoa singular.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação local da pessoa singular."
+    },
+    "IdentificationType": {
+      "definition": "Tipo de identificação local de uma pessoa singular."
+    }
+  }
+}

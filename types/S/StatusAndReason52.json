@@ -1,0 +1,32 @@
+{
+  "isoType": "StatusAndReason52",
+  "definition": "Escolha de estado.",
+  "isoElements": {
+    "InferredMatchingStatus": {
+      "definition": "Fornece o estado de correspondência de uma instrução conforme conhecido pela entidade gestora da conta com base numa alegação. Nesta altura não houve correspondência no mercado (na CSD/ICSD)."
+    },
+    "MatchingStatus": {
+      "definition": "Fornece o estado de correspondência da instrução."
+    },
+    "SettlementStatus": {
+      "definition": "Fornece o estado da liquidação de uma operação."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Indica o estado de uma instrução."
+    },
+    "Settled": {
+      "definition": "Especifica o estado ou a condição."
+    },
+    "Proprietary": {
+      "definition": "Estado proprietário."
+    }
+  },
+  "isoRules": {
+    "PendingToFailingRule": {
+      "definition": "Uma operação pendente (PEND) passa a operação em incumprimento (PENF) na data de liquidação instruída na mensagem, durante a elaboração do relatório de fim de dia."
+    },
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Se SettlementStatus/Reason for utilizado isoladamente, significa que a operação está emparelhada (se existir um processo de emparelhamento no mercado em causa ou no prestador de serviços de conta em causa)."
+    }
+  }
+}

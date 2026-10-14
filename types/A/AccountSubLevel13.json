@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountSubLevel13",
+  "definition": "Conta e posição do subnível seguinte (Nível 3).",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da subconta entre o titular da conta e o prestador de serviços da conta."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é o titular legal da subconta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gere a conta de subnível em nome do titular da conta, isto é, gere o registo e a contabilização dos lançamentos na conta, calcula os saldos da conta e fornece informações sobre a conta."
+    },
+    "BeneficialOwner": {
+      "definition": "Pessoa ou entidade que tem, em última instância, direito aos benefícios e direitos de um instrumento financeiro, por oposição a um titular nominal ou legal."
+    },
+    "BalanceDetails": {
+      "definition": "Relatório sobre a posição líquida de um instrumento financeiro na subconta (subconta de nível 3), para uma determinada data. Pode também ser especificado o agente, por exemplo, um intermediário da negociação."
+    },
+    "AccountSubLevel4": {
+      "definition": "Posições do nível 4."
+    },
+    "AccountSubLevel4Difference": {
+      "definition": "Diferença de posições entre a subconta de nível 3 e as subcontas de nível 4."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  }
+}

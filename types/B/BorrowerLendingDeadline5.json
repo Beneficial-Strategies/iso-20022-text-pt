@@ -1,0 +1,12 @@
+{
+  "isoType": "BorrowerLendingDeadline5",
+  "definition": "Prazo de empréstimo de valores mobiliários atribuído a um mutuário dos valores.",
+  "isoElements": {
+    "StockLendingDeadline": {
+      "definition": "Data/hora fixada como prazo para responder, com instruções, a um evento pendente para o qual o valor mobiliário subjacente se encontra emprestado."
+    },
+    "Borrower": {
+      "definition": "Parte que tomou valores mobiliários de empréstimo."
+    }
+  }
+}

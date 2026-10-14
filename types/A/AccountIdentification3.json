@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountIdentification3",
+  "definition": "Identificação da conta expressa com um esquema da fonte de dados.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "Issuer": {
+      "definition": "Entidade que atribui a informação."
+    },
+    "Information": {
+      "definition": "Informação proprietária, frequentemente um código, emitida pelo emitente do esquema da fonte de dados."
+    }
+  }
+}

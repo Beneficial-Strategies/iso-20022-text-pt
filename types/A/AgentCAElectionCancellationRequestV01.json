@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAElectionCancellationRequestV01",
+  "definition": "Âmbito|Esta mensagem é enviada por uma CSD ao emitente (ou ao seu agente) para solicitar o cancelamento de uma mensagem Agent Corporate Action Election Advice enviada anteriormente.|Utilização|Esta mensagem só pode ser utilizada para cancelar na íntegra uma mensagem Agent Corporate Action Election Advice enviada anteriormente pela CSD. Não é permitido o cancelamento parcial.|Esta mensagem tem de conter a identificação do Agent Corporate Action Election Advice a cancelar, a identificação do agente e as referências da operação sobre títulos. Esta mensagem pode também conter detalhes do aviso de escolha a cancelar, mas tal não é recomendado."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationReason4",
+  "definition": "Motivos de modificação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a operação é modificada."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser fornecidas num campo estruturado."
+    }
+  }
+}

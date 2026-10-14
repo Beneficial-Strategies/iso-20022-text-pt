@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementMethod2Code",
+  "definition": "Especifica o método utilizado para liquidar a instrução de transferência.",
+  "isoCodes": {
+    "INDA": {
+      "name": "Instituição instruída",
+      "definition": "A liquidação é feita pelo agente instruído para executar uma instrução de pagamento."
+    },
+    "INGA": {
+      "name": "Instituição instrutora",
+      "definition": "A liquidação é feita pelo agente instrutor, que reencaminha o pagamento para a parte seguinte da cadeia de pagamento."
+    },
+    "CLRG": {
+      "name": "Sistema de compensação",
+      "definition": "A liquidação é feita através de um sistema de compensação de pagamentos."
+    }
+  }
+}

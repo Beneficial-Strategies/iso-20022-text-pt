@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDeactivationCancellationRejectionStatus1",
+  "definition": "Fornece o motivo da rejeição de um pedido de cancelamento de desativação.",
+  "isoElements": {
+    "Reason": {
+      "definition": "O motivo da rejeição."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o estado."
+    }
+  }
+}

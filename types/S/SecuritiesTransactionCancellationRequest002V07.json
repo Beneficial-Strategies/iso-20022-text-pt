@@ -1,0 +1,32 @@
+{
+  "isoType": "SecuritiesTransactionCancellationRequest002V07",
+  "definition": "Âmbito|Um titular de conta envia um SecuritiesTransactionCancellationRequest a um prestador de serviços de conta para solicitar o cancelamento de uma operação sobre valores mobiliários.|A relação titular da conta/prestador de serviços pode ser:|- um custodiante global que tem uma conta junto de um custodiante local, ou|- uma instituição de gestão de investimentos que gere uma conta de fundo aberta junto de um custodiante, ou - um corretor que tem uma conta junto de um custodiante, ou|- um participante de uma central de depósito de valores mobiliários que tem uma conta junto de uma central de depósito de valores mobiliários, ou|- uma central de depósito de valores mobiliários que tem uma conta junto de um custodiante, de outra central de depósito de valores mobiliários ou de outra infraestrutura de mercado de liquidação, ou|- uma contraparte central ou uma bolsa de valores ou um serviço de correspondência de operações que necessita de dar instruções a uma central de depósito de valores mobiliários ou a outra infraestrutura de mercado de liquidação.||Utilização|A operação pode ser:|- uma operação de liquidação de valores mobiliários|- um movimento intraposição|- uma operação de financiamento sobre valores mobiliários|A instrução não pode ser:|- uma alteração das condições de liquidação de valores mobiliários (deve ser enviado outro comando de processamento de operações para reverter uma alteração de processamento solicitada anteriormente).|- uma alteração de financiamento sobre valores mobiliários|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente,|- fornecer a um terceiro uma cópia de uma mensagem a título informativo,|- reenviar a um terceiro uma cópia de uma mensagem a título informativo, utilizando os elementos relevantes do Business Application Header.",
+  "isoElements": {
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pela instituição gestora da conta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Referência da mensagem que identifica o processador da operação."
+    }
+  },
+  "isoRules": {
+    "TransactionIdentificationPresence2Rule": {
+      "definition": "Se AccountOwnerTransactionIdentification for NONREF, então pelo menos uma das outras referências tem de estar presente."
+    },
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Se não estiver disponível nenhuma referência para AccountOwnerTransactionIdentification, então AccountOwnerTransactionIdentification tem de ser NONREF."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    }
+  }
+}

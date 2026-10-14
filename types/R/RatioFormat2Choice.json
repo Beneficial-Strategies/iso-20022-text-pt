@@ -1,0 +1,21 @@
+{
+  "isoType": "RatioFormat2Choice",
+  "definition": "Escolha de formato para expressar uma razão.",
+  "isoElements": {
+    "QuantityToQuantity": {
+      "definition": "A razão é expressa como uma quantidade por outra quantidade."
+    },
+    "AmountToAmount": {
+      "definition": "A razão é expressa como um montante por outro montante."
+    },
+    "AmountToQuantity": {
+      "definition": "A razão é expressa como um montante por quantidade."
+    },
+    "QuantityToAmount": {
+      "definition": "A razão é expressa como uma quantidade por um montante."
+    },
+    "NotSpecifiedRate": {
+      "definition": "O valor da razão não está especificado."
+    }
+  }
+}

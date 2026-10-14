@@ -1,0 +1,22 @@
+{
+  "isoType": "SettlingCapacity2Code",
+  "definition": "Especifica o papel da parte na liquidação da operação.",
+  "isoCodes": {
+    "SAGE": {
+      "name": "Agente liquidador",
+      "definition": "A parte de liquidação negoceia e liquida operações sobre instrumentos financeiros em nome do(s) seu(s) cliente(s)."
+    },
+    "CUST": {
+      "name": "Depositário liquidador",
+      "definition": "A parte de liquidação é um custodiante. Recebe/entrega os valores mobiliários e exerce as funções de custódia."
+    },
+    "SPRI": {
+      "name": "Principal liquidador",
+      "definition": "A parte de liquidação liquida as suas próprias transações."
+    },
+    "RISP": {
+      "name": "Principal liquidador sem risco",
+      "definition": "A parte liquida transações que foram compensadas em simultâneo."
+    }
+  }
+}

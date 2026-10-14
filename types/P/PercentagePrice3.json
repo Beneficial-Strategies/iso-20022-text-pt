@@ -1,0 +1,12 @@
+{
+  "isoType": "PercentagePrice3",
+  "definition": "Preço expresso como preço percentual.",
+  "isoElements": {
+    "PercentagePriceType": {
+      "definition": "Especifica o tipo de preço percentual."
+    },
+    "PriceValue": {
+      "definition": "Especifica o valor do preço."
+    }
+  }
+}

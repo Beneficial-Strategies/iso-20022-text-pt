@@ -1,0 +1,12 @@
+{
+  "isoType": "BlockTrade5Choice",
+  "definition": "Escolha do formato da informação sobre a operação em bloco.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informação sobre bloco principal ou subordinado expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Informação sobre bloco principal ou subordinado expressa como um código proprietário."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "DeniedReason3Code",
+  "definition": "Especifica o motivo da recusa.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Recebida após o prazo limite da instituição gestora da conta."
+    },
+    "DCAL": {
+      "name": "Pedido recusado por já ter sido aplicado",
+      "definition": "O pedido de resgate de recompra foi recusado, uma vez que já se aplica outro resgate."
+    },
+    "DFOR": {
+      "name": "Recusado por não ser permitido",
+      "definition": "O pedido de resgate de recompra foi recusado. Resgate não permitido na recompra em causa, por exemplo, fora de prazo."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    }
+  }
+}

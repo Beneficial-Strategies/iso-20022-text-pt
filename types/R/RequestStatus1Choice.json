@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestStatus1Choice",
+  "definition": "Especifica o estado de um pedido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado do pedido, conforme publicado num conjunto de códigos externo de estados de pedido."
+    },
+    "Proprietary": {
+      "definition": "Estado do pedido, sob forma proprietária."
+    }
+  }
+}

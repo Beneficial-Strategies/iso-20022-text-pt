@@ -1,0 +1,12 @@
+{
+  "isoType": "DeemedRateType1Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar um tipo de taxa presumida.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de taxa presumida."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de taxa presumida."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "PartyIdentification342",
+  "definition": "Identificação de uma parte.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nome e morada da parte."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta."
+    },
+    "EmailAddress": {
+      "definition": "Endereço de correio eletrónico (e-mail)."
+    },
+    "Identification": {
+      "definition": "Identificação local e tipo da pessoa singular."
+    },
+    "Nationality": {
+      "definition": "Nacionalidade da pessoa."
+    },
+    "DateAndPlaceOfBirth": {
+      "definition": "Data e local em que uma pessoa nasceu."
+    },
+    "CompanyRegisterShareholderIdentification": {
+      "definition": "Identificação do acionista no registo de ações da sociedade."
+    }
+  }
+}

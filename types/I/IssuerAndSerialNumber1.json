@@ -1,0 +1,12 @@
+{
+  "isoType": "IssuerAndSerialNumber1",
+  "definition": "Nome do emitente do certificado e número de série (ver X.509).",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Nome do emitente do certificado (ver X.509)."
+    },
+    "SerialNumber": {
+      "definition": "Número de série do certificado (ver X.509)."
+    }
+  }
+}

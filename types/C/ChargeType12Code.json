@@ -1,0 +1,38 @@
+{
+  "isoType": "ChargeType12Code",
+  "definition": "Tipo de serviço pelo qual é solicitado ou pago um encargo.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Comissão de saída",
+      "definition": "Comissão de venda paga pelo investidor ao resgatar um investimento, como um fundo de investimento."
+    },
+    "DISC": {
+      "name": "Desconto",
+      "definition": "Encargo que foi reduzido em relação ao encargo inicial normal cobrado por um fundo, por exemplo, durante um período de lançamento ou conforme negociado por um supermercado de fundos / corretor de desconto."
+    },
+    "FEND": {
+      "name": "Comissão de entrada",
+      "definition": "Comissão de venda paga imediatamente pelo investidor ao subscrever um investimento, como um fundo de investimento."
+    },
+    "POST": {
+      "name": "Despesas de correio",
+      "definition": "Encargo pelo porte do correio."
+    },
+    "REGF": {
+      "name": "Taxa regulamentar",
+      "definition": "Taxa cobrada por uma autoridade reguladora, por exemplo, taxas da Securities and Exchange."
+    },
+    "SHIP": {
+      "name": "Despesas de envio",
+      "definition": "Encargo de expedição, incluindo o seguro dos valores mobiliários."
+    },
+    "SPCN": {
+      "name": "Condições especiais",
+      "definition": "Encargos, levantamentos ou outras reduções ou acréscimos ao preço da operação."
+    },
+    "TRAN": {
+      "name": "Comissão de transferência",
+      "definition": "Em fundos de investimento, taxa cobrada pela transferência de titularidade de um fundo de investimento."
+    }
+  }
+}

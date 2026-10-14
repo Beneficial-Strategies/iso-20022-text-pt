@@ -1,0 +1,21 @@
+{
+  "isoType": "CashWithdrawal1",
+  "definition": "Levantamento de um montante em dinheiro definido em notas e/ou moedas.",
+  "isoElements": {
+    "AmendmentIndicator": {
+      "definition": "Indica se as denominações do pedido original de levantamento de numerário foram alteradas.||Utilização: quando este elemento não é utilizado, as denominações correspondem às do pedido original de levantamento de numerário ou o pedido original não incluía denominações."
+    },
+    "NoteDetails": {
+      "definition": "Especifica os detalhes do levantamento solicitado em notas."
+    },
+    "CoinDetails": {
+      "definition": "Especifica os detalhes do levantamento solicitado em moedas."
+    },
+    "TotalAmount": {
+      "definition": "Montante total de todas as notas e moedas a levantar."
+    },
+    "DiscrepancyIdentification": {
+      "definition": "Identificação única de qualquer discrepância."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyAndSignature3",
+  "definition": "Entidade envolvida numa atividade.",
+  "isoElements": {
+    "Party": {
+      "definition": "Entidade envolvida numa atividade."
+    },
+    "Signature": {
+      "definition": "Assinatura de uma parte."
+    }
+  }
+}

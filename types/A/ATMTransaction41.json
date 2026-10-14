@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMTransaction41",
+  "definition": "Aviso de receção do aviso de exceção.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo ATM."
+    },
+    "Response": {
+      "definition": "Resposta ao aviso."
+    },
+    "Command": {
+      "definition": "Comando de manutenção a executar no ATM."
+    }
+  }
+}

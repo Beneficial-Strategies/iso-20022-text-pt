@@ -1,0 +1,15 @@
+{
+  "isoType": "DisplayCapabilities1",
+  "definition": "Capacidades dos componentes de visualização que realizam a operação.",
+  "isoElements": {
+    "DisplayType": {
+      "definition": "Tipo de ecrã (por exemplo, do comerciante ou do titular do cartão)."
+    },
+    "NumberOfLines": {
+      "definition": "Número de linhas do componente de visualização."
+    },
+    "LineWidth": {
+      "definition": "Número de colunas do componente de visualização."
+    }
+  }
+}

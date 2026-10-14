@@ -1,0 +1,21 @@
+{
+  "isoType": "FundConfirmedCashForecastReportV04",
+  "definition": "Âmbito|Um prestador de relatórios, como um agente de transferências, envia a mensagem FundConfirmedCashForecastReport ao utilizador do relatório, como um gestor de investimentos ou agente de avaliação, para comunicar as entradas e saídas de caixa confirmadas de uma ou mais classes de ações de um fundo de investimento em uma ou mais datas de negociação.|Os movimentos de caixa podem resultar, por exemplo, de resgates, subscrições, operações de conversão ou reinvestimento de dividendos.|Utilização|A FundConfirmedCashForecastReport é utilizada para comunicar movimentos de caixa definitivos, isto é, é enviada após a hora-limite e/ou a avaliação do preço do fundo.|Esta mensagem contém fluxos de caixa de entrada e de saída confirmados, isto é, o preço já foi aplicado. Se o preço ainda não for definitivo, deve ser utilizada a mensagem FundEstimatedCashForecastReport.|A estrutura da mensagem permite as seguintes utilizações:|- indicar os montantes de entrada e saída de caixa de um fundo/subfundo (é utilizada uma sequência FundOrSubFundDetails),|- indicar os montantes de entrada e saída de caixa de um fundo/subfundo e de uma ou mais classes de ações (são utilizadas uma sequência FundOrSubFundDetails e uma ou mais sequências FundCashForecastDetails),|- indicar os montantes de entrada e saída de caixa de uma ou mais classes de ações (são utilizadas uma ou mais sequências FundCashForecastDetails).|- indicar os montantes de entrada e saída de caixa de mais de um fundo/subfundo e de mais de uma classe de ações (são utilizadas duas ou mais sequências FundOrSubFundDetails e duas ou mais sequências FundCashForecastDetails); note-se, contudo, que nesta utilização não é possível determinar, a partir do conteúdo da própria mensagem, a que fundo/subfundo pertence cada classe de ações, o que pode não ser desejável, pelo que a utilização deste tipo de combinação deve ser acordada bilateralmente.|Esta mensagem permite ao prestador de relatórios comunicar movimentos de caixa de entrada ou saída de um fundo, mas não permite ao remetente classificar esses movimentos, por exemplo por país, nem fornecer pormenores das ordens, comissões ou encargos subjacentes.|Se o prestador de relatórios pretender fornecer informações detalhadas sobre os movimentos de caixa, deve ser utilizada a mensagem FundDetailedConfirmedCashForecastReport.",
+  "isoRules": {
+    "PreviousTradeDateRule": {
+      "definition": "Se estiver presente qualquer ocorrência de FundCashForecastDetails, então não é permitida nenhuma ocorrência de FundOrSubFundDetails/PreviousTradeDateTime."
+    },
+    "TradeDate1Rule": {
+      "definition": "Se estiver presente qualquer ocorrência de FundCashForecastDetails, então não é permitida nenhuma ocorrência de FundOrSubFundDetails/TradeDateTime."
+    },
+    "TradeDate2Rule": {
+      "definition": "Se FundCashForecastDetails não estiver presente, então deve estar presente pelo menos uma ocorrência de FundOrSubFundDetails/TradeDateTime."
+    },
+    "ConsolidatedNetCashRule": {
+      "definition": "Se ConsolidatedNetCashForecast estiver presente, então deve estar presente pelo menos uma ocorrência de FundOrSubFundDetails ou de FundCashForecastDetails. Ambos, FundOrSubFundDetails e FundCashForecastDetails, podem estar presentes."
+    },
+    "FundOrSubFundAndShareClassGuideline": {
+      "definition": "Quando a mensagem é utilizada para indicar os montantes de entrada e saída de caixa de mais de um fundo/subfundo e de mais de uma classe de ações (são utilizadas duas ou mais sequências FundOrSubFundDetails e duas ou mais sequências FundCashForecastDetails), não é possível determinar, a partir do conteúdo da própria mensagem, a que fundo/subfundo pertence cada classe de ações, o que pode não ser desejável, pelo que este tipo de utilização deve ser acordado bilateralmente."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "Charges16",
+  "definition": "Fornece informações sobre os encargos relacionados com a operação de pagamento.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Encargos da operação a pagar pelo responsável pelos encargos."
+    },
+    "Agent": {
+      "definition": "Agente que recebe os encargos da operação ou a quem os encargos da operação são devidos."
+    },
+    "Type": {
+      "definition": "Define o tipo de encargos."
+    }
+  }
+}

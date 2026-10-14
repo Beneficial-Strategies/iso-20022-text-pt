@@ -1,0 +1,24 @@
+{
+  "isoType": "BillingServiceIdentification3",
+  "definition": "Identificação do serviço a faturar.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Código interno de identificação do serviço da própria instituição financeira, diferente do código comum.|Utilização: o código próprio da instituição financeira é utilizado para identificar de forma única o serviço dentro da instituição financeira."
+    },
+    "SubService": {
+      "definition": "Define a identificação do subserviço da instituição financeira se o código de identificação do serviço da instituição financeira for utilizado para mais de um serviço."
+    },
+    "Description": {
+      "definition": "Especifica detalhes adicionais para descrever a descrição do serviço da instituição financeira, que não é a descrição normalizada associada ao código comum."
+    },
+    "CommonCode": {
+      "definition": "Código de referência normalizado utilizado para identificar de forma única este serviço entre instituições financeiras. Não é a identificação interna do serviço bancário da instituição financeira."
+    },
+    "BankTransactionCode": {
+      "definition": "Identificação completa do tipo de operação subjacente que dá origem à faturação de um serviço."
+    },
+    "ServiceType": {
+      "definition": "Tipo utilizado para classificar ou organizar diferentes serviços por características comuns."
+    }
+  }
+}

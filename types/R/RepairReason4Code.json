@@ -1,0 +1,122 @@
+{
+  "isoType": "RepairReason4Code",
+  "definition": "Especifica o motivo pelo qual a instrução de liquidação tem o estado de reparação.",
+  "isoCodes": {
+    "BATC": {
+      "name": "Lote de processamento",
+      "definition": "Lote de processamento não reconhecido ou inválido, isto é, diurno/tempo real quando só é possível liquidar em lote noturno."
+    },
+    "CAEV": {
+      "name": "Operação sobre títulos",
+      "definition": "Evento societário pendente sobre o instrumento financeiro instruído."
+    },
+    "CASH": {
+      "name": "Conta de numerário",
+      "definition": "Conta de numerário não reconhecida ou inválida."
+    },
+    "CASY": {
+      "name": "Sistema de liquidação de numerário impossível",
+      "definition": "Disposições permanentes impossíveis prevalecem sobre a instrução para o sistema de liquidação em numerário."
+    },
+    "DDAT": {
+      "name": "Data de liquidação",
+      "definition": "Data de liquidação não reconhecida ou inválida."
+    },
+    "DDEA": {
+      "name": "Preço do negócio",
+      "definition": "Preço da transação não reconhecido ou inválido."
+    },
+    "DMON": {
+      "name": "Montante de liquidação",
+      "definition": "Montante de liquidação não reconhecido ou inválido."
+    },
+    "DQUA": {
+      "name": "Quantidade",
+      "definition": "Quantidade de liquidação não reconhecida ou inválida."
+    },
+    "DSEC": {
+      "name": "Valor mobiliário",
+      "definition": "Identificação do instrumento financeiro não reconhecida ou inválida."
+    },
+    "DTRD": {
+      "name": "Data de negociação",
+      "definition": "Data da negociação não reconhecida ou inválida."
+    },
+    "IIND": {
+      "name": "Referência comum",
+      "definition": "Referência comum não reconhecida, inválida ou em falta."
+    },
+    "MINO": {
+      "name": "Quantidade mínima de liquidação",
+      "definition": "A quantidade instruída é inferior à quantidade mínima de liquidação existente para o instrumento financeiro."
+    },
+    "MUNO": {
+      "name": "Múltiplo da quantidade de liquidação",
+      "definition": "A quantidade instruída não é múltipla de um lote de quantidade de liquidação existente para o instrumento financeiro."
+    },
+    "NCRR": {
+      "name": "Moeda do montante de liquidação",
+      "definition": "Moeda do montante de liquidação não reconhecida ou inválida."
+    },
+    "PHYS": {
+      "name": "Liquidação física impossível",
+      "definition": "A liquidação física é impossível para o instrumento financeiro instruído."
+    },
+    "PLCE": {
+      "name": "Local de negociação",
+      "definition": "Local de negociação não reconhecido ou inválido."
+    },
+    "REFE": {
+      "name": "Referência",
+      "definition": "A instrução tem uma referência idêntica à de outra instrução recebida anteriormente."
+    },
+    "RTGS": {
+      "name": "Impossível utilizar o sistema RTGS indicado",
+      "definition": "É impossível utilizar o sistema RTGS instruído (NRTG ou YRTG)."
+    },
+    "SAFE": {
+      "name": "Conta de guarda",
+      "definition": "Conta de custódia do remetente da mensagem não reconhecida ou inválida."
+    },
+    "SETR": {
+      "name": "Operação de liquidação",
+      "definition": "Tipo de operação de liquidação não reconhecido ou inválido."
+    },
+    "SETS": {
+      "name": "Método do sistema de liquidação",
+      "definition": "Sistema/método de liquidação instruído não reconhecido ou inválido."
+    },
+    "TXST": {
+      "name": "Estado fiscal",
+      "definition": "Regime fiscal dos valores mobiliários instruídos não reconhecido ou inválido."
+    },
+    "INPS": {
+      "name": "Local de guarda",
+      "definition": "Local de custódia não reconhecido, inválido ou em falta."
+    },
+    "SDUT": {
+      "name": "Imposto do selo",
+      "definition": "Faltam as informações exigidas sobre o imposto do selo."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "IEXE": {
+      "name": "Parte recetora ou entregadora 3",
+      "definition": "Divergência do cliente da parte 2 que entrega ou recebe."
+    },
+    "ICAG": {
+      "name": "Parte recetora ou entregadora 1",
+      "definition": "Divergência do participante do depositário que entrega ou recebe."
+    },
+    "DEPT": {
+      "name": "Depositário recetor ou entregador",
+      "definition": "Divergência do depositário."
+    },
+    "ICUS": {
+      "name": "Parte recetora ou entregadora 2",
+      "definition": "Divergência do cliente da parte 1 que entrega ou recebe."
+    }
+  }
+}

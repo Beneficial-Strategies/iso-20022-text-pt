@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionInterest4",
+  "definition": "Fornece mais pormenores sobre as informações de juros específicas da operação que se aplicam à operação subjacente.",
+  "isoElements": {
+    "TotalInterestAndTaxAmount": {
+      "definition": "Montante total de juros e impostos incluído no montante do lançamento."
+    },
+    "Record": {
+      "definition": "Registo individual de juros."
+    }
+  }
+}

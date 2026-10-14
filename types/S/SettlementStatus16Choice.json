@@ -1,0 +1,20 @@
+{
+  "isoType": "SettlementStatus16Choice",
+  "definition": "Escolha do formato do estado de liquidação.",
+  "isoElements": {
+    "Pending": {
+      "definition": "A instrução está pendente. A liquidação na data de liquidação instruída ainda é possível."
+    },
+    "Failing": {
+      "definition": "A instrução está em incumprimento. A liquidação na data de liquidação instruída já não é possível."
+    },
+    "Proprietary": {
+      "definition": "Estado proprietário."
+    }
+  },
+  "isoRules": {
+    "PendingToFailingRule": {
+      "definition": "Uma operação pendente (PEND) passa a operação em incumprimento (PENF) na data de liquidação instruída na mensagem, durante a elaboração do relatório de fim de dia."
+    }
+  }
+}

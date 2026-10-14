@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventAndBalance27",
+  "definition": "Relatório pormenorizado das posições de conta relativo a um evento de operação sobre ativos.",
+  "isoElements": {
+    "GeneralInformation": {
+      "definition": "Fornece informações gerais relativas a um evento de operação sobre ativos."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Valor mobiliário abrangido pela operação sobre valores mobiliários."
+    },
+    "Balance": {
+      "definition": "Fornece informações sobre o saldo relativo a uma operação sobre ativos."
+    },
+    "SupplementaryData": {
+      "definition": "Fornece informações adicionais relativas ao evento e ao saldo da operação sobre ativos."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventProcessingStatus3Choice",
+  "definition": "Escolha do estado de processamento de operação sobre títulos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado de uma operação sobre títulos ou estado de um pagamento expresso como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Estado de uma operação sobre títulos ou estado de um pagamento expresso como código proprietário."
+    }
+  }
+}

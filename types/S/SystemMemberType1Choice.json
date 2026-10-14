@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemMemberType1Choice",
+  "definition": "Especifica a natureza da relação que um membro tem com um sistema.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de membro do sistema, em formato codificado."
+    },
+    "Proprietary": {
+      "definition": "Tipo de membro do sistema, em formato proprietário."
+    }
+  }
+}

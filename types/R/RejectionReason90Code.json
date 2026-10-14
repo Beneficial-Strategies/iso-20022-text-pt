@@ -1,0 +1,78 @@
+{
+  "isoType": "RejectionReason90Code",
+  "definition": "Especifica o motivo pelo qual a instrução/pedido de cancelamento tem o estado rejeitado.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "INIR": {
+      "name": "Instrução irrevogável",
+      "definition": "A instrução é irrevogável."
+    },
+    "ULNK": {
+      "name": "Referência inválida",
+      "definition": "A referência associada é desconhecida."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "DCAN": {
+      "name": "Rejeitado por já ter sido cancelado",
+      "definition": "O pedido de cancelamento foi rejeitado, uma vez que a instrução já foi cancelada."
+    },
+    "DPRG": {
+      "name": "Rejeitado por estar em curso",
+      "definition": "O pedido de cancelamento foi rejeitado porque o processo da instrução está em curso ou já foi processado."
+    },
+    "REJA": {
+      "name": "Rejeitado pelo agente do emitente",
+      "definition": "Instrução rejeitada pelo agente do emitente."
+    },
+    "CTCT": {
+      "name": "Contacto em falta",
+      "definition": "As informações de contacto estão em falta."
+    },
+    "DQUA": {
+      "name": "Rejeição da quantidade",
+      "definition": "Quantidade instruída não reconhecida ou inválida."
+    },
+    "PROT": {
+      "name": "Data de proteção em falta",
+      "definition": "A data de proteção é obrigatória para instruções de cobertura de proteção."
+    },
+    "SAFE": {
+      "name": "Rejeição da conta de guarda",
+      "definition": "Conta de custódia do remetente da mensagem não reconhecida ou inválida."
+    },
+    "PROI": {
+      "name": "Identificação de proteção em falta",
+      "definition": "A identificação da proteção é obrigatória para instruções de cobertura de proteção."
+    },
+    "TRTI": {
+      "name": "Tipo de operação em falta",
+      "definition": "O tipo de operação está em falta ou é inválido para instruções de proteção ou de cobertura de proteção."
+    },
+    "DUPL": {
+      "name": "Instrução duplicada",
+      "definition": "A instrução é rejeitada devido a identificador de mensagem de negócio duplicado."
+    },
+    "ECMD": {
+      "name": "Prazo de mercado da eleição para a contraparte não cumprido",
+      "definition": "Recebida após o prazo de mercado da escolha junto da contraparte."
+    },
+    "ECRD": {
+      "name": "Prazo de resposta da eleição para a contraparte não cumprido",
+      "definition": "Recebida após o prazo de mercado de resposta à escolha junto da contraparte."
+    },
+    "DSEC": {
+      "name": "Valor mobiliário inválido",
+      "definition": "Identificação do instrumento financeiro não reconhecida ou inválida."
+    }
+  }
+}

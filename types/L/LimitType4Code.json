@@ -1,0 +1,18 @@
+{
+  "isoType": "LimitType4Code",
+  "definition": "Especifica o tipo de limite de gestão de risco.",
+  "isoCodes": {
+    "EXGT": {
+      "name": "Garantia externa",
+      "definition": "O limite está relacionado com um montante máximo concedido por um banco central nacional ou por um banco de liquidação."
+    },
+    "UCDT": {
+      "name": "Crédito não garantido",
+      "definition": "O limite está relacionado com um montante máximo concedido por um banco central nacional ou por um banco de liquidação, mas geralmente sem garantia fora da infraestrutura de mercado."
+    },
+    "ACOL": {
+      "name": "Colateralização automática",
+      "definition": "O limite está relacionado com uma operação de crédito que é ou pode ser acionada quando um comprador não dispõe de montante suficiente para liquidar uma operação sobre valores mobiliários, a fim de melhorar a sua posição de caixa para o ciclo de liquidação seguinte. O crédito concedido pode ser garantido por valores mobiliários já detidos pelo comprador («stocks de garantia») ou pelos valores mobiliários que estão a ser adquiridos («fluxos de garantia»)."
+    }
+  }
+}

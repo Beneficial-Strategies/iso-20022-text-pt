@@ -1,0 +1,34 @@
+{
+  "isoType": "PendingOpeningStatusReason1Code",
+  "definition": "Especifica o motivo de um estado de abertura de conta pendente.",
+  "isoCodes": {
+    "ATHR": {
+      "name": "Autorização",
+      "definition": "É necessária autorização."
+    },
+    "ATHP": {
+      "name": "Autorizado mas pendente",
+      "definition": "A autorização foi concedida, mas a abertura da conta continua pendente."
+    },
+    "FRDM": {
+      "name": "Data de declaração FATCA em falta",
+      "definition": "Falta a data de reporte FATCA."
+    },
+    "KYCM": {
+      "name": "Documento de conhecimento do cliente em falta",
+      "definition": "Falta o documento de conhecimento do cliente (KYC)."
+    },
+    "NOTO": {
+      "name": "Não aberta",
+      "definition": "A conta ainda não está aberta, nem mesmo para utilização parcial."
+    },
+    "REST": {
+      "name": "Restrições",
+      "definition": "A conta será aberta quando as restrições forem resolvidas."
+    },
+    "RIGH": {
+      "name": "Titular de direitos em falta",
+      "definition": "Faltam as informações do titular de direitos."
+    }
+  }
+}

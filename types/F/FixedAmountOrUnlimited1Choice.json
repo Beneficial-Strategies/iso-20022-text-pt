@@ -1,0 +1,12 @@
+{
+  "isoType": "FixedAmountOrUnlimited1Choice",
+  "definition": "Escolha entre um montante fixo e um montante ilimitado.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante fixo."
+    },
+    "NotLimited": {
+      "definition": "Montante ilimitado."
+    }
+  }
+}

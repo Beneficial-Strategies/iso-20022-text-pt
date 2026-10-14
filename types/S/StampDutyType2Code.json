@@ -1,0 +1,14 @@
+{
+  "isoType": "StampDutyType2Code",
+  "definition": "Especifica se o imposto do selo é aplicável.",
+  "isoCodes": {
+    "ASTD": {
+      "name": "Aplicável",
+      "definition": "É aplicável imposto do selo."
+    },
+    "SDRN": {
+      "name": "Não aplicável",
+      "definition": "Imposto do selo não aplicável."
+    }
+  }
+}

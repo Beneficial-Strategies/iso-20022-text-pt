@@ -1,0 +1,90 @@
+{
+  "isoType": "SecuritiesBalanceType1Code",
+  "definition": "Especifica a natureza do saldo de valores mobiliários ou de fundos de investimento.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqueado",
+      "definition": "Saldo de valores mobiliários bloqueados ou congelados. Um instrumento financeiro pode estar indisponível devido a circunstâncias externas, como uma decisão judicial, o falecimento do beneficiário ou do titular da conta, ou a falência."
+    },
+    "BORR": {
+      "name": "Tomado de empréstimo",
+      "definition": "Saldo de valores mobiliários que foram tomados de empréstimo a outra parte."
+    },
+    "COLI": {
+      "name": "Garantia recebida",
+      "definition": "Saldo de valores mobiliários pertencentes a um terceiro e detidos para efeitos de colateralização."
+    },
+    "COLO": {
+      "name": "Garantia entregue",
+      "definition": "Saldo de valores mobiliários pertencentes à conta de custódia indicada nesta mensagem e depositados junto de um terceiro para efeitos de colateralização."
+    },
+    "LOAN": {
+      "name": "Emprestado",
+      "definition": "Saldo de valores mobiliários que foram cedidos por empréstimo a um terceiro."
+    },
+    "MARG": {
+      "name": "Margem de derivados",
+      "definition": "Saldo de valores mobiliários utilizados como garantia de derivados."
+    },
+    "PDMT": {
+      "name": "Saldo de entrega pendente correspondido",
+      "definition": "Saldo de valores mobiliários pendentes de entrega que foram objeto de correspondência. Só é aplicável na comunicação entre CSD e participantes."
+    },
+    "PRMT": {
+      "name": "Saldo de receção pendente correspondido",
+      "definition": "Saldo de valores mobiliários pendentes de receção que foram objeto de correspondência. Só é aplicável na comunicação entre CSD e participantes."
+    },
+    "PRUM": {
+      "name": "Saldo de receção pendente não correspondido",
+      "definition": "Saldo de valores mobiliários pendentes de receção que não foram objeto de correspondência. Só é aplicável na comunicação entre CSD e participantes."
+    },
+    "PECA": {
+      "name": "Ação societária pendente",
+      "definition": "Saldo de valores mobiliários, antes da data ex, envolvidos numa operação sobre títulos (CA). Os valores mobiliários bloqueados devido a uma CA, por exemplo, procuração (proxi) ou caução (escrow), devem ser identificados no subsaldo BLOK."
+    },
+    "PEND": {
+      "name": "Entrega pendente",
+      "definition": "Saldo de valores mobiliários pendentes de entrega."
+    },
+    "PENR": {
+      "name": "Receção pendente",
+      "definition": "Saldo de valores mobiliários pendentes de receção."
+    },
+    "PLED": {
+      "name": "Empenhado",
+      "definition": "Saldo de valores mobiliários penhorados, por exemplo, um instrumento financeiro que está indisponível por ter sido utilizado ou dado como garantia."
+    },
+    "PDUM": {
+      "name": "Saldo de entrega pendente não correspondido",
+      "definition": "Saldo de valores mobiliários pendentes de entrega que não foram objeto de correspondência. Só é aplicável na comunicação entre CSD e participantes."
+    },
+    "REGO": {
+      "name": "Em registo",
+      "definition": "Saldo de valores mobiliários atualmente em tratamento pela instituição responsável pelo registo do novo beneficiário efetivo (ou mandatário) dos valores mobiliários após a liquidação de uma operação."
+    },
+    "RSTR": {
+      "name": "Restrito",
+      "definition": "Saldo de valores mobiliários que só podem ser vendidos em determinadas condições ou que exigem documentos legais."
+    },
+    "OTHR": {
+      "name": "Não classificado",
+      "definition": "Saldo de valores mobiliários não classificado, ou seja, não identificado com nenhum dos tipos de subsaldo existentes."
+    },
+    "TRAN": {
+      "name": "Em transbordo",
+      "definition": "Saldo de valores mobiliários físicos em trânsito, por exemplo, em processo de transferência de um depositário ou agente para outro."
+    },
+    "DRAW": {
+      "name": "Sorteado",
+      "definition": "Saldo de valores mobiliários sorteados para reembolso."
+    },
+    "WDOC": {
+      "name": "A aguardar documentação",
+      "definition": "O instrumento financeiro está indisponível devido a documentação em falta ou incompleta relativa à conta, ou devido a uma ordem em falta ou incompleta."
+    },
+    "BTRA": {
+      "name": "Em transferência",
+      "definition": "O instrumento financeiro está indisponível em resultado de uma ordem de transferência, com movimentação pendente no registo de acionistas."
+    }
+  }
+}

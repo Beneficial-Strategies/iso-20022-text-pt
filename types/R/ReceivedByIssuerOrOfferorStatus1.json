@@ -1,0 +1,12 @@
+{
+  "isoType": "ReceivedByIssuerOrOfferorStatus1",
+  "definition": "A instrução foi recebida e aceite pelo emitente ou pelo oferente.",
+  "isoElements": {
+    "AcceptedByIssuerQuantity": {
+      "definition": "A quantidade de valores mobiliários instruídos anteriormente aceite foi agora aceite pelo emitente."
+    },
+    "ReceivedByIssuerOrOfferorReason": {
+      "definition": "Motivo do estado de pendente."
+    }
+  }
+}

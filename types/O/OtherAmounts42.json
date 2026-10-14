@@ -1,0 +1,81 @@
+{
+  "isoType": "OtherAmounts42",
+  "definition": "Identifica outros montantes relativos à operação.",
+  "isoElements": {
+    "AccruedInterestAmount": {
+      "definition": "Montante de juros que se venceram entre os períodos de pagamento de cupões."
+    },
+    "ChargesFees": {
+      "definition": "Montante pago pela prestação de serviços financeiros que não pode ser classificado por outro qualificador."
+    },
+    "CountryNationalFederalTax": {
+      "definition": "Montante do imposto nacional, federal ou do país cobrado pela jurisdição em que se situa o agente de conta."
+    },
+    "TradeAmount": {
+      "definition": "Montante principal de uma negociação (preço multiplicado pela quantidade)."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Montante pago a um corretor de execução a título de comissão."
+    },
+    "IssueDiscountAllowance": {
+      "definition": "Montante definido como desconto numa nova emissão ou numa tranche de uma emissão existente."
+    },
+    "PaymentLevyTax": {
+      "definition": "Montante do imposto de taxa de pagamento."
+    },
+    "LocalTax": {
+      "definition": "Imposto cobrado pela jurisdição em que o instrumento financeiro é liquidado."
+    },
+    "LocalBrokerCommission": {
+      "definition": "Montante da comissão paga a um corretor local."
+    },
+    "Margin": {
+      "definition": "Montante de dinheiro depositado pela parte negociadora numa conta de margem."
+    },
+    "Other": {
+      "definition": "Montante que não é indicado por uma designação comercial conhecida."
+    },
+    "RegulatoryAmount": {
+      "definition": "Montante cobrado por uma autoridade reguladora, por exemplo, taxas da Securities and Exchange."
+    },
+    "ShippingAmount": {
+      "definition": "Todos os custos relacionados com a entrega física de documentos, tais como selos, portes de correio, custos de transportadores, seguros ou serviços de estafeta."
+    },
+    "SpecialConcession": {
+      "definition": "Montante de levantamento ou outra redução ou acréscimo ao preço da operação."
+    },
+    "StampDuty": {
+      "definition": "Montante do imposto do selo."
+    },
+    "StockExchangeTax": {
+      "definition": "Montante do imposto de bolsa."
+    },
+    "TransferTax": {
+      "definition": "Montante do imposto cobrado sobre uma transferência de propriedade de um instrumento financeiro."
+    },
+    "TransactionTax": {
+      "definition": "Montante do imposto sobre operações."
+    },
+    "ValueAddedTax": {
+      "definition": "Montante do imposto sobre o valor acrescentado."
+    },
+    "WithholdingTax": {
+      "definition": "Montante que será retido por uma autoridade fiscal."
+    },
+    "NetGainLoss": {
+      "definition": "Montante que representa a diferença entre o custo e o preço atual de um valor mobiliário. No contexto da liquidação de valores mobiliários, é o montante pago ou recebido quando as instruções são compensadas ou emparelhadas."
+    },
+    "ConsumptionTax": {
+      "definition": "Montante do imposto sobre o consumo."
+    },
+    "AccruedCapitalisationAmount": {
+      "definition": "Montante de juros não pagos (de obrigações que entraram em incumprimento e foram subsequentemente |reestruturadas), que é capitalizado e adicionado ao montante de capital original da obrigação."
+    },
+    "BookValue": {
+      "definition": "Custo dos valores mobiliários. Pode ser solicitado em alguns países para efeitos fiscais."
+    },
+    "ResearchFee": {
+      "definition": "Encargo ou comissão pago pelo investidor a um distribuidor/intermediário ou a outro prestador de serviços pela prestação de estudos financeiros."
+    }
+  }
+}

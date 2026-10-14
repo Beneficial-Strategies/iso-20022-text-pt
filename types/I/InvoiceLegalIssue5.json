@@ -1,0 +1,18 @@
+{
+  "isoType": "InvoiceLegalIssue5",
+  "definition": "Informações fornecidas para permitir a correspondência/reconciliação de um lançamento com os itens que o pagamento se destina a liquidar, tais como faturas comerciais num sistema de contas a receber, sob forma estruturada.",
+  "isoElements": {
+    "Invoicer": {
+      "definition": "Identificação da organização que emite a fatura, quando é diferente do credor ou do credor final."
+    },
+    "Invoicee": {
+      "definition": "Identificação da parte a quem é emitida a fatura, quando é diferente do devedor ou do devedor final."
+    },
+    "InvoiceLegalStatement": {
+      "definition": "Informações adicionais, em texto livre, para complementar as informações de remessa estruturadas."
+    },
+    "PaymentMethod": {
+      "definition": "Método de pagamento para a remessa do CSD ou do NCB à parte que emite a fatura."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "AccountingStatus1Code",
+  "definition": "Especifica o estado contabilístico.",
+  "isoCodes": {
+    "YDOM": {
+      "name": "Nacional",
+      "definition": "A conta ou a parte é considerada nacional para efeitos de reporte."
+    },
+    "NDOM": {
+      "name": "Não nacional",
+      "definition": "A conta ou a parte não é considerada nacional para efeitos de reporte."
+    }
+  }
+}

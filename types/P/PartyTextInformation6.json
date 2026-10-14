@@ -1,0 +1,23 @@
+{
+  "isoType": "PartyTextInformation6",
+  "definition": "Fornece informações adicionais sobre a parte, por exemplo, a unidade de contacto ou a pessoa responsável pela operação identificada na mensagem.",
+  "isoElements": {
+    "DeclarationDetails": {
+      "definition": "Fornece uma narrativa dos detalhes da declaração relativa à parte."
+    },
+    "PartyContactDetails": {
+      "definition": "Fornece informações adicionais sobre a parte, por exemplo, a unidade de contacto ou a pessoa responsável pela operação identificada na mensagem."
+    },
+    "RegistrationDetails": {
+      "definition": "Fornece as informações necessárias para o registo."
+    },
+    "RegistrationAddress": {
+      "definition": "Endereço da sociedade representante (nominee) que detém os ativos junto do agente de transferência, da central internacional de depósito de valores mobiliários ou da central de depósito de valores mobiliários em nome da parte."
+    }
+  },
+  "isoRules": {
+    "AdditonalDetailsGuideline": {
+      "definition": "Salvo acordo bilateral entre o remetente e o destinatário, DeclarationlDetails, RegistrationDetails e PartyContactDetails não devem conter informações que possam ser fornecidas num campo estruturado."
+    }
+  }
+}

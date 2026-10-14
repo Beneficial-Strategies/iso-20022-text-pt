@@ -1,0 +1,15 @@
+{
+  "isoType": "ActiveCurrencyAndAmountRange3",
+  "definition": "Intervalo de valores de montante.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante ou intervalo de montantes especificado."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o montante é um montante creditado ou debitado."
+    },
+    "Currency": {
+      "definition": "Meio de troca de valor, utilizado para qualificar um montante."
+    }
+  }
+}

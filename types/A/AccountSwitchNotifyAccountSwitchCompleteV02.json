@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchNotifyAccountSwitchCompleteV02",
+  "definition": "A mensagem AccountSwitchNotifyAccountSwitchComplete é enviada pela nova instituição gestora da conta a uma instituição central de gestão da mudança de conta para sinalizar que concluiu a mudança de conta."
+}

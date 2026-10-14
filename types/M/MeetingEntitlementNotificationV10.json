@@ -1,0 +1,17 @@
+{
+  "isoType": "MeetingEntitlementNotificationV10",
+  "definition": "Âmbito|A MeetingEntitlementNotification é enviada por uma entidade gestora da conta ao titular da conta para comunicar o direito relativo a uma assembleia.|Utilização|Esta mensagem é enviada para comunicar a quantidade de valores mobiliários detida por um titular da conta. O saldo é especificado para os valores mobiliários a que se refere a assembleia. A mensagem é também utilizada para alterar uma MeetingEntitlementNotification enviada anteriormente. |A mensagem MeetingEntitlementNotification pode ser enviada antes de receber uma instrução de voto, para confirmar o direito; ou após ter recebido uma instrução de voto, para confirmar os dados da pessoa que assiste à assembleia. |A mensagem pode também ser utilizada em substituição de um cartão de presença ou para confirmar direitos no caso de ações ao portador.|Esta definição de mensagem destina-se a ser utilizada com o Business Application Header (BAH).",
+  "isoElements": {
+    "NotificationType": {
+      "definition": "Tipo de notificação."
+    },
+    "PreviousEntitlementNotificationIdentification": {
+      "definition": "Identificação da mensagem original de notificação de direitos da assembleia que é alterada."
+    }
+  },
+  "isoRules": {
+    "PreviousEntitlementNotificationIdentificationRule": {
+      "definition": "Se NotificationType for REPL (Replacement), então PreviousEntitlementNotificationIdentification tem de estar presente."
+    }
+  }
+}

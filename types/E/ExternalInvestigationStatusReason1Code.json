@@ -1,0 +1,90 @@
+{
+  "isoType": "ExternalInvestigationStatusReason1Code",
+  "definition": "Especifica o motivo do estado da investigação, conforme publicado numa lista externa de códigos de motivo do estado de investigação.|As listas externas de códigos podem ser transferidas a partir de www.iso20022.org.",
+  "isoCodes": {
+    "AGNT": {
+      "name": "Instituição ou parte incorreta",
+      "definition": "A mensagem de pedido foi dirigida a uma instituição ou parte incorreta."
+    },
+    "DU01": {
+      "name": "Pedido duplicado",
+      "definition": "A mensagem de pedido está duplicada, a mensagem de pedido duplicada é rejeitada."
+    },
+    "NARR": {
+      "name": "Descritivo",
+      "definition": "Consulte o elemento ResponseData para informações adicionais."
+    },
+    "FTNA": {
+      "name": "Pedido de investigação reencaminhado para a instituição ou parte",
+      "definition": "Mensagem de pedido reencaminhada para outra instituição ou parte, as quais podem ser indicadas no elemento NextResponder."
+    },
+    "CAPR": {
+      "name": "Encerrado conforme pedido",
+      "definition": "Investigação encerrada conforme a mensagem de pedido."
+    },
+    "CACR": {
+      "name": "Encerrado por envio de pedido de cancelamento",
+      "definition": "Investigação encerrada, uma vez que foi enviado um pedido de anulação da operação subjacente."
+    },
+    "ADAC": {
+      "name": "A aguardar autorização de débito do cliente",
+      "definition": "A aguardar autorização de débito do cliente."
+    },
+    "ARPL": {
+      "name": "A aguardar resposta do cliente",
+      "definition": "A aguardar resposta do cliente."
+    },
+    "NOAS": {
+      "name": "Sem resposta do cliente",
+      "definition": "Sem resposta do cliente."
+    },
+    "INPO": {
+      "name": "Em curso",
+      "definition": "A recolha dos dados de resposta ainda está em curso."
+    },
+    "NOOR": {
+      "name": "Operação original não recebida",
+      "definition": "Operação subjacente nunca recebida."
+    },
+    "ARJT": {
+      "name": "Operação já rejeitada",
+      "definition": "Operação subjacente já rejeitada."
+    },
+    "ARDT": {
+      "name": "Já devolvido",
+      "definition": "Pedido de investigação não aceite, uma vez que a operação já foi devolvida."
+    },
+    "RR04": {
+      "name": "Motivo regulamentar",
+      "definition": "Motivo regulamentar."
+    },
+    "LEGL": {
+      "name": "Decisão judicial",
+      "definition": "Comunicado quando o pedido não pode ser aceite devido a regras regulamentares."
+    },
+    "ESCA": {
+      "name": "Escalonamento",
+      "definition": "Está em curso um acompanhamento especial."
+    },
+    "INIT": {
+      "name": "Tipo de investigação incorreto",
+      "definition": "Tipo de investigação incorreto utilizado na mensagem de pedido."
+    },
+    "PARE": {
+      "name": "Resposta parcial",
+      "definition": "A mensagem de resposta responde parcialmente ao pedido, seguir-se-á outra mensagem de resposta."
+    },
+    "NOAD": {
+      "name": "Sem informações adicionais disponíveis",
+      "definition": "Não podem ser fornecidas informações adicionais relativas ao pedido."
+    },
+    "G004": {
+      "name": "A aguardar cobertura",
+      "definition": "Indica que a investigação da não receção do crédito está pendente, uma vez que o credor da cobertura aguarda o crédito da cobertura."
+    },
+    "CMPI": {
+      "name": "Correção efetuada conforme o pedido de esclarecimento",
+      "definition": "Está relacionado com um procedimento de Correction Made as Per Inquiry para o estado de investigação Encerrada (CLSD)."
+    }
+  }
+}

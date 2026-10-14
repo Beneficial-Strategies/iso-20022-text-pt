@@ -1,0 +1,75 @@
+{
+  "isoType": "MeetingNotice10",
+  "definition": "Informações sobre uma assembleia, os requisitos de participação e os procedimentos de votação.",
+  "isoElements": {
+    "MeetingIdentification": {
+      "definition": "Identificação atribuída à assembleia geral pela parte que fornece a notificação da assembleia. Tem de ser única para a parte que fornece a notificação"
+    },
+    "IssuerMeetingIdentification": {
+      "definition": "Identificação atribuída à assembleia pelo emitente. Tem de ser única para o emitente."
+    },
+    "Type": {
+      "definition": "Tipo de assembleia de detentores de valores mobiliários."
+    },
+    "Classification": {
+      "definition": "Classificação da assembleia."
+    },
+    "AnnouncementDate": {
+      "definition": "Data oficial de anúncio da assembleia."
+    },
+    "OneManOneVoteIndicator": {
+      "definition": "Indica se a votação da assembleia se realiza segundo o princípio \"uma pessoa, um voto\", também designado \"voto por cabeça\", nos termos do qual o acionista presente na assembleia dispõe de um único voto, independentemente das posições detidas."
+    },
+    "Participation": {
+      "definition": "Método de participação na votação da assembleia geral e respetivo prazo de votação por método de participação."
+    },
+    "Attendance": {
+      "definition": "Informações e condições para a presença física na assembleia geral."
+    },
+    "AdditionalDocumentationURLAddress": {
+      "definition": "Endereço a utilizar no serviço www (HTTP) onde podem ser encontradas informações adicionais sobre a assembleia."
+    },
+    "EventProcessingWebSiteAddress": {
+      "definition": "Fornece o endereço web de uma instituição gestora de contas (ou de um prestador de serviços) que contém informações destinadas exclusivamente ao titular imediato da conta, a fim de permitir ou facilitar o tratamento de eventos entre as partes."
+    },
+    "AdditionalProcedureDetails": {
+      "definition": "Informações processuais adicionais sobre a assembleia geral, especificando os requisitos de participação e os procedimentos de votação. Em alternativa, pode indicar onde essas informações podem ser obtidas."
+    },
+    "TotalNumberOfSecuritiesOutstanding": {
+      "definition": "Número de valores mobiliários admitidos à votação, expresso como um montante e uma moeda."
+    },
+    "TotalNumberOfVotingRights": {
+      "definition": "Número de direitos admitidos à votação."
+    },
+    "ProxyAppointmentNotificationAddress": {
+      "definition": "Endereço para onde devem ser enviadas as informações sobre o representante."
+    },
+    "ProxyChoice": {
+      "definition": "Especifica o representante ou se não é permitido qualquer representante."
+    },
+    "ContactPersonDetails": {
+      "definition": "Pessoa de contacto na parte que organiza a assembleia, no emitente ou num intermediário."
+    },
+    "ResultPublicationDate": {
+      "definition": "Data em que a sociedade publica os resultados da sua assembleia."
+    },
+    "SecuritiesBlockingPeriodEndDate": {
+      "definition": "Data em que o período de bloqueio dos valores mobiliários deve terminar."
+    },
+    "EntitlementFixingDate": {
+      "definition": "Data em que as posições são apuradas para registar quais as partes que receberão o direito, por exemplo, data de registo, data de fecho dos livros."
+    },
+    "RegistrationSecuritiesDeadline": {
+      "definition": "Data até à qual os valores mobiliários têm de ser registados. Este prazo é especificado por um intermediário."
+    },
+    "RegistrationSecuritiesMarketDeadline": {
+      "definition": "Data até à qual os valores mobiliários têm de ser registados. Este prazo é fixado pelo emitente."
+    },
+    "EnrolmentMarketDeadline": {
+      "definition": "Data até à qual deve ser instruída a inscrição para participação na assembleia geral ou o exercício dos direitos de voto. Este prazo é fixado pelo emitente."
+    },
+    "EnrolmentDeadline": {
+      "definition": "Data até à qual deve ser instruída a inscrição para participação na assembleia geral ou o exercício dos direitos de voto. Este prazo é fixado pelo intermediário."
+    }
+  }
+}

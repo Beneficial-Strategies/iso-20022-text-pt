@@ -1,0 +1,24 @@
+{
+  "isoType": "PaymentIdentification15",
+  "definition": "Fornece outros meios de referenciar uma operação de pagamento.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identificação única, atribuída por uma parte instrutora a uma parte instruída, para identificar inequivocamente a instrução.||Utilização: A identificação da instrução é uma referência ponto a ponto que pode ser utilizada entre a parte instrutora e a parte instruída para se referir à instrução individual. Pode ser incluída em várias mensagens relativas à instrução."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora, para identificar inequivocamente a operação. Esta identificação é transmitida, sem alterações, ao longo de toda a cadeia de ponta a ponta.||Utilização: A identificação de ponta a ponta pode ser utilizada para reconciliação ou para ligar tarefas relacionadas com a operação. Pode ser incluída em várias mensagens relativas à operação.||Utilização: Caso existam limitações técnicas para transmitir várias referências, a identificação de ponta a ponta tem de ser transmitida ao longo de toda a cadeia de ponta a ponta."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificação única, atribuída pela primeira instituição instrutora, para identificar inequivocamente a operação, que é transmitida, sem alterações, ao longo de toda a cadeia interbancária. |Utilização: A identificação da operação pode ser utilizada para reconciliação, acompanhamento ou para ligar tarefas relacionadas com a operação ao nível interbancário. |Utilização: A instituição instrutora tem de garantir que a identificação da operação é única durante um período previamente acordado."
+    },
+    "UETR": {
+      "definition": "Identificador universalmente único para fornecer uma referência de ponta a ponta de uma operação de pagamento."
+    },
+    "ClearingSystemReference": {
+      "definition": "Referência única, atribuída por um sistema de compensação, para identificar inequivocamente a instrução."
+    },
+    "FirstAgent": {
+      "definition": "Identifica a primeira instituição da cadeia de identificação, a seguir à parte iniciadora do pagamento."
+    }
+  }
+}

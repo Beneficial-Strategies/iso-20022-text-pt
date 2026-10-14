@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCANotificationStatusAdviceV04",
+  "definition": "Âmbito|Esta mensagem é enviada por uma CSD a um emitente (ou ao seu agente) para comunicar o estado, ou a alteração de estado, de um aviso de notificação ou de um pedido de cancelamento de notificação.|Utilização|Quando esta mensagem é utilizada para comunicar o estado de um aviso de notificação, o bloco de construção Agent Corporate Action Notification Advice Identification tem de estar presente.|Quando esta mensagem é utilizada para fornecer o estado de um pedido de cancelamento de notificação, o bloco de construção Notification Cancellation Request Identification tem de estar presente."
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "CorporateActionInstructionCancellationRequest002V13",
+  "definition": "Âmbito|A mensagem CorporateActionInstructionCancellationRequest é enviada por um titular de conta a um prestador de serviços de conta para solicitar o cancelamento de uma instrução de escolha de operação sobre ativos enviada anteriormente.|Utilização|A mensagem também pode ser utilizada para:|- reenviar uma mensagem enviada anteriormente (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem para fins informativos (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem para fins informativos (a subfunção da mensagem é Copy Duplicate), utilizando os elementos relevantes no cabeçalho aplicacional de negócio (BAH).",
+  "isoElements": {
+    "ChangeInstructionIndicator": {
+      "definition": "Indica que a instrução cancelada será substituída por uma nova instrução de operação sobre ativos a enviar posteriormente."
+    }
+  },
+  "isoRules": {
+    "ChangeInstructionIndicatorGuideline": {
+      "definition": "ChangeInstructionIndicator só pode ser utilizado se CorporateActionOptionDetails/WithdrawalAllowedIndicator tiver sido definido como 'false' ou '0' (Não) na mensagem CorporateActionNotification recebida anteriormente e se CorporateActionOptionDetails/ChangeAllowedIndicator tiver sido definido como 'true' ou '1' (Sim) na mensagem CorporateActionNotification recebida anteriormente."
+    },
+    "CorporateActionEventIdentificationRule": {
+      "definition": "Se a mensagem CorporateActionInstruction não foi solicitada (isto é, esta instrução não foi precedida de uma CorporateActionNotification), então CorporateActionGeneralInformation/CorporateActionEventIdentification deve ser NONREF."
+    },
+    "BeneficialOwnerBreakdownRequestRule ": {
+      "definition": "Se o valor de CorporateActionInstruction/OptionType/Code for BOBD (BeneficialOwnerBreakdownRequest), então o valor de CorporateActionGeneralInformation/EventType/Code tem de ser WTRC (Withholding Tax Relief Certification).|(MT565 NVR C8)"
+    }
+  }
+}

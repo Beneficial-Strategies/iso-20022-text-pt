@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionOption5Code",
+  "definition": "Especifica as opções de eventos societários à disposição do titular da conta.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Numerário",
+      "definition": "Opção de escolher numerário."
+    },
+    "SECU": {
+      "name": "Valor mobiliário",
+      "definition": "Distribuição de valores mobiliários aos detentores."
+    }
+  }
+}

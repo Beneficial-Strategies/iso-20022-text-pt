@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceFormat77Choice",
+  "definition": "Escolha entre um preço em percentagem ou um preço em montante.",
+  "isoElements": {
+    "PercentagePrice": {
+      "definition": "Preço expresso como percentagem."
+    },
+    "AmountPrice": {
+      "definition": "Preço expresso como moeda e montante."
+    }
+  }
+}

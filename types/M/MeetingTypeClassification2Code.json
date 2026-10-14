@@ -1,0 +1,26 @@
+{
+  "isoType": "MeetingTypeClassification2Code",
+  "definition": "Classifica o tipo de assembleia.",
+  "isoCodes": {
+    "AMET": {
+      "name": "Anual",
+      "definition": "Assembleia realizada periodicamente para aprovar as demonstrações financeiras e eleger os membros do conselho de administração e os auditores."
+    },
+    "CLAS": {
+      "name": "Classe",
+      "definition": "Assembleia dos detentores de um tipo específico de ativo, por exemplo, ações preferenciais, obrigações."
+    },
+    "ISSU": {
+      "name": "Iniciado pelo emitente",
+      "definition": "A assembleia resulta de uma obrigação ou de uma decisão do emitente, por oposição a uma iniciativa de detentores de direitos de voto, por exemplo, uma assembleia contestada."
+    },
+    "OMET": {
+      "name": "Ordinário",
+      "definition": "Assembleia prevista nos estatutos."
+    },
+    "VRHI": {
+      "name": "Iniciado pelo titular de direitos de voto",
+      "definition": "A assembleia resulta de um pedido ou de uma ação de um ou mais detentores de direitos de voto, por exemplo, uma assembleia contestada."
+    }
+  }
+}

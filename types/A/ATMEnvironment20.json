@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMEnvironment20",
+  "definition": "Ambiente das exceções.",
+  "isoElements": {
+    "Acquirer": {
+      "definition": "Adquirente das operações, responsável pela liquidação de fundos com o emitente."
+    },
+    "ATMManagerIdentification": {
+      "definition": "Identificação do gestor do ATM."
+    },
+    "HostingEntity": {
+      "definition": "Entidade que aloja o terminal ATM."
+    },
+    "ATM": {
+      "definition": "Informação do ATM."
+    },
+    "Customer": {
+      "definition": "Cliente envolvido na operação."
+    },
+    "Card": {
+      "definition": "Cartão que efetua a operação."
+    }
+  }
+}

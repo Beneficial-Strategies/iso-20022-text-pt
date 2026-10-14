@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus31Choice",
+  "definition": "Escolha entre um motivo ou a ausência de motivo para o estado de tratamento rejeitado da instrução de evento societário.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo não especificado."
+    },
+    "Reason": {
+      "definition": "Motivo pelo qual a mensagem de pedido de cancelamento de instrução de assembleia ou o pedido individual de cancelamento de instrução de assembleia é rejeitado."
+    }
+  }
+}

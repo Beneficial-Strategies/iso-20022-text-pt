@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionSecuritiesMovement2",
+  "definition": "Fornece informações sobre o movimento de valores mobiliários resultante da instrução de eleição.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identificação do instrumento financeiro."
+    },
+    "PostingDateTime": {
+      "definition": "Data e hora do lançamento do movimento."
+    },
+    "PostingIdentification": {
+      "definition": "Identificação do lançamento do movimento de valores mobiliários."
+    },
+    "PostingQuantity": {
+      "definition": "Quantidade de valores mobiliários lançada em resultado do movimento de valores mobiliários."
+    },
+    "AccountDetails": {
+      "definition": "Fornece informações sobre a conta debitada/creditada em resultado do movimento."
+    }
+  }
+}

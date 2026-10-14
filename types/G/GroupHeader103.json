@@ -1,0 +1,18 @@
+{
+  "isoType": "GroupHeader103",
+  "definition": "Conjunto de características comuns a todos os cheques individuais incluídos na mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte instruidora e enviada à parte seguinte da cadeia para identificar inequivocamente a mensagem.|Usage: A parte instruidora tem de assegurar que MessageIdentification é único por parte instruída durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    },
+    "NumberOfCheques": {
+      "definition": "Número de cheques individuais contidos na mensagem."
+    },
+    "ControlSum": {
+      "definition": "Total de todos os montantes individuais incluídos na mensagem, independentemente das moedas."
+    }
+  }
+}

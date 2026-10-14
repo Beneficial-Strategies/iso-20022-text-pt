@@ -1,0 +1,18 @@
+{
+  "isoType": "PersonName3",
+  "definition": "Identifica uma pessoa através do seu nome próprio e apelido.",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Prefixo, como título antes do nome de uma pessoa."
+    },
+    "FirstName": {
+      "definition": "Nome(s) próprio(s) pelo(s) qual(is) uma pessoa singular é conhecida."
+    },
+    "Surname": {
+      "definition": "Nome(s) pelo(s) qual(is) uma pessoa singular é conhecida e que é(são) normalmente utilizado(s) para identificar essa parte."
+    },
+    "Address": {
+      "definition": "Endereço postal da parte."
+    }
+  }
+}

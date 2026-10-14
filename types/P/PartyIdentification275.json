@@ -1,0 +1,30 @@
+{
+  "isoType": "PartyIdentification275",
+  "definition": "Identificação de uma parte.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nome e morada da parte."
+    },
+    "EmailAddress": {
+      "definition": "Endereço de correio eletrónico (e-mail)."
+    },
+    "Identification": {
+      "definition": "Identificação da parte."
+    },
+    "CountryOfIncorporation": {
+      "definition": "País em que a sociedade está constituída ou legalmente registada."
+    },
+    "YearOfIncorporation": {
+      "definition": "Ano em que a pessoa coletiva foi oficialmente constituída."
+    },
+    "ActivityIndicator": {
+      "definition": "Atividade económica do investidor."
+    },
+    "InvestorType": {
+      "definition": "Tipo de investidor."
+    },
+    "Ownership": {
+      "definition": "Informações sobre a propriedade de um ativo."
+    }
+  }
+}

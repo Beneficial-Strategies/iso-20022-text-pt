@@ -1,0 +1,12 @@
+{
+  "isoType": "RepurchaseType21Choice",
+  "definition": "Escolha do formato da informação sobre o tipo de operação de recompra.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de processo de operação de financiamento através de valores mobiliários expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de processo de operação de financiamento através de valores mobiliários expresso como um código proprietário."
+    }
+  }
+}

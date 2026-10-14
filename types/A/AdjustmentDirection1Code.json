@@ -1,0 +1,14 @@
+{
+  "isoType": "AdjustmentDirection1Code",
+  "definition": "Especifica se o ajustamento é adicionado ou subtraído ao montante total.",
+  "isoCodes": {
+    "ADDD": {
+      "name": "Adicionado",
+      "definition": "O montante do ajustamento deve ser adicionado ao montante total."
+    },
+    "SUBS": {
+      "name": "Subtraído",
+      "definition": "O montante do ajustamento deve ser subtraído ao montante total."
+    }
+  }
+}

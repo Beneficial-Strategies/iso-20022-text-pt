@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationRequestV01",
+  "definition": "O ATMReconciliationRequest é enviado por um ATM a um anfitrião de manutenção para notificar atualizações das contagens de reconciliação."
+}

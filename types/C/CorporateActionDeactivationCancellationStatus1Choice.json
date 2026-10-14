@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDeactivationCancellationStatus1Choice",
+  "definition": "Escolha entre os diferentes estados de um pedido de cancelamento de desativação.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Fornece informações sobre o estado de processamento do pedido de cancelamento."
+    },
+    "RejectedStatus": {
+      "definition": "Fornece informações sobre o estado de rejeição."
+    }
+  }
+}

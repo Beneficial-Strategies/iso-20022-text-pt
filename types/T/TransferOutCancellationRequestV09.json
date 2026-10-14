@@ -1,0 +1,9 @@
+{
+  "isoType": "TransferOutCancellationRequestV09",
+  "definition": "Âmbito|A mensagem TransferOutCancellationRequest é enviada por uma parte ordenante, por exemplo, um gestor de investimentos ou o seu representante autorizado, à parte executante, por exemplo, um agente de transferências, para solicitar o cancelamento de uma instrução de transferência de saída enviada anteriormente.|Utilização|A mensagem TransferOutCancellationRequest é utilizada para solicitar o cancelamento de uma ou mais instruções de transferência de saída.|Não existe alteração, mas sim uma política de cancelamento e nova instrução.|Para solicitar o cancelamento de uma ou mais instruções de transferência de saída, a referência da transferência, tal como especificada na mensagem TransferOutInstruction original, é indicada no elemento de referência da transferência.|O identificador da mensagem TransferOutInstruction original pode também ser indicado em PreviousReference, mas tal não é recomendado.|O prazo e a aceitação de um pedido de cancelamento estão sujeitos a um acordo de nível de serviço (SLA). Esta mensagem de cancelamento é um pedido de cancelamento. Não existe aceitação automática do cancelamento.|A rejeição ou aceitação de um TransferOutCancellationRequest é efetuada através de uma mensagem TransferCancellationStatusReport.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de um grupo de transferências individuais, atribuído pela parte ordenante. Este identificador associa as transferências individuais entre si."
+    }
+  }
+}

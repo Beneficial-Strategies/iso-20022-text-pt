@@ -1,0 +1,36 @@
+{
+  "isoType": "BillingReport6",
+  "definition": "Relatório sobre dados de faturação específicos.",
+  "isoElements": {
+    "RegulatoryData": {
+      "definition": "Informações sobre dados legais e regulamentares trocados entre a parte que emite a fatura e a parte pagadora."
+    },
+    "Service": {
+      "definition": "Identificação do serviço ou sistema para o qual as informações de faturação são fornecidas."
+    },
+    "InvoiceDate": {
+      "definition": "Data em que o relatório de faturação foi criado."
+    },
+    "BillingIdentification": {
+      "definition": "Identificação única do relatório de faturação."
+    },
+    "BillingPeriod": {
+      "definition": "Período de datas para o qual os dados do relatório são válidos."
+    },
+    "ResponsiblePartyIdentification": {
+      "definition": "Identificação única da parte responsável pela parte referenciada (ou seja, que tem uma responsabilidade contratual pelo cliente faturado)."
+    },
+    "PartyIdentification": {
+      "definition": "Identificação única que identifica inequivocamente a parte faturada."
+    },
+    "AccountInvoiceTotals": {
+      "definition": "Especifica os totais relacionados com a fatura por conta."
+    },
+    "InvoiceTotals": {
+      "definition": "Especifica os totais relacionados com a fatura."
+    },
+    "ServiceCategoryTotals": {
+      "definition": "Especifica os totais relacionados com a categoria de serviço."
+    }
+  }
+}

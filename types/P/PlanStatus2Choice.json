@@ -1,0 +1,12 @@
+{
+  "isoType": "PlanStatus2Choice",
+  "definition": "Escolha de formatos para o estado de um plano.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado do plano expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Estado do plano expresso sob a forma de código proprietário."
+    }
+  }
+}

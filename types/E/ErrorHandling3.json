@@ -1,0 +1,12 @@
+{
+  "isoType": "ErrorHandling3",
+  "definition": "Especifica o erro resultante do tratamento de um pedido.",
+  "isoElements": {
+    "Error": {
+      "definition": "Especificação do erro, em forma codificada ou proprietária."
+    },
+    "Description": {
+      "definition": "Especificação do erro, em formato livre."
+    }
+  }
+}

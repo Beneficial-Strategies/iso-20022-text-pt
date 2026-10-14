@@ -1,0 +1,46 @@
+{
+  "isoType": "PaymentInstrument1Code",
+  "definition": "Especifica o instrumento de pagamento utilizado ou a operação financeira subjacente que deu origem a uma operação de pagamento.",
+  "isoCodes": {
+    "BDT": {
+      "name": "Débito bancário",
+      "definition": "Instrução de débito direto em que o devedor e o credor são instituições financeiras."
+    },
+    "BCT": {
+      "name": "Transferência bancária",
+      "definition": "Transferência de fundos em que o devedor e o credor são instituições financeiras."
+    },
+    "CDT": {
+      "name": "Débito de cliente",
+      "definition": "Instrução de débito direto em que o devedor ou o credor, ou ambos, não são instituições financeiras."
+    },
+    "CCT": {
+      "name": "Transferência de cliente",
+      "definition": "Transferência de fundos em que o devedor ou o credor, ou ambos, não são instituições financeiras."
+    },
+    "CHK": {
+      "name": "Cheque",
+      "definition": "O instrumento de pagamento é um cheque. (Ordem escrita na qual são dadas instruções a um titular de conta (uma instituição financeira) para pagar uma quantia determinada a um destinatário designado (o beneficiário))."
+    },
+    "BKT": {
+      "name": "Transferência contabilística",
+      "definition": "Transferência que consiste num movimento de numerário nos livros da instituição gestora da conta."
+    },
+    "DCP": {
+      "name": "Pagamento com cartão de débito",
+      "definition": "O instrumento de pagamento é um cartão de débito. (O pagamento teve origem num esquema de cartões de débito.)."
+    },
+    "CCP": {
+      "name": "Pagamento com cartão de crédito",
+      "definition": "O instrumento de pagamento é um cartão de crédito. (O pagamento teve origem num esquema de cartões de crédito.)."
+    },
+    "RTI": {
+      "name": "Devolução",
+      "definition": "Lançamento relativo a um item devolvido ou não pago."
+    },
+    "CAN": {
+      "name": "Pedido de cancelamento",
+      "definition": "Lançamento de reversão resultante do cancelamento de um lançamento previamente contabilizado."
+    }
+  }
+}

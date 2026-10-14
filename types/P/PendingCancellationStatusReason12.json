@@ -1,0 +1,17 @@
+{
+  "isoType": "PendingCancellationStatusReason12",
+  "definition": "Especifica os motivos do estado de cancelamento pendente.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Especifica o motivo pelo qual o pedido de cancelamento está pendente."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre a instrução processada."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "O elemento AdditionalReasonInformation não deve conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral."
+    }
+  }
+}

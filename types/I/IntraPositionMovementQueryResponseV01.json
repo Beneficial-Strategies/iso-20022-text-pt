@@ -1,0 +1,18 @@
+{
+  "isoType": "IntraPositionMovementQueryResponseV01",
+  "definition": "A mensagem IntraPositionMovementQueryResponse é enviada por uma infraestrutura de liquidação a um titular de conta/requerente para fornecer todas as instruções de movimento intraposição que satisfazem os critérios de seleção, tal como definidos na consulta, devolvendo os atributos atuais e o estado mais recente.|A mensagem também pode ser utilizada para: |- reenviar uma mensagem enviada pelo titular da conta ao prestador de serviços de conta (a subfunção da mensagem é \"Duplicate\") |- fornecer a um terceiro uma cópia de uma mensagem enviada pelo titular da conta, a título informativo (a subfunção da mensagem é \"Copy\") |- reenviar a um terceiro uma cópia de uma mensagem enviada pelo titular da conta, a título informativo (a subfunção da mensagem é \"Copy Duplicate\").",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Se ReportGeneralDetails/ActivityIndicator for igual a Yes (true ou 1), Movements tem de estar presente."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Se ReportGeneralDetails/ActivityIndicator for igual a No (false ou 0), Movements tem de estar ausente."
+    },
+    "QueryTypeFullRule": {
+      "definition": "Se ReportGeneralDetails/QueryType for igual a Full, Movements(*)/Movement/MovementDetails tem de estar presente."
+    },
+    "QueryTypeStatusRule": {
+      "definition": "Se ReportGeneralDetails/QueryType for igual a Status, Movements(*)/Movement/MovementDetails tem de estar ausente."
+    }
+  }
+}

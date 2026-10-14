@@ -1,0 +1,18 @@
+{
+  "isoType": "IncentivePremium6",
+  "definition": "Prémio em numerário disponibilizado se o detentor de valores mobiliários der o seu consentimento ou participar num evento.",
+  "isoElements": {
+    "Description": {
+      "definition": "Descrição do prémio."
+    },
+    "Amount": {
+      "definition": "Prémio em numerário pago por valor mobiliário, por voto ou por participante."
+    },
+    "Type": {
+      "definition": "Especifica o critério relacionado com a votação que dá direito a um prémio de incentivo."
+    },
+    "PaymentDate": {
+      "definition": "Data/hora do pagamento do prémio."
+    }
+  }
+}

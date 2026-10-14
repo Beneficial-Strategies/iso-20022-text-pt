@@ -1,0 +1,18 @@
+{
+  "isoType": "Reporting2Code",
+  "definition": "Especifica informações relativas à comunicação de informações.",
+  "isoCodes": {
+    "STEX": {
+      "name": "Bolsa de valores",
+      "definition": "Os detalhes da operação devem ser comunicados a uma bolsa de valores."
+    },
+    "REGU": {
+      "name": "Organismo regulador",
+      "definition": "Os detalhes da operação devem ser comunicados a uma entidade reguladora."
+    },
+    "DEFR": {
+      "name": "Relatório diferido",
+      "definition": "A comunicação é diferida, por exemplo, porque a ordem foi executada em execuções parciais."
+    }
+  }
+}

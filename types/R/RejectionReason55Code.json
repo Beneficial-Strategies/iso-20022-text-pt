@@ -1,0 +1,38 @@
+{
+  "isoType": "RejectionReason55Code",
+  "definition": "Especifica o motivo pelo qual a instrução ou o pedido de cancelamento tem o estado de rejeitado.",
+  "isoCodes": {
+    "BENO": {
+      "name": "Discordância quanto ao beneficiário efetivo",
+      "definition": "Desacordo quanto à propriedade efetiva."
+    },
+    "CAEV": {
+      "name": "Rejeição de operação sobre títulos",
+      "definition": "Evento societário pendente sobre o instrumento financeiro instruído."
+    },
+    "DQUA": {
+      "name": "Rejeição da quantidade",
+      "definition": "Quantidade instruída não reconhecida ou inválida."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "PODU": {
+      "name": "Possível duplicado",
+      "definition": "A instrução não obteve correspondência. É uma possível instrução duplicada."
+    },
+    "SAFE": {
+      "name": "Rejeição da conta de guarda",
+      "definition": "Conta de custódia do remetente da mensagem não reconhecida ou inválida."
+    },
+    "SSID": {
+      "name": "Rejeição de instrução de liquidação permanente",
+      "definition": "A instrução de liquidação permanente é desconhecida ou inválida."
+    },
+    "DSEC": {
+      "name": "Valor mobiliário inválido",
+      "definition": "Identificação do instrumento financeiro não reconhecida ou inválida."
+    }
+  }
+}

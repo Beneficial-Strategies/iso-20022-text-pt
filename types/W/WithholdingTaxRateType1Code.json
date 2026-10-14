@@ -1,0 +1,18 @@
+{
+  "isoType": "WithholdingTaxRateType1Code",
+  "definition": "Especifica o tipo de taxa de imposto retido na fonte.",
+  "isoCodes": {
+    "BWIT": {
+      "name": "Retenção na fonte de salvaguarda",
+      "definition": "Imposto retido na fonte relativo a pagamentos sujeitos a retenção de salvaguarda."
+    },
+    "FTCA": {
+      "name": "Imposto FATCA",
+      "definition": "Imposto retido na fonte relativo a rendimentos sujeitos ao FATCA (Foreign Account Tax Compliance Act)."
+    },
+    "NRAT": {
+      "name": "Imposto NRA",
+      "definition": "Imposto retido na fonte relativo a rendimentos sujeitos ao NRA (Non Resident Alien)."
+    }
+  }
+}

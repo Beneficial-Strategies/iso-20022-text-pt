@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountStatus3Code",
+  "definition": "Qualifica mais pormenorizadamente o estado atual de uma conta.",
+  "isoCodes": {
+    "ENAB": {
+      "name": "Ativado",
+      "definition": "A conta pode ser utilizada para o fim a que se destina."
+    },
+    "DISA": {
+      "name": "Desativado",
+      "definition": "A conta não pode ser utilizada para o fim a que se destina, temporária ou permanentemente."
+    },
+    "DELE": {
+      "name": "Eliminado",
+      "definition": "A conta não pode ser utilizada por mais tempo."
+    },
+    "FORM": {
+      "name": "Pro forma",
+      "definition": "A conta é temporária e pode ser parcialmente utilizada para o fim a que se destina. A conta ficará totalmente disponível para utilização quando o prestador de serviços da conta tiver recebido todos os documentos relevantes."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "ReportData5",
+  "definition": "Representação numérica dos aumentos e diminuições líquidos numa conta num determinado momento. O saldo de caixa é calculado a partir da soma dos créditos em numerário menos a soma dos débitos em numerário.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identificação do relatório atribuída pelo sistema central."
+    },
+    "ValueDate": {
+      "definition": "Data até à qual o(s) montante(s) solicitado(s) tem(têm) de ser liquidado(s)."
+    },
+    "DateAndTimeStamp": {
+      "definition": "Data e hora em que o relatório é gerado. Pode também ser especificado o desfasamento em relação ao UTC."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de chamada de Pay In."
+    },
+    "PayInCallAmount": {
+      "definition": "Especifica o montante solicitado."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Para indicar a sessão de liquidação CLS solicitada em que a operação comercial relacionada se insere."
+    },
+    "AccountValue": {
+      "definition": "Especifica o montante solicitado em várias moedas."
+    }
+  }
+}

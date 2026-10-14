@@ -1,0 +1,30 @@
+{
+  "isoType": "BillingService2",
+  "definition": "Especifica os valores utilizados para cada serviço linha a linha no extrato.",
+  "isoElements": {
+    "ServiceDetail": {
+      "definition": "Especifica valores detalhados adicionais para este serviço."
+    },
+    "Price": {
+      "definition": "Preço aplicado ao serviço, expresso na moeda de tarifação."
+    },
+    "PaymentMethod": {
+      "definition": "Código que identifica o destino do encargo calculado."
+    },
+    "OriginalChargePrice": {
+      "definition": "Montante do encargo calculado, expresso na moeda de tarifação. Este valor não inclui qualquer imposto sobre o serviço."
+    },
+    "OriginalChargeSettlementAmount": {
+      "definition": "Montante do encargo calculado, expresso na moeda de liquidação."
+    },
+    "BalanceRequiredAccountAmount": {
+      "definition": "Saldo diário médio cobrado necessário para compensar um encargo de serviço compensável por saldo, excluindo impostos, expresso na moeda da conta."
+    },
+    "TaxDesignation": {
+      "definition": "Fornece os detalhes do estado de tributação de um serviço."
+    },
+    "TaxCalculation": {
+      "definition": "Fornece valores relacionados com o imposto para os métodos de cálculo do imposto A, B ou D."
+    }
+  }
+}

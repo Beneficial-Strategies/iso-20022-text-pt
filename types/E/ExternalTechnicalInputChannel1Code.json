@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalTechnicalInputChannel1Code",
+  "definition": "Especifica o canal técnico de entrada, tal como publicado numa lista de códigos externa de canais técnicos de entrada.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "FAXI": {
+      "name": "Fax",
+      "definition": "O canal técnico de entrada é fax ou telecópia"
+    },
+    "PAPR": {
+      "name": "Papel",
+      "definition": "O canal técnico de entrada é papel"
+    },
+    "TAPE": {
+      "name": "Fita",
+      "definition": "O canal técnico de entrada é fita magnética"
+    },
+    "WEBI": {
+      "name": "Internet",
+      "definition": "O canal técnico de entrada é a internet"
+    }
+  }
+}

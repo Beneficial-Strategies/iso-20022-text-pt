@@ -1,0 +1,14 @@
+{
+  "isoType": "AllegementStatus1Code",
+  "definition": "Especifica o estado de uma alegação.",
+  "isoCodes": {
+    "CANC": {
+      "name": "Cancelado",
+      "definition": "A alegação foi cancelada desde o extrato delta anterior. A alegação foi cancelada devido a um erro do remetente ou porque a parte alegante cancelou a sua instrução."
+    },
+    "REMO": {
+      "name": "Removido",
+      "definition": "A alegação foi retirada desde o extrato delta anterior. A alegação foi retirada porque a parte alegada enviou a sua instrução."
+    }
+  }
+}

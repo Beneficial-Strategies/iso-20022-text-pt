@@ -1,0 +1,30 @@
+{
+  "isoType": "IntraBalanceCancellation8",
+  "definition": "Fornece os detalhes dos pedidos de cancelamento.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de caixa."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte que é titular da conta."
+    },
+    "CashAccountServicer": {
+      "definition": "Parte que gere a conta de numerário em nome do titular da conta, ou seja, gere o registo e a contabilização dos lançamentos na conta, calcula os saldos da conta e fornece informações sobre a conta."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "RequestReference": {
+      "definition": "Identificação inequívoca do pedido de cancelamento."
+    },
+    "StatusDate": {
+      "definition": "Data e hora em que o estado foi atribuído."
+    },
+    "TransactionIdentification": {
+      "definition": "Referências da operação para a qual é solicitada a modificação entre saldos."
+    },
+    "UnderlyingIntraBalance": {
+      "definition": "Identifica detalhes adicionais da operação."
+    }
+  }
+}

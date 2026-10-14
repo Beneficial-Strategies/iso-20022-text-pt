@@ -1,0 +1,130 @@
+{
+  "isoType": "FailureReason9Code",
+  "definition": "Incidente ocorrido durante o processamento de uma operação de ATM.",
+  "isoCodes": {
+    "CDCP": {
+      "name": "Cartão capturado",
+      "definition": "O gestor do ATM solicitou a captura do cartão."
+    },
+    "CDCL": {
+      "name": "Cartão recusado",
+      "definition": "O cartão com circuito integrado recusa a operação antes ou depois da autorização."
+    },
+    "CDER": {
+      "name": "Erro do cartão",
+      "definition": "Não é possível concluir a operação com o cartão."
+    },
+    "CUCL": {
+      "name": "Cancelamento pelo cliente",
+      "definition": "Cancelamento pelo cliente, por exemplo retirando o cartão antes do fim da operação."
+    },
+    "CUDC": {
+      "name": "Recusa pelo cliente",
+      "definition": "O cliente recusou comissões adicionais ou um montante inferior, a operação falha."
+    },
+    "CDFG": {
+      "name": "Cartão esquecido",
+      "definition": "O cliente deixou o cartão no ATM ou num leitor de cartões motorizado."
+    },
+    "FILL": {
+      "name": "Erro de execução",
+      "definition": "Impossível satisfazer o pedido, por exemplo distribuir o numerário."
+    },
+    "MALF": {
+      "name": "Avaria",
+      "definition": "Suspeita de avaria."
+    },
+    "NDCL": {
+      "name": "Recusado online",
+      "definition": "A autorização em linha recusou a operação."
+    },
+    "SECU": {
+      "name": "Erro de segurança",
+      "definition": "Ocorreu um erro de segurança na mensagem de resposta de autorização enviada pelo adquirente."
+    },
+    "SFRD": {
+      "name": "Suspeita de fraude",
+      "definition": "A operação de pagamento com cartão falha porque o comerciante suspeita de fraude."
+    },
+    "TIMO": {
+      "name": "Tempo limite excedido",
+      "definition": "Tempo limite excedido à espera de uma resposta a uma mensagem de pedido, ou não foi recebida resposta (por exemplo, libertação da ligação antes de receber a resposta)."
+    },
+    "LATE": {
+      "name": "Resposta tardia",
+      "definition": "A resposta à mensagem anterior foi recebida demasiado tarde."
+    },
+    "UCPT": {
+      "name": "Impossível capturar",
+      "definition": "Impossível capturar o cartão conforme solicitado."
+    },
+    "UCMP": {
+      "name": "Impossível concluir",
+      "definition": "Impossível concluir a operação após a resposta de autorização."
+    },
+    "USND": {
+      "name": "Impossível enviar",
+      "definition": "Impossível entregar a mensagem de pedido à parte destinatária."
+    },
+    "CSRV": {
+      "name": "Fora do serviço ao cliente",
+      "definition": "O gestor do ATM solicitou ao ATM que interrompa os serviços aos clientes."
+    },
+    "CDRT": {
+      "name": "Cartão retido",
+      "definition": "O cartão foi retido pelo ATM ou pelo terminal."
+    },
+    "CUTO": {
+      "name": "Tempo limite do cliente excedido",
+      "definition": "O cliente não executou uma ação a tempo."
+    },
+    "RJCT": {
+      "name": "Rejeição",
+      "definition": "O gestor do ATM enviou uma mensagem ATMReject em resposta a um pedido de autorização."
+    },
+    "FMTE": {
+      "name": "Erro de formato",
+      "definition": "O gestor do ATM enviou uma mensagem de resposta a um pedido de autorização em que alguns dos elementos obrigatórios estavam mal formatados (por exemplo, um valor inteiro onde era esperado um valor dateTime)."
+    },
+    "VLTE": {
+      "name": "Erro de validação",
+      "definition": "O gestor do ATM enviou uma mensagem de resposta a um pedido de autorização em que alguns dos elementos obrigatórios eram inválidos (por exemplo, um ExchangeIdentifier incorreto)."
+    },
+    "CHFG": {
+      "name": "Retração do distribuidor de numerário",
+      "definition": "Após uma operação de distribuição de numerário, o consumidor esqueceu-se de retirar as notas, que foram posteriormente retraídas após o tempo limite de apresentação. O número de notas retraídas é desconhecido."
+    },
+    "DCFG": {
+      "name": "Retração de depósito de numerário",
+      "definition": "Após uma devolução de numerário, numa operação de depósito, o consumidor esqueceu-se de retirar as notas devolvidas, que foram assim retraídas. O número de notas retraídas é desconhecido."
+    },
+    "CQFG": {
+      "name": "Retração de depósito de cheques",
+      "definition": "Após a devolução de cheques, numa operação de depósito de cheques, o consumidor esqueceu-se de retirar os cheques devolvidos, que foram assim retraídos. O número de cheques retraídos é desconhecido."
+    },
+    "DFGC": {
+      "name": "Retração de depósito de numerário contabilizada",
+      "definition": "Após uma devolução de numerário, numa operação de depósito, o consumidor esqueceu-se de retirar as notas devolvidas, que foram assim retraídas. O número de notas retraídas é conhecido, pois o dispositivo conseguiu contá-las."
+    },
+    "CFGC": {
+      "name": "Retração do distribuidor de numerário contabilizada",
+      "definition": "Após uma operação de distribuição de numerário, o consumidor esqueceu-se de retirar as notas devolvidas, que foram posteriormente retraídas após o tempo limite de apresentação. O número de notas retraídas é conhecido, pois o dispositivo conseguiu contá-las."
+    },
+    "QFGC": {
+      "name": "Retração de depósito de cheques contabilizada",
+      "definition": "Após a devolução de cheques, numa operação de depósito de cheques, o consumidor esqueceu-se de retirar os cheques devolvidos, que foram assim retraídos. O número de cheques retraídos é conhecido, pois o dispositivo conseguiu contá-los."
+    },
+    "CQRT": {
+      "name": "Cheques retidos",
+      "definition": "Os cheques foram retidos pelo terminal por este não ter conseguido devolvê-los."
+    },
+    "DCRT": {
+      "name": "Depósitos retidos",
+      "definition": "O numerário foi retido pelo terminal por este não ter conseguido devolvê-lo."
+    },
+    "RSTR": {
+      "name": "Reinício",
+      "definition": "O ATM foi reiniciado."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "isoType": "SecuritiesEntryType2Code",
+  "definition": "Especifica o tipo de lançamento de valores mobiliários numa conta.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqueado",
+      "definition": "Saldo de valores mobiliários bloqueados ou congelados. Um instrumento financeiro pode estar indisponível devido a circunstâncias externas, como uma decisão judicial, o falecimento do beneficiário ou do titular da conta, ou a falência."
+    },
+    "ELIG": {
+      "name": "Elegível",
+      "definition": "Número total de valores mobiliários elegíveis para este evento."
+    },
+    "PEND": {
+      "name": "Entrega pendente",
+      "definition": "Saldo de valores mobiliários pendentes de entrega."
+    },
+    "PENR": {
+      "name": "Receção pendente",
+      "definition": "Saldo de valores mobiliários pendentes de receção."
+    },
+    "NOMI": {
+      "name": "Nominativo",
+      "definition": "Saldo de valores mobiliários registados (em nome de um mandatário ou do beneficiário efetivo)."
+    },
+    "SETD": {
+      "name": "Liquidado",
+      "definition": "Saldo de valores mobiliários que representa apenas operações liquidadas."
+    },
+    "BORR": {
+      "name": "Tomado de empréstimo",
+      "definition": "Saldo de valores mobiliários que foram tomados de empréstimo a outra parte."
+    },
+    "LOAN": {
+      "name": "Emprestado",
+      "definition": "Saldo de valores mobiliários que foram cedidos por empréstimo a um terceiro."
+    },
+    "SPOS": {
+      "name": "Posição em nome do intermediário",
+      "definition": "Saldo de valores mobiliários que permanecem registados em nome do anterior beneficiário efetivo dos valores mobiliários."
+    },
+    "TRAD": {
+      "name": "Negociado",
+      "definition": "Saldo de valores mobiliários que representa operações negociadas."
+    },
+    "COLI": {
+      "name": "Garantia recebida",
+      "definition": "Saldo de valores mobiliários que pertencem a um terceiro e que são detidos para efeitos de constituição de garantia."
+    },
+    "COLO": {
+      "name": "Garantia entregue",
+      "definition": "Saldo de valores mobiliários que pertencem à conta de guarda indicada nesta mensagem e que estão depositados junto de um terceiro para efeitos de constituição de garantia."
+    },
+    "UNBA": {
+      "name": "Saldo sem instruções",
+      "definition": "Saldo da posição não instruída."
+    },
+    "INBA": {
+      "name": "Saldo com instruções",
+      "definition": "Saldo da posição instruída."
+    },
+    "REGO": {
+      "name": "Em registo",
+      "definition": "Saldo de valores mobiliários atualmente em tratamento pela instituição responsável pelo registo do novo beneficiário efetivo (ou mandatário) dos valores mobiliários após a liquidação de uma operação."
+    }
+  }
+}

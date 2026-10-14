@@ -1,0 +1,24 @@
+{
+  "isoType": "ReservationSearchCriteria6",
+  "definition": "Define os critérios utilizados para pesquisar uma reserva.",
+  "isoElements": {
+    "DateTime": {
+      "definition": "Padrões para pesquisar uma data e hora."
+    },
+    "SystemIdentification": {
+      "definition": "Identificação de um sistema de compensação de numerário específico."
+    },
+    "DefaultReservationType": {
+      "definition": "Tipo de reserva definido por defeito no sistema. A reserva por defeito é aplicável pelo sistema, salvo instrução em contrário."
+    },
+    "CurrentReservationType": {
+      "definition": "Tipo de reserva aplicado pelo sistema no momento atual."
+    },
+    "AccountOwner": {
+      "definition": "Titular da conta que é objeto da consulta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    }
+  }
+}

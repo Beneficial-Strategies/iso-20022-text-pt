@@ -1,0 +1,70 @@
+{
+  "isoType": "RejectionReason12Code",
+  "definition": "Especifica o motivo da rejeição de uma instrução de desativação.",
+  "isoCodes": {
+    "DEAC": {
+      "name": "Evento já desativado",
+      "definition": "Rejeitada porque a desativação do evento já está concluída."
+    },
+    "FAIL": {
+      "name": "Validação falhada",
+      "definition": "A validação do aviso/instrução/pedido falhou."
+    },
+    "SAME": {
+      "name": "Mesma identificação CA",
+      "definition": "Já existe uma Agent Corporate Action Deactivation Instruction com a mesma identificação."
+    },
+    "REFI": {
+      "name": "Identificação de ação societária inválida",
+      "definition": "Foi fornecida uma identificação de ação societária inválida."
+    },
+    "AGIN": {
+      "name": "Agente inválido",
+      "definition": "Identificação de agente fornecida inválida."
+    },
+    "MAIN": {
+      "name": "Não é o agente principal",
+      "definition": "A identificação do agente especificada não corresponde ao agente principal do evento associado."
+    },
+    "OPTI": {
+      "name": "Opção inválida",
+      "definition": "Combinação inválida do código de opção de ação societária e do número de opção de ação societária (CA)."
+    },
+    "PEDA": {
+      "name": "Desativação pendente",
+      "definition": "A opção de ação societária especificada já tem uma instrução de desativação pendente."
+    },
+    "NORO": {
+      "name": "Sem opção remanescente",
+      "definition": "A ação societária especificada não tem opções restantes a desativar."
+    },
+    "INET": {
+      "name": "Tipo de evento inválido",
+      "definition": "O CA Event Type não corresponde à operação sobre títulos a que se refere."
+    },
+    "INUS": {
+      "name": "Valor mobiliário subjacente inválido",
+      "definition": "A Underlying Security Identification não corresponde à Corporate Action Reference fornecida."
+    },
+    "INPT": {
+      "name": "Tipo de tratamento de evento inválido",
+      "definition": "O Event Processing Type não corresponde à operação sobre títulos a que se refere."
+    },
+    "INMV": {
+      "name": "Tipo de evento obrigatório/voluntário inválido",
+      "definition": "O Mandatory/Voluntary Event Type não corresponde à operação sobre títulos a que se refere."
+    },
+    "SAID": {
+      "name": "Mesma identificação",
+      "definition": "Várias mensagens com a mesma identificação."
+    },
+    "MICA": {
+      "name": "Identificação CA não coincidente",
+      "definition": "A Issuer CA Identification não corresponde à Corporate Action Identification fornecida."
+    },
+    "NOAP": {
+      "name": "Não aplicável",
+      "definition": "Este tipo de instrução não é aplicável a eventos obrigatórios."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Limit2",
+  "definition": "Especifica o valor mínimo dos lançamentos a comunicar na mensagem solicitada.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante mínimo das operações a incluir na mensagem solicitada."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o limite mínimo se aplica a lançamentos a crédito, a débito ou a ambos."
+    }
+  }
+}

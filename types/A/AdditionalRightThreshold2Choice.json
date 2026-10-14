@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalRightThreshold2Choice",
+  "definition": "Escolha do limiar de direito adicional.",
+  "isoElements": {
+    "AdditionalRightThreshold": {
+      "definition": "Direito adicional concedido para especificar a participação mínima no capital social, o valor em numerário ou o número de detentores de valores mobiliários necessários para apresentar deliberações."
+    },
+    "AdditionalRightThresholdPercentage": {
+      "definition": "Direito adicional concedido para especificar a participação mínima no capital social, o valor em numerário ou o número de detentores de valores mobiliários necessários para apresentar deliberações. Este mínimo é expresso em percentagem."
+    }
+  }
+}

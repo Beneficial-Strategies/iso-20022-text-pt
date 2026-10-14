@@ -1,0 +1,14 @@
+{
+  "isoType": "InvestmentAccountCategory1Code",
+  "definition": "Especifica a categoria da conta de investimento.",
+  "isoCodes": {
+    "MAND": {
+      "name": "Conta de mandato",
+      "definition": "A conta é gerida integralmente pela instituição financeira, ou seja, o investidor confere um «mandato» à instituição financeira para executar, em seu nome, uma estratégia de investimento acordada de comum acordo."
+    },
+    "RETA": {
+      "name": "Conta de retalho",
+      "definition": "A conta é uma conta normal gerida pelo investidor. O investidor emite instruções para a conta à instituição financeira."
+    }
+  }
+}

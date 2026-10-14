@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionCashMovements2",
+  "definition": "Fornece informações sobre o movimento de numerário resultante da instrução de eleição.",
+  "isoElements": {
+    "PostingIdentification": {
+      "definition": "Identificação do lançamento do movimento de numerário."
+    },
+    "PostingDateTime": {
+      "definition": "Data de lançamento do movimento de numerário."
+    },
+    "PostingAmount": {
+      "definition": "Montante lançado em resultado do movimento de numerário."
+    },
+    "AccountDetails": {
+      "definition": "Fornece informações sobre a conta debitada/creditada em resultado do movimento."
+    }
+  }
+}

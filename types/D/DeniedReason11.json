@@ -1,0 +1,12 @@
+{
+  "isoType": "DeniedReason11",
+  "definition": "Especifica o motivo pelo qual o pedido ou a instrução foi recusado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual o pedido tem o estado recusado."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser fornecidas num campo estruturado."
+    }
+  }
+}

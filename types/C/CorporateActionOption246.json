@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionOption246",
+  "definition": "Fornece informações sobre a opção de operação sobre títulos.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Fornece informações sobre o movimento de valores mobiliários associado à opção de operação sobre títulos."
+    },
+    "CashMovementDetails": {
+      "definition": "Fornece informações sobre o movimento de numerário relacionado com uma opção de operação sobre ativos."
+    }
+  }
+}

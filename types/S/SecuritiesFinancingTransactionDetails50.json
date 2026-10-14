@@ -1,0 +1,45 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails50",
+  "definition": "Detalhes do encerramento da operação de financiamento através de valores mobiliários.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "definition": "Identificação inequívoca da operação de financiamento através de valores mobiliários subjacente, atribuída pela parte instrutora. A identificação é comum a todas as parcelas de garantia (uma ou várias)."
+    },
+    "ClosingLegIdentification": {
+      "definition": "Identificação inequívoca da segunda perna da operação, conforme conhecida pelo titular da conta (ou pela parte instrutora que age em seu nome)."
+    },
+    "TerminationDate": {
+      "definition": "Data/hora de encerramento ou data/hora de vencimento da operação."
+    },
+    "RateType": {
+      "definition": "Especifica se a taxa é fixa ou variável."
+    },
+    "LegalFramework": {
+      "definition": "Enquadramento jurídico da operação."
+    },
+    "MaturityDateModification": {
+      "definition": "Indica se a data de vencimento da operação de financiamento através de valores mobiliários pode ser modificada."
+    },
+    "InterestPayment": {
+      "definition": "Indica se os juros devem ser pagos ao beneficiário da garantia. Se for definido como não, os juros são pagos ao prestador da garantia."
+    },
+    "VariableRateSupport": {
+      "definition": "Índice ou taxa de suporte utilizada em conjunto com o diferencial para calcular a taxa de recompra."
+    },
+    "RepurchaseRate": {
+      "definition": "Taxa a utilizar para recalcular o montante da recompra."
+    },
+    "TransactionCallDelay": {
+      "definition": "Número mínimo de dias de pré-aviso de que uma contraparte necessita para pôr termo à operação."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Montante de juros que se venceram entre os períodos de pagamento de cupões."
+    },
+    "TerminationTransactionAmount": {
+      "definition": "Montante total a liquidar para pôr termo à operação."
+    },
+    "SecondLegNarrative": {
+      "definition": "Fornece informações adicionais sobre a segunda perna em forma narrativa."
+    }
+  }
+}

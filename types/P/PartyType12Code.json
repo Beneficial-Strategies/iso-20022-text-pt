@@ -1,0 +1,34 @@
+{
+  "isoType": "PartyType12Code",
+  "definition": "Tipo de entidade identificada.",
+  "isoCodes": {
+    "ACQR": {
+      "name": "Adquirente",
+      "definition": "Entidade que adquire operações com cartões."
+    },
+    "ATMG": {
+      "name": "Gestor do ATM",
+      "definition": "Entidade que gere o ATM."
+    },
+    "CISP": {
+      "name": "Processador do emissor do cartão",
+      "definition": "Entidade que presta serviços de processamento de pagamentos com cartão de emissão em nome de um emitente."
+    },
+    "DLIS": {
+      "name": "Emissor delegado",
+      "definition": "Parte a quem o emitente do cartão delega a autorização das operações de pagamento com cartão."
+    },
+    "HSTG": {
+      "name": "Entidade de alojamento",
+      "definition": "Entidade que aloja o ATM."
+    },
+    "ITAG": {
+      "name": "Instituição intermediária",
+      "definition": "Parte que atua em nome de outras partes para processar ou reencaminhar dados a outras partes."
+    },
+    "OATM": {
+      "name": "ATM de origem",
+      "definition": "ATM que inicia a operação."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitOrError4Choice",
+  "definition": "Escolha entre os detalhes do limite de gestão de risco ou um erro de negócio quando os dados pedidos não podem ser obtidos.",
+  "isoElements": {
+    "Limit": {
+      "definition": "Informações pedidas sobre o limite."
+    },
+    "BusinessError": {
+      "definition": "Motivo pelo qual as informações funcionais solicitadas não são fornecidas."
+    }
+  }
+}

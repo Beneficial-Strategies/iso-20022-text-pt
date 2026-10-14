@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingCancellationReason7Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o motivo pelo qual um pedido de cancelamento enviado para a instrução em causa está pendente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo de pendência especificado sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Motivo de pendência especificado sob a forma de código proprietário."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "BusinessDaySearchCriteria2",
+  "definition": "Define os critérios utilizados para pesquisar informações sobre o dia útil do sistema.",
+  "isoElements": {
+    "SystemDate": {
+      "definition": "Data a que se refere a informação de disponibilidade."
+    },
+    "SystemIdentification": {
+      "definition": "Identificação única e inequívoca do sistema, atribuída pelo administrador do sistema."
+    },
+    "SystemCurrency": {
+      "definition": "Moeda que pode ser processada pelo sistema. Um sistema pode processar operações numa única moeda ou em várias moedas."
+    },
+    "EventType": {
+      "definition": "Natureza do evento ocorrido."
+    },
+    "ClosurePeriod": {
+      "definition": "Período de tempo durante o qual o sistema está encerrado/não está em funcionamento."
+    }
+  }
+}

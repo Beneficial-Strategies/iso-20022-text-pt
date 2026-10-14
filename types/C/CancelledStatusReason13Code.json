@@ -1,0 +1,46 @@
+{
+  "isoType": "CancelledStatusReason13Code",
+  "definition": "Especifica o motivo subjacente ao cancelamento da operação associada.",
+  "isoCodes": {
+    "CANI": {
+      "name": "Cancelado por si",
+      "definition": "A operação é cancelada por si."
+    },
+    "CANS": {
+      "name": "Cancelado pelo sistema",
+      "definition": "A operação é cancelada pelo sistema."
+    },
+    "CSUB": {
+      "name": "Cancelado pelo agente",
+      "definition": "A instrução foi cancelada pelo agente devido a uma prorrogação do prazo do evento."
+    },
+    "CXLR": {
+      "name": "Fim de vida",
+      "definition": "A operação é rejeitada pela parte executante; a rejeição é definitiva, pelo que a ordem é cancelada no sistema."
+    },
+    "CANT": {
+      "name": "Cancelado devido a transformação",
+      "definition": "A operação original foi cancelada e substituída devido a um evento societário."
+    },
+    "CANZ": {
+      "name": "Cancelado por divisão em liquidação parcial",
+      "definition": "A operação original foi cancelada e substituída para permitir uma liquidação parcial ou fracionada."
+    },
+    "CORP": {
+      "name": "Cancelado devido a operação sobre títulos",
+      "definition": "A operação foi cancelada devido a um evento societário."
+    },
+    "SCEX": {
+      "name": "Valores mobiliários já não elegíveis",
+      "definition": "A operação foi cancelada; o valor mobiliário deixou de existir ou deixou de ser elegível no mercado instruído. Para cancelamentos relacionados com eventos societários, deve ser utilizado CORP."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "CTHP": {
+      "name": "Cancelado por terceiros",
+      "definition": "A instrução é cancelada por um terceiro."
+    }
+  }
+}

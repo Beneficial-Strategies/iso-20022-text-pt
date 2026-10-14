@@ -1,0 +1,29 @@
+{
+  "isoType": "CorrespondenceNotification1",
+  "definition": "Especifica os detalhes de uma notificação, incluindo a sua identificação e o seu tipo.",
+  "isoElements": {
+    "SenderNotificationIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pelo remetente e enviada ao destinatário para identificar de forma inequívoca a notificação.||Utilização: o remetente tem de garantir que SenderNotificationIdentification é única por destinatário durante um período previamente acordado."
+    },
+    "NotificationType": {
+      "definition": "Identifica o tipo de notificação e a que se refere o conteúdo da mensagem."
+    },
+    "NotificationSubType": {
+      "definition": "Subtipo de uma notificação.||Utilização: o elemento de subtipo de notificação pode ser utilizado para identificar um departamento dentro de uma parte a quem a notificação pode ser dirigida, para efeitos de encaminhamento. Só deve ser utilizado quando o tipo de notificação possa logicamente ser dirigido a diferentes departamentos dentro de uma parte, por exemplo, os termos e condições da conta."
+    },
+    "NotificationNarrative": {
+      "definition": "Fornece informações sobre a notificação em forma narrativa."
+    },
+    "EnclosedFile": {
+      "definition": "Documento anexado à mensagem, como os termos e condições da conta.||Utilização: a utilização do elemento EnclosedFile tem de ser acordada bilateralmente."
+    },
+    "RelatedNotificationData": {
+      "definition": "Informações adicionais relacionadas com a notificação que serão enviadas ou disponibilizadas separadamente, como os termos e condições da conta."
+    }
+  },
+  "isoRules": {
+    "NotificationNarrativeOrEnclosedFilePresenceRule": {
+      "definition": "NotificationNarrative tem de estar presente ou EnclosedFile tem de estar presente. Ambos podem estar presentes."
+    }
+  }
+}

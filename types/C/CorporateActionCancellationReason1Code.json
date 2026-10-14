@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionCancellationReason1Code",
+  "definition": "Especifica os motivos de cancelamento de um evento de operação sobre ativos.",
+  "isoCodes": {
+    "WITH": {
+      "name": "Levantamento",
+      "definition": "Cancelamento devido ao cancelamento do evento de operação sobre ativos pelo emitente."
+    },
+    "PROC": {
+      "name": "Processamento",
+      "definition": "Cancelamento devido a um erro de tratamento."
+    }
+  }
+}

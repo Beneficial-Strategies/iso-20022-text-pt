@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentification269",
+  "definition": "Identificação de uma parte.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Nome e morada da parte."
+    },
+    "EmailAddress": {
+      "definition": "Endereço de correio eletrónico (e-mail)."
+    },
+    "Identification": {
+      "definition": "Identificação da parte."
+    },
+    "CompanyRegisterShareholderIdentification": {
+      "definition": "Identificação do acionista no registo de ações da sociedade."
+    },
+    "CountryOfIncorporation": {
+      "definition": "País em que a sociedade está constituída ou legalmente registada."
+    }
+  }
+}

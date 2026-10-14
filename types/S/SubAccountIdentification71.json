@@ -1,0 +1,41 @@
+{
+  "isoType": "SubAccountIdentification71",
+  "definition": "Conta a ou de que é efetuado um lançamento de valores mobiliários.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Endereço blockchain ou carteira onde os ativos digitais são mantidos. É o equivalente da conta de custódia para os ativos digitais."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica se o extrato comunica atividade ou atualização de informação."
+    },
+    "BalanceForSubAccount": {
+      "definition": "Posição líquida de uma detenção segregada, num único valor mobiliário, no âmbito da posição global detida numa subconta de valores mobiliários."
+    }
+  },
+  "isoRules": {
+    "SubSafekeepingReportingRule": {
+      "definition": "A utilização de relatórios consolidados numa conta de subcustódia deve ser acordada bilateralmente entre o remetente e o destinatário."
+    },
+    "ActivityAndBalanceForSubAccount1Rule": {
+      "definition": "Se ActivityIndicator for TRUE (Sim), então deve estar presente pelo menos uma ocorrência de BalanceForSubAccount."
+    },
+    "ActivityAndBalanceForSubAccount2Rule": {
+      "definition": "Se ActivityIndicator for FALSE (Não), então BalanceForSubAccount não deve estar presente."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    }
+  }
+}

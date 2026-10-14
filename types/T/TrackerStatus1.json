@@ -1,0 +1,18 @@
+{
+  "isoType": "TrackerStatus1",
+  "definition": "Fornece informações detalhadas sobre o estado da operação a atualizar no rastreador.",
+  "isoElements": {
+    "Status": {
+      "definition": "Especifica o estado de uma operação, em forma codificada."
+    },
+    "Date": {
+      "definition": "Data do estado."
+    },
+    "StatusReason": {
+      "definition": "Fornece informações pormenorizadas sobre o motivo do estado."
+    },
+    "RejectReturnReason": {
+      "definition": "Fornece informações detalhadas sobre o motivo da devolução."
+    }
+  }
+}

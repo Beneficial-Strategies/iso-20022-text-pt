@@ -1,0 +1,12 @@
+{
+  "isoType": "AggregateHoldingBalance3",
+  "definition": "Posição global, num único instrumento financeiro, detida numa conta de valores mobiliários num determinado local de custódia.",
+  "isoElements": {
+    "BalanceForAccount": {
+      "definition": "Relatório sobre a posição líquida de um instrumento financeiro na subconta, para uma determinada data."
+    },
+    "Agent": {
+      "definition": "Agente do instrumento financeiro, por exemplo, um intermediário da negociação."
+    }
+  }
+}

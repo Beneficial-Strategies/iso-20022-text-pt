@@ -1,0 +1,21 @@
+{
+  "isoType": "BillingServicesTax1",
+  "definition": "Prevê os impostos regionais sobre o serviço.",
+  "isoElements": {
+    "Number": {
+      "definition": "Número de identificação do imposto regional específico utilizado para calcular o imposto."
+    },
+    "Description": {
+      "definition": "Nome utilizado para descrever o imposto (por exemplo, o imposto nacional sobre o valor acrescentado)."
+    },
+    "Rate": {
+      "definition": "Taxa utilizada para calcular o imposto."
+    },
+    "HostAmount": {
+      "definition": "Montante da obrigação fiscal expresso na moeda de origem da região fiscal."
+    },
+    "PricingAmount": {
+      "definition": "Montante da obrigação fiscal expresso na moeda de tarifação da região fiscal."
+    }
+  }
+}

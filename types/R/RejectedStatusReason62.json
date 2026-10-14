@@ -1,0 +1,17 @@
+{
+  "isoType": "RejectedStatusReason62",
+  "definition": "Motivo do estado de instrução rejeitada.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Motivo do estado rejeitado."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informações adicionais sobre o estado de rejeição."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "O elemento AdditionalReasonInformation não pode conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral."
+    }
+  }
+}

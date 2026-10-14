@@ -1,0 +1,21 @@
+{
+  "isoType": "EventInformation18",
+  "definition": "Fornece informações sobre um evento de uma operação sobre ativos.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "definition": "Referência atribuída pela instituição gestora da conta para identificar inequivocamente um evento de operação sobre títulos."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Fornece a referência do evento oficial ligado da operação sobre ativos."
+    },
+    "EventType": {
+      "definition": "Tipo de evento de operação sobre títulos."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Especifica se o evento é obrigatório, obrigatório com opções ou voluntário."
+    },
+    "LastNotificationIdentification": {
+      "definition": "Fornece informações sobre a identificação da última notificação."
+    }
+  }
+}

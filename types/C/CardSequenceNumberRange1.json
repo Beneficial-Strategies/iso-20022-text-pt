@@ -1,0 +1,12 @@
+{
+  "isoType": "CardSequenceNumberRange1",
+  "definition": "Intervalo de números de sequência relativos a operações com cartão.",
+  "isoElements": {
+    "FirstTransaction": {
+      "definition": "CardSequenceNumberRange1: o elemento de mensagem FirstTransactionSequenceNumberMessage será finalizado após receção do retorno do Card SEG."
+    },
+    "LastTransaction": {
+      "definition": "CardSequenceNumberRange1: o elemento de mensagem LastTransactionSequenceNumberMessage será finalizado após receção do retorno do Card SEG."
+    }
+  }
+}

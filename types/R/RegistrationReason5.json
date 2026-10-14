@@ -1,0 +1,12 @@
+{
+  "isoType": "RegistrationReason5",
+  "definition": "Motivo do registo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo do estado de retenção."
+    },
+    "AdditionalInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser fornecidas num campo estruturado."
+    }
+  }
+}

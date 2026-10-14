@@ -1,0 +1,119 @@
+{
+  "isoType": "FinancialInstrument112",
+  "definition": "Identificação de um valor mobiliário ou de outro ativo.",
+  "isoElements": {
+    "LineIdentification": {
+      "definition": "Identificação da linha de posição na carteira."
+    },
+    "Instrument": {
+      "definition": "Identificação do ativo."
+    },
+    "Quantity": {
+      "definition": "Quantidade de ativos transferida."
+    },
+    "PartialInstructedQuantity": {
+      "definition": "Indica que a quantidade de ativos transferida é uma quantidade parcialmente instruída."
+    },
+    "OriginalPercentageInstructed": {
+      "definition": "Taxa percentual de ativos transferidos, conforme originalmente instruída."
+    },
+    "TransferType": {
+      "definition": "Especifica o modo como os instrumentos financeiros foram transferidos."
+    },
+    "AdditionalAsset": {
+      "definition": "Indica que o ativo é um ativo novo, não identificado anteriormente pela parte cedente (parte transferidora) no processo de descoberta das posições da conta."
+    },
+    "NotAvailable": {
+      "definition": "Indica que o ativo deixou de estar disponível junto da parte cedente (parte transferidora)."
+    },
+    "Conversion": {
+      "definition": "Os valores mobiliários foram convertidos a partir de outros valores mobiliários antes da transferência."
+    },
+    "UnitsDetails": {
+      "definition": "Discriminação das unidades."
+    },
+    "ClientReference": {
+      "definition": "Identificação única e inequívoca da transferência pelo investidor. Esta referência pode normalmente ser utilizada num cenário de plataforma central (hub) para indicar a referência da transferência atribuída pelo cliente subjacente."
+    },
+    "CounterpartyReference": {
+      "definition": "Identificação inequívoca da transferência atribuída pela contraparte."
+    },
+    "BusinessFlowType": {
+      "definition": "Processo de negócio em que os intervenientes estão envolvidos. Tal facilitará o desencadeamento do processo de negócio adequado, de acordo com o modelo de negócio do mercado, que pode exigir a correspondência de instruções (processo de dupla perna) ou não (processo de perna única)."
+    },
+    "AverageAcquisitionPrice": {
+      "definition": "Custo médio por ação do valor mobiliário, incluindo todas as comissões."
+    },
+    "TransferCurrency": {
+      "definition": "Moeda a utilizar para transferir as posições. Alguns agentes de transferência registam as posições agrupadas por moeda, além de utilizarem o ISIN para as unidades de participação de fundos multimoeda."
+    },
+    "TotalBookValue": {
+      "definition": "Ativo líquido no balanço, ou seja, o valor total da carteira menos ou mais o ganho ou a perda não realizados."
+    },
+    "OriginalCost": {
+      "definition": "Montante original pago pelo ativo no momento da compra. Pode também ser designado por custo contabilístico."
+    },
+    "LatestValuation": {
+      "definition": "Data e valor de mercado do ativo."
+    },
+    "TransfereeAccount": {
+      "definition": "Conta detida em nome da parte que não é o nome do proprietário efetivo das ações.|(Parte e conta em que o cessionário recebeu o instrumento financeiro do cedente.)"
+    },
+    "Transferor": {
+      "definition": "Parte e conta a partir das quais o cedente entregou o instrumento financeiro ao cessionário."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identificação de uma parte relacionada ou de um intermediário."
+    },
+    "RequestedTradeDate": {
+      "definition": "Data que foi solicitada como data de negociação quando os valores mobiliários são liquidados através de uma central internacional de valores mobiliários (ICSD) ou de uma central de valores mobiliários (CSD)."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Data em que os valores mobiliários deviam ser trocados na central internacional de valores mobiliários (ICSD) ou na central de valores mobiliários (CSD)."
+    },
+    "EffectiveTransferDate": {
+      "definition": "Data e hora em que a transferência foi executada."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários foram trocados no Depositário Central Internacional de Valores Mobiliários (ICSD) ou no Depositário Central de Valores Mobiliários (CSD)."
+    },
+    "PaymentDetails": {
+      "definition": "Processo de pagamento para a transferência de numerário do devedor para o credor."
+    },
+    "CrystallisationDetails": {
+      "definition": "Número de unidades que foram recebidas (cristalizadas) ou ainda não recebidas (não cristalizadas) do fundo. Tal é tipicamente relevante para um fundo de pensões."
+    },
+    "TaxValuationPoint": {
+      "definition": "Data ou trimestre fiscal utilizado para o cálculo do imposto sobre o ativo."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Cadeia de partes envolvidas na liquidação de uma operação."
+    },
+    "AssetsHeldInOwnName": {
+      "definition": "Indica se os ativos são detidos em nome próprio de um particular."
+    },
+    "TransferResultsInChangeOfBeneficialOwner": {
+      "definition": "Indica se a transferência resultou numa alteração do proprietário efetivo."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o instrumento financeiro."
+    }
+  },
+  "isoRules": {
+    "AssetQuantity1Guideline": {
+      "definition": "Se Instrument/Security estiver presente, então Quantity/Unit ou Quantity/FaceAmount ou Quantity/AmortisedValue têm de estar presentes."
+    },
+    "AssetQuantity2Guideline": {
+      "definition": "Se Instrument/CashAsset estiver presente, então Quantity/CashAmount tem de estar presente."
+    },
+    "EffectiveDatesGuideline": {
+      "definition": "Quando a confirmação de transferência de carteira é utilizada para confirmar a intenção de transferir, a data efetiva de transferência e a data efetiva de liquidação não são aplicáveis."
+    },
+    "Conversion1Rule": {
+      "definition": "Se TransferType/Code/CONV (Conversion) estiver presente, então Conversion tem de estar presente."
+    },
+    "Conversion2Rule": {
+      "definition": "Se TransferType/Code/CONV (Conversion) não estiver presente, então Conversion não é permitido."
+    }
+  }
+}

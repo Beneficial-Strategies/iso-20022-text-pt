@@ -1,0 +1,12 @@
+{
+  "isoType": "RatioFormat21Choice",
+  "definition": "Escolha de formato para expressar uma razão.",
+  "isoElements": {
+    "QuantityToQuantity": {
+      "definition": "Rácio expresso como quociente de quantidades."
+    },
+    "AmountToAmount": {
+      "definition": "Rácio expresso como quociente de montantes."
+    }
+  }
+}

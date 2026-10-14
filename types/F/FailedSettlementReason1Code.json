@@ -1,0 +1,34 @@
+{
+  "isoType": "FailedSettlementReason1Code",
+  "definition": "Especifica o motivo de uma falha de liquidação.",
+  "isoCodes": {
+    "CANE": {
+      "name": "Conta a crédito não elegível",
+      "definition": "A conta a creditar não é elegível."
+    },
+    "CADI": {
+      "name": "Conta a crédito desativada",
+      "definition": "A conta a creditar está desativada."
+    },
+    "DANE": {
+      "name": "Conta a débito não elegível",
+      "definition": "A conta a debitar não é elegível."
+    },
+    "AADI": {
+      "name": "Conta a débito desativada",
+      "definition": "A conta a debitar está desativada."
+    },
+    "INSE": {
+      "name": "Valores mobiliários insuficientes",
+      "definition": "Valores mobiliários insuficientes na conta para liquidar."
+    },
+    "INDI": {
+      "name": "Distribuição incompleta",
+      "definition": "A distribuição está incompleta."
+    },
+    "INCA": {
+      "name": "Numerário insuficiente",
+      "definition": "Numerário insuficiente na conta para liquidar."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "AccountingStatementOfHoldings2",
+  "definition": "Informações sobre um extrato contabilístico de posições.",
+  "isoElements": {
+    "StatementGeneralDetails": {
+      "definition": "Informações gerais relativas ao extrato de posições de custódia que está a ser cancelado."
+    },
+    "AccountDetails": {
+      "definition": "A conta de custódia ou de investimento do extrato que está a ser cancelado."
+    },
+    "BalanceForAccount": {
+      "definition": "Posição líquida de uma detenção segregada, num único valor mobiliário, no âmbito da posição global detida numa conta de valores mobiliários."
+    },
+    "SubAccountDetails": {
+      "definition": "A subconta da conta de custódia ou de investimento."
+    },
+    "TotalValues": {
+      "definition": "Valor do total das posições reportadas."
+    },
+    "Extension": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "BalanceForAccountOrSubAccountDetailsRule": {
+      "definition": "Se StatementGeneralDetails/ActivityIndicator for \"true\" ou \"1\" (Sim), então BalanceForAccount ou SubAccountDetails é obrigatório. Se StatementGeneralDetails/ActivityIndicator for \"false\" ou \"0\" (Não), então BalanceForAccount e SubAccountDetails podem estar presentes."
+    }
+  }
+}

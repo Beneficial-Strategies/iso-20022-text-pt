@@ -1,0 +1,78 @@
+{
+  "isoType": "PendingReason27Code",
+  "definition": "Especifica o motivo pelo qual a instrução tem um estado pendente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "A instrução foi recebida após o prazo limite da instituição gestora da conta. Processada com o melhor esforço."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "FULL": {
+      "name": "Dados do beneficiário efetivo pendentes",
+      "definition": "A aguardar a receção dos dados do titular beneficiário."
+    },
+    "MCER": {
+      "name": "Certificação em falta",
+      "definition": "A aguardar a receção de certificação adequada."
+    },
+    "MONY": {
+      "name": "Fundos insuficientes",
+      "definition": "Fundos insuficientes na sua conta."
+    },
+    "LACK": {
+      "name": "Falta de valores mobiliários",
+      "definition": "Instrumentos financeiros insuficientes na sua conta."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "A instrução foi recebida após o prazo limite do mercado."
+    },
+    "DQUA": {
+      "name": "Desacordo quanto à quantidade",
+      "definition": "A quantidade de instrumentos financeiros não corresponde."
+    },
+    "PENR": {
+      "name": "Receção pendente",
+      "definition": "A instrução está pendente da receção de valores mobiliários, por exemplo, de uma compra ou de um empréstimo."
+    },
+    "CERT": {
+      "name": "Números de certificados incorretos",
+      "definition": "Erro no número do certificado."
+    },
+    "DQCS": {
+      "name": "Desacordo quanto ao montante em numerário",
+      "definition": "Montante em numerário instruído não reconhecido ou inválido."
+    },
+    "ITAX": {
+      "name": "Taxa de imposto incorreta",
+      "definition": "A taxa de imposto fornecida está incorreta. Está fora dos valores aceitáveis para esse país de investimento."
+    },
+    "NTAX": {
+      "name": "Taxa de imposto inconsistente",
+      "definition": "A taxa de imposto não é coerente com a documentação existente."
+    },
+    "MTAX": {
+      "name": "Taxa de imposto em falta",
+      "definition": "A taxa de imposto está em falta."
+    },
+    "SNAV": {
+      "name": "Sistema não disponível",
+      "definition": "O sistema não está disponível. A instrução é enviada fora do horário de funcionamento."
+    },
+    "BSTR": {
+      "name": "Antes do período de instrução",
+      "definition": "A instrução é submetida antes da data de início da instrução."
+    },
+    "IPAW": {
+      "name": "Documentação inválida",
+      "definition": "A documentação exigida é inválida, incompleta ou está em falta."
+    },
+    "IPED": {
+      "name": "Instrução anterior à data do direito",
+      "definition": "A instrução foi recebida antes da data de direito."
+    }
+  }
+}

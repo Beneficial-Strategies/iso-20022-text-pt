@@ -1,0 +1,30 @@
+{
+  "isoType": "InvestmentFundTransactionsByFund2",
+  "definition": "Operações de fundos de investimento relativas a um instrumento financeiro específico.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação de um valor mobiliário por um ISIN."
+    },
+    "Name": {
+      "definition": "Nome do instrumento financeiro em texto de formato livre."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Informações adicionais sobre um instrumento financeiro para ajudar a identificá-lo."
+    },
+    "SecuritiesForm": {
+      "definition": "Forma, isto é, propriedade, do valor mobiliário, por exemplo, nominativo ou ao portador."
+    },
+    "ClassType": {
+      "definition": "Caraterísticas das unidades oferecidas por um fundo. Por exemplo, uma unidade pode ter uma estrutura de comissões específica, por exemplo, de subscrição ou de resgate, uma política de rendimentos, por exemplo, distribuição ou acumulação, ou uma política de comissão de gestão contínua, por exemplo, com ou sem. As classes de fundos são tipicamente designadas por um único carater, por exemplo, 'Classe A', 'Classe 2'."
+    },
+    "DistributionPolicy": {
+      "definition": "Política de rendimentos relativa a um tipo de classe, isto é, se o rendimento é distribuído ou retido no fundo."
+    },
+    "TransactionDetails": {
+      "definition": "Processo de compra, venda, troca ou transferência de unidades de participação de fundos."
+    },
+    "BalanceByPage": {
+      "definition": "Saldo do instrumento financeiro para esta página específica do extrato."
+    }
+  }
+}

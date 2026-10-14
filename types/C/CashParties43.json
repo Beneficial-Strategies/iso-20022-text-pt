@@ -1,0 +1,15 @@
+{
+  "isoType": "CashParties43",
+  "definition": "Especifica as partes de numerário no âmbito de um evento de operação sobre ativos.",
+  "isoElements": {
+    "Creditor": {
+      "definition": "Parte a quem é devido um montante em dinheiro."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    },
+    "MarketClaimCounterparty": {
+      "definition": "Parte que reembolsou o titular da conta com fundos a que tinha legalmente direito."
+    }
+  }
+}

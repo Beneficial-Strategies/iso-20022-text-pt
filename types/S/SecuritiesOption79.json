@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesOption79",
+  "definition": "Especifica as quantidades de valores mobiliários para a instrução relativa à operação sobre títulos.",
+  "isoElements": {
+    "ConditionalQuantity": {
+      "definition": "Quantidade mínima de valores mobiliários a aceitar (utilizada no âmbito de um privilégio condicional na escolha). Em caso de rateio, se esta quantidade mínima não for atingida, a instrução é nula."
+    },
+    "InstructedQuantity": {
+      "definition": "Quantidade de valores mobiliários a que esta instrução se aplica."
+    },
+    "AdditionalRoundUpQuantity": {
+      "definition": "Quantidade de ações adicionais solicitadas devido à diferença na prática de «arredondamento por excesso mediante pagamento» entre o prestador de serviços de conta e o titular da conta (por exemplo, para a opção de dividendo francesa)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason57",
+  "definition": "Especifica o motivo pelo qual a instrução ou o pedido tem o estado de rejeitado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo fornecido para o estado."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser fornecidas num campo estruturado."
+    }
+  }
+}

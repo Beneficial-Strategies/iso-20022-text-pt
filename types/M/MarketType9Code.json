@@ -1,0 +1,26 @@
+{
+  "isoType": "MarketType9Code",
+  "definition": "Especifica o tipo de local onde uma negociação foi executada, de onde um preço foi obtido ou onde um instrumento está cotado.",
+  "isoCodes": {
+    "FUND": {
+      "name": "Fundo",
+      "definition": "O local é um fundo (agente de transferência, o próprio fundo, etc.)."
+    },
+    "LMAR": {
+      "name": "Mercado local",
+      "definition": "O local é um mercado local."
+    },
+    "THEO": {
+      "name": "Teórico",
+      "definition": "O local é teórico."
+    },
+    "VEND": {
+      "name": "Fornecedor",
+      "definition": "O local é um fornecedor de dados."
+    },
+    "SCAS": {
+      "name": "Sistema automatizado de preços por contrato inteligente",
+      "definition": "A fonte da cotação do preço é um sistema automatizado de determinação de preços por contrato inteligente."
+    }
+  }
+}

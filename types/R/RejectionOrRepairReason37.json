@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionOrRepairReason37",
+  "definition": "Motivo do estado de rejeição ou reparação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução/pedido tem o estado rejeitado ou em reparação."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser fornecidas num campo estruturado."
+    }
+  }
+}

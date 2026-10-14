@@ -1,0 +1,30 @@
+{
+  "isoType": "CancellationProcessingStatus3Code",
+  "definition": "Especifica o estado de um pedido de cancelamento.",
+  "isoCodes": {
+    "CANP": {
+      "name": "Cancelamento pendente",
+      "definition": "O cancelamento está pendente. Não é possível saber, neste momento, se o cancelamento pode ser efetuado."
+    },
+    "REJT": {
+      "name": "Rejeitado",
+      "definition": "O cancelamento foi rejeitado para processamento adicional."
+    },
+    "REPR": {
+      "name": "Em reparação",
+      "definition": "O pedido de cancelamento está em reparação."
+    },
+    "PACK": {
+      "name": "Aceite",
+      "definition": "O pedido de cancelamento foi reconhecido para processamento adicional pela instituição gestora da conta."
+    },
+    "DEND": {
+      "name": "Recusado",
+      "definition": "O cancelamento não será executado."
+    },
+    "CAND": {
+      "name": "Cancelamento concluído",
+      "definition": "O cancelamento foi concluído."
+    }
+  }
+}

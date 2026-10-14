@@ -1,0 +1,53 @@
+{
+  "isoType": "Status19Choice",
+  "definition": "Escolha de estado.",
+  "isoElements": {
+    "AffirmationStatus": {
+      "definition": "Estado de afirmação de uma negociação."
+    },
+    "AllocationStatus": {
+      "definition": "Fornece o estado da atribuição de garantias para cobrir a instrução."
+    },
+    "RepoCallRequestStatus": {
+      "definition": "Fornece o estado do pedido de resgate de acordo de recompra."
+    },
+    "CorporateActionEventProcessingStatus": {
+      "definition": "Fornece o estado de uma operação sobre títulos ou o estado de um pagamento."
+    },
+    "CorporateActionEventStage": {
+      "definition": "Fase do ciclo de vida do evento de operação sobre títulos."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Fornece o estado de correspondência de uma instrução conforme conhecido pela entidade gestora da conta com base numa alegação. Nesta altura não houve correspondência no mercado (na CSD/ICSD)."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Indica o estado de uma instrução."
+    },
+    "MatchingStatus": {
+      "definition": "Fornece o estado de correspondência da instrução."
+    },
+    "RegistrationProcessingStatus": {
+      "definition": "Fornece o estado do processamento do registo."
+    },
+    "ResponseStatus": {
+      "definition": "Fornece o estado da mensagem de garantia recebida (pedido de garantia, proposta de garantia ou proposta/pedido de substituição de garantia) numa perspetiva de gestão de garantias."
+    },
+    "ReplacementProcessingStatus": {
+      "definition": "Fornece o estado de processamento do pedido de substituição."
+    },
+    "CancellationProcessingStatus": {
+      "definition": "Fornece o estado de um pedido de cancelamento."
+    },
+    "SettlementStatus": {
+      "definition": "Fornece o estado da liquidação de uma operação."
+    },
+    "SettlementConditionModificationStatus": {
+      "definition": "Fornece o estado de um pedido de modificação de condição de liquidação de valores mobiliários."
+    }
+  },
+  "isoRules": {
+    "StatusRule": {
+      "definition": "Se for solicitado um estado específico, este tem de estar em conformidade com os estados disponíveis para o tipo de mensagem solicitado."
+    }
+  }
+}

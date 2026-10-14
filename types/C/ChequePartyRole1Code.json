@@ -1,0 +1,22 @@
+{
+  "isoType": "ChequePartyRole1Code",
+  "definition": "Especifica as funções das partes associadas a um cheque.",
+  "isoCodes": {
+    "DWEA": {
+      "name": "Instituição sacada",
+      "definition": "Especifica a instituição sobre a qual um cheque é sacado, isto é, a instituição financeira que gere a conta do beneficiário que emitiu o cheque."
+    },
+    "DWRA": {
+      "name": "Instituição do sacador",
+      "definition": "Especifica a instituição que gere a conta do pagador do cheque."
+    },
+    "PAYE": {
+      "name": "Beneficiário",
+      "definition": "Parte que recebe um montante em dinheiro conforme especificado no cheque."
+    },
+    "PAYR": {
+      "name": "Ordenante",
+      "definition": "Parte que emite um cheque ordenando à instituição sacada que pague, à vista, um montante determinado ao beneficiário."
+    }
+  }
+}

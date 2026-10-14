@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementDate20Choice",
+  "definition": "Escolha do formato da data de liquidação.",
+  "isoElements": {
+    "Date": {
+      "definition": "Data em formato ISO."
+    },
+    "DateCode": {
+      "definition": "Data e hora em que os valores mobiliários devem ser entregues ou recebidos."
+    }
+  }
+}

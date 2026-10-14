@@ -1,0 +1,30 @@
+{
+  "isoType": "FundCashInBreakdown3",
+  "definition": "Discriminação dos movimentos de caixa de entrada num fundo resultantes de operações sobre fundos de investimento, por exemplo, subscrições ou entradas por conversão.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante do fluxo de caixa de entrada, expresso como montante em dinheiro."
+    },
+    "UnitsNumber": {
+      "definition": "Montante do fluxo de caixa de entrada, expresso em número de unidades."
+    },
+    "NewAmountIndicator": {
+      "definition": "Indica se o fluxo de caixa é um item que não constava do relatório enviado anteriormente, por exemplo, por ter sido recebido perto da hora-limite."
+    },
+    "InvestmentFundTransactionInType": {
+      "definition": "Tipo de operação que deu origem ao movimento de entrada de caixa, por exemplo, subscrição, entrada por conversão."
+    },
+    "OriginalOrderQuantityType": {
+      "definition": "Especifica a forma como foi expressa a ordem original que deu origem ao movimento de entrada de caixa, isto é, em dinheiro ou em unidades."
+    },
+    "ChargeDetails": {
+      "definition": "Encargo pela colocação de uma ordem."
+    },
+    "CommissionDetails": {
+      "definition": "Informações relacionadas com a comissão aplicada a uma ordem, por exemplo, comissão de saída ou comissão de entrada."
+    },
+    "SettlementCurrency": {
+      "definition": "Moeda de liquidação da operação."
+    }
+  }
+}

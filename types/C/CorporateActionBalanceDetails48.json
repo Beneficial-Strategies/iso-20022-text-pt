@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionBalanceDetails48",
+  "definition": "Saldos de conta partilhados com o agente do emitente.",
+  "isoElements": {
+    "SecurityCalledAmount": {
+      "definition": "Montante total do valor mobiliário que foi resgatado para reembolso numa data de pagamento específica. Pode incluir saldos detidos fora do depositário."
+    },
+    "TotalAmountOutstanding": {
+      "definition": "Montante total em circulação do valor mobiliário subjacente, que pode ou não estar detido no depositário."
+    }
+  }
+}

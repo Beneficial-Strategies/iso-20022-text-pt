@@ -1,0 +1,54 @@
+{
+  "isoType": "ChargesRecord11",
+  "definition": "Fornece detalhes adicionais de registos individuais sobre os encargos relacionados com a operação de pagamento.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "definition": "Identificação única e inequívoca das informações de encargos para efeitos de reconciliação."
+    },
+    "RecordIdentification": {
+      "definition": "Identificação única e inequívoca do registo de encargos para efeitos de reconciliação."
+    },
+    "ChargesRequestor": {
+      "definition": "Instituição que solicita os encargos, se diferente do remetente."
+    },
+    "UnderlyingTransaction": {
+      "definition": "Identifica a(s) operação(ões) subjacente(s) a que os encargos se aplicam."
+    },
+    "Amount": {
+      "definition": "Montante dos encargos da operação a pagar pela parte responsável pelos encargos."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o montante dos encargos é um montante a crédito ou a débito. |Usage: Um montante zero é considerado um crédito."
+    },
+    "ValueDate": {
+      "definition": "Data e hora em que os encargos estão ou estarão disponíveis."
+    },
+    "Debtor": {
+      "definition": "Especifica o devedor da operação de pagamento inicial."
+    },
+    "DebtorAccount": {
+      "definition": "Especifica a conta do devedor da operação de pagamento inicial."
+    },
+    "DebtorAgent": {
+      "definition": "Especifica a instituição do devedor da operação de pagamento inicial, se diferente do titular da conta de encargos."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Especifica a conta da instituição do devedor da operação de pagamento inicial, quando a instituição instruidora é diferente do titular da conta de encargos."
+    },
+    "ChargesAccount": {
+      "definition": "Identifica a conta que foi debitada ou creditada pelos encargos, juros ou outros|ajustes."
+    },
+    "ChargesAccountOwner": {
+      "definition": "Instituição titular da conta de encargos."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de encargo."
+    },
+    "InstructionForInstructedAgent": {
+      "definition": "Informações adicionais relacionadas com o processamento da instrução de ajuste de pagamento, que podem exigir ação por parte da instituição seguinte."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalhes adicionais sobre o motivo dos encargos."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "isoType": "AdditionalInformation28",
+  "definition": "Critérios adicionais específicos de modificação.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificação da operação conforme conhecida pelo titular da conta. Será utilizada numa divisão unilateral para fornecer à parte executante a identificação, pelo titular da conta, de cada operação resultante da divisão."
+    },
+    "ClassificationType": {
+      "definition": "Tipo de instrumento envolvido nas operações às quais o pedido de modificação deve ser aplicado."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Endereço blockchain ou carteira onde os ativos digitais são mantidos. É o equivalente da conta de custódia para os ativos digitais."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificação do instrumento financeiro ao qual o pedido de modificação foi aplicado."
+    },
+    "Quantity": {
+      "definition": "Quantidade de instrumentos financeiros abrangida pelo pedido de modificação das condições de liquidação."
+    },
+    "EffectiveDate": {
+      "definition": "Data/hora a partir da qual o pedido deve produzir efeitos."
+    },
+    "ExpiryDate": {
+      "definition": "Data/hora a partir da qual o pedido deve deixar de produzir efeitos."
+    },
+    "CutOffDate": {
+      "definition": "Data/hora da libertação."
+    },
+    "Investor": {
+      "definition": "Parte, pessoa singular ou organização, cujos ativos estão a ser investidos."
+    },
+    "DeliveringParty1": {
+      "definition": "Parte que, numa cadeia de liquidação, interage com a central de depósito."
+    },
+    "ReceivingParty1": {
+      "definition": "Parte que, numa cadeia de liquidação, interage com a central de depósito."
+    },
+    "TransactionSubjectToBuyIn": {
+      "definition": "A operação está relacionada com uma compra forçada (buy-in) pelo mercado na sequência da falha de uma operação de entrega."
+    }
+  },
+  "isoRules": {
+    "QuantityRule": {
+      "definition": "Se previamente acordado entre a instituição gestora da conta e o titular da conta, então Quantity será utilizado para instruir a quantidade de valores mobiliários que deve ser processada parcialmente, por exemplo, autorizada parcialmente."
+    },
+    "PartyRule": {
+      "definition": "Investor, DeliveringParty1 e ReceivingParty1 não podem ser objeto de pedido de modificação através do SecuritiesSettlementConditionModificationRequest. Estes campos são disponibilizados no SecuritiesSettlementConditionModificationRequest para permitir o tratamento do pedido relativamente à operação cuja modificação é solicitada."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    }
+  }
+}

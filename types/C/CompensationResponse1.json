@@ -1,0 +1,30 @@
+{
+  "isoType": "CompensationResponse1",
+  "definition": "Especifica se o pedido de compensação é ou não concedido.",
+  "isoElements": {
+    "Granted": {
+      "definition": "Código que exprime a decisão tomada relativamente ao pedido de compensação."
+    },
+    "InitialAmount": {
+      "definition": "Compensação calculada para o pedido antes da dedução dos encargos."
+    },
+    "PaidCharges": {
+      "definition": "Encargos deduzidos do montante inicial."
+    },
+    "AmountDue": {
+      "definition": "Compensação devida pelo pedido após a dedução dos encargos."
+    },
+    "ExpectedValueDate": {
+      "definition": "Data-valor em que se espera que a compensação seja paga."
+    },
+    "Period": {
+      "definition": "Intervalo de datas a que a compensação se aplica."
+    },
+    "InterestRate": {
+      "definition": "Taxa de juro de um instrumento financeiro utilizada para calcular a compensação."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo da resposta ao pedido de compensação."
+    }
+  }
+}

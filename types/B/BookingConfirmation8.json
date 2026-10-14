@@ -1,0 +1,33 @@
+{
+  "isoType": "BookingConfirmation8",
+  "definition": "Especifica os detalhes do lançamento da operação ou do lançamento subjacente.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante da operação ou do lançamento que debitou ou creditou uma conta."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o lançamento é a crédito ou a débito."
+    },
+    "ExchangeRate": {
+      "definition": "Fornece informações sobre a taxa de câmbio utilizada na operação ou no lançamento."
+    },
+    "Account": {
+      "definition": "Conta que a operação ou o lançamento debitou ou creditou."
+    },
+    "BookingDate": {
+      "definition": "Data e hora em que um lançamento é registado numa conta nos livros da instituição que gere a conta."
+    },
+    "ValueDate": {
+      "definition": "Data e hora em que os ativos ficam disponíveis para o titular da conta, no caso de um lançamento a crédito, ou deixam de estar disponíveis para o titular da conta, no caso de um lançamento a débito."
+    },
+    "References": {
+      "definition": "Fornece a identificação da operação ou do lançamento. Pode ser utilizada pelo autor da investigação para localizar agora a operação ou o lançamento."
+    },
+    "Charges": {
+      "definition": "Fornece informações sobre os encargos relativos à operação ou ao lançamento."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo da resposta de confirmação."
+    }
+  }
+}

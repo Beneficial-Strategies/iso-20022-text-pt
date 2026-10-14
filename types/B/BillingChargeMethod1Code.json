@@ -1,0 +1,86 @@
+{
+  "isoType": "BillingChargeMethod1Code",
+  "definition": "Define como o encargo de faturação é calculado.",
+  "isoCodes": {
+    "UPRC": {
+      "name": "Preço unitário",
+      "definition": "O encargo é calculado como o produto do volume pelo preço unitário. Este é o valor por defeito."
+    },
+    "STAM": {
+      "name": "Imposto do selo",
+      "definition": "O serviço é especificamente identificado como imposto do selo para efeitos contabilísticos. O encargo é calculado como o produto do volume pelo preço unitário."
+    },
+    "BCHG": {
+      "name": "Encargo base",
+      "definition": "Taxa cobrada além do volume multiplicado pelo preço unitário quando são prestadas uma ou mais unidades do serviço."
+    },
+    "DPRC": {
+      "name": "Preço com desconto",
+      "definition": "O encargo é calculado utilizando um preço inferior ao preço bancário cotado."
+    },
+    "FCHG": {
+      "name": "Encargo fixo",
+      "definition": "Encargo fixo não associado ao volume nem ao preço unitário. As taxas de encargo fixo não exigem volume nem preço unitário."
+    },
+    "LPRC": {
+      "name": "Preço de tabela",
+      "definition": "Um único serviço em que o volume, o encargo original e o saldo exigido são os totais de dois ou mais escalões de preços."
+    },
+    "MCHG": {
+      "name": "Encargo mínimo",
+      "definition": "Encargo mínimo possível para o serviço."
+    },
+    "MXRD": {
+      "name": "Redução máxima",
+      "definition": "Encargo máximo possível para o serviço, mesmo que o volume multiplicado pelo preço unitário exceda o valor máximo de redução."
+    },
+    "TIR1": {
+      "name": "Escalão 1",
+      "definition": "A linha representa um encargo do escalão 1 numa estrutura de encargos com desconto por volume em vários escalões. Designa o escalão 1 utilizado para cobrar o volume abrangido por esse escalão."
+    },
+    "TIR2": {
+      "name": "Escalão 2",
+      "definition": "A linha representa um encargo do escalão 2 numa estrutura de encargos com desconto por volume em vários escalões. Designa o escalão 2 utilizado para cobrar o volume abrangido por esse escalão."
+    },
+    "TIR3": {
+      "name": "Escalão 3",
+      "definition": "A linha representa um encargo do escalão 3 numa estrutura de encargos com desconto por volume em vários escalões. Designa o escalão 3 utilizado para cobrar o volume abrangido por esse escalão."
+    },
+    "TIR4": {
+      "name": "Escalão 4",
+      "definition": "A linha representa um encargo do escalão 4 numa estrutura de encargos com desconto por volume em vários escalões. Designa o escalão 4 utilizado para cobrar o volume abrangido por esse escalão."
+    },
+    "TIR5": {
+      "name": "Escalão 5",
+      "definition": "A linha representa um encargo do escalão 5 numa estrutura de encargos com desconto por volume em vários escalões. Designa o escalão 5 utilizado para cobrar o volume abrangido por esse escalão."
+    },
+    "TIR6": {
+      "name": "Escalão 6",
+      "definition": "A linha representa um encargo do escalão 6 numa estrutura de encargos com desconto por volume em vários escalões. Designa o escalão 6 utilizado para cobrar o volume abrangido por esse escalão."
+    },
+    "TIR7": {
+      "name": "Escalão 7",
+      "definition": "A linha representa um encargo do escalão 7 numa estrutura de encargos com desconto por volume em vários escalões. Designa o escalão 7 utilizado para cobrar o volume abrangido por esse escalão."
+    },
+    "TIR8": {
+      "name": "Escalão 8",
+      "definition": "A linha representa um encargo do escalão 8 numa estrutura de encargos com desconto por volume em vários escalões. Designa o escalão 8 utilizado para cobrar o volume abrangido por esse escalão."
+    },
+    "TIR9": {
+      "name": "Escalão 9",
+      "definition": "A linha representa um encargo do escalão 9 numa estrutura de encargos com desconto por volume em vários escalões. Designa o escalão 9 utilizado para cobrar o volume abrangido por esse escalão."
+    },
+    "TPRC": {
+      "name": "Preço limiar",
+      "definition": "O preço unitário é determinado pelo volume total."
+    },
+    "ZPRC": {
+      "name": "Preço por zona",
+      "definition": "Indica preços diferentes para o mesmo serviço. Normalmente utilizado num extrato de resumo da relação em que o mesmo serviço tem um preço diferente para diferentes contas da relação."
+    },
+    "BBSE": {
+      "name": "Baseado no saldo",
+      "definition": "O encargo é calculado como um saldo multiplicado por uma taxa anual e por um fator temporal."
+    }
+  }
+}

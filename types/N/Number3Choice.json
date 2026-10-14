@@ -1,0 +1,12 @@
+{
+  "isoType": "Number3Choice",
+  "definition": "Escolha entre número numérico exato de 3 e de 5 dígitos.",
+  "isoElements": {
+    "Short": {
+      "definition": "Número de texto numérico com um máximo de 3 dígitos."
+    },
+    "Long": {
+      "definition": "Número de texto numérico com um máximo de 5 dígitos. Só deve ser utilizado num extrato delta."
+    }
+  }
+}

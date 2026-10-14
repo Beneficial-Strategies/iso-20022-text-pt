@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification203Choice",
+  "definition": "Identificação de uma parte.",
+  "isoElements": {
+    "ProprietaryIdentification": {
+      "definition": "Identificador único e inequívoco, atribuído a uma instituição financeira através de um esquema de identificação proprietário."
+    },
+    "LEI": {
+      "definition": "Identificador de entidade jurídica da parte."
+    }
+  }
+}

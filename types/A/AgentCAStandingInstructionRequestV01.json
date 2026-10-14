@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAStandingInstructionRequestV01",
+  "definition": "Âmbito|Esta mensagem é enviada por um CSD ao emitente (ou ao seu agente) para lhe fornecer os detalhes do cliente do CSD relativos à distribuição do produto de um evento societário:|- Pagamentos brutos ou líquidos.|- Detalhes de entrega de valores mobiliários que têm de ser entregues fora do CSD.|- Detalhes de entrega de montantes em numerário que têm de ser entregues fora do CSD.|Utilização|Esta mensagem é utilizada para solicitar ao emitente (ou ao seu agente) que ponha em vigor uma instrução permanente para o produto.|A alteração de uma instrução permanente é efetuada através de um mecanismo de cancelamento e substituição. Primeiro é enviado um pedido de cancelamento da instrução permanente, seguido de um novo pedido de instrução permanente."
+}

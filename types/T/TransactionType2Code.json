@@ -1,0 +1,46 @@
+{
+  "isoType": "TransactionType2Code",
+  "definition": "Especifica o tipo de operação.",
+  "isoCodes": {
+    "REDM": {
+      "name": "Resgate",
+      "definition": "A operação é um resgate de um fundo de investimento."
+    },
+    "SUBS": {
+      "name": "Subscrição",
+      "definition": "A operação é uma subscrição de um fundo de investimento."
+    },
+    "SSPL": {
+      "name": "Plano de poupança por subscrição",
+      "definition": "A operação é uma subscrição de um plano de poupança, ou seja, dinheiro reservado por particulares no âmbito de um plano estruturado com um fim específico, por exemplo, a reforma."
+    },
+    "RWPL": {
+      "name": "Plano de levantamento por resgate",
+      "definition": "A operação é um levantamento efetuado por particulares no âmbito de um plano estruturado relativo a investimentos efetuados no passado."
+    },
+    "TRIN": {
+      "name": "Transferência de entrada",
+      "definition": "A operação é um crédito de entrada numa conta do registo de acionistas e não está associada a uma alteração de investimento (subscrição ou conversão), mas à gestão da conta."
+    },
+    "TOUT": {
+      "name": "Transferência de saída",
+      "definition": "A operação é um débito numa conta do registo de acionistas e não está associada a uma alteração de investimento (resgate ou conversão), mas à gestão da conta."
+    },
+    "SWII": {
+      "name": "Conversão de entrada",
+      "definition": "A operação é a perna de subscrição da execução de uma ordem de conversão."
+    },
+    "SWIO": {
+      "name": "Conversão de saída",
+      "definition": "A operação é a perna de subscrição da execução de uma ordem de conversão."
+    },
+    "SUAA": {
+      "name": "Afetação de ativos na subscrição",
+      "definition": "A operação é uma subscrição num plano de afetação de ativos que permite aos investidores afetar, em percentagem, um determinado montante em numerário a vários subfundos de uma mesma estrutura chapéu."
+    },
+    "REAA": {
+      "name": "Afetação de ativos no resgate",
+      "definition": "A operação é um resgate num plano de afetação de ativos que permite aos investidores levantar, em percentagem, um determinado montante em numerário de vários subfundos de uma mesma estrutura chapéu."
+    }
+  }
+}

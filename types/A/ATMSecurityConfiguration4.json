@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMSecurityConfiguration4",
+  "definition": "Configuração das assinaturas digitais, se o módulo de segurança for capaz de efetuar assinaturas digitais com uma chave assimétrica.",
+  "isoElements": {
+    "MaximumCertificates": {
+      "definition": "Número máximo de certificados num caminho de certificação que o módulo de segurança é capaz de gerir."
+    },
+    "MaximumSignatures": {
+      "definition": "Número máximo de cossignatários que o módulo de segurança é capaz de gerir numa assinatura digital."
+    },
+    "DigitalSignatureAlgorithm": {
+      "definition": "Algoritmo de assinatura digital que o módulo de segurança é capaz de gerir."
+    }
+  }
+}

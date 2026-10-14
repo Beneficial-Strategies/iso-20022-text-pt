@@ -1,0 +1,22 @@
+{
+  "isoType": "RejectionReason81Code",
+  "definition": "Especifica o motivo pelo qual o pedido de cancelamento da notificação de ação societária tem o estado rejeitado.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validação falhada",
+      "definition": "A validação do aviso/da instrução/do pedido falhou."
+    },
+    "REFI": {
+      "name": "Identificação de ação societária inválida",
+      "definition": "Foi fornecida uma identificação de ação societária inválida."
+    },
+    "DCAN": {
+      "name": "Rejeitado por já ter sido cancelado",
+      "definition": "O pedido de cancelamento foi rejeitado, uma vez que a instrução já foi cancelada."
+    },
+    "DPRG": {
+      "name": "Rejeitado por estar em curso",
+      "definition": "O pedido de cancelamento foi rejeitado porque o processo da instrução está em curso ou já foi processado."
+    }
+  }
+}

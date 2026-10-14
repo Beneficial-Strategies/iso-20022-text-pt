@@ -1,0 +1,14 @@
+{
+  "isoType": "ConversionType1Code",
+  "definition": "Especifica o tipo de conversão.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Final",
+      "definition": "Trata-se de uma conversão final."
+    },
+    "INTE": {
+      "name": "Intercalar",
+      "definition": "Trata-se de uma conversão intercalar."
+    }
+  }
+}

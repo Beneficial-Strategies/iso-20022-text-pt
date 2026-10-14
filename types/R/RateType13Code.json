@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType13Code",
+  "definition": "Especifica o tipo de taxa.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "A taxa é desconhecida do remetente ou não foi estabelecida."
+    },
+    "NILP": {
+      "name": "Pagamento nulo",
+      "definition": "A taxa não será paga."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "NetDividendRateType1FormatChoice",
+  "definition": "Escolha de formatos para expressar o tipo de taxa de dividendo líquido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de taxa de dividendo líquido."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para expressar o tipo de taxa de dividendo líquido."
+    }
+  }
+}

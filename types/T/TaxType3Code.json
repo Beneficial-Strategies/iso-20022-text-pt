@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxType3Code",
+  "definition": "Tipo de imposto.",
+  "isoCodes": {
+    "LIDT": {
+      "name": "Imposto local alemão 2",
+      "definition": "Imposto local (ZAS pflichtige Zinsen) - juros sujeitos ao imposto de pagamento antecipado de juros (proporção dos juros brutos por unidade/lucros intercalares não coberta pelo crédito no fundo de juros)."
+    },
+    "WITF": {
+      "name": "Retenção de imposto estrangeiro",
+      "definition": "Taxa à qual o rendimento será retido pela jurisdição em que o rendimento foi originalmente pago, relativamente à qual pode ser possível a isenção na fonte e/ou o reembolso."
+    },
+    "WITL": {
+      "name": "Retenção de imposto local",
+      "definition": "Taxa à qual o rendimento será retido pela jurisdição em que se situa o titular da conta, relativamente à qual pode ser possível a isenção na fonte e/ou o reembolso."
+    }
+  }
+}

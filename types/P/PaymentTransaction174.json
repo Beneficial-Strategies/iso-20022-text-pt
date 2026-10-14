@@ -1,0 +1,36 @@
+{
+  "isoType": "PaymentTransaction174",
+  "definition": "Fornece detalhes adicionais sobre a referência e o estado das operações originais, incluídas na instrução original, a que se aplica a mensagem de reversão.",
+  "isoElements": {
+    "ReversalIdentification": {
+      "definition": "Identificação única, atribuída por uma parte instrutora a uma parte instruída, para identificar inequivocamente a operação revertida.|Utilização: A parte instrutora é a parte que envia a mensagem de reversão e não a parte que enviou a instrução original que está a ser revertida."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificação única, atribuída pela parte instrutora original à parte instruída original, para identificar inequivocamente a instrução original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora original, para identificar inequivocamente a operação original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador universalmente único para fornecer a referência de ponta a ponta original de uma operação de pagamento."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Montante, conforme fornecido na operação original, a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora original.|Utilização: este montante tem de ser transportado sem alterações ao longo da cadeia da operação."
+    },
+    "ReversedInstructedAmount": {
+      "definition": "Montante a movimentar entre o devedor e o credor, antes da dedução de encargos, na operação revertida.|Utilização: Este montante tem de ser transportado sem alterações ao longo da cadeia da operação."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica se o credor e/ou o devedor suportarão os encargos associados ao tratamento da operação de pagamento.||Utilização: ChargeBearer aplica-se à mensagem de reversão e não à instrução original."
+    },
+    "ReversalReasonInformation": {
+      "definition": "Fornece informações detalhadas sobre o motivo da reversão."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos principais utilizados para identificar a operação original a que se refere."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  }
+}

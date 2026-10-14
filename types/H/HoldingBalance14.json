@@ -1,0 +1,18 @@
+{
+  "isoType": "HoldingBalance14",
+  "definition": "Posição líquida de uma carteira segregada de um único valor mobiliário no âmbito da posição global detida na conta de valores mobiliários, por exemplo, subsaldo por estado.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Quantidade total de instrumentos financeiros da posição referenciada."
+    },
+    "BalanceType": {
+      "definition": "Motivo pelo qual um valor mobiliário não está disponível ou informações adicionais sobre o instrumento financeiro para o qual o saldo é indicado, por exemplo, não registado, registado em nome de um mandatário."
+    },
+    "SafekeepingPlace": {
+      "definition": "Local onde os valores mobiliários são guardados, física ou nocionalmente. Este local pode ser, por exemplo, um custodiante local, uma central de depósito de valores mobiliários (CSD) ou uma central internacional de depósito de valores mobiliários (ICSD)."
+    },
+    "Date": {
+      "definition": "Data do direito."
+    }
+  }
+}

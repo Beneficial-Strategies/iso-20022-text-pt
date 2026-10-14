@@ -1,0 +1,54 @@
+{
+  "isoType": "AdditionalBusinessProcess7Code",
+  "definition": "Especifica o processo de negócio adicional associado a um evento de operação sobre valores mobiliários.",
+  "isoCodes": {
+    "CLAI": {
+      "name": "Reclamação ou compensação",
+      "definition": "Refere-se a uma reclamação sobre o evento de operação sobre ativos associado."
+    },
+    "TAXR": {
+      "name": "Reembolso de imposto",
+      "definition": "Refere-se a um reembolso de imposto pelas autoridades relativo ao evento de operação sobre ativos associado."
+    },
+    "ACLA": {
+      "name": "Reclamação de mercado automática",
+      "definition": "Dará automaticamente origem a reclamações de mercado pelo prestador de serviços de conta, por exemplo, uma Central Securities Depository (CSD)."
+    },
+    "ATXF": {
+      "name": "Sujeito a transformação",
+      "definition": "Em resultado da operação sobre valores mobiliários, todas as operações no valor mobiliário subjacente serão canceladas pelo sistema e substituídas por operações no(s) recurso(s) resultante(s) (outturn)."
+    },
+    "CNTR": {
+      "name": "Cancelar negociações subjacentes",
+      "definition": "Em resultado da operação sobre valores mobiliários, todas as operações no valor mobiliário subjacente serão canceladas pelo sistema."
+    },
+    "CONS": {
+      "name": "Consentimento",
+      "definition": "Refere-se a um consentimento no âmbito de um evento de operação sobre valores mobiliários diferente de um evento Consent (: 22F:: CAEV//CONS)."
+    },
+    "NAMC": {
+      "name": "Sem reclamações de mercado automáticas nem transformações",
+      "definition": "O evento não dará automaticamente origem a reclamações de mercado e transformações pelo prestador de serviços de conta, por exemplo, uma Central Securities Depository (CSD)."
+    },
+    "NPLE": {
+      "name": "Sem escolha fracionada",
+      "definition": "O emitente só permite que seja selecionada uma única opção por posição designada."
+    },
+    "SCHM": {
+      "name": "Esquema ou plano de acordo",
+      "definition": "Evento componente de um plano de reestruturação (scheme/plan of arrangement): uma reorganização de uma sociedade ou de um grupo de sociedades, e do respetivo capital."
+    },
+    "PPUT": {
+      "name": "Reembolso parcial obrigatório por exercício de put",
+      "definition": "Troca obrigatória parcial de uma parte das obrigações, em que os valores mobiliários trocados são habitualmente recolocados no mercado. O emitente pode oferecer aos detentores o direito de reter os seus valores mobiliários em vez de os trocar. Será utilizado um sorteio para determinar a elegibilidade para o evento."
+    },
+    "PPRE": {
+      "name": "Pré-financiamento parcial",
+      "definition": "Pré-financiamento parcial de um instrumento de dívida antes do vencimento, determinado por um processo de sorteio. É emitido um novo valor mobiliário com uma data de vencimento anterior para a parte reembolsada (parte resgatada) e outro novo valor mobiliário com a data de vencimento original para a parte não reembolsada (remanescente). Aplicável apenas no âmbito de um evento de operação sobre valores mobiliários de partial defeasance."
+    },
+    "FPRE": {
+      "name": "Pré-financiamento total",
+      "definition": "Pré-financiamento integral de um instrumento de dívida pelo emitente antes do vencimento original, quando o emitente deposita ativos em fideicomisso. Aplicável apenas no âmbito de um evento de ação societária de extinção parcial (partial defeasance)."
+    }
+  }
+}

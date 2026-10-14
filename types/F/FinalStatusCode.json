@@ -1,0 +1,22 @@
+{
+  "isoType": "FinalStatusCode",
+  "definition": "Especifica o estado final de uma operação.",
+  "isoCodes": {
+    "STLD": {
+      "name": "Liquidado",
+      "definition": "A operação foi processada com êxito pelo agente de compensação."
+    },
+    "RJTD": {
+      "name": "Rejeitado",
+      "definition": "A operação foi rejeitada pelo agente de compensação."
+    },
+    "CAND": {
+      "name": "Cancelado",
+      "definition": "A operação foi cancelada."
+    },
+    "FNLD": {
+      "name": "Finalizado",
+      "definition": "A operação foi processada com êxito pelo agente de compensação. A liquidação far-se-á fora do sistema."
+    }
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "isoType": "FailingReason1Code",
+  "definition": "Especifica o motivo pelo qual a operação/instrução está em incumprimento de liquidação. A liquidação na data de liquidação instruída já não é possível.",
+  "isoCodes": {
+    "AWMO": {
+      "name": "A aguardar fundos",
+      "definition": "Os instrumentos financeiros foram entregues, mas continua a aguardar-se o dinheiro da contraparte."
+    },
+    "BYIY": {
+      "name": "Procedimento de recompra forçada",
+      "definition": "Foi iniciado no mercado o procedimento de compra forçada (em seu nome se a sua instrução for uma receção, pela contraparte se a sua instrução for uma entrega)."
+    },
+    "CLAT": {
+      "name": "Contraparte fora de prazo para liquidação",
+      "definition": "A instrução da contraparte chegou demasiado tarde para a liquidação, ou seja, o problema de correspondência ou de liquidação foi resolvido demasiado tarde."
+    },
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "A instrução foi recebida após o prazo limite da instituição gestora da conta. Processada com o melhor esforço."
+    },
+    "CANR": {
+      "name": "Confirmação de cancelamento solicitada",
+      "definition": "A instrução estava em suspenso. O período de suspensão terminou, pelo que é necessário o seu cancelamento ou a sua confirmação da instrução."
+    },
+    "CAIS": {
+      "name": "A aguardar valores mobiliários",
+      "definition": "A aguardar instrumentos financeiros de um evento societário ou de outro procedimento, por exemplo, conversão, desmaterialização, troca, registo, selagem, fracionamento."
+    },
+    "OBJT": {
+      "name": "Sob contestação",
+      "definition": "Os instrumentos financeiros estão, por exemplo, furtados, em litígio ou sob oposição."
+    },
+    "AWSH": {
+      "name": "A aguardar valores mobiliários da contraparte",
+      "definition": "Os instrumentos financeiros ainda não foram recebidos da contraparte (se for uma operação de receção contra pagamento), tendo o dinheiro sido entregue."
+    },
+    "PHSE": {
+      "name": "Atraso na entrega física",
+      "definition": "A liquidação é física. Os instrumentos financeiros estão a ser entregues."
+    },
+    "STCD": {
+      "name": "Discrepância na confirmação",
+      "definition": "Discrepância na confirmação de liquidação."
+    },
+    "DOCY": {
+      "name": "A aguardar documentos ou endossos da sua parte",
+      "definition": "A aguardar documentos ou endossos da sua parte."
+    },
+    "MLAT": {
+      "name": "Fundos e valores mobiliários tardios para a liquidação",
+      "definition": "O dinheiro/os instrumentos financeiros de cobertura foram recebidos demasiado tarde para concluir a liquidação no próprio dia."
+    },
+    "DOCC": {
+      "name": "A aguardar documentos ou endossos da contraparte",
+      "definition": "A aguardar documentos ou endossos da contraparte."
+    },
+    "BLOC": {
+      "name": "Conta bloqueada",
+      "definition": "A sua conta está bloqueada, nenhuma instrução pode ser liquidada através da conta."
+    },
+    "CHAS": {
+      "name": "Consulta enviada",
+      "definition": "Foi enviado um pedido de acompanhamento/esclarecimento."
+    },
+    "NEWI": {
+      "name": "Novas emissões",
+      "definition": "O instrumento financeiro é uma nova emissão e ainda não está disponível/negociável."
+    },
+    "CLAC": {
+      "name": "Valores mobiliários insuficientes da contraparte",
+      "definition": "Instrumentos financeiros entregáveis insuficientes na conta da contraparte ou a contraparte não detém instrumentos financeiros."
+    },
+    "MUNO": {
+      "name": "Múltiplo do montante de liquidação",
+      "definition": "A quantidade instruída não é múltipla de um lote de quantidade de liquidação existente para o instrumento financeiro."
+    },
+    "GLOB": {
+      "name": "Valores mobiliários em forma global",
+      "definition": "A liquidação não pode ser executada; os instrumentos financeiros estão em forma global."
+    },
+    "PREA": {
+      "name": "A sua instrução está retida",
+      "definition": "A sua instrução é um pré-aviso, ou seja, apenas para correspondência."
+    },
+    "PART": {
+      "name": "Operação liquidada em parcelas",
+      "definition": "A operação será liquidada parcialmente."
+    },
+    "NOFX": {
+      "name": "Sem instrução de câmbio",
+      "definition": "Falta uma instrução de câmbio da sua parte."
+    },
+    "CMON": {
+      "name": "Fundos insuficientes da contraparte",
+      "definition": "Fundos insuficientes na conta da contraparte."
+    },
+    "YCOL": {
+      "name": "Insuficiência de garantias",
+      "definition": "Garantia insuficiente na sua conta para executar a instrução."
+    },
+    "COLL": {
+      "name": "Valores mobiliários dados em penhor como garantia",
+      "definition": "Os instrumentos financeiros não são entregáveis por estarem dados em penhor como garantia."
+    },
+    "DEPO": {
+      "name": "Depósito recusado para emissão de certificados de depósito",
+      "definition": "O depósito de ações para a emissão de certificados de depósito foi recusado. A atribuição concedida pelo emitente é excedida pela sua operação."
+    },
+    "FLIM": {
+      "name": "Limite máximo para estrangeiros atingido",
+      "definition": "Instrumentos financeiros entregáveis insuficientes na sua conta, pois foi atingido o limite máximo para o estrangeiro."
+    },
+    "INCA": {
+      "name": "Ajustamento de rendimentos necessário",
+      "definition": "Os instrumentos financeiros requerem um ajustamento de rendimento, por exemplo, dividendo ou juro."
+    },
+    "LINK": {
+      "name": "Instrução associada pendente",
+      "definition": "A sua instrução está pendente de liquidação porque a instrução associada está pendente."
+    },
+    "LACK": {
+      "name": "Falta de valores mobiliários",
+      "definition": "Instrumentos financeiros insuficientes na sua conta."
+    },
+    "LALO": {
+      "name": "Valores mobiliários emprestados",
+      "definition": "Os instrumentos financeiros estão emprestados."
+    },
+    "MONY": {
+      "name": "Fundos insuficientes",
+      "definition": "Fundos insuficientes na sua conta."
+    },
+    "NCON": {
+      "name": "Confirmação não recebida",
+      "definition": "A confirmação da liquidação ainda não foi recebida."
+    },
+    "REFS": {
+      "name": "Não está em boa ordem",
+      "definition": "A entrega/receção foi recusada porque os instrumentos financeiros físicos não estão em boas condições."
+    },
+    "SDUT": {
+      "name": "Falta de informação sobre imposto do selo",
+      "definition": "Faltam as informações sobre o imposto do selo."
+    },
+    "BATC": {
+      "name": "Diferença no lote de processamento",
+      "definition": "O lote de processamento difere do da instrução da contraparte, por exemplo, diurno/em tempo real versus noturno."
+    },
+    "CYCL": {
+      "name": "A aguardar o próximo ciclo de liquidação",
+      "definition": "A sua instrução está confirmada no mercado local ou pronta para liquidação, a aguardar o próximo ciclo de liquidação."
+    },
+    "SBLO": {
+      "name": "Valores mobiliários bloqueados",
+      "definition": "Os instrumentos financeiros estão bloqueados devido, por exemplo, a um evento societário ou a um realinhamento."
+    },
+    "CPEC": {
+      "name": "Contraparte em administração judicial",
+      "definition": "A contraparte está em administração judicial (forma de falência em que uma pessoa nomeada pelo tribunal, o administrador, gere os assuntos da empresa)."
+    },
+    "MINO": {
+      "name": "Montante mínimo de liquidação",
+      "definition": "A quantidade instruída é inferior à quantidade mínima de liquidação existente para o instrumento financeiro."
+    },
+    "IAAD": {
+      "name": "Investigação do motivo do estado",
+      "definition": "Motivo pendente em análise."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "PHCK": {
+      "name": "Verificação de valores mobiliários físicos",
+      "definition": "Os instrumentos financeiros físicos foram recebidos e estão a ser verificados quanto à autenticidade."
+    },
+    "BENO": {
+      "name": "Discordância quanto ao beneficiário efetivo",
+      "definition": "Desacordo quanto à propriedade efetiva."
+    },
+    "BOTH": {
+      "name": "Ambas as instruções estão retidas",
+      "definition": "A instrução da contraparte e a sua instrução estão em espera/congeladas/em modo de pré-aviso."
+    },
+    "CLHT": {
+      "name": "Operação da câmara de compensação",
+      "definition": "A data de liquidação instruída não coincide com a data de liquidação da operação da câmara de compensação, ou seja, um tipo específico de operação na Índia."
+    },
+    "DENO": {
+      "name": "Quantidade denominada a entregar indisponível",
+      "definition": "A quantidade instruída não corresponde à denominação disponível/entregável. Os valores mobiliários físicos têm de ser obtidos em quantidades de denominação entregáveis."
+    },
+    "DISA": {
+      "name": "Catástrofe natural",
+      "definition": "Encerramento excecional de todas as instituições financeiras devido a catástrofe natural, por exemplo, um sismo."
+    },
+    "DKNY": {
+      "name": "Ações devolvidas pela contraparte",
+      "definition": "A contraparte devolveu ou recusa os valores mobiliários."
+    },
+    "FROZ": {
+      "name": "Valores mobiliários congelados na CSD",
+      "definition": "Os instrumentos financeiros estão bloqueados na central de depósito de valores mobiliários (CSD) na sequência de um evento societário."
+    },
+    "LAAW": {
+      "name": "A aguardar outra operação",
+      "definition": "A aguardar a liquidação de uma compra para cobrir posições em incumprimento."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "A instrução foi recebida após o prazo limite do mercado."
+    },
+    "LIQU": {
+      "name": "Liquidez insuficiente do banco central",
+      "definition": "A liquidez do banco central é insuficiente."
+    },
+    "PRCY": {
+      "name": "Instrução da contraparte em espera",
+      "definition": "A instrução da contraparte é um pré-aviso, ou seja, apenas para correspondência."
+    },
+    "REGT": {
+      "name": "Certificados rejeitados",
+      "definition": "Os certificados foram entregues ao agente de registo, mas rejeitados devido a documentação incompleta ou por ter sido atingido o limite de propriedade estrangeira."
+    },
+    "SETS": {
+      "name": "Método do sistema de liquidação modificado",
+      "definition": "O sistema/método de liquidação foi modificado na central de depósito de valores mobiliários para permitir a liquidação."
+    },
+    "CERT": {
+      "name": "Números de certificados incorretos",
+      "definition": "Erro no número do certificado."
+    },
+    "PRSY": {
+      "name": "Sistema em espera",
+      "definition": "A operação foi colocada em espera/congelada pelo sistema."
+    }
+  }
+}

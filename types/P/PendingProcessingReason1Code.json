@@ -1,0 +1,82 @@
+{
+  "isoType": "PendingProcessingReason1Code",
+  "definition": "Especifica o motivo pelo qual a operação/instrução está em incumprimento de liquidação. A liquidação na data de liquidação instruída já não é possível.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "A instrução foi recebida após o prazo limite da instituição gestora da conta. Processada com o melhor esforço."
+    },
+    "CAIS": {
+      "name": "A aguardar valores mobiliários",
+      "definition": "A aguardar instrumentos financeiros de um evento societário ou de outro procedimento, por exemplo, conversão, desmaterialização, troca, registo, selagem, fracionamento."
+    },
+    "DOCY": {
+      "name": "A aguardar documentos ou endossos da sua parte",
+      "definition": "A aguardar documentos ou endossos da sua parte."
+    },
+    "NOFX": {
+      "name": "Sem instrução de câmbio",
+      "definition": "Falta uma instrução de câmbio da sua parte."
+    },
+    "BLOC": {
+      "name": "Conta bloqueada",
+      "definition": "A sua conta está bloqueada, nenhuma instrução pode ser liquidada através da conta."
+    },
+    "MUNO": {
+      "name": "Múltiplo do montante de liquidação",
+      "definition": "A quantidade instruída não é múltipla de um lote de quantidade de liquidação existente para o instrumento financeiro."
+    },
+    "GLOB": {
+      "name": "Valores mobiliários em forma global",
+      "definition": "A liquidação não pode ser executada; os instrumentos financeiros estão em forma global."
+    },
+    "YCOL": {
+      "name": "Insuficiência de garantias",
+      "definition": "Garantia insuficiente na sua conta para executar a instrução."
+    },
+    "COLL": {
+      "name": "Valores mobiliários dados em penhor como garantia",
+      "definition": "Os instrumentos financeiros não são entregáveis por estarem dados em penhor como garantia."
+    },
+    "FLIM": {
+      "name": "Limite máximo para estrangeiros atingido",
+      "definition": "Instrumentos financeiros entregáveis insuficientes na sua conta, pois foi atingido o limite máximo para o estrangeiro."
+    },
+    "NEXT": {
+      "name": "Próximo processo",
+      "definition": "Foi iniciado o processo seguinte. Não há problemas de processamento pendentes a reportar."
+    },
+    "LACK": {
+      "name": "Falta de valores mobiliários",
+      "definition": "Instrumentos financeiros insuficientes na sua conta."
+    },
+    "LALO": {
+      "name": "Valores mobiliários emprestados",
+      "definition": "Os instrumentos financeiros estão emprestados."
+    },
+    "MONY": {
+      "name": "Fundos insuficientes",
+      "definition": "Fundos insuficientes na sua conta."
+    },
+    "MINO": {
+      "name": "Montante mínimo de liquidação",
+      "definition": "A quantidade instruída é inferior à quantidade mínima de liquidação existente para o instrumento financeiro."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "DENO": {
+      "name": "Quantidade denominada a entregar indisponível",
+      "definition": "A quantidade instruída não corresponde à denominação disponível/entregável. Os valores mobiliários físicos têm de ser obtidos em quantidades de denominação entregáveis."
+    },
+    "LIQU": {
+      "name": "Liquidez insuficiente do banco central",
+      "definition": "A liquidez do banco central é insuficiente."
+    },
+    "CERT": {
+      "name": "Números de certificados incorretos",
+      "definition": "Erro no número do certificado."
+    }
+  }
+}

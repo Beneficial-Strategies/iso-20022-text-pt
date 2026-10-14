@@ -1,0 +1,15 @@
+{
+  "isoType": "CashDepositConfirmation1",
+  "definition": "Confirmação da forma como o destinatário do numerário liquidará o depósito de numerário.",
+  "isoElements": {
+    "ValidCashDepositReceived": {
+      "definition": "Confirma o numerário recebido pelo destinatário do numerário relativamente a um pedido de depósito de numerário que será creditado na conta."
+    },
+    "InvalidCashDepositReceived": {
+      "definition": "Confirma o numerário recebido pelo destinatário do numerário relativamente a um CashDepositRequest que não será creditado numa conta, por exemplo porque o numerário é falso."
+    },
+    "DiscrepancyIdentification": {
+      "definition": "Identificação única da discrepância."
+    }
+  }
+}

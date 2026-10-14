@@ -1,0 +1,14 @@
+{
+  "isoType": "WaivingInstruction1Code",
+  "definition": "Especifica a forma do desconto quando a comissão é dispensada.",
+  "isoCodes": {
+    "WICA": {
+      "name": "Renúncia em numerário",
+      "definition": "A forma de comissão dispensada é numerário."
+    },
+    "WIUN": {
+      "name": "Renúncia em unidades",
+      "definition": "A forma de comissão dispensada são unidades adicionais de um instrumento financeiro."
+    }
+  }
+}

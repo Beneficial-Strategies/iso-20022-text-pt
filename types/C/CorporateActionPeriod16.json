@@ -1,0 +1,59 @@
+{
+  "isoType": "CorporateActionPeriod16",
+  "definition": "Especifica os períodos de uma operação de sociedade.",
+  "isoElements": {
+    "PriceCalculationPeriod": {
+      "definition": "Período durante o qual é determinado o preço de um valor mobiliário."
+    },
+    "InterestPeriod": {
+      "definition": "Período durante o qual a taxa de juro foi aplicada."
+    },
+    "CompulsoryPurchasePeriod": {
+      "definition": "Período, durante uma oferta pública de aquisição, em que quaisquer ações em circulação têm de ser adquiridas pela sociedade adquirente."
+    },
+    "ClaimPeriod": {
+      "definition": "Período fixado pelo tribunal numa ação coletiva. Determina as operações elegíveis do cliente que serão incluídas na ação coletiva e utilizadas para determinar o direito resultante."
+    },
+    "DepositorySuspensionPeriodForBookEntryTransfer": {
+      "definition": "Período que define a última data até à qual serão aceites transferências escriturais e a data em que a suspensão será levantada e o tratamento das transferências escriturais será retomado."
+    },
+    "DepositorySuspensionPeriodForDepositAtAgent": {
+      "definition": "Período que define a última data até à qual serão aceites depósitos, em nome do nominee, junto do agente e a data em que a suspensão será levantada e os depósitos junto do agente serão retomados."
+    },
+    "DepositorySuspensionPeriodForDeposit": {
+      "definition": "Período que define a última data até à qual serão aceites depósitos e a data em que a suspensão será levantada e os depósitos serão retomados."
+    },
+    "DepositorySuspensionPeriodForPledge": {
+      "definition": "Período que define a última data até à qual serão aceites penhores e a data em que a suspensão será levantada e o tratamento dos penhores será retomado."
+    },
+    "DepositorySuspensionPeriodForSegregation": {
+      "definition": "Período que define a última data até à qual podem ser segregados saldos intraposição e a data em que a suspensão será levantada e a possibilidade de segregar saldos intraposição será retomada."
+    },
+    "DepositorySuspensionPeriodForWithdrawalAtAgent": {
+      "definition": "Período que define a última data até à qual serão aceites levantamentos, do nome do nominee junto do agente, e a data em que a suspensão será levantada e o tratamento dos levantamentos junto do agente será retomado."
+    },
+    "DepositorySuspensionPeriodForWithdrawalInNomineeName": {
+      "definition": "Período que define a última data até à qual serão aceites levantamentos físicos em nome do nominee e a data em que a suspensão será levantada e os levantamentos físicos em nome do nominee serão retomados."
+    },
+    "DepositorySuspensionPeriodForWithdrawalInStreetName": {
+      "definition": "Período que define a última data em que serão aceites pedidos de levantamento em street name relativamente ao valor mobiliário do evento e a data em que a suspensão será levantada e o tratamento dos levantamentos em street name relativamente ao valor mobiliário do evento será retomado."
+    },
+    "BookClosurePeriod": {
+      "definition": "Período que define a última data em que o registo de acionistas será aceite pelo emitente e a data em que o registo de acionistas será retomado."
+    },
+    "CoDepositoriesSuspensionPeriod": {
+      "definition": "Período durante o qual as atividades de liquidação nos co-depositários são suspensas a fim de estabilizar as posições no CSD."
+    },
+    "SplitPeriod": {
+      "definition": "Período durante o qual um certificado físico pode ser fracionado."
+    },
+    "FiscalYearPeriod": {
+      "definition": "Período que define o ano fiscal ou tributário a que o dividendo se refere, a fim de deduzir corretamente os impostos para residentes."
+    }
+  },
+  "isoRules": {
+    "InterestPeriodRule": {
+      "definition": "InterestPeriod só deve ser utilizado se for diferente de um período normal de juros corridos."
+    }
+  }
+}

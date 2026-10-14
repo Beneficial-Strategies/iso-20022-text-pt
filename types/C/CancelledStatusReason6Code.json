@@ -1,0 +1,26 @@
+{
+  "isoType": "CancelledStatusReason6Code",
+  "definition": "Especifica o motivo subjacente ao cancelamento da operação associada.",
+  "isoCodes": {
+    "CANI": {
+      "name": "Cancelado por si",
+      "definition": "A operação é cancelada por si próprio."
+    },
+    "CANO": {
+      "name": "Cancelado por outrem",
+      "definition": "A operação foi cancelada por uma parte que não a parte instrutora, por exemplo, uma infraestrutura de mercado como uma bolsa de valores."
+    },
+    "CANS": {
+      "name": "Cancelado pelo sistema",
+      "definition": "A operação é cancelada pelo sistema."
+    },
+    "CSUB": {
+      "name": "Cancelado pelo agente",
+      "definition": "A instrução foi cancelada pelo agente devido a uma prorrogação do prazo do evento."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    }
+  }
+}

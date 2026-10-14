@@ -1,0 +1,18 @@
+{
+  "isoType": "CaseAssignment6",
+  "definition": "Representa a atribuição de um processo a uma parte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifica de forma inequívoca a atribuição do processo."
+    },
+    "Assigner": {
+      "definition": "Parte que atribui o processo.|Utilização: é também o remetente da mensagem."
+    },
+    "Assignee": {
+      "definition": "Parte a quem o processo é atribuído.|Utilização: é também o destinatário da mensagem."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a atribuição foi criada."
+    }
+  }
+}

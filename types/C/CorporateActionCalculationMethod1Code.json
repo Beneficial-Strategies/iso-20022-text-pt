@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionCalculationMethod1Code",
+  "definition": "Especifica o método de cálculo dos sorteios.",
+  "isoCodes": {
+    "PROR": {
+      "name": "Pro rata",
+      "definition": "Proporcional para os sorteios."
+    },
+    "LOTT": {
+      "name": "Sorteio",
+      "definition": "Lotaria para os sorteios."
+    },
+    "NOMI": {
+      "name": "Redução nominal",
+      "definition": "Redução do valor nominal para o reembolso parcial."
+    },
+    "NNOM": {
+      "name": "Sem redução nominal",
+      "definition": "Sem redução do valor nominal (através do fator de amortização) para o reembolso parcial."
+    }
+  }
+}

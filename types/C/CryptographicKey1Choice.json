@@ -1,0 +1,12 @@
+{
+  "isoType": "CryptographicKey1Choice",
+  "definition": "Escolha do formato de uma chave criptográfica que garante que um pagamento só pode ser executado nos termos previamente acordados.",
+  "isoElements": {
+    "ILPV4": {
+      "definition": "Chave criptográfica representada como um pacote ILP V4."
+    },
+    "Signature": {
+      "definition": "Chave criptográfica representada como uma assinatura."
+    }
+  }
+}

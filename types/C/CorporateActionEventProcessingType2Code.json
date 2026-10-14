@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionEventProcessingType2Code",
+  "definition": "Especifica o tipo de tratamento do evento.",
+  "isoCodes": {
+    "DISN": {
+      "name": "Distribuição",
+      "definition": "O titular do valor mobiliário em causa numa determinada data, por exemplo, a data de registo, receberá um benefício sem abdicar do valor mobiliário subjacente."
+    },
+    "GENL": {
+      "name": "Geral",
+      "definition": "Sem débito nem crédito de recursos."
+    },
+    "REDM": {
+      "name": "Resgate",
+      "definition": "Indica que o anúncio se refere a um reembolso de valores mobiliários para eventos que incluem resgates totais e parciais, vencimentos, pré-reembolsos parciais e extinções parciais da dívida (defeasance)."
+    },
+    "REOR": {
+      "name": "Reorganização",
+      "definition": "O valor mobiliário subjacente será debitado e poderá ser substituído por outro recurso (ou outros recursos)."
+    }
+  }
+}

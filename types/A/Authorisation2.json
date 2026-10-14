@@ -1,0 +1,15 @@
+{
+  "isoType": "Authorisation2",
+  "definition": "Autorização do titular do mandato.",
+  "isoElements": {
+    "MaximumAmountByTransaction": {
+      "definition": "Montante máximo permitido pelo mandato para cada operação."
+    },
+    "MaximumAmountByPeriod": {
+      "definition": "Montante máximo permitido num período de tempo específico."
+    },
+    "MaximumAmountByBulkSubmission": {
+      "definition": "Especifica o montante máximo para cada apresentação em lote."
+    }
+  }
+}

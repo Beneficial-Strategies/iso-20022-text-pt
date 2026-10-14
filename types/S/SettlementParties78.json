@@ -1,0 +1,38 @@
+{
+  "isoType": "SettlementParties78",
+  "definition": "Cadeia de partes envolvidas na liquidação de uma operação, incluindo receções e entregas, transferências escriturais, operações de tesouraria ou outras atividades, que resultam na movimentação de um valor mobiliário ou de um montante em dinheiro de uma conta para outra.",
+  "isoElements": {
+    "Depository": {
+      "definition": "Primeira parte na cadeia de liquidação. Numa liquidação simples (plain vanilla), é a central de valores mobiliários onde a contraparte solicita a receção do instrumento financeiro ou a partir da qual a contraparte entrega os instrumentos financeiros."
+    },
+    "Party1": {
+      "definition": "Parte que, numa cadeia de liquidação, interage com o depositário."
+    },
+    "Party2": {
+      "definition": "Parte que, numa cadeia de liquidação, interage com a parte 1."
+    },
+    "Party3": {
+      "definition": "Parte que, numa cadeia de liquidação, interage com a parte 2."
+    },
+    "Party4": {
+      "definition": "Parte que, numa cadeia de liquidação, interage com a parte 3."
+    },
+    "Party5": {
+      "definition": "Parte que, numa cadeia de liquidação, interage com a parte 4."
+    }
+  },
+  "isoRules": {
+    "Party2PresenceRule": {
+      "definition": "Se Party2 estiver presente, Party1 tem de estar presente."
+    },
+    "Party3PresenceRule": {
+      "definition": "Se Party3 estiver presente, Party2 tem de estar presente."
+    },
+    "Party4PresenceRule": {
+      "definition": "Se Party4 estiver presente, Party3 tem de estar presente."
+    },
+    "Party5PresenceRule": {
+      "definition": "Se Party5 estiver presente, Party4 tem de estar presente."
+    }
+  }
+}

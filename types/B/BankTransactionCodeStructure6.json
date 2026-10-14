@@ -1,0 +1,12 @@
+{
+  "isoType": "BankTransactionCodeStructure6",
+  "definition": "Conjunto de elementos utilizados para identificar o tipo ou o código de operação de um lançamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica a família dentro de um domínio."
+    },
+    "SubFamilyCode": {
+      "definition": "Especifica a subfamília de produto dentro de uma família específica."
+    }
+  }
+}

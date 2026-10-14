@@ -1,0 +1,15 @@
+{
+  "isoType": "GrossDividendRate1Choice",
+  "definition": "Escolha de formato para expressar um dividendo bruto.",
+  "isoElements": {
+    "NotSpecifiedRate": {
+      "definition": "O valor da taxa não está especificado, p. ex., a taxa é desconhecida."
+    },
+    "Amount": {
+      "definition": "Valor expresso como um montante."
+    },
+    "RateTypeAmount": {
+      "definition": "O valor é expresso como um montante associado a valores mobiliários subjacentes, p. ex., valor mobiliário subjacente pelo qual é pago um juro."
+    }
+  }
+}

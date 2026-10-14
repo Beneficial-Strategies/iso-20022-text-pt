@@ -1,0 +1,12 @@
+{
+  "isoType": "ReportingSource1Choice",
+  "definition": "Especifica a origem utilizada para gerar o reporte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Origem do reporte, tal como publicada numa lista de códigos externa de origens de reporte."
+    },
+    "Proprietary": {
+      "definition": "Origem do reporte, sob forma proprietária."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ResidualCash1",
+  "definition": "Especifica se existe numerário na conta a aguardar investimento.",
+  "isoElements": {
+    "ResidualCashIndicator": {
+      "definition": "Indica se existe numerário na conta a aguardar investimento."
+    },
+    "Currency": {
+      "definition": "Moeda do numerário."
+    }
+  }
+}

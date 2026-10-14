@@ -1,0 +1,18 @@
+{
+  "isoType": "CommissionType6Code",
+  "definition": "Especifica o tipo de comissão do fundo de investimento.",
+  "isoCodes": {
+    "FEND": {
+      "name": "Comissão de entrada",
+      "definition": "Comissão pela subscrição de um investimento, paga no momento da subscrição."
+    },
+    "BEND": {
+      "name": "Comissão de saída",
+      "definition": "Comissão pelo resgate de um investimento, quando um investidor resgata um fundo de investimento dentro de um determinado período."
+    },
+    "CDPL": {
+      "name": "Comissão de colocação",
+      "definition": "Montante em dinheiro devido a um intermediário pela venda de um produto ou serviços a terceiros."
+    }
+  }
+}

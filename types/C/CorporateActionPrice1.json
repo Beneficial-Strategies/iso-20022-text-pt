@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionPrice1",
+  "definition": "Especifica preços.",
+  "isoElements": {
+    "ExercisePrice": {
+      "definition": "1. Preço a que o valor mobiliário será comprado/vendido se o warrant for exercido, quer como montante efetivo quer como percentagem.|2. Preço a que uma obrigação é convertida em valor mobiliário subjacente, quer como montante efetivo quer como percentagem.|3. Preço de exercício de uma opção, representado quer como montante efetivo, quer como percentagem, quer como um número de pontos acima de um índice."
+    },
+    "IssuePrice": {
+      "definition": "Preço de emissão inicial de um instrumento financeiro."
+    },
+    "CashInLieuOfSharePrice": {
+      "definition": "Pagamento em numerário em vez de ações; normalmente em vez de uma quantidade fracionária."
+    },
+    "TaxableIncomePerDividendShare": {
+      "definition": "Montante incluído no dividendo/NAV identificado como ganhos direta ou indiretamente derivados de pagamentos de juros no âmbito da Diretiva da EU relativa à tributação da poupança."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Preço genérico em numerário recebido por produto pelo titular do valor mobiliário subjacente, quer como percentagem quer como montante, p. ex., preço de reembolso."
+    },
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Preço genérico em numerário pago por produto pelo titular do valor mobiliário subjacente, quer como percentagem quer como montante, p. ex., preço de reinvestimento."
+    },
+    "OverSubscriptionDepositPrice": {
+      "definition": "Montante em dinheiro exigido por ação objeto de excesso de subscrição, conforme definido pelo emitente."
+    }
+  }
+}

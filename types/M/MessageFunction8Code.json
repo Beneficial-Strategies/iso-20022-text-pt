@@ -1,0 +1,30 @@
+{
+  "isoType": "MessageFunction8Code",
+  "definition": "Identifica o tipo de processo pedido pelo anfitrião a um ATM.",
+  "isoCodes": {
+    "BALN": {
+      "name": "Saldo do ATM",
+      "definition": "Fornecer os contadores do ATM, repondo a zero os que forem aplicáveis."
+    },
+    "GSTS": {
+      "name": "Estado global do ATM",
+      "definition": "Estado global do ATM."
+    },
+    "DSEC": {
+      "name": "Detalhes de segurança",
+      "definition": "Relatório detalhado de segurança."
+    },
+    "INQC": {
+      "name": "Consulta de contadores",
+      "definition": "Pedir o valor dos contadores do ATM."
+    },
+    "KEYQ": {
+      "name": "Pedido de troca de chaves",
+      "definition": "Pedido de troca de chaves."
+    },
+    "SSTS": {
+      "name": "Estado da chave de segurança",
+      "definition": "Estado das chaves criptográficas."
+    }
+  }
+}

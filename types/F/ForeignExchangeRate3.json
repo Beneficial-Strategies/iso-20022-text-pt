@@ -1,0 +1,18 @@
+{
+  "isoType": "ForeignExchangeRate3",
+  "definition": "Informações necessárias para processar uma troca ou conversão de moeda.",
+  "isoElements": {
+    "ExchangeRate": {
+      "definition": "Valor de uma moeda expresso em relação a outra moeda. ExchangeRate exprime a relação entre UnitCurrency e QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "UnitCurrency": {
+      "definition": "Moeda em que a taxa de câmbio é expressa numa operação cambial. No exemplo 1GBP = xxxCUR, a moeda unitária é GBP."
+    },
+    "QuotedCurrency": {
+      "definition": "Moeda para a qual a moeda base é convertida, numa operação de câmbio."
+    },
+    "QuotationDate": {
+      "definition": "Data e hora em que uma taxa de câmbio é cotada."
+    }
+  }
+}

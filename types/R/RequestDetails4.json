@@ -1,0 +1,12 @@
+{
+  "isoType": "RequestDetails4",
+  "definition": "Detalhes de uma ou várias chaves do pedido.",
+  "isoElements": {
+    "Key": {
+      "definition": "Chave para a qual são devolvidos os dados específicos, por exemplo, um BIC."
+    },
+    "ReportData": {
+      "definition": "Dados devolvidos."
+    }
+  }
+}

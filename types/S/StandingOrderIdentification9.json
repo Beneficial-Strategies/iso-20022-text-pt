@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderIdentification9",
+  "definition": "Define os elementos utilizados para identificar de forma única uma ordem permanente.",
+  "isoElements": {
+    "Account": {
+      "definition": "Relação comercial entre duas entidades; uma das entidades é o titular da conta e a outra é a entidade gestora da conta."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    }
+  }
+}

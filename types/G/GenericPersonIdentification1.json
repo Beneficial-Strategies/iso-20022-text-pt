@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericPersonIdentification1",
+  "definition": "Informação relativa à identificação de uma pessoa.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca de uma pessoa."
+    },
+    "SchemeName": {
+      "definition": "Nome do esquema de identificação."
+    },
+    "Issuer": {
+      "definition": "Entidade que atribui a identificação."
+    }
+  }
+}

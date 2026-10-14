@@ -1,0 +1,42 @@
+{
+  "isoType": "OriginalPaymentInformation10",
+  "definition": "Fornece informações sobre a operação de pagamento original a que se aplica a mensagem de remessa.",
+  "isoElements": {
+    "References": {
+      "definition": "Identifica a operação subjacente."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar melhor o tipo de operação."
+    },
+    "Amount": {
+      "definition": "Montante em dinheiro a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora."
+    },
+    "ExchangeRateInformation": {
+      "definition": "Fornece detalhes da taxa de câmbio e do contrato."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Data em que a parte iniciadora solicita à instituição de compensação que trate o pagamento. |Utilização: Esta é a data em que a conta do devedor deve ser debitada. Se o pagamento for por cheque, a data em que o cheque deve ser emitido pelo banco."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Data e hora em que o credor solicita que o montante em dinheiro seja cobrado ao devedor."
+    },
+    "Debtor": {
+      "definition": "Parte que deve um montante em dinheiro ao credor (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificação inequívoca da conta do devedor a debitar em resultado da operação."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor."
+    },
+    "Creditor": {
+      "definition": "Parte a quem é devido um montante em dinheiro."
+    },
+    "CreditorAccount": {
+      "definition": "Identificação inequívoca da conta do credor a creditar em resultado da operação de pagamento."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    }
+  }
+}

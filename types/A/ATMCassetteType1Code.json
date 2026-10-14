@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMCassetteType1Code",
+  "definition": "Tipo de cassete.",
+  "isoCodes": {
+    "DPST": {
+      "name": "Entrada",
+      "definition": "Cassete de depósitos."
+    },
+    "DISP": {
+      "name": "Saída",
+      "definition": "Cassete de distribuição."
+    },
+    "RCYC": {
+      "name": "Reciclagem",
+      "definition": "Cassete de reciclagem."
+    },
+    "RJCT": {
+      "name": "Rejeição",
+      "definition": "Cassete de rejeição."
+    },
+    "RPLT": {
+      "name": "Reposição",
+      "definition": "Cassete de reabastecimento."
+    },
+    "RTRC": {
+      "name": "Retração",
+      "definition": "Cassete de retração."
+    }
+  }
+}

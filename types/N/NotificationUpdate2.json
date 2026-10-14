@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationUpdate2",
+  "definition": "Identificação de uma notificação anterior.",
+  "isoElements": {
+    "PreviousNotificationIdentification": {
+      "definition": "Identificação de uma mensagem de notificação de assembleia enviada anteriormente."
+    },
+    "ReconfirmInstructions": {
+      "definition": "Indica se uma instrução de assembleia deve ser reenviada caso os parâmetros da assembleia sejam alterados e a instrução de assembleia já tenha sido enviada."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationRequestAction1Choice",
+  "definition": "Especifica o tipo de ação solicitada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Ação solicitada, conforme publicada num conjunto de códigos externo de ações de investigação."
+    },
+    "Proprietary": {
+      "definition": "Ação solicitada, em formato proprietário."
+    }
+  }
+}

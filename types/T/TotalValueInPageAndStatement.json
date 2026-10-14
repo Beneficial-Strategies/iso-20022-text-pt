@@ -1,0 +1,12 @@
+{
+  "isoType": "TotalValueInPageAndStatement",
+  "definition": "Valor do total das posições reportadas.",
+  "isoElements": {
+    "TotalHoldingsValueOfPage": {
+      "definition": "Valor total das posições reportadas nesta mensagem."
+    },
+    "TotalHoldingsValueOfStatement": {
+      "definition": "Valor total das posições reportadas neste extrato (um extrato pode compreender uma ou mais mensagens)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "DeniedReason14Choice",
+  "definition": "Escolha do formato para o motivo de recusa.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual o pedido foi recusado."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo pelo qual o pedido foi recusado."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "FractionDispositionType1FormatChoice",
+  "definition": "Escolha de formatos para expressar a forma como as frações resultantes de valores mobiliários derivados serão tratadas ou como as decisões proporcionais serão arredondadas, se for fornecida uma taxa de rateio.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar como serão tratadas as frações resultantes de valores mobiliários derivados ou como serão arredondadas as decisões rateadas, se for indicada uma taxa de rateio."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para expressar a forma como as frações resultantes de valores mobiliários derivados serão tratadas ou como as decisões proporcionais serão arredondadas, se for fornecida uma taxa de rateio."
+    }
+  }
+}

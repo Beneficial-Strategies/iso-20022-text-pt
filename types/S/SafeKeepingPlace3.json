@@ -1,0 +1,17 @@
+{
+  "isoType": "SafeKeepingPlace3",
+  "definition": "Local onde os valores mobiliários são guardados, física ou nocionalmente. Este local pode ser, por exemplo, um custodiante local, uma central de depósito de valores mobiliários (CSD) ou uma central internacional de depósito de valores mobiliários (ICSD).",
+  "isoElements": {
+    "SafekeepingPlaceFormat": {
+      "definition": "Identificação única da parte."
+    },
+    "LEI": {
+      "definition": "Identificação da entidade jurídica como identificação alternativa de um local de guarda."
+    }
+  },
+  "isoRules": {
+    "SafekeepingPlaceFormatOrLEIRule": {
+      "definition": "SafekeepingPlaceFormat tem de estar presente ou LEI tem de estar presente."
+    }
+  }
+}

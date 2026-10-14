@@ -1,0 +1,18 @@
+{
+  "isoType": "PortfolioTransferStatus2Choice",
+  "definition": "Escolha de formato para um estado de alegação.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "A instrução foi confirmada pela instituição gestora da conta."
+    },
+    "PendingProcessing": {
+      "definition": "O processamento da instrução/pedido está pendente."
+    },
+    "Rejected": {
+      "definition": "A instrução/pedido foi rejeitada para processamento adicional."
+    },
+    "Proprietary": {
+      "definition": "Estado que não pode ser reportado através de um dos estados padrão disponíveis."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "ExternalInstructedAgentInstruction1Code",
+  "definition": "Especifica instruções adicionais relativas ao processamento de uma instrução de pagamento ou de um ajuste, conforme fornecidas à instituição instruída.",
+  "isoCodes": {
+    "REMD": {
+      "name": "Lembrete",
+      "definition": "Lembrete. Foi anteriormente enviada uma mensagem de pedido de encargos."
+    }
+  }
+}

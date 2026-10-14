@@ -1,0 +1,93 @@
+{
+  "isoType": "SecuritiesFinancingTransactionDetails48",
+  "definition": "Detalhes do encerramento da operação de financiamento através de valores mobiliários.",
+  "isoElements": {
+    "SecuritiesFinancingTradeIdentification": {
+      "definition": "Identificação inequívoca da operação de financiamento através de valores mobiliários subjacente, atribuída pela parte instrutora. A identificação é comum a todas as parcelas de garantia (uma ou várias)."
+    },
+    "ClosingLegIdentification": {
+      "definition": "Identificação inequívoca da segunda perna da operação, conforme conhecida pelo titular da conta (ou pela parte instrutora que age em seu nome)."
+    },
+    "TerminationDate": {
+      "definition": "Data/hora de encerramento ou data/hora de vencimento da operação."
+    },
+    "RateChangeDate": {
+      "definition": "Data/hora em que ocorreu a alteração da taxa."
+    },
+    "EarliestCallBackDate": {
+      "definition": "Data/hora mais próxima em que a reposição (call back) pode ter lugar."
+    },
+    "CommissionCalculationDate": {
+      "definition": "Data/hora em que a comissão é calculada."
+    },
+    "RateType": {
+      "definition": "Especifica se a taxa é fixa ou variável."
+    },
+    "Revaluation": {
+      "definition": "Especifica se a posição de garantia deve ser sujeita a reavaliação automática pela instituição gestora da conta."
+    },
+    "LegalFramework": {
+      "definition": "Enquadramento jurídico da operação."
+    },
+    "InterestComputationMethod": {
+      "definition": "Identifica o método de cálculo dos juros corridos do instrumento financeiro relacionado."
+    },
+    "MaturityDateModification": {
+      "definition": "Indica se a data de vencimento da operação de financiamento através de valores mobiliários pode ser modificada."
+    },
+    "InterestPayment": {
+      "definition": "Indica se os juros devem ser pagos ao beneficiário da garantia. Se for definido como não, os juros são pagos ao prestador da garantia."
+    },
+    "VariableRateSupport": {
+      "definition": "Índice ou taxa de suporte utilizada em conjunto com o diferencial para calcular a taxa de recompra."
+    },
+    "RepurchaseRate": {
+      "definition": "Taxa a utilizar para recalcular o montante da recompra."
+    },
+    "StockLoanMargin": {
+      "definition": "Margem percentual sobre a contrapartida de um empréstimo, utilizada para refletir o risco do mutuante."
+    },
+    "SecuritiesHaircut": {
+      "definition": "Haircut ou fator de avaliação do valor mobiliário, expresso em percentagem."
+    },
+    "ChargesRate": {
+      "definition": "Taxa de juro paga no contexto de uma operação de financiamento de valores mobiliários."
+    },
+    "PricingRate": {
+      "definition": "Taxa de juro a pagar sobre o montante da operação, conforme acordado entre as contrapartes."
+    },
+    "Spread": {
+      "definition": "Spread de recompra expresso como uma taxa; margem acima ou abaixo de um índice que determina a taxa de recompra."
+    },
+    "TransactionCallDelay": {
+      "definition": "Número mínimo de dias de pré-aviso de que uma contraparte necessita para pôr termo à operação."
+    },
+    "TotalNumberOfCollateralInstructions": {
+      "definition": "Número total de instruções de garantia envolvidas na operação."
+    },
+    "LocalBrokerCommission": {
+      "definition": "Montante da comissão paga a um corretor local."
+    },
+    "DealAmount": {
+      "definition": "Montante de capital de uma operação (para a segunda fase)."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Montante de juros que se venceram entre os períodos de pagamento de cupões."
+    },
+    "ForfeitAmount": {
+      "definition": "Montante fixo em dinheiro que tem de ser pago (em vez de juros) em caso de resgate ou na data de encerramento."
+    },
+    "PremiumAmount": {
+      "definition": "Diferença entre o montante em dinheiro da primeira fase e o montante da segunda fase da operação."
+    },
+    "TerminationAmountPerPieceOfCollateral": {
+      "definition": "Montante em dinheiro a liquidar por unidade de garantia para terminar a operação."
+    },
+    "TerminationTransactionAmount": {
+      "definition": "Montante total a liquidar para pôr termo à operação."
+    },
+    "SecondLegNarrative": {
+      "definition": "Fornece informações adicionais sobre a segunda perna em forma narrativa."
+    }
+  }
+}

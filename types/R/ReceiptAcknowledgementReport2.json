@@ -1,0 +1,12 @@
+{
+  "isoType": "ReceiptAcknowledgementReport2",
+  "definition": "Fornece detalhes sobre o pedido original. Identifica a mensagem confirmada e o seu estado.",
+  "isoElements": {
+    "RelatedReference": {
+      "definition": "Referência do pedido."
+    },
+    "RequestHandling": {
+      "definition": "Indica o estado do pedido."
+    }
+  }
+}

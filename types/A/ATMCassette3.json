@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMCassette3",
+  "definition": "Informações sobre o cassete de um ATM.",
+  "isoElements": {
+    "PhysicalIdentification": {
+      "definition": "Identificação física do cassete do ATM."
+    },
+    "LogicalIdentification": {
+      "definition": "Identificação lógica do cassete do ATM."
+    },
+    "SerialNumber": {
+      "definition": "Número de série ou identificação única do equipamento do cassete."
+    },
+    "Type": {
+      "definition": "Tipo de cassete."
+    },
+    "SubType": {
+      "definition": "Tipo de itens aceites pelo depósito."
+    },
+    "MediaType": {
+      "definition": "Tipo de meio no interior da cassete."
+    },
+    "MediaCounters": {
+      "definition": "Contador por valor unitário ou global."
+    },
+    "CassetteStatus": {
+      "definition": "Estado do cassete. Este elemento pode não ser fornecido se o estado não tiver mudado desde a última vez que as informações do cassete foram fornecidas."
+    }
+  }
+}

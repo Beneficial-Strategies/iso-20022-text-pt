@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountCriteria4Choice",
+  "definition": "Define as informações que são pesquisadas, quer implicitamente, recorrendo a uma consulta anterior, quer explicitamente, através da definição dos critérios.",
+  "isoElements": {
+    "QueryName": {
+      "definition": "Recorre aos critérios (de pesquisa e de devolução) definidos numa consulta anterior."
+    },
+    "NewCriteria": {
+      "definition": "Define explicitamente os critérios da consulta."
+    }
+  }
+}

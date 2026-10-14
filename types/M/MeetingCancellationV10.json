@@ -1,0 +1,9 @@
+{
+  "isoType": "MeetingCancellationV10",
+  "definition": "Âmbito|A mensagem MeetingCancellation é enviada pela parte que enviou a mensagem MeetingNotification ao destinatário original. É enviada para cancelar uma assembleia anunciada anteriormente ou para comunicar a retirada de uma assembleia.|Utilização|A mensagem MeetingCancellation é utilizada para comunicar que a assembleia foi cancelada pela entidade gestora da conta ou retirada pelo emitente. |Esta definição de mensagem destina-se a ser utilizada com o Business Application Header (BAH).",
+  "isoRules": {
+    "Cancellation1Guideline": {
+      "definition": "Recomenda-se que uma assembleia seja cancelada utilizando apenas MeetingReference/MeetingIdentification, MeetingReference/Type e Security e Reason. Recomenda-se que os elementos opcionais não sejam utilizados."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "RemittanceInformation2",
+  "definition": "Informações fornecidas para permitir a correspondência de um lançamento com os itens que a transferência se destina a liquidar.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Informações fornecidas para permitir a correspondência de um lançamento com os itens que a transferência se destina a liquidar, por exemplo, faturas comerciais num sistema de contas a receber, em forma não estruturada."
+    }
+  }
+}

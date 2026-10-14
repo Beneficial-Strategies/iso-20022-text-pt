@@ -1,0 +1,24 @@
+{
+  "isoType": "ServiceItemTotals12",
+  "definition": "Especifica os totais relacionados com a fatura.",
+  "isoElements": {
+    "ItemType": {
+      "definition": "Especifica uma classificação para os itens de serviço, tais como consulta, relatório, conta de valores mobiliários, etc."
+    },
+    "Description": {
+      "definition": "Descrição do item de serviço."
+    },
+    "Quantity": {
+      "definition": "Soma do número total de unidades por item de serviço."
+    },
+    "UnitPrice": {
+      "definition": "Especifica o preço por unidade do item de serviço."
+    },
+    "Tax": {
+      "definition": "Informações detalhadas sobre o imposto aplicado."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Montante total da fatura, correspondente à soma dos montantes totais das linhas da fatura, do montante total de ajustamento da fatura (descontos, abonos e encargos) e dos montantes totais de imposto."
+    }
+  }
+}

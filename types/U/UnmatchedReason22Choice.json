@@ -1,0 +1,12 @@
+{
+  "isoType": "UnmatchedReason22Choice",
+  "definition": "Escolha do formato do motivo de não correspondência da consulta de extrato.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de sem correspondência."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de sem correspondência."
+    }
+  }
+}

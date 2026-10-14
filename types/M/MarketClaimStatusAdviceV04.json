@@ -1,0 +1,4 @@
+{
+  "isoType": "MarketClaimStatusAdviceV04",
+  "definition": "Âmbito e utilização|A mensagem MarketClaimStatusAdvice é enviada por uma entidade gestora de contas a um titular de conta para fornecer o estado de uma operação de reclamação de mercado.|Esta definição de mensagem destina-se a ser utilizada com o cabeçalho aplicacional da mensagem (BAH)."
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "CashAsset3",
+  "definition": "Identificação de um ativo em numerário.",
+  "isoElements": {
+    "CashAssetType": {
+      "definition": "Tipo de ativo em numerário."
+    },
+    "HoldingCurrency": {
+      "definition": "Moeda do ativo na posição."
+    },
+    "TransferCurrency": {
+      "definition": "Moeda do ativo noutra moeda."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o ativo em numerário."
+    }
+  },
+  "isoRules": {
+    "HoldingTransferCurrencyGuideline": {
+      "definition": "Quando o numerário é transferido numa moeda diferente da do numerário, a moeda deve ser especificada em TransferCurrency."
+    }
+  }
+}

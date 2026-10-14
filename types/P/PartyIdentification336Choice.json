@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification336Choice",
+  "definition": "Identificação de uma parte.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Código atribuído a uma instituição financeira ou não financeira pela Autoridade de Registo da ISO 9362, conforme descrito na ISO 9362 \"Banking - Banking telecommunication messages - Business identifier code (BIC)\"."
+    },
+    "LEI": {
+      "definition": "Identificador de entidade jurídica da parte."
+    }
+  }
+}

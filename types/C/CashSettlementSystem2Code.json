@@ -1,0 +1,14 @@
+{
+  "isoType": "CashSettlementSystem2Code",
+  "definition": "Especifica o sistema de liquidação em numerário utilizado.",
+  "isoCodes": {
+    "GROS": {
+      "name": "Sistema de liquidação bruta",
+      "definition": "Liquidar o dinheiro através de um sistema de liquidação bruta."
+    },
+    "NETS": {
+      "name": "Sistema de liquidação líquida",
+      "definition": "Liquidar o dinheiro através de um sistema de liquidação líquida."
+    }
+  }
+}

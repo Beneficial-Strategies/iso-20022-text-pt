@@ -1,0 +1,35 @@
+{
+  "isoType": "FinancialInstrument116",
+  "definition": "Valor mobiliário que é um subconjunto de um fundo de investimento e é regido pela mesma política do fundo de investimento, por exemplo, opção de dividendos ou moeda de avaliação.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação de um valor mobiliário por um ISIN."
+    },
+    "Name": {
+      "definition": "Nome do instrumento financeiro em texto de formato livre."
+    },
+    "ShortName": {
+      "definition": "Financial Instrument Short Name (FISN) expresso em conformidade com a norma ISO 18774."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Informações adicionais sobre o instrumento financeiro."
+    },
+    "ClassType": {
+      "definition": "Características das unidades oferecidas por um fundo. Por exemplo, uma unidade pode ter uma estrutura de comissões específica, por exemplo, à entrada ou à saída, uma política de rendimentos, por exemplo, distribuição ou capitalização, ou uma política de comissões de acompanhamento, por exemplo, com ou sem. As classes de fundos são normalmente designadas por um único carácter, por exemplo, 'Classe A', 'Classe 2'."
+    },
+    "SecuritiesForm": {
+      "definition": "Forma, isto é, titularidade, do valor mobiliário, isto é, nominativo ou ao portador."
+    },
+    "DistributionPolicy": {
+      "definition": "Política de rendimentos relativa a um tipo de classe, isto é, se os rendimentos são distribuídos ou retidos no fundo."
+    },
+    "DematerialisedIndicator": {
+      "definition": "Indica se um valor mobiliário existe apenas como registo eletrónico, ou seja, se não existe nenhum documento físico que represente o valor mobiliário."
+    }
+  },
+  "isoRules": {
+    "IdentificationGuideline": {
+      "definition": "Recomenda-se a utilização do ISIN em Identification.|Quando existe um código ISIN, é vivamente recomendado que seja utilizado o ISIN."
+    }
+  }
+}

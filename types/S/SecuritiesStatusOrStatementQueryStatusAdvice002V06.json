@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesStatusOrStatementQueryStatusAdvice002V06",
+  "definition": "Âmbito|Um prestador de serviços de conta envia um SecuritiesStatusOrStatementQueryStatusAdvice a um titular de conta para comunicar o estado de uma consulta de estado ou de uma consulta de extrato enviada anteriormente pelo titular da conta.|A relação prestador de serviços/titular da conta pode ser:|- uma central de depósito de valores mobiliários ou outra infraestrutura de mercado de liquidação que atua em nome dos seus participantes|- um agente (subcustodiante) que atua em nome do seu cliente custodiante global, ou|- um custodiante que atua em nome de uma instituição de gestão de investimentos ou de um corretor/negociador.||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente,|- fornecer a um terceiro uma cópia de uma mensagem a título informativo,|- reenviar a um terceiro uma cópia de uma mensagem a título informativo, utilizando os elementos relevantes do Business Application Header.",
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    }
+  }
+}

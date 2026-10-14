@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification2Choice",
+  "definition": "Escolha entre a identificação de uma conta de numerário ou de uma conta de valores mobiliários.",
+  "isoElements": {
+    "CashAccountIdentification": {
+      "definition": "Identificação de uma conta de numerário."
+    },
+    "SecuritiesAccountIdentification": {
+      "definition": "Identificação de uma conta de valores mobiliários."
+    }
+  }
+}

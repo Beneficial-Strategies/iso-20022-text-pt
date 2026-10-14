@@ -1,0 +1,18 @@
+{
+  "isoType": "OriginalGroupHeader20",
+  "definition": "Fornece pormenores sobre o grupo original a que a mensagem se refere.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte instrutora original, para identificar de forma inequívoca a mensagem original."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Especifica o identificador do nome da mensagem original a que a mensagem se refere."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Data e hora em que a mensagem original foi criada."
+    },
+    "ReversalReasonInformation": {
+      "definition": "Fornece informações detalhadas sobre o motivo da reversão."
+    }
+  }
+}

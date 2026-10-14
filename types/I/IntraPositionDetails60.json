@@ -1,0 +1,50 @@
+{
+  "isoType": "IntraPositionDetails60",
+  "definition": "Detalhes do movimento intraposição.",
+  "isoElements": {
+    "PoolIdentification": {
+      "definition": "Referência coletiva que identifica um conjunto de mensagens."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Endereço blockchain ou carteira onde os ativos digitais são mantidos. É o equivalente da conta de custódia para os ativos digitais."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financeiros que representam um conjunto de direitos do investidor face ao emitente."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantidade total de valores mobiliários a liquidar."
+    },
+    "LotNumber": {
+      "definition": "Número que identifica um lote que constitui o instrumento financeiro."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora a que os valores mobiliários devem ser movimentados."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Carimbo de data/hora do momento em que a operação é reconhecida."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo de origem dos valores mobiliários a movimentar."
+    },
+    "BalanceTo": {
+      "definition": "Saldo de destino dos valores mobiliários a movimentar."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    }
+  }
+}

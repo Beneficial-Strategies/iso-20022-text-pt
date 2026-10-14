@@ -1,0 +1,18 @@
+{
+  "isoType": "AcknowledgementReason10Code",
+  "definition": "Especifica informações adicionais sobre a instrução processada.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Recebida após o prazo limite da instituição gestora da conta. Processada com o melhor esforço."
+    },
+    "SMPG": {
+      "name": "Discrepância com a regra de prática de mercado",
+      "definition": "A instrução é aceite, mas não cumpre a regra de prática de mercado publicada para o mercado ou processo em causa."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    }
+  }
+}

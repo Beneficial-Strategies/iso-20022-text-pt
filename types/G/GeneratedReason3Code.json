@@ -1,0 +1,34 @@
+{
+  "isoType": "GeneratedReason3Code",
+  "definition": "Especifica o motivo pelo qual a operação foi gerada.",
+  "isoCodes": {
+    "COLL": {
+      "name": "Gestão de garantias",
+      "definition": "A operação foi gerada para fins de gestão de garantias."
+    },
+    "CLAI": {
+      "name": "Reclamação de mercado",
+      "definition": "Operação resultante de uma reclamação de mercado."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "RODE": {
+      "name": "Devolução recusada com descarte",
+      "definition": "Refere-se à devolução de instrumentos financeiros resultante de uma entrega rejeitada sem operação de correspondência."
+    },
+    "SPLI": {
+      "name": "Fracionamento",
+      "definition": "A operação foi gerada para permitir a liquidação na sequência de uma insuficiência de posição."
+    },
+    "THRD": {
+      "name": "Terceiro",
+      "definition": "A operação foi gerada por um terceiro, por exemplo, uma contraparte central."
+    },
+    "TRAN": {
+      "name": "Transformação",
+      "definition": "A operação foi gerada devido a uma transformação na sequência de um evento societário."
+    }
+  }
+}

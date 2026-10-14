@@ -1,0 +1,17 @@
+{
+  "isoType": "Proxy12",
+  "definition": "Identificação de um mandatário nomeado para representar uma parte autorizada a votar numa assembleia de acionistas, e voto por procuração.",
+  "isoElements": {
+    "ProxyType": {
+      "definition": "Tipo de representante."
+    },
+    "PersonDetails": {
+      "definition": "Pessoa, que não o presidente da assembleia, designada pelo detentor de valores mobiliários como representante."
+    }
+  },
+  "isoRules": {
+    "ProxyAppointment1Rule": {
+      "definition": "Se ProxyType for DISC (Discretionary) ou HLDR (SecurityHolder), então PersonDetails tem de estar presente."
+    }
+  }
+}

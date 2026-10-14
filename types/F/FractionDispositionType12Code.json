@@ -1,0 +1,14 @@
+{
+  "isoType": "FractionDispositionType12Code",
+  "definition": "Indica o tratamento a aplicar às frações de valores mobiliários.",
+  "isoCodes": {
+    "RDDN": {
+      "name": "Arredondar por defeito",
+      "definition": "Arredondar por defeito para o número inteiro mais próximo."
+    },
+    "RDUP": {
+      "name": "Arredondar por excesso",
+      "definition": "Arredondar por excesso para o número inteiro mais próximo."
+    }
+  }
+}

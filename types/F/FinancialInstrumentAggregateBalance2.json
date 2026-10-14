@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance2",
+  "definition": "Posição agregada detida numa conta de valores mobiliários para um determinado instrumento financeiro.",
+  "isoElements": {
+    "SettledBalance": {
+      "definition": "Saldo das operações liquidadas."
+    },
+    "TradedBalance": {
+      "definition": "Saldo das operações liquidadas e das operações com liquidação pendente."
+    },
+    "BalanceBreakdown": {
+      "definition": "Discriminação dos saldos das posições em subsaldos."
+    }
+  }
+}

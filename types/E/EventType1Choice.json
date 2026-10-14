@@ -1,0 +1,12 @@
+{
+  "isoType": "EventType1Choice",
+  "definition": "Tipo de evento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de evento, em forma codificada, conforme publicado numa lista externa."
+    },
+    "Proprietary": {
+      "definition": "Tipo de evento, em forma de texto livre."
+    }
+  }
+}

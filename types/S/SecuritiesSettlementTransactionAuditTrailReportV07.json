@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesSettlementTransactionAuditTrailReportV07",
+  "definition": "Âmbito|Esta mensagem é enviada pela infraestrutura de mercado à CSD para comunicar o historial de todos os estados, modificações, substituições e cancelamentos de uma operação específica durante todo o seu ciclo de vida, quando a parte ordenante é um participante direto da infraestrutura de liquidação.||Utilização|A mensagem pode também ser utilizada para: |- reenviar uma mensagem enviada pela infraestrutura de mercado ao participante direto,|- fornecer a um terceiro uma cópia de uma mensagem enviada pela infraestrutura de mercado, a título informativo,|- reenviar a um terceiro uma cópia de uma mensagem enviada pela infraestrutura de mercado, a título informativo, utilizando os elementos pertinentes do Business Application Header.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identificação da mensagem enviada para solicitar este relatório."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    }
+  }
+}

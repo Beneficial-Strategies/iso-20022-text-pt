@@ -1,0 +1,15 @@
+{
+  "isoType": "MatchingStatus30Choice",
+  "definition": "Escolha do formato para o estado de correspondência.",
+  "isoElements": {
+    "Matched": {
+      "definition": "O estado é com correspondência."
+    },
+    "Unmatched": {
+      "definition": "O estado é sem correspondência."
+    },
+    "Proprietary": {
+      "definition": "Estado proprietário."
+    }
+  }
+}

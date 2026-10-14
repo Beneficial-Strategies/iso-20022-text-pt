@@ -1,0 +1,42 @@
+{
+  "isoType": "CardIndividualTransaction2",
+  "definition": "Dados de cada operação individual com cartão.",
+  "isoElements": {
+    "ICCRelatedData": {
+      "definition": "Dados relativos a uma aplicação de cartão com circuito integrado."
+    },
+    "PaymentContext": {
+      "definition": "Contexto da operação de pagamento com cartão."
+    },
+    "AdditionalService": {
+      "definition": "Serviço adicional ao serviço principal."
+    },
+    "TransactionCategory": {
+      "definition": "Código de categoria conforme com a norma ISO 18245, relativo ao tipo de serviços ou bens que o comerciante fornece para a operação.|Este elemento também é conhecido como MerchantCategoryCode."
+    },
+    "SaleReconciliationIdentification": {
+      "definition": "Identificação única do período de reconciliação de vendas entre o aceitante e o adquirente. Esta identificação pode estar ligada à identificação da liquidação, para posterior verificação pelo comerciante."
+    },
+    "SaleReferenceNumber": {
+      "definition": "Referência única da venda, fornecida pelo comerciante."
+    },
+    "RePresentmentReason": {
+      "definition": "Motivo da reapresentação de uma operação com cartão."
+    },
+    "SequenceNumber": {
+      "definition": "Número sequencial da operação com cartão, atribuído pelo POI (Point of Interaction). |Utilização: o número sequencial é incrementado por cada operação."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo POI (Point Of Interaction)."
+    },
+    "Product": {
+      "definition": "Produto adquirido com a operação."
+    },
+    "ValidationDate": {
+      "definition": "Data em que o depósito foi validado pela instituição financeira que recebeu o numerário."
+    },
+    "ValidationSequenceNumber": {
+      "definition": "Número sequencial da validação do depósito em numerário.|Utilização: o número sequencial é incrementado por cada operação."
+    }
+  }
+}

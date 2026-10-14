@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesSubBalanceTypeAndQuantityBreakdown5",
+  "definition": "Informações de repartição da quantidade para um saldo específico de valores mobiliários.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o indicador do tipo de subsaldo de valores mobiliários (por exemplo, o tipo de restrição de uma infraestrutura de mercado)."
+    },
+    "QuantityBreakdown": {
+      "definition": "Repartição de uma quantidade em lotes, como lotes fiscais ou séries de instrumentos."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingSubServiceIdentification1",
+  "definition": "Especifica a identificação de um subserviço de faturação.",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Especifica o qualificador do subserviço."
+    },
+    "Identification": {
+      "definition": "Define melhor um serviço da instituição financeira, através do valor exigido pelo qualificador do subserviço, como o número efetivo do cofre postal (lockbox) ou da loja."
+    }
+  }
+}

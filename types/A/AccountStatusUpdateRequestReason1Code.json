@@ -1,0 +1,10 @@
+{
+  "isoType": "AccountStatusUpdateRequestReason1Code",
+  "definition": "Especifica o motivo de um pedido de alteração do estado de uma conta.",
+  "isoCodes": {
+    "CLOE": {
+      "name": "Erro na instrução de encerramento da conta",
+      "definition": "A instrução anterior de encerramento da conta foi enviada por engano."
+    }
+  }
+}

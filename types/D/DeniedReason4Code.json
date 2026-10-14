@@ -1,0 +1,46 @@
+{
+  "isoType": "DeniedReason4Code",
+  "definition": "Especifica o motivo da recusa.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Recebida após o prazo limite da instituição gestora da conta."
+    },
+    "DCAN": {
+      "name": "Recusado por já ter sido cancelado",
+      "definition": "O pedido de cancelamento foi recusado porque a instrução já tinha sido cancelada."
+    },
+    "DPRG": {
+      "name": "Recusado por estar em curso",
+      "definition": "O pedido de cancelamento foi recusado porque o processo de liquidação está em curso."
+    },
+    "DREP": {
+      "name": "Recusado por a operação de reporte ter terminado",
+      "definition": "O pedido de cancelamento foi recusado porque o reporte foi cancelado."
+    },
+    "DSET": {
+      "name": "Recusado por já ter sido liquidado",
+      "definition": "O pedido de cancelamento foi recusado porque a instrução já tinha sido liquidada."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "CDRG": {
+      "name": "Condicional ao agente de registo",
+      "definition": "A execução é recusada devido à execução de um processo junto do registador."
+    },
+    "CDCY": {
+      "name": "Condicional à moeda",
+      "definition": "A execução é recusada devido a um processo associado à moeda da operação."
+    },
+    "CDRE": {
+      "name": "Condicional ao realinhamento",
+      "definition": "A execução é recusada devido à execução de um processo de realinhamento no CSD emitente."
+    }
+  }
+}

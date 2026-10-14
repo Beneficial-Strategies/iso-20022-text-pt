@@ -1,0 +1,26 @@
+{
+  "isoType": "ATMNoteType1Code",
+  "definition": "Tipo de itens do cassete de depósito.",
+  "isoCodes": {
+    "ALLT": {
+      "name": "Todos",
+      "definition": "Todos os tipos de notas aptas."
+    },
+    "CNTR": {
+      "name": "Falsificado",
+      "definition": "Notas falsificadas detetadas."
+    },
+    "IDVD": {
+      "name": "Individual",
+      "definition": "Todos os tipos de notas aptas especificados numa lista individual."
+    },
+    "SCNT": {
+      "name": "Suspeita de falsificação",
+      "definition": "Notas suspeitas de falsificação."
+    },
+    "UNFT": {
+      "name": "Inapto",
+      "definition": "Notas inaptas (qualidade inaceitável)."
+    }
+  }
+}

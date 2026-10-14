@@ -1,0 +1,26 @@
+{
+  "isoType": "AgentRole2Code",
+  "definition": "Especifica a função do agente.",
+  "isoCodes": {
+    "SPAY": {
+      "name": "Agente pagador do sistema",
+      "definition": "O System Paying Agent (SPA) é a parte, no seio da CSD, responsável pela distribuição do produto em numerário e em valores mobiliários relativo a uma distribuição específica a outras partes da CSD."
+    },
+    "CODO": {
+      "name": "Codomicílio",
+      "definition": "Subagente nomeado para executar o pagamento do evento de ação societária em nome da sociedade emitente/ofertante."
+    },
+    "ISAG": {
+      "name": "Agente do emitente",
+      "definition": "Parte nomeada para administrar o evento em nome da sociedade emitente/oferente. A parte pode ser contactada para obter mais informações sobre o evento."
+    },
+    "REGR": {
+      "name": "Entidade registadora",
+      "definition": "Parte/agente responsável pela manutenção do registo de um valor mobiliário."
+    },
+    "PAYA": {
+      "name": "Agente pagador",
+      "definition": "Agente (agente pagador principal ou fiscal) nomeado para executar o pagamento do evento de operação sobre valores mobiliários em nome da sociedade emitente/oferente."
+    }
+  }
+}

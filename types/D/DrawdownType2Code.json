@@ -1,0 +1,18 @@
+{
+  "isoType": "DrawdownType2Code",
+  "definition": "Especifica um tipo de levantamento.",
+  "isoCodes": {
+    "BOTH": {
+      "name": "Ambos",
+      "definition": "O tipo de levantamento é simultaneamente de acesso flexível e limitado."
+    },
+    "CAPP": {
+      "name": "Levantamento de rendimento limitado",
+      "definition": "O tipo de levantamento é limitado."
+    },
+    "FLEX": {
+      "name": "Levantamento de acesso flexível",
+      "definition": "O tipo de levantamento é de acesso flexível."
+    }
+  }
+}

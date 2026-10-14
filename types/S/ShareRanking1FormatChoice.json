@@ -1,0 +1,12 @@
+{
+  "isoType": "ShareRanking1FormatChoice",
+  "definition": "Escolha de formatos para expressar a classificação das ações.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar a classificação das ações."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para expressar a classificação das ações."
+    }
+  }
+}

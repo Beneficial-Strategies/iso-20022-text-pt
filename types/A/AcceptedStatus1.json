@@ -1,0 +1,9 @@
+{
+  "isoType": "AcceptedStatus1",
+  "definition": "Escolha entre um motivo ou nenhum motivo para o estado aceite do processamento da instrução relativa à operação sobre títulos.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo não especificado."
+    }
+  }
+}

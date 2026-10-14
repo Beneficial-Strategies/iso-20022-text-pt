@@ -1,0 +1,58 @@
+{
+  "isoType": "TaxEfficientProductType2Code",
+  "definition": "Especifica um tipo de produto fiscalmente eficiente.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Numerário",
+      "definition": "Conta de poupança individual em numerário. No UK, é conhecida como cash ISA."
+    },
+    "CLIS": {
+      "name": "LISA em numerário",
+      "definition": "Conta de poupança individual vitalícia em numerário. No UK, é conhecida como cash LISA."
+    },
+    "FISA": {
+      "name": "Flexível",
+      "definition": "Conta de poupança individual flexível. No UK, é conhecida como FISA."
+    },
+    "GISK": {
+      "name": "Conta de poupança de investimento geral",
+      "definition": "Conta de poupança de investimento geral. (Conhecida como Investeringssparkonto (ISK) em alguns mercados.)"
+    },
+    "GASK": {
+      "name": "Conta de poupança em ações geral",
+      "definition": "Conta de poupança geral em ações ou capital próprio. (Conhecida como ASK em alguns mercados.)"
+    },
+    "HISA": {
+      "name": "Ajuda à compra",
+      "definition": "Conta de poupança individual de apoio à compra de habitação. No UK, é conhecida como HISA."
+    },
+    "INNF": {
+      "name": "Finanças inovadoras",
+      "definition": "Conta de poupança individual de financiamento inovador. No UK, é conhecida como innovative ISA."
+    },
+    "JCSH": {
+      "name": "Numerário júnior",
+      "definition": "Conta de poupança individual júnior em numerário. No UK, é conhecida como cash JISA."
+    },
+    "JISA": {
+      "name": "ISA júnior de títulos e ações",
+      "definition": "Conta de poupança individual júnior em ações e outros valores mobiliários. No UK, é conhecida como stocks and shares JISA."
+    },
+    "LISA": {
+      "name": "Vitalício",
+      "definition": "Conta de poupança individual vitalícia em ações e outros valores mobiliários. No UK, é conhecida como stocks and shares LISA."
+    },
+    "CCTF": {
+      "name": "Fundo fiduciário infantil sem stakeholder",
+      "definition": "Conta de poupança individual de fundo fiduciário infantil sem stakeholder. No UK, é conhecida como non-stakeholder CTF ISA."
+    },
+    "SCTF": {
+      "name": "Fundo fiduciário infantil com stakeholder",
+      "definition": "Conta de poupança individual de fundo fiduciário infantil com stakeholder. No UK, é conhecida como stakeholder CTF ISA."
+    },
+    "EQUI": {
+      "name": "Títulos e ações",
+      "definition": "Conta de poupança individual em ações e outros valores mobiliários. No UK, é conhecida como stocks and shares ISA."
+    }
+  }
+}

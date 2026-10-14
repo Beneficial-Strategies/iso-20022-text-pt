@@ -1,0 +1,18 @@
+{
+  "isoType": "MeetingCancellationReason2Code",
+  "definition": "Especifica o motivo do cancelamento de uma assembleia.",
+  "isoCodes": {
+    "QORM": {
+      "name": "Quórum",
+      "definition": "Cancelamento devido a participação insuficiente na votação."
+    },
+    "PROC": {
+      "name": "Processamento",
+      "definition": "Cancelamento devido a um erro de tratamento."
+    },
+    "WITH": {
+      "name": "Levantamento",
+      "definition": "Cancelamento devido ao cancelamento da assembleia pelo emitente."
+    }
+  }
+}

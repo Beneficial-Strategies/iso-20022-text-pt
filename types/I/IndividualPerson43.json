@@ -1,0 +1,12 @@
+{
+  "isoType": "IndividualPerson43",
+  "definition": "Entidade humana, por oposição a uma entidade coletiva (por vezes designada «pessoa artificial»).",
+  "isoElements": {
+    "PreassignedProxy": {
+      "definition": "Identificação única e inequívoca do representante."
+    },
+    "EmployingParty": {
+      "definition": "Organização representada pela pessoa ou para a qual a pessoa trabalha."
+    }
+  }
+}

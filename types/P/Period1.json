@@ -1,0 +1,12 @@
+{
+  "isoType": "Period1",
+  "definition": "Intervalo de tempo definido por uma data e hora de início e uma data e hora de fim.",
+  "isoElements": {
+    "StartDate": {
+      "definition": "Data e hora em que o intervalo começa."
+    },
+    "EndDate": {
+      "definition": "Data e hora em que o intervalo termina."
+    }
+  }
+}

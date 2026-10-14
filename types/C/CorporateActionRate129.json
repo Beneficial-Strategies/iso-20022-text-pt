@@ -1,0 +1,42 @@
+{
+  "isoType": "CorporateActionRate129",
+  "definition": "Especifica os detalhes da taxa do valor mobiliário.",
+  "isoElements": {
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "definition": "Quantidade de valores mobiliários intermédios adicionais/novas ações atribuídas por uma determinada quantidade de valores mobiliários resultantes de subscrição."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "definition": "Quantidade de valores mobiliários adicionais por uma determinada quantidade de valores mobiliários subjacentes, quando os valores mobiliários subjacentes não são trocados nem debitados; por exemplo, 1 por 1: 1 nova ação creditada por cada ação subjacente = 2 ações resultantes."
+    },
+    "NewToOld": {
+      "definition": "Quantidade de novos valores mobiliários por uma determinada quantidade de valores mobiliários subjacentes, quando os valores mobiliários subjacentes serão trocados ou debitados; por exemplo, 2 por 1: 2 novas ações creditadas por cada ação subjacente debitada = 2 ações resultantes."
+    },
+    "TransformationRate": {
+      "definition": "Taxa utilizada para determinar a repartição da contrapartida em numerário pelas operações de liquidação de resultado que resultam de uma transformação da operação de origem."
+    },
+    "ChargesFees": {
+      "definition": "Taxa utilizada para calcular o montante dos encargos/comissões que não podem ser categorizados."
+    },
+    "FiscalStamp": {
+      "definition": "Percentagem de imposto fiscal a aplicar."
+    },
+    "ApplicableRate": {
+      "definition": "Taxa aplicável ao evento anunciado, por exemplo, a taxa de resgate num evento de resgate."
+    },
+    "TaxCreditRate": {
+      "definition": "Montante em dinheiro por ação atribuído em resultado de um crédito de imposto."
+    },
+    "FinancialTransactionTaxRate": {
+      "definition": "Taxa do imposto sobre transações financeiras."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Percentagem de uma distribuição em numerário que será retida pelas autoridades fiscais da jurisdição do emitente, relativamente à qual poderá ser possível uma redução na fonte e/ou um pedido de reembolso."
+    },
+    "SecondLevelTax": {
+      "definition": "Taxa à qual o rendimento será retido por uma jurisdição diferente da jurisdição do país de constituição fiscal do emitente, relativamente à qual poderá ser possível uma redução na fonte e/ou um pedido de reembolso. É cobrada em complemento ou em compensação da taxa de retenção na fonte (TAXR) cobrada pela jurisdição do domicílio fiscal do emitente."
+    },
+    "EstimatedRateIndicator": {
+      "definition": "Indica se a taxa é aproximada."
+    }
+  }
+}

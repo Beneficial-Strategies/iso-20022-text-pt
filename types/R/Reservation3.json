@@ -1,0 +1,15 @@
+{
+  "isoType": "Reservation3",
+  "definition": "Liquidez reservada pelo titular da conta para fins específicos.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante do limite, expresso numa moeda elegível."
+    },
+    "Status": {
+      "definition": "Estado do limite, como ativado ou desativado."
+    },
+    "StartDateTime": {
+      "definition": "Data e hora em que a reserva produz efeitos."
+    }
+  }
+}

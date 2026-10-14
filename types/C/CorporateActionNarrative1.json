@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionNarrative1",
+  "definition": "Fornece informações adicionais, tais como as condições fiscais.",
+  "isoElements": {
+    "InformationConditions": {
+      "definition": "Fornece informações condicionais relacionadas com o evento, p. ex., uma oferta sujeita a aceitação de 50%, ou o oferente permite que o titular dos valores mobiliários estabeleça algumas condições."
+    },
+    "InformationToComplyWith": {
+      "definition": "Fornece ao titular da conta informações sobre condições que têm de ser cumpridas, p. ex., não aberto a residentes nos US/Canadá, QIB ou SIL a fornecer."
+    },
+    "TaxationConditions": {
+      "definition": "Fornece condições fiscais que não podem ser incluídas nos campos estruturados desta mensagem."
+    },
+    "NewCompanyName": {
+      "definition": "Indicar o novo nome de uma sociedade na sequência de uma alteração de denominação."
+    },
+    "Offeror": {
+      "definition": "Indica a entidade que faz a oferta, que é diferente da sociedade emitente."
+    },
+    "URLAddress": {
+      "definition": "Fornece o endereço web publicado para o evento, isto é, o endereço do Universal Resource Locator (URL), por exemplo, utilizado através do serviço www (HTTP)."
+    },
+    "AdditionalText": {
+      "definition": "Fornece informações adicionais ou especifica mais pormenorizadamente o conteúdo de uma|mensagem."
+    }
+  }
+}

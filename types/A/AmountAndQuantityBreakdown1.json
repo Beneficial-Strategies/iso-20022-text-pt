@@ -1,0 +1,18 @@
+{
+  "isoType": "AmountAndQuantityBreakdown1",
+  "definition": "Detalhes da repartição de um montante ou quantidade.",
+  "isoElements": {
+    "LotNumber": {
+      "definition": "Identificação, para efeitos fiscais, de um lote de valores mobiliários idênticos adquiridos numa determinada data e a um determinado preço."
+    },
+    "LotAmount": {
+      "definition": "Montante em dinheiro que faz parte do lote descrito."
+    },
+    "LotQuantity": {
+      "definition": "Quantidade de instrumentos financeiros que faz parte do lote descrito."
+    },
+    "CashSubBalanceType": {
+      "definition": "Especifica o indicador do tipo de subsaldo de valores mobiliários (por exemplo, o tipo de restrição de uma infraestrutura de mercado)."
+    }
+  }
+}

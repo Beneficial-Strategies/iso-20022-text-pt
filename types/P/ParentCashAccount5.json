@@ -1,0 +1,15 @@
+{
+  "isoType": "ParentCashAccount5",
+  "definition": "Especifica os elementos da conta de caixa de uma conta de caixa principal.",
+  "isoElements": {
+    "Level": {
+      "definition": "Define o nível da conta principal numa hierarquia."
+    },
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta principal entre o titular da conta principal e o prestador de serviços da conta principal."
+    },
+    "Servicer": {
+      "definition": "Instituição financeira em que a conta principal está domiciliada."
+    }
+  }
+}

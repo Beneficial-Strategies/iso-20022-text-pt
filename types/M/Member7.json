@@ -1,0 +1,27 @@
+{
+  "isoType": "Member7",
+  "definition": "Informações sobre os membros de um sistema.",
+  "isoElements": {
+    "Name": {
+      "definition": "Palavra pela qual algo é chamado ou conhecido, ou apelido de uma pessoa."
+    },
+    "ReturnAddress": {
+      "definition": "Endereço físico/lógico pertencente a um membro, separado do seu endereço principal utilizado para as operações normais. O endereço de devolução de fundos é utilizado para encaminhar mensagens que requerem atenção/tratamento de exceção específicos, por exemplo, devoluções ou rejeições."
+    },
+    "Account": {
+      "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de numerário."
+    },
+    "Type": {
+      "definition": "Natureza da relação de um membro com um sistema."
+    },
+    "Status": {
+      "definition": "Estado de um membro num sistema, por exemplo ativado ou eliminado."
+    },
+    "ContactReference": {
+      "definition": "Pessoa a contactar numa determinada organização."
+    },
+    "CommunicationAddress": {
+      "definition": "Número, ou endereço virtual, utilizado para comunicação."
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "isoType": "CashWithdrawalRequest1",
+  "definition": "Especifica os detalhes de um pedido de levantamento de numerário.",
+  "isoElements": {
+    "OrderReference": {
+      "definition": "Identificação única da ordem."
+    },
+    "CashReceiverReference": {
+      "definition": "Identificação única, atribuída pelo destinatário do numerário, para o levantamento de numerário."
+    },
+    "AmendmentIndicator": {
+      "definition": "Indica se esta mensagem altera uma mensagem de pedido anterior.||Quando é indicado o valor Yes, a OrderReference e a CashReceiverReference devem permanecer iguais às da mensagem original.||Quando este elemento não é utilizado, a mensagem não é considerada uma alteração."
+    },
+    "RequestedValueDate": {
+      "definition": "Data em que o destinatário do numerário solicita que o numerário seja levantado da conta."
+    },
+    "Account": {
+      "definition": "Identificação inequívoca da conta da qual o numerário será levantado."
+    },
+    "CashWithdrawal": {
+      "definition": "Fornece os detalhes de um levantamento de numerário correspondente a um montante em dinheiro em notas e/ou moedas."
+    },
+    "DeliveryMethod": {
+      "definition": "Especifica o método de entrega do levantamento de numerário."
+    },
+    "DeliveryAddress": {
+      "definition": "Especifica o endereço para o qual o levantamento de numerário é entregue."
+    },
+    "WithdrawalContact": {
+      "definition": "Parte que recolhe o numerário levantado."
+    },
+    "SecureCarrierName": {
+      "definition": "Identificação da transportadora de valores."
+    },
+    "SecureCarrierReference": {
+      "definition": "Identificação única, atribuída pela transportadora de valores para o levantamento."
+    },
+    "InsuranceIndicator": {
+      "definition": "Indica se o levantamento em trânsito está segurado.||Quando este elemento não é utilizado, o levantamento não está segurado."
+    },
+    "WithdrawalAddress": {
+      "definition": "Especifica o endereço de onde o levantamento de numerário é enviado."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalhes adicionais do levantamento de numerário."
+    }
+  }
+}

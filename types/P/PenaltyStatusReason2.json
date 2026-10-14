@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyStatusReason2",
+  "definition": "Especifica o motivo do estado da penalização.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Fornece o motivo do estado da penalização."
+    },
+    "AdditionalStatusReason": {
+      "definition": "Detalhes adicionais sobre o motivo do estado da penalização."
+    }
+  }
+}

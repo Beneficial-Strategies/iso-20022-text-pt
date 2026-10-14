@@ -1,0 +1,21 @@
+{
+  "isoType": "IndividualPerson29",
+  "definition": "Entidade humana, por oposição a uma entidade coletiva (por vezes designada «pessoa artificial»).",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Termo utilizado para tratar a pessoa."
+    },
+    "GivenName": {
+      "definition": "Nome próprio da pessoa."
+    },
+    "MiddleName": {
+      "definition": "Segundo nome da pessoa."
+    },
+    "Name": {
+      "definition": "Nome pelo qual a parte é conhecida e que é normalmente utilizado para identificar essa pessoa."
+    },
+    "PostalAddress": {
+      "definition": "Morada da pessoa."
+    }
+  }
+}

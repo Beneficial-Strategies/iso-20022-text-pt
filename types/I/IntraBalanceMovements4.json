@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraBalanceMovements4",
+  "definition": "Fornece os movimentos intrassaldo do relatório.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Conta a crédito ou a débito da qual ou para a qual é efetuado um lançamento."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte titular da conta."
+    },
+    "CashAccountServicer": {
+      "definition": "Parte que gere a conta de numerário por conta do titular da conta, ou seja, gere o registo e o lançamento de movimentos na conta, calcula os saldos da conta e presta informações sobre a conta."
+    },
+    "StatusAndReason": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "Movement": {
+      "definition": "Detalhes adicionais sobre a operação individual de movimento intrassaldo."
+    }
+  },
+  "isoRules": {
+    "CashAccountRule": {
+      "definition": "CashAccount tem de estar presente ou Movement(*)/CashAccount tem de estar presente, mas não ambos."
+    },
+    "CashAccountOwnerRule": {
+      "definition": "CashAccountOwner tem de estar presente ou Movement(*)/AccountOwner tem de estar presente, mas não ambos."
+    },
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason tem de estar presente ou Movement(*)/StatusAndReason tem de estar presente, mas não ambos."
+    },
+    "CashAccountServicerRule": {
+      "definition": "CashAccountServicer tem de estar presente ou Movement(*)/AccountOwner tem de estar presente, mas não ambos."
+    }
+  }
+}

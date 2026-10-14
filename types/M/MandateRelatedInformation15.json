@@ -1,0 +1,44 @@
+{
+  "isoType": "MandateRelatedInformation15",
+  "definition": "Fornece detalhes adicionais relativos a um mandato de débito direto assinado entre o credor e o devedor.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identificação única, atribuída pelo credor, para identificar inequivocamente o mandato."
+    },
+    "DateOfSignature": {
+      "definition": "Data em que o mandato de débito direto foi assinado pelo devedor."
+    },
+    "AmendmentIndicator": {
+      "definition": "Indicador que informa se o mandato subjacente foi alterado ou não."
+    },
+    "AmendmentInformationDetails": {
+      "definition": "Lista de elementos do mandato que foram modificados."
+    },
+    "ElectronicSignature": {
+      "definition": "Disposições de segurança adicionais, como uma assinatura digital, fornecidas pelo devedor."
+    },
+    "FirstCollectionDate": {
+      "definition": "Data da primeira cobrança de um débito direto ao abrigo do mandato."
+    },
+    "FinalCollectionDate": {
+      "definition": "Data da última cobrança de um débito direto ao abrigo do mandato."
+    },
+    "Frequency": {
+      "definition": "Regularidade com que as instruções de débito direto devem ser criadas e processadas."
+    },
+    "Reason": {
+      "definition": "Motivo do mandato de débito direto, que permite ao utilizador distinguir entre diferentes mandatos do mesmo credor."
+    },
+    "TrackingDays": {
+      "definition": "Especifica o número de dias durante os quais a instrução de débito direto deve ser acompanhada."
+    }
+  },
+  "isoRules": {
+    "AmendmentIndicatorTrueRule": {
+      "definition": "Se AmendmentIndicator for verdadeiro, então AmendmentInformationDetails tem de estar presente."
+    },
+    "AmendmentIndicatorFalseRule": {
+      "definition": "Se AmendmentIndicator for falso, então AmendmentInformationDetails não é permitido."
+    }
+  }
+}

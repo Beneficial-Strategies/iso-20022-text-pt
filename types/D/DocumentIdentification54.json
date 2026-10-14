@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification54",
+  "definition": "Identificação do número da mensagem e da identificação da consulta.",
+  "isoElements": {
+    "MessageNumber": {
+      "definition": "Número do tipo de mensagem/identificador da mensagem referenciada na sequência de associação."
+    },
+    "Reference": {
+      "definition": "Referência da identificação da consulta."
+    }
+  }
+}

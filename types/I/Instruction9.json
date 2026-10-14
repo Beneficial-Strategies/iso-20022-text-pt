@@ -1,0 +1,38 @@
+{
+  "isoType": "Instruction9",
+  "definition": "Informações sobre uma instrução de voto de assembleia.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identificação da instrução individual."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Data em que a instrução deve ser executada."
+    },
+    "VoteExecutionConfirmation": {
+      "definition": "Indica que é solicitada uma confirmação da execução do voto."
+    },
+    "AccountDetails": {
+      "definition": "Identificação da conta de valores mobiliários."
+    },
+    "Proxy": {
+      "definition": "Identificação da pessoa nomeada pelo titular dos valores mobiliários como mandatário."
+    },
+    "VoteDetails": {
+      "definition": "Instruções de voto pormenorizadas."
+    },
+    "MeetingAttendee": {
+      "definition": "Identificação do titular dos valores mobiliários que assistirá e votará pessoalmente na assembleia e/ou da pessoa designada pelo titular dos valores mobiliários para assistir à assembleia sem ter direito de voto nem tomar qualquer ação."
+    },
+    "SpecificInstructionRequest": {
+      "definition": "Pedido de execução de instruções específicas, como o registo da participação, o registo dos valores mobiliários ou o bloqueio de valores mobiliários."
+    },
+    "AdditionalDisclosureInformation": {
+      "definition": "Informações cuja divulgação o emitente exige como parte de uma instrução apresentada, que não sejam as informações relativas ao titular beneficiário, ao participante votante, ao mandatário nomeado pelo emitente, nem ao(s) participante(s) presente(s) na assembleia (sem direito de voto)."
+    }
+  },
+  "isoRules": {
+    "MeetingAttendeeRule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de MeetingAttendee, então SpecificInstructionRequest/ParticipationMethod/Code tem de ser PHYS (InPerson)."
+    }
+  }
+}

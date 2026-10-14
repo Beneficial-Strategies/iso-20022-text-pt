@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalRequestStatus1Code",
+  "definition": "Especifica o estado do pedido, conforme publicado num conjunto de códigos externo de estados de pedido.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "RCVD": {
+      "name": "Recebido",
+      "definition": "A mensagem foi recebida."
+    },
+    "RJCT": {
+      "name": "Rejeitado",
+      "definition": "A mensagem foi rejeitada."
+    },
+    "ACPT": {
+      "name": "Aceite",
+      "definition": "A mensagem foi aceite."
+    },
+    "PDNG": {
+      "name": "Pendente",
+      "definition": "A mensagem aguarda análise e investigação adicionais."
+    },
+    "PART": {
+      "name": "Parcialmente aceite",
+      "definition": "A mensagem foi parcialmente aceite."
+    }
+  }
+}

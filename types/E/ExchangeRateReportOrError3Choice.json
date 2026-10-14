@@ -1,0 +1,12 @@
+{
+  "isoType": "ExchangeRateReportOrError3Choice",
+  "definition": "Utilizado para fornecer informações sobre dados estáticos mantidos pelo administrador de operações e relativos aos detalhes de câmbio, tal como mantidos pelo administrador de operações para o funcionamento do sistema.",
+  "isoElements": {
+    "CurrencyExchangeReport": {
+      "definition": "Informa sobre as informações de câmbio."
+    },
+    "OperationalError": {
+      "definition": "Indica que foi emitido um erro operacional durante o processamento do pedido associado."
+    }
+  }
+}

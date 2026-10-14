@@ -1,0 +1,39 @@
+{
+  "isoType": "DirectDebitMandate7",
+  "definition": "Partes e contas do mandato de débito direto.",
+  "isoElements": {
+    "DebtorAccount": {
+      "definition": "Identificação inequívoca da conta do devedor a debitar em resultado da operação."
+    },
+    "Debtor": {
+      "definition": "Parte que deve o numerário ao credor/parte final. O devedor é também o titular da conta a debitar."
+    },
+    "DebtorTaxIdentificationNumber": {
+      "definition": "Número atribuído a uma entidade por uma autoridade fiscal."
+    },
+    "DebtorNationalRegistrationNumber": {
+      "definition": "Número atribuído por uma autoridade nacional de registo a uma entidade."
+    },
+    "Creditor": {
+      "definition": "Parte que recebe um montante de dinheiro do devedor. No contexto do modelo de pagamento, o credor é também o titular da conta a creditar."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que recebe a instrução de débito direto do credor ou de outra parte autorizada."
+    },
+    "DebtorAgentBranch": {
+      "definition": "Informações que identificam um balcão específico de uma instituição financeira.||Utilização: este componente deve ser utilizado caso as informações de identificação no componente da instituição financeira não permitam a identificação até ao nível do balcão."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que recebe a operação de pagamento em nome do credor, ou de outra parte designada, e credita a conta."
+    },
+    "CreditorAgentBranch": {
+      "definition": "Informações que identificam um balcão específico de uma instituição financeira.||Utilização: este componente deve ser utilizado caso as informações de identificação no componente da instituição financeira não permitam a identificação até ao nível do balcão."
+    },
+    "RegistrationIdentification": {
+      "definition": "Referência atribuída a um credor pela sua instituição financeira, ou pela autoridade competente, que autoriza o credor a participar num sistema de débito direto."
+    },
+    "MandateIdentification": {
+      "definition": "Referência do mandato de débito direto acordado entre o devedor e o credor."
+    }
+  }
+}

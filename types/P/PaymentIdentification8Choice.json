@@ -1,0 +1,24 @@
+{
+  "isoType": "PaymentIdentification8Choice",
+  "definition": "Escolha entre formas de identificar uma instrução de pagamento através das suas referências e da identificação comercial.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identificação única, atribuída pelo primeiro agente instrutor, para identificar de forma inequívoca a operação que é transmitida, sem alterações, ao longo de toda a cadeia interbancária.|Utilização: a identificação da operação pode ser utilizada para reconciliação, rastreio ou para associar tarefas relativas à operação ao nível interbancário. O agente instrutor deve assegurar que a identificação da operação é única durante um período previamente acordado.|Utilização: este é o anterior elemento PaymentInstructionReference."
+    },
+    "UETR": {
+      "definition": "Identificador universalmente único para fornecer uma referência de ponta a ponta de uma operação de pagamento."
+    },
+    "QueueIdentification": {
+      "definition": "Identificação da instrução de pagamento pela sua posição numa fila gerida pelo agente de compensação."
+    },
+    "LongBusinessIdentification": {
+      "definition": "Identificação comercial da instrução de pagamento atribuída pelo agente de compensação."
+    },
+    "ShortBusinessIdentification": {
+      "definition": "Identificação comercial da instrução de pagamento atribuída pelo agente de compensação."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Referência proprietária única da instrução de pagamento subjacente, atribuída pelo sistema."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "InstructionForAssignee1",
+  "definition": "Informações adicionais relacionadas com o tratamento da investigação, às quais o cessionário poderá ter de dar seguimento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informações codificadas relacionadas com o tratamento da instrução de investigação, fornecidas pelo atribuidor e destinadas ao cessionário."
+    },
+    "InstructionInformation": {
+      "definition": "Informações adicionais que complementam a instrução codificada ou a instrução ao cessionário."
+    }
+  }
+}

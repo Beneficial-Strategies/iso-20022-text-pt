@@ -1,0 +1,47 @@
+{
+  "isoType": "LimitSearchCriteria7",
+  "definition": "Define os critérios utilizados para pesquisar um limite.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identificação de um sistema de compensação de numerário específico."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "definition": "Identificação única e inequívoca de um membro num sistema, atribuída segundo o esquema de identificação de membros do sistema."
+    },
+    "DefaultLimitType": {
+      "definition": "Tipo de limite definido por omissão no sistema. O limite por omissão é aplicável pelo sistema, salvo instrução em contrário."
+    },
+    "CurrentLimitType": {
+      "definition": "Tipo de limite aplicado pelo sistema no momento atual."
+    },
+    "AccountOwner": {
+      "definition": "Titular da conta que é objeto da consulta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "UsedAmount": {
+      "definition": "Utilização efetiva do limite expressa como montante."
+    },
+    "UsedPercentage": {
+      "definition": "Utilização efetiva do limite expressa como percentagem."
+    },
+    "LimitCurrency": {
+      "definition": "Unidade monetária utilizada para especificar o montante do limite."
+    },
+    "LimitAmount": {
+      "definition": "Montante em dinheiro do limite, expresso numa moeda elegível."
+    },
+    "LimitValidAsOfDate": {
+      "definition": "Intervalo de datas em que o limite se torna válido."
+    }
+  },
+  "isoRules": {
+    "BilateralLimitCounterparty3Rule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de CurrentLimitType e for MULT, então não é permitida nenhuma ocorrência de BilateralLimitCounterpartyIdentification.|Se nenhuma ocorrência de CurrentLimitType for MULT, então qualquer ocorrência de BilateralLimitCounterpartyIdentification é facultativa.|Se CurrentLimitType não estiver presente, então qualquer ocorrência de BilateralLimitCounterpartyIdentification é facultativa."
+    },
+    "BilateralLimitCounterparty4Rule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de DefaultLimitType e for MULT, então não é permitida nenhuma ocorrência de BilateralLimitCounterpartyIdentification.|Se nenhuma ocorrência de DefaultLimitType for MULT, então qualquer ocorrência de BilateralLimitCounterpartyIdentification é facultativa.|Se DefaultLimitType não estiver presente, então qualquer ocorrência de BilateralLimitCounterpartyIdentification é facultativa."
+    }
+  }
+}

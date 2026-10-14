@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification34",
+  "definition": "Identificação de um documento, bem como o número do documento.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único do documento (mensagem) atribuído pela entidade gestora da conta ou pelo titular da conta."
+    },
+    "DocumentNumber": {
+      "definition": "Identificação do tipo de documento."
+    }
+  }
+}

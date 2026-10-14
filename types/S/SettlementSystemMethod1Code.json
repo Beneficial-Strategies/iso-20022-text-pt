@@ -1,0 +1,14 @@
+{
+  "isoType": "SettlementSystemMethod1Code",
+  "definition": "Especifica se a instrução de liquidação deve ser liquidada através do sistema de liquidação predefinido ou do alternativo.",
+  "isoCodes": {
+    "NSET": {
+      "name": "Por omissão",
+      "definition": "Liquidar através do sistema/método de liquidação predefinido. Se existir uma instrução permanente para liquidação através do sistema/método de liquidação alternativo, essa instrução permanente deve ser ignorada."
+    },
+    "YSET": {
+      "name": "Alternativo",
+      "definition": "Liquidar através do sistema/método de liquidação alternativo. Se existir uma instrução permanente para liquidação através do sistema/método de liquidação predefinido, essa instrução permanente deve ser ignorada."
+    }
+  }
+}

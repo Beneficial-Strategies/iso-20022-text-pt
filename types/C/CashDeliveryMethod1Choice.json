@@ -1,0 +1,12 @@
+{
+  "isoType": "CashDeliveryMethod1Choice",
+  "definition": "Especifica o método de entrega do depósito de numerário.",
+  "isoElements": {
+    "Code": {
+      "definition": "Método de entrega de numerário, conforme publicado num conjunto de códigos externo de métodos de entrega."
+    },
+    "Proprietary": {
+      "definition": "Método de entrega de numerário, sob forma proprietária."
+    }
+  }
+}

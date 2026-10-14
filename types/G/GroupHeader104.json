@@ -1,0 +1,21 @@
+{
+  "isoType": "GroupHeader104",
+  "definition": "Conjunto de características partilhadas por todas as instruções individuais incluídas na mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pelo agente instrutor e enviada à infraestrutura de mercado, para identificar inequivocamente a mensagem.||Utilização: O agente instrutor tem de assegurar que MessageIdentification é única por infraestrutura de mercado durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    },
+    "NumberOfSettlementRequests": {
+      "definition": "Número de pedidos de liquidação individuais contidos na mensagem."
+    },
+    "ControlSum": {
+      "definition": "Total de todos os montantes individuais incluídos na mensagem, independentemente das moedas."
+    },
+    "SettlementInformation": {
+      "definition": "Especifica os detalhes de como é concluída a liquidação da(s) operação(ões) entre o agente instrutor e a infraestrutura de mercado."
+    }
+  }
+}

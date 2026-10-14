@@ -1,0 +1,21 @@
+{
+  "isoType": "RatioFormat18Choice",
+  "definition": "Escolha de formato para exprimir um rácio.",
+  "isoElements": {
+    "QuantityToQuantity": {
+      "definition": "Rácio expresso como quociente de quantidades."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valor do rácio não especificado."
+    },
+    "AmountToAmount": {
+      "definition": "Rácio expresso como quociente de montantes."
+    },
+    "AmountToQuantity": {
+      "definition": "Rácio expresso como rácio montante/quantidade."
+    },
+    "QuantityToAmount": {
+      "definition": "Rácio expresso como rácio quantidade/montante."
+    }
+  }
+}

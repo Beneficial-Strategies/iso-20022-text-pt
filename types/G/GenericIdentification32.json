@@ -1,0 +1,18 @@
+{
+  "isoType": "GenericIdentification32",
+  "definition": "Identificação de uma entidade.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação da entidade."
+    },
+    "Type": {
+      "definition": "Tipo de entidade identificada."
+    },
+    "Issuer": {
+      "definition": "Entidade que atribui a identificação (por exemplo, comerciante, aceitante, adquirente ou autoridade fiscal)."
+    },
+    "ShortName": {
+      "definition": "Nome da entidade."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "RejectionReason88Code",
+  "definition": "Especifica o motivo pelo qual a instrução/pedido de cancelamento tem o estado rejeitado.",
+  "isoCodes": {
+    "ULNK": {
+      "name": "Referência inválida",
+      "definition": "A referência associada é desconhecida."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "DCAN": {
+      "name": "Rejeitado por já ter sido cancelado",
+      "definition": "O pedido de cancelamento foi rejeitado, uma vez que a instrução já foi cancelada."
+    },
+    "DPRG": {
+      "name": "Rejeitado por estar em curso",
+      "definition": "O pedido de cancelamento foi rejeitado porque o processo da instrução está em curso ou já foi processado."
+    },
+    "DUPL": {
+      "name": "Instrução duplicada",
+      "definition": "A instrução é rejeitada devido a identificador de mensagem de negócio duplicado."
+    },
+    "ECMD": {
+      "name": "Prazo de mercado da eleição para a contraparte não cumprido",
+      "definition": "Recebida após o prazo de mercado da escolha junto da contraparte."
+    },
+    "ECRD": {
+      "name": "Prazo de resposta da eleição para a contraparte não cumprido",
+      "definition": "Recebida após o prazo de mercado de resposta à escolha junto da contraparte."
+    }
+  }
+}

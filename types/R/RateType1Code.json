@@ -1,0 +1,18 @@
+{
+  "isoType": "RateType1Code",
+  "definition": "Especifica se a taxa é fixa, variável ou um montante fixo (forfeit).",
+  "isoCodes": {
+    "FIXE": {
+      "name": "Fixo",
+      "definition": "A taxa é fixa."
+    },
+    "FORF": {
+      "name": "Perda",
+      "definition": "Não se aplica nenhuma taxa de recompra específica à operação de Repo, apenas um montante fixo (forfeit)."
+    },
+    "VARI": {
+      "name": "Variável",
+      "definition": "A taxa é variável."
+    }
+  }
+}

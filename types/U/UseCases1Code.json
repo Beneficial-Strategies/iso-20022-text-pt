@@ -1,0 +1,22 @@
+{
+  "isoType": "UseCases1Code",
+  "definition": "Especifica a ação sobre a conta de numerário.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Abertura",
+      "definition": "Código que indica a abertura de uma conta."
+    },
+    "MNTN": {
+      "name": "Manutenção",
+      "definition": "Código que indica a manutenção de uma conta."
+    },
+    "CLSG": {
+      "name": "Fecho",
+      "definition": "Código que indica o encerramento de uma conta."
+    },
+    "VIEW": {
+      "name": "Consulta",
+      "definition": "Código que indica a consulta de uma conta."
+    }
+  }
+}

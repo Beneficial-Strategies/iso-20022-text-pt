@@ -1,0 +1,89 @@
+{
+  "isoType": "SecuritiesTradeDetails131",
+  "definition": "Detalhes da negociação de valores mobiliários.",
+  "isoElements": {
+    "TradeIdentification": {
+      "definition": "Referência atribuída à negociação pelo investidor ou pela parte negociadora. Esta referência será utilizada ao longo de todo o ciclo de vida da negociação para aceder aos detalhes da negociação ou os atualizar."
+    },
+    "CollateralTransactionIdentification": {
+      "definition": "Identificação inequívoca de uma operação de garantia atribuída pela parte instrutora."
+    },
+    "PlaceOfTrade": {
+      "definition": "Mercado em que foi executada uma operação de negociação."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infraestrutura que pode ser uma componente de uma câmara de compensação e que facilita a compensação e a liquidação para os seus membros, interpondo-se entre o comprador e o vendedor. Pode compensar operações em base líquida e substitui-se como contraparte de liquidação para cada posição."
+    },
+    "TradeDate": {
+      "definition": "Especifica a data/hora em que a operação foi executada."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários devem ser entregues ou recebidos."
+    },
+    "LateDeliveryDate": {
+      "definition": "Data e hora posteriores à data de liquidação especificada na negociação, utilizadas para negociações de pool resultantes dos valores mobiliários originais To Be Assigned (TBA)."
+    },
+    "DealPrice": {
+      "definition": "Especifica o preço do instrumento financeiro negociado.|Este é o preço de negócio da operação individual.|Se houver apenas uma operação para a execução da negociação, o preço de negócio pode ser igual ao preço da negociação executada (salvo se, por exemplo, o preço incluir comissões ou arredondamentos, ou se tiver sido aplicado outro fator ao preço de negócio ou ao preço da negociação executada, ou a ambos)."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de dias em que a taxa de juro é acumulada (título de acumulação diária)."
+    },
+    "OpeningClosing": {
+      "definition": "Especifica informações adicionais relativas ao processamento da operação."
+    },
+    "Reporting": {
+      "definition": "Especifica que uma operação deve ser comunicada a um terceiro."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indica as condições em que a ordem/negociação deve ser/foi executada."
+    },
+    "InvestorCapacity": {
+      "definition": "Especifica o papel do investidor na operação."
+    },
+    "TradeOriginatorRole": {
+      "definition": "Especifica o papel da parte negociadora na operação."
+    },
+    "TypeOfPrice": {
+      "definition": "Especifica o tipo de preço e as informações sobre o preço."
+    },
+    "CurrencyToBuyOrSell": {
+      "definition": "O prestador de serviços de conta é instruído a comprar a moeda indicada após a receção do produto em numerário ou a vender a moeda indicada, a fim de obter a moeda necessária para financiar a operação."
+    },
+    "MatchingStatus": {
+      "definition": "Fornece o estado de correspondência da instrução."
+    },
+    "AffirmationStatus": {
+      "definition": "Estado de afirmação de uma negociação."
+    },
+    "FXAdditionalDetails": {
+      "definition": "Fornece detalhes adicionais relativos a instruções de câmbio."
+    },
+    "SettlementInstructionProcessingAdditionalDetails": {
+      "definition": "Fornece informações adicionais de processamento da liquidação que não podem ser incluídas nos campos estruturados da mensagem."
+    }
+  },
+  "isoRules": {
+    "CurrencyToBuyOrSellRule": {
+      "definition": "CurrencyToBuy e CurrencyToSell no componente de mensagem TradeDetails constituem uma instrução ao prestador de serviços de conta para executar uma operação cambial por conta do titular da conta. A finalidade da operação cambial é financiar a compra de valores mobiliários. Este campo não deve ser utilizado quando tenham sido estabelecidas instruções permanentes. ||Se CurrencyToSell for utilizado, isso implica o seguinte:|- a instrução é uma receção.|- a moeda necessária para financiar uma compra de valores mobiliários, por exemplo, a moeda a comprar, é a moeda do montante de liquidação. A moeda a vender para obter a moeda de liquidação é fornecida pelo elemento de mensagem da moeda a vender. Normalmente, é a moeda de base da carteira. |- o montante de moeda a comprar é igual ao montante de liquidação da operação. Isto implica que a operação cambial não será utilizada para outras operações e que uma operação cambial em bloco tem de ser instruída por outros meios. |- uma operação cambial para financiar a compra de valores mobiliários deve ser executada a tempo de a moeda estar disponível na data de liquidação da operação sobre valores mobiliários. |- foi estabelecido um acordo bilateral relativo à utilização deste campo.||Se CurrencyToBuy for utilizado, isso implica o seguinte:|- a instrução é uma entrega|- a moeda recebida como produto da venda de valores mobiliários, por exemplo, a moeda a vender, é a moeda do montante de liquidação. A moeda a comprar é fornecida pelo elemento de mensagem da moeda a comprar. Se o produto for repatriado, é na moeda de base da carteira. |- o montante de moeda a vender é igual ao montante de liquidação da operação. Isto implica que uma operação cambial em bloco tem de ser instruída por outros meios. |- uma operação cambial para repatriar o produto após a venda de valores mobiliários deve ser executada para a data-valor mais próxima possível após a liquidação dos valores mobiliários, conforme permitido pela convenção de mercado. |- foi estabelecido um acordo bilateral relativo à utilização deste campo."
+    },
+    "PlaceOfTradeRule": {
+      "definition": "Se PlaceOfTrade for utilizado e existir um MIC ISO 10383 para o mercado a identificar, então tem de ser utilizado o Market Identifier Code (MIC) ISO 10383."
+    },
+    "LateDeliveryDateRule": {
+      "definition": "Se LateDeliveryDate for utilizada, então a operação tem de ser uma operação de pool resultante da TBA (To Be Announced) original. A TBA original seria compensada por uma operação oposta e substituída por compras ou vendas de pools individuais. É uma data posterior à data de liquidação indicada na operação, para pools concebidos para liquidação tardia."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "Se Trade Date/Time for utilizado com uma hora ou uma hora + indicador UTC, então deve ser a hora local do local da negociação, por exemplo, da bolsa de valores, ou do corretor vendedor no caso de OTC."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acordo bilateral entre o emitente e o destinatário, se FXAdditionalDetails e/ou SettlementInstructionProcessingAdditionalDetails estiverem presentes, então não podem conter informações que possam ser fornecidas num campo estruturado."
+    },
+    "InvestorCapacityRule": {
+      "definition": "Se InvestorCapacity for utilizado, então a utilização dos códigos tem de ser acordada bilateralmente."
+    },
+    "TradeDateGuideline": {
+      "definition": "Para além da data de liquidação (obrigatória na ISO 20022), a data da operação é um dos 10 elementos comuns recomendados pelo SMPG para instruções de liquidação de ações e de rendimento fixo.|Para mais pormenores, consultar o documento de prática de mercado relevante em www.smpg.info."
+    }
+  }
+}

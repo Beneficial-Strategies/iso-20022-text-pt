@@ -1,0 +1,123 @@
+{
+  "isoType": "CorporateAction2",
+  "definition": "Fornece informações sobre o evento de CA.",
+  "isoElements": {
+    "EventStage": {
+      "definition": "Fase do ciclo de vida do evento de operação sobre títulos."
+    },
+    "DefaultOptionType": {
+      "definition": "Identifica a opção que será selecionada por defeito se o titular da conta não fornecer nenhuma instrução."
+    },
+    "DefaultOptionNumber": {
+      "definition": "Identifica o número da opção que será selecionado por defeito se o titular da conta não fornecer nenhuma instrução."
+    },
+    "CalculationMethod": {
+      "definition": "O método de cálculo dos sorteios e dos reembolsos parciais."
+    },
+    "BackEndOddLotSecuritiesQuantity": {
+      "definition": "Representa a presença de uma disposição de lote incompleto a posteriori e a quantidade de ações exigida após o rateio para ter direito a este privilégio."
+    },
+    "FrontEndOddLotSecuritiesQuantity": {
+      "definition": "Especifica que, se uma ordem for rateada, os detentores de lotes incompletos que ofereçam a totalidade da sua posição não terão a posição oferecida rateada, mas sim aceite na íntegra."
+    },
+    "MinimumExercisableSecuritiesQuantity": {
+      "definition": "Quantidade mínima de instrumento financeiro ou lote de direitos/warrants que tem de ser exercida."
+    },
+    "MinimumExercisableMultipleSecuritiesQuantity": {
+      "definition": "Quantidade múltipla mínima de instrumento financeiro ou lote de direitos/warrants que tem de ser exercida."
+    },
+    "IncrementalDenomination": {
+      "definition": "Montante utilizado quando o montante resgatado não é atingido ao realizar o sorteio com a denominação de base."
+    },
+    "NewDenominationSecuritiesQuantity": {
+      "definition": "Nova denominação das ações na sequência, por exemplo, de um aumento ou de uma diminuição do valor nominal."
+    },
+    "NewBoardLotSecuritiesQuantity": {
+      "definition": "Quantidade de ações que constitui o novo lote de negociação."
+    },
+    "SecuritiesQuantitySought": {
+      "definition": "Quantidade de valores mobiliários que o oferente/emitente adquirirá ou resgatará nos termos do evento. Pode ser um número ou a expressão «any and all»."
+    },
+    "BaseDenomination": {
+      "definition": "O montante inteiro mínimo de valores mobiliários que cada titular de conta deve manter após a aplicação dos montantes sorteados."
+    },
+    "ChangeType": {
+      "definition": "Especifica o tipo de alteração anunciada."
+    },
+    "OfferType": {
+      "definition": "Especifica as condições aplicáveis à oferta."
+    },
+    "RestrictionIndicator": {
+      "definition": "Indica se existem ou não restrições aplicáveis ao evento de CA.||Yes = Existem restrições.|No = Não existem restrições."
+    },
+    "PartialElectionIndicator": {
+      "definition": "Especifica se o emitente permitirá que o agente aceite eleições parciais. Destina-se a permitir o voto fracionado entre opções. Permite ao cliente eleger mais do que uma opção por posição designada."
+    },
+    "ElectionType": {
+      "definition": "Especifica o efeito da eleição de uma opção de ação societária nas posições detidas."
+    },
+    "LotteryType": {
+      "definition": "Especifica o tipo de sorteio anunciado."
+    },
+    "IncomeType": {
+      "definition": "Especifica o tipo de rendimento.|As listas de códigos de tipo de rendimento a utilizar estão disponíveis no sítio Web da SMPG em www.smpg.info."
+    },
+    "DividendType": {
+      "definition": "Especifica as condições em que um dividendo é pago."
+    },
+    "IntermediateSecuritiesDistributionType": {
+      "definition": "Tipo de distribuição de valores mobiliários intermédios, por exemplo, dividendo em ações, direito inverso."
+    },
+    "CouponNumber": {
+      "definition": "Número do cupão anexo/associado a um valor mobiliário."
+    },
+    "InterestAccruedNumberOfDays": {
+      "definition": "Número de dias utilizado para o cálculo do montante de juros corridos."
+    },
+    "NewDenominationCurrency": {
+      "definition": "Nova moeda de denominação do instrumento financeiro."
+    },
+    "DateDetails": {
+      "definition": "Fornece informações sobre as datas relacionadas com um evento de CA."
+    },
+    "PriceDetails": {
+      "definition": "Fornece informações sobre os preços relacionados com um evento de CA."
+    },
+    "PeriodDetails": {
+      "definition": "Fornece informações sobre os períodos relacionados com um evento de CA."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fornece informações sobre as taxas e os montantes relacionados com um evento de CA."
+    },
+    "CorporateActionAdditionalInformation": {
+      "definition": "Fornece informações adicionais."
+    },
+    "CertificationRequiredIndicator": {
+      "definition": "Indica se é exigida certificação ao titular da conta."
+    },
+    "CertificationType": {
+      "definition": "Tipo de certificação exigida."
+    },
+    "CapitalGain": {
+      "definition": "Especifica se a mais-valia se insere no âmbito da diretiva da EU relativa à tributação dos rendimentos da poupança, para o rendimento obtido aquando da venda, reembolso ou resgate de ações e unidades de participação (.) (Artigo 6.º, n.º 1, alínea d))."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "definition": "Especifica se o instrumento financeiro calcula o rendimento tributável por dividendo/rendimento tributável por ação."
+    },
+    "NewPlaceOfIncorporation": {
+      "definition": "Local de constituição da nova sociedade."
+    },
+    "RenounceableEntitlementStatusType": {
+      "definition": "Especifica se os termos do evento permitem a revenda dos direitos."
+    },
+    "ConversionType": {
+      "definition": "Especifica o tipo de conversão de um instrumento."
+    },
+    "RedemptionChargesAppliedIndicator": {
+      "definition": "Indica se são aplicáveis encargos de resgate."
+    },
+    "DistributionType": {
+      "definition": "Especifica se o produto do evento será distribuído de forma contínua (rolling) e não numa data específica."
+    }
+  }
+}

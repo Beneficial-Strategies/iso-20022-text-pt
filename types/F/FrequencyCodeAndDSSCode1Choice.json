@@ -1,0 +1,12 @@
+{
+  "isoType": "FrequencyCodeAndDSSCode1Choice",
+  "definition": "Escolha entre formatos para a frequência.",
+  "isoElements": {
+    "FrequencyAsCode": {
+      "definition": "Frequência expressa sob a forma de código."
+    },
+    "FrequencyAsDSS": {
+      "definition": "Frequência expressa como um esquema da fonte de dados e um código utilizado nesse esquema."
+    }
+  }
+}

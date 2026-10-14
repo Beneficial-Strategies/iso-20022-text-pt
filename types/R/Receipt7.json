@@ -1,0 +1,15 @@
+{
+  "isoType": "Receipt7",
+  "definition": "Fornece detalhes sobre o pedido.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Identificação da mensagem de pedido original."
+    },
+    "OriginalPaymentIdentification": {
+      "definition": "Identificação da identificação da operação original, quando o pedido para o qual o recibo é gerado é uma operação de pagamento."
+    },
+    "RequestHandling": {
+      "definition": "Indica o estado do pedido."
+    }
+  }
+}

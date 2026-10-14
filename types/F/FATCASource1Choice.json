@@ -1,0 +1,12 @@
+{
+  "isoType": "FATCASource1Choice",
+  "definition": "Escolha de formatos para a origem do Foreign Account Tax Compliance Act (FATCA).",
+  "isoElements": {
+    "Code": {
+      "definition": "Origem do estatuto da Foreign Account Tax Compliance Act (FATCA), expressa sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Origem do estatuto da Foreign Account Tax Compliance Act (FATCA), expressa sob a forma de código proprietário."
+    }
+  }
+}

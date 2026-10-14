@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalInvestigationSubType1Code",
+  "definition": "Especifica o subtipo de investigação, conforme publicado num conjunto externo de códigos de subtipos de investigação.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "AMLI": {
+      "name": "Prevenção do branqueamento de capitais",
+      "definition": "A investigação está relacionada com o combate ao branqueamento de capitais."
+    },
+    "SANC": {
+      "name": "Sanções",
+      "definition": "A investigação está relacionada com sanções."
+    },
+    "FRAD": {
+      "name": "Fraude",
+      "definition": "A investigação está relacionada com fraude."
+    },
+    "UTEX": {
+      "name": "Impossibilidade de execução",
+      "definition": "A investigação está relacionada com uma operação que não pode ser executada."
+    },
+    "FCCI": {
+      "name": "Conformidade em matéria de criminalidade financeira",
+      "definition": "A investigação está relacionada com a conformidade em matéria de crimes financeiros."
+    },
+    "FWTR": {
+      "name": "Regulamento relativo às transferências de fundos",
+      "definition": "A investigação está relacionada com a regulamentação relativa a transferências de fundos/transferências eletrónicas."
+    },
+    "RQUF": {
+      "name": "Pedido de utilização dos fundos",
+      "definition": "Solicita-se a utilização de fundos num lançamento."
+    },
+    "RQDA": {
+      "name": "Pedido de autorização de débito",
+      "definition": "Solicita-se a autorização de débito num lançamento."
+    },
+    "RQVA": {
+      "name": "Pedido de ajustamento da data-valor",
+      "definition": "Solicita-se a revalorização de um lançamento."
+    },
+    "RQCH": {
+      "name": "Pedido relativo a encargos",
+      "definition": "Investigação relativa a encargos que foram cobrados ou solicitados."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro"
+    }
+  }
+}

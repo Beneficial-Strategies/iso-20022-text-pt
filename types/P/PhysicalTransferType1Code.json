@@ -1,0 +1,14 @@
+{
+  "isoType": "PhysicalTransferType1Code",
+  "definition": "Especifica se o instrumento financeiro vai ser entregue fisicamente ou se se trata de uma transferência desmaterializada.",
+  "isoCodes": {
+    "DEMT": {
+      "name": "Desmaterializado",
+      "definition": "Transferência desmaterializada."
+    },
+    "PHYS": {
+      "name": "Físico",
+      "definition": "Transferência física."
+    }
+  }
+}

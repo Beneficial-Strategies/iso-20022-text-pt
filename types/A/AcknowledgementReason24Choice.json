@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementReason24Choice",
+  "definition": "Escolha de formato para um motivo de aviso de receção.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica informação adicional sobre a instrução tratada, expressa sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Especifica informação adicional sobre a instrução tratada, expressa sob a forma de código proprietário."
+    }
+  }
+}

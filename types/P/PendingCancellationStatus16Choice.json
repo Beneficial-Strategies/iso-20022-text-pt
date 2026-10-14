@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingCancellationStatus16Choice",
+  "definition": "Escolha entre um motivo ou a ausência de motivo para o estado de cancelamento pendente da instrução de evento societário.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo não especificado."
+    },
+    "Reason": {
+      "definition": "Motivo do estado de cancelamento pendente."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "FATCAStatus1Code",
+  "definition": "Especifica o estado do Foreign Account Tax Compliance Act (FATCA).",
+  "isoCodes": {
+    "F101": {
+      "name": "FATCA101",
+      "definition": "O tipo de titular da conta é uma instituição financeira com documentação do titular com proprietário(s) norte-US especificado(s)."
+    },
+    "F102": {
+      "name": "FATCA102",
+      "definition": "O tipo de titular da conta é uma entidade não financeira passiva com proprietário(s) norte-US substancial(is)."
+    },
+    "F103": {
+      "name": "FATCA103",
+      "definition": "O tipo de titular da conta é uma instituição financeira não participante."
+    },
+    "F104": {
+      "name": "FATCA104",
+      "definition": "O tipo de titular da conta é uma pessoa norte-US especificada."
+    },
+    "F105": {
+      "name": "FATCA105",
+      "definition": "O tipo de titular da conta é uma entidade estrangeira não financeira (NFFE) com reporte direto."
+    },
+    "F201": {
+      "name": "FATCA201",
+      "definition": "O tipo de reporte do conjunto de contas é um titular de conta recalcitrante com indícios norte-US."
+    },
+    "F202": {
+      "name": "FATCA202",
+      "definition": "O tipo de reporte do conjunto de contas é um titular de conta recalcitrante sem indícios norte-US."
+    },
+    "F203": {
+      "name": "FATCA203",
+      "definition": "O tipo de reporte do conjunto de contas é uma conta dormente."
+    },
+    "F204": {
+      "name": "FATCA204",
+      "definition": "O tipo de reporte do conjunto de contas é uma instituição financeira estrangeira não participante."
+    },
+    "F205": {
+      "name": "FATCA205",
+      "definition": "O tipo de reporte do conjunto de contas é um titular de conta recalcitrante que é uma pessoa norte-US."
+    },
+    "F206": {
+      "name": "FATCA206",
+      "definition": "O tipo de reporte do conjunto de contas é um titular de conta recalcitrante que é uma entidade estrangeira não financeira (NFFE) passiva."
+    }
+  }
+}

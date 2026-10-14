@@ -1,0 +1,10 @@
+{
+  "isoType": "PortfolioWithdrawalReason1Code",
+  "definition": "Especifica um motivo para um levantamento do produto de investimento.",
+  "isoCodes": {
+    "FTRS": {
+      "name": "Primeira habitação",
+      "definition": "O levantamento destina-se à primeira aquisição de imóvel residencial."
+    }
+  }
+}

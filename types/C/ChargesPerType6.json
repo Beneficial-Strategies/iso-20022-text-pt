@@ -1,0 +1,35 @@
+{
+  "isoType": "ChargesPerType6",
+  "definition": "Fornece uma discriminação detalhada dos encargos por tipo de encargos.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "definition": "Identificação única e inequívoca das informações de encargos para efeitos de reconciliação.||Usage: Esta identificação deve ser utilizada como identificação de ponta a ponta na mensagem resultante para o pagamento dos encargos, de modo a permitir a reconciliação automática."
+    },
+    "TotalChargesPerChargeType": {
+      "definition": "Total dos encargos reclamados para o tipo de encargo especificado."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Instituição que gere a conta de encargos.||Usage: Este elemento deve ser utilizado quando o encargo reclamado não está relacionado com o processamento de uma operação de pagamento, por exemplo, quando se relaciona com uma investigação ou outro processo. Identifica a instituição que gere a conta a partir da qual os encargos devem ser liquidados."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Conta da instituição que gere a conta de encargos.||Usage: Este elemento deve ser utilizado quando o encargo reclamado não está relacionado com o processamento de uma operação de pagamento, por exemplo, quando se relaciona com uma investigação ou outro processo. Identifica a conta a partir da qual os encargos devem ser liquidados."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de encargo."
+    },
+    "Record": {
+      "definition": "Registo de encargos discriminado por tipo de encargos."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalhes adicionais sobre o motivo dos encargos."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountAgent2Rule": {
+      "definition": "Quando Record/ChargesAccountAgent estiver presente ou Record/ChargesAccountAgentAccount estiver presente, então ChargesAccountAgent deve estar ausente e ChargesAccountAgentAccount deve estar ausente."
+    },
+    "ChargesAccountAgentRule": {
+      "definition": "Quando ChargesAccountAgent estiver presente ou ChargesAccountAgentAccount estiver presente, então Record/ChargesAccountAgent deve estar ausente e Record/ChargesAccountAgentAccount deve estar ausente."
+    }
+  }
+}

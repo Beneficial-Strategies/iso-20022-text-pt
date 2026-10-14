@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesFinancingConfirmation002V11",
+  "definition": "Âmbito|Uma instituição gestora da conta de operações de financiamento de valores mobiliários envia um SecuritiesFinancingConfirmation a um titular da conta para confirmar ou informar da liquidação parcial ou total da fase de abertura ou de encerramento de uma operação de financiamento de valores mobiliários. ||A relação entre a instituição gestora da conta e o titular da conta pode ser:|- um depositário central de valores mobiliários ou outra infraestrutura de mercado de liquidação que gere operações de financiamento de valores mobiliários em nome dos seus participantes|- um agente (subcustodiante) que gere operações de financiamento de valores mobiliários em nome do seu cliente custodiante global, ou |- um custodiante que gere operações de financiamento de valores mobiliários em nome de uma instituição de gestão de investimentos ou de um corretor/negociador.|||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente,|- fornecer a um terceiro uma cópia de uma mensagem a título informativo,|- reenviar a um terceiro uma cópia de uma mensagem a título informativo utilizando os elementos relevantes do Business Application Header.",
+  "isoRules": {
+    "BuyerSSIRule": {
+      "definition": "Se se aplicar uma instrução de liquidação permanente e a confirmação disser respeito a uma entrega, então Buyer tem de estar presente."
+    },
+    "SellerSSIRule": {
+      "definition": "Se se aplicar uma instrução de liquidação permanente e a confirmação for de uma receção, Seller tem de estar presente."
+    },
+    "DeliveringDepositoryAndParty1Rule": {
+      "definition": "Se a confirmação for de uma receção e não se aplicar nenhuma instrução de liquidação permanente, DeliveringDepository e Party1 têm de estar presentes."
+    },
+    "ReceivingDepositoryAndParty1Rule": {
+      "definition": "Se a confirmação for de uma entrega e não se aplicar nenhuma instrução de liquidação permanente, ReceivingDepository e Party1 têm de estar presentes."
+    },
+    "SettledAmountRule": {
+      "definition": "Se a instrução for contra pagamento, então SettledAmount tem de estar presente."
+    }
+  }
+}

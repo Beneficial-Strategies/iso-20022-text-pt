@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementTransactionCondition30Choice",
+  "definition": "Escolha do formato das condições da operação de liquidação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condição de liquidação expressa como código."
+    },
+    "Proprietary": {
+      "definition": "Condição de liquidação expressa como código proprietário."
+    }
+  }
+}

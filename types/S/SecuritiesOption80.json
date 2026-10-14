@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesOption80",
+  "definition": "Fornece informações sobre a opção de valores mobiliários da operação sobre títulos.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificação do instrumento financeiro."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica se o valor é um débito ou um crédito."
+    },
+    "PostingQuantity": {
+      "definition": "Quantidade de valores mobiliários que foram lançados (crédito ou débito) na conta de custódia."
+    },
+    "PostingDate": {
+      "definition": "Data do lançamento (a crédito ou a débito) na conta."
+    },
+    "OriginalPostingDate": {
+      "definition": "Data/hora do lançamento (crédito ou débito) na conta que foi inicialmente comunicada na confirmação."
+    }
+  }
+}

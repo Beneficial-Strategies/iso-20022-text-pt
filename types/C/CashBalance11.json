@@ -1,0 +1,24 @@
+{
+  "isoType": "CashBalance11",
+  "definition": "Pormenores do saldo de uma conta de numerário.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Moeda e montante do saldo de numerário."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o saldo é a crédito ou a débito. Um saldo nulo é considerado um saldo a crédito."
+    },
+    "Type": {
+      "definition": "Especifica a natureza de um saldo."
+    },
+    "Status": {
+      "definition": "Estado atual de um saldo de numerário."
+    },
+    "ValueDate": {
+      "definition": "Data e hora a que o saldo está ou ficará disponível."
+    },
+    "NumberOfPayments": {
+      "definition": "Número de pagamentos tidos em conta no cálculo do valor do saldo de numerário."
+    }
+  }
+}

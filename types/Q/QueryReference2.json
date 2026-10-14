@@ -1,0 +1,12 @@
+{
+  "isoType": "QueryReference2",
+  "definition": "Indica o nome e a referência da consulta.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identificação única e inequívoca da consulta."
+    },
+    "QueryName": {
+      "definition": "Nome da consulta."
+    }
+  }
+}

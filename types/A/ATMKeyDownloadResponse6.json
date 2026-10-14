@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMKeyDownloadResponse6",
+  "definition": "Informação relativa à resposta a um descarregamento de chave de ATM por um gestor de ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Ambiente do descarregamento de chaves."
+    },
+    "ATMSecurityContext": {
+      "definition": "Contexto do ATM para o descarregamento de chaves."
+    },
+    "ATMChallenge": {
+      "definition": "Valor aleatório do ATM fornecido durante uma troca anterior."
+    },
+    "HostSecurityParameters": {
+      "definition": "Parâmetros de segurança do anfitrião que descarrega a chave."
+    },
+    "Command": {
+      "definition": "Comando de manutenção a executar no ATM."
+    }
+  }
+}

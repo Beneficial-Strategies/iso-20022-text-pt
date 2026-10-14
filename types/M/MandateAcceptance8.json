@@ -1,0 +1,23 @@
+{
+  "isoType": "MandateAcceptance8",
+  "definition": "Identifica o mandato que está a ser aceite.",
+  "isoElements": {
+    "OriginalMessageInformation": {
+      "definition": "Fornece informações sobre a mensagem original."
+    },
+    "AcceptanceResult": {
+      "definition": "Fornece informações detalhadas sobre o resultado da aceitação."
+    },
+    "OriginalMandate": {
+      "definition": "Fornece os dados do mandato original."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "OriginalMandateIdentificationPresenceRule": {
+      "definition": "Quando AcceptanceResults/Accepted for \"true\", então OriginalMandate/OriginalMandateIdentification deve estar presente ou OriginalMandate/OriginalMandate/OriginalMandateIdentification deve estar presente."
+    }
+  }
+}

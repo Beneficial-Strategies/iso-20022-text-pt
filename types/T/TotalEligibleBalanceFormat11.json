@@ -1,0 +1,15 @@
+{
+  "isoType": "TotalEligibleBalanceFormat11",
+  "definition": "Saldo total elegível para a ação societária e unidades de período completo e parcial.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Fornece informações sobre o saldo relacionado com uma ação societária."
+    },
+    "FullPeriodUnits": {
+      "definition": "Número de unidades de um fundo que foram adquiridas num período de distribuição anterior e/ou detidas no início de um período de distribuição, por exemplo as unidades do Grupo I no UK."
+    },
+    "PartWayPeriodUnits": {
+      "definition": "Número de unidades de um fundo que foram adquiridas numa fase intermédia de um período de distribuição, por exemplo as unidades do Grupo II no U.K."
+    }
+  }
+}

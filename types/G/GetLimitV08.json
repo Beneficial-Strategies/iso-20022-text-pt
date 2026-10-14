@@ -1,0 +1,4 @@
+{
+  "isoType": "GetLimitV08",
+  "definition": "A mensagem GetLimit é utilizada para solicitar informações sobre os detalhes de um ou mais limites definidos pelo membro (ou em nome do membro) e geridos pelo administrador de operações."
+}

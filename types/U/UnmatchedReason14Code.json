@@ -1,0 +1,218 @@
+{
+  "isoType": "UnmatchedReason14Code",
+  "definition": "Especifica o motivo pelo qual a operação, transferência ou instrução de liquidação não tem correspondência.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Recebida após o prazo limite da instituição gestora da conta. Processada com o melhor esforço."
+    },
+    "ACRU": {
+      "name": "Montante de juros corridos 1",
+      "definition": "O montante dos juros corridos não corresponde."
+    },
+    "CHAR": {
+      "name": "Montante dos encargos",
+      "definition": "O montante dos encargos não corresponde."
+    },
+    "TERM": {
+      "name": "Data e hora de encerramento",
+      "definition": "A data/hora de encerramento não coincide."
+    },
+    "IIND": {
+      "name": "Referência comum",
+      "definition": "A referência comum não corresponde."
+    },
+    "CPCA": {
+      "name": "Contraparte cancelada",
+      "definition": "A contraparte cancelou a sua instrução."
+    },
+    "CLAT": {
+      "name": "Contraparte fora de prazo para emparelhamento",
+      "definition": "A instrução da contraparte chegou demasiado tarde para a correspondência."
+    },
+    "NCRR": {
+      "name": "Montante de liquidação na moeda",
+      "definition": "A moeda do montante de liquidação não corresponde."
+    },
+    "DDEA": {
+      "name": "Preço do negócio",
+      "definition": "O preço da transação não corresponde."
+    },
+    "EXEC": {
+      "name": "Comissão do corretor executante",
+      "definition": "A comissão do corretor de execução não corresponde."
+    },
+    "DSEC": {
+      "name": "Instrumento financeiro",
+      "definition": "A identificação do instrumento financeiro não corresponde, por exemplo, ISIN ou atributos do instrumento financeiro diferentes."
+    },
+    "DQUA": {
+      "name": "Quantidade do instrumento financeiro",
+      "definition": "A quantidade de instrumentos financeiros não corresponde."
+    },
+    "FORF": {
+      "name": "Montante da perda de recompra",
+      "definition": "O montante de perda não corresponde."
+    },
+    "LEOG": {
+      "name": "Carta de garantia",
+      "definition": "A contraparte destina-se a liquidação através de carta de garantia, a sua instrução não, ou vice-versa."
+    },
+    "INVE": {
+      "name": "Parte investidora",
+      "definition": "A parte investidora não corresponde."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "A sua instrução chegou demasiado tarde para a correspondência."
+    },
+    "MCAN": {
+      "name": "Registo correspondente cancelado",
+      "definition": "O registo correspondente foi cancelado."
+    },
+    "MIME": {
+      "name": "Lado do mercado em falta",
+      "definition": "Faltam detalhes da execução em mercado."
+    },
+    "CMIS": {
+      "name": "Sem correspondência",
+      "definition": "Não foi possível encontrar uma instrução correspondente da sua contraparte."
+    },
+    "NMAS": {
+      "name": "Emparelhamento não iniciado",
+      "definition": "O processo de emparelhamento ainda não foi iniciado."
+    },
+    "DTRA": {
+      "name": "Não reconhecido",
+      "definition": "A contraparte foi contactada ou contactou-nos e não reconhece a operação."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Código proprietário do motivo de ausência de correspondência, descrito num campo narrativo."
+    },
+    "FRAP": {
+      "name": "Código de pagamento",
+      "definition": "O tipo de pagamento não corresponde: a sua instrução é livre de pagamento e a instrução da sua contraparte é contra pagamento, ou vice-versa."
+    },
+    "PHYS": {
+      "name": "Liquidação física",
+      "definition": "A instrução da contraparte é de liquidação física, a sua não, ou vice-versa."
+    },
+    "PLIS": {
+      "name": "Local de cotação",
+      "definition": "O local de cotação não corresponde."
+    },
+    "INPS": {
+      "name": "Local de guarda",
+      "definition": "As informações sobre o local de custódia não permitem a correspondência."
+    },
+    "PLCE": {
+      "name": "Local de negociação",
+      "definition": "O local de negociação não coincide."
+    },
+    "PODU": {
+      "name": "Possível duplicado",
+      "definition": "A instrução não obteve correspondência. É uma possível instrução duplicada."
+    },
+    "DEPT": {
+      "name": "Depositário recetor ou entregador",
+      "definition": "O depositário não corresponde."
+    },
+    "ICAG": {
+      "name": "Parte recetora ou entregadora 1",
+      "definition": "O participante do depositário que entrega ou recebe não corresponde."
+    },
+    "ICUS": {
+      "name": "Parte recetora ou entregadora 2",
+      "definition": "O cliente da parte 1 que entrega ou recebe não corresponde."
+    },
+    "IEXE": {
+      "name": "Parte recetora ou entregadora 3",
+      "definition": "O cliente da parte 2 que entrega ou recebe não corresponde."
+    },
+    "REGD": {
+      "name": "Detalhes do registo",
+      "definition": "Os detalhes de registo associados à operação estão incorretos."
+    },
+    "REPA": {
+      "name": "Montante de recompra",
+      "definition": "O montante da operação de cessação não corresponde."
+    },
+    "CADE": {
+      "name": "Prazo de pré-aviso da recompra",
+      "definition": "O prazo de resgate da operação não corresponde."
+    },
+    "REPP": {
+      "name": "Montante do prémio de recompra",
+      "definition": "O montante do prémio não corresponde."
+    },
+    "REPO": {
+      "name": "Taxa de recompra",
+      "definition": "A taxa de recompra não coincide."
+    },
+    "RERT": {
+      "name": "Tipo de taxa de recompra",
+      "definition": "O tipo de taxa de recompra não coincide."
+    },
+    "RSPR": {
+      "name": "Taxa de spread de recompra",
+      "definition": "A taxa de diferencial não corresponde."
+    },
+    "RTGS": {
+      "name": "Sistema RTGS",
+      "definition": "A contraparte destina-se ao sistema de liquidação por bruto em tempo real (RTGS), você destina-se a um sistema não RTGS, ou vice-versa."
+    },
+    "SAFE": {
+      "name": "Conta de guarda",
+      "definition": "A conta de custódia utilizada como critério de correspondência no mercado em causa não corresponde. Inclui a conta do comprador/vendedor, a conta do cliente direto junto do agente que recebe/entrega, ou a conta do agente que recebe/entrega na CSD."
+    },
+    "DMON": {
+      "name": "Montante de liquidação",
+      "definition": "O montante de liquidação não corresponde."
+    },
+    "DDAT": {
+      "name": "Data de liquidação",
+      "definition": "A data/hora de liquidação não corresponde."
+    },
+    "SETS": {
+      "name": "Método do sistema de liquidação",
+      "definition": "O sistema/método de liquidação não corresponde (por exemplo, a instrução é para liquidar através do sistema/método A. A contraparte espera que a liquidação ocorra através do sistema/método B)."
+    },
+    "SETR": {
+      "name": "Operação de liquidação",
+      "definition": "O tipo de operação de liquidação não corresponde (refere-se aos códigos de tipo de operação de liquidação disponíveis para o campo: 22F:: SETR.)."
+    },
+    "TXST": {
+      "name": "Estado fiscal",
+      "definition": "Desacordo quanto ao regime fiscal dos instrumentos financeiros a liquidar."
+    },
+    "DTRD": {
+      "name": "Data de negociação",
+      "definition": "A data da negociação não corresponde."
+    },
+    "DEAL": {
+      "name": "Montante da transação",
+      "definition": "O montante da transação não corresponde."
+    },
+    "DELN": {
+      "name": "Sentido da operação",
+      "definition": "O sentido da negociação não corresponde. A contraparte espera uma entrega da sua parte, e não uma receção, ou vice-versa."
+    },
+    "UNBR": {
+      "name": "Lado do mercado não correspondido",
+      "definition": "A negociação do lado do mercado não tem correspondência."
+    },
+    "VASU": {
+      "name": "Suporte de taxa variável",
+      "definition": "O suporte de taxa variável não corresponde (recompra)."
+    },
+    "DCMX": {
+      "name": "Com direito a dividendo (cum-ex)",
+      "definition": "Desacordo quanto à execução da operação com ou sem direito (cum ou ex)."
+    },
+    "DMCT": {
+      "name": "Geração automática",
+      "definition": "Desacordo quanto à geração automática de reclamação de mercado ou de transformação."
+    }
+  }
+}

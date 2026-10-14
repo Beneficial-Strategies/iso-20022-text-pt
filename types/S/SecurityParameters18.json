@@ -1,0 +1,21 @@
+{
+  "isoType": "SecurityParameters18",
+  "definition": "Parâmetros de segurança do ATM para o descarregamento de chave iniciado.",
+  "isoElements": {
+    "Key": {
+      "definition": "Chave criptográfica utilizada para proteger o descarregamento de chaves."
+    },
+    "SignatureChoice": {
+      "definition": "Elemento que contém a assinatura."
+    },
+    "Certificate": {
+      "definition": "Cadeia ordenada de certificados da chave de cifra de chaves assimétrica, começando pelo certificado do ATM."
+    },
+    "ATMChallenge": {
+      "definition": "Valor aleatório do ATM para evitar a repetição de mensagens."
+    },
+    "RequestedKey": {
+      "definition": "Chave pedida para descarregamento, consoante a hierarquia de chaves utilizada pelo anfitrião."
+    }
+  }
+}

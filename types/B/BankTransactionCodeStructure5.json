@@ -1,0 +1,12 @@
+{
+  "isoType": "BankTransactionCodeStructure5",
+  "definition": "Conjunto de elementos utilizados para identificar o tipo ou o código de operação de um lançamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica a área de negócio da operação subjacente."
+    },
+    "Family": {
+      "definition": "Especifica a família e a subfamília do código de operação bancária, dentro de um domínio específico, num formato estruturado e hierárquico."
+    }
+  }
+}

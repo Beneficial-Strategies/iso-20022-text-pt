@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateStatus1Choice",
+  "definition": "Conjuntos de elementos para identificar o estado de um mandato.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado do mandato, sob forma codificada, conforme publicado numa lista externa."
+    },
+    "Proprietary": {
+      "definition": "Nome do esquema de identificação, em texto livre."
+    }
+  }
+}

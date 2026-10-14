@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateAcceptanceReportV08",
+  "definition": "Âmbito|A mensagem MandateAcceptanceReport é enviada pela instituição do destinatário (devedor ou credor) da mensagem MandateRequest (iniciação, alteração ou cancelamento) à instituição do iniciador da mensagem MandateRequest (devedor ou credor).|A mensagem MandateAcceptanceReport é utilizada para confirmar a aceitação ou a rejeição de uma mensagem MandateRequest. Quando a aceitação faz parte do fluxo completo do processo, uma mensagem MandateRequest só se torna válida após a receção de uma confirmação de aceitação, através de uma mensagem MandateAcceptanceReport, da instituição do destinatário.|Utilização|A mensagem MandateAcceptanceReport pode conter uma ou mais confirmações de aceitação ou rejeição de um pedido de mandato específico.|As mensagens podem ser trocadas entre a instituição do devedor e a instituição do credor, entre a instituição do devedor e o devedor e entre a instituição do credor e o credor.|A mensagem MandateAcceptanceReport pode ser utilizada em cenários nacionais e transfronteiras.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "O bloco SupplementaryData ao nível da mensagem não pode ser utilizado para fornecer informações adicionais sobre uma operação. O elemento SupplementaryData ao nível da operação deve ser utilizado para esse efeito."
+    }
+  }
+}

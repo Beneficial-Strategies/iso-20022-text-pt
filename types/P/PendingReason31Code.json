@@ -1,0 +1,46 @@
+{
+  "isoType": "PendingReason31Code",
+  "definition": "Especifica o motivo pelo qual a operação/instrução está pendente de liquidação. A liquidação na data de liquidação instruída ainda é possível.",
+  "isoCodes": {
+    "BLOC": {
+      "name": "Conta bloqueada",
+      "definition": "A sua conta está bloqueada, nenhuma instrução pode ser liquidada através da conta."
+    },
+    "PART": {
+      "name": "Operação liquidada em parcelas",
+      "definition": "A operação será liquidada parcialmente."
+    },
+    "COLL": {
+      "name": "Valores mobiliários dados em penhor como garantia",
+      "definition": "Os instrumentos financeiros não são entregáveis por estarem dados em penhor como garantia."
+    },
+    "LINK": {
+      "name": "Instrução associada pendente",
+      "definition": "A sua instrução está pendente de liquidação porque a instrução associada está pendente."
+    },
+    "FUTU": {
+      "name": "A aguardar a data de liquidação",
+      "definition": "A aguardar a data de liquidação. Não há problemas de liquidação a comunicar."
+    },
+    "LACK": {
+      "name": "Falta de valores mobiliários",
+      "definition": "Instrumentos financeiros insuficientes na sua conta."
+    },
+    "SBLO": {
+      "name": "Valores mobiliários bloqueados",
+      "definition": "Os instrumentos financeiros estão bloqueados devido a um evento de operação sobre valores mobiliários, realinhamento, etc."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "PRSY": {
+      "name": "Sistema em espera",
+      "definition": "A operação foi colocada em espera/congelada pelo sistema."
+    },
+    "INBC": {
+      "name": "Contagem de número incompleta",
+      "definition": "Nem todas as instruções que fazem parte de um conjunto foram recebidas."
+    }
+  }
+}

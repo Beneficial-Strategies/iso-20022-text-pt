@@ -1,0 +1,24 @@
+{
+  "isoType": "ReportData4",
+  "definition": "Representação numérica dos aumentos e diminuições líquidos numa conta num determinado momento. O saldo de caixa é calculado a partir da soma dos créditos em numerário menos a soma dos débitos em numerário.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identificação do relatório atribuída pelo remetente."
+    },
+    "ValueDate": {
+      "definition": "Data-valor para a qual o calendário de pay-in é gerado."
+    },
+    "DateAndTimeStamp": {
+      "definition": "Data e hora em que o relatório é gerado. Pode também ser especificado o desfasamento em relação ao UTC."
+    },
+    "Type": {
+      "definition": "Tipo de calendário de pay-in."
+    },
+    "ScheduleType": {
+      "definition": "Define o momento do calendário, ou seja, se se trata de um calendário inicial ou revisto."
+    },
+    "SettlementSessionIdentifier": {
+      "definition": "Para indicar a sessão de liquidação CLS solicitada em que a operação comercial relacionada se insere."
+    }
+  }
+}

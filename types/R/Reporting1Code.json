@@ -1,0 +1,14 @@
+{
+  "isoType": "Reporting1Code",
+  "definition": "Identifica a que instituição deve ser feita a comunicação.",
+  "isoCodes": {
+    "STEX": {
+      "name": "Bolsa de valores",
+      "definition": "Os detalhes da operação devem ser comunicados a uma bolsa de valores."
+    },
+    "REGU": {
+      "name": "Organismo regulador",
+      "definition": "Os detalhes da operação devem ser comunicados a uma entidade reguladora."
+    }
+  }
+}

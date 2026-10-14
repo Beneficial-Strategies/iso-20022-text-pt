@@ -1,0 +1,18 @@
+{
+  "isoType": "Attendance2",
+  "definition": "Informações e condições fornecidas para a presença física na assembleia.",
+  "isoElements": {
+    "AdmissionConditions": {
+      "definition": "Condições de admissão presencial à assembleia geral."
+    },
+    "ConfirmationInformation": {
+      "definition": "Especifica como solicitar o cartão de presença ou comunicar a presença."
+    },
+    "ConfirmationDeadline": {
+      "definition": "Data e hora até às quais o beneficiário efetivo ou o agente deve notificar a sua intenção de participar na assembleia. Este prazo é fixado por um intermediário."
+    },
+    "ConfirmationMarketDeadline": {
+      "definition": "Data e hora até às quais a presença na assembleia deve ser confirmada. Este prazo é fixado pelo emitente."
+    }
+  }
+}

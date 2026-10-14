@@ -1,0 +1,14 @@
+{
+  "isoType": "NotificationType2Code",
+  "definition": "Especifica um tipo de notificação.",
+  "isoCodes": {
+    "NEWM": {
+      "name": "Novo",
+      "definition": "Nova notificação."
+    },
+    "REPL": {
+      "name": "Substituição",
+      "definition": "Notificação que substitui uma notificação enviada anteriormente."
+    }
+  }
+}

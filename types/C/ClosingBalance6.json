@@ -1,0 +1,17 @@
+{
+  "isoType": "ClosingBalance6",
+  "definition": "Saldo de fecho do período do extrato (saldo de fecho final) ou desta página (saldo de fecho intermédio).",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "definition": "Indicação de que a posição é curta ou longa."
+    },
+    "ClosingBalance": {
+      "definition": "Saldo de fecho do período do extrato (saldo de fecho final) ou desta página (saldo de fecho intermédio)."
+    }
+  },
+  "isoRules": {
+    "ShortLongDefaultRule": {
+      "definition": "Se Shortlong estiver ausente, o valor predefinido é long, isto é, o saldo é positivo."
+    }
+  }
+}

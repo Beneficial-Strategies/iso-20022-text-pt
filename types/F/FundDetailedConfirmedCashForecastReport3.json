@@ -1,0 +1,18 @@
+{
+  "isoType": "FundDetailedConfirmedCashForecastReport3",
+  "definition": "Informações sobre um relatório de previsão de caixa.",
+  "isoElements": {
+    "FundOrSubFundDetails": {
+      "definition": "Informações sobre o fundo/subfundo, quando o relatório especifica o fluxo de caixa do fundo/subfundo ou de uma classe de ações do fundo/subfundo."
+    },
+    "FundCashForecastDetails": {
+      "definition": "Informações relacionadas com os fluxos de caixa de entrada e de saída de uma data de negociação específica, resultantes de operações sobre ações de um fundo de investimento, por exemplo, subscrições, resgates ou conversões. As informações fornecidas são ordenadas por critérios predefinidos, como país, instituição, moeda ou critérios definidos pelo utilizador."
+    },
+    "ConsolidatedNetCashForecast": {
+      "definition": "Caixa líquida estimada resultante dos fluxos de caixa de entrada e de saída."
+    },
+    "Extension": {
+      "definition": "Informações adicionais que não possam ser captadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "WithdrawalReason1Choice",
+  "definition": "Escolha de formatos para um motivo de levantamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo do levantamento expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Motivo do levantamento expresso sob a forma de código proprietário."
+    }
+  }
+}

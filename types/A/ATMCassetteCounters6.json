@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMCassetteCounters6",
+  "definition": "Contador do cassete do ATM por valor unitário ou global.",
+  "isoElements": {
+    "UnitValue": {
+      "definition": "Montante de uma unidade de suporte, se o tipo de suporte for valorizado."
+    },
+    "Currency": {
+      "definition": "Moeda do suporte, se o tipo de suporte for valorizado e diferente da moeda do montante solicitado."
+    },
+    "MediaCategory": {
+      "definition": "Categoria dos itens de suporte."
+    },
+    "InitialCount": {
+      "definition": "Número de itens de suporte no cassete após o último reabastecimento."
+    },
+    "CurrentNumber": {
+      "definition": "Número atual de suportes presentes no cassete."
+    },
+    "CurrentAmount": {
+      "definition": "Montante atual no cassete."
+    },
+    "FlowTotals": {
+      "definition": "Contadores dos suportes existentes no cassete."
+    }
+  }
+}

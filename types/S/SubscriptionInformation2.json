@@ -1,0 +1,23 @@
+{
+  "isoType": "SubscriptionInformation2",
+  "definition": "Informações sobre subscrições cumulativas.",
+  "isoElements": {
+    "DateOfFirstSubscription": {
+      "definition": "Data da primeira subscrição no ano em curso."
+    },
+    "EquityComponent": {
+      "definition": "Montante subscrito em ações no ano fiscal em curso (excluindo dividendos)."
+    },
+    "CashComponent": {
+      "definition": "Montante subscrito em numerário no ano fiscal em curso."
+    },
+    "TotalAmountYearToDate": {
+      "definition": "Montante total subscrito no ano fiscal em curso."
+    }
+  },
+  "isoRules": {
+    "TotalAmountYearToDateRule": {
+      "definition": "TotalAmountYearToDate tem de ser igual à soma de EquityComponent e CashComponent, se presentes."
+    }
+  }
+}

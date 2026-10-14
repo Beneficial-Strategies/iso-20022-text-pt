@@ -1,0 +1,15 @@
+{
+  "isoType": "RemittanceLocationData1",
+  "definition": "Fornece detalhes adicionais sobre o aviso de remessa.",
+  "isoElements": {
+    "Method": {
+      "definition": "Método utilizado para entregar as informações do aviso de remessa."
+    },
+    "ElectronicAddress": {
+      "definition": "Endereço eletrónico para o qual uma instituição deve enviar as informações de remessa."
+    },
+    "PostalAddress": {
+      "definition": "Endereço postal para o qual uma instituição deve enviar as informações de remessa."
+    }
+  }
+}

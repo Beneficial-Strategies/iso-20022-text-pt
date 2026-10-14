@@ -1,0 +1,21 @@
+{
+  "isoType": "Signer3",
+  "definition": "Entidade que assinou os dados e a respetiva assinatura digital.",
+  "isoElements": {
+    "Version": {
+      "definition": "Versão da estrutura de dados Cryptographic Message Syntax (CMS)."
+    },
+    "SignerIdentification": {
+      "definition": "Identificação da entidade que assinou os dados."
+    },
+    "DigestAlgorithm": {
+      "definition": "Identificação de um algoritmo de resumo a aplicar antes da assinatura."
+    },
+    "SignatureAlgorithm": {
+      "definition": "Algoritmo criptográfico de assinatura digital."
+    },
+    "Signature": {
+      "definition": "Assinatura digital."
+    }
+  }
+}

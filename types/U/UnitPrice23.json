@@ -1,0 +1,27 @@
+{
+  "isoType": "UnitPrice23",
+  "definition": "Montante em dinheiro pelo qual bens ou serviços são oferecidos, vendidos ou comprados.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo e informações sobre um preço."
+    },
+    "Value": {
+      "definition": "Valor do preço."
+    },
+    "PriceMethod": {
+      "definition": "Tipo de método de cálculo do preço."
+    },
+    "AccruedInterestNAV": {
+      "definition": "Juros acumulados entre o pagamento de juros mais recente e a venda do instrumento financeiro."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de dias utilizado para o cálculo do montante de juros corridos."
+    },
+    "TaxableIncomePerShare": {
+      "definition": "Montante incluído no NAV que corresponde a ganhos direta ou indiretamente provenientes de pagamento de juros no âmbito da Diretiva europeia relativa à tributação dos rendimentos da poupança sob a forma de juros."
+    },
+    "TaxableIncomePerShareCalculated": {
+      "definition": "Especifica se o fundo calcula um juro tributável por ação (TIS)."
+    }
+  }
+}

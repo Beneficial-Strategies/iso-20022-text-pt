@@ -1,0 +1,15 @@
+{
+  "isoType": "BalanceTransfer7",
+  "definition": "Informações que permitem à instituição gestora da conta competente conciliar com o pedido associado quaisquer pagamentos efetuados no âmbito do cumprimento de uma mudança de conta.",
+  "isoElements": {
+    "BalanceTransferReference": {
+      "definition": "Referência que permite ao credor conciliar com o pedido de pagamento um pagamento recebido através de um canal de pagamento diferente."
+    },
+    "BalanceTransferMethod": {
+      "definition": "Contém os detalhes do método de compensação e liquidação escolhido para efetuar o pagamento adequado de instituição gestora da conta para instituição gestora da conta, a fim de transferir o saldo de encerramento positivo ou negativo da conta anterior para a nova conta."
+    },
+    "BalanceTransferFundingLimit": {
+      "definition": "Valor máximo que a nova instituição gestora da conta pagará à anterior instituição gestora da conta quando o saldo de encerramento da conta anterior for negativo."
+    }
+  }
+}

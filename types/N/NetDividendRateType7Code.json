@@ -1,0 +1,58 @@
+{
+  "isoType": "NetDividendRateType7Code",
+  "definition": "Especifica o tipo de taxa de dividendo.",
+  "isoCodes": {
+    "CAPO": {
+      "name": "Parte de capital",
+      "definition": "Taxa relativa ao valor mobiliário subjacente pelo qual é distribuído capital."
+    },
+    "CDFI": {
+      "name": "Rendimento estrangeiro",
+      "definition": "Taxa relativa a um tipo de rendimento estrangeiro, tal como um rendimento estrangeiro canalizado."
+    },
+    "FUPU": {
+      "name": "Parte do rendimento das unidades do período completo",
+      "definition": "Taxa de distribuição relativa às unidades de período completo, por exemplo as unidades do Grupo I no UK."
+    },
+    "FLFR": {
+      "name": "Totalmente franqueado",
+      "definition": "Taxa resultante de um dividendo totalmente isento pago por uma sociedade; a taxa inclui o crédito fiscal para as sociedades que efetuaram pagamentos de impostos suficientes durante o exercício fiscal."
+    },
+    "INCO": {
+      "name": "Parte de rendimento",
+      "definition": "Taxa relativa ao valor mobiliário subjacente pelo qual são distribuídos rendimentos."
+    },
+    "INTR": {
+      "name": "Juros",
+      "definition": "Taxa relativa ao valor mobiliário subjacente pelo qual são pagos juros."
+    },
+    "SOIC": {
+      "name": "Rendimentos diversos ou outros",
+      "definition": "Taxa relativa ao valor mobiliário subjacente pelo qual são pagos outros rendimentos."
+    },
+    "TXBL": {
+      "name": "Parte tributável",
+      "definition": "Taxa relativa ao valor mobiliário subjacente pelo qual é cobrado imposto."
+    },
+    "TXDF": {
+      "name": "Imposto diferido",
+      "definition": "Taxa relativa ao valor mobiliário subjacente pelo qual o imposto é diferido."
+    },
+    "TXFR": {
+      "name": "Isento de imposto",
+      "definition": "Taxa relativa ao valor mobiliário subjacente que não é tributável."
+    },
+    "UNFR": {
+      "name": "Não franqueado",
+      "definition": "Taxa resultante de um dividendo não isento pago por uma sociedade; a taxa não inclui crédito fiscal e está sujeita a imposto retido na fonte."
+    },
+    "PAPU": {
+      "name": "Parte do rendimento das unidades de período parcial",
+      "definition": "Taxa de distribuição relativa às unidades de período parcial, por exemplo as unidades do Grupo II no UK."
+    },
+    "REES": {
+      "name": "Parte de rendimento de propriedade imobiliária",
+      "definition": "Taxa de distribuição de rendimentos proveniente de investimento imobiliário."
+    }
+  }
+}

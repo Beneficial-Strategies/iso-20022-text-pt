@@ -1,0 +1,33 @@
+{
+  "isoType": "PortfolioTransfer16",
+  "definition": "Tipo de produto e de ativos a transferir.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de um grupo de transferências individuais, atribuído pela parte ordenante. Este identificador associa as transferências individuais entre si."
+    },
+    "TransferIdentification": {
+      "definition": "Identificação atribuída à transferência de ativos."
+    },
+    "TransferConfirmationIdentification": {
+      "definition": "Identificação da confirmação atribuída à transferência pelo cedente."
+    },
+    "Portfolio": {
+      "definition": "Escolha entre produto fiscalmente eficiente, investimento geral ou pensão."
+    },
+    "PartialDiscovery": {
+      "definition": "Indica que nem todos os ativos da posição/carteira estão especificados e que é necessário algum outro tipo de comunicação."
+    },
+    "ResidualCash": {
+      "definition": "Especifica se existe numerário na conta a aguardar investimento e a moeda."
+    },
+    "TaxDate": {
+      "definition": "Data fiscal aplicável a todos os ativos."
+    },
+    "FinancialInstrumentAssetForTransfer": {
+      "definition": "Ativo a transferir."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a transferência do produto."
+    }
+  }
+}

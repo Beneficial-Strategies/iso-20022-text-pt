@@ -1,0 +1,12 @@
+{
+  "isoType": "RegisteredShareholderName1Choice",
+  "definition": "Escolha entre nome e endereço de pessoa singular ou de organização.",
+  "isoElements": {
+    "IndividualPerson": {
+      "definition": "Entidade humana, por oposição a uma entidade coletiva (por vezes designada «pessoa artificial»)."
+    },
+    "Organisation": {
+      "definition": "Estrutura organizada constituída para um fim específico, por exemplo, uma empresa, um organismo público, um departamento, uma instituição de beneficência ou uma instituição financeira."
+    }
+  }
+}

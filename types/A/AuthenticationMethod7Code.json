@@ -1,0 +1,42 @@
+{
+  "isoType": "AuthenticationMethod7Code",
+  "definition": "Método de autenticação do cliente ou do seu cartão.",
+  "isoCodes": {
+    "TOKA": {
+      "name": "Token de autenticação",
+      "definition": "É utilizado um token para verificar uma autenticação já realizada."
+    },
+    "BIOM": {
+      "name": "Biometria",
+      "definition": "Autenticação biométrica do titular do cartão."
+    },
+    "MOBL": {
+      "name": "Telemóvel",
+      "definition": "Dispositivo móvel do cliente."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outra autenticação do cliente."
+    },
+    "FPIN": {
+      "name": "PIN offline",
+      "definition": "Autenticação offline por PIN (Personal Identification Number)."
+    },
+    "NPIN": {
+      "name": "PIN online",
+      "definition": "Autenticação em linha por PIN (Personal Identification Number)."
+    },
+    "PSWD": {
+      "name": "Palavra-passe",
+      "definition": "Autenticação por palavra-passe."
+    },
+    "SCRT": {
+      "name": "Certificado seguro",
+      "definition": "Operação de comércio eletrónico protegida com o certificado X.509 de um cliente."
+    },
+    "SCNL": {
+      "name": "Canal seguro",
+      "definition": "Operação com canal encriptado."
+    }
+  }
+}

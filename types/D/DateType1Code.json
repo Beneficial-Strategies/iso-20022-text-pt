@@ -1,0 +1,10 @@
+{
+  "isoType": "DateType1Code",
+  "definition": "Especifica quando a data é desconhecida.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "A data é desconhecida do remetente ou não foi estabelecida."
+    }
+  }
+}

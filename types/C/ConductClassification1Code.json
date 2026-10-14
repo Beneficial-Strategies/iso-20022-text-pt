@@ -1,0 +1,18 @@
+{
+  "isoType": "ConductClassification1Code",
+  "definition": "Especifica a classificação da conduta.",
+  "isoCodes": {
+    "NSTA": {
+      "name": "Não normalizado",
+      "definition": "Não normalizada ou invulgar."
+    },
+    "RCLT": {
+      "name": "Relutante",
+      "definition": "Relutante."
+    },
+    "STAN": {
+      "name": "Padrão",
+      "definition": "Normalizada."
+    }
+  }
+}

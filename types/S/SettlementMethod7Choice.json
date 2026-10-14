@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementMethod7Choice",
+  "definition": "Detalhes de liquidação para determinar se o pagamento é a crédito ou a débito.",
+  "isoElements": {
+    "Credit": {
+      "definition": "Especifica os detalhes do pagamento a efetuar pela anterior instituição gestora da conta à nova instituição gestora da conta em caso de saldo de encerramento positivo."
+    },
+    "Debit": {
+      "definition": "Especifica os detalhes do pagamento a efetuar pela nova instituição gestora da conta à anterior instituição gestora da conta em caso de saldo de encerramento negativo."
+    }
+  }
+}

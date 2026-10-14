@@ -1,0 +1,63 @@
+{
+  "isoType": "PaymentTransaction177",
+  "definition": "Fornece mais pormenores sobre as operações originais a que se refere a mensagem de relatório de estado.",
+  "isoElements": {
+    "StatusIdentification": {
+      "definition": "Identificação única, atribuída por uma parte instrutora a uma parte instruída, para identificar inequivocamente o estado comunicado.|Utilização: A parte instrutora é a parte que envia a mensagem de estado e não a parte que enviou a instrução original sobre a qual é feito o relatório."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Referência ponto a ponto, atribuída pela parte instrutora original, para identificar de forma inequívoca a mensagem original."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificação única, atribuída pela parte instrutora original à parte instruída original, para identificar inequivocamente a instrução original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora original, para identificar inequivocamente a operação original."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identificação única, atribuída pela primeira instituição instrutora original, para identificar inequivocamente a operação."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador universalmente único para fornecer a referência de ponta a ponta original de uma operação de pagamento."
+    },
+    "TransactionStatus": {
+      "definition": "Especifica o estado de uma operação, conforme publicado numa lista externa de códigos de estado de operações de pagamento."
+    },
+    "StatusReasonInformation": {
+      "definition": "Fornece informações pormenorizadas sobre o motivo do estado."
+    },
+    "ChargesInformation": {
+      "definition": "Fornece informações sobre os encargos relacionados com o tratamento da rejeição da instrução.||Utilização: Estas informações são transmitidas apenas a título informativo. A liquidação dos encargos será feita separadamente."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Momento em que a ordem de pagamento da parte iniciadora satisfaz as condições de tratamento da instituição gestora da conta. Isto significa que a instituição gestora da conta recebeu a ordem de pagamento e aplicou verificações como a autorização e a disponibilidade de fundos."
+    },
+    "ProcessingDate": {
+      "definition": "Data/hora em que a instrução foi tratada pela parte especificada."
+    },
+    "EffectiveInterbankSettlementDate": {
+      "definition": "Data e hora em que uma operação é concluída e compensada, ou seja, o pagamento é efetuado."
+    },
+    "AccountServicerReference": {
+      "definition": "Referência única, atribuída pela instituição gestora da conta, para identificar inequivocamente a instrução."
+    },
+    "ClearingSystemReference": {
+      "definition": "Referência única, atribuída por um sistema de compensação, para identificar inequivocamente a instrução."
+    },
+    "CreditSettlementKey": {
+      "definition": "Chave criptográfica fornecida pelo CreditorAgent para confirmar que a liquidação na conta do credor está garantida."
+    },
+    "InstructingAgent": {
+      "definition": "Instituição que instrui a parte seguinte da cadeia para executar a(s) instrução(ões).||Utilização: A instituição instrutora é a parte que envia a mensagem de estado e não a parte que enviou a instrução original sobre a qual é feito o relatório."
+    },
+    "InstructedAgent": {
+      "definition": "Instituição instruída pela parte anterior da cadeia para executar a(s) instrução(ões).||Utilização: A instituição instruída é a parte que recebe a mensagem de estado e não a parte que recebeu a instrução original sobre a qual é feito o relatório."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos principais utilizados para identificar a operação original a que se refere."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  }
+}

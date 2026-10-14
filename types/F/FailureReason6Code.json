@@ -1,0 +1,22 @@
+{
+  "isoType": "FailureReason6Code",
+  "definition": "Motivo pelo qual a chave foi parada.",
+  "isoCodes": {
+    "CMPR": {
+      "name": "Comprometido",
+      "definition": "A chave está comprometida."
+    },
+    "EXPR": {
+      "name": "Expirado",
+      "definition": "A chave expirou."
+    },
+    "KCVE": {
+      "name": "KCV inválido",
+      "definition": "O valor de verificação da chave está incorreto."
+    },
+    "KLOD": {
+      "name": "Erro de carregamento de chave",
+      "definition": "Erro durante o descarregamento da chave no dispositivo de segurança."
+    }
+  }
+}

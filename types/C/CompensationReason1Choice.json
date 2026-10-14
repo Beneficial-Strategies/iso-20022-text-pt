@@ -1,0 +1,12 @@
+{
+  "isoType": "CompensationReason1Choice",
+  "definition": "Especifica o motivo da compensação do pagamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo da compensação do pagamento, em formato codificado."
+    },
+    "Proprietary": {
+      "definition": "Motivo da compensação do pagamento, em formato proprietário."
+    }
+  }
+}

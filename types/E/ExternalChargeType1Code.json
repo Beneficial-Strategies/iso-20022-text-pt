@@ -1,0 +1,62 @@
+{
+  "isoType": "ExternalChargeType1Code",
+  "definition": "Especifica a natureza ou a utilização dos encargos, sob a forma de cadeia de carateres com um comprimento máximo de 4 carateres.|A lista de códigos válidos é uma lista de códigos externa publicada separadamente.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "BRKF": {
+      "name": "Corretagem",
+      "definition": "Comissão paga a um corretor pelos serviços prestados."
+    },
+    "BTCH": {
+      "name": "Lote",
+      "definition": "Comissão paga pelo processamento de um lote de operações."
+    },
+    "COMM": {
+      "name": "Comissão",
+      "definition": "Comissão paga por serviços prestados."
+    },
+    "SUMM": {
+      "name": "Somatório",
+      "definition": "Soma de comissões individuais."
+    },
+    "AMND": {
+      "name": "Alteração",
+      "definition": "A ordem de pagamento foi alterada a pedido do banco emissor (original) ou em resultado da receção de informações alteradas do banco emissor (original)."
+    },
+    "CFEE": {
+      "name": "Taxa de cancelamento",
+      "definition": "Utilizado quando são cobradas comissões pelo cancelamento de um pagamento."
+    },
+    "CLEF": {
+      "name": "Comissão de compensação",
+      "definition": "Utilizado quando são cobradas comissões pelo processamento normal de transferências do tipo instituição financeira."
+    },
+    "INVS": {
+      "name": "Investigação",
+      "definition": "Encargos relacionados com o processamento de um processo de investigação/consulta."
+    },
+    "INTE": {
+      "name": "Juros",
+      "definition": "Encargos relacionados com juros."
+    },
+    "NSTP": {
+      "name": "Encargos não STP",
+      "definition": "Encargo por um pagamento que exigiu uma intervenção durante o processamento."
+    },
+    "DEBT": {
+      "name": "Suportado pelo devedor",
+      "definition": "O pedido de reembolso é apresentado em resposta à receção de uma transferência de cliente com DEBT no código de encargos."
+    },
+    "TELE": {
+      "name": "Encargos de telecomunicações",
+      "definition": "Encargos relativos ao meio de telecomunicações mais adequado e eficiente disponível, por exemplo, SWIFT, telex, telefone, fax, conforme determinado pela parte que executa a instrução de pagamento."
+    },
+    "ACCM": {
+      "name": "Comissão de manutenção de conta",
+      "definition": "Comissão de manutenção de conta."
+    },
+    "RECH": {
+      "name": "Encargos de reporte",
+      "definition": "Encargo por uma mensagem de reporte (camt.05X)."
+    }
+  }
+}

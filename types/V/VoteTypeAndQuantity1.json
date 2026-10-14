@@ -1,0 +1,12 @@
+{
+  "isoType": "VoteTypeAndQuantity1",
+  "definition": "Tipo de voto que pode ser emitido relativamente a uma deliberação numa assembleia geral.",
+  "isoElements": {
+    "VoteInstructionType": {
+      "definition": "Tipos de instrução de voto permitidos para as deliberações a votar em assembleia geral."
+    },
+    "VoteQuantity": {
+      "definition": "Quantidade de votos expressa para o tipo de instrução de voto especificado."
+    }
+  }
+}

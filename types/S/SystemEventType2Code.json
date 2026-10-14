@@ -1,0 +1,94 @@
+{
+  "isoType": "SystemEventType2Code",
+  "definition": "Especifica um tipo de evento relacionado com o funcionamento de um sistema.",
+  "isoCodes": {
+    "LVCO": {
+      "name": "Hora limite LVP",
+      "definition": "O evento é a hora-limite para os pagamentos de baixo valor processados pelo sistema."
+    },
+    "LVCC": {
+      "name": "Hora limite de cancelamento LVP",
+      "definition": "O evento é a hora-limite a partir da qual os pagamentos de baixo valor já não podem ser cancelados."
+    },
+    "LVRT": {
+      "name": "Hora do relatório de hora limite LVP",
+      "definition": "O evento é a hora a que será disponibilizado aos membros o relatório correspondente ao processamento dos pagamentos de baixo valor."
+    },
+    "EUSU": {
+      "name": "Arranque Euro1",
+      "definition": "O evento é a abertura do funcionamento do sistema Euro 1."
+    },
+    "STSU": {
+      "name": "Arranque Step1",
+      "definition": "O evento é o início do funcionamento do Passo 1 do sistema."
+    },
+    "LWSU": {
+      "name": "Arranque do aviso de limite",
+      "definition": "O evento é o início do período de aviso de limite."
+    },
+    "EUCO": {
+      "name": "Hora limite Euro1",
+      "definition": "O evento é a hora-limite do sistema Euro1, ou seja, o prazo para o processamento das operações Euro1."
+    },
+    "FIRE": {
+      "name": "Reporte final",
+      "definition": "O evento é o relatório após a cessação de todas as operações no sistema."
+    },
+    "STDY": {
+      "name": "Início do dia",
+      "definition": "O evento é o início do dia operacional."
+    },
+    "LTNC": {
+      "name": "Hora limite LTN",
+      "definition": "O evento é a hora-limite para a liquidação dos saldos multilaterais de numerário resultantes do ciclo noturno do sistema de liquidação de valores mobiliários."
+    },
+    "CRCO": {
+      "name": "Hora limite de reserva de numerário",
+      "definition": "O evento é a hora-limite da janela de reserva de numerário."
+    },
+    "RECC": {
+      "name": "Hora limite Rec",
+      "definition": "O evento é a hora-limite para a liquidação dos saldos multilaterais resultantes do sistema de compensação de retalho."
+    },
+    "LTGC": {
+      "name": "Hora limite LTG",
+      "definition": "O evento é a hora-limite do ciclo diurno do sistema de liquidação de valores mobiliários."
+    },
+    "LTDC": {
+      "name": "Hora limite LTD",
+      "definition": "O evento corresponde à hora-limite para a liquidação dos saldos multilaterais em numerário resultantes do ciclo diurno do sistema de liquidação de valores mobiliários."
+    },
+    "CUSC": {
+      "name": "Hora limite de clientes",
+      "definition": "O evento corresponde à hora-limite para os pagamentos de clientes."
+    },
+    "IBKC": {
+      "name": "Hora limite interbancária",
+      "definition": "O evento corresponde à hora-limite para os pagamentos interbancários."
+    },
+    "SYSC": {
+      "name": "Hora limite do sistema",
+      "definition": "O evento corresponde à hora-limite do sistema."
+    },
+    "SSSC": {
+      "name": "Hora limite de reserva líquida SSS",
+      "definition": "O evento corresponde à hora-limite da janela de reserva de numerário do sistema de liquidação de valores mobiliários."
+    },
+    "REOP": {
+      "name": "Retoma da operação",
+      "definition": "O evento corresponde à hora prevista de retoma de um componente TARGET."
+    },
+    "PCOT": {
+      "name": "Hora limite de processamento",
+      "definition": "O evento corresponde à hora-limite para o tratamento de pagamentos."
+    },
+    "NPCT": {
+      "name": "Hora limite de novos pagamentos",
+      "definition": "O evento corresponde à hora-limite para a receção de novos pagamentos comerciais."
+    },
+    "ESTF": {
+      "name": "Fim das facilidades permanentes",
+      "definition": "O evento corresponde à hora-limite das facilidades permanentes."
+    }
+  }
+}

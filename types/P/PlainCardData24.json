@@ -1,0 +1,27 @@
+{
+  "isoType": "PlainCardData24",
+  "definition": "Dados sensíveis associados ao cartão de pagamento que efetua a operação.",
+  "isoElements": {
+    "PAN": {
+      "definition": "Número de conta principal (PAN) do cartão."
+    },
+    "CardSequenceNumber": {
+      "definition": "Identifica um cartão ou um token de pagamento num conjunto de cartões com o mesmo PAN."
+    },
+    "EffectiveDate": {
+      "definition": "Data a partir da qual o cartão pode ser utilizado, expressa no formato YYYY-MM ou no formato YYYY-MM-DD."
+    },
+    "ExpiryDate": {
+      "definition": "Data de validade do cartão, expressa no formato YY-MM, YYYY-MM ou YYYY-MM-DD."
+    },
+    "Track1": {
+      "definition": "Pista 1 ISO obtida da banda magnética do cartão ou do ICC, se a banda magnética não tiver sido lida. O formato é conforme com a norma ISO 7813, com remoção dos delimitadores inicial e final e dos caracteres de controlo de redundância longitudinal."
+    },
+    "Track2": {
+      "definition": "Pista 2 ISO obtida da banda magnética do cartão ou do ICC, se a banda magnética não tiver sido lida. O conteúdo é conforme com a norma ISO 7813, com remoção dos delimitadores inicial e final e dos caracteres de controlo de redundância longitudinal."
+    },
+    "Track3": {
+      "definition": "Pista 3 ISO obtida da banda magnética do cartão ou do ICC, se a banda magnética não tiver sido lida. O conteúdo é conforme com a norma ISO 4909, com remoção dos delimitadores inicial e final e dos caracteres de controlo de redundância longitudinal."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "SequenceType2Code",
+  "definition": "Especifica se está abrangida uma operação única ou operações recorrentes.",
+  "isoCodes": {
+    "RCUR": {
+      "name": "Recorrente",
+      "definition": "Instrução de débito direto em que a autorização do devedor é utilizada para operações de débito direto regulares iniciadas pelo credor."
+    },
+    "OOFF": {
+      "name": "Único",
+      "definition": "Instrução de débito direto em que a autorização do devedor é utilizada para iniciar uma única operação de débito direto."
+    }
+  }
+}

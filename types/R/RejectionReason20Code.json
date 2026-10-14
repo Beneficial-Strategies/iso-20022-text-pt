@@ -1,0 +1,26 @@
+{
+  "isoType": "RejectionReason20Code",
+  "definition": "Especifica o motivo da rejeição do pedido de instrução permanente.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validação falhada",
+      "definition": "A validação do aviso/instrução/pedido falhou."
+    },
+    "CASA": {
+      "name": "Conta de numerário não identificada",
+      "definition": "Não é possível identificar a conta de numerário."
+    },
+    "CORR": {
+      "name": "Banco correspondente não identificado",
+      "definition": "Não foi possível identificar o banco correspondente."
+    },
+    "STAN": {
+      "name": "Tipo de instrução permanente inválido",
+      "definition": "Tipo de instrução permanente inválido para o valor mobiliário subjacente especificado."
+    },
+    "NOHO": {
+      "name": "Sem posição",
+      "definition": "Não existe posição no valor mobiliário subjacente especificado."
+    }
+  }
+}

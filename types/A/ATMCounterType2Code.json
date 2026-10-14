@@ -1,0 +1,22 @@
+{
+  "isoType": "ATMCounterType2Code",
+  "definition": "Tipo de contadores das cassetes de ATM.",
+  "isoCodes": {
+    "BDAY": {
+      "name": "Dia útil",
+      "definition": "Contadores desde o início do dia útil."
+    },
+    "INQU": {
+      "name": "Consulta de contadores",
+      "definition": "Contadores desde a última consulta de contadores."
+    },
+    "CTOF": {
+      "name": "Hora limite",
+      "definition": "Contadores desde o último fecho."
+    },
+    "OPER": {
+      "name": "Ajuste do operador",
+      "definition": "Contadores desde a última atualização por um operador no ATM."
+    }
+  }
+}

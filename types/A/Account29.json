@@ -1,0 +1,12 @@
+{
+  "isoType": "Account29",
+  "definition": "Relação comercial entre duas entidades; uma das entidades é o titular da conta e a outra é a entidade gestora da conta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gere a conta por conta do titular da conta, isto é, gere o registo e a contabilização dos lançamentos na conta, calcula os saldos da conta e presta informações sobre a conta."
+    }
+  }
+}

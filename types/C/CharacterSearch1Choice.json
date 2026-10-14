@@ -1,0 +1,18 @@
+{
+  "isoType": "CharacterSearch1Choice",
+  "definition": "Conjunto de carateres que têm de corresponder para ser considerados válidos.",
+  "isoElements": {
+    "Equal": {
+      "definition": "Conjunto exato de carateres que têm de corresponder para ser considerados válidos."
+    },
+    "NotEqual": {
+      "definition": "Conjunto exato de carateres que não podem corresponder para ser considerados válidos."
+    },
+    "Contain": {
+      "definition": "Conjunto de carateres que têm de corresponder para ser considerados válidos."
+    },
+    "NotContain": {
+      "definition": "Conjunto de carateres que não podem corresponder para ser considerados válidos."
+    }
+  }
+}

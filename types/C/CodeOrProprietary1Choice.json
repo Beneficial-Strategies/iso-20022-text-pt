@@ -1,0 +1,12 @@
+{
+  "isoType": "CodeOrProprietary1Choice",
+  "definition": "Escolha de formato entre um código ISO 20022 e um código proprietário.",
+  "isoElements": {
+    "Code": {
+      "definition": "Elemento expresso como um código ISO 20022 de uma lista externa."
+    },
+    "Proprietary": {
+      "definition": "Elemento expresso como um código proprietário."
+    }
+  }
+}

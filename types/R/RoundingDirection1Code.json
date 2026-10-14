@@ -1,0 +1,22 @@
+{
+  "isoType": "RoundingDirection1Code",
+  "definition": "Especifica o sentido do arredondamento.",
+  "isoCodes": {
+    "RDUP": {
+      "name": "Arredondar por excesso",
+      "definition": "Arredondar por excesso para o número inteiro mais próximo."
+    },
+    "RDWN": {
+      "name": "Arredondar por defeito",
+      "definition": "Arredondar por defeito para o número inteiro mais próximo."
+    },
+    "STAN": {
+      "name": "Arredondar ao mais próximo",
+      "definition": "Arredondar por excesso ou por defeito para o número inteiro mais próximo."
+    },
+    "DIST": {
+      "name": "Emitir fração",
+      "definition": "Não arredondar."
+    }
+  }
+}

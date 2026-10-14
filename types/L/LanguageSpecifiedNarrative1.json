@@ -1,0 +1,12 @@
+{
+  "isoType": "LanguageSpecifiedNarrative1",
+  "definition": "Fornece informações narrativas sobre um evento e o idioma em que são especificadas.",
+  "isoElements": {
+    "Language": {
+      "definition": "Idioma utilizado para fornecer informações adicionais, segundo a norma de códigos de idioma ISO 639-1."
+    },
+    "AdditionalInformation": {
+      "definition": "Fornece informações textuais adicionais no idioma especificado."
+    }
+  }
+}

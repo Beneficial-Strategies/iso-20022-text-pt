@@ -1,0 +1,12 @@
+{
+  "isoType": "FormOfSecurity6Choice",
+  "definition": "Escolha do formato da forma dos valores mobiliários.",
+  "isoElements": {
+    "Code": {
+      "definition": "Forma do valor mobiliário expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Forma do valor mobiliário expressa como um código proprietário."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "isoType": "IntraBalancePending6",
+  "definition": "Identifica os detalhes da operação.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pelo titular da conta (ou pela parte instrutora que gere a conta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pela instituição gestora da conta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador."
+    },
+    "PoolIdentification": {
+      "definition": "Referência coletiva que identifica um conjunto de mensagens."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificação atribuída pela instituição gestora da conta para identificar inequivocamente um evento societário."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo de que o montante em dinheiro é movimentado."
+    },
+    "BalanceTo": {
+      "definition": "Saldo para o qual o montante em dinheiro é movimentado."
+    },
+    "SettlementAmount": {
+      "definition": "Montante em dinheiro efetivamente liquidado e que será creditado/debitado na conta de numerário do titular da conta. Pode diferir do montante de liquidação instruído em função do nível de tolerância do mercado."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Data e hora em que se pretende que o montante de dinheiro seja movimentado."
+    },
+    "StatusDate": {
+      "definition": "Data e hora em que o estado foi atribuído."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Número que identifica um lote que constitui o subsaldo."
+    },
+    "Linkages": {
+      "definition": "Ligação a outra operação que tem de ser processada depois, antes ou ao mesmo tempo."
+    },
+    "Priority": {
+      "definition": "Especifica se a operação deve ser executada com prioridade elevada."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originou a mensagem, se diferente do remetente."
+    },
+    "CreationDateTime": {
+      "definition": "Especifica a data/hora em que a operação foi executada."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fornece informações adicionais sobre o tratamento da liquidação que não podem ser incluídas nos campos estruturados da mensagem."
+    },
+    "SupplementaryData": {
+      "definition": "Informação adicional que não pode ser registada nos elementos estruturados nem em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Se não estiver disponível nenhuma referência para AccountOwnerTransactionIdentification, por exemplo, porque a operação foi enviada por fax, então AccountOwnerTransactionIdentification deve ser NONREF."
+    }
+  }
+}

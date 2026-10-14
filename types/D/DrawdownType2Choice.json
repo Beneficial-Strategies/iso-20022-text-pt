@@ -1,0 +1,12 @@
+{
+  "isoType": "DrawdownType2Choice",
+  "definition": "Escolha de formatos para um tipo de levantamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de levantamento expresso como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de levantamento expresso como código proprietário."
+    }
+  }
+}

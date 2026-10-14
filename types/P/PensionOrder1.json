@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionOrder1",
+  "definition": "Ordem associada a uma pensão.",
+  "isoElements": {
+    "Type": {
+      "definition": "Ordem associada à apólice, ao plano ou ao regime de pensões."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a ordem de pensão."
+    }
+  }
+}

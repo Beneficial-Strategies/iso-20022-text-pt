@@ -1,0 +1,27 @@
+{
+  "isoType": "MemberReturnCriteria1",
+  "definition": "Define os critérios utilizados para elaborar relatórios sobre um membro.",
+  "isoElements": {
+    "NameIndicator": {
+      "definition": "Indica se o nome do membro é solicitado."
+    },
+    "MemberReturnAddressIndicator": {
+      "definition": "Indica se o endereço de retorno do membro é solicitado."
+    },
+    "AccountIndicator": {
+      "definition": "Indica se a conta do membro é solicitada."
+    },
+    "TypeIndicator": {
+      "definition": "Indica se o tipo de membro é solicitado."
+    },
+    "StatusIndicator": {
+      "definition": "Indica se o estado do membro é solicitado."
+    },
+    "ContactReferenceIndicator": {
+      "definition": "Indica se as referências de contacto são solicitadas."
+    },
+    "CommunicationAddressIndicator": {
+      "definition": "Indica se os endereços de comunicação são solicitados."
+    }
+  }
+}

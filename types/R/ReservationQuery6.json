@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationQuery6",
+  "definition": "Define os critérios de consulta de reservas.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Especifica o tipo de itens correspondentes a devolver na resposta à consulta."
+    },
+    "ReservationCriteria": {
+      "definition": "Define os critérios de consulta de reservas."
+    }
+  }
+}

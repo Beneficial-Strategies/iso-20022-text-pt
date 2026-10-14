@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionMovement1",
+  "definition": "Fornece informações sobre a instrução de movimento.",
+  "isoElements": {
+    "OrderType": {
+      "definition": "Tipo de instrução de movimento."
+    },
+    "HighPriorityIndicator": {
+      "definition": "Indica se o movimento é ou não de prioridade elevada.|Significado quando verdadeiro: prioridade elevada|Significado quando falso: normal."
+    },
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Data em que o movimento de distribuição tem de ser executado."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identificação da parte titular da conta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação da conta."
+    },
+    "ConfirmedBalanceSecuritiesQuantity": {
+      "definition": "Quantidade de valores mobiliários no saldo confirmado, isto é, o saldo ao qual se aplica o crédito dos recursos resultantes."
+    }
+  }
+}

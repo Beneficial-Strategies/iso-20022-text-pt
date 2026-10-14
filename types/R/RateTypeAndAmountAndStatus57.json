@@ -1,0 +1,15 @@
+{
+  "isoType": "RateTypeAndAmountAndStatus57",
+  "definition": "Especifica o valor expresso como uma taxa e um montante.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Valor expresso como um tipo de taxa."
+    },
+    "Amount": {
+      "definition": "Valor expresso como um montante."
+    },
+    "RateStatus": {
+      "definition": "Valor expresso como um estado da taxa."
+    }
+  }
+}

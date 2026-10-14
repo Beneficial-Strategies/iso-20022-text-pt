@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxRateMarker1Code",
+  "definition": "Especifica a taxa de imposto aplicada.",
+  "isoCodes": {
+    "ALPR": {
+      "name": "Montante cotado menos seguro de vida",
+      "definition": "Especifica o montante indicado deduzido da taxa de imposto sobre o rendimento dos prémios de seguros de vida."
+    },
+    "ALIT": {
+      "name": "Montante cotado menos taxa normal",
+      "definition": "Especifica o montante indicado deduzido da taxa normal de imposto sobre o rendimento."
+    },
+    "GRSS": {
+      "name": "Montante bruto",
+      "definition": "Especifica um montante antes da dedução de imposto."
+    }
+  }
+}

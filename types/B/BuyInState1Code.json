@@ -1,0 +1,18 @@
+{
+  "isoType": "BuyInState1Code",
+  "definition": "Especifica o estado da operação de buy-in.",
+  "isoCodes": {
+    "BSSP": {
+      "name": "Parcialmente bem-sucedido",
+      "definition": "O buy-in foi parcialmente bem-sucedido."
+    },
+    "BSSY": {
+      "name": "Bem-sucedido",
+      "definition": "O buy-in foi bem-sucedido."
+    },
+    "BSSN": {
+      "name": "Sem sucesso",
+      "definition": "O buy-in não foi bem-sucedido."
+    }
+  }
+}

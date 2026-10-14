@@ -1,0 +1,22 @@
+{
+  "isoType": "Algorithm11Code",
+  "definition": "Identificação de um algoritmo de resumo.",
+  "isoCodes": {
+    "HS25": {
+      "name": "SHA256",
+      "definition": "Algoritmo de resumo de mensagem SHA-256, conforme definido nas FIPS 180-1 e 2 - (ASN.1 Object Identifier: id-sha256)."
+    },
+    "HS38": {
+      "name": "SHA384",
+      "definition": "Algoritmo de resumo de mensagem SHA-384, conforme definido nas FIPS 180-1 e 2 - (ASN.1 Object Identifier: id-sha384)."
+    },
+    "HS51": {
+      "name": "SHA512",
+      "definition": "Algoritmo de resumo de mensagem SHA-512, conforme definido nas FIPS 180-1 e 2 - (ASN.1 Object Identifier: id-sha512)."
+    },
+    "HS01": {
+      "name": "SHA1",
+      "definition": "O algoritmo de resumo de mensagem SHA-1, DEPRECATED, conforme definido na FIPS 180-1 - (ASN.1 Object Identifier: id-sha1)."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "SafekeepingAccount7",
+  "definition": "Conta na qual é efetuado um lançamento de valores mobiliários.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gere a conta em nome do titular da conta, ou seja, gere o registo e o lançamento dos movimentos na conta, calcula os saldos da conta e presta informações sobre a conta."
+    },
+    "BeneficialOwner": {
+      "definition": "Pessoa ou entidade que tem, em última instância, direito aos benefícios e direitos de um instrumento financeiro, por oposição a um titular nominal ou legal."
+    },
+    "BalanceDetails": {
+      "definition": "Relatório sobre a posição líquida de um instrumento financeiro na conta, para uma determinada data. Pode também ser especificado o agente, por exemplo, um intermediário da negociação."
+    },
+    "AccountSubLevel1": {
+      "definition": "Posições do nível 1."
+    },
+    "AccountSubLevel1Difference": {
+      "definition": "Diferença de posições entre a conta de custódia e as subcontas de nível 1."
+    }
+  }
+}

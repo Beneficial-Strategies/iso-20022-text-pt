@@ -1,0 +1,42 @@
+{
+  "isoType": "PaymentTransaction171",
+  "definition": "Fornece mais pormenores sobre as operações originais a que se refere a mensagem de relatório de estado.",
+  "isoElements": {
+    "StatusRequestIdentification": {
+      "definition": "Identificação única, atribuída por uma parte instrutora a uma parte instruída, para identificar inequivocamente o pedido de estado.|Utilização: A parte instrutora é a parte que envia a mensagem de pedido e não a parte que enviou a instrução original sobre a qual se presta informação."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Referência ponto a ponto, atribuída pela parte instrutora original, para identificar de forma inequívoca a mensagem original."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificação única, atribuída pela parte instrutora original à parte instruída original, para identificar inequivocamente a instrução original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora original, para identificar inequivocamente a operação original."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identificação única, atribuída pela primeira instituição instrutora original, para identificar inequivocamente a operação."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador universalmente único para fornecer a referência de ponta a ponta original de uma operação de pagamento."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Momento em que a ordem de pagamento da parte iniciadora satisfaz as condições de tratamento da instituição gestora da conta. Isto significa que a instituição gestora da conta recebeu a ordem de pagamento e aplicou verificações como a autorização e a disponibilidade de fundos."
+    },
+    "ClearingSystemReference": {
+      "definition": "Referência única, atribuída por um sistema de compensação, para identificar inequivocamente a instrução."
+    },
+    "InstructingAgent": {
+      "definition": "Instituição que instrui a parte seguinte da cadeia para executar a(s) instrução(ões)."
+    },
+    "InstructedAgent": {
+      "definition": "Instituição instruída pela parte anterior da cadeia para executar a(s) instrução(ões)."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos principais utilizados para identificar a operação original a que se refere."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  }
+}

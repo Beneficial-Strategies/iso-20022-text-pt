@@ -1,0 +1,12 @@
+{
+  "isoType": "QuantityAndAvailability4",
+  "definition": "Posição líquida de uma carteira segregada de um único valor mobiliário no âmbito da posição global detida na conta de valores mobiliários, por exemplo, subsaldo por estado.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantidade de valores mobiliários no subsaldo."
+    },
+    "AvailabilityIndicator": {
+      "definition": "Indica se a quantidade de valores mobiliários no subsaldo está disponível."
+    }
+  }
+}

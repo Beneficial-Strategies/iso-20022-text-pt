@@ -1,0 +1,12 @@
+{
+  "isoType": "RateValueType2FormatChoice",
+  "definition": "Escolha de formatos para exprimir o valor de uma taxa.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o valor de uma taxa."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir o valor de uma taxa."
+    }
+  }
+}

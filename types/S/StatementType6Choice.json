@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementType6Choice",
+  "definition": "Escolha de formato para o tipo de extrato.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de extrato expresso como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de extrato expresso como código proprietário."
+    }
+  }
+}

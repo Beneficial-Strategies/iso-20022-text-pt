@@ -1,0 +1,38 @@
+{
+  "isoType": "ReinvestmentIncomeClassification2Code",
+  "definition": "Especifica o tipo de produto em numerário que o titular pode reinvestir.",
+  "isoCodes": {
+    "CAPG": {
+      "name": "Mais-valias",
+      "definition": "O produto em numerário que está a ser reinvestido é classificado como mais-valias."
+    },
+    "DVCA": {
+      "name": "Dividendo em numerário",
+      "definition": "O produto em numerário que está a ser reinvestido é classificado como dividendo em numerário."
+    },
+    "CDPS": {
+      "name": "Dividendo especial em numerário",
+      "definition": "O produto em numerário que está a ser reinvestido é classificado como dividendo especial em numerário."
+    },
+    "INTR": {
+      "name": "Juros",
+      "definition": "O produto em numerário que está a ser reinvestido é classificado como juros."
+    },
+    "LTCG": {
+      "name": "Mais-valias de longo prazo",
+      "definition": "O produto em numerário que está a ser reinvestido é classificado como mais-valias de longo prazo."
+    },
+    "PRPL": {
+      "name": "Mandante",
+      "definition": "O produto em numerário que está a ser reinvestido é classificado como capital."
+    },
+    "ROCA": {
+      "name": "Restituição de capital",
+      "definition": "O produto em numerário que está a ser reinvestido é classificado como restituição de capital."
+    },
+    "STCG": {
+      "name": "Mais-valias de curto prazo",
+      "definition": "O produto em numerário que está a ser reinvestido é classificado como mais-valias de curto prazo."
+    }
+  }
+}

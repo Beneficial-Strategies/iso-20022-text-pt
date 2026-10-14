@@ -1,0 +1,18 @@
+{
+  "isoType": "ServiceTaxDesignation1Code",
+  "definition": "Define o estado de tributação do serviço.",
+  "isoCodes": {
+    "XMPT": {
+      "name": "Isento",
+      "definition": "Não são devidos impostos."
+    },
+    "ZERO": {
+      "name": "Taxa zero",
+      "definition": "O imposto é devido, mas à taxa de zero por cento e com encargo zero."
+    },
+    "TAXE": {
+      "name": "Tributável",
+      "definition": "São devidos um ou mais impostos sobre este serviço."
+    }
+  }
+}

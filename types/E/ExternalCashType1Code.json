@@ -1,0 +1,42 @@
+{
+  "isoType": "ExternalCashType1Code",
+  "definition": "Especifica o código externo do tipo de numerário, sob a forma de cadeia de caracteres com um máximo de 4 caracteres.|A lista de códigos válidos é uma lista de códigos externa publicada separadamente.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "MUTI": {
+      "name": "Mutilado",
+      "definition": "O numerário está mutilado."
+    },
+    "STAD": {
+      "name": "Manchado",
+      "definition": "O numerário está manchado."
+    },
+    "CONT": {
+      "name": "Contaminado",
+      "definition": "O numerário está contaminado."
+    },
+    "FITC": {
+      "name": "Apto",
+      "definition": "O numerário está apto para circulação."
+    },
+    "COUN": {
+      "name": "Falsificado",
+      "definition": "O numerário é falso."
+    },
+    "SOIL": {
+      "name": "Sujo",
+      "definition": "O numerário está sujo."
+    },
+    "NEWC": {
+      "name": "Novo",
+      "definition": "O numerário é novo."
+    },
+    "OBSO": {
+      "name": "Obsoleto",
+      "definition": "O numerário está obsoleto."
+    },
+    "SURP": {
+      "name": "Excedente",
+      "definition": "O numerário é excedentário."
+    }
+  }
+}

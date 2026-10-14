@@ -1,0 +1,10 @@
+{
+  "isoType": "SettlementDate4Code",
+  "definition": "Especifica a data de liquidação, em forma codificada.",
+  "isoCodes": {
+    "WISS": {
+      "name": "Quando emitido",
+      "definition": "A liquidação deve ser efetuada quando o valor mobiliário for emitido."
+    }
+  }
+}

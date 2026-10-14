@@ -1,0 +1,58 @@
+{
+  "isoType": "OrganisationLegalStatus1Code",
+  "definition": "Especifica o estatuto de uma entidade jurídica.",
+  "isoCodes": {
+    "CIOC": {
+      "name": "Organização de beneficência constituída",
+      "definition": "Organização de caridade constituída em sociedade (CIO)"
+    },
+    "CHAR": {
+      "name": "Organização de caridade",
+      "definition": "Organização de caridade"
+    },
+    "CICC": {
+      "name": "Sociedade de interesse comunitário",
+      "definition": "Sociedade de interesse comunitário (CIC)"
+    },
+    "GENP": {
+      "name": "Sociedade em nome coletivo",
+      "definition": "Sociedade em nome coletivo"
+    },
+    "IAPS": {
+      "name": "Sociedade industrial e de previdência",
+      "definition": "Por exemplo, uma cooperativa, que inclui Ltd. ou organização de caridade."
+    },
+    "LLPP": {
+      "name": "Sociedade de responsabilidade limitada",
+      "definition": "Sociedade de responsabilidade limitada (LLP)"
+    },
+    "PCLG": {
+      "name": "Sociedade privada limitada por garantia",
+      "definition": "Sociedade privada limitada por garantia (Ltd.)"
+    },
+    "LIMP": {
+      "name": "Sociedade em comandita",
+      "definition": "Sociedade em comandita (LP)"
+    },
+    "PCLS": {
+      "name": "Sociedade privada limitada por ações",
+      "definition": "Sociedade privada limitada por ações (Ltd.)"
+    },
+    "PCLC": {
+      "name": "Sociedade anónima",
+      "definition": "Sociedade anónima (Plc.)"
+    },
+    "SOLE": {
+      "name": "Empresa em nome individual",
+      "definition": "Empresário em nome individual"
+    },
+    "UNLC": {
+      "name": "Sociedade de responsabilidade ilimitada",
+      "definition": "Sociedade de responsabilidade ilimitada"
+    },
+    "UNLT": {
+      "name": "Fundo fiduciário de responsabilidade ilimitada",
+      "definition": "Fundo fiduciário de responsabilidade ilimitada"
+    }
+  }
+}

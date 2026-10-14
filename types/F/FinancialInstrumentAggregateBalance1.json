@@ -1,0 +1,15 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance1",
+  "definition": "Posição agregada das posições detidas numa conta de valores mobiliários para um determinado instrumento financeiro.",
+  "isoElements": {
+    "ItemDate": {
+      "definition": "Data da linha de posição no extrato."
+    },
+    "Holdings": {
+      "definition": "Saldos e subsaldos atribuídos à posição."
+    },
+    "Price": {
+      "definition": "Dados sobre o valor, o tipo e a origem do preço."
+    }
+  }
+}

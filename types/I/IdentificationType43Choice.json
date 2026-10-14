@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationType43Choice",
+  "definition": "Escolha entre um código e um esquema de fonte de dados para especificar o tipo de identificação alternativa.",
+  "isoElements": {
+    "Code": {
+      "definition": "O tipo de identificação é definido através de um código."
+    },
+    "Proprietary": {
+      "definition": "O tipo de identificação é definido através de um esquema de fonte de dados."
+    }
+  }
+}

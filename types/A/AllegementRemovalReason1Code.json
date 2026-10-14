@@ -1,0 +1,14 @@
+{
+  "isoType": "AllegementRemovalReason1Code",
+  "definition": "Especifica o motivo da remoção de uma alegação.",
+  "isoCodes": {
+    "CANC": {
+      "name": "Cancelado",
+      "definition": "Alegação removida porque a contraparte cancelou a sua instrução."
+    },
+    "REMO": {
+      "name": "Removido",
+      "definition": "Alegação removida porque foi recebida uma instrução correspondente."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "ReservationCriteria7",
+  "definition": "Define os critérios para extrair as informações da reserva e o relatório de reservas esperado. Pode ser atribuído um nome à nova consulta.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nome da consulta definida pelos critérios de pesquisa e pelos critérios de devolução."
+    },
+    "SearchCriteria": {
+      "definition": "Define os critérios para extrair as informações da reserva."
+    },
+    "ReturnCriteria": {
+      "definition": "Define o relatório de reservas esperado."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Se ReturnCriteria não estiver presente, tem de estar presente pelo menos uma ocorrência de SearchCriteria. Se ReturnCriteria estiver presente, qualquer ocorrência de SearchCriteria é facultativa."
+    }
+  }
+}

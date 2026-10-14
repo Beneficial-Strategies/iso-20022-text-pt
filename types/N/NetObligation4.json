@@ -1,0 +1,59 @@
+{
+  "isoType": "NetObligation4",
+  "definition": "Descreve o montante, o sentido e as partes envolvidas numa obrigação de pagamento entre dois participantes (e o respetivo grupo de compensação por saldos líquidos ou parte negociadora) de um serviço de compensação por saldos líquidos.",
+  "isoElements": {
+    "ObligationIdentification": {
+      "definition": "Identificação única da obrigação."
+    },
+    "PreviousSplitIndicator": {
+      "definition": "Indica se a obrigação líquida resulta de uma obrigação anteriormente dividida.||Utilização: quando ausente, o valor por omissão é false."
+    },
+    "Amount": {
+      "definition": "Montante da obrigação."
+    },
+    "ParticipantNettingIdentification": {
+      "definition": "Descreve a parte ou o grupo de compensação por saldos líquidos (do participante que recebe o relatório) envolvido no cálculo da obrigação."
+    },
+    "ObligationDirection": {
+      "definition": "Especifica o sentido da obrigação."
+    },
+    "CounterpartyNettingIdentification": {
+      "definition": "Descreve a parte ou o grupo de compensação por saldos líquidos (da contraparte na obrigação) envolvido no cálculo da obrigação."
+    },
+    "NetServiceCounterpartyIdentification": {
+      "definition": "Descreve o participante contraparte envolvido na obrigação."
+    },
+    "CounterpartySettlementInstructions": {
+      "definition": "Especifica as instruções de liquidação padrão utilizadas para emitir um pagamento à contraparte, a fim de liquidar a obrigação."
+    },
+    "PaymentClearingCentre": {
+      "definition": "Especifica o local de compensação das operações em moeda offshore.||Utilização: utilizado para designar o centro de compensação das operações em moeda offshore. Não pode ser utilizado para operações liquidadas onshore."
+    },
+    "SettlementMethod": {
+      "definition": "Especifica o método de liquidação da obrigação líquida."
+    },
+    "TransactionsNumber": {
+      "definition": "Número de operações utilizadas para calcular a obrigação. É utilizado na reconciliação entre a obrigação do relatório de compensação por saldos líquidos e as atualizações do estado das operações fornecidas anteriormente."
+    },
+    "SplitIndicator": {
+      "definition": "Indica se a obrigação líquida é dividida em várias obrigações subordinadas.||Utilização: quando ausente, o valor por omissão é false."
+    },
+    "TotalNumberOfSplits": {
+      "definition": "Número de divisões da obrigação líquida."
+    },
+    "SplitObligationData": {
+      "definition": "Detalhes da divisão."
+    }
+  },
+  "isoRules": {
+    "CounterpartySettlementInstructionRule": {
+      "definition": "CounterpartySettlementInstructions não pode estar presente quando o valor do sentido da obrigação é DBIT."
+    },
+    "CounterpartyIdentificationRule": {
+      "definition": "NetServiceCounterpartyIdentification tem de estar presente a este nível em todas as obrigações se uma ou mais contrapartes estiverem envolvidas no cálculo do relatório de compensação por saldos líquidos, ou seja, se NetServiceCounterpartyIdentification não for utilizado ao nível de NetReport."
+    },
+    "SplitIndicatorRule": {
+      "definition": "Se SplitIndicator for true, TotalNumberOfSplits e SplitObligationData têm de estar presentes."
+    }
+  }
+}

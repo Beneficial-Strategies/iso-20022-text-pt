@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingPosition9Choice",
+  "definition": "Escolha do formato da posição de processamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Posição de processamento expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Posição de processamento expressa como um código proprietário."
+    }
+  }
+}

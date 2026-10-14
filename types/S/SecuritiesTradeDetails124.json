@@ -1,0 +1,62 @@
+{
+  "isoType": "SecuritiesTradeDetails124",
+  "definition": "Detalhes da negociação de valores mobiliários.",
+  "isoElements": {
+    "PlaceOfTrade": {
+      "definition": "Mercado em que foi executada uma operação de negociação."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infraestrutura que pode ser uma componente de uma câmara de compensação e que facilita a compensação e a liquidação para os seus membros, interpondo-se entre o comprador e o vendedor. Pode compensar operações em base líquida e substitui-se como contraparte de liquidação para cada posição."
+    },
+    "TradeDate": {
+      "definition": "Especifica a data/hora em que a operação foi executada."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários devem ser entregues ou recebidos."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Data e hora em que uma operação é concluída e compensada, isto é, o pagamento é efetuado e os valores mobiliários são entregues."
+    },
+    "DealPrice": {
+      "definition": "Especifica o preço do instrumento financeiro negociado.|Este é o preço de negócio da operação individual.|Se houver apenas uma operação para a execução da negociação, o preço de negócio pode ser igual ao preço da negociação executada (salvo se, por exemplo, o preço incluir comissões ou arredondamentos, ou se tiver sido aplicado outro fator ao preço de negócio ou ao preço da negociação executada, ou a ambos)."
+    },
+    "Reporting": {
+      "definition": "Especifica que uma operação deve ser comunicada a um terceiro."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de dias em que a taxa de juro é acumulada (título de acumulação diária)."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indica as condições em que a ordem/negociação deve ser/foi executada."
+    },
+    "InvestorCapacity": {
+      "definition": "Especifica o papel do investidor na operação."
+    },
+    "TradeOriginatorRole": {
+      "definition": "Especifica o papel da parte negociadora na operação."
+    },
+    "SettlementInstructionProcessingAdditionalDetails": {
+      "definition": "Fornece informações adicionais de processamento da liquidação que não podem ser incluídas nos campos estruturados da mensagem."
+    },
+    "FXAdditionalDetails": {
+      "definition": "Fornece detalhes adicionais relativos a instruções de câmbio."
+    }
+  },
+  "isoRules": {
+    "InvestorCapacityRule": {
+      "definition": "Se InvestorCapacity for utilizado, então a utilização dos códigos tem de ser acordada bilateralmente."
+    },
+    "PlaceOfTradeRule": {
+      "definition": "Se PlaceOfTrade for utilizado e existir um MIC ISO 10383 para o mercado a identificar, então tem de ser utilizado o Market Identifier Code (MIC) ISO 10383."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "Se Trade Date/Time for utilizado com uma hora ou uma hora + indicador UTC, então deve ser a hora local do local da negociação, por exemplo, da bolsa de valores, ou do corretor vendedor no caso de OTC."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acordo bilateral entre o emitente e o destinatário, se FXAdditionalDetails e/ou SettlementInstructionProcessingAdditionalDetails estiverem presentes, então não podem conter informações que possam ser fornecidas num campo estruturado."
+    },
+    "CurrencyToBuyOrSellRule": {
+      "definition": "CurrencyToBuy e CurrencyToSell no componente de mensagem TradeDetails constituem uma instrução ao prestador de serviços de conta para executar uma operação cambial por conta do titular da conta. A finalidade da operação cambial é financiar a compra de valores mobiliários. Este campo não deve ser utilizado quando tenham sido estabelecidas instruções permanentes. ||Se CurrencyToSell for utilizado, isso implica o seguinte:|- a instrução é uma receção.|- a moeda necessária para financiar uma compra de valores mobiliários, por exemplo, a moeda a comprar, é a moeda do montante de liquidação. A moeda a vender para obter a moeda de liquidação é fornecida pelo elemento de mensagem da moeda a vender. Normalmente, é a moeda de base da carteira. |- o montante de moeda a comprar é igual ao montante de liquidação da operação. Isto implica que a operação cambial não será utilizada para outras operações e que uma operação cambial em bloco tem de ser instruída por outros meios. |- uma operação cambial para financiar a compra de valores mobiliários deve ser executada a tempo de a moeda estar disponível na data de liquidação da operação sobre valores mobiliários. |- foi estabelecido um acordo bilateral relativo à utilização deste campo.||Se CurrencyToBuy for utilizado, isso implica o seguinte:|- a instrução é uma entrega|- a moeda recebida como produto da venda de valores mobiliários, por exemplo, a moeda a vender, é a moeda do montante de liquidação. A moeda a comprar é fornecida pelo elemento de mensagem da moeda a comprar. Se o produto for repatriado, é na moeda de base da carteira. |- o montante de moeda a vender é igual ao montante de liquidação da operação. Isto implica que uma operação cambial em bloco tem de ser instruída por outros meios. |- uma operação cambial para repatriar o produto após a venda de valores mobiliários deve ser executada para a data-valor mais próxima possível após a liquidação dos valores mobiliários, conforme permitido pela convenção de mercado. |- foi estabelecido um acordo bilateral relativo à utilização deste campo."
+    }
+  }
+}

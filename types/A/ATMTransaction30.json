@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMTransaction30",
+  "definition": "Informações sobre a reconciliação.",
+  "isoElements": {
+    "TypeOfOperation": {
+      "definition": "Tipo de operação lógica ou física no ATM para a qual os contadores são calculados."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificação da operação de reconciliação."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identificação do período de reconciliação atribuída pelo ATM."
+    },
+    "Cassette": {
+      "definition": "Informações sobre os cassetes do ATM."
+    }
+  }
+}

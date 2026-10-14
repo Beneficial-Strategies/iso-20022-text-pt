@@ -1,0 +1,12 @@
+{
+  "isoType": "DatePeriod5",
+  "definition": "Intervalo de tempo definido por uma data-valor atual e uma data-valor solicitada.",
+  "isoElements": {
+    "CurrentValueDate": {
+      "definition": "Data-valor atual da operação ou do lançamento subjacente."
+    },
+    "RequestedValueDate": {
+      "definition": "Data-valor solicitada da operação ou do lançamento subjacente."
+    }
+  }
+}

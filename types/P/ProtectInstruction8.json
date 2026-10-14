@@ -1,0 +1,21 @@
+{
+  "isoType": "ProtectInstruction8",
+  "definition": "Fornece informações detalhadas sobre instruções de proteção e de cobertura de proteção.",
+  "isoElements": {
+    "TransactionType": {
+      "definition": "Indica se a instrução é uma instrução de proteção ou de cobertura de proteção."
+    },
+    "ProtectTransactionStatus": {
+      "definition": "Estado da operação de proteção."
+    },
+    "TransactionIdentification": {
+      "definition": "Referência única da operação de proteção atribuída pelo depositário e utilizada para a validação da cobertura de proteção."
+    },
+    "ProtectDate": {
+      "definition": "Data em que a instrução de proteção foi criada e utilizada para a validação da cobertura de proteção."
+    },
+    "UncoveredProtectQuantity": {
+      "definition": "Quantidade restante da instrução de proteção que não foi coberta."
+    }
+  }
+}

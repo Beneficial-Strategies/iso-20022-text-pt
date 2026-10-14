@@ -1,0 +1,34 @@
+{
+  "isoType": "ExternalMandateStatus1Code",
+  "definition": "Especifica o código externo do estado do mandato, sob a forma de uma cadeia de caracteres com um máximo de 4 caracteres.|A lista de códigos válidos é uma lista externa de códigos publicada em separado.|As listas externas de códigos podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Ativo",
+      "definition": "O mandato está ativo."
+    },
+    "CANC": {
+      "name": "Cancelado",
+      "definition": "O mandato está anulado."
+    },
+    "EXPI": {
+      "name": "Expirado",
+      "definition": "O mandato ultrapassou a data de fim."
+    },
+    "SUSP": {
+      "name": "Suspenso",
+      "definition": "O mandato está suspenso."
+    },
+    "RCVD": {
+      "name": "Recebido",
+      "definition": "Os dados do mandato foram recebidos pela instituição relacionada."
+    },
+    "RJCT": {
+      "name": "Rejeitado",
+      "definition": "Os dados do mandato foram rejeitados."
+    },
+    "PATC": {
+      "name": "Parcialmente aceite, tecnicamente correto",
+      "definition": "A iniciação do mandato requer várias autenticações, das quais algumas, mas ainda não todas, foram realizadas. As validações sintáticas e semânticas foram bem-sucedidas."
+    }
+  }
+}

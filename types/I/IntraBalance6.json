@@ -1,0 +1,30 @@
+{
+  "isoType": "IntraBalance6",
+  "definition": "Detalhes do movimento intrassaldo.",
+  "isoElements": {
+    "SettledAmount": {
+      "definition": "Montante em dinheiro efetivamente liquidado e que será creditado/debitado na conta de numerário do titular da conta. Pode diferir do montante de liquidação instruído em função do nível de tolerância do mercado."
+    },
+    "PreviouslySettledAmount": {
+      "definition": "Montante em dinheiro anteriormente liquidado."
+    },
+    "RemainingSettlementAmount": {
+      "definition": "Montante em dinheiro que resta liquidar."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora a que o montante em dinheiro é movimentado."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo de que o montante em dinheiro é movimentado."
+    },
+    "BalanceTo": {
+      "definition": "Saldo para o qual o montante em dinheiro é movimentado."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Número que identifica um lote que constitui o subsaldo."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fornece informações adicionais sobre o tratamento da liquidação que não podem ser incluídas nos campos estruturados da mensagem."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentInstruction13",
+  "definition": "Instrução para pagar um montante em dinheiro a um beneficiário final, por conta de um ordenante. Esta instrução pode ter de ser reencaminhada várias vezes para completar a cadeia de liquidação.|.",
+  "isoElements": {
+    "RequestedExecutionDateTime": {
+      "definition": "Data em que a parte iniciadora solicita que a instrução de pagamento seja processada. |."
+    },
+    "PaymentType": {
+      "definition": "Tipo, ou natureza, do pagamento, por exemplo um pagamento urgente."
+    }
+  }
+}

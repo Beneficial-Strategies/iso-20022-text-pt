@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection59",
+  "definition": "Montante debitado ou creditado nos livros de um prestador de serviços da conta.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante de dinheiro do lançamento de caixa."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se um movimento é a crédito ou a débito."
+    }
+  }
+}

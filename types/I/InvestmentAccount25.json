@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestmentAccount25",
+  "definition": "Conta entre um ou mais investidores e uma sociedade gestora ou um fundo. A conta pode conter participações em qualquer fundo de investimento ou classe de fundo de investimento gerido (ou distribuído) pela sociedade gestora, dentro da mesma família de fundos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "Name": {
+      "definition": "Nome da conta. Constitui um meio adicional de identificação e é designado pela instituição gestora da conta de acordo com o titular da conta."
+    },
+    "Designation": {
+      "definition": "Informações de registo suplementares aplicáveis a um bloco específico de unidades para efeitos de negociação e reporte. As informações de registo suplementares podem ser utilizadas quando todas as unidades estão registadas, por exemplo, em nome de uma plataforma de fundos, mas as posições de cada investidor têm de ser reconciliadas individualmente."
+    },
+    "IntermediaryInformation": {
+      "definition": "Parte que presta serviços relativos a produtos financeiros aos investidores, por exemplo, aconselhamento sobre produtos e colocação de ordens para o fundo de investimento."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gere a conta em nome do titular da conta, ou seja, gere o registo e o lançamento dos movimentos na conta, calcula os saldos da conta e presta informações sobre a conta."
+    }
+  }
+}

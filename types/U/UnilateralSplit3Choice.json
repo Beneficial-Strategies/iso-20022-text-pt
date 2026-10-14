@@ -1,0 +1,12 @@
+{
+  "isoType": "UnilateralSplit3Choice",
+  "definition": "Especifica a alteração solicitada ao processamento de emparelhamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Divisão unilateral expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Divisão unilateral expressa como um código próprio."
+    }
+  }
+}

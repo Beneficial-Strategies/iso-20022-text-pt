@@ -1,0 +1,20 @@
+{
+  "isoType": "TotalNumber2",
+  "definition": "Informações de numeração da operação de liquidação.",
+  "isoElements": {
+    "CurrentInstructionNumber": {
+      "definition": "Número sequencial da instrução num conjunto de instruções de liquidação associadas."
+    },
+    "TotalOfLinkedInstructions": {
+      "definition": "Número total de instruções de liquidação que estão associadas entre si."
+    }
+  },
+  "isoRules": {
+    "CurrentInstructionNumberRule": {
+      "definition": "Se o remetente pretender indicar que esta instrução está associada a uma ou mais instruções de liquidação, o CurrentInstructionNumber deve ser especificado."
+    },
+    "BlockTradeGuideline": {
+      "definition": "Numa instrução de operação em bloco, o número total de operações filhas tem de ser indicado através de TotalOfLinkedInstructions.|O CurrentInstructionNumber da operação mãe tem de ser 000000. As operações filhas têm de ter um CurrentInstructionNumber incremental de 1 a 999999.|Para mais detalhes, consulte o documento de prática de mercado relevante em www.smpg.info."
+    }
+  }
+}

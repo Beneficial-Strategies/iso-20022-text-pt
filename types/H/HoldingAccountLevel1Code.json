@@ -1,0 +1,46 @@
+{
+  "isoType": "HoldingAccountLevel1Code",
+  "definition": "Especifica o nível em que a conta de posições de custódia foi definida.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Conta de guarda",
+      "definition": "A conta de posições é definida como a conta de custódia (Nível 0)."
+    },
+    "LVL1": {
+      "name": "Nível 1",
+      "definition": "A conta de posições é definida como a conta de subnível 1."
+    },
+    "LVL2": {
+      "name": "Nível 2",
+      "definition": "A conta de posições é definida como a conta de subnível 2."
+    },
+    "LVL3": {
+      "name": "Nível 3",
+      "definition": "A conta de posições é definida como a conta de subnível 3."
+    },
+    "LVL4": {
+      "name": "Nível 4",
+      "definition": "A conta de posições é definida como a conta de subnível 4."
+    },
+    "LVL5": {
+      "name": "Nível 5",
+      "definition": "A conta de posições é definida como a conta de subnível 5."
+    },
+    "LVL6": {
+      "name": "Nível 6",
+      "definition": "A conta de posições é definida como a conta de subnível 6."
+    },
+    "LVL7": {
+      "name": "Nível 7",
+      "definition": "A conta de posições é definida como a conta de subnível 7."
+    },
+    "LVL8": {
+      "name": "Nível 8",
+      "definition": "A conta de posições é definida como a conta de subnível 8."
+    },
+    "LVL9": {
+      "name": "Nível 9",
+      "definition": "A conta de posições é definida como a conta de subnível 9."
+    }
+  }
+}

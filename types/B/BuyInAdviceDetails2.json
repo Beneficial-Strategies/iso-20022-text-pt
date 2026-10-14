@@ -1,0 +1,30 @@
+{
+  "isoType": "BuyInAdviceDetails2",
+  "definition": "Detalhes de um buy-in.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referências da operação falhada."
+    },
+    "BuyInState": {
+      "definition": "Estado da operação de buy-in."
+    },
+    "BuyInDeferral": {
+      "definition": "Especifica se a operação de buy-in foi diferida ou não."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificação do instrumento financeiro da instrução de buy-in."
+    },
+    "Quantity": {
+      "definition": "Quantidade de instrumento financeiro abrangida pela operação de buy-in."
+    },
+    "BuyInPrice": {
+      "definition": "Preço do instrumento financeiro negociado na operação de buy-in."
+    },
+    "CashCompensationAmount": {
+      "definition": "Montante que tem de ser pago pela parte negociadora faltosa em caso de operação de buy-in sem êxito ou parcialmente bem-sucedida."
+    },
+    "BuyInSettlementDate": {
+      "definition": "Data de liquidação do buy-in."
+    }
+  }
+}

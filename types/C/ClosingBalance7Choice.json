@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosingBalance7Choice",
+  "definition": "Escolha do saldo de fecho.",
+  "isoElements": {
+    "Final": {
+      "definition": "Soma do saldo de abertura e de todos os lançamentos registados na conta no fim do período do extrato."
+    },
+    "Intermediary": {
+      "definition": "Saldo de fecho apenas desta página. Este saldo tem de ser o saldo de abertura intermédio da página seguinte do mesmo extrato."
+    }
+  }
+}

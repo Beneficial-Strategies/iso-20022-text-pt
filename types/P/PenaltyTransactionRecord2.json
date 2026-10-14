@@ -1,0 +1,48 @@
+{
+  "isoType": "PenaltyTransactionRecord2",
+  "definition": "Especifica detalhes adicionais da operação a que as penalizações se aplicam.",
+  "isoElements": {
+    "SettlementTransactionOrCorporateActionEventType": {
+      "definition": "Escolha do tipo para a operação reportada."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários devem ser entregues ou recebidos."
+    },
+    "CorporateActionRelatedDate": {
+      "definition": "Data relacionada com um evento de operação societária."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica se o movimento numa conta de valores mobiliários resulta de uma instrução de entrega ou de receção."
+    },
+    "Payment": {
+      "definition": "Especifica a forma como a operação deve ser liquidada, por exemplo, contra pagamento."
+    },
+    "CashAccount": {
+      "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de caixa."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte que deve um montante em dinheiro ao credor (final)."
+    },
+    "PostingAmount": {
+      "definition": "Montante em dinheiro a lançar/lançado na conta."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Carimbo de data/hora do momento em que a operação é reconhecida."
+    },
+    "MatchedStatusTimeStamp": {
+      "definition": "Carimbo de data/hora da correspondência da operação."
+    },
+    "SettlementStatusFailing": {
+      "definition": "A instrução está em incumprimento. A liquidação na data de liquidação instruída já não é possível."
+    },
+    "BusinessDayEvent": {
+      "definition": "Evento do sistema relevante para o cálculo da penalização."
+    }
+  }
+}

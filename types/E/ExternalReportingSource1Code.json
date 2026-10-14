@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalReportingSource1Code",
+  "definition": "Especifica a origem do reporte, tal como publicada numa lista de códigos externa de origens de reporte.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "ACCT": {
+      "name": "Contabilização",
+      "definition": "O extrato ou relatório baseia-se em dados contabilísticos."
+    },
+    "ARPF": {
+      "name": "Sistema de reconciliação de contas completo",
+      "definition": "Sistema de reconciliação de contas que proporciona uma reconciliação completa, normalmente relativa a cheques"
+    },
+    "ARPP": {
+      "name": "Sistema de reconciliação de contas parcial",
+      "definition": "Sistema de reconciliação de contas que proporciona uma reconciliação parcial, normalmente relativa a cheques"
+    },
+    "CTDB": {
+      "name": "Sistema de desembolso controlado",
+      "definition": "Uma subaplicação que reporta os totais de apresentação"
+    },
+    "CUST": {
+      "name": "Custódia",
+      "definition": "O extrato ou relatório baseia-se em dados de custódia."
+    },
+    "DEPT": {
+      "name": "Sistema de depósitos",
+      "definition": "Sistema de contabilidade de caixa ou de depósitos"
+    },
+    "DPCS": {
+      "name": "Sistema de concentração de depósitos",
+      "definition": "Sistema de depósitos que reporta o que foi cobrado junto de várias instituições financeiras"
+    },
+    "LKBX": {
+      "name": "Lockbox",
+      "definition": "Sistema de processamento que capta e reporta dados de cheques num ambiente de lockbox."
+    },
+    "RCPT": {
+      "name": "Recebimentos",
+      "definition": "Sistema que reporta informações de remessa consolidadas obtidas de várias fontes, i.e., ACH, transferências telegráficas, lockbox, etc."
+    },
+    "MIBO": {
+      "name": "Back office MI",
+      "definition": "Operação submetida diretamente a partir do PMI (sistema de back-office da Payment Market Infrastructure)."
+    },
+    "PFRE": {
+      "name": "Front end do participante",
+      "definition": "Operações submetidas diretamente a partir de aplicações do participante / PSO (Payment System Operator)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationSource4Choice",
+  "definition": "Escolha entre origens de identificação de um instrumento financeiro.",
+  "isoElements": {
+    "Code": {
+      "definition": "Origem de identificação única e inequívoca, atribuída através de uma lista de códigos predeterminada."
+    },
+    "Proprietary": {
+      "definition": "Origem de identificação única e inequívoca, que utiliza um esquema de identificação proprietário."
+    }
+  }
+}

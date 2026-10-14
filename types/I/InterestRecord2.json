@@ -1,0 +1,27 @@
+{
+  "isoType": "InterestRecord2",
+  "definition": "Fornece informações de juros específicas da operação que se aplicam à operação subjacente.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante de juros incluído no montante do lançamento."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o montante de juros incluído no lançamento é um montante a crédito ou a débito.|Utilização: um montante zero é considerado a crédito."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de juro."
+    },
+    "Rate": {
+      "definition": "Conjunto de elementos utilizados para qualificar a taxa de juro."
+    },
+    "FromToDate": {
+      "definition": "Intervalo de tempo entre uma data de início e uma data de fim para o cálculo dos juros."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo dos juros."
+    },
+    "Tax": {
+      "definition": "Fornece detalhes sobre o imposto aplicado aos encargos."
+    }
+  }
+}

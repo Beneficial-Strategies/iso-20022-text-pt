@@ -1,0 +1,20 @@
+{
+  "isoType": "ChargeOrCommissionDiscount1",
+  "definition": "Informações sobre descontos ou dispensas de encargos e comissões.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Diferença entre o montante da comissão (encargo/comissão) normal e o montante da comissão (encargo/comissão) aplicada.|EXEMPLO:|O encargo normal é EUR 100|O desconto é EUR 30|O encargo aplicado é EUR 70 (EXAMPLE)."
+    },
+    "Rate": {
+      "definition": "Diferença entre a taxa da comissão (encargo/comissão) normal e a taxa aplicada da comissão (encargo/comissão).|EXEMPLO:|A taxa normal é 5%|A taxa de desconto é 3%|A taxa aplicada é 2% (EXAMPLE)."
+    },
+    "Basis": {
+      "definition": "Forma do desconto ou abatimento, por exemplo, numerário."
+    }
+  },
+  "isoRules": {
+    "DiscountElementRule": {
+      "definition": "Amount Or Rate Or Basis tem de estar presente."
+    }
+  }
+}

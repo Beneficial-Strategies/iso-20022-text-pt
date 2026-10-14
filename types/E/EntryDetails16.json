@@ -1,0 +1,12 @@
+{
+  "isoType": "EntryDetails16",
+  "definition": "Identifica a(s) operação(ões) subjacente(s) e/ou os lançamentos em lote.",
+  "isoElements": {
+    "Batch": {
+      "definition": "Fornece pormenores sobre as operações em lote."
+    },
+    "TransactionDetails": {
+      "definition": "Fornece informações sobre a(s) operação(ões) subjacente(s)."
+    }
+  }
+}

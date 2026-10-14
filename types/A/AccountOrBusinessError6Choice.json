@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountOrBusinessError6Choice",
+  "definition": "Escolha entre os pormenores da conta ou um erro funcional quando os dados solicitados não puderam ser obtidos.",
+  "isoElements": {
+    "Account": {
+      "definition": "Informações solicitadas sobre a conta."
+    },
+    "BusinessError": {
+      "definition": "Motivo pelo qual as informações funcionais solicitadas não são fornecidas."
+    }
+  }
+}

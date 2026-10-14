@@ -1,0 +1,27 @@
+{
+  "isoType": "CashEntry2",
+  "definition": "Lançamento de um item numa conta de caixa, no contexto de uma operação de caixa, que resulta num aumento ou diminuição do saldo da conta.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante de dinheiro do lançamento de caixa."
+    },
+    "Date": {
+      "definition": "Data em que um lançamento é registado numa conta nos livros da instituição gestora da conta."
+    },
+    "Status": {
+      "definition": "Estado de um lançamento nos livros da instituição gestora da conta."
+    },
+    "Identification": {
+      "definition": "Identificador único e inequívoco de um lançamento, atribuído pela instituição gestora da conta."
+    },
+    "StatementIdentification": {
+      "definition": "Identificação única, atribuída pela instituição gestora da conta, para identificar de forma inequívoca o extrato de conta."
+    },
+    "AccountServicerReference": {
+      "definition": "Número sequencial do extrato, atribuído pela instituição gestora da conta.|Utilização: o número sequencial é incrementado sucessivamente por cada extrato enviado eletronicamente."
+    },
+    "AdditionalEntryInformation": {
+      "definition": "Detalhes adicionais do lançamento."
+    }
+  }
+}

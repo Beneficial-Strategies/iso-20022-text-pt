@@ -1,0 +1,17 @@
+{
+  "isoType": "UnableToApplyMissing2",
+  "definition": "Especifica os detalhes das informações em falta.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica qual o tipo de dados em falta na operação."
+    },
+    "AdditionalMissingInformation": {
+      "definition": "Detalhes adicionais sobre as informações em falta."
+    }
+  },
+  "isoRules": {
+    "AdditionalMissingInformationRule": {
+      "definition": "Se Code for igual a NARR (Narrative), AdditionalMissingInformation tem de estar presente."
+    }
+  }
+}

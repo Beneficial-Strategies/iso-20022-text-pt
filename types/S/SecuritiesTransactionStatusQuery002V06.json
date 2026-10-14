@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesTransactionStatusQuery002V06",
+  "definition": "Âmbito|Um titular de conta envia um SecuritiesTransactionStatusQuery a um prestador de serviços de conta para solicitar o estado de uma operação sobre valores mobiliários.|A relação titular da conta/prestador de serviços pode ser:|- um custodiante global que tem uma conta junto de um custodiante local, ou|- uma instituição de gestão de investimentos que gere uma conta de fundo aberta junto de um custodiante, ou|- um corretor que tem uma conta junto de um custodiante, ou|- um participante de uma central de depósito de valores mobiliários que tem uma conta junto de uma central de depósito de valores mobiliários, ou|- uma central de depósito de valores mobiliários que tem uma conta junto de um custodiante, de outra central de depósito de valores mobiliários ou de outra infraestrutura de mercado de liquidação, ou|- uma contraparte central ou uma bolsa de valores ou um serviço de correspondência de operações que necessita de dar instruções a uma central de depósito de valores mobiliários ou a outra infraestrutura de mercado de liquidação.||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente,|- fornecer a um terceiro uma cópia de uma mensagem a título informativo,|- reenviar a um terceiro uma cópia de uma mensagem a título informativo, utilizando os elementos relevantes do Business Application Header.",
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    }
+  }
+}

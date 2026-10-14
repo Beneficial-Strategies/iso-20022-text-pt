@@ -1,0 +1,9 @@
+{
+  "isoType": "AccountIdentification4",
+  "definition": "Identificador único de uma conta, atribuído pela instituição que gere a conta.",
+  "isoElements": {
+    "Proprietary": {
+      "definition": "Identificador único de uma conta. É atribuído pela instituição que gere a conta através de um esquema de identificação proprietário."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "RestrictionReference1Code",
+  "definition": "Especifica as referências de restrição a aplicar a uma operação.",
+  "isoCodes": {
+    "ADDC": {
+      "name": "Adicionar referência de restrição de numerário",
+      "definition": "Adição de uma referência de restrição de numerário que representa um subsaldo de numerário a utilizar na instrução de liquidação para o débito ou crédito de numerário."
+    },
+    "ADDS": {
+      "name": "Adicionar referência de restrição de valores mobiliários",
+      "definition": "Adição de uma referência de restrição de valores mobiliários que representa uma subposição de valores mobiliários a utilizar na instrução de liquidação para a entrega ou receção de valores mobiliários."
+    },
+    "REMC": {
+      "name": "Remover referência de restrição de numerário",
+      "definition": "Remoção de uma referência de restrição de numerário, já presente na instrução de liquidação, que representa um subsaldo de numerário a utilizar na instrução de liquidação para o débito ou crédito de numerário."
+    },
+    "REMS": {
+      "name": "Remover referência de restrição de valores mobiliários",
+      "definition": "Remoção de uma referência de restrição de valores mobiliários, já presente na instrução de liquidação, que representa uma subposição de valores mobiliários a utilizar na instrução de liquidação para a entrega ou receção de valores mobiliários."
+    }
+  }
+}

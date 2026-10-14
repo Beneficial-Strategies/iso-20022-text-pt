@@ -1,0 +1,14 @@
+{
+  "isoType": "FlowDirectionType1Code",
+  "definition": "Especifica o sentido de um fluxo de caixa.",
+  "isoCodes": {
+    "INCG": {
+      "name": "Entrada",
+      "definition": "Montante recebido."
+    },
+    "OUTG": {
+      "name": "Saída",
+      "definition": "Montante pago."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Proxy5Choice",
+  "definition": "Escolha da permissão de representante.",
+  "isoElements": {
+    "Proxy": {
+      "definition": "Informações sobre a designação e o registo do representante."
+    },
+    "ProxyNotAllowed": {
+      "definition": "Indica que não é permitido qualquer representante para uma assembleia."
+    }
+  }
+}

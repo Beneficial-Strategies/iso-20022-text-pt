@@ -1,0 +1,14 @@
+{
+  "isoType": "OtherAmountType1Code",
+  "definition": "Tipo de outro montante.",
+  "isoCodes": {
+    "PINT": {
+      "name": "Juros pré-pagos",
+      "definition": "Juros que foram pagos antecipadamente."
+    },
+    "SINT": {
+      "name": "Juros de liquidação",
+      "definition": "Juros sobre os juros."
+    }
+  }
+}

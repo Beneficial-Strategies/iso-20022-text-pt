@@ -1,0 +1,4 @@
+{
+  "isoType": "BuyerProtectionInstructionCancellationRequestV01",
+  "definition": "Âmbito|A mensagem BuyerProtectionInstructionCancellationRequest é enviada por um titular de conta a uma entidade gestora de contas para solicitar o cancelamento de uma instrução de proteção do comprador enviada anteriormente.||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem anteriormente enviada (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy Duplicate), utilizando os elementos pertinentes do cabeçalho aplicacional de negócio (BAH)."
+}

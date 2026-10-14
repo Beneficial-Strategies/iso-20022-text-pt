@@ -1,0 +1,22 @@
+{
+  "isoType": "PriceSource2Code",
+  "definition": "Especifica a origem de uma cotação de preço.",
+  "isoCodes": {
+    "FUND": {
+      "name": "Fundo",
+      "definition": "A fonte da cotação de preço é um fundo, por exemplo, o agente de transferências ou o próprio fundo."
+    },
+    "THEO": {
+      "name": "Teórico",
+      "definition": "A fonte da cotação de preço é um valor teórico baseado no rendimento de mercado."
+    },
+    "VEND": {
+      "name": "Fornecedor",
+      "definition": "A fonte da cotação de preço é um fornecedor externo."
+    },
+    "EXCH": {
+      "name": "Bolsa de valores",
+      "definition": "A origem da cotação de preço é uma bolsa de valores."
+    }
+  }
+}

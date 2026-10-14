@@ -1,0 +1,21 @@
+{
+  "isoType": "PointOfInteractionCapabilities1",
+  "definition": "Capacidades do POI que realiza a operação.",
+  "isoElements": {
+    "CardReadingCapabilities": {
+      "definition": "Capacidades de leitura de cartões do POI que realiza a operação."
+    },
+    "CardholderVerificationCapabilities": {
+      "definition": "Capacidades de verificação do titular do cartão do POI que realiza a operação."
+    },
+    "OnLineCapabilities": {
+      "definition": "Capacidades online e offline do POI."
+    },
+    "DisplayCapabilities": {
+      "definition": "Capacidades dos componentes de visualização que realizam a operação."
+    },
+    "PrintLineWidth": {
+      "definition": "Número de colunas do componente da impressora."
+    }
+  }
+}

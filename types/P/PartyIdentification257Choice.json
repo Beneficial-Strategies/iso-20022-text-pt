@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyIdentification257Choice",
+  "definition": "Escolha de formatos para a identificação de uma parte.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    },
+    "NameAndAddress": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    },
+    "Country": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    },
+    "DigitalLedgerIdentification": {
+      "definition": "Local de liquidação expresso com um Digital Ledger Identifier. Identifica um registo digital ou sistema de registo distribuído (por exemplo, blockchain ou plataformas semelhantes)."
+    }
+  }
+}

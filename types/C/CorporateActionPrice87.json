@@ -1,0 +1,33 @@
+{
+  "isoType": "CorporateActionPrice87",
+  "definition": "Especifica preços relacionados com uma opção de evento societário.",
+  "isoElements": {
+    "CashInLieuOfSharePrice": {
+      "definition": "Pagamento em numerário em vez de ações; normalmente em vez de uma quantidade fracionária."
+    },
+    "OverSubscriptionDepositPrice": {
+      "definition": "Montante em dinheiro exigido por ação objeto de excesso de subscrição, conforme definido pelo emitente."
+    },
+    "MaximumCashToInstruct": {
+      "definition": "Montante máximo em numerário que pode ser instruído."
+    },
+    "MinimumCashToInstruct": {
+      "definition": "Montante mínimo em numerário que pode ser instruído."
+    },
+    "MinimumMultipleCashToInstruct": {
+      "definition": "Múltiplo mínimo de um montante em numerário que pode ser instruído."
+    },
+    "MaximumPrice": {
+      "definition": "Preço máximo ou limite superior a que um titular pode licitar, por exemplo, numa oferta em leilão holandês."
+    },
+    "MinimumPrice": {
+      "definition": "Preço mínimo ou limite inferior a que um titular pode licitar, por exemplo, numa oferta em leilão holandês."
+    },
+    "FirstBidIncrementPrice": {
+      "definition": "Primeiro preço aceitável após o Preço Mínimo a que um titular pode licitar, por exemplo, numa oferta em leilão holandês."
+    },
+    "LastBidIncrementPrice": {
+      "definition": "Último preço aceitável antes do Preço Máximo a que um titular pode licitar, por exemplo, numa oferta em leilão holandês."
+    }
+  }
+}

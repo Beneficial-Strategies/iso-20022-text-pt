@@ -1,0 +1,18 @@
+{
+  "isoType": "BeneficiaryType1Code",
+  "definition": "Especifica um tipo de beneficiário.",
+  "isoCodes": {
+    "DEPE": {
+      "name": "Dependente",
+      "definition": "O beneficiário é um dependente."
+    },
+    "NOMI": {
+      "name": "Mandatário",
+      "definition": "O beneficiário é um designado."
+    },
+    "SUCC": {
+      "name": "Sucessor",
+      "definition": "O beneficiário é um sucessor."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "DisplayCapabilities5",
+  "definition": "Capacidades dos componentes de visualização que efetuam a operação.",
+  "isoElements": {
+    "Destination": {
+      "definition": "Destino da mensagem a apresentar."
+    },
+    "AvailableFormat": {
+      "definition": "Formato de mensagem disponível."
+    },
+    "NumberOfLines": {
+      "definition": "Número de linhas do ecrã."
+    },
+    "LineWidth": {
+      "definition": "Número de colunas do ecrã ou da impressora."
+    },
+    "AvailableLanguage": {
+      "definition": "Idioma disponível para a mensagem. Referência ISO 639-1 (alpha-2) e ISO 639-2 (alpha-3)."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "ModificationProcessingStatus1Code",
+  "definition": "Especifica o estado de um pedido de cancelamento.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Aceite",
+      "definition": "O pedido de modificação foi reconhecido pela instituição gestora da conta para processamento adicional."
+    },
+    "REJT": {
+      "name": "Rejeitado",
+      "definition": "A modificação foi rejeitada para processamento adicional."
+    },
+    "MODC": {
+      "name": "Concluído",
+      "definition": "A modificação foi concluída."
+    },
+    "DEND": {
+      "name": "Recusado",
+      "definition": "A modificação não será executada."
+    },
+    "MODP": {
+      "name": "Pendente",
+      "definition": "A modificação está pendente. Não se sabe neste momento se a modificação pode ser executada."
+    },
+    "REPR": {
+      "name": "Em reparação",
+      "definition": "O pedido de modificação está em reparação."
+    }
+  }
+}

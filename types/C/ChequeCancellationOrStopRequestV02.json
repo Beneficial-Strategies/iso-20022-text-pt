@@ -1,0 +1,4 @@
+{
+  "isoType": "ChequeCancellationOrStopRequestV02",
+  "definition": "A mensagem ChequeCancellationOrStopRequest é enviada por um banco sacador, ou por um banco que age em nome do banco sacador, à instituição sobre a qual um cheque foi sacado (o banco sacado), para solicitar o cancelamento da apresentação e/ou a suspensão do pagamento do cheque a que a mensagem se refere."
+}

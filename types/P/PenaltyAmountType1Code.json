@@ -1,0 +1,14 @@
+{
+  "isoType": "PenaltyAmountType1Code",
+  "definition": "Especifica o tipo do montante da penalização.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Numerário",
+      "definition": "A penalização baseia-se no montante de numerário cuja entrega falhou e a taxa de penalização é a taxa de desconto da moeda em causa."
+    },
+    "SECU": {
+      "name": "Valores mobiliários",
+      "definition": "A penalização baseia-se na quantidade de valores mobiliários cuja entrega falhou e na taxa de penalização dos valores mobiliários."
+    }
+  }
+}

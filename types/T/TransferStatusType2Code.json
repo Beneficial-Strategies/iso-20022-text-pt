@@ -1,0 +1,50 @@
+{
+  "isoType": "TransferStatusType2Code",
+  "definition": "Especifica um tipo de estado de transferência ou de evento de transferência.",
+  "isoCodes": {
+    "S019": {
+      "name": "Pedido de informações sobre posições da conta",
+      "definition": "O relatório de estado é enviado em resposta a um pedido de informações sobre a posição em conta."
+    },
+    "BCEV": {
+      "name": "Evento de cristalização de benefícios",
+      "definition": "O relatório de estado informa que ocorreram um ou mais eventos de cristalização de benefícios (BCE)."
+    },
+    "SETT": {
+      "name": "Informações de liquidação do CSD ou ICSD",
+      "definition": "O relatório de estado é enviado para fornecer as informações necessárias para uma componente de liquidação de uma CSD ou ICSD."
+    },
+    "DRAW": {
+      "name": "Levantamento",
+      "definition": "O relatório de estado informa sobre um ou mais levantamentos."
+    },
+    "PAYA": {
+      "name": "Aviso de pagamento",
+      "definition": "O relatório de estado informa que o numerário é ou foi objeto de instrução."
+    },
+    "S012": {
+      "name": "Instrução de transferência de carteira",
+      "definition": "O relatório de estado é enviado em resposta a uma instrução de transferência de carteira."
+    },
+    "INFO": {
+      "name": "Informação",
+      "definition": "O relatório de estado é enviado para fornecer informações pertinentes sobre a transferência. Pode ser enviado em resposta a um pedido de estado da transferência."
+    },
+    "STAT": {
+      "name": "Estado",
+      "definition": "O relatório de estado é enviado para comunicar o estado de uma transferência. Pode ser enviado em resposta a um pedido de estado da transferência."
+    },
+    "S005": {
+      "name": "Instrução de transferência de entrada",
+      "definition": "O relatório de estado é enviado em resposta a uma instrução de transferência de entrada."
+    },
+    "S001": {
+      "name": "Instrução de transferência de saída",
+      "definition": "O relatório de estado é enviado em resposta a uma instrução de transferência de saída."
+    },
+    "CONV": {
+      "name": "Estado da conversão",
+      "definition": "O relatório de estado é enviado para comunicar o número de unidades após uma conversão."
+    }
+  }
+}

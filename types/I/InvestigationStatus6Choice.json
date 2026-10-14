@@ -1,0 +1,18 @@
+{
+  "isoType": "InvestigationStatus6Choice",
+  "definition": "Especifica o estado de um processo de investigação.",
+  "isoElements": {
+    "Confirmation": {
+      "definition": "Especifica o estado da investigação, em formato codificado."
+    },
+    "RejectedModification": {
+      "definition": "Motivo da rejeição de um pedido de modificação, em formato codificado."
+    },
+    "DuplicateOf": {
+      "definition": "Indica um processo duplicado.|Utilização: quando presente, o processo identificado na mensagem tem de ser encerrado. O processo identificado como duplicado (neste componente) será prosseguido."
+    },
+    "AssignmentCancellationConfirmation": {
+      "definition": "Indica se o cancelamento da atribuição é confirmado ou rejeitado.|Utilização: se sim, o cancelamento da atribuição é confirmado.|Se não, o cancelamento da atribuição é rejeitado e o processo de investigação prossegue."
+    }
+  }
+}

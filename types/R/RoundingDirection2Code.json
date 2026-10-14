@@ -1,0 +1,14 @@
+{
+  "isoType": "RoundingDirection2Code",
+  "definition": "Especifica o sentido de arredondamento aplicado à unidade mais próxima.",
+  "isoCodes": {
+    "RDUP": {
+      "name": "Arredondar por excesso",
+      "definition": "Arredondar por excesso para o número inteiro mais próximo."
+    },
+    "RDWN": {
+      "name": "Arredondar por defeito",
+      "definition": "Arredondar por defeito para o número inteiro mais próximo."
+    }
+  }
+}

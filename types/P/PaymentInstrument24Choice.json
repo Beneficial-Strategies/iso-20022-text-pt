@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentInstrument24Choice",
+  "definition": "Escolha de instrumentos de pagamento.",
+  "isoElements": {
+    "PaymentCardDetails": {
+      "definition": "Instruções de liquidação para um pagamento por cartão."
+    },
+    "DirectDebitDetails": {
+      "definition": "Instruções de liquidação para um pagamento por débito direto."
+    },
+    "Cheque": {
+      "definition": "Indica se o pagamento é efetuado por cheque."
+    },
+    "BankersDraft": {
+      "definition": "Indica se o pagamento é efetuado por saque."
+    }
+  }
+}

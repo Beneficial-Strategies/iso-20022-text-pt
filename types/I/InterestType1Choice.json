@@ -1,0 +1,12 @@
+{
+  "isoType": "InterestType1Choice",
+  "definition": "O tipo de juro é expresso por um código ou por um texto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o tipo de juro."
+    },
+    "Proprietary": {
+      "definition": "Especifica o tipo de juro sob forma não codificada."
+    }
+  }
+}

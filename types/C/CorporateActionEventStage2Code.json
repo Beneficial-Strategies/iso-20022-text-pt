@@ -1,0 +1,34 @@
+{
+  "isoType": "CorporateActionEventStage2Code",
+  "definition": "Especifica a fase do evento de operação sobre títulos.",
+  "isoCodes": {
+    "PWAL": {
+      "name": "Período de ação",
+      "definition": "Aberto à aceitação até ao próximo prazo especificado no anúncio (se existir)."
+    },
+    "SUAP": {
+      "name": "Sujeito a aprovação",
+      "definition": "Sujeito a aprovação na assembleia pertinente, por exemplo, dividendo."
+    },
+    "APPD": {
+      "name": "Aprovado",
+      "definition": "Aprovado na assembleia pertinente, por exemplo, dividendo."
+    },
+    "UNAC": {
+      "name": "Incondicional quanto à aceitação",
+      "definition": "O nível de aceitações exigido nas condições da oferta foi atingido, mas ainda há condições pendentes por cumprir."
+    },
+    "WHOU": {
+      "name": "Totalmente incondicional",
+      "definition": "Totalmente incondicional; todas as condições especificadas no documento da oferta foram satisfeitas."
+    },
+    "CLDE": {
+      "name": "Desativado",
+      "definition": "A oferta está encerrada à aceitação."
+    },
+    "LAPS": {
+      "name": "Caducado",
+      "definition": "As condições do evento/oferta não foram cumpridas e o evento/oferta foi terminado ou caducou."
+    }
+  }
+}

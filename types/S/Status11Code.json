@@ -1,0 +1,42 @@
+{
+  "isoType": "Status11Code",
+  "definition": "Especifica o estado de uma instrução.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Aceite",
+      "definition": "A instrução foi aceite e validada para tratamento posterior."
+    },
+    "ATTC": {
+      "name": "Presença confirmada",
+      "definition": "A presença na assembleia está confirmada."
+    },
+    "CAND": {
+      "name": "Cancelado",
+      "definition": "A instrução foi cancelada."
+    },
+    "CSUB": {
+      "name": "Cancelado pelo subcustodiante",
+      "definition": "A instrução foi cancelada pelo agente, por exemplo, devido a uma prorrogação do prazo do evento."
+    },
+    "FRWD": {
+      "name": "Reencaminhado",
+      "definition": "Aceite e enviada ao longo da cadeia."
+    },
+    "RCIS": {
+      "name": "Recebido pelo emitente ou pelo registador",
+      "definition": "A instrução foi recebida pelo emitente, equivalente à confirmação de receção de votos expressos por via eletrónica."
+    },
+    "REGM": {
+      "name": "Registado para participar na assembleia",
+      "definition": "O titular de direitos foi registado para participar na assembleia."
+    },
+    "STIN": {
+      "name": "Instrução permanente",
+      "definition": "É aplicada a instrução permanente."
+    },
+    "DREG": {
+      "name": "Cancelamento do registo concluído",
+      "definition": "O titular de direitos foi retirado da lista de participantes na assembleia."
+    }
+  }
+}

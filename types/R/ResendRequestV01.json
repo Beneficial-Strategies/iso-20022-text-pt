@@ -1,0 +1,4 @@
+{
+  "isoType": "ResendRequestV01",
+  "definition": "Um membro do sistema, ou qualquer parte por ele autorizada, envia uma mensagem ResendRequest ao sistema central (como a plataforma T2S). O objetivo deste pedido é que a parte requerente pretende receber novamente a mensagem «original». Isto pode dever-se a problemas técnicos do lado da receção (a mensagem não pôde ser recebida ou processada, ou falta na sequência de mensagens) ou a fins de arquivo."
+}

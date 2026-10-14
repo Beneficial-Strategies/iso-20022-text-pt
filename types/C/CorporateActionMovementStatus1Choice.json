@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionMovementStatus1Choice",
+  "definition": "Escolha entre os diferentes estados de um movimento.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Fornece informações sobre o estado de tratamento do movimento."
+    },
+    "FailedStatus": {
+      "definition": "Fornece informações sobre a falha de liquidação."
+    },
+    "RejectedStatus": {
+      "definition": "Fornece informações sobre o estado de rejeição."
+    }
+  }
+}

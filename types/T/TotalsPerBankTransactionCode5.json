@@ -1,0 +1,33 @@
+{
+  "isoType": "TotalsPerBankTransactionCode5",
+  "definition": "Conjunto de elementos utilizados para fornecer a soma total dos lançamentos por código de operação bancária.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Número de lançamentos individuais para o código de operação bancária."
+    },
+    "Sum": {
+      "definition": "Total de todos os lançamentos individuais incluídos no relatório."
+    },
+    "TotalNetEntry": {
+      "definition": "Montante total a débito ou a crédito resultante da compensação dos montantes de todos os lançamentos a débito e a crédito por código de operação bancária."
+    },
+    "CreditEntries": {
+      "definition": "Número de lançamentos individuais a crédito para o código de operação bancária."
+    },
+    "DebitEntries": {
+      "definition": "Número de lançamentos individuais a débito para o código de operação bancária."
+    },
+    "ForecastIndicator": {
+      "definition": "Indica se o código de operação bancária está relacionado com itens contabilizados ou previstos."
+    },
+    "BankTransactionCode": {
+      "definition": "Conjunto de elementos utilizados para identificar integralmente o tipo de operação subjacente que dá origem a um lançamento."
+    },
+    "Availability": {
+      "definition": "Conjunto de elementos utilizados para indicar quando o montante lançado ficará disponível, ou seja, quando poderá ser acedido e começará a vencer juros."
+    },
+    "Date": {
+      "definition": "Indica a data (e hora) do resumo das operações."
+    }
+  }
+}

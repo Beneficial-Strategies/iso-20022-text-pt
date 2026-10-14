@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestType4Choice",
+  "definition": "Define o tipo de ação a executar no pedido.",
+  "isoElements": {
+    "PaymentControl": {
+      "definition": "O tipo de pedido é um comando de controlo sobre um conjunto de operações."
+    },
+    "Enquiry": {
+      "definition": "O tipo de pedido é uma consulta sobre uma posição ou uma operação."
+    },
+    "Proprietary": {
+      "definition": "O tipo de pedido está em formato proprietário."
+    }
+  }
+}

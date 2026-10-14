@@ -1,0 +1,20 @@
+{
+  "isoType": "CorporateActionNotification11",
+  "definition": "Estado e conteúdo da notificação do evento de operação sobre valores mobiliários.",
+  "isoElements": {
+    "NotificationIdentification": {
+      "definition": "Identificação única do grupo de mensagens de notificação de operações sobre valores mobiliários quando a notificação é dividida em várias mensagens (paginadas)."
+    },
+    "NotificationType": {
+      "definition": "Especifica o tipo de notificação."
+    },
+    "ProcessingStatus": {
+      "definition": "Especifica o estado dos detalhes do evento da operação de sociedade."
+    }
+  },
+  "isoRules": {
+    "NotificationTypeGuideline": {
+      "definition": "O NotificationType REPL é utilizado para substituir uma mensagem CorporateActionNotification enviada anteriormente que foi comunicada com EventCompletenessStatus incompleto ou completo."
+    }
+  }
+}

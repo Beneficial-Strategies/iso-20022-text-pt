@@ -1,0 +1,30 @@
+{
+  "isoType": "MoneyLaunderingCheck1Code",
+  "definition": "Especifica o estado dos procedimentos de identificação em matéria de branqueamento de capitais.",
+  "isoCodes": {
+    "PASS": {
+      "name": "Aprovado",
+      "definition": "Os procedimentos de identificação em matéria de branqueamento de capitais foram realizados pelo intermediário."
+    },
+    "NOTC": {
+      "name": "Não verificado",
+      "definition": "Os procedimentos de identificação em matéria de branqueamento de capitais não foram realizados."
+    },
+    "EXEM": {
+      "name": "Isento abaixo do limite",
+      "definition": "Os procedimentos de identificação em matéria de branqueamento de capitais não foram realizados porque a operação se encontra abaixo do limite prescrito."
+    },
+    "CLMO": {
+      "name": "Isento por tipo de dinheiro de cliente",
+      "definition": "Os procedimentos de identificação em matéria de branqueamento de capitais não foram realizados devido ao tipo de operação, por exemplo, transferência entre fundos (switch), ou porque a operação está a ser financiada a partir de uma conta de investidor existente detida pelo intermediário."
+    },
+    "AUTH": {
+      "name": "Crédito autorizado",
+      "definition": "Os procedimentos de identificação em matéria de branqueamento de capitais não foram realizados porque o investidor é uma instituição de crédito ou financeira autorizada."
+    },
+    "POEP": {
+      "name": "Pagamento postal ou eletrónico isento",
+      "definition": "Foram realizados procedimentos limitados de identificação em matéria de branqueamento de capitais por se tratar de uma operação pontual e o pagamento ser efetuado por transferência postal, telefónica ou eletrónica a partir de uma conta existente junto de uma instituição de crédito ou financeira autorizada."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "SpecificInstructionRequest4",
+  "definition": "Método de participação na votação numa assembleia geral.",
+  "isoElements": {
+    "ParticipationMethod": {
+      "definition": "Método de participação na votação da assembleia geral."
+    },
+    "SecuritiesRegistration": {
+      "definition": "Indica um pedido de registo dos valores mobiliários para a assembleia."
+    }
+  }
+}

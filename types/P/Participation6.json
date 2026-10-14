@@ -1,0 +1,18 @@
+{
+  "isoType": "Participation6",
+  "definition": "Fornece informações sobre o nível de participação numa assembleia de acionistas.",
+  "isoElements": {
+    "TotalNumberOfVotingRights": {
+      "definition": "Número de direitos admitidos à votação."
+    },
+    "PercentageOfVotingRights": {
+      "definition": "Percentagem dos direitos que participam na votação em relação ao total dos direitos de voto."
+    },
+    "TotalNumberOfSecuritiesOutstanding": {
+      "definition": "Número de valores mobiliários admitidos à votação, expresso em número de unidades ou em montante nominal."
+    },
+    "CalculationDate": {
+      "definition": "Data do cálculo do número total de valores mobiliários em circulação."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentIdentification8",
+  "definition": "Conjunto de elementos utilizados para fornecer meios adicionais de referenciar uma operação de pagamento.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identificação única atribuída por uma parte instrutora a uma parte instruída para identificar inequivocamente a instrução.||Utilização: A identificação da instrução é uma referência ponto a ponto que pode ser utilizada entre a parte instrutora e a parte instruída para se referirem à instrução individual. Pode ser incluída em várias mensagens relacionadas com a instrução."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identificação única atribuída pela parte iniciadora para identificar inequivocamente a operação. Esta identificação é transmitida, sem alterações, ao longo de toda a cadeia de ponta a ponta.||Utilização: A identificação de ponta a ponta pode ser utilizada para reconciliação ou para ligar tarefas relacionadas com a operação. Pode ser incluída em várias mensagens relacionadas com a operação."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificação única, atribuída pela primeira instituição instrutora, para identificar inequivocamente a operação, que é transmitida, sem alterações, ao longo de toda a cadeia interbancária. |Utilização: A identificação da operação pode ser utilizada para reconciliação, seguimento ou para ligar tarefas relacionadas com a operação ao nível interbancário. |Utilização: A instituição instrutora tem de garantir que a identificação da operação é única durante um período previamente acordado."
+    },
+    "UETR": {
+      "definition": "Identificador universalmente único para fornecer uma referência de ponta a ponta de uma operação de pagamento."
+    }
+  }
+}

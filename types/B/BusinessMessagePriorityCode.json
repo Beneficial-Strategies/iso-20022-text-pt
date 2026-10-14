@@ -1,0 +1,4 @@
+{
+  "isoType": "BusinessMessagePriorityCode",
+  "definition": "Especifica os níveis de prioridade da BusinessMessage.|As diferentes prioridades dependem normalmente do utilizador, do serviço ou da implementação. A semântica dos diferentes valores de uma mensagem (ou conjunto de mensagens) tem de ser definida pela comunidade de utilizadores relevante (SEG)."
+}

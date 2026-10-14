@@ -1,0 +1,83 @@
+{
+  "isoType": "PaymentTransaction182",
+  "definition": "Fornece detalhes adicionais sobre a referência e o estado das operações originais, incluídas na instrução original, a que se aplica a mensagem de reversão.",
+  "isoElements": {
+    "ReversalIdentification": {
+      "definition": "Identificação única, atribuída por uma parte instrutora a uma parte instruída, para identificar inequivocamente a operação revertida.|Utilização: A parte instrutora é a parte que envia a mensagem de reversão e não a parte que enviou a instrução original que está a ser revertida."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Fornece informações sobre a mensagem original."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificação única, atribuída pela parte instrutora original à parte instruída original, para identificar inequivocamente a instrução original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora original, para identificar inequivocamente a operação original."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identificação única, atribuída pela primeira instituição instrutora original, para identificar inequivocamente a operação."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador universalmente único para fornecer a referência de ponta a ponta original de uma operação de pagamento."
+    },
+    "OriginalClearingSystemReference": {
+      "definition": "Referência única, atribuída pelo sistema de compensação original, para identificar inequivocamente a instrução original."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Montante movimentado entre o agente instrutor e o agente instruído, tal como indicado na instrução original."
+    },
+    "ReversedInterbankSettlementAmount": {
+      "definition": "Montante a movimentar entre o agente instrutor e o agente instruído na instrução revertida."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Data em que o montante deixa de estar disponível para o agente que o deve e em que passa a estar disponível para o agente a quem é devido.||Utilização: InterbankSettlementDate é a data de liquidação interbancária da mensagem de reversão e não da instrução original."
+    },
+    "SettlementPriority": {
+      "definition": "Indicador da urgência ou da ordem de importância que a parte instrutora pretende que a parte instruída aplique ao tratamento da instrução de liquidação.|||Utilização: SettlementPriority é a prioridade de liquidação da mensagem de reversão e não da instrução original."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Fornece informações sobre o momento de liquidação ocorrido da operação de pagamento."
+    },
+    "ReversedInstructedAmount": {
+      "definition": "Montante a movimentar entre o devedor e o credor, antes da dedução de encargos, na operação revertida.|Utilização: Este montante tem de ser transportado sem alterações ao longo da cadeia da operação."
+    },
+    "ExchangeRate": {
+      "definition": "Fator utilizado para converter um montante de uma moeda para outra. Reflete o preço a que uma moeda foi comprada com outra moeda."
+    },
+    "CompensationAmount": {
+      "definition": "Montante cobrado ou pago como compensação pelo tratamento da instrução."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica se o credor e/ou o devedor suportarão os encargos associados ao tratamento da operação de pagamento.||Utilização: ChargeBearer aplica-se à mensagem de reversão e não à instrução original."
+    },
+    "ChargesInformation": {
+      "definition": "Fornece informações sobre os encargos a pagar pelo(s) responsável(is) pelos encargos relativos ao tratamento da operação de reversão."
+    },
+    "InstructingAgent": {
+      "definition": "Agente que instrui a parte seguinte na cadeia para executar a(s) instrução(ões).||Utilização: O agente instrutor é a parte que envia a mensagem de reversão e não a parte que enviou a instrução original que está a ser revertida."
+    },
+    "InstructedAgent": {
+      "definition": "Agente instruído pela parte anterior na cadeia para executar a(s) instrução(ões).||Utilização: O agente instruído é a parte que recebe a mensagem de reversão e não a parte que recebeu a instrução original que está a ser revertida."
+    },
+    "ReversalReasonInformation": {
+      "definition": "Fornece informações detalhadas sobre o motivo da reversão."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos principais utilizados para identificar a operação original a que se refere."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "ReversedInstructedAmountAndExchangeRate1Rule": {
+      "definition": "Se ReversedInstructedAmount estiver presente e a moeda for diferente da moeda de InterbankSettlementAmount, ExchangeRate tem de estar presente."
+    },
+    "ReversedInstructedAmountAndExchangeRate2Rule": {
+      "definition": "Se ReversedInstructedAmount estiver presente e a moeda for a mesma de InterbankSettlementAmount, ExchangeRate não é permitido."
+    },
+    "ChargesInformationAndReversedInstructedAmountRule": {
+      "definition": "Se ChargesInformation estiver presente, ReversedInstructedAmount tem de estar presente."
+    }
+  }
+}

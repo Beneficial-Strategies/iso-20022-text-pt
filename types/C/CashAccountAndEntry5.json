@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAccountAndEntry5",
+  "definition": "Lançamento de um item numa conta de caixa, no contexto de uma operação de caixa, que resulta num aumento ou diminuição do saldo da conta.",
+  "isoElements": {
+    "Account": {
+      "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de numerário."
+    },
+    "Entry": {
+      "definition": "Lançamento de um item numa conta de caixa, no contexto de uma operação de caixa, que resulta num aumento ou diminuição do saldo da conta."
+    }
+  }
+}

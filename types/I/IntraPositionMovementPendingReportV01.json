@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraPositionMovementPendingReportV01",
+  "definition": "Esta mensagem IntraPositionMovementPendingReport é enviada por uma infraestrutura de liquidação a um titular de conta/requerente para comunicar as instruções de movimento intraposição, anteriormente enviadas pelo titular da conta, que se encontram em estado pendente.||A mensagem também pode ser utilizada para: |- reenviar uma mensagem enviada pelo titular da conta ao prestador de serviços de conta (a subfunção da mensagem é \"Duplicate\") |- fornecer a um terceiro uma cópia de uma mensagem enviada pelo titular da conta, a título informativo (a subfunção da mensagem é \"Copy\") |- reenviar a um terceiro uma cópia de uma mensagem enviada pelo titular da conta, a título informativo (a subfunção da mensagem é \"Copy Duplicate\").",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Se ReportGeneralDetails/ActivityIndicator for igual a Yes (true ou 1), Movements tem de estar presente."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Se ReportGeneralDetails/ActivityIndicator for igual a No (false ou 0), Movements tem de estar ausente."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "isoType": "BillingStatement5",
+  "definition": "Detalhes do extrato que reporta a faturação dos serviços bancários.",
+  "isoElements": {
+    "StatementIdentification": {
+      "definition": "Identificação do extrato de faturação do cliente."
+    },
+    "FromToDate": {
+      "definition": "Intervalo de datas entre a data de início e a data de fim para o qual o extrato é emitido."
+    },
+    "CreationDateTime": {
+      "definition": "Data em que a mensagem do extrato foi criada."
+    },
+    "Status": {
+      "definition": "Define o estado do extrato."
+    },
+    "AccountCharacteristics": {
+      "definition": "Especifica os detalhes das características da conta."
+    },
+    "RateData": {
+      "definition": "Identifica as taxas anuais não fiscais e os valores de fator utilizados no extrato, juntamente com qualquer base de encargos dependente do tempo."
+    },
+    "CurrencyExchange": {
+      "definition": "Especifica detalhes relativos aos dados de câmbio."
+    },
+    "Balance": {
+      "definition": "Identifica o valor médio dos saldos mantidos durante o período do extrato."
+    },
+    "Compensation": {
+      "definition": "Identifica o conjunto de valores e totais utilizados para fornecer informações de compensação e totais de serviços e de impostos."
+    },
+    "Service": {
+      "definition": "Especifica os valores utilizados para cada serviço linha a linha no extrato."
+    },
+    "TaxRegion": {
+      "definition": "Região fiscal que aplica um imposto aos serviços constantes deste extrato."
+    },
+    "BalanceAdjustment": {
+      "definition": "Uma ou mais secções que identificam ajustes de saldo ou de float na conta. Podem refletir ajustes ao extrato atual ou ajustes a extratos de períodos de reporte anteriores."
+    },
+    "ServiceAdjustment": {
+      "definition": "Uma ou mais secções que identificam ajustes de serviços por linha na conta. Refletem ajustes a extratos de períodos de reporte anteriores."
+    }
+  }
+}

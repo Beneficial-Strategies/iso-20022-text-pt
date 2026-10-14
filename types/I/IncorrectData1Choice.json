@@ -1,0 +1,12 @@
+{
+  "isoType": "IncorrectData1Choice",
+  "definition": "Especifica o tipo de dados incorretos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de dados incorretos, em forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de dados incorretos, em forma proprietária."
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "isoType": "CorporateActionDate2",
+  "definition": "Especifica as datas da operação de sociedade.",
+  "isoElements": {
+    "RecordDate": {
+      "definition": "Data em que as posições são apuradas no final do dia para determinar quais as partes que receberão o montante de direitos correspondente, a distribuir na data de pagamento."
+    },
+    "EffectiveDate": {
+      "definition": "Data em que um processo deve estar concluído ou produz efeitos."
+    },
+    "CoverExpirationDate": {
+      "definition": "Último dia em que um titular pode entregar os valores mobiliários que tinha previamente protegido."
+    },
+    "EqualisationDate": {
+      "definition": "Data em que a totalidade ou parte de uma posição adquirida num fundo de investimento passa a ser tratada como capital e não como rendimento. É normalmente um dia após a data ex da distribuição anterior."
+    },
+    "MarginFixingDate": {
+      "definition": "Data/hora em que será determinada a taxa de margem."
+    },
+    "LotteryDate": {
+      "definition": "Data em que o sorteio é efetuado e aplicado às posições do titular. Aplica-se também aos resgates parciais."
+    },
+    "ProtectDate": {
+      "definition": "Última data em que um titular pode solicitar o adiamento da entrega de valores mobiliários nos termos de um aviso de entrega garantida ou de outra documentação exigida."
+    },
+    "UnconditionalDate": {
+      "definition": "Data em que os termos da oferta pública de aquisição se tornam incondicionais quanto às aceitações."
+    },
+    "WhollyUnconditionalDate": {
+      "definition": "Data em que foram cumpridas todas as condições, incluindo regulamentares, jurídicas, etc., relativas à oferta pública de aquisição."
+    },
+    "ResultsPublicationDate": {
+      "definition": "Data em que os resultados são publicados, por exemplo, os resultados de uma oferta."
+    },
+    "CourtApprovalDate": {
+      "definition": "Data/hora em que o High Court deu a sua aprovação."
+    },
+    "EarlyClosingDate": {
+      "definition": "Primeira data possível de encerramento antecipado de uma oferta, se diferente da data de termo."
+    },
+    "ExDividendDate": {
+      "definition": "Data/hora a partir da qual a negociação (incluindo a negociação em bolsa e OTC) do valor mobiliário subjacente ocorre sem o benefício."
+    },
+    "IndexFixingDate": {
+      "definition": "Data/hora em que será determinada uma taxa de índice."
+    },
+    "MaturityDate": {
+      "definition": "Data em que um instrumento financeiro que vence juros se torna exigível e o capital é reembolsado pelo emitente ao investidor."
+    },
+    "TradingSuspendedDate": {
+      "definition": "Data em que a negociação de um valor mobiliário é suspensa em consequência de um evento."
+    },
+    "CertificationDeadline": {
+      "definition": "Prazo até ao qual deve ser declarada a titularidade efetiva dos valores mobiliários."
+    },
+    "RedemptionDate": {
+      "definition": "Data/hora em que os valores mobiliários serão resgatados (antecipadamente) para pagamento do capital."
+    },
+    "RegistrationDeadline": {
+      "definition": "Data em que serão aceites as instruções de registo ou os dados de registo."
+    },
+    "ProrationDate": {
+      "definition": "Data (e hora) em que um emitente determinará o montante/quantidade de rateio de uma oferta."
+    },
+    "DeadlineForTaxBreakdownInstruction": {
+      "definition": "Data até à qual serão aceites as instruções de discriminação fiscal."
+    },
+    "LapsedDate": {
+      "definition": "Data/hora em que um evento/oferta é terminado ou caduca."
+    },
+    "GuaranteedParticipationDate": {
+      "definition": "Última data/hora até à qual uma contraparte compradora de uma operação pode ter a certeza de que terá o direito de participar num evento."
+    },
+    "ElectionToCounterpartyDeadline": {
+      "definition": "Prazo até ao qual um titular com direito deve comunicar à sua contraparte numa operação a sua eleição relativamente a um evento de ação societária."
+    },
+    "SpecialExDate": {
+      "definition": "Data/hora a partir da qual os participantes podem começar a utilizar o «tratamento especial» para esse evento. O tratamento especial é um meio de marcar uma operação que normalmente seria negociada ex ou cum como tendo sido negociada cum ou ex, respetivamente, por exemplo, uma operação realizada em regime «especial» após a data ex daria ao comprador direito aos direitos. É tipicamente utilizado nos mercados do UK e da Irlanda."
+    }
+  }
+}

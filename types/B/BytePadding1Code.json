@@ -1,0 +1,26 @@
+{
+  "isoType": "BytePadding1Code",
+  "definition": "Preenchimento de bytes para uma cifra em modo de encadeamento de blocos, se o preenchimento não for implícito.",
+  "isoCodes": {
+    "LNGT": {
+      "name": "Preenchimento de comprimento",
+      "definition": "A mensagem a cifrar é completada com um valor de byte que contém o número total de bytes acrescentados."
+    },
+    "NUL8": {
+      "name": "Preenchimento nulo 80",
+      "definition": "A mensagem a cifrar é completada com um bit de valor 1, seguido de bits nulos até se atingir o comprimento do bloco de cifra."
+    },
+    "NULG": {
+      "name": "Preenchimento nulo com comprimento",
+      "definition": "A mensagem a cifrar é completada com valores de byte nulos, contendo o último byte o número total de bytes acrescentados."
+    },
+    "NULL": {
+      "name": "Preenchimento nulo",
+      "definition": "A mensagem a cifrar é completada com bytes nulos."
+    },
+    "RAND": {
+      "name": "Preenchimento aleatório",
+      "definition": "A mensagem a cifrar é completada com um valor aleatório, contendo o último byte o número total de bytes acrescentados."
+    }
+  }
+}

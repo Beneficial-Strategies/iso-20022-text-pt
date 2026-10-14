@@ -1,0 +1,42 @@
+{
+  "isoType": "SettlementTransactionCondition18Code",
+  "definition": "Especifica as condições em que a ordem/transação deve ser liquidada.",
+  "isoCodes": {
+    "CLEN": {
+      "name": "Limpo",
+      "definition": "Os instrumentos financeiros isentos de imposto devem ser liquidados."
+    },
+    "DLWM": {
+      "name": "Entrega sem correspondência",
+      "definition": "Não é necessária instrução de receção correspondente (apenas para as centrais internacionais ou nacionais de valores mobiliários em causa)."
+    },
+    "DIRT": {
+      "name": "Sujo",
+      "definition": "Os instrumentos financeiros tributáveis devem ser liquidados."
+    },
+    "GATE": {
+      "name": "Participação em evento de bloqueio",
+      "definition": "Participação em evento condicionado (gating). Manter até à hora de início do evento."
+    },
+    "NOMC": {
+      "name": "Sem reclamação de mercado automática",
+      "definition": "Não deve ser gerada automaticamente nenhuma reclamação de mercado."
+    },
+    "BPSS": {
+      "name": "Compra forçada (buy-in) parcialmente bem-sucedida",
+      "definition": "Identificação de instruções de liquidação criadas em resultado de uma compra forçada (buy-in) parcialmente bem-sucedida."
+    },
+    "PHYS": {
+      "name": "Físico",
+      "definition": "Os valores mobiliários devem ser liquidados fisicamente."
+    },
+    "SPDL": {
+      "name": "Entrega especial",
+      "definition": "Operações de liquidação a liquidar com entrega especial."
+    },
+    "SPST": {
+      "name": "Liquidação fracionada",
+      "definition": "O dinheiro e os instrumentos financeiros são liquidados em locais diferentes."
+    }
+  }
+}

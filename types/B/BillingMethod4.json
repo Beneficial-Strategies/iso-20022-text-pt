@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingMethod4",
+  "definition": "Fornece os detalhes do método C de cálculo do imposto.",
+  "isoElements": {
+    "ServiceDetail": {
+      "definition": "Especifica os detalhes dos serviços tributáveis utilizando o método C de cálculo do imposto."
+    },
+    "TaxCalculation": {
+      "definition": "Montante total do encargo de serviço a tributar na moeda de origem da região fiscal, juntamente com os cálculos de imposto de suporte. ||Utilização: utilizado apenas para o método C de cálculo do imposto, e só pode ser especificado um por região fiscal."
+    }
+  }
+}

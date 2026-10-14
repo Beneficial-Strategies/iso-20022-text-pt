@@ -1,0 +1,14 @@
+{
+  "isoType": "TransferOutInstructionV10",
+  "definition": "Âmbito|A mensagem TransferOutInstruction é enviada por uma parte ordenante, por exemplo, um gestor de investimentos ou o seu representante autorizado, à parte executante, por exemplo, um agente de transferências, para dar instruções de entrega de um instrumento financeiro, livre de pagamento, numa determinada data, a partir de uma parte especificada.|Esta mensagem pode também ser utilizada para dar instruções de entrega de um instrumento financeiro, livre de pagamento, para outra das contas próprias das partes ordenantes ou para um terceiro.|Utilização|A mensagem TransferOutInstruction é utilizada para dar instruções de retirada de um instrumento financeiro de uma conta e da sua entrega a outra conta ou a um terceiro.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de um grupo de transferências individuais, atribuído pela parte ordenante. Este identificador associa as transferências individuais entre si."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Ou TransferDetails/RequestedSettlementDate pode estar presente numa ou mais ocorrências de TransferDetails, ou SettlementDetails/RequestedSettlementDate pode estar presente, mas não ambos."
+    }
+  }
+}

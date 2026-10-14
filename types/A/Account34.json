@@ -1,0 +1,21 @@
+{
+  "isoType": "Account34",
+  "definition": "Relação comercial entre duas entidades; uma das entidades é o titular da conta e a outra é a entidade gestora da conta.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "AccountDesignation": {
+      "definition": "Informações de registo suplementares aplicáveis a um bloco específico de unidades para efeitos de negociação e de reporte. As informações de registo suplementares podem ser utilizadas quando todas as unidades estão registadas, por exemplo, numa plataforma de fundos, mas as posições de cada investidor têm de ser reconciliadas individualmente."
+    },
+    "AccountName": {
+      "definition": "Nome da conta. Constitui um meio adicional de identificação e é designado pela instituição gestora da conta de acordo com o titular da conta."
+    },
+    "AccountServicer": {
+      "definition": "Instituição que mantém os registos onde a conta é detida."
+    },
+    "RegistrationAddress": {
+      "definition": "Endereço da sociedade representante (nominee) que detém os ativos junto do agente de transferência, da central internacional de depósito de valores mobiliários ou da central de depósito de valores mobiliários em nome da parte."
+    }
+  }
+}

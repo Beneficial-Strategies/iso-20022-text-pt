@@ -1,0 +1,38 @@
+{
+  "isoType": "LongPaymentIdentification4",
+  "definition": "Identifica uma instrução de pagamento através de um conjunto de características que permitem a sua identificação inequívoca.",
+  "isoElements": {
+    "TransactionIdentification": {
+      "definition": "Identificação única, atribuída pelo primeiro agente instrutor, para identificar de forma inequívoca a operação que é transmitida, sem alterações, ao longo de toda a cadeia interbancária.|Utilização: a identificação da operação pode ser utilizada para reconciliação, rastreio ou para associar tarefas relativas à operação ao nível interbancário. O agente instrutor deve assegurar que a identificação da operação é única durante um período previamente acordado.|Utilização: este é o anterior elemento PaymentInstructionReference."
+    },
+    "UETR": {
+      "definition": "Identificador universalmente único para fornecer uma referência de ponta a ponta de uma operação de pagamento."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montante de dinheiro movimentado entre o agente instrutor e o agente instruído."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Data em que o montante de dinheiro deixa de estar disponível para o agente que o deve e em que passa a estar disponível para o agente a quem é devido."
+    },
+    "PaymentMethod": {
+      "definition": "Tipo de mensagem com a qual a instrução foi iniciada."
+    },
+    "InstructingAgent": {
+      "definition": "Agente que instrui a parte seguinte da cadeia para executar a(s) instrução(ões)."
+    },
+    "InstructedAgent": {
+      "definition": "Agente que é instruído pela parte anterior da cadeia para executar a(s) instrução(ões)."
+    },
+    "EntryType": {
+      "definition": "Qualificador facultativo que fornece informações adicionais, específicas do sistema, sobre o lançamento."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora, para identificar de forma inequívoca a operação. Esta identificação é transmitida, sem alterações, ao longo de toda a cadeia de ponta a ponta.|Utilização: a identificação de ponta a ponta pode ser utilizada para reconciliação ou para associar tarefas relativas à operação.|Pode ser incluída em várias mensagens relacionadas com a operação.|Utilização: esta é a anterior RelatedReference."
+    }
+  },
+  "isoRules": {
+    "TransactionIdentificationPresenceRule": {
+      "definition": "TransactionIdentification ou UETR tem de estar presente. Ambos podem estar presentes"
+    }
+  }
+}

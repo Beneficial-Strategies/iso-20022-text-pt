@@ -1,0 +1,4 @@
+{
+  "isoType": "ReceiptAcknowledgementV01",
+  "definition": "A mensagem ReceiptAcknowledgement é enviada pelo administrador de transações a um membro do sistema e vice-versa. É enviada para confirmar a receção de uma ou várias mensagens enviadas anteriormente. A mensagem de confirmação é 1) uma confirmação de receção da aplicação e 2) transmite informações sobre o processamento da(s) mensagem(ns) original(ais). No caso 2), a ReceiptAcknowledgement pode ser utilizada como mensagem de erro genérica, que fornece informações sobre o estado (por exemplo, rejeição, aceitação) de uma instrução."
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "BillingTaxRegion3",
+  "definition": "Região fiscal que cobra um imposto sobre os serviços de um extrato.",
+  "isoElements": {
+    "RegionNumber": {
+      "definition": "Especifica uma zona única de impostos atribuída pelas autoridades fiscais. O número da região fiscal é único. Considera-se que todas as contas residem numa região fiscal, embora algumas regiões fiscais possam não cobrar impostos sobre serviços."
+    },
+    "RegionName": {
+      "definition": "Nome associado a um número específico de região fiscal."
+    },
+    "CustomerTaxIdentification": {
+      "definition": "Especifica o número de identificação fiscal do cliente da instituição financeira. ||Utilização: |Este é o número transmitido pela instituição financeira à autoridade fiscal para indicar o cliente específico associado aos impostos calculados para esta região fiscal e grupo de serviços prestados. É normalmente a identificação fiscal associada à conta de um cliente."
+    },
+    "PointDate": {
+      "definition": "Data em que o cálculo do imposto foi efetuado. ||Utilização: |Esta data pode ser utilizada para verificar o valor da taxa de imposto na data do cálculo."
+    },
+    "SendingFinancialInstitution": {
+      "definition": "Informações fiscais relativas à instituição financeira remetente."
+    },
+    "InvoiceNumber": {
+      "definition": "Número único a utilizar pelo cliente para fazer a correspondência entre as informações da região fiscal e uma fatura ou aviso fiscal."
+    },
+    "MethodC": {
+      "definition": "Os valores do imposto baseiam-se no método C de cálculo do imposto."
+    },
+    "SettlementAmount": {
+      "definition": "Montante total do imposto expresso na moeda de liquidação (ou de cobrança) da conta. ||Utilização: este total soma os impostos individuais por serviço, calculados para cada serviço pelos métodos A, B e D. A soma destes montantes em todas as regiões fiscais do extrato é apresentada como a soma total do imposto na secção de compensação."
+    },
+    "TaxDueToRegion": {
+      "definition": "Montante total de todos os impostos de um cliente específico na região fiscal, expresso na moeda de origem da região fiscal. ||Utilização: é o mesmo valor que o montante total do imposto e é incluído para utilização específica nos métodos A, B e D de cálculo do imposto."
+    }
+  }
+}

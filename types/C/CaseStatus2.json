@@ -1,0 +1,15 @@
+{
+  "isoType": "CaseStatus2",
+  "definition": "Define o estado de um caso de investigação.",
+  "isoElements": {
+    "DateTime": {
+      "definition": "Data e hora do estado."
+    },
+    "CaseStatus": {
+      "definition": "Estado do caso."
+    },
+    "Reason": {
+      "definition": "Justificação do estado em texto livre."
+    }
+  }
+}

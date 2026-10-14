@@ -1,0 +1,12 @@
+{
+  "isoType": "AutomaticBorrowing7Choice",
+  "definition": "Escolha do formato das informações sobre o empréstimo automático.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condição para o empréstimo automático expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Condição para o empréstimo automático expressa como um código próprio."
+    }
+  }
+}

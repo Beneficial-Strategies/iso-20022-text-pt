@@ -1,0 +1,47 @@
+{
+  "isoType": "SettlementDetails234",
+  "definition": "Detalhes da liquidação de uma operação.",
+  "isoElements": {
+    "HoldIndicator": {
+      "definition": "Indica se a operação está em espera/bloqueada/congelada."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifica o tipo de operação sobre valores mobiliários."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Condições em que a ordem/transação deve ser liquidada."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica se a liquidação parcial é permitida."
+    },
+    "BeneficialOwnership": {
+      "definition": "Especifica se há alteração da titularidade efetiva."
+    },
+    "CashClearingSystem": {
+      "definition": "Especifica a categoria do sistema de compensação em numerário, por exemplo, compensação de cheques."
+    },
+    "MarketClientSide": {
+      "definition": "Especifica se uma instrução diz respeito a uma operação do lado do mercado ou do lado do cliente."
+    },
+    "Registration": {
+      "definition": "Especifica se o registo deve ocorrer aquando da receção."
+    },
+    "RepurchaseType": {
+      "definition": "Especifica se a taxa é fixa, variável ou um montante global (forfeit)."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Especifica se a operação de liquidação deve ser liquidada através de um sistema RTGS ou não RTGS."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Especifica o tipo de imposto do selo ou o motivo de isenção aplicável à operação de liquidação."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Se forem utilizados elementos SettlementDetails, as respetivas condições de utilização devem ser previamente acordadas entre o titular da conta e a entidade gestora da conta."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Os códigos CashClearingSystem só devem ser utilizados por agentes diretamente envolvidos no processo de liquidação, como agentes de liquidação locais, CSD e bancos centrais."
+    }
+  }
+}

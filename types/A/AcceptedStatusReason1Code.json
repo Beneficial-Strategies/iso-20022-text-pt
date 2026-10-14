@@ -1,0 +1,14 @@
+{
+  "isoType": "AcceptedStatusReason1Code",
+  "definition": "Especifica o motivo de um estado aceite.",
+  "isoCodes": {
+    "PLAC": {
+      "name": "Local não permitido",
+      "definition": "O estado da instrução de modificação de conta é aceite, mas a modificação dos dados da conta não será efetuada para o local."
+    },
+    "SECT": {
+      "name": "Setor não permitido",
+      "definition": "O estado da instrução de modificação de conta é aceite, mas a modificação dos dados da conta não será efetuada para o código de setor."
+    }
+  }
+}

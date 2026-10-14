@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountForAction2",
+  "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de numerário.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "Name": {
+      "definition": "Nome da conta. Em caso de conflito entre a Identificação da Conta e o Nome da Conta, recomenda-se que o Gestor da Conta peça esclarecimentos por meio da mensagem de Pedido de Informações Adicionais."
+    },
+    "Currency": {
+      "definition": "Meio de troca de valor."
+    }
+  }
+}

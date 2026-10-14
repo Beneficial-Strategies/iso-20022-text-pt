@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxVoucher5",
+  "definition": "Especifica os comprovativos fiscais no âmbito de um evento de operação sobre ativos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Referência única do comprovativo fiscal exigida pelas autoridades fiscais competentes para garantir que qualquer reclamação relativa a este comprovativo fiscal não possa ser duplicada."
+    },
+    "BargainDate": {
+      "definition": "Data em que foi concluída uma compra de reinvestimento de dividendos. Se estiver envolvida apenas uma transação, é necessário incluir a hora em que foi realizada."
+    },
+    "BargainSettlementDate": {
+      "definition": "Data de liquidação da operação de compra de reinvestimento de dividendos."
+    }
+  }
+}

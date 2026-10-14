@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderQuery5",
+  "definition": "Especificação dos critérios da consulta.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Especifica o tipo de itens correspondentes a devolver na resposta à consulta."
+    },
+    "StandingOrderCriteria": {
+      "definition": "Definição dos critérios de consulta de ordens permanentes."
+    }
+  }
+}

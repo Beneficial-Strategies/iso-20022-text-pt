@@ -1,0 +1,46 @@
+{
+  "isoType": "ExternalBalanceType1Code",
+  "definition": "Especifica o tipo de saldo, conforme publicado num conjunto de códigos externo de tipos de saldo.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "CLAV": {
+      "name": "Saldo disponível de fecho",
+      "definition": "Saldo de fecho do montante de dinheiro que está à disposição do titular da conta na data especificada."
+    },
+    "CLBD": {
+      "name": "Saldo contabilístico de fecho",
+      "definition": "Saldo da conta no final do período de reporte de conta previamente acordado. É a soma do saldo contabilizado de abertura no início do período e de todos os lançamentos contabilizados na conta durante o período de reporte de conta previamente acordado."
+    },
+    "FWAV": {
+      "name": "Saldo disponível a prazo",
+      "definition": "Saldo disponível futuro do dinheiro que está à disposição do titular da conta na data especificada."
+    },
+    "INFO": {
+      "name": "Informação",
+      "definition": "Saldo para fins informativos."
+    },
+    "ITAV": {
+      "name": "Saldo disponível intercalar",
+      "definition": "Saldo disponível calculado durante o dia útil do prestador de serviços de conta, à hora especificada, e sujeito a alterações adicionais durante o dia útil. O saldo intercalar é calculado com base nos lançamentos a crédito e a débito contabilizados durante a hora/período de cálculo especificado."
+    },
+    "ITBD": {
+      "name": "Saldo contabilístico intercalar",
+      "definition": "Saldo calculado durante o dia útil da instituição gestora da conta, à hora especificada, e sujeito a alterações adicionais durante o dia útil. O saldo intercalar é calculado com base nos lançamentos a crédito e a débito contabilizados durante a hora ou o período de cálculo especificado."
+    },
+    "OPAV": {
+      "name": "Saldo disponível de abertura",
+      "definition": "Saldo de abertura do montante de dinheiro que está à disposição do titular da conta na data especificada."
+    },
+    "OPBD": {
+      "name": "Saldo contabilístico de abertura",
+      "definition": "Saldo contabilístico da conta no início do período de reporte de conta. É sempre igual ao saldo contabilístico de fecho do relatório anterior."
+    },
+    "PRCD": {
+      "name": "Saldo contabilístico anteriormente fechado",
+      "definition": "Saldo da conta no período de reporte de conta anteriormente encerrado. O saldo contabilizado de abertura do novo período tem de ser igual a este saldo.|Utilização: o saldo contabilizado de fecho anterior deve ser igual (data inclusive) ao saldo contabilizado de fecho da data a que se refere e igual ao saldo contabilizado de abertura efetivo da data atual."
+    },
+    "XPCD": {
+      "name": "Esperado",
+      "definition": "Saldo, composto pelos lançamentos contabilizados e pelos itens pendentes conhecidos no momento do cálculo, que projeta o saldo de fim de dia se tudo for contabilizado na conta e não for efetuado nenhum outro lançamento."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalChequeCancellationStatus1Code",
+  "definition": "Especifica o código externo do estado de cancelamento de cheque, sob a forma de cadeia de caracteres com um máximo de 4 caracteres.|A lista de códigos válidos é um conjunto de códigos externo publicado separadamente.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "RJCR": {
+      "name": "Pedido de cancelamento ou de oposição ao pagamento de cheque rejeitado",
+      "definition": "O pedido de anulação do cheque ou de suspensão do cheque é rejeitado."
+    },
+    "ACCR": {
+      "name": "Pedido de cancelamento ou de oposição ao pagamento de cheque aceite",
+      "definition": "O pedido de anulação do cheque ou de suspensão do cheque é aceite."
+    }
+  }
+}

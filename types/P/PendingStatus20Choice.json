@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus20Choice",
+  "definition": "Escolha do formato para o estado de correspondência.",
+  "isoElements": {
+    "Forwarded": {
+      "definition": "A alegação foi reencaminhada."
+    },
+    "UnderInvestigation": {
+      "definition": "A alegação está em análise."
+    }
+  }
+}

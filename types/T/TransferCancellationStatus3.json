@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferCancellationStatus3",
+  "definition": "O estado do cancelamento da transferência é aceite ou enviado à parte seguinte.",
+  "isoElements": {
+    "Status": {
+      "definition": "O estado do cancelamento da transferência é aceite ou enviado à parte seguinte."
+    },
+    "Reason": {
+      "definition": "Motivo do estado."
+    }
+  }
+}

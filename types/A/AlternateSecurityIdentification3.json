@@ -1,0 +1,23 @@
+{
+  "isoType": "AlternateSecurityIdentification3",
+  "definition": "Esquema de identificação proprietário ou nacional que identifica de forma única um valor mobiliário.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco de um valor mobiliário."
+    },
+    "DomesticIdentificationSource": {
+      "definition": "País do esquema de identificação proprietário."
+    },
+    "ProprietaryIdentificationSource": {
+      "definition": "Entidade que emite a identificação proprietária."
+    }
+  },
+  "isoRules": {
+    "DomesticOrProprietaryIdentificationSourceRule": {
+      "definition": "Deve estar presente DomesticIdentificationSource ou ProprietaryIdentificationSource, mas não ambos."
+    },
+    "DomesticOrProprietaryIdentificationSourceRuleNotBoth": {
+      "definition": "Deve estar presente DomesticIdentificationSource ou ProprietaryIdentificationSource, mas não ambos."
+    }
+  }
+}

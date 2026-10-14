@@ -1,0 +1,4 @@
+{
+  "isoType": "ISO2ALanguageCode",
+  "definition": "Identificação do nome do idioma de acordo com os códigos da ISO 639-1. O tipo é validado pela lista de valores codificados com dois carateres alfabéticos, definida na norma."
+}

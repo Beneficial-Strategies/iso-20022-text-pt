@@ -1,0 +1,14 @@
+{
+  "isoType": "OptionType1Code",
+  "definition": "Indica se se trata de uma opção de compra (Call, direito de comprar um ativo subjacente específico) ou de uma opção de venda (Put, direito de vender um ativo subjacente específico).",
+  "isoCodes": {
+    "CALL": {
+      "name": "Compra (call)",
+      "definition": "Direito de comprar uma quantidade de um ativo por um preço acordado na data de exercício."
+    },
+    "PUTO": {
+      "name": "Venda (put)",
+      "definition": "Direito de vender uma quantidade de um ativo por um preço acordado na data de exercício."
+    }
+  }
+}

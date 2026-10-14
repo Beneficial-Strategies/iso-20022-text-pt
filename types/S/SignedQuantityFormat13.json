@@ -1,0 +1,12 @@
+{
+  "isoType": "SignedQuantityFormat13",
+  "definition": "Formatos da quantidade de valores mobiliários com sinal.",
+  "isoElements": {
+    "ShortLongPosition": {
+      "definition": "Sinal da quantidade de valores mobiliários."
+    },
+    "Quantity": {
+      "definition": "Quantidade de valores mobiliários."
+    }
+  }
+}

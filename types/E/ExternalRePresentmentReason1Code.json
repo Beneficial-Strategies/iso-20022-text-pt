@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalRePresentmentReason1Code",
+  "definition": "Especifica o código externo do motivo de reapresentação, sob a forma de cadeia de caracteres com um máximo de 4 caracteres. A lista de códigos válidos é uma lista de códigos externa publicada em separado.",
+  "isoCodes": {
+    "AMCR": {
+      "name": "Montante corrigido",
+      "definition": "Montante corrigido devido a prova da operação"
+    },
+    "CLSD": {
+      "name": "Transferência de responsabilidade por autenticação do cartão negada",
+      "definition": "Transferência de responsabilidade para o adquirente devido à falta do método de autenticação do cartão, negada"
+    },
+    "CRPI": {
+      "name": "Crédito emitido anteriormente",
+      "definition": "Crédito emitido anteriormente"
+    },
+    "OTVA": {
+      "name": "Operação original válida",
+      "definition": "A operação original era válida"
+    },
+    "VLSD": {
+      "name": "Transferência de responsabilidade por verificação negada",
+      "definition": "Transferência de responsabilidade para o adquirente devido à falta do método de verificação do titular do cartão, negada"
+    }
+  }
+}

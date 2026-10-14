@@ -1,0 +1,58 @@
+{
+  "isoType": "PendingReason39Code",
+  "definition": "Especifica o motivo pelo qual a instrução tem um estado pendente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "A instrução foi recebida depois do prazo limite da entidade gestora da conta. Será gerida de acordo com o acordo de serviço bilateral entre a entidade gestora da conta e o titular da conta."
+    },
+    "CYCL": {
+      "name": "A aguardar o próximo ciclo de liquidação",
+      "definition": "A sua instrução está confirmada no mercado local ou pronta para liquidação, a aguardar o próximo ciclo de liquidação."
+    },
+    "FUTU": {
+      "name": "A aguardar a data de liquidação",
+      "definition": "A aguardar a data de liquidação. Não há problemas de liquidação a comunicar."
+    },
+    "BOTH": {
+      "name": "Ambas as instruções estão retidas",
+      "definition": "A instrução da contraparte e a sua instrução estão em espera/congeladas/em modo de pré-aviso."
+    },
+    "PRCY": {
+      "name": "Instrução da contraparte em espera",
+      "definition": "A instrução da contraparte é um pré-aviso, ou seja, apenas para correspondência."
+    },
+    "CMON": {
+      "name": "Fundos insuficientes da contraparte",
+      "definition": "Fundos insuficientes na conta da contraparte."
+    },
+    "CLAC": {
+      "name": "Valores mobiliários insuficientes da contraparte",
+      "definition": "Instrumentos financeiros entregáveis insuficientes na conta da contraparte ou a contraparte não detém instrumentos financeiros."
+    },
+    "MONY": {
+      "name": "Fundos insuficientes",
+      "definition": "Fundos insuficientes na sua conta."
+    },
+    "LACK": {
+      "name": "Falta de valores mobiliários",
+      "definition": "Instrumentos financeiros insuficientes na sua conta."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "A instrução foi recebida após o prazo limite do mercado."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "LINK": {
+      "name": "Instrução associada pendente",
+      "definition": "A sua instrução está pendente de liquidação porque a instrução associada está pendente."
+    },
+    "PREA": {
+      "name": "A sua instrução está retida",
+      "definition": "A sua instrução é um pré-aviso, ou seja, apenas para correspondência."
+    }
+  }
+}

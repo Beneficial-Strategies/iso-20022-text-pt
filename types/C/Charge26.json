@@ -1,0 +1,12 @@
+{
+  "isoType": "Charge26",
+  "definition": "Escolha de formatos para o tipo de encargo.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de encargo."
+    },
+    "ChargeApplied": {
+      "definition": "Montante ou taxa de encargo aplicado."
+    }
+  }
+}

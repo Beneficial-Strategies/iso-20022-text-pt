@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType10Choice",
+  "definition": "Escolha de formatos para o tipo de encargo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Comissão (encargo/comissão) expressa como código."
+    },
+    "Proprietary": {
+      "definition": "Comissão (encargo/comissão) expressa como código proprietário."
+    }
+  }
+}

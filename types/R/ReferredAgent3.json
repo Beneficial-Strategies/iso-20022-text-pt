@@ -1,0 +1,17 @@
+{
+  "isoType": "ReferredAgent3",
+  "definition": "Fornece a identificação do agente de colocação de um fundo de cobertura se o investidor tiver sido indicado por um.",
+  "isoElements": {
+    "Referred": {
+      "definition": "Indica se o investidor foi indicado por um agente de colocação."
+    },
+    "ReferredPlacementAgent": {
+      "definition": "Agente de colocação que indicou o investidor."
+    }
+  },
+  "isoRules": {
+    "ReferredPlacementAgentRule": {
+      "definition": "ReferredPlacementAgent só pode estar presente se Referred for REFR (Referred)."
+    }
+  }
+}

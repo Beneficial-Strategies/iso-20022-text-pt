@@ -1,0 +1,32 @@
+{
+  "isoType": "SettlementParties119",
+  "definition": "Cadeia de partes envolvidas na liquidação de uma operação, incluindo receções e entregas, transferências escriturais, operações de tesouraria ou outras atividades, que resultam na movimentação de um valor mobiliário ou de um montante em dinheiro de uma conta para outra.",
+  "isoElements": {
+    "Party2": {
+      "definition": "Parte que, numa cadeia de liquidação, interage com a parte 1."
+    },
+    "Party3": {
+      "definition": "Parte que, numa cadeia de liquidação, interage com a parte 2."
+    },
+    "Party4": {
+      "definition": "Parte que, numa cadeia de liquidação, interage com a parte 3."
+    },
+    "Party5": {
+      "definition": "Parte que, numa cadeia de liquidação, interage com a parte 4."
+    }
+  },
+  "isoRules": {
+    "Party3PresenceRule": {
+      "definition": "Se Party3 estiver presente, Party2 tem de estar presente."
+    },
+    "Party4PresenceRule": {
+      "definition": "Se Party4 estiver presente, Party3 tem de estar presente."
+    },
+    "Party5PresenceRule": {
+      "definition": "Se Party5 estiver presente, Party4 tem de estar presente."
+    },
+    "BookTransferGuideline": {
+      "definition": "No caso de transferência interna entre contas próprias, transferência externa entre contas próprias, transferência de carteira e transferência em espécie (ver SecuritiesTransactionType), deve ser indicada a conta de Party2 (entregadora) junto de Party1 (entregadora).|Para mais pormenores, consulte o documento de práticas de mercado pertinente em www.smpg.info."
+    }
+  }
+}

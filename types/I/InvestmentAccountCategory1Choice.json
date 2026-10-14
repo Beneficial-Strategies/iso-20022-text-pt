@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestmentAccountCategory1Choice",
+  "definition": "Escolha de formatos para a especificação da categoria da conta de investimento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Categoria da conta de investimento expressa sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Categoria da conta de investimento expressa sob a forma de código proprietário."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "DocumentNumber5Choice",
+  "definition": "Escolha entre um número de documento curto, um número de documento longo ou um número de documento proprietário.",
+  "isoElements": {
+    "ShortNumber": {
+      "definition": "Número do tipo de mensagem do documento referenciado."
+    },
+    "LongNumber": {
+      "definition": "Identificador da mensagem MX do documento referenciado."
+    },
+    "ProprietaryNumber": {
+      "definition": "Identificação proprietária do documento."
+    }
+  },
+  "isoRules": {
+    "ShortLongNumberRule": {
+      "definition": "ShortNumber deve conter o número do tipo de mensagem FIN da mensagem associada. LongNumber deve conter o identificador de mensagem XML da mensagem associada."
+    }
+  }
+}

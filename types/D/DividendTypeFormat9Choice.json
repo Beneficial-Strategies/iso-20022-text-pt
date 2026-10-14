@@ -1,0 +1,12 @@
+{
+  "isoType": "DividendTypeFormat9Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o tipo de dividendo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar a frequência do evento de operação de sociedade."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária da frequência do evento de operação de sociedade."
+    }
+  }
+}

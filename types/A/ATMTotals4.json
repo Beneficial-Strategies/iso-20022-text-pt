@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMTotals4",
+  "definition": "Totais atuais do ATM.",
+  "isoElements": {
+    "MediaType": {
+      "definition": "Tipo de meio no interior da cassete."
+    },
+    "Currency": {
+      "definition": "Moeda dos totais."
+    },
+    "ATMBalance": {
+      "definition": "Saldo total do ATM, incluindo a cassete de rejeição, mas excluindo a cassete de retenção."
+    },
+    "ATMCurrent": {
+      "definition": "Montante disponível para distribuição no ATM."
+    },
+    "ATMBalanceNumber": {
+      "definition": "Número total de unidades de meios sem valor, incluindo a cassete de rejeição."
+    },
+    "ATMCurrentNumber": {
+      "definition": "Número total de unidades de meios sem valor, excluindo a cassete de rejeição."
+    }
+  }
+}

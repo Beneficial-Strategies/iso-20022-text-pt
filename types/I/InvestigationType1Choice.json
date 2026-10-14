@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationType1Choice",
+  "definition": "Especifica o tipo de uma investigação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de investigação, conforme publicado num conjunto externo de códigos de tipos de investigação."
+    },
+    "Proprietary": {
+      "definition": "Tipo de investigação, numa forma proprietária."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "HostToATMRequest1",
+  "definition": "Informação relativa ao pedido a um ATM para contactar o gestor do ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Ambiente do ATM."
+    },
+    "CommandIdentification": {
+      "definition": "Identificação da entidade que emite o comando."
+    },
+    "ExpectedMessageFunction": {
+      "definition": "Mensagem que tem de ser enviada pelo ATM."
+    }
+  }
+}

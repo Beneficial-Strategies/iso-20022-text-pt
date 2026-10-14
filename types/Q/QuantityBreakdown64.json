@@ -1,0 +1,12 @@
+{
+  "isoType": "QuantityBreakdown64",
+  "definition": "Detalhes da decomposição de uma quantidade.",
+  "isoElements": {
+    "LotNumber": {
+      "definition": "Identificação, para efeitos fiscais, de um lote de valores mobiliários idênticos adquiridos numa determinada data e a um determinado preço."
+    },
+    "LotQuantity": {
+      "definition": "Quantidade de instrumentos financeiros que faz parte do lote descrito."
+    }
+  }
+}

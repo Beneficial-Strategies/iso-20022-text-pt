@@ -1,0 +1,21 @@
+{
+  "isoType": "AuthenticatedData4",
+  "definition": "Código de autenticação de mensagem (MAC), calculado sobre os dados a proteger com uma chave de cifra.",
+  "isoElements": {
+    "Version": {
+      "definition": "Versão da estrutura de dados."
+    },
+    "Recipient": {
+      "definition": "Chave de sessão ou identificação da chave de proteção utilizada pelo destinatário."
+    },
+    "MACAlgorithm": {
+      "definition": "Algoritmo para calcular o código de autenticação de mensagem (MAC)."
+    },
+    "EncapsulatedContent": {
+      "definition": "Dados a autenticar."
+    },
+    "MAC": {
+      "definition": "Valor do código de autenticação de mensagem."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionStandingInstructionRejectionStatus1",
+  "definition": "Fornece o motivo da rejeição de um pedido de instrução permanente.",
+  "isoElements": {
+    "Reason": {
+      "definition": "O motivo da rejeição."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o estado."
+    }
+  }
+}

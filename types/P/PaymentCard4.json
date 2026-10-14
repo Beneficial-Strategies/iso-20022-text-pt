@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentCard4",
+  "definition": "Produto de moeda eletrónica que fornece ao titular do cartão um dispositivo informático portátil e especializado, que normalmente contém um microprocessador.",
+  "isoElements": {
+    "PlainCardData": {
+      "definition": "Dados sensíveis associados ao cartão que realiza a operação."
+    },
+    "CardCountryCode": {
+      "definition": "Código do país atribuído ao cartão pelo emitente do cartão."
+    },
+    "CardBrand": {
+      "definition": "Nome da marca do cartão."
+    },
+    "AdditionalCardData": {
+      "definition": "Dados adicionais específicos do emitente do cartão."
+    }
+  }
+}

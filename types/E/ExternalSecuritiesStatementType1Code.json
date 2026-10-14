@@ -1,0 +1,14 @@
+{
+  "isoType": "ExternalSecuritiesStatementType1Code",
+  "definition": "Especifica se o extrato é um extrato contabilístico ou de custódia.|A lista de códigos válidos é um conjunto de códigos externo publicado separadamente.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "RGAD": {
+      "name": "Nomes e morada do titular registado",
+      "definition": "A declaração é uma declaração de nome(s) e morada do titular registado."
+    },
+    "SRNR": {
+      "name": "Número de referência do titular de valores mobiliários e registo",
+      "definition": "A declaração é uma declaração de número de referência do titular de valores mobiliários e de registo."
+    }
+  }
+}

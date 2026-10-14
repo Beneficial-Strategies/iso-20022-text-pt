@@ -1,0 +1,14 @@
+{
+  "isoType": "BuyInDeferral1Code",
+  "definition": "Especifica se a operação de buy-in foi diferida ou não.",
+  "isoCodes": {
+    "DEFY": {
+      "name": "Recompra forçada diferida",
+      "definition": "O buy-in é diferido."
+    },
+    "DEFN": {
+      "name": "Recompra forçada não diferida",
+      "definition": "O buy-in não é diferido."
+    }
+  }
+}

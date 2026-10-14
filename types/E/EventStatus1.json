@@ -1,0 +1,12 @@
+{
+  "isoType": "EventStatus1",
+  "definition": "Estado da notificação de um evento.",
+  "isoElements": {
+    "EventCompletenessStatus": {
+      "definition": "Especifica se os detalhes fornecidos sobre um evento estão completos ou incompletos."
+    },
+    "EventConfirmationStatus": {
+      "definition": "Especifica o estado da ocorrência de um evento."
+    }
+  }
+}

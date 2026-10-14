@@ -1,0 +1,10 @@
+{
+  "isoType": "ProxyNotAllowed1Code",
+  "definition": "Indica que a designação de um representante não é permitida para a assembleia.",
+  "isoCodes": {
+    "NPRO": {
+      "name": "Não permitido",
+      "definition": "Representante não permitido."
+    }
+  }
+}

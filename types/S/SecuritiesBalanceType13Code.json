@@ -1,0 +1,58 @@
+{
+  "isoType": "SecuritiesBalanceType13Code",
+  "definition": "Especifica a natureza do saldo de valores mobiliários ou de fundos de investimento.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqueado",
+      "definition": "Saldo de instrumentos financeiros que se encontram bloqueados."
+    },
+    "AWAS": {
+      "name": "Disponível sem estado adicional",
+      "definition": "Saldo de instrumentos financeiros que estão livremente disponíveis, sem qualquer estado adicional específico."
+    },
+    "AVAI": {
+      "name": "Disponível",
+      "definition": "Saldo de instrumentos financeiros que estão disponíveis."
+    },
+    "NOMI": {
+      "name": "Nominativo",
+      "definition": "Saldo de instrumentos financeiros registados (em nome de um mandatário ou em nome do beneficiário efetivo)."
+    },
+    "PLED": {
+      "name": "Empenhado",
+      "definition": "Saldo de valores mobiliários que pertencem e são mantidos na conta de guarda indicada nesta mensagem e que estão penhorados."
+    },
+    "REGO": {
+      "name": "Em registo",
+      "definition": "Saldo de instrumentos financeiros atualmente em processamento pela instituição responsável pelo registo do novo beneficiário efetivo (ou titular interposto)."
+    },
+    "RSTR": {
+      "name": "Restrito",
+      "definition": "Saldo de instrumentos financeiros que só podem ser vendidos sob certas condições ou que exigem documentos legais."
+    },
+    "OTHR": {
+      "name": "Não classificado",
+      "definition": "Outro. Ver Narrative."
+    },
+    "SPOS": {
+      "name": "Posição em nome do intermediário",
+      "definition": "Saldo de instrumentos financeiros que permanecem registados em nome do anterior beneficiário efetivo."
+    },
+    "UNRG": {
+      "name": "Não registado",
+      "definition": "Saldo de valores mobiliários que não puderam ser registados devido a uma limitação de propriedade estrangeira."
+    },
+    "ISSU": {
+      "name": "Emitido",
+      "definition": "Na comunicação entre agente emitente e depositário, saldo de instrumentos financeiros emitidos para os quais foi recebida a documentação legal."
+    },
+    "QUAS": {
+      "name": "Quase emitido",
+      "definition": "Na comunicação entre agente emitente e depositário, saldo de instrumentos financeiros emitidos para os quais a documentação legal ainda não foi recebida."
+    },
+    "COLA": {
+      "name": "Elegível para efeitos de garantia",
+      "definition": "Saldo de valores mobiliários elegíveis para efeitos de garantia."
+    }
+  }
+}

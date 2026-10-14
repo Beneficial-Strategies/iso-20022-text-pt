@@ -1,0 +1,12 @@
+{
+  "isoType": "RateName1",
+  "definition": "O nome da taxa especifica a taxa de referência ou taxa de base em que assenta uma taxa variável (ex.: EONIA, EURIBOR, LIBOR, FEFUND, EURREPO).",
+  "isoElements": {
+    "Issuer": {
+      "definition": "Entidade que atribui a identificação."
+    },
+    "RateName": {
+      "definition": "O nome da taxa especifica a taxa de referência ou taxa de base em que assenta uma taxa variável (ex.: EONIA, EURIBOR, LIBOR, FEFUND, EURREPO)."
+    }
+  }
+}

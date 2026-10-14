@@ -1,0 +1,12 @@
+{
+  "isoType": "ReturnedStatus1",
+  "definition": "As unidades instruídas são devolvidas, total ou parcialmente, à parte que instrui.",
+  "isoElements": {
+    "ReturnedQuantity": {
+      "definition": "Quantidade de valores mobiliários que foram devolvidos."
+    },
+    "ReturnedReason": {
+      "definition": "Motivo do estado de pendente."
+    }
+  }
+}

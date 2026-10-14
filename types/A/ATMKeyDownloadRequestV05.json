@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMKeyDownloadRequestV05",
+  "definition": "A mensagem ATMKeyDownloadRequest é enviada por um ATM a um gestor de ATM para iniciar o descarregamento de uma ou várias chaves criptográficas."
+}

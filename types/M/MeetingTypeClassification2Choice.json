@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingTypeClassification2Choice",
+  "definition": "Escolha da classificação do tipo de assembleia.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de assembleia expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de assembleia expresso sob a forma de código proprietário."
+    }
+  }
+}

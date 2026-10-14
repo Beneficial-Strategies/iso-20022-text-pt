@@ -1,0 +1,23 @@
+{
+  "isoType": "LimitCriteria7",
+  "definition": "Define os critérios para extrair a informação sobre limites e o relatório de limites esperado. Pode ser atribuído um nome à nova consulta.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nome da consulta definida pelos critérios de pesquisa e pelos critérios de devolução."
+    },
+    "SearchCriteria": {
+      "definition": "Define os critérios para extrair a informação sobre limites."
+    },
+    "ReturnCriteria": {
+      "definition": "Define o relatório de limites esperado."
+    }
+  },
+  "isoRules": {
+    "LimitCriteriaGuideline": {
+      "definition": "Se for necessário um limite bilateral relativo a membros específicos do sistema, deve ser indicada a identificação da contraparte bilateral.|Por omissão, se não existir identificação da contraparte bilateral e for necessário o limite bilateral atual ou por omissão, são devolvidos todos os limites bilaterais com as respetivas identificações das contrapartes."
+    },
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Se ReturnCriteria não estiver presente, tem de estar presente pelo menos uma ocorrência de SearchCriteria. Se ReturnCriteria estiver presente, qualquer ocorrência de SearchCriteria é facultativa."
+    }
+  }
+}

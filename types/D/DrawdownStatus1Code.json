@@ -1,0 +1,18 @@
+{
+  "isoType": "DrawdownStatus1Code",
+  "definition": "Especifica um estado de levantamento progressivo (drawdown).",
+  "isoCodes": {
+    "FULL": {
+      "name": "Completo",
+      "definition": "A pensão encontra-se totalmente em levantamento progressivo (drawdown)."
+    },
+    "NONE": {
+      "name": "Nenhum",
+      "definition": "A pensão não se encontra em levantamento progressivo (drawdown)."
+    },
+    "PART": {
+      "name": "Parcial",
+      "definition": "A pensão encontra-se em levantamento progressivo (drawdown) parcial."
+    }
+  }
+}

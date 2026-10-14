@@ -1,0 +1,22 @@
+{
+  "isoType": "SecuritiesBalanceType10Code",
+  "definition": "Especifica o tipo de saldo de valores mobiliários.",
+  "isoCodes": {
+    "AVLB": {
+      "name": "Disponível",
+      "definition": "Saldo de dinheiro ou de valores mobiliários à disposição do titular da conta na data especificada."
+    },
+    "REST": {
+      "name": "Restrito",
+      "definition": "Saldo de numerário que só pode ser utilizado em determinadas condições.||O tipo de saldo é utilizado para bloquear valores mobiliários/numerário na conta do cliente, p. ex., em relação a eleições relativas a certas ações societárias. A posição está sob o controlo direto do agente pagador do sistema, que é o único que pode transferir valores mobiliários para fora deste tipo de saldo.|Também conhecido como \"saldo de garantia\" ou \"saldo sequestrado\"."
+    },
+    "RDIS": {
+      "name": "Reservado para distribuição",
+      "definition": "Saldo de instrumentos financeiros reservados para a distribuição do produto."
+    },
+    "RREM": {
+      "name": "Reservado para remoção",
+      "definition": "Saldo de valores mobiliários reservados temporariamente na conta do SPA antes de serem efetivamente trocados."
+    }
+  }
+}

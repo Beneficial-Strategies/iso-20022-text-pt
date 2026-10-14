@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchPaymentResponseV02",
+  "definition": "A mensagem AccountSwitchPaymentResponse é enviada pela nova instituição gestora da conta à anterior instituição gestora da conta para confirmar se efetuará o pagamento solicitado numa mensagem de pedido de pagamento. A mensagem AccountSwitchPaymentResponse só é utilizada para responder a uma mensagem AccountSwitchRequestPayment."
+}

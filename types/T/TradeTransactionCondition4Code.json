@@ -1,0 +1,94 @@
+{
+  "isoType": "TradeTransactionCondition4Code",
+  "definition": "Especifica as condições em que a ordem/negociação deve ser/foi executada.",
+  "isoCodes": {
+    "CBNS": {
+      "name": "Com bonificação",
+      "definition": "Indica se a negociação é executada com direito a bónus (cum bonus)."
+    },
+    "XBNS": {
+      "name": "Sem bonificação",
+      "definition": "Indica se a negociação é executada sem direito a bónus (ex bonus)."
+    },
+    "CCPN": {
+      "name": "Com cupão",
+      "definition": "Indica se a negociação é executada com cupão (cum coupon)."
+    },
+    "XCPN": {
+      "name": "Sem cupão",
+      "definition": "Indica se a negociação é executada sem cupão (ex coupon)."
+    },
+    "CDIV": {
+      "name": "Com dividendo",
+      "definition": "Indica se a negociação é executada com dividendo (cum dividend)."
+    },
+    "XDIV": {
+      "name": "Sem dividendo",
+      "definition": "Indica se a negociação é executada sem dividendo (ex dividend)."
+    },
+    "CRTS": {
+      "name": "Com direitos",
+      "definition": "Indica se a negociação é executada com direitos (cum rights)."
+    },
+    "XRTS": {
+      "name": "Sem direitos",
+      "definition": "Indica se a negociação é executada sem direitos (ex rights)."
+    },
+    "CWAR": {
+      "name": "Com warrant",
+      "definition": "Indica se a negociação é executada com warrant (cum warrant)."
+    },
+    "XWAR": {
+      "name": "Sem warrant",
+      "definition": "Indica se a negociação é executada sem warrant (ex warrant)."
+    },
+    "SPCU": {
+      "name": "Com dividendo especial",
+      "definition": "Indica se a negociação é executada com um dividendo especial cum |dividend, isto é, comprar após a data ex e receber o dividendo."
+    },
+    "SPEX": {
+      "name": "Sem dividendo especial",
+      "definition": "Indica se a negociação é executada com um dividendo especial ex |dividend, isto é, vender antes da data ex sem o cupão."
+    },
+    "GTDL": {
+      "name": "Entrega garantida",
+      "definition": "Indica se a entrega do instrumento financeiro na data de liquidação |está garantida."
+    },
+    "BCRO": {
+      "name": "Resultado da opção",
+      "definition": "Resultado da opção quando definido. (específico do UK)."
+    },
+    "BCRP": {
+      "name": "Resultado da operação de reporte",
+      "definition": "Resultado do repo quando definido (específico do UK)."
+    },
+    "BCFD": {
+      "name": "Forma de entrega",
+      "definition": "Forma de entrega, não para registo estrangeiro quando não definido (específico do UK)."
+    },
+    "BCBL": {
+      "name": "Lote padrão",
+      "definition": "Lotes-padrão (board lots), não definido para lotes fracionados (específico do UK)."
+    },
+    "BCBN": {
+      "name": "Nome inválido",
+      "definition": "Nomes desfavoráveis (bad names), não definido para bons nomes (específico do UK)."
+    },
+    "MAPR": {
+      "name": "Preço de mercado",
+      "definition": "A negociação foi executada ao preço de mercado."
+    },
+    "NEGO": {
+      "name": "Operação negociada",
+      "definition": "Negociação cujo preço não é o cotado, mas um preço melhorado, isto é, o preço negociado."
+    },
+    "NMPR": {
+      "name": "Preço fora de mercado",
+      "definition": "A negociação foi executada fora das condições normais de mercado, por exemplo, no caso de uma ordem iceberg."
+    },
+    "BCPD": {
+      "name": "País de constituição do entregador",
+      "definition": "Local de entrega, no país de constituição quando não definido (específico do UK)."
+    }
+  }
+}

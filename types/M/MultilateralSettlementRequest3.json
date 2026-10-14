@@ -1,0 +1,27 @@
+{
+  "isoType": "MultilateralSettlementRequest3",
+  "definition": "Fornece detalhes específicos da(s) instrução(ões) de liquidação individual(is) incluída(s) na mensagem.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identificação única, atribuída pelo agente instrutor e enviada à infraestrutura de mercado, para identificar inequivocamente a instrução.||Utilização: A identificação da instrução é uma referência ponto a ponto que pode ser utilizada entre o agente instrutor e a infraestrutura de mercado para referir a instrução individual. Pode ser incluída em várias mensagens relacionadas com a instrução."
+    },
+    "InstructionPriority": {
+      "definition": "Indicador da urgência ou da ordem de importância que o agente instrutor pretende que a infraestrutura de mercado aplique ao tratamento da instrução.||Utilização: A prática de mercado ou um acordo bilateral devem especificar como este elemento deve ser utilizado. Se este elemento não for preenchido e não existir orientação de mercado nem acordo bilateral, a prioridade será considerada 'Normal'."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Fornece informações sobre o(s) momento(s) de liquidação solicitado(s) da instrução."
+    },
+    "SettlementPriority": {
+      "definition": "Indicador da urgência ou da ordem de importância que o agente instrutor pretende que a infraestrutura de mercado aplique ao tratamento da instrução de liquidação.||Utilização: A prática de mercado ou um acordo bilateral devem especificar como este elemento deve ser utilizado. Se este elemento não for preenchido e não existir orientação de mercado nem acordo bilateral, a prioridade será considerada 'Normal'."
+    },
+    "SettlementCycle": {
+      "definition": "Identificação do ciclo de liquidação no serviço de liquidação.||Utilização: SettlementCycle é utilizado para distinguir esta liquidação multilateral de outras liquidações multilaterais em que ocorra mais do que uma num determinado período de tempo."
+    },
+    "NumberOfMovementRecords": {
+      "definition": "Indicador do número de registos de movimento contidos num pedido de liquidação individual."
+    },
+    "MovementRecord": {
+      "definition": "Operação de crédito ou de débito contida num pedido de liquidação individual.||Utilização: A soma de todos os montantes (registos de débito e de crédito) deve resultar em zero quando é utilizada a liquidação líquida."
+    }
+  }
+}

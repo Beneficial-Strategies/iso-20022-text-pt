@@ -1,0 +1,9 @@
+{
+  "isoType": "SecuritiesFinancingStatusAdviceV11",
+  "definition": "Âmbito|Uma instituição gestora da conta de operações de financiamento de valores mobiliários envia um SecuritiesFinancingStatusAdvice a um titular da conta para o informar do estado de uma operação de financiamento de valores mobiliários anteriormente instruída pelo titular da conta.|O aviso de estado pode ser enviado em resposta ao pedido do titular da conta ou não.|A relação entre a instituição gestora da conta e o titular da conta pode ser:|- um depositário central de valores mobiliários ou outra infraestrutura de mercado de liquidação que gere operações de financiamento de valores mobiliários em nome dos seus participantes|- um agente (subcustodiante) que gere operações de financiamento de valores mobiliários em nome do seu cliente custodiante global, ou|- um custodiante que gere operações de financiamento de valores mobiliários em nome de uma instituição de gestão de investimentos ou de um corretor/negociador.||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente,|- fornecer a um terceiro uma cópia de uma mensagem a título informativo,|- reenviar a um terceiro uma cópia de uma mensagem a título informativo utilizando os elementos relevantes do Business Application Header.",
+  "isoRules": {
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Se SettlementStatus estiver presente isoladamente, então significa que a operação está correspondida (se existir um processo de correspondência no mercado em causa ou na instituição gestora da conta em causa)."
+    }
+  }
+}

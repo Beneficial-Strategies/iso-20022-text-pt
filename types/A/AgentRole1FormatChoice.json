@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentRole1FormatChoice",
+  "definition": "Escolha de formatos para expressar a função do agente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar a função do agente."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para expressar a função do agente."
+    }
+  }
+}

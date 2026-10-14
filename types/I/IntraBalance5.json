@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraBalance5",
+  "definition": "Detalhes do movimento entre saldos.",
+  "isoElements": {
+    "SettlementAmount": {
+      "definition": "Montante total em dinheiro a liquidar."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora em que o montante em dinheiro deve ser movimentado."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo a partir do qual o montante em dinheiro é movimentado."
+    },
+    "BalanceTo": {
+      "definition": "Saldo para o qual o montante em dinheiro é movimentado."
+    },
+    "CashSubBalanceIdentification": {
+      "definition": "Número que identifica um lote que constitui o subsaldo."
+    },
+    "Priority": {
+      "definition": "Especifica se a operação deve ser executada com prioridade elevada."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fornece informações adicionais de processamento da liquidação que não podem ser incluídas nos campos estruturados da mensagem."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acordo bilateral entre o remetente e o destinatário, se InstructionProcessingAdditionalDetails estiver presente, não deve conter informações que possam ser fornecidas num campo estruturado."
+    },
+    "BalanceFromToRule": {
+      "definition": "O tipo de saldo de caixa de BalanceFrom deve ser diferente do tipo de saldo de caixa de BalanceTo."
+    }
+  }
+}

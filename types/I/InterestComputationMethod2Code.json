@@ -1,0 +1,66 @@
+{
+  "isoType": "InterestComputationMethod2Code",
+  "definition": "Especifica o método utilizado para calcular os juros corridos de um instrumento financeiro.",
+  "isoCodes": {
+    "A001": {
+      "name": "30/360 ISDA ou regra base americana 30/360",
+      "definition": "Método segundo o qual os juros são calculados com base num mês de 30 dias e num ano de 360 dias. Os juros corridos até uma data-valor que seja o último dia de um mês são iguais aos calculados até ao 30.º dia do calendário do mesmo mês, exceto em fevereiro, e desde que o período de juros tenha começado no dia 30 ou 31. Isto significa que o dia 31 é considerado como dia 30 se o período tiver começado no dia 30 ou 31 e que 28 de fevereiro (ou 29 de fevereiro num ano bissexto) é considerado como dia 28 (ou 29). Este é o método 30/360 mais utilizado para obrigações simples e convertíveis dos US."
+    },
+    "A002": {
+      "name": "30/365",
+      "definition": "Método segundo o qual os juros são calculados com base num mês de 30 dias, de forma semelhante ao 30/360 (regra básica), e num ano de 365 dias. Os juros corridos até uma data-valor que seja o último dia de um mês são iguais aos calculados até ao 30.º dia do calendário do mesmo mês, exceto em fevereiro. Isto significa que o dia 31 é considerado como dia 30 e que 28 de fevereiro (ou 29 de fevereiro num ano bissexto) é considerado como dia 28 (ou 29)."
+    },
+    "A003": {
+      "name": "30/Real",
+      "definition": "Método segundo o qual os juros são calculados com base num mês de 30 dias, de forma semelhante ao 30/360 (regra básica), e o número presumido de dias de um ano, de forma semelhante ao Actual/Actual (ICMA). Os juros corridos até uma data-valor que seja o último dia de um mês são iguais aos calculados até ao 30.º dia do calendário do mesmo mês, exceto em fevereiro. Isto significa que o dia 31 é considerado como dia 30 e que 28 de fevereiro (ou 29 de fevereiro num ano bissexto) é considerado como dia 28 (ou 29). O número presumido de dias de um ano é calculado como o número efetivo de dias do período do cupão multiplicado pelo número de pagamentos de juros no ano."
+    },
+    "A004": {
+      "name": "Real/360",
+      "definition": "Método segundo o qual os juros são calculados com base no número efetivo de dias corridos do período de juros e num ano de 360 dias."
+    },
+    "A005": {
+      "name": "Real/365 fixo",
+      "definition": "Método segundo o qual os juros são calculados com base no número efetivo de dias corridos do período de juros e num ano de 365 dias."
+    },
+    "A006": {
+      "name": "Real/Real ICMA",
+      "definition": "Método segundo o qual os juros são calculados com base no número efetivo de dias corridos e no número presumido de dias de um ano, isto é, o número efetivo de dias do período do cupão multiplicado pelo número de pagamentos de juros no ano. Se o período do cupão for irregular (primeiro ou último cupão), é alargado ou dividido em quase-períodos de juros com a duração de um período de cupão regular, o cálculo é efetuado separadamente em cada quase-período de juros e os resultados intermédios são somados."
+    },
+    "A007": {
+      "name": "30E/360 ou base Eurobond modelo 1",
+      "definition": "Método segundo o qual os juros são calculados com base num mês de 30 dias e num ano de 360 dias. Os juros corridos até uma data-valor que seja o último dia de um mês são iguais aos calculados até ao 30.º dia do calendário do mesmo mês. Isto significa que o dia 31 é considerado como dia 30 e que 28 de fevereiro (ou 29 de fevereiro num ano bissexto) é considerado equivalente a 30 de fevereiro. No entanto, se o último dia do período do cupão de vencimento for o último dia de fevereiro, não será considerado como dia 30. É uma variante do método 30/360 (ICMA), habitualmente utilizada para eurobonds. A utilização desta variante só é relevante quando os períodos do cupão estão programados para terminar no último dia do mês."
+    },
+    "A008": {
+      "name": "Real/Real ISDA",
+      "definition": "Método segundo o qual os juros são calculados com base no número efetivo de dias corridos do período de juros que recaem (num ano normal, ano) divididos por 365, acrescido do número efetivo de dias do período de juros que recaem (num ano bissexto, ano) divididos por 366."
+    },
+    "A009": {
+      "name": "Real/365L ou regra de base Real/Real",
+      "definition": "Método segundo o qual os juros são calculados com base no número efetivo de dias corridos e num ano de 365 dias (se a data de pagamento do cupão NÃO se situar num ano bissexto) ou num ano de 366 dias (se a data de pagamento do cupão se situar num ano bissexto)."
+    },
+    "A010": {
+      "name": "Real/Real AFB",
+      "definition": "Método segundo o qual os juros são calculados com base no número efetivo de dias corridos e num ano de 366 dias (se 29 de fevereiro recair no período do cupão) ou num ano de 365 dias (se 29 de fevereiro não recair no período do cupão). Se um período de cupão for superior a um ano, é dividido separando repetidamente subperíodos de ano inteiro, contando a partir do fim do período do cupão para trás (um ano antes de 28 de fevereiro é 29 de fevereiro, se existir). O primeiro dos subperíodos começa na data de início do período de juros corridos e, por conseguinte, pode ser inferior a um ano. O cálculo dos juros é depois efetuado separadamente em cada subperíodo e os resultados intermédios são somados."
+    },
+    "A011": {
+      "name": "30/360 ICMA ou regra base 30/360",
+      "definition": "Método segundo o qual os juros são calculados com base num mês de 30 dias e num ano de 360 dias. Os juros corridos até uma data-valor que seja o último dia de um mês são iguais aos calculados até ao 30.º dia do calendário do mesmo mês, exceto em fevereiro. Isto significa que o dia 31 é considerado como dia 30 e que 28 de fevereiro (ou 29 de fevereiro num ano bissexto) é considerado como dia 28 (ou 29). É o método 30/360 mais utilizado para obrigações simples e convertíveis não norte-americanas emitidas antes de 1 de janeiro de 1999 (US)."
+    },
+    "A012": {
+      "name": "30E2/360 ou base Eurobond modelo 2",
+      "definition": "Método segundo o qual os juros são calculados com base num mês de 30 dias e num ano de 360 dias. Os juros corridos até uma data-valor que seja o último dia de um mês são iguais aos calculados até ao 30.º dia do calendário do mesmo mês, exceto no último dia de fevereiro, cujo valor do dia do mês deve ser adaptado ao valor do primeiro dia do período de juros, se este for superior e se o período fizer parte de um calendário regular. Isto significa que o dia 31 é considerado como dia 30 e que 28 de fevereiro de um ano não bissexto é considerado equivalente a 29 de fevereiro quando o primeiro dia do período de juros é o dia 29, ou a 30 de fevereiro quando o primeiro dia do período de juros é o dia 30 ou 31. O dia 29 de fevereiro de um ano bissexto é considerado equivalente a 30 de fevereiro quando o primeiro dia do período de juros é o dia 30 ou 31. Do mesmo modo, se o período do cupão começar no último dia de fevereiro, considera-se que gera apenas um dia de juros em fevereiro, como se começasse em 30 de fevereiro, quando o fim do período é o dia 30 ou 31, ou dois dias de juros em fevereiro quando o fim do período é o dia 29, ou três dias de juros em fevereiro quando é 28 de fevereiro de um ano não bissexto e o fim do período é anterior ao dia 29."
+    },
+    "A013": {
+      "name": "30E3/360 ou base Eurobond modelo 3",
+      "definition": "Método segundo o qual os juros são calculados com base num mês de 30 dias e num ano de 360 dias. Os juros corridos até uma data-valor que seja o último dia de um mês são iguais aos calculados até ao 30.º dia do calendário do mesmo mês. Isto significa que o dia 31 é considerado como dia 30 e que 28 de fevereiro (ou 29 de fevereiro num ano bissexto) é considerado equivalente a 30 de fevereiro. É uma variante do método 30E/360 (ou base eurobond) em que o último dia de fevereiro é sempre considerado como dia 30, mesmo que seja o último dia do período do cupão de vencimento."
+    },
+    "A014": {
+      "name": "Real/365 NL",
+      "definition": "Método segundo o qual os juros são calculados com base no número efetivo de dias corridos do período de juros, excluindo da contagem qualquer dia bissexto, e num ano de 365 dias."
+    },
+    "NARR": {
+      "name": "Descritivo",
+      "definition": "Outro método diferente de A001-A020. Ver Narrative."
+    }
+  }
+}

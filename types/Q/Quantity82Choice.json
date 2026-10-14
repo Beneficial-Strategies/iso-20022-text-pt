@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity82Choice",
+  "definition": "Quantidade total de valores mobiliários a transferir, expressa em número de unidades ou em taxa percentual.",
+  "isoElements": {
+    "TotalUnitsNumber": {
+      "definition": "Quantidade total de valores mobiliários a transferir."
+    },
+    "TransferRate": {
+      "definition": "Quantidade de valores mobiliários a transferir, como percentagem da posição."
+    }
+  }
+}

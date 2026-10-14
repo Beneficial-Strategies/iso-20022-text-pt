@@ -1,0 +1,14 @@
+{
+  "isoType": "MarketClientSide1Code",
+  "definition": "Especifica se uma instrução diz respeito a uma operação do lado do mercado ou do lado do cliente.",
+  "isoCodes": {
+    "CLNT": {
+      "name": "Lado do cliente",
+      "definition": "A instrução diz respeito a uma operação do lado do cliente."
+    },
+    "MAKT": {
+      "name": "Lado do mercado",
+      "definition": "A instrução diz respeito a uma operação do lado do mercado."
+    }
+  }
+}

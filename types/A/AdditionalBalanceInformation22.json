@@ -1,0 +1,23 @@
+{
+  "isoType": "AdditionalBalanceInformation22",
+  "definition": "Subsaldos que fornecem informações adicionais sobre uma posição específica mas que não devem ser contabilizados na formação do saldo agregado, por exemplo, registado.",
+  "isoElements": {
+    "SubBalanceType": {
+      "definition": "Motivo do subsaldo."
+    },
+    "Quantity": {
+      "definition": "Quantidade de valores mobiliários no subsaldo."
+    },
+    "SubBalanceAdditionalDetails": {
+      "definition": "Fornece informações adicionais sobre o subsaldo."
+    }
+  },
+  "isoRules": {
+    "SubBalanceAdditionalDetailsRule": {
+      "definition": "Salvo acordo bilateral entre o remetente e o destinatário, se SubBalanceAdditionnalDetails for utilizado, não deve conter informação que possa ser fornecida num campo estruturado."
+    },
+    "EligibleForCollateralPurposesRule": {
+      "definition": "Se o tipo de subsaldo for EligibleForCollateralPurposes, então QuantityAndAvailability não pode ser utilizado."
+    }
+  }
+}

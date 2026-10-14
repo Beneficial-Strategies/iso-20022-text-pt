@@ -1,0 +1,18 @@
+{
+  "isoType": "ReferredMandateDocument2",
+  "definition": "Identifica os documentos referidos nas informações de remessa.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo de documento referido."
+    },
+    "Number": {
+      "definition": "Identificação única e inequívoca do documento referido."
+    },
+    "CreditorReference": {
+      "definition": "Identificação única e inequívoca, atribuída pelo credor ao documento referido partilhado com o devedor, para referência própria."
+    },
+    "RelatedDate": {
+      "definition": "Data e tipo associados ao documento referido."
+    }
+  }
+}

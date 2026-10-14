@@ -1,0 +1,51 @@
+{
+  "isoType": "CustomerAccount5",
+  "definition": "Conta pertencente a um cliente.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação da conta."
+    },
+    "Name": {
+      "definition": "Nome da conta. Constitui um meio adicional de identificação e é designado pela instituição gestora da conta de acordo com o titular da conta."
+    },
+    "Status": {
+      "definition": "Especifica o estado atual de uma conta, por exemplo, ativada ou eliminada."
+    },
+    "Type": {
+      "definition": "Tipo da conta."
+    },
+    "Currency": {
+      "definition": "Meio de troca de valor."
+    },
+    "MonthlyPaymentValue": {
+      "definition": "Média mensal dos montantes dos pagamentos (isto é, pagamentos de saída) ao longo de um ano."
+    },
+    "MonthlyReceivedValue": {
+      "definition": "Média mensal dos montantes recebidos ao longo de um ano (isto é, pagamentos de entrada)."
+    },
+    "MonthlyTransactionNumber": {
+      "definition": "Média mensal do número de pagamentos (de entrada e de saída) ao longo de um ano."
+    },
+    "AverageBalance": {
+      "definition": "Soma dos saldos de fim de dia ao longo de um mês dividida pelo número de dias úteis do mês."
+    },
+    "AccountPurpose": {
+      "definition": "Especifica a finalidade da conta."
+    },
+    "FloorNotificationAmount": {
+      "definition": "Especifica o valor do saldo abaixo do qual será enviada uma notificação ao titular da conta."
+    },
+    "CeilingNotificationAmount": {
+      "definition": "Especifica o valor do saldo acima do qual será enviada uma notificação ao titular da conta."
+    },
+    "StatementFrequencyAndFormat": {
+      "definition": "Especifica com que frequência, em que formato e para que endereço serão enviados os extratos (para efeitos de auditoria)."
+    },
+    "ClosingDate": {
+      "definition": "Data em que a conta será ou foi encerrada."
+    },
+    "Restriction": {
+      "definition": "Restrição quanto à capacidade ou às operações permitidas."
+    }
+  }
+}

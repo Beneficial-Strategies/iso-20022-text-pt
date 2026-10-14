@@ -1,0 +1,12 @@
+{
+  "isoType": "FailedSettlementReason1FormatChoice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o motivo de uma falha de liquidação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o motivo de uma falha de liquidação."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para especificar o motivo de uma falha de liquidação."
+    }
+  }
+}

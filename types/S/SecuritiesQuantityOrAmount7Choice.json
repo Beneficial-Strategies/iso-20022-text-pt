@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesQuantityOrAmount7Choice",
+  "definition": "Escolha entre quantidades de valores mobiliários ou um montante.",
+  "isoElements": {
+    "SecuritiesQuantity": {
+      "definition": "Fornece informações sobre a quantidade de valores mobiliários associada a uma opção de operação sobre títulos."
+    },
+    "InstructedAmount": {
+      "definition": "Montante em numerário a instruir."
+    }
+  }
+}

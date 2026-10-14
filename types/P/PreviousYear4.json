@@ -1,0 +1,17 @@
+{
+  "isoType": "PreviousYear4",
+  "definition": "Informações sobre planos de investimento emitidos em anos anteriores.",
+  "isoElements": {
+    "PreviousYears": {
+      "definition": "Planos de investimento emitidos em anos anteriores."
+    },
+    "CashComponentIndicator": {
+      "definition": "Indica se o produto contém um ativo em numerário de anos anteriores para transferência."
+    }
+  },
+  "isoRules": {
+    "SpecificPreviousYearsGuideline": {
+      "definition": "SpecificPreviousYears não pode conter o ano em curso."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification27",
+  "definition": "Informações relacionadas com uma identificação, por exemplo, a identificação de uma parte ou a identificação de uma conta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação atribuída por uma instituição."
+    },
+    "SchemeName": {
+      "definition": "Nome do esquema de identificação."
+    },
+    "Issuer": {
+      "definition": "Entidade que atribui a identificação."
+    }
+  }
+}

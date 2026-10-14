@@ -1,0 +1,10 @@
+{
+  "isoType": "RateValueType7Code",
+  "definition": "Especifica o valor de uma taxa.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "A taxa é desconhecida do remetente ou não foi estabelecida."
+    }
+  }
+}

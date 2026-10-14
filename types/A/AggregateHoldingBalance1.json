@@ -1,0 +1,21 @@
+{
+  "isoType": "AggregateHoldingBalance1",
+  "definition": "Posição global, num único instrumento financeiro, detida numa conta de valores mobiliários num determinado local de custódia.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificação do instrumento financeiro para o qual a informação de saldo é especificada."
+    },
+    "HoldingForm": {
+      "definition": "Forma de titularidade da posição."
+    },
+    "HoldingPhysicalType": {
+      "definition": "Especifica se a posição é entregue fisicamente ou se existe apenas como registo escritural."
+    },
+    "BalanceForFinancialInstrument": {
+      "definition": "Discriminação do saldo da posição líquida do instrumento financeiro."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  }
+}

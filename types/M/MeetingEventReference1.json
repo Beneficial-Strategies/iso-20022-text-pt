@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingEventReference1",
+  "definition": "Identificação de um evento de assembleia ligado.",
+  "isoElements": {
+    "EventIdentification": {
+      "definition": "Identificação do evento de assembleia ligado."
+    },
+    "LinkageType": {
+      "definition": "Especifica quando o evento deve ser tratado relativamente ao evento ligado."
+    }
+  }
+}

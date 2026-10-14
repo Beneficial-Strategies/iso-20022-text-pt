@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndAmount2",
+  "definition": "Data e montante.",
+  "isoElements": {
+    "Date": {
+      "definition": "Data em que o montante é declarado ou registado."
+    },
+    "Amount": {
+      "definition": "Montante em dinheiro."
+    }
+  }
+}

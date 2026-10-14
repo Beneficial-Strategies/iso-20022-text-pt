@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountToAmountRatio3",
+  "definition": "Rácio expresso como quociente de montantes.",
+  "isoElements": {
+    "Amount1": {
+      "definition": "Numerador do quociente de montantes."
+    },
+    "Amount2": {
+      "definition": "Denominador do quociente de montantes."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "Intermediary29",
+  "definition": "Parte que presta serviços aos investidores relativos a produtos financeiros.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco do intermediário."
+    },
+    "Role": {
+      "definition": "Função desempenhada pelo intermediário."
+    },
+    "OrderOriginatorEligibility": {
+      "definition": "Elegibilidade das contrapartes, conforme definida no artigo 24.º da Diretiva MiFID da EU, aplicável às operações executadas por empresas de investimento para contrapartes elegíveis."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "OrderOriginatorEligibility1Rule": {
+      "definition": "OrderOriginatorEligibility só pode estar presente se Role for UCL1 ou UCL2."
+    }
+  }
+}

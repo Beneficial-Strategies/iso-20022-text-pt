@@ -1,0 +1,42 @@
+{
+  "isoType": "RejectionReason35Code",
+  "definition": "Especifica o motivo pelo qual o pedido de instrução/cancelamento tem o estado de rejeitado.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Conta de numerário",
+      "definition": "Conta de numerário não reconhecida ou inválida."
+    },
+    "ADEA": {
+      "name": "Prazo da instituição gestora da conta não cumprido",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "REFE": {
+      "name": "Rejeição da referência",
+      "definition": "A instrução tem uma referência idêntica à de outra instrução recebida anteriormente."
+    },
+    "LATE": {
+      "name": "Prazo do mercado não cumprido",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "DDAT": {
+      "name": "Rejeição da data de liquidação",
+      "definition": "Data de liquidação não reconhecida ou inválida."
+    },
+    "NRGN": {
+      "name": "Rejeição por não encontrado",
+      "definition": "Não foi possível encontrar a instrução."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "INVM": {
+      "name": "Pedido de modificação inválido",
+      "definition": "Pedido de modificação inválido ou não reconhecido."
+    },
+    "INVL": {
+      "name": "Associação inválida",
+      "definition": "Associação inválida ou não reconhecida."
+    }
+  }
+}

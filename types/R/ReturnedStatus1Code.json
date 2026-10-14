@@ -1,0 +1,14 @@
+{
+  "isoType": "ReturnedStatus1Code",
+  "definition": "Especifica o motivo pelo qual a instrução/pedido de cancelamento tem um estado devolvido.",
+  "isoCodes": {
+    "NARR": {
+      "name": "Motivo em texto livre",
+      "definition": "Ver o motivo no campo narrativo."
+    },
+    "PROR": {
+      "name": "Proporcional",
+      "definition": "Ações devolvidas devido a aceitação proporcional."
+    }
+  }
+}

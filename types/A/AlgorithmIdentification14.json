@@ -1,0 +1,12 @@
+{
+  "isoType": "AlgorithmIdentification14",
+  "definition": "Algoritmo criptográfico e parâmetros para cifras com uma chave criptográfica simétrica.",
+  "isoElements": {
+    "Algorithm": {
+      "definition": "Identificação do algoritmo de cifra."
+    },
+    "Parameter": {
+      "definition": "Parâmetros associados ao algoritmo de cifra CBC (Chain Block Chaining)."
+    }
+  }
+}

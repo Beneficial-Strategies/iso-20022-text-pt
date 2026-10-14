@@ -1,0 +1,14 @@
+{
+  "isoType": "ReportIndicator1Code",
+  "definition": "Especifica a natureza do relatório, ou seja, normalizado ou proprietário.",
+  "isoCodes": {
+    "STND": {
+      "name": "Padrão",
+      "definition": "O relatório solicitado deve conter informações no formato de um extrato."
+    },
+    "PRPR": {
+      "name": "Proprietário",
+      "definition": "O relatório solicitado deve conter informações num formato acordado bilateralmente."
+    }
+  }
+}

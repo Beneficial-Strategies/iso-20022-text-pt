@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestmentFundTransactionOutType1Choice",
+  "definition": "Escolha de formatos para o tipo de operação de saída.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de operação expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de operação expresso sob a forma de código proprietário."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "isoType": "ATMSecurityScheme3Code",
+  "definition": "Esquema de segurança de troca de chaves ativo no ATM para o gestor do anfitrião.",
+  "isoCodes": {
+    "APPK": {
+      "name": "Carregamento remoto de chave de aplicação",
+      "definition": "Descarregamento de chave de aplicação protegido por uma chave simétrica partilhada."
+    },
+    "CERT": {
+      "name": "Carregamento remoto de chave por certificado",
+      "definition": "Descarregamento de chave protegido por chaves assimétricas autenticadas por um certificado."
+    },
+    "FRAN": {
+      "name": "Carregamento remoto de chave francês",
+      "definition": "Descarregamento de chave conforme ao esquema de segurança francês de descarregamento de chaves de ATM."
+    },
+    "DTCH": {
+      "name": "Carregamento remoto de chave alemão",
+      "definition": "Descarregamento de chave conforme ao esquema de segurança alemão de descarregamento de chaves de ATM."
+    },
+    "LUXG": {
+      "name": "Carregamento remoto de chave luxemburguês",
+      "definition": "Descarregamento de chave conforme ao esquema de segurança luxemburguês de descarregamento de chaves de ATM."
+    },
+    "MANU": {
+      "name": "Introdução manual de chave",
+      "definition": "Introdução manual de chave no ATM."
+    },
+    "PKIP": {
+      "name": "Descarregamento de chave PKI",
+      "definition": "Descarregamento de chave protegido por chaves assimétricas autenticadas por uma PKI (infraestrutura de chave pública)."
+    },
+    "SIGN": {
+      "name": "Carregamento remoto de chave por assinatura",
+      "definition": "Descarregamento de chave protegido por chaves assimétricas autenticadas por uma assinatura digital."
+    },
+    "NONE": {
+      "name": "Não inicializado",
+      "definition": "Sem troca de chaves, nenhum esquema de segurança definido."
+    },
+    "TR34": {
+      "name": "TR34",
+      "definition": "Esquema ANSI X9 TR34 2012 para a distribuição das chaves públicas simétricas e da chave mestra inicial."
+    }
+  }
+}

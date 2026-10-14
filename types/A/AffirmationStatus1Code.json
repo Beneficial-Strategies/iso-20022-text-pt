@@ -1,0 +1,14 @@
+{
+  "isoType": "AffirmationStatus1Code",
+  "definition": "Especifica o estado de afirmação de uma negociação.",
+  "isoCodes": {
+    "AFFI": {
+      "name": "Afirmado",
+      "definition": "O estado da operação é afirmado."
+    },
+    "NAFI": {
+      "name": "Não afirmado",
+      "definition": "O estado da operação é não afirmado."
+    }
+  }
+}

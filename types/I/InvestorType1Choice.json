@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestorType1Choice",
+  "definition": "Escolha do formato do tipo de investidor.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de investidor expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de investidor expresso como um código proprietário."
+    }
+  }
+}

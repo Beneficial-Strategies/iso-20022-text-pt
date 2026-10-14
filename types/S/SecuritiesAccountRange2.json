@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAccountRange2",
+  "definition": "Especifica um intervalo de contas de valores mobiliários.",
+  "isoElements": {
+    "From": {
+      "definition": "Número ou código da conta de valores mobiliários em que o intervalo começa."
+    },
+    "To": {
+      "definition": "Número ou código da conta de valores mobiliários em que o intervalo termina."
+    }
+  }
+}

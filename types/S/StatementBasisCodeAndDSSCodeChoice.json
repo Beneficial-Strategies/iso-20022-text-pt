@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementBasisCodeAndDSSCodeChoice",
+  "definition": "Escolha entre formatos para a base do extrato.",
+  "isoElements": {
+    "StatementBasisAsCode": {
+      "definition": "Base do extrato expressa como um código."
+    },
+    "StatementBasisAsDSS": {
+      "definition": "Base do extrato expressa como um esquema da fonte de dados e um código utilizado nesse esquema."
+    }
+  }
+}

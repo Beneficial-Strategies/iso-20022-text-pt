@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionFrequencyType1Code",
+  "definition": "Especifica a periodicidade de um evento de CA.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Final",
+      "definition": "Pagamento de um dividendo, deduzidos os montantes já pagos através de dividendos intercalares."
+    },
+    "INTE": {
+      "name": "Intercalar",
+      "definition": "Dividendo declarado e pago antes de os resultados anuais terem sido determinados."
+    },
+    "REGR": {
+      "name": "Regular",
+      "definition": "Dividendo pago a intervalos regulares, por exemplo, trimestralmente."
+    },
+    "SPEC": {
+      "name": "Especial",
+      "definition": "Dividendo adicional ao dividendo regular pago pela sociedade."
+    }
+  }
+}

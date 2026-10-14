@@ -1,0 +1,12 @@
+{
+  "isoType": "Limit10",
+  "definition": "Pormenores sobre os limites.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante do limite, expresso numa moeda elegível."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica se um limite é um limite de débito ou de crédito."
+    }
+  }
+}

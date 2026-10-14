@@ -1,0 +1,38 @@
+{
+  "isoType": "OptionFeatures1Code",
+  "definition": "Especifica a característica de uma opção.",
+  "isoCodes": {
+    "COND": {
+      "name": "Condicional",
+      "definition": "Característica pela qual o detentor pode optar por impor uma condição à aceitação da opção."
+    },
+    "MAXC": {
+      "name": "Numerário máximo",
+      "definition": "Opção de numerário máximo, que pode estar sujeita a redução proporcional, pelo que pode receber-se uma combinação de numerário e valores mobiliários como resultado."
+    },
+    "MAXS": {
+      "name": "Valores mobiliários máximos",
+      "definition": "Opção de ações máxima, que pode estar sujeita a redução proporcional, pelo que pode receber-se uma combinação de valores mobiliários e numerário como resultado."
+    },
+    "OPLF": {
+      "name": "Preferência por lote irregular",
+      "definition": "Oferta ou troca com preferência para lotes incompletos."
+    },
+    "PROR": {
+      "name": "Rateio",
+      "definition": "Característica pela qual a opção pode estar sujeita a rateio em caso, por exemplo, de excesso de subscrição."
+    },
+    "QOVE": {
+      "name": "Em acréscimo",
+      "definition": "Característica através da qual o titular pode optar por receber uma quantidade acima do direito normal garantido."
+    },
+    "QREC": {
+      "name": "Quantidade a receber",
+      "definition": "Característica através da qual o titular pode optar por receber uma quantidade."
+    },
+    "VVPR": {
+      "name": "Retenção na fonte reduzida",
+      "definition": "Aplica-se à opção uma taxa reduzida de imposto retido na fonte."
+    }
+  }
+}

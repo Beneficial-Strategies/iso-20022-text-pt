@@ -1,0 +1,18 @@
+{
+  "isoType": "NetCashForecast5",
+  "definition": "Movimento líquido de numerário para um fundo em resultado de operações de fundos de investimento.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Data em que o numerário está disponível."
+    },
+    "NetAmount": {
+      "definition": "Montante líquido do fluxo de caixa, expresso como um montante em dinheiro."
+    },
+    "NetUnitsNumber": {
+      "definition": "Montante líquido, expresso como um número de unidades."
+    },
+    "FlowDirection": {
+      "definition": "Especifica o sentido do fluxo de caixa na perspetiva do fundo."
+    }
+  }
+}

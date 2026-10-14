@@ -1,0 +1,15 @@
+{
+  "isoType": "ProcessingStatus95Choice",
+  "definition": "Escolha do formato do estado de tratamento.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "A instrução foi confirmada pela instituição gestora da conta."
+    },
+    "Rejected": {
+      "definition": "A instrução/pedido foi rejeitada para processamento posterior."
+    },
+    "Proprietary": {
+      "definition": "Estado que não pode ser reportado através de um dos estados padrão disponíveis."
+    }
+  }
+}

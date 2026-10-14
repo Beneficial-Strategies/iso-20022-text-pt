@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason15",
+  "definition": "Especifica o motivo pelo qual a instrução ou o pedido é cancelado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução é cancelada."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser fornecidas num campo estruturado."
+    }
+  }
+}

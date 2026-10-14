@@ -1,0 +1,32 @@
+{
+  "isoType": "Transaction159",
+  "definition": "Informações relacionadas com a operação de pagamento.",
+  "isoElements": {
+    "PaymentTo": {
+      "definition": "Destino do pagamento (seja um membro, um sistema ou ambos)."
+    },
+    "PaymentFrom": {
+      "definition": "Origem do pagamento (seja um membro, um sistema ou ambos)."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se a operação de pagamento é uma operação a débito ou a crédito. |."
+    },
+    "Payment": {
+      "definition": "Instrução para pagar um montante de dinheiro a um beneficiário final, por conta de um ordenante. Esta instrução pode ter de ser reencaminhada várias vezes para completar a cadeia de liquidação."
+    },
+    "AccountEntry": {
+      "definition": "Lançamento de um item numa conta de caixa, no contexto de uma operação de caixa, que resulta num aumento ou diminuição do saldo da conta."
+    },
+    "SecuritiesTransactionReferences": {
+      "definition": "Fornece as referências da operação sobre valores mobiliários subjacente."
+    }
+  },
+  "isoRules": {
+    "CreditDebitIndicatorGuideline": {
+      "definition": "O CreditDebitIndicator pode ser omitido por razões de otimização se o CreditDebitIndicator for utilizado nos critérios de pesquisa da consulta associada."
+    },
+    "TransactionCreditDebitIndicatorRule": {
+      "definition": "Se CreditDebitIndicator estiver presente, então AccountEntry/Entry/Amount ou Payment/InstructedAmount ou Payment/InterbankSettlementAmount tem de estar presente.|Se CreditDebitIndicator não estiver presente, então qualquer um dos elementos de mensagem da lista (AccountEntry/Entry/Amount, Payment/InstructedAmount, Payment/InterbankSettlementAmount) é opcional."
+    }
+  }
+}

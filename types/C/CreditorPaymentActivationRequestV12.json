@@ -1,0 +1,9 @@
+{
+  "isoType": "CreditorPaymentActivationRequestV12",
+  "definition": "A mensagem CreditorPaymentActivationRequest é enviada pela parte remetente credora à parte destinatária devedora, diretamente ou através de instituições. É utilizada por um credor para solicitar a movimentação de fundos da conta do devedor para um credor.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "O bloco SupplementaryData ao nível da mensagem não pode ser utilizado para fornecer informações adicionais sobre uma operação. O elemento SupplementaryData ao nível da operação deve ser utilizado para esse efeito."
+    }
+  }
+}

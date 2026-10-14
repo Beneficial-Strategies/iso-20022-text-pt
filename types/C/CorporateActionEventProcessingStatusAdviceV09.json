@@ -1,0 +1,4 @@
+{
+  "isoType": "CorporateActionEventProcessingStatusAdviceV09",
+  "definition": "Âmbito|Um prestador de serviços de conta envia a mensagem CorporateActionEventProcessingStatusAdvice a um titular de conta ou ao seu agente designado para comunicar o estado de processamento de um evento de operação sobre títulos.||O prestador de serviços de conta utiliza esta mensagem para indicar o motivo pelo qual um evento de operação sobre títulos não foi concluído nas datas de pagamento anunciadas.|Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem para informação (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem para informação (a subfunção da mensagem é Copy Duplicate), |utilizando os elementos pertinentes do cabeçalho aplicacional de negócio (BAH)."
+}

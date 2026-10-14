@@ -1,0 +1,30 @@
+{
+  "isoType": "Limit7",
+  "definition": "Pormenores sobre os limites.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante do limite, expresso numa moeda elegível."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica se um limite é um limite de débito ou de crédito."
+    },
+    "Status": {
+      "definition": "Estado do limite, como ativado ou desativado."
+    },
+    "StartDateTime": {
+      "definition": "Data e hora em que o limite entra em vigor."
+    },
+    "UsedAmount": {
+      "definition": "Utilização efetiva do limite expressa como um montante."
+    },
+    "UsedAmountCreditDebitIndicator": {
+      "definition": "Especifica se o montante utilizado do limite é um montante a débito ou a crédito."
+    },
+    "UsedPercentage": {
+      "definition": "Utilização efetiva do limite expressa como uma percentagem."
+    },
+    "RemainingAmount": {
+      "definition": "Utilização efetiva do limite expressa como um montante."
+    }
+  }
+}

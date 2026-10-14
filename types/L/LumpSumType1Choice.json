@@ -1,0 +1,12 @@
+{
+  "isoType": "LumpSumType1Choice",
+  "definition": "Escolha de formatos para um tipo de montante global.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de montante global expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de montante global expresso sob a forma de código proprietário."
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "isoType": "OtherAmounts33",
+  "definition": "Identifica outros montantes relativos à operação.",
+  "isoElements": {
+    "AccruedInterestAmount": {
+      "definition": "Montante de juros que se venceram entre os períodos de pagamento de cupões."
+    },
+    "ChargesFees": {
+      "definition": "Montante pago pela prestação de serviços financeiros que não pode ser classificado por outro qualificador."
+    },
+    "CountryNationalFederalTax": {
+      "definition": "Montante do imposto nacional, federal ou do país cobrado pela jurisdição em que se situa o agente de conta."
+    },
+    "PaymentLevyTax": {
+      "definition": "Montante do imposto de taxa de pagamento."
+    },
+    "LocalTax": {
+      "definition": "Imposto cobrado pela jurisdição em que o instrumento financeiro é liquidado."
+    },
+    "Other": {
+      "definition": "Montante que não é indicado por uma designação comercial conhecida."
+    },
+    "RegulatoryAmount": {
+      "definition": "Montante cobrado por uma autoridade reguladora, por exemplo, taxas da Securities and Exchange."
+    },
+    "ShippingAmount": {
+      "definition": "Todos os custos relacionados com a entrega física de documentos, tais como selos, portes de correio, custos de transportadores, seguros ou serviços de estafeta."
+    },
+    "StampDuty": {
+      "definition": "Montante do imposto do selo."
+    },
+    "StockExchangeTax": {
+      "definition": "Montante do imposto de bolsa."
+    },
+    "TransferTax": {
+      "definition": "Montante do imposto cobrado sobre uma transferência de propriedade de um instrumento financeiro."
+    },
+    "TransactionTax": {
+      "definition": "Montante do imposto sobre operações."
+    },
+    "ValueAddedTax": {
+      "definition": "Montante do imposto sobre o valor acrescentado."
+    },
+    "WithholdingTax": {
+      "definition": "Montante que será retido por uma autoridade fiscal."
+    },
+    "ConsumptionTax": {
+      "definition": "Montante do imposto sobre o consumo."
+    },
+    "AccruedCapitalisationAmount": {
+      "definition": "Montante de juros não pagos (de obrigações que entraram em incumprimento e foram subsequentemente |reestruturadas), que é capitalizado e adicionado ao montante de capital original da obrigação."
+    }
+  }
+}

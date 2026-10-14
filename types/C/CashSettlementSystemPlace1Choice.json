@@ -1,0 +1,15 @@
+{
+  "isoType": "CashSettlementSystemPlace1Choice",
+  "definition": "Local onde o pagamento é/será efetuado.",
+  "isoElements": {
+    "DigitalLedgerIdentification": {
+      "definition": "Local de guarda expresso com um Digital Ledger Identifier. Identifica um livro-razão digital ou um sistema de livro-razão distribuído (por exemplo, blockchain ou plataformas semelhantes)."
+    },
+    "AnyBIC": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    },
+    "LEI": {
+      "definition": "Identificação da entidade jurídica como identificação alternativa de um local de guarda."
+    }
+  }
+}

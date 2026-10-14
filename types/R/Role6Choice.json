@@ -1,0 +1,15 @@
+{
+  "isoType": "Role6Choice",
+  "definition": "Escolha do formato de um papel da parte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Papel da parte na atividade expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Papel da parte na atividade expresso como um código proprietário."
+    },
+    "Text": {
+      "definition": "Papel da parte na atividade."
+    }
+  }
+}

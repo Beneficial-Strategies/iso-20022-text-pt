@@ -1,0 +1,33 @@
+{
+  "isoType": "NetReportData2",
+  "definition": "Especifica os metadados associados a um relatório de compensação por saldos líquidos.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Identificador único e inequívoco de uma mensagem, atribuído pelo remetente. Este identificador único pode ser utilizado para referência cruzada em mensagens subsequentes."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que o relatório de compensação por saldos líquidos foi gerado."
+    },
+    "NettingCutOffTime": {
+      "definition": "Indica a hora-limite que foi ultrapassada, dando origem à geração do relatório de compensação por saldos líquidos."
+    },
+    "ReportDate": {
+      "definition": "Especifica a data-valor em que o relatório de compensação por saldos líquidos foi gerado."
+    },
+    "ValueDate": {
+      "definition": "Especifica a data-valor das operações utilizadas na geração do relatório de compensação por saldos líquidos."
+    },
+    "ReportType": {
+      "definition": "Especifica o tipo de relatório de compensação por saldos líquidos, indicando como as obrigações foram calculadas."
+    },
+    "NetReportServicer": {
+      "definition": "Descreve o sistema central responsável pela geração do relatório de compensação por saldos líquidos."
+    },
+    "NetServiceType": {
+      "definition": "Descreve o tipo de serviço de compensação por saldos líquidos que suporta o relatório."
+    },
+    "MessagePagination": {
+      "definition": "Número de página da mensagem (dentro do relatório de compensação por saldos líquidos) e indicador de continuação, para indicar que o relatório prossegue ou que a mensagem é a última página do relatório."
+    }
+  }
+}

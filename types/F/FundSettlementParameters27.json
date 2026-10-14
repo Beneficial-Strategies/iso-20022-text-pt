@@ -1,0 +1,21 @@
+{
+  "isoType": "FundSettlementParameters27",
+  "definition": "Parâmetros aplicados à liquidação de um valor mobiliário.",
+  "isoElements": {
+    "SafekeepingPlace": {
+      "definition": "Local onde os valores mobiliários são guardados, física ou nocionalmente. Este local pode ser, por exemplo, um depositário local, uma Central de Valores Mobiliários ou uma Central de Valores Mobiliários Internacional."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Condição em que a ordem/operação comercial deve ser ou foi executada. Pode ser exigida para a liquidação através do T2S."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Condição em que a ordem/operação comercial deve ser liquidada. Pode ser exigida para a liquidação através do T2S."
+    },
+    "SecuritiesSettlementSystemIdentification": {
+      "definition": "Identificação de um sistema específico ou de um conjunto de regras e/ou processos a aplicar no local de liquidação."
+    },
+    "ReceivingSideDetails": {
+      "definition": "Cadeia de partes de liquidação recetoras."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledCompleteReason1",
+  "definition": "Motivo de um estado de cancelamento concluído.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motivo do estado de cancelamento concluído."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informações adicionais sobre o motivo do estado de cancelamento concluído."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "isoType": "Statement8",
+  "definition": "Características gerais relativas a um extrato que comunica informações referentes a um período definido.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referência do extrato."
+    },
+    "StatementPeriod": {
+      "definition": "Período a que se refere o extrato."
+    },
+    "CreationDateTime": {
+      "definition": "Data de criação do extrato."
+    },
+    "Frequency": {
+      "definition": "Periodicidade do extrato."
+    },
+    "UpdateType": {
+      "definition": "Especifica se o extrato é completo ou contém apenas alterações."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica se há atividade reportada no extrato."
+    },
+    "ReportNumber": {
+      "definition": "Número sequencial do extrato."
+    }
+  }
+}

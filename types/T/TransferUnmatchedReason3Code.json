@@ -1,0 +1,50 @@
+{
+  "isoType": "TransferUnmatchedReason3Code",
+  "definition": "Especifica o motivo pelo qual a operação, transferência ou instrução de liquidação não tem correspondência.",
+  "isoCodes": {
+    "CMIS": {
+      "name": "Sem correspondência",
+      "definition": "Não foi encontrado nenhum emparelhamento potencial."
+    },
+    "CPCA": {
+      "name": "Contraparte cancelada",
+      "definition": "A contraparte cancelou a operação/instrução."
+    },
+    "DELN": {
+      "name": "Sentido da operação",
+      "definition": "O sentido da operação não coincide: entrega em vez de receção, ou vice-versa."
+    },
+    "DSEC": {
+      "name": "Instrumento financeiro",
+      "definition": "A identificação do instrumento financeiro não coincide ou um atributo do instrumento financeiro é diferente."
+    },
+    "PHYS": {
+      "name": "Liquidação física",
+      "definition": "A liquidação não coincide: a instrução da contraparte prevê liquidação física e a sua não, ou vice-versa."
+    },
+    "PODU": {
+      "name": "Duplicado",
+      "definition": "A instrução não foi emparelhada: trata-se de uma possível instrução duplicada."
+    },
+    "DEPT": {
+      "name": "Local de liquidação",
+      "definition": "O local de liquidação não coincide."
+    },
+    "DDAT": {
+      "name": "Data de liquidação",
+      "definition": "A data de liquidação ou a data de transferência não coincide."
+    },
+    "DQUA": {
+      "name": "Quantidade do instrumento financeiro",
+      "definition": "A quantidade do instrumento financeiro não coincide."
+    },
+    "ICUS": {
+      "name": "Depositário recetor ou entregador",
+      "definition": "O depositário que entrega ou que recebe não coincide."
+    },
+    "SAFE": {
+      "name": "Conta de guarda",
+      "definition": "A conta de custódia utilizada como critério de emparelhamento no mercado em causa não coincide."
+    }
+  }
+}

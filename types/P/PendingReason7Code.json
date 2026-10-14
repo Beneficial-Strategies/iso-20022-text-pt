@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason7Code",
+  "definition": "Especifica o motivo pelo qual um pedido de cancelamento enviado para a instrução associada está pendente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "A instrução foi recebida após o prazo limite da instituição gestora da conta. Processada com o melhor esforço."
+    },
+    "CONF": {
+      "name": "A aguardar confirmação",
+      "definition": "A aguardar confirmação da contraparte."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "DQUA": {
+      "name": "Desacordo quanto à quantidade",
+      "definition": "A quantidade de instrumentos financeiros não corresponde."
+    }
+  }
+}

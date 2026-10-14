@@ -1,0 +1,32 @@
+{
+  "isoType": "AdditionalParameters29",
+  "definition": "Especifica parâmetros adicionais da mensagem ou da operação.",
+  "isoElements": {
+    "PreConfirmation": {
+      "definition": "Especifica se existe uma pré-confirmação."
+    },
+    "PartialSettlement": {
+      "definition": "Especifica as informações sobre a liquidação parcial."
+    },
+    "PreviousPartialConfirmationIdentification": {
+      "definition": "Identificação da confirmação anteriormente enviada para confirmar a liquidação parcial de uma operação."
+    },
+    "TripartyAgentServiceProviderCollateralTransactionIdentification": {
+      "definition": "Identificação única que identifica a operação de gestão de garantias tripartida do ponto de vista do agente tripartido/prestador de serviços."
+    },
+    "ClientTripartyCollateralTransactionIdentification": {
+      "definition": "Referência única que identifica a operação de gestão de garantias tripartida do ponto de vista do cliente."
+    },
+    "ClientCollateralInstructionIdentification": {
+      "definition": "Identificação única atribuída à instrução pelo cliente."
+    },
+    "TripartyAgentServiceProviderCollateralInstructionIdentification": {
+      "definition": "Identificação única atribuída à instrução pelo agente tripartido/prestador de serviços."
+    }
+  },
+  "isoRules": {
+    "PartialSettlementGuideline": {
+      "definition": "As informações de liquidação parcial só se aplicam a mercados em que a liquidação parcial é permitida.|O campo PartialSettlement deve ser utilizado da seguinte forma:|- com o código PAIN na(s) primeira(s) mensagem(ns) (pode haver mais do que uma) que confirma(m) a liquidação parcial de uma instrução.|- com o código PARC na última mensagem enviada para confirmar a liquidação da parte restante.|Para mais pormenores, consultar o documento de prática de mercado relevante em www.smpg.info."
+    }
+  }
+}

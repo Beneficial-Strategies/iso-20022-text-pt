@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification218",
+  "definition": "Identificação de uma parte.",
+  "isoElements": {
+    "Role": {
+      "definition": "Papel desempenhado pelo terceiro."
+    },
+    "Identification": {
+      "definition": "Identificação do terceiro."
+    }
+  }
+}

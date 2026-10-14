@@ -1,0 +1,74 @@
+{
+  "isoType": "PINFormat4Code",
+  "definition": "Formato de um bloco de PIN do ATM antes da cifra.",
+  "isoCodes": {
+    "ANSI": {
+      "name": "ANSI0",
+      "definition": "Formato de bloco de PIN ANSI 0."
+    },
+    "BNCM": {
+      "name": "Bancomat",
+      "definition": "Formato de bloco de PIN Bancomat italiano."
+    },
+    "BKSY": {
+      "name": "Banksys",
+      "definition": "Formato de bloco de PIN Banksys."
+    },
+    "DBLD": {
+      "name": "Diebold",
+      "definition": "Formato de bloco de PIN Diebold."
+    },
+    "DBLC": {
+      "name": "DieboldCO",
+      "definition": "Formato de bloco de PIN Diebold CO."
+    },
+    "ECI2": {
+      "name": "ECI2",
+      "definition": "Formato de bloco de PIN ECI2."
+    },
+    "ECI3": {
+      "name": "ECI3",
+      "definition": "Formato de bloco de PIN ECI3."
+    },
+    "EMVS": {
+      "name": "EMVRSA",
+      "definition": "Formato de bloco de PIN EMV ISO2 cifrado com a chave criptográfica RSA EMV para o PIN."
+    },
+    "IBM3": {
+      "name": "IBM3624",
+      "definition": "Formato de bloco de PIN IBM 3624."
+    },
+    "ISO0": {
+      "name": "ISO0",
+      "definition": "PIN diversificado com o número de conta do cartão, em conformidade com a norma ISO 9564-2."
+    },
+    "ISO1": {
+      "name": "ISO1",
+      "definition": "PIN completado com caracteres de enchimento aleatórios, em conformidade com a norma ISO 9564-2."
+    },
+    "ISO2": {
+      "name": "ISO2",
+      "definition": "PIN sem caracteres de diversificação, em conformidade com a norma ISO 9564-2."
+    },
+    "ISO3": {
+      "name": "ISO3",
+      "definition": "PIN diversificado com o número de conta do cartão e caracteres aleatórios, em conformidade com a norma ISO 9564-2."
+    },
+    "ISO4": {
+      "name": "ISO4",
+      "definition": "Formato de PIN utilizado com a cifra AES, em conformidade com o novo formato ISO SC2."
+    },
+    "ISO5": {
+      "name": "ISO5",
+      "definition": "Formato de PIN alternativo utilizado com a cifra AES, em conformidade com o novo formato ISO SC2."
+    },
+    "VIS2": {
+      "name": "VISA2",
+      "definition": "Formato de bloco de PIN VISA2."
+    },
+    "VIS3": {
+      "name": "VISA3",
+      "definition": "Formato de bloco de PIN VISA3."
+    }
+  }
+}

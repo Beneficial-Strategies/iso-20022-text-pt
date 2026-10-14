@@ -1,0 +1,14 @@
+{
+  "isoType": "ProcessedStatus2Code",
+  "definition": "Especifica o estado de processamento de um pedido de cancelamento.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Recebido",
+      "definition": "A instrução/o pedido foi recebido."
+    },
+    "COMP": {
+      "name": "Concluído",
+      "definition": "O pedido foi concluído."
+    }
+  }
+}

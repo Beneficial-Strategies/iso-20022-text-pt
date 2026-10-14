@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionEventProcessingStatus1Code",
+  "definition": "Especifica a fase no ciclo de vida do evento de operação sobre títulos.",
+  "isoCodes": {
+    "COMP": {
+      "name": "Completo",
+      "definition": "Especifica que o processamento de um evento de operação sobre títulos foi concluído."
+    },
+    "PEND": {
+      "name": "Pendente",
+      "definition": "Especifica que o processamento de um evento de operação sobre títulos não foi concluído."
+    },
+    "RECD": {
+      "name": "Reconciliado",
+      "definition": "Processamento de um evento de operação sobre títulos que especifica que os fundos pagos foram reconciliados com os fundos recebidos da instituição (o que significa que deixa de existir risco de reversão do pagamento)."
+    }
+  }
+}

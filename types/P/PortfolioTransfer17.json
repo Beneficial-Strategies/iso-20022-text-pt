@@ -1,0 +1,21 @@
+{
+  "isoType": "PortfolioTransfer17",
+  "definition": "Tipo de produto e de ativos a transferir.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de um grupo de transferências individuais, atribuído pela parte ordenante. Este identificador associa as transferências individuais entre si."
+    },
+    "TransferIdentification": {
+      "definition": "Identificação atribuída à transferência de ativos."
+    },
+    "Portfolio": {
+      "definition": "Escolha entre produto fiscalmente eficiente, investimento geral ou pensão."
+    },
+    "FinancialInstrumentAssetForTransfer": {
+      "definition": "Ativo a transferir."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a transferência do produto."
+    }
+  }
+}

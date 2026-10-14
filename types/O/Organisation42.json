@@ -1,0 +1,48 @@
+{
+  "isoType": "Organisation42",
+  "definition": "Informações que descrevem a organização.",
+  "isoElements": {
+    "FullLegalName": {
+      "definition": "Nome pelo qual uma parte é conhecida e que é normalmente utilizado para identificar essa parte."
+    },
+    "TradingName": {
+      "definition": "Nome utilizado por uma empresa para fins comerciais, embora a sua denominação legal registada, utilizada para contratos e outras situações formais, possa ser outra."
+    },
+    "CountryOfOperation": {
+      "definition": "País em que a organização exerce a sua atividade empresarial."
+    },
+    "RegistrationDate": {
+      "definition": "Data em que uma determinada organização foi oficialmente registada."
+    },
+    "OperationalAddress": {
+      "definition": "Especifica um endereço operacional, por exemplo, de um centro de serviços partilhados."
+    },
+    "BusinessAddress": {
+      "definition": "Especifica o endereço onde a atividade empresarial é exercida."
+    },
+    "LegalAddress": {
+      "definition": "Especifica o endereço onde a entidade reside e está registada. De forma mais genérica, é o endereço de residência (endereço residencial)."
+    },
+    "BillingAddress": {
+      "definition": "Endereço para onde devem ser enviadas as faturas."
+    },
+    "OrganisationIdentification": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    },
+    "RepresentativeOfficer": {
+      "definition": "Pessoa da organização do cliente que pode ser contactada pelo gestor da conta relativamente à(s) conta(s) identificada(s) nesta instrução."
+    },
+    "TreasuryManager": {
+      "definition": "Pessoa responsável pelo departamento de tesouraria da organização do cliente."
+    },
+    "MainMandateHolder": {
+      "definition": "Pessoa que tem o mandato para delegar poderes, para atribuir mandatos a outras pessoas (titulares de mandato) para realizarem operações bancárias específicas na conta."
+    },
+    "Sender": {
+      "definition": "Pessoa que pode ser o potencial remetente de uma mensagem relacionada com o ciclo de vida da conta."
+    },
+    "LegalRepresentative": {
+      "definition": "Pessoa oficial e legalmente mandatada para representar a organização. Consoante a legislação, o(s) representante(s) legal(is) podem, por exemplo, ser designados pelo conselho de administração, identificados nos estatutos da organização, ser publicamente anunciados no jornal oficial de um país, etc."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountQuery4",
+  "definition": "Especificação dos critérios da consulta.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Especifica o tipo de itens correspondentes a devolver na resposta à consulta."
+    },
+    "AccountCriteria": {
+      "definition": "Define os critérios de consulta da conta."
+    }
+  }
+}

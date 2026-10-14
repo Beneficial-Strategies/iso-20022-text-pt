@@ -1,0 +1,15 @@
+{
+  "isoType": "BusinessDay9",
+  "definition": "Informações operacionais do sistema de pagamentos, como abertura, encerramento, período de sessão ou eventos, indicadas por moeda.",
+  "isoElements": {
+    "SystemDate": {
+      "definition": "Data a que se referem as informações de disponibilidade."
+    },
+    "SystemStatus": {
+      "definition": "Estado de um sistema e período durante o qual o estado é válido."
+    },
+    "SystemInformationPerCurrency": {
+      "definition": "Informações relativas às operações do sistema e aos eventos previstos relacionados com o seu funcionamento."
+    }
+  }
+}

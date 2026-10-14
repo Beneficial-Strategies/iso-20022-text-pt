@@ -1,0 +1,12 @@
+{
+  "isoType": "ActiveAmountRange3Choice",
+  "definition": "Escolha entre um intervalo de valores de montante com ou sem moeda.",
+  "isoElements": {
+    "ImpliedCurrencyAndAmountRange": {
+      "definition": "Exprime um montante ou um intervalo de montantes com indicador explícito de débito/crédito e em que a moeda está implícita."
+    },
+    "CurrencyAndAmountRange": {
+      "definition": "Exprime um montante ou um intervalo de montantes com moeda e em que o indicador de crédito/débito é explícito."
+    }
+  }
+}

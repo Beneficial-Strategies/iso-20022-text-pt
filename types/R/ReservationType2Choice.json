@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationType2Choice",
+  "definition": "Define o tipo de ação a executar no pedido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de pedido de transferência de liquidez, sob forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de pedido de transferência de liquidez, sob forma proprietária."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "DeemedRateType1Code",
+  "definition": "Especifica o tipo de uma taxa presumida.",
+  "isoCodes": {
+    "DEDI": {
+      "name": "Produto de dividendo presumido",
+      "definition": "Taxa presumida de rendimentos de dividendos atribuída ao detentor dos valores mobiliários."
+    },
+    "DEFP": {
+      "name": "Produto de fundo presumido",
+      "definition": "Taxa presumida de rendimentos de fundo atribuída ao detentor dos valores mobiliários."
+    },
+    "DEIT": {
+      "name": "Produto de juros presumidos",
+      "definition": "Taxa presumida de rendimentos de juros atribuída ao detentor dos valores mobiliários."
+    },
+    "DERY": {
+      "name": "Produto de royalties presumidos",
+      "definition": "Taxa presumida de rendimentos de royalties atribuída ao detentor dos valores mobiliários."
+    }
+  }
+}

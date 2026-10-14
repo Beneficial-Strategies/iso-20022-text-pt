@@ -1,0 +1,21 @@
+{
+  "isoType": "MandateOccurrences5",
+  "definition": "Fornece detalhes adicionais relativos à duração do mandato e à ocorrência das operações subjacentes.",
+  "isoElements": {
+    "SequenceType": {
+      "definition": "Identifica a sequência de operações subjacente como recorrente ou única."
+    },
+    "Frequency": {
+      "definition": "Regularidade com que as instruções devem ser criadas e processadas."
+    },
+    "Duration": {
+      "definition": "Período de tempo durante o qual o mandato permanece válido."
+    },
+    "FirstCollectionDate": {
+      "definition": "Data da primeira cobrança de um débito direto ao abrigo do mandato."
+    },
+    "FinalCollectionDate": {
+      "definition": "Data da cobrança final de um débito direto ao abrigo do mandato."
+    }
+  }
+}

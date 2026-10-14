@@ -1,0 +1,21 @@
+{
+  "isoType": "SettlementInstruction19",
+  "definition": "Fornece detalhes adicionais sobre a liquidação da instrução.",
+  "isoElements": {
+    "RequestedSettlementDate": {
+      "definition": "Data em que o remetente da mensagem ou o ChargesRequestor, onde este elemento está presente, espera ser creditado pelo pagamento dos encargos."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do credor junto do seu agente prestador de serviços, a creditar em resultado da operação de pagamento."
+    },
+    "Creditor": {
+      "definition": "Instituição financeira que recebe um montante em dinheiro do devedor instituição financeira.||Usage: Quando utilizada, esta parte deve ser a mesma que o remetente da mensagem ou o ChargesRequestor onde este elemento está presente."
+    },
+    "CreditorAccount": {
+      "definition": "Identificação inequívoca da conta do credor na qual será lançado um crédito em resultado da operação de pagamento.||Usage: Quando utilizada, esta conta deve pertencer ao remetente da mensagem ou ao ChargesRequestor onde este elemento está presente."
+    }
+  }
+}

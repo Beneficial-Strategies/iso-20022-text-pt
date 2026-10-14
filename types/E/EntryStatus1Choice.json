@@ -1,0 +1,12 @@
+{
+  "isoType": "EntryStatus1Choice",
+  "definition": "Especifica o estado de um lançamento nos livros da instituição gestora da conta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado do lançamento, sob forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Estado do lançamento, sob forma proprietária."
+    }
+  }
+}

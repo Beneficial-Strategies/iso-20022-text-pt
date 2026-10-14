@@ -1,0 +1,26 @@
+{
+  "isoType": "CashAccountType5Code",
+  "definition": "Especifica o tipo de conta de numerário.",
+  "isoCodes": {
+    "LEND": {
+      "name": "Empréstimo",
+      "definition": "A conta destina-se à cobertura de empréstimos."
+    },
+    "COLL": {
+      "name": "Garantia",
+      "definition": "A conta destina-se a garantias."
+    },
+    "SETT": {
+      "name": "Liquidação financeira",
+      "definition": "A conta destina-se a liquidações financeiras."
+    },
+    "MARR": {
+      "name": "Devolução de margem",
+      "definition": "A conta destina-se a devoluções de margem."
+    },
+    "SEGT": {
+      "name": "Segregada",
+      "definition": "A conta é uma conta segregada."
+    }
+  }
+}

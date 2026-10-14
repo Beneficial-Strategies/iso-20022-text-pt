@@ -1,0 +1,23 @@
+{
+  "isoType": "DetailedInstructionStatus23",
+  "definition": "Estado de uma instrução individual de uma instrução de assembleia.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identificação da instrução individual específica, a partir do elemento InstructionIdentification da mensagem original de instrução de assembleia, para a qual o estado é fornecido."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação da conta de valores mobiliários."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identificação da subconta no âmbito da conta de custódia."
+    },
+    "InstructionStatus": {
+      "definition": "Estado da instrução individual de assembleia."
+    }
+  },
+  "isoRules": {
+    "SubAccount1Rule": {
+      "definition": "Se SubAccountIdentification estiver presente, então AccountIdentification tem de estar presente."
+    }
+  }
+}

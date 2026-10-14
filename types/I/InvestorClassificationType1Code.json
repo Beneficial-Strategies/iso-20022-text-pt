@@ -1,0 +1,26 @@
+{
+  "isoType": "InvestorClassificationType1Code",
+  "definition": "Classificação de um investidor relativamente a uma operação sobre títulos.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Elegível",
+      "definition": "Investidores elegíveis para participar no evento."
+    },
+    "NLIG": {
+      "name": "Não elegível",
+      "definition": "Investidores não elegíveis para participar no evento."
+    },
+    "NQIB": {
+      "name": "Não QIB",
+      "definition": "Investidores não elegíveis para participar no evento ao abrigo da regulamentação dos US."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Investidores que podem ou não ser elegíveis para participar no evento, conforme descrito pelo emitente."
+    },
+    "QUIB": {
+      "name": "QIB",
+      "definition": "Investidores elegíveis para participar no evento por serem considerados qualificados ao abrigo da regulamentação dos US."
+    }
+  }
+}

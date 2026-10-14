@@ -1,0 +1,33 @@
+{
+  "isoType": "SettlementInstruction9",
+  "definition": "Fornece mais pormenores sobre a liquidação da instrução.",
+  "isoElements": {
+    "SettlementMethod": {
+      "definition": "Método utilizado para liquidar o (lote de) instruções de pagamento."
+    },
+    "SettlementAccount": {
+      "definition": "Conta de finalidade específica utilizada para lançar as entradas de débito e de crédito resultantes da operação."
+    },
+    "ClearingSystem": {
+      "definition": "Especificação de uma oferta previamente acordada entre agentes de compensação ou do canal através do qual a instrução de pagamento é processada."
+    },
+    "InstructingReimbursementAgent": {
+      "definition": "Instituição através da qual a instituição instrutora reembolsará a instituição instruída.||Utilização: se InstructingAgent e InstructedAgent tiverem a mesma instituição de reembolso, apenas deve ser utilizado InstructingReimbursementAgent."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição de reembolso instrutora junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Instituição na qual a instituição instruída será reembolsada.|Utilização: se InstructedReimbursementAgent contiver uma agência de InstructedAgent, a parte indicada em InstructedAgent reclamará o reembolso a essa agência/será paga por essa agência.|Utilização: se InstructingAgent e InstructedAgent tiverem a mesma instituição de reembolso, apenas deve ser utilizado InstructingReimbursementAgent."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição de reembolso instruída junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "ThirdReimbursementAgent": {
+      "definition": "Instituição na qual a instituição instruída será reembolsada.|Utilização: se ThirdReimbursementAgent contiver uma agência de InstructedAgent, a parte indicada em InstructedAgent reclamará o reembolso a essa agência/será paga por essa agência."
+    },
+    "ThirdReimbursementAgentAccount": {
+      "definition": "Identificação inequívoca da conta da terceira instituição de reembolso junto da sua instituição gestora na cadeia de pagamento."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "CorporateActionOption244",
+  "definition": "Fornece informações sobre a opção de operação sobre títulos.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "OptionFeatures": {
+      "definition": "Especifica as características que podem aplicar-se a uma opção de evento societário."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica como serão tratadas as frações resultantes de valores mobiliários derivados ou como serão arredondadas as decisões objeto de rateio, se for fornecida uma taxa de rateio."
+    },
+    "CurrencyOption": {
+      "definition": "Moeda em que o produto em numerário deve ser creditado ou debitado."
+    },
+    "DateDetails": {
+      "definition": "Fornece informações sobre as datas relacionadas com uma opção de operação sobre títulos."
+    },
+    "PeriodDetails": {
+      "definition": "Fornece informações sobre os períodos relacionados com uma opção de operação sobre títulos."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fornece informações sobre taxas e montantes relacionados com uma opção de operação sobre títulos."
+    },
+    "PriceDetails": {
+      "definition": "Fornece informações sobre os preços relacionados com uma opção de operação sobre títulos."
+    },
+    "PlaceOfTrade": {
+      "definition": "Local onde a transação foi executada."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Fornece informações sobre o movimento de valores mobiliários associado à opção de operação sobre títulos."
+    },
+    "CashMovementDetails": {
+      "definition": "Fornece informações sobre o movimento de numerário relacionado com uma opção de operação sobre ativos."
+    }
+  }
+}

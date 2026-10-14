@@ -1,0 +1,18 @@
+{
+  "isoType": "OnLineCapability1Code",
+  "definition": "Capacidades online e offline do POI (ponto de interação).",
+  "isoCodes": {
+    "OFLN": {
+      "name": "Offline",
+      "definition": "Apenas com capacidade offline."
+    },
+    "ONLN": {
+      "name": "Online",
+      "definition": "Apenas com capacidade online."
+    },
+    "SMON": {
+      "name": "Semi-offline",
+      "definition": "Com capacidade offline e possíveis pedidos online ao adquirente."
+    }
+  }
+}

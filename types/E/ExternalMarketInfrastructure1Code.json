@@ -1,0 +1,398 @@
+{
+  "isoType": "ExternalMarketInfrastructure1Code",
+  "definition": "Especifica a identificação da infraestrutura de mercado, tal como publicada numa lista externa de códigos de infraestruturas de mercado.|É sinónimo da lista externa de códigos de sistemas de compensação de numerário, alargada para além dos domínios puramente monetários.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "ABE": {
+      "name": "EBA Euro1 Step1",
+      "definition": "EBA Euro1/Step1."
+    },
+    "ACH": {
+      "name": "ACH",
+      "definition": "Câmara de compensação automatizada. Sistema de pagamentos que compensa transferências de numerário e liquida o produto num montante global, normalmente numa base de compensação multilateral."
+    },
+    "ACS": {
+      "name": "Canadá ACSS",
+      "definition": "Dólar canadiano (CAD) - Automated Clearing Settlement System (ACSS)."
+    },
+    "AIP": {
+      "name": "Albânia",
+      "definition": "AL (Albânia) - Sistema de pagamentos interbancários da Albânia."
+    },
+    "ART": {
+      "name": "Áustria",
+      "definition": "AT (Áustria) - RTGS austríaco (ARTIS)."
+    },
+    "AVP": {
+      "name": "Nova Zelândia",
+      "definition": "NZ (Nova Zelândia) - New Zealand Assured Value Payments."
+    },
+    "AZM": {
+      "name": "Azerbaijão",
+      "definition": "AZ (Azerbaijão) - Sistema de pagamentos interbancários do Azerbaijão (AZIPS)."
+    },
+    "BAP": {
+      "name": "Bósnia-Herzegovina",
+      "definition": "BA (Bósnia e Herzegovina)."
+    },
+    "BCC": {
+      "name": "Suécia BGC",
+      "definition": "SE (Suécia) - Sweden BGC Clearing CUG."
+    },
+    "BCE": {
+      "name": "Equador",
+      "definition": "EC (Equador) - Sistema central de pagamentos equatoriano (Sistema Central de Pagos Ecuatoriano)"
+    },
+    "BDS": {
+      "name": "Barbados",
+      "definition": "BB (Barbados) - RTGS de Barbados (CBRTGS)."
+    },
+    "BEL": {
+      "name": "Bélgica",
+      "definition": "BE (Bélgica) - RTGS belga (ELLIPS)."
+    },
+    "BGN": {
+      "name": "Bulgária",
+      "definition": "BG (Bulgária) - RTGS búlgaro."
+    },
+    "BHS": {
+      "name": "Baamas",
+      "definition": "BS (Baamas) - RTGS das Baamas."
+    },
+    "BIS": {
+      "name": "Botsuana",
+      "definition": "BW (Botsuana) - Sistema de liquidação interbancária do Botsuana."
+    },
+    "BOF": {
+      "name": "Finlândia",
+      "definition": "FI (Finlândia) - RTGS (BOF)."
+    },
+    "BOJ": {
+      "name": "BankOfJapanNet",
+      "definition": "o sistema de compensação do Banco do Japão."
+    },
+    "BRL": {
+      "name": "Itália",
+      "definition": "IT (Itália) - RTGS italiano (BIREL)."
+    },
+    "BSP": {
+      "name": "Filipinas",
+      "definition": "PH (Filipinas) - Sistema de pagamentos das Filipinas."
+    },
+    "CAD": {
+      "name": "Canadá CAD",
+      "definition": "CA (Canadá) - Large Value Transfer System (LVTS) canadiano"
+    },
+    "CAM": {
+      "name": "Espanha CAM",
+      "definition": "ES (Espanha)."
+    },
+    "CBA": {
+      "name": "Banco Central de Aruba CSM",
+      "definition": "AW (Aruba) - CSM do Banco Central de Aruba"
+    },
+    "CBJ": {
+      "name": "Irlanda",
+      "definition": "IE (Irlanda) - RTGS irlandês (IRIS)."
+    },
+    "CHI": {
+      "name": "US TCH Chips",
+      "definition": "US - The Clearing House CHIPS"
+    },
+    "CHP": {
+      "name": "Reino Unido",
+      "definition": "GB (UK) - RTGS britânico em euros (CHAPS)."
+    },
+    "CIS": {
+      "name": "Serviço Central de Interoperabilidade",
+      "definition": "Serviço central de interoperabilidade da cooperativa de compensação EACHA, para o intercâmbio de pagamentos SEPA entre câmaras de compensação automatizadas no EEE (EEA)."
+    },
+    "CLM": {
+      "name": "Gestão Central de Liquidez",
+      "definition": "Sistema de pagamentos e de gestão de tesouraria que liquida pagamentos e transferências de numerário individuais em moeda de banco central."
+    },
+    "COE": {
+      "name": "Colômbia CEDEC",
+      "definition": "CO (Colúmbia) - Sistema colombiano de cheques eletrónicos denominado CEDEC (Compensación Electrónica De Cheques)."
+    },
+    "COI": {
+      "name": "Colômbia CENIT",
+      "definition": "CO (Colúmbia) - ACH do Banco Central da Colômbia denominada CENIT (Compensación Electrónica Nacional Interbancaria)."
+    },
+    "COU": {
+      "name": "Colômbia RTGS",
+      "definition": "CO (Colúmbia) - Sistema RTGS colombiano denominado CUD (Cuentas de Depósito)."
+    },
+    "DDK": {
+      "name": "Dinamarca DDK",
+      "definition": "DK (Dinamarca) - RTGS em coroas dinamarquesas (KRONOS)"
+    },
+    "DKC": {
+      "name": "Dinamarca",
+      "definition": "DK (Dinamarca) - RTGS em euros dinamarquês (KRONOS)"
+    },
+    "EBA": {
+      "name": "EBA Euro1",
+      "definition": "EBA Euro1."
+    },
+    "ELS": {
+      "name": "Alemanha ELS",
+      "definition": "DE (Alemanha)."
+    },
+    "EMZ": {
+      "name": "Alemanha",
+      "definition": "Elektronischer Massenzahlungsverkehr (EMZ)"
+    },
+    "EPM": {
+      "name": "BCE",
+      "definition": "BCE (Banco Central Europeu) - Mecanismo de pagamentos do BCE (ECB)."
+    },
+    "EPN": {
+      "name": "US TCH EPN",
+      "definition": "US - The Clearing House EPN"
+    },
+    "ERP": {
+      "name": "EBA Step1",
+      "definition": "EBA step 1 (membros)."
+    },
+    "FDA": {
+      "name": "US Fed ACH",
+      "definition": "US (Estados Unidos) - FED-ACH"
+    },
+    "FDN": {
+      "name": "FedNet",
+      "definition": "O FedNet é uma ligação a uma conta do Federal Bank através da Internet.  O FedNet permite consultar o saldo da conta, as operações, imprimir extratos de conta, transferir fundos para contas de terceiros, compras em linha, pagamentos BSNL, abertura de depósitos, renovação de depósitos, pedido de saque bancário (Demand Draft), livros de cheques, etc."
+    },
+    "FDW": {
+      "name": "US Fedwire",
+      "definition": "US (Estados Unidos) – FEDWIRE"
+    },
+    "FEY": {
+      "name": "Compensação de câmbio em iene",
+      "definition": "JP (Japão) o Foreign Exchange Yen Clearing system (FEYCS). Sistema eletrónico interbancário japonês para o envio de pagamentos em ienes, garantidos e incondicionais, de operações FX para liquidação no próprio dia, de um banco liquidador, por conta própria ou dos seus clientes, para outro banco liquidador."
+    },
+    "GIS": {
+      "name": "Gana",
+      "definition": "GH (Gana) - Sistema de liquidação interbancária do Gana (GISS)."
+    },
+    "HRK": {
+      "name": "Croácia",
+      "definition": "HR (Croácia) - HSVP."
+    },
+    "HRM": {
+      "name": "Grécia",
+      "definition": "GR (Grécia) - RTGS grego (HERMES)."
+    },
+    "HUF": {
+      "name": "Hungria",
+      "definition": "HU (Hungria) - VIBER."
+    },
+    "INC": {
+      "name": "DE e NL Equens",
+      "definition": "DE e NL - Equens."
+    },
+    "JOD": {
+      "name": "Jordânia",
+      "definition": "JO (Jordânia) - RTGS da Jordânia."
+    },
+    "KPS": {
+      "name": "Quénia",
+      "definition": "KE (Quénia) - Sistema de liquidação de pagamentos eletrónicos do Quénia."
+    },
+    "LGS": {
+      "name": "Luxemburgo",
+      "definition": "LU (Luxemburgo) - RTGS luxemburguês (LIPS)."
+    },
+    "LKB": {
+      "name": "Sri Lanca",
+      "definition": "LK (Sri Lanka) - Sri Lanka (Lankasettle)."
+    },
+    "LVL": {
+      "name": "Letónia",
+      "definition": "LV (Letónia)."
+    },
+    "LVT": {
+      "name": "Canadá LVTS",
+      "definition": "CA (Canadá) - Large Value Transfer System (LVTS).  Substitui o CAD."
+    },
+    "MEP": {
+      "name": "Singapura",
+      "definition": "SG (Singapura) - RTGS de Singapura (MEPS+)."
+    },
+    "MOS": {
+      "name": "África do Sul",
+      "definition": "ZA (África do Sul) - South-African Multiple Option Settlement."
+    },
+    "MRS": {
+      "name": "Malta",
+      "definition": "MT (Malta) - Sistema de liquidação interbancária em tempo real de Malta."
+    },
+    "MUP": {
+      "name": "Maurícia",
+      "definition": "MU (Maurícia)."
+    },
+    "NAM": {
+      "name": "Namíbia",
+      "definition": "NA (Namíbia) - Sistema de liquidação interbancária da Namíbia."
+    },
+    "NOC": {
+      "name": "Noruega",
+      "definition": "NO (Noruega)."
+    },
+    "NPP": {
+      "name": "Austrália NPP",
+      "definition": "AU (Austrália) - New Payments Platform (NPP)"
+    },
+    "PCH": {
+      "name": "Suíça",
+      "definition": "CH (Suíça)."
+    },
+    "PDS": {
+      "name": "Austrália PDS",
+      "definition": "AU (Austrália)."
+    },
+    "PEG": {
+      "name": "Egito",
+      "definition": "EG (Egito)."
+    },
+    "PNS": {
+      "name": "França PNS",
+      "definition": "FR (França)."
+    },
+    "PTR": {
+      "name": "Angola",
+      "definition": "AO (Angola) - RTGS de Angola."
+    },
+    "PVE": {
+      "name": "Venezuela",
+      "definition": "Ve (Venezuela)."
+    },
+    "ROL": {
+      "name": "Roménia EPO",
+      "definition": "RO (Roménia) - Sistema romeno de operações de pagamento eletrónico em tempo real (RT)."
+    },
+    "ROS": {
+      "name": "Roménia GSRS",
+      "definition": "RO (Roménia) - GSRS romeno."
+    },
+    "RTG": {
+      "name": "RTGS",
+      "definition": "Sistema de liquidação por bruto em tempo real. Sistema de pagamentos que compensa simultaneamente transferências individuais e as liquida em moeda de banco central."
+    },
+    "RTP": {
+      "name": "Alemanha RTGSPlus",
+      "definition": "DE (Alemanha)."
+    },
+    "SCL": {
+      "name": "RPS e SEPA Clearer",
+      "definition": "DE – SEPA-Clearer do sistema de pagamentos de retalho gerido pelo Deutsche Bundesbank"
+    },
+    "SCP": {
+      "name": "Chile",
+      "definition": "CL (Chile) - Sistema de pagamentos interbancários chileno."
+    },
+    "SEC": {
+      "name": "Suécia SEC",
+      "definition": "SE (Suécia) - RTGS sueco em euros (SEC)."
+    },
+    "SEU": {
+      "name": "euroSIC",
+      "definition": "CH (Suíça) – RTGS suíço em EUR denominado euroSIC."
+    },
+    "SIC": {
+      "name": "SIC",
+      "definition": "CH (Suíça) – RTGS suíço em CHF denominado SIC."
+    },
+    "SIP": {
+      "name": "SICIP",
+      "definition": "CH (Suíça) – Serviço suíço de pagamentos instantâneos em CHF gerido pela SIX Interbank Clearing."
+    },
+    "SIT": {
+      "name": "Eslovénia",
+      "definition": "SI (Eslovénia)."
+    },
+    "SLB": {
+      "name": "Espanha ES",
+      "definition": "ES (Espanha) - RTGS espanhol (SLBE)."
+    },
+    "SPG": {
+      "name": "Portugal",
+      "definition": "PT (Portugal) - RTGS português (SPGT)."
+    },
+    "SSK": {
+      "name": "Suécia SSK",
+      "definition": "SE (Suécia) - RTGS em SEK (RIX)."
+    },
+    "ST2": {
+      "name": "EBA Clearing Step2",
+      "definition": "EBA Clearing STEP 2."
+    },
+    "STG": {
+      "name": "Reino Unido GBP",
+      "definition": "UK (Reino Unido) - RTGS CHAPS em libras esterlinas."
+    },
+    "T2S": {
+      "name": "T2S",
+      "definition": "T2S."
+    },
+    "TBF": {
+      "name": "França FR",
+      "definition": "FR (França) - RTGS francês (TBF)."
+    },
+    "TCH": {
+      "name": "US TCH Real Time",
+      "definition": "US - The Clearing House Real-TimePayment System"
+    },
+    "TGT": {
+      "name": "Target",
+      "definition": "Target."
+    },
+    "THB": {
+      "name": "Tailândia",
+      "definition": "TH (Tailândia) - Sistema de pagamentos da Tailândia (BAHTNET)."
+    },
+    "THN": {
+      "name": "Tailândia NITMX",
+      "definition": "TH (Tailândia) - Sistema de pagamentos nacional ITMX"
+    },
+    "TIS": {
+      "name": "Tanzânia",
+      "definition": "TZ (Tanzânia) - Sistema de liquidação interbancária da Tanzânia (TISS)."
+    },
+    "TOP": {
+      "name": "Países Baixos",
+      "definition": "NL (Países Baixos) - RTGS neerlandês (TOP)."
+    },
+    "TTD": {
+      "name": "Trindade e Tobago",
+      "definition": "TT (Trindade e Tobago ) - SAFE-TT de Trindade e Tobago."
+    },
+    "UBE": {
+      "name": "Canadá USD USBE",
+      "definition": "Dólar dos Estados Unidos  (USD)"
+    },
+    "UIS": {
+      "name": "Uganda",
+      "definition": "UG (Uganda) - Sistema nacional de liquidação interbancária do Uganda, para pagamentos transfronteiriços."
+    },
+    "VCS": {
+      "name": "VocaLink",
+      "definition": "Sistema de compensação VocaLink"
+    },
+    "XCT": {
+      "name": "EBA Step2 XCT",
+      "definition": "EBA step 2."
+    },
+    "ZEN": {
+      "name": "Zengin",
+      "definition": "JP (Japão) o sistema Zengin. Sistema de pagamentos eletrónico para transferências nacionais a terceiros gerido pela Tokyo Bankers Association."
+    },
+    "ZET": {
+      "name": "Zimbabué",
+      "definition": "ZW (Zimbabué) - Sistema eletrónico de transferência e liquidação do Zimbabué."
+    },
+    "ZIS": {
+      "name": "Zâmbia",
+      "definition": "ZM (Zâmbia) - Sistema de pagamentos e liquidação interbancários da Zâmbia."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ContractDocument1",
+  "definition": "Documento que contém as informações do contrato acordado entre as duas partes.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Contrato de conta estabelecido entre a organização, ou o grupo a que a organização pertence, e o gestor da conta. Este contrato tem de ser aplicado para que a nova conta seja aberta e mantida."
+    },
+    "SignOffDate": {
+      "definition": "Data de assinatura do documento."
+    },
+    "Version": {
+      "definition": "Identificação da versão do contrato."
+    }
+  }
+}

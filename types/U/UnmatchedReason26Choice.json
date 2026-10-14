@@ -1,0 +1,12 @@
+{
+  "isoType": "UnmatchedReason26Choice",
+  "definition": "Escolha do formato para o motivo de ausência de correspondência da operação de liquidação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de sem correspondência."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de sem correspondência."
+    }
+  }
+}

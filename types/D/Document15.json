@@ -1,0 +1,33 @@
+{
+  "isoType": "Document15",
+  "definition": "Informações sobre um documento.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de documento ou modelo."
+    },
+    "Identification": {
+      "definition": "Identificação do documento ou modelo."
+    },
+    "IssueDate": {
+      "definition": "Data ou data e hora de emissão do documento."
+    },
+    "Name": {
+      "definition": "Nome do documento ou da operação, por exemplo, fatura fiscal."
+    },
+    "LanguageCode": {
+      "definition": "Identificador único de um idioma utilizado no documento."
+    },
+    "Format": {
+      "definition": "Formato do documento ou modelo, como PDF, XML, XSLT."
+    },
+    "FileName": {
+      "definition": "Nome técnico do ficheiro."
+    },
+    "DigitalSignature": {
+      "definition": "Assinatura digital do ficheiro binário anexo."
+    },
+    "Enclosure": {
+      "definition": "Ficheiro binário que representa o documento ou modelo anexo, como um ficheiro PDF, um ficheiro de imagem, um ficheiro XML ou uma mensagem MT."
+    }
+  }
+}

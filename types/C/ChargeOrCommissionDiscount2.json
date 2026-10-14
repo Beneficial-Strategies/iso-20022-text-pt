@@ -1,0 +1,20 @@
+{
+  "isoType": "ChargeOrCommissionDiscount2",
+  "definition": "Descontos ou dispensas de encargos e comissões.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante do desconto ou da dispensa."
+    },
+    "Rate": {
+      "definition": "Taxa do desconto ou da dispensa."
+    },
+    "Basis": {
+      "definition": "Forma do desconto ou abatimento."
+    }
+  },
+  "isoRules": {
+    "DiscountElementRule": {
+      "definition": "Amount Or Rate Or Basis tem de estar presente."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "isoType": "ATMReconciliationOperation1",
+  "definition": "Informações relativas a uma reconciliação entre um dispositivo ATM e um anfitrião de manutenção.",
+  "isoElements": {
+    "TypeOfOperation": {
+      "definition": "Operação lógica ou física a realizar num ATM."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo ATM."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identificação do período de reconciliação atribuída pelo ATM."
+    },
+    "ATMTotals": {
+      "definition": "Totais atuais do ATM."
+    },
+    "Cassette": {
+      "definition": "Informações sobre os cassetes do ATM."
+    },
+    "TransactionTotals": {
+      "definition": "Contadores de operações que são repostos a zero após uma reconciliação com comando de reinicialização dos contadores."
+    },
+    "RetainedCard": {
+      "definition": "Número total de cartões retidos."
+    },
+    "AdditionalTransactionInformation": {
+      "definition": "Informações adicionais sobre a reconciliação."
+    },
+    "Incident": {
+      "definition": "Incidente ocorrido durante o processamento da operação."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "ChargesRecord8",
+  "definition": "Fornece informações adicionais, ao nível de cada registo individual, sobre os encargos relativos à operação de pagamento.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Encargos da operação a pagar pelo responsável pelos encargos."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o montante dos encargos é um crédito ou um débito.|Utilização: um montante nulo é considerado um crédito."
+    },
+    "ChargeIncludedIndicator": {
+      "definition": "Indica se o encargo deve ser incluído no montante ou é adicionado como pré-aviso."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de encargo."
+    },
+    "Rate": {
+      "definition": "Taxa utilizada para calcular o montante do encargo ou da comissão."
+    },
+    "Bearer": {
+      "definition": "Especifica qual(is) a(s) parte(s) que suportará(ão) os encargos associados ao processamento da operação de pagamento."
+    },
+    "Agent": {
+      "definition": "Instituição que recebe os encargos da operação ou a quem os encargos da operação são devidos."
+    },
+    "Tax": {
+      "definition": "Fornece detalhes sobre o imposto aplicado aos encargos."
+    }
+  }
+}

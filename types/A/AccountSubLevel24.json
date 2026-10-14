@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountSubLevel24",
+  "definition": "Fornece informações pormenorizadas de propriedade sobre a quantidade de participações a divulgar, ou a quantidade de participações a não divulgar e a quantidade de participações abaixo do limiar.",
+  "isoElements": {
+    "NonDisclosedShareholdingQuantity": {
+      "definition": "Quantidade de ações cujos pormenores de participação não são divulgados."
+    },
+    "BelowThresholdShareholdingQuantity": {
+      "definition": "Quantidade de ações cujos pormenores de participação não são reportados porque a quantidade de ações detidas pelo acionista é inferior ao limiar."
+    },
+    "Disclosure": {
+      "definition": "Pormenores das subcontas e das posições."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalMessageInformation1",
+  "definition": "Identificação única, atribuída pela parte instrutora original, para identificar de forma inequívoca a mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte iniciadora original, para identificar de forma inequívoca a mensagem original de pedido de mandato."
+    },
+    "MessageNameIdentification": {
+      "definition": "Especifica o identificador do nome da mensagem a que esta se refere."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    }
+  }
+}

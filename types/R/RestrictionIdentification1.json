@@ -1,0 +1,12 @@
+{
+  "isoType": "RestrictionIdentification1",
+  "definition": "Referências de restrição aplicadas à operação para a qual é solicitada a modificação da condição de liquidação de valores mobiliários.",
+  "isoElements": {
+    "Code": {
+      "definition": "Remoção ou adição de identificação de restrição aplicada à operação, expressa como um código."
+    },
+    "Identification": {
+      "definition": "Identificação de restrição aplicada à operação."
+    }
+  }
+}

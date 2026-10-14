@@ -1,0 +1,12 @@
+{
+  "isoType": "ReportItemRejectionReason1Choice",
+  "definition": "Fornece o motivo de rejeição do item do relatório sob forma codificada ou proprietária.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo do estado expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Motivo do estado expresso sob a forma de código proprietário."
+    }
+  }
+}

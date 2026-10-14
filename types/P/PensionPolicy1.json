@@ -1,0 +1,15 @@
+{
+  "isoType": "PensionPolicy1",
+  "definition": "Identificação de uma apólice de pensões.",
+  "isoElements": {
+    "Identifier": {
+      "definition": "Número de referência da apólice, plano ou regime de pensões."
+    },
+    "SubIdentifier": {
+      "definition": "Subidentificação da apólice, plano ou regime de pensões, como a referência de um membro."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a identificação da apólice, plano ou regime de pensões."
+    }
+  }
+}

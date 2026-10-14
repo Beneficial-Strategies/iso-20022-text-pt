@@ -1,0 +1,142 @@
+{
+  "isoType": "ExposureType15Code",
+  "definition": "Especifica a área de negócio ou o tipo de negociação subjacente que origina o movimento de garantia.",
+  "isoCodes": {
+    "BFWD": {
+      "name": "Contrato a prazo sobre obrigações",
+      "definition": "Quaisquer valores mobiliários negociados com prazo superior a 3 dias, incluindo bilhetes do Tesouro, obrigações do Estado japonês (JGB) e Gilts."
+    },
+    "PAYM": {
+      "name": "Liquidação em numerário",
+      "definition": "Em apoio de qualquer tipo de liquidação em numerário."
+    },
+    "CCPC": {
+      "name": "Garantia da CCP",
+      "definition": "Garantia que cobre os requisitos de margem inicial das operações OTC compensadas através de uma CCP."
+    },
+    "COMM": {
+      "name": "Mercadorias",
+      "definition": "Quaisquer bens trocados no comércio, incluindo bens negociados numa bolsa de mercadorias."
+    },
+    "CRDS": {
+      "name": "Swap de risco de incumprimento (CDS)",
+      "definition": "Swap concebido para transferir a exposição de crédito de produtos de rendimento fixo entre partes."
+    },
+    "CRTL": {
+      "name": "Linha de crédito",
+      "definition": "Abertura de uma linha de crédito antes da negociação."
+    },
+    "CRSP": {
+      "name": "Apoio de crédito",
+      "definition": "Concessão/obtenção de empréstimos em numerário; carta de crédito; assinatura de um acordo-quadro."
+    },
+    "CCIR": {
+      "name": "Swap de taxas de juro em moedas cruzadas",
+      "definition": "Acordo de divisas cruzadas entre duas partes (designadas contrapartes) em que um fluxo de futuros pagamentos de juros é trocado por outro com base num montante de capital especificado."
+    },
+    "CRPR": {
+      "name": "Produto cruzado",
+      "definition": "Combinação de vários tipos de operações."
+    },
+    "EQPT": {
+      "name": "Opção sobre ações",
+      "definition": "Negociação de opções sobre ações (também designadas stock options)."
+    },
+    "EXTD": {
+      "name": "Derivados negociados em bolsa",
+      "definition": "Negociação de derivados negociados em bolsa em geral."
+    },
+    "EQUS": {
+      "name": "Swap sobre ações",
+      "definition": "Operações de swap sobre ações em que o rendimento de uma ação é trocado por uma taxa de juro fixa ou variável."
+    },
+    "EXPT": {
+      "name": "Opção exótica",
+      "definition": "Negociação de opções exóticas, por exemplo, uma opção não normalizada."
+    },
+    "FIXI": {
+      "name": "Rendimento fixo",
+      "definition": "Negociação de instrumentos de rendimento fixo."
+    },
+    "FORX": {
+      "name": "Câmbios",
+      "definition": "Operações cambiais em geral (FX)."
+    },
+    "FORW": {
+      "name": "Câmbio a prazo",
+      "definition": "Operações cambiais a prazo (FX)."
+    },
+    "FUTR": {
+      "name": "Futuros",
+      "definition": "Acordo de compra ou venda de uma quantidade específica de uma mercadoria ou instrumento financeiro a um preço determinado numa data futura estipulada."
+    },
+    "OPTN": {
+      "name": "Opção cambial",
+      "definition": "Contrato que concede ao titular o direito, mas não a obrigação, de comprar ou vender divisas a uma taxa de câmbio especificada durante um período de tempo especificado."
+    },
+    "LIQU": {
+      "name": "Liquidez",
+      "definition": "Em apoio da liquidação através de um RTGS ou de outro sistema de compensação."
+    },
+    "OTCD": {
+      "name": "Derivados de balcão (OTC)",
+      "definition": "Negociação de derivados OTC."
+    },
+    "REPO": {
+      "name": "Acordo de recompra",
+      "definition": "Relativo à negociação de acordos de recompra."
+    },
+    "RVPO": {
+      "name": "Acordo de recompra inversa",
+      "definition": "Em apoio de uma operação de acordo de recompra inversa."
+    },
+    "SLOA": {
+      "name": "Empréstimo garantido",
+      "definition": "A exposição está associada a um empréstimo garantido."
+    },
+    "SBSC": {
+      "name": "Operação de compra-venda ou venda-compra de valores mobiliários com acordo de recompra",
+      "definition": "Compra e revenda de valores mobiliários (buy sell back)."
+    },
+    "SCRP": {
+      "name": "Produtos cruzados de valores mobiliários",
+      "definition": "Combinação de tipos de exposição relacionados com valores mobiliários."
+    },
+    "SLEB": {
+      "name": "Empréstimo e tomada de empréstimo de valores mobiliários",
+      "definition": "A exposição está associada a uma atividade de concessão ou obtenção de empréstimo de valores mobiliários."
+    },
+    "SHSL": {
+      "name": "Venda a descoberto",
+      "definition": "Exposição de venda a descoberto."
+    },
+    "SCIR": {
+      "name": "Swap de taxas de juro numa só moeda",
+      "definition": "Swap de taxas de juro numa só moeda."
+    },
+    "SCIE": {
+      "name": "Swap de taxas de juro exótico numa só moeda",
+      "definition": "Swap de taxas de juro exótico numa só moeda."
+    },
+    "SWPT": {
+      "name": "Swaption",
+      "definition": "Opção sobre swap de taxas de juro."
+    },
+    "TBAS": {
+      "name": "A anunciar",
+      "definition": "Garantia relacionada com operações a anunciar (TBA)."
+    },
+    "UDMS": {
+      "name": "Segregação de margem de derivados não compensados",
+      "definition": "Relativo à segregação de margem de derivados não compensados. Pode tratar-se de margem de variação ou de margem inicial."
+    },
+    "TRCP": {
+      "name": "Produto cruzado de tesouraria",
+      "definition": "Combinação de tipos de exposição relacionados com tesouraria."
+    },
+    "CBCO": {
+      "name": "Operações de crédito do banco central",
+      "definition": "Exposições relacionadas com a atividade com bancos centrais."
+    }
+  }
+}

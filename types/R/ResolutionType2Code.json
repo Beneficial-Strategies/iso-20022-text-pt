@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionType2Code",
+  "definition": "Especifica o tipo de deliberação.",
+  "isoCodes": {
+    "EXTR": {
+      "name": "Extraordinária",
+      "definition": "A deliberação da assembleia é extraordinária e pode estar sujeita a requisitos de votação específicos."
+    },
+    "SPCL": {
+      "name": "Especial",
+      "definition": "Deliberação que não é ordinária nem extraordinária (por exemplo, decisão sobre uma estratégia de investimento)."
+    }
+  }
+}

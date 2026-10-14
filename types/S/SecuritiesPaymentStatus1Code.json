@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesPaymentStatus1Code",
+  "definition": "Especifica o estado de pagamento de um valor mobiliário num determinado momento.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Totalmente liberado",
+      "definition": "O valor mobiliário está totalmente liberado."
+    },
+    "NILL": {
+      "name": "Nada liberado",
+      "definition": "O valor mobiliário não está liberado."
+    },
+    "PART": {
+      "name": "Parcialmente liberado",
+      "definition": "O valor mobiliário está parcialmente liberado."
+    }
+  }
+}

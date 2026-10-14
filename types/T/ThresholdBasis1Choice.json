@@ -1,0 +1,12 @@
+{
+  "isoType": "ThresholdBasis1Choice",
+  "definition": "Escolha entre uma base de limiar definida como código predefinido ou como valor proprietário.",
+  "isoElements": {
+    "Code": {
+      "definition": "Natureza da quantidade utilizada como base para fixar um limiar de votação das deliberações em assembleias gerais, fornecida como valor de código."
+    },
+    "Proprietary": {
+      "definition": "Natureza da quantidade utilizada como base para fixar um limiar de votação das deliberações em assembleias gerais, definida como valor proprietário."
+    }
+  }
+}

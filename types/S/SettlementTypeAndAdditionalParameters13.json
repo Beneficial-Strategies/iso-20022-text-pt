@@ -1,0 +1,15 @@
+{
+  "isoType": "SettlementTypeAndAdditionalParameters13",
+  "definition": "Fornece informações sobre o tipo e a identificação da operação.",
+  "isoElements": {
+    "CommonIdentification": {
+      "definition": "Referência única acordada entre as duas contrapartes da negociação para identificar a negociação."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificação atribuída pela instituição gestora da conta para identificar inequivocamente um evento societário."
+    },
+    "ReconciliationIndicator": {
+      "definition": "Indica se a operação de liquidação já foi enviada para o mercado e se é apenas enviada por um titular de conta a um prestador de serviços de conta para efeitos de reconciliação."
+    }
+  }
+}

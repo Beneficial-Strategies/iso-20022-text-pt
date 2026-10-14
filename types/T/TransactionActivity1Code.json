@@ -1,0 +1,26 @@
+{
+  "isoType": "TransactionActivity1Code",
+  "definition": "Especifica o tipo de atividade a que esta operação se refere.",
+  "isoCodes": {
+    "BOLE": {
+      "name": "Atividade de empréstimo e tomada de empréstimo",
+      "definition": "A operação diz respeito a empréstimo/contração de empréstimo de valores mobiliários."
+    },
+    "CLAI": {
+      "name": "Reclamação de mercado",
+      "definition": "A operação diz respeito a uma reclamação de mercado na sequência de uma operação sobre títulos."
+    },
+    "COLL": {
+      "name": "Atividade de garantia",
+      "definition": "A operação diz respeito a garantias."
+    },
+    "CORP": {
+      "name": "Atividade de ações societárias",
+      "definition": "A operação diz respeito a uma operação sobre títulos."
+    },
+    "SETT": {
+      "name": "Atividade de liquidação e compensação",
+      "definition": "A operação diz respeito a liquidação e compensação."
+    }
+  }
+}

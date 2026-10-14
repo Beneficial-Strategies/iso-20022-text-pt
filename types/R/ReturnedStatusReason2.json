@@ -1,0 +1,17 @@
+{
+  "isoType": "ReturnedStatusReason2",
+  "definition": "Motivo do estado devolvido de uma instrução.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Motivo do estado devolvido."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informações adicionais sobre o estado devolvido."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "O elemento AdditionalReasonInformation não pode conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral."
+    }
+  }
+}

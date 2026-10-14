@@ -1,0 +1,15 @@
+{
+  "isoType": "FundPortfolio9Choice",
+  "definition": "Escolha entre diferentes tipos de carteira.",
+  "isoElements": {
+    "TaxEfficientProduct": {
+      "definition": "A carteira é um regime governamental destinado a incentivar o investimento em fundos e fundos de investimento baseados em valores mobiliários, oferecendo certos benefícios fiscais. Não são investimentos em si mesmos, mas 'invólucros' isentos de imposto nos quais podem ser detidas ações, obrigações e fundos, protegendo-os de vários tipos de imposto.|No UK, um produto típico de invólucro fiscal é conhecido como 'ISA' (Individual Savings Account)."
+    },
+    "GeneralInvestment": {
+      "definition": "A carteira é um investimento geral."
+    },
+    "Pension": {
+      "definition": "A carteira é uma apólice, plano ou regime de pensões."
+    }
+  }
+}

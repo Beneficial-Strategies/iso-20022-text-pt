@@ -1,0 +1,78 @@
+{
+  "isoType": "PartyIdentificationType7Code",
+  "definition": "Especifica uma identificação alternativa de uma parte, por exemplo, número de identificação de registo nacional, número de passaporte, número de identificação fiscal.",
+  "isoCodes": {
+    "ATIN": {
+      "name": "Número de identificação fiscal de adoção",
+      "definition": "Número temporário de processamento fiscal (utilizado na adoção nacional de uma criança)."
+    },
+    "IDCD": {
+      "name": "Número do cartão de identificação",
+      "definition": "Número atribuído por uma autoridade nacional a um cartão de identidade."
+    },
+    "NRIN": {
+      "name": "Número de identificação do registo nacional",
+      "definition": "Número de identificação de registo nacional. Em Singapura é conhecido como NRIC."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro tipo de identificação."
+    },
+    "PASS": {
+      "name": "Número de passaporte",
+      "definition": "Número atribuído por uma autoridade de passaportes a um passaporte."
+    },
+    "POCD": {
+      "name": "Número do cartão dos correios",
+      "definition": "Número de cartão dos correios atribuído por um serviço postal nacional."
+    },
+    "SOCS": {
+      "name": "Número de segurança social",
+      "definition": "Número atribuído por um organismo de segurança social."
+    },
+    "SRSA": {
+      "name": "Número de conta SRS",
+      "definition": "Número da conta do Supplementary Retirement Scheme."
+    },
+    "GUNL": {
+      "name": "Número de licença de porte de arma",
+      "definition": "Número de licença de porte de arma atribuído por uma autoridade licenciadora de armas."
+    },
+    "GTIN": {
+      "name": "Número de identificação fiscal genérico",
+      "definition": "Número de identificação fiscal genérico."
+    },
+    "ITIN": {
+      "name": "Número de identificação fiscal de contribuinte individual",
+      "definition": "Número de processamento fiscal."
+    },
+    "CPFA": {
+      "name": "Número de conta CPF",
+      "definition": "Conta emitida pelo Central Provident Fund Board (Singapura)."
+    },
+    "AREG": {
+      "name": "Número de registo de estrangeiro",
+      "definition": "Número atribuído por uma entidade governamental para identificar cidadãos estrangeiros."
+    },
+    "DRLC": {
+      "name": "Número da carta de condução",
+      "definition": "Número atribuído por uma autoridade emissora a uma carta de condução."
+    },
+    "EMID": {
+      "name": "Número de identificação do empregador",
+      "definition": "Número atribuído a uma entidade patronal por uma autoridade de registo."
+    },
+    "NINV": {
+      "name": "Investidor não residente",
+      "definition": "Número que identifica o tipo de investidor registado numa comissão de valores mobiliários."
+    },
+    "INCL": {
+      "name": "Classificação setorial",
+      "definition": "Número, normalmente atribuído por um governo, para descrever relações de propriedade, administrativas e de autoridade."
+    },
+    "GIIN": {
+      "name": "Número global de identificação de intermediário",
+      "definition": "Número global de identificação fiscal de intermediário."
+    }
+  }
+}

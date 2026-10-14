@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAElectionAmendmentRequestV01",
+  "definition": "Âmbito|Esta mensagem é enviada por uma CSD ao emitente (ou ao seu agente) para solicitar a autorização de uma alteração de uma mensagem Agent Corporate Action Election Advice enviada anteriormente.|Utilização|Esta mensagem é utilizada para solicitar a alteração de uma mensagem Agent Corporate Action Election Advice enviada anteriormente.|Depois de o pedido de alteração ter sido aceite pelo emitente (ou pelo seu agente), a CSD tratará qualquer movimento de recursos e enviará uma mensagem Agent Corporate Action Election Advice com a função, alteração de opção, para confirmar que a alteração foi registada na CSD.|Esta mensagem é utilizada quando os termos e condições do evento da operação sobre títulos permitem alterações."
+}

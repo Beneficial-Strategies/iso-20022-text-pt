@@ -1,0 +1,12 @@
+{
+  "isoType": "Reservation4",
+  "definition": "Liquidez reservada pelo titular da conta para fins específicos.",
+  "isoElements": {
+    "StartDateTime": {
+      "definition": "Data e hora a partir das quais a reserva produz efeitos."
+    },
+    "Amount": {
+      "definition": "Montante em dinheiro do limite, expresso numa moeda elegível."
+    }
+  }
+}

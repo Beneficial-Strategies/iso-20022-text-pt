@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionAmendment1",
+  "definition": "Especifica o caminho e os elementos de dados solicitados no pedido de investigação.",
+  "isoElements": {
+    "Path": {
+      "definition": "Caminho absoluto de um elemento."
+    },
+    "Record": {
+      "definition": "Fornece o registo individual dos elementos de dados."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "NonEligibleProceedsIndicator6Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar a elegibilidade dos recursos resultantes.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar informações relativas à não elegibilidade dos recursos resultantes."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária para especificar informações relativas à não elegibilidade dos recursos resultantes."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingStatus79Choice",
+  "definition": "Escolha de formato para um estado de tratamento.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "O aviso de buy-in tem aviso de receção da instituição gestora da conta."
+    },
+    "Rejected": {
+      "definition": "O aviso de buy-in é rejeitado para tratamento posterior."
+    }
+  }
+}

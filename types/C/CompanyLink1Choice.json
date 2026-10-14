@@ -1,0 +1,12 @@
+{
+  "isoType": "CompanyLink1Choice",
+  "definition": "Escolha de formatos para a parte negociadora ou corretora.",
+  "isoElements": {
+    "Code": {
+      "definition": "Ligação à sociedade expressa sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Ligação à sociedade expressa sob a forma de código proprietário."
+    }
+  }
+}

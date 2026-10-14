@@ -1,0 +1,50 @@
+{
+  "isoType": "TransferReason1Code",
+  "definition": "Especifica o motivo da transferência de ativos.",
+  "isoCodes": {
+    "TRAU": {
+      "name": "Posse indivisa",
+      "definition": "A transferência é uma posse indivisa."
+    },
+    "TRAC": {
+      "name": "Transferência entre cônjuges",
+      "definition": "A transferência é entre cônjuges."
+    },
+    "TRAT": {
+      "name": "Negócio",
+      "definition": "A transferência é uma transação comercial."
+    },
+    "TRAO": {
+      "name": "Transferência ordinária",
+      "definition": "A transferência é ordinária."
+    },
+    "TRAI": {
+      "name": "Herança",
+      "definition": "A transferência é uma herança."
+    },
+    "TRAG": {
+      "name": "Doação",
+      "definition": "A transferência é uma doação."
+    },
+    "TPLD": {
+      "name": "Transferência de conta penhorada",
+      "definition": "Transferência para conta com penhor (em certas circunstâncias, os distribuidores têm de congelar e transferir a totalidade ou parte da posição para uma conta coletiva separada, por exemplo, em caso de investigação exigida pela autoridade fiscal ou pela polícia)."
+    },
+    "TTDT": {
+      "name": "Transferência no âmbito do TDT",
+      "definition": "Instrução de transferência executada no âmbito do quadro TDT (o quadro TDT é o modelo operacional promovido pela Associação Bancária Italiana para transferências, e a maior parte das transferências, mas não todas, será executada em conformidade com esse processo)."
+    },
+    "TRPE": {
+      "name": "Transferência entre beneficiários diferentes",
+      "definition": "Transferência entre beneficiários diferentes, com aplicação de tributação (contas com titulares diferentes)."
+    },
+    "TRAF": {
+      "name": "Cisão",
+      "definition": "A transferência resulta de uma cisão ou divisão."
+    },
+    "TRAN": {
+      "name": "Entre contas próprias",
+      "definition": "A transferência é entre contas próprias."
+    }
+  }
+}

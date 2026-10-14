@@ -1,0 +1,198 @@
+{
+  "isoType": "ExternalMandateReason1Code",
+  "definition": "Especifica o código externo do motivo do processamento do mandato, sob a forma de uma cadeia de caracteres com um máximo de 4 caracteres.|A lista de códigos válidos é uma lista externa de códigos publicada em separado.|As listas externas de códigos podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "AC01": {
+      "name": "Número de conta incorreto",
+      "definition": "O formato do número de conta especificado não está correto"
+    },
+    "AC04": {
+      "name": "Número de conta encerrada",
+      "definition": "O número de conta especificado foi encerrado nos registos do recetor"
+    },
+    "AC06": {
+      "name": "Conta bloqueada",
+      "definition": "A conta especificada está bloqueada, impedindo o lançamento de operações."
+    },
+    "AG01": {
+      "name": "Operação proibida",
+      "definition": "Operação proibida neste tipo de conta (anteriormente NoAgreement)"
+    },
+    "AG02": {
+      "name": "Código de operação bancária inválido",
+      "definition": "O código de operação bancária especificado na mensagem não é válido para o destinatário"
+    },
+    "AM02": {
+      "name": "Montante não permitido",
+      "definition": "O montante da operação/mensagem específica é superior ao máximo permitido"
+    },
+    "AM03": {
+      "name": "Moeda não permitida",
+      "definition": "O montante da mensagem especificado está numa moeda não processável, fora do acordo existente"
+    },
+    "AM05": {
+      "name": "Duplicação",
+      "definition": "Duplicação."
+    },
+    "BE01": {
+      "name": "Incoerente com o cliente final",
+      "definition": "A identificação do cliente final não é coerente com o número de conta associado. (anteriormente CreditorConsistency)."
+    },
+    "BE04": {
+      "name": "Morada do credor em falta",
+      "definition": "A especificação da morada do credor, necessária para o pagamento, está em falta/incorreta (anteriormente IncorrectCreditorAddress)."
+    },
+    "BE05": {
+      "name": "Parte iniciadora não reconhecida",
+      "definition": "A parte que iniciou a mensagem não é reconhecida pelo cliente final"
+    },
+    "BE06": {
+      "name": "Cliente final desconhecido",
+      "definition": "O cliente final especificado não é conhecido no código de agência/código bancário nacional associado ou já não existe nos livros"
+    },
+    "BE07": {
+      "name": "Morada do devedor em falta",
+      "definition": "A especificação da morada do devedor, necessária para o pagamento, está em falta/incorreta."
+    },
+    "DT01": {
+      "name": "Data inválida",
+      "definition": "Data inválida (por exemplo, data de liquidação errada)"
+    },
+    "FF01": {
+      "name": "Formato de ficheiro inválido",
+      "definition": "Formato de ficheiro incompleto ou inválido"
+    },
+    "MD01": {
+      "name": "Sem mandato",
+      "definition": "Sem mandato"
+    },
+    "MD02": {
+      "name": "Informações obrigatórias em falta no mandato",
+      "definition": "Faltam os dados relacionados com o mandato exigidos pelo esquema."
+    },
+    "MD07": {
+      "name": "Cliente final falecido",
+      "definition": "O cliente final faleceu."
+    },
+    "MD08": {
+      "name": "Sem serviço de mandato pela instituição",
+      "definition": "A instituição recetora não oferece os serviços de mandato especificados"
+    },
+    "MD09": {
+      "name": "Sem serviço de mandato para o cliente",
+      "definition": "A conta não está aberta para os serviços de mandato especificados"
+    },
+    "MD10": {
+      "name": "Sem serviço de mandato para o especificado",
+      "definition": "A conta não está aberta para os serviços de mandato especificados para este credor em particular"
+    },
+    "MD11": {
+      "name": "Instituição não reconhecida",
+      "definition": "Não é possível localizar a instituição para a qual a mensagem tem de ser reencaminhada"
+    },
+    "MD12": {
+      "name": "Referência do mandato não única",
+      "definition": "A identificação do mandato não é única para o credor"
+    },
+    "MD13": {
+      "name": "Autenticação do cliente incorreta",
+      "definition": "Existe um problema com a autenticação do cliente"
+    },
+    "MD14": {
+      "name": "Agente incorreto",
+      "definition": "A instituição no fluxo de pagamento está incorreta"
+    },
+    "MD15": {
+      "name": "Moeda incorreta",
+      "definition": "A moeda da operação está incorreta"
+    },
+    "MD16": {
+      "name": "Solicitado pelo cliente",
+      "definition": "Anulação/alteração solicitada pelo devedor"
+    },
+    "MD17": {
+      "name": "Solicitado pela parte iniciadora",
+      "definition": "Anulação/alteração solicitada pelo credor"
+    },
+    "MD18": {
+      "name": "Solicitado pela parte iniciadora e pelo cliente",
+      "definition": "Anulação/alteração solicitada pelo credor e pelo devedor"
+    },
+    "MD19": {
+      "name": "Mandato cancelado por liquidação antecipada",
+      "definition": "Anulação do mandato na sequência do reembolso antecipado do débito pelo devedor"
+    },
+    "MD20": {
+      "name": "Mandato expirado",
+      "definition": "Anulação do mandato na sequência do termo da validade"
+    },
+    "MD21": {
+      "name": "Mandato cancelado por fraude",
+      "definition": "Anulação do mandato devido a suspeita de fraude"
+    },
+    "MD22": {
+      "name": "Iniciação do mandato cancelada",
+      "definition": "Anulação do mandato na sequência da anulação da iniciação do mandato"
+    },
+    "MD23": {
+      "name": "Alteração do mandato cancelada",
+      "definition": "Anulação do mandato na sequência da anulação da alteração do mandato"
+    },
+    "MS02": {
+      "name": "Motivo não especificado, gerado pelo cliente",
+      "definition": "O motivo não foi especificado pelo cliente final"
+    },
+    "MS03": {
+      "name": "Motivo não especificado gerado pela instituição",
+      "definition": "O motivo não foi especificado pela instituição."
+    },
+    "NARR": {
+      "name": "Descritivo",
+      "definition": "O motivo é fornecido como informação narrativa nas informações adicionais sobre o motivo."
+    },
+    "RC01": {
+      "name": "Identificador do banco incorreto",
+      "definition": "O código de identificação bancária especificado na mensagem tem um formato incorreto (anteriormente IncorrectFormatForRoutingCode)."
+    },
+    "RF01": {
+      "name": "Referência da operação não única",
+      "definition": "A referência da operação não é única na mensagem."
+    },
+    "RR01": {
+      "name": "Conta ou identificação do devedor em falta",
+      "definition": "A especificação da conta do devedor ou da identificação única necessária por motivos de requisitos regulamentares é insuficiente ou está em falta"
+    },
+    "RR02": {
+      "name": "Nome ou morada do devedor em falta",
+      "definition": "A especificação do nome e/ou morada do devedor necessária para requisitos regulamentares é insuficiente ou está em falta."
+    },
+    "RR03": {
+      "name": "Nome ou morada do credor em falta",
+      "definition": "A especificação do nome e/ou morada do credor necessária para requisitos regulamentares é insuficiente ou está em falta."
+    },
+    "RR04": {
+      "name": "Motivo regulamentar",
+      "definition": "Motivo regulamentar"
+    },
+    "SL01": {
+      "name": "Serviço específico oferecido pela instituição do devedor",
+      "definition": "Devido a um serviço específico oferecido pela instituição do devedor"
+    },
+    "SL11": {
+      "name": "Credor não consta da lista branca do devedor",
+      "definition": "Serviço de lista branca oferecido pela instituição do devedor; o devedor ainda não incluiu o credor na sua “lista branca”. Na lista branca, o devedor pode indicar todos os credores autorizados a debitar a conta bancária do devedor."
+    },
+    "SL12": {
+      "name": "Credor consta da lista negra do devedor",
+      "definition": "Serviço de lista negra oferecido pela instituição do devedor; o devedor incluiu o credor na sua “lista negra”. Na lista negra, o devedor pode indicar todos os credores não autorizados a debitar a conta bancária do devedor."
+    },
+    "SL13": {
+      "name": "Número máximo de operações de débito direto excedido",
+      "definition": "Devido ao serviço de número máximo de débitos diretos permitidos por período oferecido pela instituição do devedor."
+    },
+    "SL14": {
+      "name": "Montante máximo de operação de débito direto excedido",
+      "definition": "Devido ao serviço de montante máximo de débito direto permitido oferecido pela instituição do devedor."
+    }
+  }
+}

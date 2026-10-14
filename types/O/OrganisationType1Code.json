@@ -1,0 +1,22 @@
+{
+  "isoType": "OrganisationType1Code",
+  "definition": "Especifica um tipo de organização.",
+  "isoCodes": {
+    "IFUN": {
+      "name": "Fundo de investimento",
+      "definition": "A organização é um fundo de investimento."
+    },
+    "PRIV": {
+      "name": "Associação privada",
+      "definition": "A organização é uma associação privada."
+    },
+    "PUBL": {
+      "name": "Público",
+      "definition": "A organização é uma sociedade aberta."
+    },
+    "PFUN": {
+      "name": "Fundo público",
+      "definition": "A organização é um fundo público."
+    }
+  }
+}

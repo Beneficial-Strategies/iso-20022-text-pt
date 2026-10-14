@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemMember3",
+  "definition": "Fornece detalhes sobre um sistema e sobre um membro de um sistema.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identificação de um sistema de compensação de numerário específico."
+    },
+    "MemberIdentification": {
+      "definition": "Identificação única e inequívoca de um membro num sistema, atribuída segundo o esquema de identificação de membros do sistema."
+    }
+  }
+}

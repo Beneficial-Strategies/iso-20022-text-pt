@@ -1,0 +1,54 @@
+{
+  "isoType": "ExternalInvestigationType1Code",
+  "definition": "Especifica o tipo de investigação, conforme publicado num conjunto externo de códigos de tipos de investigação.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "UTAP": {
+      "name": "Impossibilidade de aplicação pelo credor",
+      "definition": "Um lançamento contabilizado não pode ser aplicado pelo credor."
+    },
+    "CCNR": {
+      "name": "Reclamação do credor por não receção",
+      "definition": "O credor alega a não receção do pagamento."
+    },
+    "CONR": {
+      "name": "Reclamação da instituição do credor por não receção da cobertura",
+      "definition": "A instituição do credor alega a não receção da cobertura ou da liquidação."
+    },
+    "RQFI": {
+      "name": "Pedido de informações",
+      "definition": "São necessárias mais informações sobre um pagamento, lançamento, mensagem ou instrução."
+    },
+    "PINC": {
+      "name": "Iniciação de pagamento não confirmada",
+      "definition": "A iniciação do pagamento não foi liquidada nem confirmada."
+    },
+    "RQVA": {
+      "name": "Pedido de ajustamento da data-valor",
+      "definition": "Solicita-se a revalorização de um lançamento."
+    },
+    "RQUF": {
+      "name": "Pedido de utilização dos fundos",
+      "definition": "Solicita-se a utilização de fundos num lançamento."
+    },
+    "RQDA": {
+      "name": "Pedido de autorização de débito",
+      "definition": "Solicita-se a autorização de débito num lançamento."
+    },
+    "ACCT": {
+      "name": "Investigação relativa à conta",
+      "definition": "Investigação relativa a uma conta."
+    },
+    "RQCH": {
+      "name": "Pedido relativo a encargos",
+      "definition": "Investigação relativa a encargos que foram cobrados ou solicitados."
+    },
+    "RIMF": {
+      "name": "Pedido do IMF",
+      "definition": "Pedido do Fundo Monetário Internacional."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro tipo de pedido."
+    }
+  }
+}

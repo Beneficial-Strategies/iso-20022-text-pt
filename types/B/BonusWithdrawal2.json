@@ -1,0 +1,27 @@
+{
+  "isoType": "BonusWithdrawal2",
+  "definition": "Informações sobre uma bonificação paga ou um levantamento.",
+  "isoElements": {
+    "TypeOfAmount": {
+      "definition": "Especifica se o montante resulta de uma bonificação paga, de um levantamento ou de outro tipo de montante."
+    },
+    "Amount": {
+      "definition": "Montante da bonificação paga ou montante reclamado. Por exemplo, um montante reclamado para uma conta de poupança individual vitalícia (LISA) ou uma bonificação estatal paga."
+    },
+    "Reason": {
+      "definition": "Motivo do montante de bonificação pago ou do montante levantado do produto de investimento."
+    },
+    "UnclaimedAmount": {
+      "definition": "Montante de uma bonificação não reclamada ou de um levantamento não reclamado."
+    },
+    "Outstanding": {
+      "definition": "Indica se existe um montante de bonificação ou de levantamento pendente."
+    },
+    "Reference": {
+      "definition": "Identificação do levantamento ou da bonificação."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre os montantes pagos ou levantados."
+    }
+  }
+}

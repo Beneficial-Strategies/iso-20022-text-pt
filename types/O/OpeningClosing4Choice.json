@@ -1,0 +1,12 @@
+{
+  "isoType": "OpeningClosing4Choice",
+  "definition": "Escolha de formato para as informações de abertura e fecho.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informações de abertura e fecho expressas sob a forma de código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Informações de abertura e fecho expressas sob a forma de código proprietário."
+    }
+  }
+}

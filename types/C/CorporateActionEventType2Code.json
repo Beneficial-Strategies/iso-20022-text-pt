@@ -1,0 +1,250 @@
+{
+  "isoType": "CorporateActionEventType2Code",
+  "definition": "Especifica o estado do evento de CA.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Estado de negociação ativo",
+      "definition": "A negociação do valor mobiliário foi iniciada ou o valor mobiliário foi reativado após uma suspensão da negociação."
+    },
+    "ATTI": {
+      "name": "Anexo",
+      "definition": "Combinação de diferentes tipos de valores mobiliários para criar uma unidade. As unidades são geralmente compostas por warrants e obrigações ou por warrants e ações. Os valores mobiliários podem ser combinados a pedido do titular ou com base na convenção de mercado."
+    },
+    "BIDS": {
+      "name": "Oferta de recompra",
+      "definition": "Oferta de recompra/oferta do emitente/direitos inversos. Oferta da sociedade emitente aos acionistas existentes para recomprar ações ou outros valores mobiliários convertíveis em ações. O objetivo da oferta é reduzir o número de ações em circulação."
+    },
+    "BONU": {
+      "name": "Emissão de ações gratuitas",
+      "definition": "O evento é uma emissão de ações gratuitas ou emissão de capitalização. Os titulares de valores mobiliários recebem ativos adicionais do emitente sem pagamento, proporcionalmente à sua participação. Uma emissão de ações gratuitas é tipicamente representada por ações, direitos ou warrants. O valor nominal não se altera. Pode ser oferecida ao titular a escolha da forma."
+    },
+    "BPUT": {
+      "name": "Reembolso por opção do detentor",
+      "definition": "Reembolso parcial antes da data de vencimento final prevista de um valor mobiliário. O sorteio distingue-se do resgate parcial porque as obrigações sorteadas são escolhidas por lotaria e sem redução do valor nominal."
+    },
+    "BRUP": {
+      "name": "Falência",
+      "definition": "Estatuto jurídico de uma sociedade incapaz de pagar aos credores. A falência implica normalmente uma decisão judicial formal. Os valores mobiliários podem tornar-se destituídos de valor."
+    },
+    "CAPG": {
+      "name": "Distribuição de mais-valias",
+      "definition": "O evento é a distribuição de lucros resultantes da venda de valores mobiliários. Os acionistas de fundos mútuos, fundos de investimento ou Sicavs são os destinatários das distribuições de mais-valias, que são frequentemente reinvestidas em ações adicionais do fundo."
+    },
+    "CAPI": {
+      "name": "Capitalização",
+      "definition": "Aumento do capital em dívida de um instrumento de dívida sem aumento do valor nominal. Resulta normalmente da incorporação no capital de juros vencidos mas não pagos. Faz-se habitualmente aumentando o valor do fator de amortização, por exemplo, capitalização e amortização negativa."
+    },
+    "CERT": {
+      "name": "Certificação não US TEFRA D",
+      "definition": "Exigência de certificação do beneficiário efetivo não residente nos US para a troca de títulos temporários por permanentes."
+    },
+    "CHAN": {
+      "name": "Alteração",
+      "definition": "Informação relativa a uma alteração descrita mais pormenorizadamente nos detalhes da operação sobre valores mobiliários."
+    },
+    "CLSA": {
+      "name": "Proposta de acordo de ação coletiva",
+      "definition": "Situação em que as partes interessadas procuram a reparação de uma perda financeira. Pode ser oferecida ao titular do valor mobiliário a oportunidade de aderir a uma ação coletiva, devendo este responder com uma instrução."
+    },
+    "CONS": {
+      "name": "Consentimento",
+      "definition": "Procedimento que visa obter o consentimento do titular para uma proposta do emitente ou de um terceiro destinada a fazer avançar um evento para a fase seguinte. Este procedimento não tem de estar associado à organização de uma assembleia formal. Por exemplo, o consentimento para aprovar um plano de reorganização no âmbito de um processo de falência."
+    },
+    "CONV": {
+      "name": "Conversão",
+      "definition": "Conversão de valores mobiliários (geralmente obrigações convertíveis ou ações preferenciais) noutra forma de valores mobiliários (normalmente ações ordinárias) a um preço/rácio previamente estabelecido."
+    },
+    "COOP": {
+      "name": "Opção da sociedade",
+      "definition": "Uma opção da sociedade pode ser concedida pela sociedade, permitindo ao titular subscrever ações numa ou mais datas futuras a um preço previamente acordado na sociedade. Uma sociedade não pode conceder opções que permitam ao titular subscrever ações não emitidas numa data posterior em cinco ou mais anos à data da concessão. Os titulares de opções não são membros da sociedade. São credores condicionais da sociedade e, por isso, podem, em certos casos, ter direito a votar um plano de acordo entre os credores e a sociedade e ficar vinculados por ele. Como muitas opções têm vários períodos de exercício, uma opção da sociedade caduca ou transita para a data de expiração seguinte."
+    },
+    "DECR": {
+      "name": "Diminuição de valor",
+      "definition": "Redução do valor facial de uma única ação ou do valor dos ativos do fundo. O número de ações/unidades de participação em circulação mantém-se inalterado. Este evento pode incluir um pagamento em numerário aos titulares."
+    },
+    "DETI": {
+      "name": "Destaque",
+      "definition": "Separação dos componentes que constituem um valor mobiliário, por exemplo, normalmente unidades compostas por warrants e obrigações ou por warrants e ações. As unidades podem ser desdobradas a pedido do titular do valor mobiliário ou com base na convenção de mercado."
+    },
+    "DFLT": {
+      "name": "Incumprimento de obrigações",
+      "definition": "Incumprimento pela sociedade de obrigações definidas como eventos de incumprimento nos termos do contrato de obrigações e que não foram sanadas."
+    },
+    "DLST": {
+      "name": "Estado de negociação excluído da cotação",
+      "definition": "O valor mobiliário deixou de poder cumprir os requisitos de admissão à cotação de uma bolsa e é retirado da cotação oficial."
+    },
+    "DRAW": {
+      "name": "Sorteio",
+      "definition": "Reembolso parcial antes da data de vencimento final prevista de um valor mobiliário. O sorteio distingue-se do resgate parcial porque as obrigações sorteadas são escolhidas por lotaria e sem redução do valor nominal."
+    },
+    "DRIP": {
+      "name": "Reinvestimento de dividendos",
+      "definition": "O evento é um tipo de pagamento de dividendos em que o dividendo em numerário é reinvestido em ações adicionais da sociedade emitente."
+    },
+    "DSCL": {
+      "name": "Divulgação",
+      "definition": "Exigência de os titulares ou beneficiários efetivos divulgarem ao emitente o seu nome, localização e participações em qualquer emissão."
+    },
+    "DTCH": {
+      "name": "Leilão holandês",
+      "definition": "Ação de uma parte que pretende adquirir um valor mobiliário. Os titulares do valor mobiliário são convidados a apresentar uma oferta de venda dentro de um intervalo de preços específico. A parte adquirente comprará ao titular que apresentar a oferta mais baixa."
+    },
+    "DVCA": {
+      "name": "Dividendo em numerário",
+      "definition": "Distribuição de numerário aos acionistas, proporcional à sua participação no capital. Os dividendos ordinários são recorrentes e regulares. O acionista tem de receber numerário e pode ser-lhe oferecida a escolha da moeda."
+    },
+    "DVOP": {
+      "name": "Opção de dividendo",
+      "definition": "O evento é uma distribuição de dividendos aos acionistas com possibilidade de escolha do método de pagamento. O acionista tem de escolher a forma de pagamento - ações, numerário ou ambos."
+    },
+    "DVSC": {
+      "name": "Dividendo em títulos provisórios",
+      "definition": "Dividendo/pagamento em scrip. Dividendo ou juro pago sob a forma de scrip."
+    },
+    "DVSE": {
+      "name": "Dividendo em ações",
+      "definition": "O evento é um dividendo pago aos acionistas sob a forma de ações da sociedade emitente ou de outra sociedade. O acionista tem de receber ações e não lhe é oferecida escolha quanto à forma de distribuição."
+    },
+    "EXOF": {
+      "name": "Troca",
+      "definition": "Troca de participações por outros valores mobiliários e/ou numerário. A troca pode ser obrigatória ou voluntária e implica a troca de valores mobiliários em circulação por diferentes valores mobiliários e/ou numerário. Por exemplo, \"oferta de troca\", \"reorganização do capital\" ou \"separação de fundos\"."
+    },
+    "EXRI": {
+      "name": "Chamada sobre valores intermédios",
+      "definition": "Chamada ou exercício de valores mobiliários não liberados ou de valores mobiliários intermédios resultantes de uma distribuição de valores mobiliários intermédios (RHDI). Este código é utilizado para o segundo evento, quando uma emissão de valores mobiliários intermédios (direitos/cupões) é composta por dois eventos, sendo o primeiro evento a distribuição de valores mobiliários intermédios."
+    },
+    "EXTM": {
+      "name": "Prorrogação do vencimento",
+      "definition": "Conforme estipulado nos termos e condições de uma obrigação, o emitente ou o obrigacionista pode prorrogar a data de vencimento da obrigação. Após a prorrogação, o valor mobiliário pode diferir da emissão original (nova taxa ou data de vencimento). Pode estar sujeita à aprovação do obrigacionista."
+    },
+    "EXWA": {
+      "name": "Exercício de warrant",
+      "definition": "Opção oferecida aos titulares para comprar (warrant de compra) ou vender (warrant de venda) uma quantidade específica de ações, numerário ou mercadoria, a um preço predeterminado, durante um período de tempo predeterminado (que normalmente corresponde à vida da emissão)."
+    },
+    "INCR": {
+      "name": "Aumento de valor",
+      "definition": "Aumento do valor facial de um único valor mobiliário. O número de valores mobiliários em circulação mantém-se inalterado."
+    },
+    "INTR": {
+      "name": "Pagamento de juros",
+      "definition": "Pagamento regular de juros distribuído aos titulares de um ativo que vence juros."
+    },
+    "LIQU": {
+      "name": "Dividendo de liquidação",
+      "definition": "Distribuição de numerário, de ativos ou de ambos. A dívida pode ser paga por ordem de prioridade com base nos créditos preferenciais sobre os ativos especificados pelo valor mobiliário."
+    },
+    "MCAL": {
+      "name": "Reembolso total antecipado",
+      "definition": "Reembolso da totalidade de uma emissão em circulação de valores mobiliários, por exemplo, obrigações, ações preferenciais, fundos, pelo emitente ou pelo seu agente, por exemplo, o gestor de ativos, antes do vencimento final."
+    },
+    "MRGR": {
+      "name": "Fusão",
+      "definition": "O evento é uma troca obrigatória ou voluntária de valores mobiliários em circulação em resultado da combinação de ativos de duas ou mais sociedades. Podem ser efetuados pagamentos em numerário em conjunto com a troca de ações."
+    },
+    "ODLT": {
+      "name": "Venda ou compra de lote incompleto",
+      "definition": "Venda/compra de lotes incompletos. Venda ou compra de lotes incompletos à/da sociedade emitente, por iniciativa do titular do valor mobiliário ou na sequência de uma oferta feita pelo emitente."
+    },
+    "PARI": {
+      "name": "Pari passu",
+      "definition": "Ocorre quando valores mobiliários com características diferentes, por exemplo, ações com direitos diferentes a dividendos ou de voto, se tornam idênticos em todos os aspetos, por exemplo, pari passu ou assimilação. Pode ser programada com antecedência, por exemplo, as ações resultantes de uma emissão gratuita podem tornar-se fungíveis após um período de tempo predefinido, ou pode resultar de eventos externos, por exemplo, fusão, reorganização, emissão de tranches suplementares, etc."
+    },
+    "PCAL": {
+      "name": "Reembolso parcial com redução do valor nominal",
+      "definition": "Os valores mobiliários são reembolsados parcialmente antes da data de vencimento final prevista, com redução do valor nominal das ações. O montante em circulação dos valores mobiliários será reduzido proporcionalmente."
+    },
+    "PDEF": {
+      "name": "Pré-financiamento",
+      "definition": "Também designado defeasance parcial. O emitente tem dinheiro reservado para reembolsar uma parte de uma emissão e o contrato de emissão estabelece que os valores mobiliários podem ser chamados antes do vencimento indicado."
+    },
+    "PINK": {
+      "name": "Pagamento em espécie",
+      "definition": "Pagamento de juros, sob qualquer forma exceto numerário, distribuído aos titulares de um ativo que vence juros."
+    },
+    "PLAC": {
+      "name": "Local de constituição",
+      "definition": "Alterações do estado de constituição para sociedades dos US e alterações do local de constituição para sociedades estrangeiras. Quando as ações têm de ser registadas na sequência da alteração de constituição, os titulares podem ter de eleger o agente de registo."
+    },
+    "PPMT": {
+      "name": "Chamada de prestação",
+      "definition": "Uma prestação para a compra de capital social, sujeita a um acordo entre um emitente e um comprador."
+    },
+    "PRED": {
+      "name": "Reembolso parcial sem redução do valor nominal",
+      "definition": "Os valores mobiliários são reembolsados parcialmente antes da data de vencimento final prevista, sem redução do valor nominal das ações. Faz-se habitualmente através da redução do fator de amortização."
+    },
+    "PRII": {
+      "name": "Pagamento de juros com capital",
+      "definition": "Evento composto por duas componentes: a diminuição do valor amortizado de um valor mobiliário com fator de amortização e um pagamento de juros."
+    },
+    "PRIO": {
+      "name": "Emissão prioritária",
+      "definition": "Forma de oferta aberta ou pública em que, devido à quantidade limitada de valores mobiliários disponíveis, é dada prioridade aos acionistas existentes."
+    },
+    "REDM": {
+      "name": "Vencimento final",
+      "definition": "Reembolso da totalidade de uma emissão em circulação de valores mobiliários, por exemplo, obrigações, ações preferenciais, fundos, pelo emitente ou pelo seu agente, por exemplo, o gestor de ativos, no vencimento final."
+    },
+    "REDO": {
+      "name": "Redenominação",
+      "definition": "Evento através do qual a unidade (moeda e/ou valor nominal) de um valor mobiliário é reexpressa, por exemplo, o valor nominal de um valor mobiliário numa moeda nacional é reexpresso noutra moeda."
+    },
+    "REMK": {
+      "name": "Acordo de recolocação",
+      "definition": "Compra e venda de ações preferenciais/obrigações recolocadas no mercado (remarketed) através da negociação da taxa de juro entre os emitentes e os titulares."
+    },
+    "RHDI": {
+      "name": "Distribuição de valores intermédios",
+      "definition": "Distribuição de valores mobiliários intermédios ou de um privilégio que confere ao titular o direito de participar num evento futuro."
+    },
+    "RHTS": {
+      "name": "Emissão de direitos",
+      "definition": "Emissão de direitos/direitos de subscrição/oferta de direitos. Distribuição de um valor mobiliário ou de um privilégio que confere ao titular um direito de participar num evento futuro."
+    },
+    "SHPR": {
+      "name": "Dividendo com prémio de emissão",
+      "definition": "Este evento societário paga aos acionistas um montante em numerário proveniente da reserva de prémio de emissão. É semelhante a um dividendo, mas com implicações fiscais diferentes."
+    },
+    "SMAL": {
+      "name": "Menor unidade negociável",
+      "definition": "Modificação da menor unidade negociável de ações a fim de obter uma nova unidade negociável."
+    },
+    "SOFF": {
+      "name": "Cisão",
+      "definition": "O evento é uma cisão ou distribuição ou uma separação. Trata-se de uma distribuição de ações de uma filial aos acionistas da sociedade-mãe sem entrega de ações. Uma cisão representa uma forma de desinvestimento que resulta numa sociedade independente. Normalmente é efetuada sem custos para os acionistas da emissão da sociedade-mãe."
+    },
+    "SPLF": {
+      "name": "Desdobramento de ações",
+      "definition": "O evento é uma alteração do valor nominal, uma subdivisão. Corresponde a um aumento do número de ações em circulação de uma sociedade sem qualquer alteração dos capitais próprios do acionista nem do valor de mercado agregado no momento da divisão. O preço das ações e o valor nominal são reduzidos em conformidade."
+    },
+    "SPLR": {
+      "name": "Agrupamento de ações",
+      "definition": "O evento é uma alteração do valor nominal, uma consolidação. Corresponde a uma diminuição do número de ações em circulação sem qualquer alteração dos capitais próprios do acionista nem do valor de mercado agregado no momento da divisão. O preço das ações e o valor nominal são reduzidos em conformidade."
+    },
+    "SUSP": {
+      "name": "Estado de negociação suspenso",
+      "definition": "A negociação do valor mobiliário foi suspensa."
+    },
+    "TEND": {
+      "name": "Oferta pública de aquisição",
+      "definition": "O evento é uma aquisição ou uma oferta pública de aquisição ou offre publique de retrait (FR) ou uma oferta de compra ou recompra. Trata-se de uma oferta dirigida aos acionistas, solicitando-lhes que vendam (apresentem) as suas ações por um preço especificado, geralmente com um prémio sobre o preço de mercado vigente. Em geral, o objetivo de uma oferta pública de aquisição é obter o controlo da sociedade visada."
+    },
+    "TREC": {
+      "name": "Reembolso de imposto",
+      "definition": "Evento relacionado com atividades de recuperação de imposto."
+    },
+    "WRTH": {
+      "name": "Sem valor",
+      "definition": "Baixa contabilística de valores mobiliários sem valor."
+    },
+    "WTRC": {
+      "name": "Certificação de isenção de imposto retido na fonte",
+      "definition": "Processo de certificação para redução ou isenção de imposto retido na fonte com base no estatuto fiscal do titular."
+    },
+    "OTHR": {
+      "name": "Outro evento",
+      "definition": "Outro evento; utilizar apenas quando não se aplicar nenhum outro tipo de evento, por exemplo, um novo tipo de evento."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "isoType": "FinancialInstrument55",
+  "definition": "Valor mobiliário que é um subconjunto de um fundo de investimento e é regido pela mesma política do fundo de investimento, por exemplo, opção de dividendos ou moeda de avaliação.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação do valor mobiliário através de um ISIN."
+    },
+    "Name": {
+      "definition": "Nome do instrumento financeiro em texto de formato livre."
+    },
+    "ShortName": {
+      "definition": "Financial Instrument Short Name (FISN) expresso em conformidade com a norma ISO 18774."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Informações adicionais sobre o instrumento financeiro que ajudam a identificá-lo."
+    },
+    "ClassType": {
+      "definition": "Caraterísticas das unidades oferecidas pelo fundo. Por exemplo, uma unidade pode ter uma estrutura de comissões específica, por exemplo, de entrada ou de saída, uma política de rendimentos, por exemplo, distribuição ou capitalização, ou uma política de comissões de gestão contínuas, por exemplo, com ou sem. As classes de fundos são normalmente designadas por um único caráter, por exemplo, 'Classe A', 'Classe 2'."
+    },
+    "SecuritiesForm": {
+      "definition": "Forma, isto é, titularidade, do valor mobiliário, por exemplo, nominativo ou ao portador."
+    },
+    "DistributionPolicy": {
+      "definition": "Política de rendimentos relativa ao tipo de classe, isto é, se os rendimentos são distribuídos ou retidos no fundo."
+    },
+    "ProductGroup": {
+      "definition": "Descrição, específica da sociedade, de um grupo de fundos."
+    }
+  },
+  "isoRules": {
+    "IdentificationGuideline": {
+      "definition": "Recomenda-se a utilização do ISIN em Identification.|Quando existe um código ISIN, é vivamente recomendado que seja utilizado o ISIN."
+    }
+  }
+}

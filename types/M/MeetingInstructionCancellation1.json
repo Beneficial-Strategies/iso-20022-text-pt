@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingInstructionCancellation1",
+  "definition": "Identificação da mensagem de pedido de cancelamento que solicita o cancelamento de instrução(ões) individual(is).",
+  "isoElements": {
+    "MeetingInstructionCancellationRequestIdentification": {
+      "definition": "Identificação da mensagem de pedido de cancelamento de instrução de assembleia que contém a(s) instrução(ões) individual(is) cujo cancelamento foi solicitado."
+    },
+    "SingleInstructionIdentification": {
+      "definition": "Identificação da instrução individual cujo cancelamento foi solicitado."
+    }
+  }
+}

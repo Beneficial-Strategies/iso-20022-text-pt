@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification145Choice",
+  "definition": "Forma única e inequívoca de identificar uma organização.",
+  "isoElements": {
+    "AnyBIC": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    },
+    "NameAndAddress": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    },
+    "Country": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    }
+  }
+}

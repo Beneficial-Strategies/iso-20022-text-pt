@@ -1,0 +1,10 @@
+{
+  "isoType": "Payment2Code",
+  "definition": "Indica se o pagamento em numerário ocorre ou ocorrerá antes da receção do produto do emitente, com base num acordo contratual estabelecido com a entidade gestora da conta, ou aquando da receção do produto do emitente.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Pagamento efetivo",
+      "definition": "O pagamento em numerário ocorre ou ocorrerá aquando da receção do produto do emitente."
+    }
+  }
+}

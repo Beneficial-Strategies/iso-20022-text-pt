@@ -1,0 +1,12 @@
+{
+  "isoType": "PurposeModification1",
+  "definition": "Especifica o tipo de alteração da finalidade.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Especifica o tipo de alteração."
+    },
+    "Purpose": {
+      "definition": "Finalidade."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesSettlementTransactionModificationRequest002V09",
+  "definition": "Âmbito|A SecuritiesSettlementTransactionModificationRequest é enviada por um titular de conta a uma instituição gestora de contas. ||O titular da conta será geralmente:|- um participante de uma central de valores mobiliários que tem uma conta junto de uma central de valores mobiliários ou de uma infraestrutura de mercado|- um gestor de investimentos que tem uma conta junto de um custodiante que atua como agente de contabilização e/ou de liquidação.||É utilizada para solicitar a modificação de dados não essenciais da operação (de confrontação ou não) numa instrução pendente ou liquidada. Pode também ser utilizada para completar uma operação incompleta.||Utilização|A modificação só deve conter os dados a modificar.|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada pelo titular da conta à instituição gestora da conta,|- fornecer a um terceiro uma cópia de uma mensagem enviada pelo titular da conta, para informação,|- reenviar a um terceiro uma cópia de uma mensagem enviada pelo titular da conta, para informação, utilizando os elementos pertinentes do Business Application Header.",
+  "isoRules": {
+    "PhysicalInstructionDetailsUsageRule": {
+      "definition": "AdditionalPhysicalOrRegistrationDetails só pode ser utilizado com instruções livres de pagamento."
+    },
+    "SecuritiesFinancingSettlementUsageRule": {
+      "definition": "No âmbito do financiamento com valores mobiliários (reporte, reporte inverso, empréstimo de valores mobiliários, tomada de valores mobiliários por empréstimo), SettlementInstruction só pode ser utilizado para a liquidação simples da componente de abertura e da componente de encerramento."
+    },
+    "LinkagesUsageRule": {
+      "definition": "As ligações só podem ser utilizadas na modificação da quantidade emparelhada ou revertida. As alterações de ligação e desligação de mensagens têm de ser efetuadas com a SecuritiesSettlementConditionsModificationRequest."
+    }
+  }
+}

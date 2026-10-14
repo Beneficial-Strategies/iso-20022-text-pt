@@ -1,0 +1,56 @@
+{
+  "isoType": "Resolution8",
+  "definition": "Deliberações da ordem de trabalhos de uma assembleia e tipo de deliberação.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Número da deliberação, conforme especificado pelo emitente ou pelo seu agente."
+    },
+    "Description": {
+      "definition": "Língua, título e descrição textual de uma deliberação da ordem de trabalhos."
+    },
+    "ListingGroupResolutionLabel": {
+      "definition": "Identifica sob a mesma designação um grupo de deliberações da ordem de trabalhos em que um voto a favor só pode ser atribuído a uma deliberação desse grupo."
+    },
+    "Type": {
+      "definition": "Tipo de deliberação."
+    },
+    "ForInformationOnly": {
+      "definition": "Indica se a deliberação consta para informação ou para votação."
+    },
+    "VoteType": {
+      "definition": "Impacto dos resultados da votação sobre uma deliberação da ordem de trabalhos."
+    },
+    "Status": {
+      "definition": "Especifica se a deliberação está ativa ou retirada."
+    },
+    "SubmittedBySecurityHolder": {
+      "definition": "Indica se a deliberação foi apresentada pelo detentor de valores mobiliários."
+    },
+    "RightToWithdrawIndicator": {
+      "definition": "Indica se um cliente que não votou a favor das deliberações finalmente aprovadas tem o direito de se retirar de um evento de operação sobre títulos conexo."
+    },
+    "VoteInstructionType": {
+      "definition": "Opções de voto permitidas ao nível da deliberação. Quando especificadas, prevalecem sobre as opções de voto indicadas para a assembleia."
+    },
+    "ManagementRecommendation": {
+      "definition": "Especifica o sentido de voto que a administração da sociedade emitente pretende que os detentores de valores mobiliários adotem."
+    },
+    "NotifyingPartyRecommendation": {
+      "definition": "Especifica o sentido de voto que a parte notificante recomenda aos detentores de valores mobiliários."
+    },
+    "Entitlement": {
+      "definition": "Número de votos atribuídos por deliberação a um valor mobiliário."
+    },
+    "VotingRightsThresholdForApproval": {
+      "definition": "Limiar de direitos de voto e base do limiar para a aprovação de uma deliberação da assembleia."
+    },
+    "URLAddress": {
+      "definition": "Endereço a utilizar no serviço www (HTTP) onde podem ser encontradas informações adicionais específicas sobre as deliberações da assembleia."
+    }
+  },
+  "isoRules": {
+    "VotingRightsTresholdForApproval1Rule": {
+      "definition": "Se VotingRightThresholdForApproval estiver presente mais do que uma vez, então ThresholdBasis é obrigatório em cada ocorrência de VotingRightThresholdForApproval e o valor do elemento ThresholdBasis/Code tem de ser diferente em cada ocorrência."
+    }
+  }
+}

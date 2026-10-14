@@ -1,0 +1,12 @@
+{
+  "isoType": "TerminationDate6Choice",
+  "definition": "Escolha do formato para a data de termo.",
+  "isoElements": {
+    "Date": {
+      "definition": "Data em formato ISO."
+    },
+    "Code": {
+      "definition": "Data/hora de encerramento ou data/hora de vencimento da operação expressa como um código ISO 20022."
+    }
+  }
+}

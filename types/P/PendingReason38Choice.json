@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason38Choice",
+  "definition": "Escolha do formato para o motivo de pendência.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução tem um estado pendente."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo pelo qual a instrução tem um estado pendente."
+    }
+  }
+}

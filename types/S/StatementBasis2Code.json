@@ -1,0 +1,14 @@
+{
+  "isoType": "StatementBasis2Code",
+  "definition": "Especifica o tipo de saldos em que o extrato é elaborado.",
+  "isoCodes": {
+    "SETT": {
+      "name": "Liquidado",
+      "definition": "O extrato baseia-se nas posições à data de liquidação, tanto quanto é do conhecimento do remetente no momento da elaboração do extrato."
+    },
+    "TRAD": {
+      "name": "Negociado",
+      "definition": "O extrato baseia-se nas posições à data da negociação."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "CashEntitlement1",
+  "definition": "Fornece informações sobre direitos em numerário.",
+  "isoElements": {
+    "CashAmount": {
+      "definition": "Montante de numerário a que há direito."
+    }
+  }
+}

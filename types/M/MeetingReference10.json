@@ -1,0 +1,27 @@
+{
+  "isoType": "MeetingReference10",
+  "definition": "Identificação de uma assembleia.",
+  "isoElements": {
+    "MeetingIdentification": {
+      "definition": "Identificação atribuída à assembleia geral pela parte que fornece a notificação da assembleia. Tem de ser única para a parte que fornece a notificação."
+    },
+    "IssuerMeetingIdentification": {
+      "definition": "Identificação atribuída à assembleia pelo emitente. Tem de ser única para o emitente."
+    },
+    "MeetingDateAndTime": {
+      "definition": "Data e hora em que a assembleia terá lugar."
+    },
+    "Type": {
+      "definition": "Tipo de assembleia para a qual são enviadas instruções."
+    },
+    "Classification": {
+      "definition": "Tipo de classificação da assembleia."
+    },
+    "Location": {
+      "definition": "Local da assembleia da sociedade na data prevista para a assembleia."
+    },
+    "Issuer": {
+      "definition": "Instituição que é o emitente do valor mobiliário a que a assembleia se aplica."
+    }
+  }
+}

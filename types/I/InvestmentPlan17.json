@@ -1,0 +1,65 @@
+{
+  "isoType": "InvestmentPlan17",
+  "definition": "Plano que permite aos investidores programar investimentos ou desinvestimentos periódicos, de acordo com critérios predefinidos.",
+  "isoElements": {
+    "Frequency": {
+      "definition": "Frequência do investimento ou desinvestimento."
+    },
+    "StartDate": {
+      "definition": "Data em que o plano de investimento começa."
+    },
+    "EndDate": {
+      "definition": "Data em que o plano de investimento termina."
+    },
+    "Quantity": {
+      "definition": "Montante dos pagamentos periódicos."
+    },
+    "GrossAmountIndicator": {
+      "definition": "Indica se um montante ordenado é um montante bruto (incluindo custos da operação). Se não for um montante bruto, o montante ordenado é um montante líquido (montante a investir ou a resgatar do fundo, ao qual serão acrescentados outros elementos)."
+    },
+    "IncomePreference": {
+      "definition": "Opção de dividendos escolhida pelo titular da conta com base nas opções oferecidas no prospeto."
+    },
+    "InitialAmount": {
+      "definition": "Montante inicial ou número de prestações iniciais."
+    },
+    "TotalNumberOfInstalments": {
+      "definition": "Número total de vezes que o montante deve ser investido na frequência predefinida a partir da data de início do plano de investimento."
+    },
+    "RoundingDirection": {
+      "definition": "Indica o sentido do arredondamento quando um montante deve ser repartido por vários fundos."
+    },
+    "SecurityDetails": {
+      "definition": "Valor mobiliário em que um plano de investimento investe, ou do qual desinveste."
+    },
+    "CashSettlement": {
+      "definition": "Instrução permanente de liquidação em numerário associada ao plano de investimento."
+    },
+    "ContractReference": {
+      "definition": "Referência do contrato de investimento subjacente. Em alguns mercados, como Itália, pode ser necessária para segregar posições entre a mesma conta de investimento."
+    },
+    "RelatedContractReference": {
+      "definition": "Referência do contrato anterior ao qual este plano de poupança ou de resgate está associado."
+    },
+    "ProductIdentification": {
+      "definition": "Identificação do produto conforme designado pelo gestor do fundo. Em alguns mercados, como Itália, o produto ou serviço financeiro relacionado com um plano de poupança ou de resgate é identificado por uma identificação ou número de produto."
+    },
+    "SLAChargeAndCommissionReference": {
+      "definition": "Referência do acordo de nível de serviço (SLA) subjacente que rege as comissões."
+    },
+    "InsuranceCover": {
+      "definition": "Especifica o tipo de contrato de seguro ao qual o plano de investimento de poupança está associado."
+    },
+    "PlanStatus": {
+      "definition": "Estado do plano de investimento de poupança ou de resgate."
+    },
+    "InstalmentManagerRole": {
+      "definition": "Papel ou função do gestor das prestações."
+    }
+  },
+  "isoRules": {
+    "AmountRule": {
+      "definition": "Se Quantity/Amount não estiver presente, então GrossAmountIndicator não é permitido."
+    }
+  }
+}

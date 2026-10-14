@@ -1,0 +1,14 @@
+{
+  "isoType": "HolderType1Code",
+  "definition": "Especifica um tipo de titular.",
+  "isoCodes": {
+    "TFEE": {
+      "name": "Cessionário",
+      "definition": "O titular é a parte cessionária. A parte cessionária pode também ser designada parte adquirente."
+    },
+    "TFOR": {
+      "name": "Cedente",
+      "definition": "O titular é a parte cedente. A parte cessionária pode também ser designada parte cedente."
+    }
+  }
+}

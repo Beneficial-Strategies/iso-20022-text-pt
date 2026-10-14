@@ -1,0 +1,14 @@
+{
+  "isoType": "TradeTransactionCondition5Code",
+  "definition": "Especifica as condições em que a ordem/negociação deve ser/foi executada.",
+  "isoCodes": {
+    "XCPN": {
+      "name": "Sem cupão",
+      "definition": "Indica se a negociação é executada sem cupão (ex coupon)."
+    },
+    "CCPN": {
+      "name": "Com cupão",
+      "definition": "Indica se a negociação é executada com cupão (cum coupon)."
+    }
+  }
+}

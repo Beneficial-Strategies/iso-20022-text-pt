@@ -1,0 +1,10 @@
+{
+  "isoType": "PaymentMethod2Code",
+  "definition": "Especifica o método de transferência que será utilizado para transferir os fundos.",
+  "isoCodes": {
+    "DD": {
+      "name": "Débito direto",
+      "definition": "Cobrança de um montante em dinheiro da conta bancária do devedor pelo credor. O montante e as datas das cobranças podem variar."
+    }
+  }
+}

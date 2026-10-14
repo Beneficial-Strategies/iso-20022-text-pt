@@ -1,0 +1,12 @@
+{
+  "isoType": "TradingPartyCapacity3Choice",
+  "definition": "Escolha do formato da capacidade de negociação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Capacidade de negociação expressa como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Capacidade de negociação expressa como código proprietário."
+    }
+  }
+}

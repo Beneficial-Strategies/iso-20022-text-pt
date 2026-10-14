@@ -1,0 +1,29 @@
+{
+  "isoType": "SubBalanceInformation24",
+  "definition": "Posição líquida de uma carteira segregada de um único valor mobiliário no âmbito da posição global detida na conta de valores mobiliários, por exemplo, subsaldo por estado.",
+  "isoElements": {
+    "SubBalanceType": {
+      "definition": "Motivo do subsaldo."
+    },
+    "Quantity": {
+      "definition": "Quantidade de valores mobiliários no subsaldo."
+    },
+    "SubBalanceAdditionalDetails": {
+      "definition": "Fornece informações adicionais sobre o subsaldo."
+    },
+    "QuantityBreakdown": {
+      "definition": "Decomposição da quantidade agregada reportada em lotes significativos, por exemplo, lotes fiscais."
+    },
+    "AdditionalBalanceBreakdownDetails": {
+      "definition": "Fornece informações adicionais sobre o subsaldo do instrumento relativamente à totalidade ou a parte do instrumento financeiro reportado (não registado, isento de imposto, etc.)."
+    }
+  },
+  "isoRules": {
+    "SubBalanceAdditionalDetailsRule": {
+      "definition": "Salvo acordo bilateral entre o remetente e o destinatário, se SubBalanceAdditionnalDetails for utilizado, não deve conter informação que possa ser fornecida num campo estruturado."
+    },
+    "AvailableWithNoStatusRule": {
+      "definition": "Se o tipo de subsaldo for AvailableWithNoStatus, então QuantityAndAvailability não pode ser utilizado."
+    }
+  }
+}

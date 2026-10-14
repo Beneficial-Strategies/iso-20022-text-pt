@@ -1,0 +1,18 @@
+{
+  "isoType": "Quantity49",
+  "definition": "Detalhes sobre a quantidade, a conta e outras informações conexas envolvidas numa operação.",
+  "isoElements": {
+    "SettlementQuantity": {
+      "definition": "Quantidade total de valores mobiliários a liquidar."
+    },
+    "DenominationChoice": {
+      "definition": "Denominação do valor mobiliário a receber ou entregar."
+    },
+    "CertificateNumber": {
+      "definition": "Identificador único e inequívoco de um certificado atribuído pelo emitente."
+    },
+    "QuantityBreakdown": {
+      "definition": "Repartição de uma quantidade em lotes, como lotes fiscais ou séries de instrumentos."
+    }
+  }
+}

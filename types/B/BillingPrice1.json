@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingPrice1",
+  "definition": "Especifica o preço de faturação de um serviço.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Código da moeda em que o preço unitário e o preço do encargo original são expressos."
+    },
+    "UnitPrice": {
+      "definition": "Preço por item ou unidade utilizado para calcular o encargo, expresso na moeda de tarifação."
+    },
+    "Method": {
+      "definition": "Identifica como o encargo foi calculado. ||Utilização: a ausência deste código pressupõe que o encargo é calculado como o produto de (volume x preço unitário)."
+    },
+    "Rule": {
+      "definition": "Indica que o cálculo do encargo se baseia numa regra específica. O nome da regra é indicado aqui e é definido pelos parceiros comerciais."
+    }
+  }
+}

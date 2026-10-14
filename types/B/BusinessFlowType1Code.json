@@ -1,0 +1,18 @@
+{
+  "isoType": "BusinessFlowType1Code",
+  "definition": "Identifica o processo de negócio em que os intervenientes estão envolvidos. Isto é importante para desencadear o processo de negócio correto, de acordo com o modelo de negócio do mercado, que pode exigir ou não a correspondência de instruções num ambiente CSD (processo de duas pernas ou processo de uma só perna, respetivamente).",
+  "isoCodes": {
+    "SLDP": {
+      "name": "Parte entregadora de perna única",
+      "definition": "Processo de uma só perna iniciado pela parte que entrega."
+    },
+    "SLRP": {
+      "name": "Parte recetora de perna única",
+      "definition": "Processo de uma só perna iniciado pela parte que recebe."
+    },
+    "DLPR": {
+      "name": "Processo de perna dupla",
+      "definition": "Processo de duas pernas."
+    }
+  }
+}

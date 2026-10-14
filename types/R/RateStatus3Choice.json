@@ -1,0 +1,17 @@
+{
+  "isoType": "RateStatus3Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar um estado da taxa.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o estado da taxa."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do estado da taxa."
+    }
+  },
+  "isoRules": {
+    "RateStatusGuideline": {
+      "definition": "O valor de código ACTU é o valor por defeito para um estado da taxa."
+    }
+  }
+}

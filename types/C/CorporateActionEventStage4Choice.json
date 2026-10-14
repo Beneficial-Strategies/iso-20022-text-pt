@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventStage4Choice",
+  "definition": "Escolha da fase da operação sobre títulos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fase do evento de operação sobre títulos expressa como código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Fase do evento de operação sobre títulos expressa como código proprietário."
+    }
+  }
+}

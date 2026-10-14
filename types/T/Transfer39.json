@@ -1,0 +1,68 @@
+{
+  "isoType": "Transfer39",
+  "definition": "Parâmetros aplicados à liquidação de uma transferência de valores mobiliários.",
+  "isoElements": {
+    "TransferReference": {
+      "definition": "Identificador único e inequívoco da instrução de transferência, atribuído pela parte instruidora."
+    },
+    "ClientReference": {
+      "definition": "Identificação única e inequívoca da transferência pelo investidor. Esta referência pode normalmente ser utilizada num cenário de plataforma central (hub) para indicar a referência da transferência atribuída pelo cliente subjacente."
+    },
+    "CounterpartyReference": {
+      "definition": "Identificação inequívoca da transferência atribuída pela contraparte."
+    },
+    "BusinessFlowType": {
+      "definition": "Identifica o processo de negócio em que os intervenientes estão envolvidos. Isto é importante para desencadear o processo de negócio correto, de acordo com o modelo de negócio do mercado, que pode exigir ou não a correspondência de instruções num ambiente CSD (processo de duas pernas ou processo de uma só perna, respetivamente)."
+    },
+    "RequestedTransferDate": {
+      "definition": "Data para a qual a parte instruidora solicita a transferência."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários devem ser trocados na central internacional de depósito de valores mobiliários (ICSD) ou na central de depósito de valores mobiliários (CSD)."
+    },
+    "TransferOrderDateForm": {
+      "definition": "Data em que o investidor assinou o formulário de ordem de transferência."
+    },
+    "TransferReason": {
+      "definition": "Motivo da transferência."
+    },
+    "HoldingsPlanType": {
+      "definition": "Especifica informações sobre os planos de investimento incluídos na posição."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Informações relacionadas com o instrumento financeiro a transferir."
+    },
+    "Quantity": {
+      "definition": "Quantidade total de valores mobiliários a transferir, expressa como número de unidades ou como taxa percentual."
+    },
+    "UnitsDetails": {
+      "definition": "Discriminação das unidades a transferir."
+    },
+    "Rounding": {
+      "definition": "Sentido de arredondamento aplicado à unidade mais próxima."
+    },
+    "OriginalCost": {
+      "definition": "Montante original pago pelo ativo no momento da compra. Pode também ser designado por custo contabilístico."
+    },
+    "AveragePrice": {
+      "definition": "Valor do valor mobiliário, tal como registado na conta. O valor contabilístico é frequentemente diferente do valor de mercado atual do valor mobiliário."
+    },
+    "TransferCurrency": {
+      "definition": "Moeda a utilizar para transferir as posições. Alguns agentes de transferência registam as posições agrupadas por moeda, além de utilizarem o ISIN para as unidades de participação de fundos multimoeda."
+    },
+    "OwnAccountTransferIndicator": {
+      "definition": "Indica se a transferência resulta numa mudança de beneficiário efetivo."
+    },
+    "NonStandardSettlementInformation": {
+      "definition": "Informações adicionais de liquidação específicas do fundo."
+    },
+    "TransferExpensesPaymentType": {
+      "definition": "Especifica como é coberto o pagamento de comissões e impostos decorrentes da transferência, ou seja, se em numerário ou através do resgate de unidades."
+    }
+  },
+  "isoRules": {
+    "TotalUnitsNumberRule": {
+      "definition": "Quantity/TotalUnitsNumber tem de ser a soma de todas as ocorrências de UnitsDetails/UnitsNumber quando UnitsDetails está presente."
+    }
+  }
+}

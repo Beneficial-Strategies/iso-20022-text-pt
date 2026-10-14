@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrencyExchangeCriteria2",
+  "definition": "Define os critérios utilizados para pesquisar informações de câmbio. Pode ser atribuído um nome à nova consulta.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nome da consulta definida pelos critérios de pesquisa e pelos critérios de devolução."
+    },
+    "SearchCriteria": {
+      "definition": "Define os critérios com base nos quais a informação é extraída."
+    }
+  }
+}

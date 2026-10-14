@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxAmount2",
+  "definition": "Conjunto de elementos utilizados para fornecer informações sobre o(s) montante(s) de imposto do registo fiscal.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Taxa utilizada para calcular o imposto."
+    },
+    "TaxableBaseAmount": {
+      "definition": "Montante sobre o qual o imposto incide."
+    },
+    "TotalAmount": {
+      "definition": "Montante total resultante do cálculo do imposto para o registo."
+    },
+    "Details": {
+      "definition": "Conjunto de elementos utilizados para fornecer detalhes sobre o período e o montante do imposto."
+    }
+  }
+}

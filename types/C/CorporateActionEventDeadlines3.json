@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionEventDeadlines3",
+  "definition": "Especifica os prazos do evento da operação sobre ativos.",
+  "isoElements": {
+    "EarlyResponseDeadline": {
+      "definition": "Data/hora fixada pela entidade gestora de contas como prazo para responder, com instruções, a um evento pendente, conferindo ao titular o direito a incentivos. Esta hora depende do fuso horário de referência da entidade gestora de contas, conforme especificado num acordo de nível de serviço (SLA)."
+    },
+    "ResponseDeadline": {
+      "definition": "Data/hora fixada pela entidade gestora de contas como prazo para responder, com instruções, a um evento pendente. Esta hora depende do fuso horário de referência da entidade gestora de contas, conforme especificado num acordo de nível de serviço (SLA)."
+    },
+    "MarketDeadline": {
+      "definition": "Prazo do emitente ou do agente do emitente para responder com uma instrução a uma oferta ou privilégio pendente."
+    },
+    "ProtectDeadline": {
+      "definition": "Prazo para as instruções de proteção."
+    },
+    "CoverProtectDeadline": {
+      "definition": "Prazo para a cobertura de uma instrução de proteção."
+    }
+  }
+}

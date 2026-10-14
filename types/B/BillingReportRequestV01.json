@@ -1,0 +1,4 @@
+{
+  "isoType": "BillingReportRequestV01",
+  "definition": "A mensagem BillingReportRequest é enviada pelo membro do sistema ao administrador de operações do sistema para solicitar dados de faturação cumulativos ou detalhados. Os dados de faturação podem ser informações cumulativas ou agregadas ao nível de uma única conta de valores mobiliários ou de uma conta de numerário dedicada num determinado período, para cada item de serviço."
+}

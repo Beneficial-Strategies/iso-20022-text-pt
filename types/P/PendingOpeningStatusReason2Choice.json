@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingOpeningStatusReason2Choice",
+  "definition": "Escolha de formatos para o código de motivo de abertura de conta pendente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo do estado de abertura de conta pendente expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Motivo do estado de abertura de conta pendente expresso sob a forma de código proprietário."
+    }
+  }
+}

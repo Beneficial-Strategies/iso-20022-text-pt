@@ -1,0 +1,30 @@
+{
+  "isoType": "VotingParticipationMethod3Code",
+  "definition": "Especifica os diferentes métodos permitidos para participar na votação das deliberações da ordem de trabalhos de uma assembleia geral.",
+  "isoCodes": {
+    "MAIL": {
+      "name": "Correspondência",
+      "definition": "A participação na votação é feita por documentos enviados por correio postal."
+    },
+    "EVOT": {
+      "name": "Voto eletrónico",
+      "definition": "A participação na votação é feita por meios eletrónicos, como mensagens normalizadas dedicadas ou aplicações de votação baseadas na web."
+    },
+    "PHYS": {
+      "name": "Presencial",
+      "definition": "A participação na votação é feita por presença física."
+    },
+    "PHNV": {
+      "name": "Sem voto",
+      "definition": "A participação na assembleia é presencial, mas a pessoa não vota."
+    },
+    "PRXY": {
+      "name": "Procuração",
+      "definition": "A participação na votação é feita através de um representante."
+    },
+    "VIRT": {
+      "name": "Virtual",
+      "definition": "A participação na votação é feita através de um método de presença em assembleia virtual, como multimédia e videoconferência ou teleconferência baseadas na web."
+    }
+  }
+}

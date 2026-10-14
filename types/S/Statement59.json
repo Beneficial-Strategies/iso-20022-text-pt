@@ -1,0 +1,41 @@
+{
+  "isoType": "Statement59",
+  "definition": "Características gerais relativas a um extrato que reporta informação para uma data precisa.",
+  "isoElements": {
+    "SenderBusinessRole": {
+      "definition": "Especifica a função de negócio do remetente da mensagem e, por conseguinte, a relação de negócio entre o remetente e o destinatário (ou os interesses por eles representados, nos casos em que outra entidade atua em nome do remetente ou do destinatário). A mensagem é trocada entre duas entidades, sendo uma o prestador de serviços da conta e a outra o titular da conta, e pode ser utilizada com qualquer uma delas como remetente."
+    },
+    "StatementNumber": {
+      "definition": "Número sequencial do relatório."
+    },
+    "QueryReference": {
+      "definition": "Identificação da mensagem de consulta enviada para solicitar este extrato."
+    },
+    "StatementIdentification": {
+      "definition": "Referência comum a todas as páginas do extrato."
+    },
+    "StatementDateTime": {
+      "definition": "Data e hora em que o extrato foi criado."
+    },
+    "StatementPeriod": {
+      "definition": "Período de datas para o qual o extrato foi criado."
+    },
+    "Frequency": {
+      "definition": "Periodicidade do extrato."
+    },
+    "FrequencyGranularity": {
+      "definition": "Granularidade da frequência utilizada para a comunicação de informação."
+    },
+    "UpdateType": {
+      "definition": "Especifica se o extrato está completo ou contém apenas alterações."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica se existe movimento ou informação atualizada comunicada no extrato."
+    }
+  },
+  "isoRules": {
+    "FrequencyGranularityGuideline": {
+      "definition": "FrequencyGranularity deve estar dentro dos limites de Frequency, por exemplo, Frequency igual a Monthly e FrequencyGranularity igual a Daily."
+    }
+  }
+}

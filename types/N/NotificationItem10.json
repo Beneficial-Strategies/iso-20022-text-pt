@@ -1,0 +1,59 @@
+{
+  "isoType": "NotificationItem10",
+  "definition": "Fornece meios adicionais de referenciar uma operação de pagamento.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única, atribuída pelo titular da conta, para identificar inequivocamente o lançamento a crédito esperado."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identificação única, atribuída pelo devedor, para identificar inequivocamente a operação subjacente perante o credor. |Utilização: A identificação de ponta a ponta pode ser utilizada para reconciliação ou para ligar tarefas relacionadas com a operação."
+    },
+    "UETR": {
+      "definition": "Identificador universalmente único para fornecer uma referência de ponta a ponta de uma operação de pagamento."
+    },
+    "Account": {
+      "definition": "Identifica a conta a creditar com o montante em dinheiro a receber."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gere a conta em nome do titular da conta, ou seja, que gere o registo e a contabilização dos lançamentos na conta, calcula os saldos da conta e fornece informações sobre a conta."
+    },
+    "RelatedAccount": {
+      "definition": "Relação comercial entre duas entidades; uma das entidades é o titular da conta e a outra é a entidade gestora da conta."
+    },
+    "Amount": {
+      "definition": "Montante em dinheiro esperado a creditar na conta."
+    },
+    "ExpectedValueDate": {
+      "definition": "Data-valor em que se espera que a conta seja creditada."
+    },
+    "Debtor": {
+      "definition": "Parte que deve um montante ao credor (final)."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que presta serviços a uma conta do devedor."
+    },
+    "IntermediaryAgent": {
+      "definition": "Instituição entre a instituição do devedor e o prestador de serviços da conta.|Utilização: Esta é a instituição junto da qual o prestador de serviços da conta obterá o montante em dinheiro. Se existir mais do que uma instituição intermediária, IntermediaryAgent identifica a instituição mais próxima do prestador de serviços da conta.|IntermediaryAgent só deve ser incluído quando for diferente da instituição do devedor."
+    },
+    "Purpose": {
+      "definition": "Razão subjacente à operação de pagamento."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Fornece informações relacionadas com o tratamento das informações de remessa por qualquer das instituições na cadeia de processamento da operação."
+    },
+    "RemittanceInformation": {
+      "definition": "Informações estruturadas que permitem a reconciliação de um pagamento com os itens que o pagamento se destina a liquidar, tais como faturas comerciais num sistema de contas a receber."
+    },
+    "UnderlyingAllocation": {
+      "definition": "Fornece informações sobre as imputações subjacentes que compõem o lançamento a crédito esperado.||Utilização: Utilizado apenas pelo setor dos valores mobiliários."
+    }
+  },
+  "isoRules": {
+    "IntermediaryAgentAndDebtorAgentRule": {
+      "definition": "Se IntermediaryAgent estiver presente, DebtorAgent tem de estar presente."
+    }
+  }
+}

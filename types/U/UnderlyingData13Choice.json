@@ -1,0 +1,21 @@
+{
+  "isoType": "UnderlyingData13Choice",
+  "definition": "Especifica os detalhes de uma operação subjacente, sobre a qual a investigação é processada.",
+  "isoElements": {
+    "Initiation": {
+      "definition": "Detalhes de referência sobre a iniciação de pagamento original."
+    },
+    "Interbank": {
+      "definition": "Detalhes de referência sobre a operação de pagamento interbancária original."
+    },
+    "StatementEntry": {
+      "definition": "Detalhes de referência sobre o lançamento de caixa subjacente do extrato."
+    },
+    "Account": {
+      "definition": "Detalhes de referência sobre a conta subjacente."
+    },
+    "Other": {
+      "definition": "Detalhes de referência sobre qualquer outra referência proprietária original.||Utilização: este elemento pode ser utilizado para uma investigação sobre quaisquer outros dados, como um cheque."
+    }
+  }
+}

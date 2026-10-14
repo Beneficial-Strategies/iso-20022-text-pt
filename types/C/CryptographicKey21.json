@@ -1,0 +1,45 @@
+{
+  "isoType": "CryptographicKey21",
+  "definition": "Chave criptográfica.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nome ou etiqueta da chave."
+    },
+    "Identification": {
+      "definition": "Nome da chave criptográfica."
+    },
+    "SecurityDomainIdentification": {
+      "definition": "Identificação do domínio de segurança."
+    },
+    "AdditionalIdentification": {
+      "definition": "Identificação adicional da chave, por exemplo para derivar a chave."
+    },
+    "Version": {
+      "definition": "Versão da chave criptográfica."
+    },
+    "SequenceCounter": {
+      "definition": "Contador de sequência da chave criptográfica."
+    },
+    "Type": {
+      "definition": "Tipo de algoritmo utilizado pela chave criptográfica."
+    },
+    "Function": {
+      "definition": "Utilização permitida da chave."
+    },
+    "ActivationDate": {
+      "definition": "Data e hora em que a chave deve ser ativada."
+    },
+    "DeactivationDate": {
+      "definition": "Data e hora em que a chave deve ser desativada."
+    },
+    "KeyCheckValue": {
+      "definition": "Valor para verificar uma chave criptográfica."
+    },
+    "PublicKeyValue": {
+      "definition": "Valor da componente pública de uma chave RSA."
+    },
+    "KeyChoiceValue": {
+      "definition": "Elemento que contém a informação da chave."
+    }
+  }
+}

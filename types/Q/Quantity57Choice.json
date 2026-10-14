@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity57Choice",
+  "definition": "Escolha entre diferentes formatos de quantidade de valores mobiliários.",
+  "isoElements": {
+    "OriginalAndCurrentFaceAmount": {
+      "definition": "Valor nominal com sinal e valor amortizado do valor mobiliário."
+    },
+    "SignedQuantity": {
+      "definition": "Quantidade de valores mobiliários com sinal."
+    }
+  }
+}

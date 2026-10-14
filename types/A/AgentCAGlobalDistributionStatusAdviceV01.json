@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentCAGlobalDistributionStatusAdviceV01",
+  "definition": "Âmbito|Esta mensagem é enviada por um emitente (ou pelo seu agente) à CSD para autorizar/proibir a CSD de tratar os movimentos de direitos.|Utilização|Esta mensagem é utilizada para autorizar/proibir a CSD de tratar os movimentos solicitados na mensagem Global Distribution Authorisation Request.|Depois de o pedido de alteração ter sido aceite pelo emitente (ou pelo seu agente), a CSD tratará qualquer movimento de recursos e enviará uma mensagem Agent Corporate Action Election Advice com a função, alteração de opção, para confirmar que a alteração foi registada na CSD.|O emitente (ou o seu agente) pode fornecer o estado de duas formas diferentes:|- Fornecer um estado global, caso em que o bloco Global Movement Status tem de estar presente; ou|- Fornecer um estado por movimentos individuais, caso em que o bloco Individual Movement Status tem de estar presente. Um movimento individual não pode ser rejeitado (2).",
+  "isoRules": {
+    "GlobalMovementStatusOrIndividualMovementStatusRule": {
+      "definition": "Tem de estar presente GlobalMovementStatus ou IndividualMovementStatus."
+    },
+    "GlobalMovementStatusOrIndividualMovementStatusRuleNotBoth": {
+      "definition": "Tem de estar presente GlobalMovementStatus ou IndividualMovementStatus."
+    }
+  }
+}

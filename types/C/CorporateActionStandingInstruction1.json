@@ -1,0 +1,29 @@
+{
+  "isoType": "CorporateActionStandingInstruction1",
+  "definition": "Fornece informações sobre a instrução permanente.",
+  "isoElements": {
+    "NetOrGross": {
+      "definition": "Identifica se os titulares da conta pretendem que os seus rendimentos sejam pagos líquidos ou brutos de imposto sobre o rendimento (por defeito, brutos)."
+    },
+    "CashDistributionDetails": {
+      "definition": "Fornece informações sobre a instrução permanente de distribuição em numerário."
+    },
+    "SecuritiesDistributionDetails": {
+      "definition": "Fornece informações sobre a instrução permanente de distribuição de valores mobiliários."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a instrução permanente."
+    }
+  },
+  "isoRules": {
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRule": {
+      "definition": "NetOrGross, CashDistributionDetails ou SecuritiesDistributionDetails tem de estar presente."
+    },
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRuleNotBoth": {
+      "definition": "NetOrGross, CashDistributionDetails ou SecuritiesDistributionDetails tem de estar presente."
+    },
+    "NetOrGrossOrCashDistributionDetailsOrSecuritiesDistributionDetailsRuleNotBoth2": {
+      "definition": "NetOrGross, CashDistributionDetails ou SecuritiesDistributionDetails tem de estar presente."
+    }
+  }
+}

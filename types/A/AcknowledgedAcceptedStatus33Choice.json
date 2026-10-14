@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgedAcceptedStatus33Choice",
+  "definition": "Especifica se o estado é fornecido com ou sem motivo.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que não existe motivo disponível ou a reportar."
+    },
+    "Reason": {
+      "definition": "Informação adicional sobre o motivo do estado de aceite com aviso de receção."
+    }
+  }
+}

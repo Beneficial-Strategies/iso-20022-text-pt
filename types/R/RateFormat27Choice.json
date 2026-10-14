@@ -1,0 +1,12 @@
+{
+  "isoType": "RateFormat27Choice",
+  "definition": "Escolha entre uma taxa ou uma taxa não especificada.",
+  "isoElements": {
+    "Rate": {
+      "definition": "O valor é expresso como uma taxa."
+    },
+    "Amount": {
+      "definition": "Montante em numerário."
+    }
+  }
+}

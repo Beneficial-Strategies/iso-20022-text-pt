@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingRateIdentification1Choice",
+  "definition": "Especifica o código de identificação da taxa de faturação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o código de identificação da taxa de faturação, conforme definido numa lista externa de códigos."
+    },
+    "Proprietary": {
+      "definition": "Especifica o código de identificação da taxa de faturação, conforme definido num formato proprietário."
+    }
+  }
+}

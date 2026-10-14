@@ -1,0 +1,35 @@
+{
+  "isoType": "ChargesPerType5",
+  "definition": "Fornece uma discriminação detalhada dos encargos por tipo de encargos.",
+  "isoElements": {
+    "ChargesIdentification": {
+      "definition": "Identificação única e inequívoca das informações de encargos para efeitos de reconciliação."
+    },
+    "TotalChargesPerChargeType": {
+      "definition": "Total dos encargos reclamados para o tipo de encargo especificado."
+    },
+    "ChargesAccount": {
+      "definition": "Identifica a conta que foi debitada ou creditada pelos encargos, juros ou outros ajustes."
+    },
+    "ChargesAccountOwner": {
+      "definition": "Instituição titular da conta de encargos."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de encargo."
+    },
+    "Record": {
+      "definition": "Registo de encargos discriminado por tipo de encargos."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalhes adicionais sobre o motivo dos encargos."
+    }
+  },
+  "isoRules": {
+    "ChargesAccountTypeOrRecord2Rule": {
+      "definition": "Quando Record/ChargesAccount estiver presente ou Record/ChargesAccountOwner estiver presente, então ChargesAccount deve estar ausente e ChargesAccountOwner deve estar ausente."
+    },
+    "ChargesAccountTypeOrRecord1Rule": {
+      "definition": "Quando ChargesAccount estiver presente ou ChargesAccountOwner estiver presente, então Record/ChargesAccount deve estar ausente e Record/ChargesAccountOwner deve estar ausente."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateReason1Choice",
+  "definition": "Especifica o motivo do pedido ou o estado de um mandato.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo, conforme publicado numa lista externa de códigos de motivos."
+    },
+    "Proprietary": {
+      "definition": "Motivo, sob forma proprietária."
+    }
+  }
+}

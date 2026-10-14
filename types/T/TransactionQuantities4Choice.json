@@ -1,0 +1,15 @@
+{
+  "isoType": "TransactionQuantities4Choice",
+  "definition": "Especifica as quantidades (por exemplo, de valores mobiliários) na operação subjacente.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Especifica a quantidade (por exemplo, de valores mobiliários) na operação subjacente."
+    },
+    "OriginalAndCurrentFaceAmount": {
+      "definition": "Valor nominal e valor amortizado do valor mobiliário."
+    },
+    "Proprietary": {
+      "definition": "Especificação das quantidades proprietárias definidas na operação subjacente."
+    }
+  }
+}

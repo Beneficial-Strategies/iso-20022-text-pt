@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionSD26",
+  "definition": "Contém pormenores sobre certificados resgatados.",
+  "isoElements": {
+    "CertificateNumber": {
+      "definition": "Identificação única ou número de série atribuído e aposto por um emitente ou agente de transferências a cada certificado de valores mobiliários."
+    },
+    "CertificatePrefix": {
+      "definition": "Prefixo de um certificado, que pode diferir consoante o local onde a emissão dos certificados teve lugar."
+    },
+    "CertificateCalledAmount": {
+      "definition": "Montante de capital (para emissões de dívida) ou número de ações (para emissões de capital) que foi resgatado para reembolso relativamente a um determinado número de certificado."
+    }
+  }
+}

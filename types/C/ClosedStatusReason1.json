@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosedStatusReason1",
+  "definition": "Motivo de um estado encerrado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo do estado encerrado da conta."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o motivo do estado encerrado da conta."
+    }
+  }
+}

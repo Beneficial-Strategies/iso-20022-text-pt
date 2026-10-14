@@ -1,0 +1,12 @@
+{
+  "isoType": "CurrentOrDefaultReservation4Choice",
+  "definition": "Reserva corrente ou por defeito constituída pelo membro e gerida pelo administrador de operações.",
+  "isoElements": {
+    "Current": {
+      "definition": "Identificação da reserva corrente."
+    },
+    "Default": {
+      "definition": "Identificação da reserva por defeito."
+    }
+  }
+}

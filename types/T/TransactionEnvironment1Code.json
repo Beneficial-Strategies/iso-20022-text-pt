@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionEnvironment1Code",
+  "definition": "Indica o ambiente da operação.",
+  "isoCodes": {
+    "MERC": {
+      "name": "Comerciante",
+      "definition": "Ambiente do comerciante."
+    },
+    "PRIV": {
+      "name": "Privado",
+      "definition": "Ambiente privado."
+    },
+    "PUBL": {
+      "name": "Público",
+      "definition": "Ambiente público."
+    }
+  }
+}

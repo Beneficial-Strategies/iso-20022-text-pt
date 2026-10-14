@@ -1,0 +1,15 @@
+{
+  "isoType": "UnitsOrAmountOrPercentage1Choice",
+  "definition": "Escolha entre um montante, um número de unidades ou uma percentagem.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante em numerário."
+    },
+    "Unit": {
+      "definition": "Número de unidades."
+    },
+    "Percentage": {
+      "definition": "Percentagem do montante em numerário."
+    }
+  }
+}

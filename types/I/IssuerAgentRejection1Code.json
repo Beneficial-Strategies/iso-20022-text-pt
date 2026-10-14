@@ -1,0 +1,305 @@
+{
+  "isoType": "IssuerAgentRejection1Code",
+  "isoCodes": {
+    "NMOD": {
+      "name": "Evento cancelado",
+      "definition": "O evento cancelado não pode ser modificado."
+    },
+    "PR1K": {
+      "name": "Taxa em numerário inferior a mil",
+      "definition": "Obrigação de cupão zero, a taxa de capital / numerário tem de ser inferior a USD 1,000.00."
+    },
+    "CER0": {
+      "name": "Montante do certificado superior a zero",
+      "definition": "O montante do certificado tem de ser superior a zero."
+    },
+    "NCON": {
+      "name": "Valor mobiliário convertível não suportado",
+      "definition": "Valor mobiliário convertível não suportado."
+    },
+    "DEPO": {
+      "name": "Montante chamado do depositário igual ao montante chamado do valor mobiliário",
+      "definition": "O montante chamado do depositário tem de ser superior a zero e igual ao montante chamado do valor mobiliário."
+    },
+    "FAS0": {
+      "name": "Montante chamado do depositário superior a zero",
+      "definition": "O montante chamado do depositário tem de ser superior a zero."
+    },
+    "DUPL": {
+      "name": "Evento duplicado",
+      "definition": "Existe um evento duplicado."
+    },
+    "PDAY": {
+      "name": "Dia efetivo posterior à data de pagamento",
+      "definition": "A data de eficácia é posterior à data de pagamento."
+    },
+    "FAIL": {
+      "name": "Validação falhada",
+      "definition": "A validação do aviso/da instrução/do pedido falhou."
+    },
+    "LOCK": {
+      "name": "Bloqueio global",
+      "definition": "O valor mobiliário subjacente tem um bloqueio global."
+    },
+    "GAMN": {
+      "name": "Montante bruto inferior ao montante líquido",
+      "definition": "O montante bruto é inferior ao montante líquido."
+    },
+    "UNDI": {
+      "name": "Valor mobiliário subjacente inativo",
+      "definition": "Valor mobiliário subjacente inativo."
+    },
+    "DEFE": {
+      "name": "Identificador de valor mobiliário extinto por defeasance inválido",
+      "definition": "Identificador de valor mobiliário extinto por defeasance inválido."
+    },
+    "IDIS": {
+      "name": "Identificação de valor mobiliário desembolsado inválida",
+      "definition": "Falta a identificação do valor mobiliário desembolsado."
+    },
+    "SEEQ": {
+      "name": "Tipo de valor mobiliário de capital próprio inválido",
+      "definition": "Tipo de valor mobiliário de ações inválido."
+    },
+    "EVNT": {
+      "name": "Tipo de evento inválido",
+      "definition": "Tipo de evento inválido."
+    },
+    "NDEF": {
+      "name": "Identificador de valor mobiliário não extinto por defeasance inválido",
+      "definition": "Identificador de valor mobiliário não extinto por defeasance inválido."
+    },
+    "NREF": {
+      "name": "Identificador de valor mobiliário não reembolsado inválido",
+      "definition": "Identificador de valor mobiliário não reembolsado inválido"
+    },
+    "REFR": {
+      "name": "Identificação de notificação inválida",
+      "definition": "Identificação de notificação inválida."
+    },
+    "ISSC": {
+      "name": "Informações de contacto do agente do emitente inválidas ou em falta",
+      "definition": "As informações de contacto do agente do emitente são inválidas ou estão em falta."
+    },
+    "PRIN": {
+      "name": "Taxa de numerário do capital inválida",
+      "definition": "Taxa de capital em numerário inválida."
+    },
+    "REDT": {
+      "name": "Data de reembolso inválida",
+      "definition": "Data de reembolso inválida."
+    },
+    "REFU": {
+      "name": "Identificador de valor mobiliário reembolsado inválido",
+      "definition": "Identificador de valor mobiliário reembolsado inválido."
+    },
+    "CERT": {
+      "name": "Montante total do certificado inválido",
+      "definition": "Montante inválido: o montante total do certificado tem de ser superior a zero e igual ao montante chamado do valor mobiliário."
+    },
+    "UNDV": {
+      "name": "Valor mobiliário subjacente inválido",
+      "definition": "Valor mobiliário subjacente inválido."
+    },
+    "BACK": {
+      "name": "Quantidade de lote fracionário final em falta",
+      "definition": "Falta a quantidade de lote incompleto final."
+    },
+    "BIDI": {
+      "name": "Intervalo de oferta em falta",
+      "definition": "Falta o intervalo de oferta."
+    },
+    "CINL": {
+      "name": "Preço do numerário em substituição em falta",
+      "definition": "Falta o preço do numerário em substituição."
+    },
+    "MCER": {
+      "name": "Certificação em falta",
+      "definition": "A certificação não foi preenchida."
+    },
+    "CSRT": {
+      "name": "Taxa em numerário em falta",
+      "definition": "Falta a taxa em numerário."
+    },
+    "COND": {
+      "name": "Indicador de ofertas condicionais aceites em falta",
+      "definition": "Falta o indicador de ofertas condicionais aceites."
+    },
+    "DFLT": {
+      "name": "Opção por defeito em falta",
+      "definition": "Uma opção tem de ser marcada como predefinida."
+    },
+    "MDIS": {
+      "name": "Identificação do valor mobiliário desembolsado em falta",
+      "definition": "Falta a identificação do valor mobiliário desembolsado."
+    },
+    "XRAT": {
+      "name": "Taxa de câmbio em falta",
+      "definition": "Não é permitido um montante resultante sem taxa de câmbio."
+    },
+    "FIRS": {
+      "name": "Primeiro incremento de oferta em falta",
+      "definition": "Falta o primeiro incremento de oferta."
+    },
+    "FRAC": {
+      "name": "Tratamento de frações em falta",
+      "definition": "Não pode ser anunciado um valor mobiliário subjacente fracionário."
+    },
+    "MFCF": {
+      "name": "Indicador condicional total em falta",
+      "definition": "Falta o indicador de condicional total."
+    },
+    "ISSR": {
+      "name": "Agente do emitente em falta",
+      "definition": "Falta o agente do emitente."
+    },
+    "LAST": {
+      "name": "Último incremento de oferta em falta",
+      "definition": "Falta o último incremento de oferta."
+    },
+    "MAXP": {
+      "name": "Preço máximo em falta",
+      "definition": "Falta o preço máximo."
+    },
+    "MINP": {
+      "name": "Preço mínimo em falta",
+      "definition": "Falta o preço mínimo."
+    },
+    "ODLT": {
+      "name": "Indicador de prioridade de lote fracionário em falta",
+      "definition": "Falta o indicador de prioridade de lote incompleto."
+    },
+    "SECO": {
+      "name": "Opção em falta",
+      "definition": "A segunda opção é obrigatória."
+    },
+    "OVCH": {
+      "name": "Indicador de encargo de sobresubscrição em falta",
+      "definition": "Falta o indicador de encargo de sobresubscrição."
+    },
+    "OVFL": {
+      "name": "Indicador de sobresubscrição em falta",
+      "definition": "Falta o indicador de sobresubscrição."
+    },
+    "OVPR": {
+      "name": "Preço de sobresubscrição em falta",
+      "definition": "Falta o preço de sobresubscrição."
+    },
+    "PTYP": {
+      "name": "Tipo de pagamento em falta",
+      "definition": "Falta o tipo de pagamento."
+    },
+    "ENDP": {
+      "name": "Data de fim do período em falta",
+      "definition": "Falta a data ou o código de fim do período."
+    },
+    "STAR": {
+      "name": "Data de início do período em falta",
+      "definition": "Falta a data ou o código de início do período."
+    },
+    "PBAS": {
+      "name": "Base do preço em falta",
+      "definition": "Falta a base de preço."
+    },
+    "PROR": {
+      "name": "Taxa de rateio em falta",
+      "definition": "Falta a taxa de rateio."
+    },
+    "MPRI": {
+      "name": "Indicador de arredondamento do rateio em falta",
+      "definition": "Falta o indicador de arredondamento do rateio."
+    },
+    "PRCH": {
+      "name": "Indicador de encargo de proteção em falta",
+      "definition": "Falta o indicador de encargo de proteção."
+    },
+    "RESU": {
+      "name": "Montante resultante em falta",
+      "definition": "O montante resultante tem de ser preenchido, uma vez que existe uma taxa de câmbio."
+    },
+    "RITR": {
+      "name": "Indicador de transmissibilidade dos direitos em falta",
+      "definition": "Falta o indicador de direitos transferíveis."
+    },
+    "ROUN": {
+      "name": "Fator de arredondamento em falta",
+      "definition": "Falta o fator de arredondamento."
+    },
+    "SERT": {
+      "name": "Taxa de valores mobiliários em falta",
+      "definition": "Falta a taxa de valores mobiliários."
+    },
+    "SFEE": {
+      "name": "Indicador de comissão do intermediário de solicitação em falta",
+      "definition": "Falta o indicador de comissão do corretor de solicitação."
+    },
+    "SUCH": {
+      "name": "Indicador de encargo de subscrição em falta",
+      "definition": "Falta o indicador de encargo de subscrição."
+    },
+    "SUPR": {
+      "name": "Preço de subscrição em falta",
+      "definition": "Falta o preço de subscrição."
+    },
+    "UNSP": {
+      "name": "Indicação de preço não especificado permitido em falta",
+      "definition": "Falta o indicador de preço não especificado permitido."
+    },
+    "NOAC": {
+      "name": "Sem acesso ao serviço",
+      "definition": "O agente não tem acesso ao serviço."
+    },
+    "NPAT": {
+      "name": "Parte não ativa",
+      "definition": "A parte não está ativa."
+    },
+    "ELIG": {
+      "name": "Valor mobiliário não elegível",
+      "definition": "O valor mobiliário não é elegível."
+    },
+    "BDAY": {
+      "name": "Não é dia útil",
+      "definition": "A data não é um dia útil para o mercado do valor mobiliário."
+    },
+    "AGID": {
+      "name": "Instituição não definida",
+      "definition": "A parte não está definida como agente."
+    },
+    "DISP": {
+      "name": "Valor mobiliário não elegível para dispersão",
+      "definition": "O valor mobiliário de dispersão (disperse) não é elegível no prestador de serviços (ICSD) titular."
+    },
+    "ONCV": {
+      "name": "Existe um evento de conversão em curso",
+      "definition": "Existe um evento de conversão em curso"
+    },
+    "PERI": {
+      "name": "Data de fim do período anterior à data de início",
+      "definition": "A data de fim do período é anterior à data de início do período."
+    },
+    "PUBD": {
+      "name": "Data de publicação",
+      "definition": "A data de publicação tem de ser anterior à data de pagamento."
+    },
+    "RDTE": {
+      "name": "Data de registo posterior à data de pagamento",
+      "definition": "A data de registo é posterior à data de pagamento."
+    },
+    "UNDM": {
+      "name": "Valor mobiliário subjacente não elegível",
+      "definition": "O valor mobiliário subjacente não é elegível no depositário."
+    },
+    "ACRU": {
+      "name": "Juros corridos inesperados",
+      "definition": "Os juros acumulados não são aplicáveis a este tipo de valor mobiliário."
+    },
+    "VALU": {
+      "name": "Data-valor anterior à data de pagamento",
+      "definition": "A data-valor é anterior à data de pagamento."
+    },
+    "SECT": {
+      "name": "Tipo de valor mobiliário incorreto",
+      "definition": "O tipo de valor mobiliário não corresponde ao tipo de ação societária."
+    }
+  }
+}

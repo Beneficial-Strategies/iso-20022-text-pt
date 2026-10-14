@@ -1,0 +1,10 @@
+{
+  "isoType": "CorporateActionInformationType1Code",
+  "definition": "Especifica o tipo de evento de informação.",
+  "isoCodes": {
+    "CONF": {
+      "name": "Teleconferência",
+      "definition": "A informação refere-se a uma chamada informal em que um emitente, fiduciário ou agente pretende falar com os detentores de títulos de dívida para discutir uma determinada questão ou uma potencial alteração dos títulos; nada do que for dito é vinculativo."
+    }
+  }
+}

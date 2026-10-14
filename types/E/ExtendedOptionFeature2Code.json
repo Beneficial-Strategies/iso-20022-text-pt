@@ -1,0 +1,50 @@
+{
+  "isoType": "ExtendedOptionFeature2Code",
+  "definition": "Especifica opções específicas da DTCC (The Depository Trust and Clearing Corporation).",
+  "isoCodes": {
+    "FORU": {
+      "name": "Imposto estrangeiro desfavorável",
+      "definition": "Opção exclusiva da DTC (The Depository Trust Company). O evento e o valor mobiliário são elegíveis para o serviço de Foreign Tax Relief na DTC. Opção para selecionar a taxa de imposto desfavorável. A opção Foreign Tax Unfavourable é a opção por defeito."
+    },
+    "FORF": {
+      "name": "Imposto estrangeiro favorável",
+      "definition": "Opção exclusiva da DTC (The Depository Trust Company). O evento e o valor mobiliário são elegíveis para o serviço de Foreign Tax Relief na DTC. A escolha desta opção assegura que o participante recebe o seu pagamento a uma taxa de retenção na fonte favorável."
+    },
+    "FORX": {
+      "name": "Imposto estrangeiro isento",
+      "definition": "Opção exclusiva da DTC (The Depository Trust Company). O evento e o valor mobiliário são elegíveis para o serviço de Foreign Tax Relief na DTC. A escolha desta opção assegura que o participante fica isento de qualquer retenção na fonte."
+    },
+    "DRPU": {
+      "name": "DRIP desfavorável",
+      "definition": "Opção exclusiva da DTC (The Depository Trust Company). O evento e o valor mobiliário são elegíveis para os serviços de Dividend Reinvestment e de Foreign Tax na DTC. Os participantes que escolherem esta opção receberão ações adicionais e a retenção na fonte sobre essas ações será efetuada à taxa de imposto desfavorável."
+    },
+    "DRPF": {
+      "name": "DRIP favorável",
+      "definition": "Opção exclusiva da DTC (The Depository Trust Company). O evento e o valor mobiliário são elegíveis para os serviços de Dividend Reinvestment e de Foreign Tax Relief na DTC. Os participantes que escolherem esta opção receberão ações adicionais e a retenção na fonte sobre essas ações será efetuada à taxa de imposto favorável."
+    },
+    "DRPX": {
+      "name": "DRIP isento",
+      "definition": "Opção exclusiva da DTC (The Depository Trust Company). O evento e o valor mobiliário são elegíveis para os serviços de Dividend Reinvestment e de Foreign Tax Relief na DTC. Os participantes que escolherem esta opção receberão ações adicionais e ficarão isentos de qualquer retenção na fonte."
+    },
+    "FCPP": {
+      "name": "Pagamento em moeda estrangeira",
+      "definition": "Opção exclusiva da DTC (The Depository Trust Company). O evento e o valor mobiliário são elegíveis para o serviço de Foreign Currency Payment na DTC. Os participantes que escolherem esta opção receberão a sua distribuição na moeda estrangeira indicada na instrução."
+    },
+    "FCPU": {
+      "name": "Pagamento em moeda estrangeira desfavorável",
+      "definition": "Opção exclusiva da DTC (The Depository Trust Company). O evento e o valor mobiliário são elegíveis para os serviços de Foreign Currency e de Foreign Tax na DTC. Os participantes que escolherem esta opção receberão a sua distribuição em moeda estrangeira e a retenção na fonte sobre essa distribuição estará sujeita a uma retenção desfavorável."
+    },
+    "FCPF": {
+      "name": "Pagamento em moeda estrangeira favorável",
+      "definition": "Opção exclusiva da DTC (The Depository Trust Company). O evento e o valor mobiliário são elegíveis para os serviços de Foreign Currency e de Foreign Tax na DTC. Os participantes que escolherem a opção receberão a sua distribuição em moeda estrangeira e a retenção na fonte sobre essa distribuição estará sujeita a uma retenção favorável."
+    },
+    "FCPX": {
+      "name": "Pagamento em moeda estrangeira isento",
+      "definition": "Opção exclusiva da DTC (The Depository Trust Company). O evento e o valor mobiliário são elegíveis para os serviços de Foreign Currency e de Foreign Tax na DTC. Os participantes que escolherem esta opção receberão a sua distribuição em moeda estrangeira e ficarão isentos de qualquer retenção na fonte."
+    },
+    "NSHR": {
+      "name": "Número de acionista não permitido",
+      "definition": "Indica a opção em que os titulares não devem fornecer um número de acionista; se for fornecido, será rejeitado."
+    }
+  }
+}

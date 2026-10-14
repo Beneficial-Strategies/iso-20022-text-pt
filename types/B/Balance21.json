@@ -1,0 +1,12 @@
+{
+  "isoType": "Balance21",
+  "definition": "Posição líquida de uma carteira segregada, num único valor mobiliário, no âmbito da posição global detida numa conta de valores mobiliários. Um saldo de valores mobiliários é calculado a partir da soma dos recebimentos de valores mobiliários menos a soma das entregas de valores mobiliários.",
+  "isoElements": {
+    "ShortLongIndicator": {
+      "definition": "Indicação de que a posição é curta ou longa."
+    },
+    "Quantity": {
+      "definition": "Quantidade total de instrumentos financeiros do saldo."
+    }
+  }
+}

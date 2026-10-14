@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationStatus6Choice",
+  "definition": "Escolha do estado de modificação.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que não existe motivo disponível ou a reportar."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo do estado de modificação."
+    }
+  }
+}

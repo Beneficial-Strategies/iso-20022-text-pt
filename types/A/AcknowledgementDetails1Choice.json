@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgementDetails1Choice",
+  "definition": "Referência da PayInSchedule ou da PayInCall objeto de confirmação. Trata-se do elemento Message Identification da sequência Report Data da mensagem Pay In Schedule ou da mensagem Pay In Call.",
+  "isoElements": {
+    "PayInScheduleReference": {
+      "definition": "Referência ao calendário de pay-in objeto de confirmação."
+    },
+    "PayInCallReference": {
+      "definition": "Referência à chamada de pay-in objeto de confirmação."
+    }
+  }
+}

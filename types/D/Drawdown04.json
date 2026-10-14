@@ -1,0 +1,62 @@
+{
+  "isoType": "Drawdown04",
+  "definition": "Detalhes de uma tranche de levantamento.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação do levantamento."
+    },
+    "TrancheType": {
+      "definition": "Tipo de tranche de levantamento."
+    },
+    "ApplicableRules": {
+      "definition": "Especifica as regras aplicáveis ao levantamento. Por exemplo, no mercado do UK, a regra anterior ao A Day introduzida em 6 de abril de 2006.)"
+    },
+    "InvestorTaxReference": {
+      "definition": "Identificação do investidor atribuída por uma autoridade fiscal."
+    },
+    "PercentageOfTotalTransferValue": {
+      "definition": "Percentagem do valor total da transferência abrangida pelo levantamento."
+    },
+    "TotalAmountNetDrawdown": {
+      "definition": "Montante originalmente destinado a levantamento."
+    },
+    "AdditionalFundsDesignated": {
+      "definition": "Indica se foram destinados fundos adicionais desde o acordo original."
+    },
+    "PensionCommencementLumpSumRemaining": {
+      "definition": "Montante remanescente da quantia global inicial da pensão (PCLS)."
+    },
+    "PensionCommencementLumpSumDate": {
+      "definition": "Data até à qual a quantia global inicial da pensão (PCLS) tem de ser utilizada."
+    },
+    "MultiplePensionCommencementLumpSums": {
+      "definition": "Indica que foram efetuados vários pagamentos da quantia global inicial da pensão (PCLS)."
+    },
+    "LifetimeAllowance": {
+      "definition": "Percentagem do limite vitalício (LTA) utilizada."
+    },
+    "RecipientOfDrawdownIndicator": {
+      "definition": "Indica que o recetor do pagamento do levantamento é uma pessoa distinta do titular original da pensão."
+    },
+    "BeneficiaryDetails": {
+      "definition": "Informações sobre o destinatário do levantamento, quando não é o titular original da pensão."
+    },
+    "CappedLimits": {
+      "definition": "Limites do levantamento com limite máximo."
+    },
+    "FlexibleDrawdownTriggeredDate": {
+      "definition": "Data em que o levantamento foi desencadeado quando o tipo de levantamento é flexível."
+    },
+    "TrancheDate": {
+      "definition": "Data em que a tranche é acionada"
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o levantamento."
+    }
+  },
+  "isoRules": {
+    "BeneficiaryDetailsRule": {
+      "definition": "Se RecipientOfDrawdownIndicator for \"false\" ou \"0\" (Não), então BeneficiaryDetails não é permitido.|Se RecipientOfDrawdownIndicator for \"true\" ou \"1\" (Sim), então BeneficiaryDetails pode estar presente."
+    }
+  }
+}

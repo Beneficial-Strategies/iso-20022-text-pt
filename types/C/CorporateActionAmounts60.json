@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionAmounts60",
+  "definition": "Especifica montantes no âmbito de um evento de operação sobre valores mobiliários.",
+  "isoElements": {
+    "WithholdingTaxAmount": {
+      "definition": "Montante de uma distribuição em numerário que será retido pelas autoridades fiscais da jurisdição do emitente, relativamente ao qual poderá ser possível uma redução na fonte e/ou um pedido de reembolso."
+    },
+    "SecondLevelTaxAmount": {
+      "definition": "Montante em dinheiro retido por uma jurisdição diferente da jurisdição do país de constituição fiscal do emitente, relativamente ao qual poderá ser possível uma redução na fonte e/ou um pedido de reembolso. É cobrado em complemento ou compensação da taxa de retenção na fonte cobrada pela jurisdição do domicílio fiscal do emitente."
+    }
+  }
+}

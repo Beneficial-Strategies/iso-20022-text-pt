@@ -1,0 +1,137 @@
+{
+  "isoType": "InvestmentAccount74",
+  "definition": "Informações sobre uma conta de valores mobiliários e as suas características.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "AccountStatus": {
+      "definition": "Estado da conta."
+    },
+    "BlockedStatus": {
+      "definition": "Especifica que a conta está bloqueada e outros fatores relativos à conta bloqueada."
+    },
+    "StatusDate": {
+      "definition": "Data em que o estado é atribuído."
+    },
+    "Name": {
+      "definition": "Nome da conta. Constitui um meio adicional de identificação e é designado pela instituição gestora da conta de acordo com o titular da conta."
+    },
+    "Designation": {
+      "definition": "Informações de registo suplementares aplicáveis a um bloco específico de unidades para efeitos de negociação e de reporte. As informações de registo suplementares podem ser utilizadas quando todas as unidades estão registadas, por exemplo, numa plataforma de fundos, mas as posições de cada investidor têm de ser reconciliadas individualmente."
+    },
+    "Type": {
+      "definition": "Tipo de conta."
+    },
+    "OwnershipType": {
+      "definition": "Estado de titularidade da conta, por exemplo, contitulares."
+    },
+    "TaxExemption": {
+      "definition": "Benefício fiscal específico da conta."
+    },
+    "StatementFrequency": {
+      "definition": "Periodicidade com que é emitido um extrato."
+    },
+    "ReferenceCurrency": {
+      "definition": "Moeda escolhida para efeitos de reporte pelo titular da conta, de acordo com o prestador de serviços da conta."
+    },
+    "Language": {
+      "definition": "Língua utilizada em todas as comunicações relativas à conta."
+    },
+    "IncomePreference": {
+      "definition": "Opção de dividendos escolhida pelo titular da conta com base nas opções oferecidas no prospeto."
+    },
+    "ReinvestmentDetails": {
+      "definition": "Especifica, para os rendimentos do fundo ou do valor mobiliário que devem ser reinvestidos, os parâmetros do reinvestimento. Se a percentagem de reinvestimento for inferior a cem por cento, a percentagem restante será investida de acordo com as instruções subsequentes do investidor ou do titular da conta."
+    },
+    "TaxWithholdingMethod": {
+      "definition": "Método pelo qual o imposto (retenção na fonte) deve ser tratado, isto é, retido na fonte, ou as informações fiscais são comunicadas às autoridades fiscais, ou as informações fiscais são comunicadas devido à apresentação de um certificado fiscal."
+    },
+    "TaxReporting": {
+      "definition": "Pormenores para a declaração de impostos, por exemplo, o país de tributação."
+    },
+    "LetterIntentDetails": {
+      "definition": "Detalhes da carta de intenções."
+    },
+    "AccumulationRightReference": {
+      "definition": "Referência de um programa de direitos de acumulação, no qual as comissões de venda se baseiam nas compras atuais de ações do cliente e na quantidade agregada anteriormente adquirida pelo cliente. Um programa de direitos de acumulação é utilizado principalmente no mercado dos US."
+    },
+    "RequiredSignatoriesNumber": {
+      "definition": "Número de titulares da conta ou partes relacionadas necessários para autorizar operações na conta."
+    },
+    "FundFamilyName": {
+      "definition": "Nome da família de fundos de investimento."
+    },
+    "FinancialInstrumentDetails": {
+      "definition": "Informações detalhadas sobre o fundo de investimento ou valor mobiliário associado à conta."
+    },
+    "RoundingDetails": {
+      "definition": "Parâmetros a aplicar ao montante da operação em ordens cujo montante seja um número fracionário."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gere a conta em nome do titular da conta, ou seja, gere o registo e o lançamento dos movimentos na conta, calcula os saldos da conta e presta informações sobre a conta."
+    },
+    "AccountUsageType": {
+      "definition": "Especifica o tipo de utilização da conta."
+    },
+    "ForeignStatusCertification": {
+      "definition": "Especifica se foi apresentada prova documental relativa ao residente estrangeiro."
+    },
+    "AccountSignatureDateTime": {
+      "definition": "Data em que o investidor ou titular da conta assina o formulário de abertura de conta."
+    },
+    "TransactionChannelType": {
+      "definition": "Meio pelo qual o investidor ou titular da conta apresenta o formulário de abertura de conta."
+    },
+    "InvestmentAccountCategory": {
+      "definition": "Especifica a categoria da conta."
+    },
+    "Pledging": {
+      "definition": "Especifica se as posições na conta são elegíveis para penhor."
+    },
+    "Collateral": {
+      "definition": "Especifica se as posições na conta são utilizadas como garantia."
+    },
+    "ThirdPartyRights": {
+      "definition": "Pormenores dos direitos de terceiros."
+    },
+    "PowerOfAttorneyLevelOfControl": {
+      "definition": "Funcionalidade permitida a um terceiro nas ações que podem ser realizadas numa conta em nome do investidor."
+    },
+    "AccountingStatus": {
+      "definition": "Especifica se a conta é considerada nacional ou não nacional para efeitos de reporte."
+    },
+    "OpeningDate": {
+      "definition": "Data legal de abertura da conta."
+    },
+    "ClosingDate": {
+      "definition": "Data legal de encerramento da conta."
+    },
+    "NegativeIndicator": {
+      "definition": "Indica se a conta pode deter uma posição negativa num valor mobiliário."
+    },
+    "ProcessingOrder": {
+      "definition": "Ordem pela qual os valores mobiliários são retirados da conta."
+    },
+    "Liability": {
+      "definition": "Especifica se o investidor assume a responsabilidade pela obrigação."
+    },
+    "InvestorProfile": {
+      "definition": "Informações utilizadas para determinar as comissões e os tipos de operações que podem ser realizadas na conta."
+    },
+    "FiscalYear": {
+      "definition": "Ano fiscal, quando não coincide com o ano civil."
+    }
+  },
+  "isoRules": {
+    "FinancialInstrumentDetailsGuideline": {
+      "definition": "FinancialInstrumentDetails pode estar presente se um único fundo de investimento estiver associado à conta de investimento. Se vários fundos de investimento estiverem associados à conta de investimento, deve ser especificado apenas o FundFamilyName."
+    },
+    "IncomePreferenceReinvestment1Rule": {
+      "definition": "Se IncomePreference for CASH (Cash), então ReinvestmentDetails não é permitido."
+    },
+    "ReinvestmentPercentage1Rule": {
+      "definition": "A soma de todas as ocorrências de ReinvestmentDetails/ReinvestmentPercentage não pode ser superior a 100."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionChannel2Code",
+  "definition": "Especifica o tipo de canal de comunicação.",
+  "isoCodes": {
+    "FIAD": {
+      "name": "Consultor financeiro",
+      "definition": "Consultor financeiro."
+    },
+    "HOBA": {
+      "name": "Banca à distância",
+      "definition": "Banca em casa."
+    },
+    "BRAN": {
+      "name": "Escritório ou balcão",
+      "definition": "Escritório ou balcão."
+    }
+  }
+}

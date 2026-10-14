@@ -1,0 +1,4 @@
+{
+  "isoType": "RestrictedFINImpliedCurrencyAndAmount",
+  "definition": "Número de unidades monetárias especificadas numa moeda em que a unidade monetária está implícita no contexto e é conforme com a ISO 4217. O separador decimal é um ponto.|Nota: um montante zero é considerado um montante positivo."
+}

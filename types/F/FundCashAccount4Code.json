@@ -1,0 +1,50 @@
+{
+  "isoType": "FundCashAccount4Code",
+  "definition": "Especifica o tipo de conta.",
+  "isoCodes": {
+    "HEDG": {
+      "name": "Fundo de cobertura",
+      "definition": "Conta de fundo de investimento alternativo (hedge fund)."
+    },
+    "CPFO": {
+      "name": "Fundo de pensões ordinário",
+      "definition": "Conta ordinária do Central Provident Fund (CPF)."
+    },
+    "CPFS": {
+      "name": "Fundo de pensões especial",
+      "definition": "Conta especial do Central Provident Fund (CPF)."
+    },
+    "SRSA": {
+      "name": "Regime de reforma",
+      "definition": "Conta do Supplementary Retirement Scheme (SRS)."
+    },
+    "CSDO": {
+      "name": "Conta ómnibus da CSD",
+      "definition": "Conta gerida por uma CSD no contexto de liquidação entre CSD."
+    },
+    "TOFF": {
+      "name": "Conta técnica de compensação",
+      "definition": "Conta gerida por uma CSD no contexto de um mercado de detenção direta."
+    },
+    "ICSA": {
+      "name": "Conta inter-CSD",
+      "definition": "Conta gerida por uma CSD para a liquidação de componentes de valores mobiliários de instruções que envolvem CSD internas."
+    },
+    "CSDM": {
+      "name": "Conta espelho da CSD",
+      "definition": "Conta gerida por uma CSD para a replicação de posições."
+    },
+    "CSDP": {
+      "name": "Conta de participante da CSD",
+      "definition": "Conta detida por um participante de uma CSD."
+    },
+    "PPEN": {
+      "name": "Regime de pensões privado",
+      "definition": "Conta de pensões privada."
+    },
+    "CPEN": {
+      "name": "Regime de pensões profissional",
+      "definition": "Conta de pensões profissional ou de empresa."
+    }
+  }
+}

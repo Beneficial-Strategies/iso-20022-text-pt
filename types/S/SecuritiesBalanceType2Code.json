@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesBalanceType2Code",
+  "definition": "Especifica a natureza do saldo de valores mobiliários ou de fundos de investimento.",
+  "isoCodes": {
+    "CLEN": {
+      "name": "Isento de imposto",
+      "definition": "Saldo de valores mobiliários isentos de imposto."
+    },
+    "DIRT": {
+      "name": "Não isento de imposto",
+      "definition": "Saldo de valores mobiliários tributáveis."
+    },
+    "NOMI": {
+      "name": "Nominativo",
+      "definition": "Saldo de valores mobiliários registados (em nome de um mandatário ou do beneficiário efetivo)."
+    },
+    "OTHR": {
+      "name": "Não classificado",
+      "definition": "Saldo de valores mobiliários não classificado, ou seja, não identificado com nenhum dos tipos de subsaldo existentes."
+    },
+    "SPOS": {
+      "name": "Posição em nome do intermediário",
+      "definition": "Saldo de valores mobiliários que permanecem registados em nome do anterior beneficiário efetivo dos valores mobiliários."
+    },
+    "UNRG": {
+      "name": "Não registado",
+      "definition": "Saldo de valores mobiliários que não puderam ser registados devido a uma limitação de propriedade estrangeira."
+    }
+  }
+}

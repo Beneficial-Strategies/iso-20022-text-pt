@@ -1,0 +1,27 @@
+{
+  "isoType": "FileData1",
+  "definition": "Fornece informações sobre um ficheiro que está a ser enviado separadamente da mensagem.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de documento ou modelo."
+    },
+    "Identification": {
+      "definition": "Identificação do documento ou modelo."
+    },
+    "IssueDate": {
+      "definition": "Data ou data e hora de emissão do documento."
+    },
+    "Format": {
+      "definition": "Formato do documento ou modelo, como PDF, XML, XSLT."
+    },
+    "FileName": {
+      "definition": "Nome técnico do ficheiro."
+    },
+    "NetworkReference": {
+      "definition": "Contém a referência atribuída pela rede."
+    },
+    "FileLocationElectronicAddress": {
+      "definition": "Endereço eletrónico para o qual uma parte enviou o ficheiro."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CashInOutForecast7",
+  "definition": "Movimentos de numerário para dentro ou para fora de um fundo em resultado de operações de fundos de investimento, por exemplo, subscrições, resgates ou trocas.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Data em que o numerário está disponível."
+    },
+    "Amount": {
+      "definition": "Montante do fluxo de caixa."
+    }
+  }
+}

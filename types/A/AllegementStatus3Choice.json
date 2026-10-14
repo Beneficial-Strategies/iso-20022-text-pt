@@ -1,0 +1,12 @@
+{
+  "isoType": "AllegementStatus3Choice",
+  "definition": "Escolha do formato para o estado da alegação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado da alegação reportada."
+    },
+    "Proprietary": {
+      "definition": "Estado da alegação reportada."
+    }
+  }
+}

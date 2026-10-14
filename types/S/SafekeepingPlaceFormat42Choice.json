@@ -1,0 +1,21 @@
+{
+  "isoType": "SafekeepingPlaceFormat42Choice",
+  "definition": "Escolha de formatos para um local de custódia.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Local de guarda expresso como um código e uma descrição narrativa."
+    },
+    "Country": {
+      "definition": "Local de guarda expresso com um código de país."
+    },
+    "DigitalLedgerIdentification": {
+      "definition": "Local de guarda expresso com um Digital Ledger Identifier. Identifica um livro-razão digital ou um sistema de livro-razão distribuído (por exemplo, blockchain ou plataformas semelhantes)."
+    },
+    "TypeAndIdentification": {
+      "definition": "Local de guarda expresso com um tipo e uma identificação."
+    },
+    "Proprietary": {
+      "definition": "Local de guarda expresso com um esquema de identificação proprietário."
+    }
+  }
+}

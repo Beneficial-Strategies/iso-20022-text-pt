@@ -1,0 +1,15 @@
+{
+  "isoType": "Statement89",
+  "definition": "Define os critérios utilizados para comunicar sobre as posições das contas de valores mobiliários.",
+  "isoElements": {
+    "DateOrPeriod": {
+      "definition": "Data ou período do extrato."
+    },
+    "HistoricData": {
+      "definition": "Especifica se os dados são históricos (verdadeiro) ou atuais (falso)."
+    },
+    "StatementType": {
+      "definition": "Tipo de saldo em que se baseia o extrato."
+    }
+  }
+}

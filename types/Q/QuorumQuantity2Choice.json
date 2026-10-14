@@ -1,0 +1,12 @@
+{
+  "isoType": "QuorumQuantity2Choice",
+  "definition": "Escolha da quantidade de quórum.",
+  "isoElements": {
+    "QuorumQuantity": {
+      "definition": "Quantidade mínima de valores mobiliários necessária para realizar uma assembleia."
+    },
+    "QuorumQuantityPercentage": {
+      "definition": "Quantidade mínima de valores mobiliários, expressa em percentagem, necessária para realizar uma assembleia."
+    }
+  }
+}

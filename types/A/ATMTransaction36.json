@@ -1,0 +1,9 @@
+{
+  "isoType": "ATMTransaction36",
+  "definition": "Informações sobre o pedido de reconciliação.",
+  "isoElements": {
+    "ReconciliationOperation": {
+      "definition": "Conjunto de operações de reconciliação entre um dispositivo ATM e um anfitrião de manutenção."
+    }
+  }
+}

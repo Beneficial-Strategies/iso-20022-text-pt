@@ -1,0 +1,15 @@
+{
+  "isoType": "ReportItemStatus1Choice",
+  "definition": "Fornece o estado de aceitação do item de posição.",
+  "isoElements": {
+    "Accepted": {
+      "definition": "O extrato é aceite."
+    },
+    "AcceptedWithException": {
+      "definition": "O extrato é aceite com exceção/exceções."
+    },
+    "Rejected": {
+      "definition": "O extrato é rejeitado."
+    }
+  }
+}

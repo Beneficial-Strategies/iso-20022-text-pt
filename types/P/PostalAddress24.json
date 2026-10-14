@@ -1,0 +1,54 @@
+{
+  "isoType": "PostalAddress24",
+  "definition": "Informações que localizam e identificam um endereço específico, conforme definido pelos serviços postais.",
+  "isoElements": {
+    "AddressType": {
+      "definition": "Identifica a natureza do endereço postal."
+    },
+    "Department": {
+      "definition": "Identificação de uma divisão de uma grande organização ou edifício."
+    },
+    "SubDepartment": {
+      "definition": "Identificação de uma subdivisão de uma grande organização ou edifício."
+    },
+    "StreetName": {
+      "definition": "Nome de uma rua ou via."
+    },
+    "BuildingNumber": {
+      "definition": "Número que identifica a posição de um edifício numa rua."
+    },
+    "BuildingName": {
+      "definition": "Nome do edifício ou da casa."
+    },
+    "Floor": {
+      "definition": "Andar ou piso de um edifício."
+    },
+    "PostBox": {
+      "definition": "Caixa numerada numa estação de correios, atribuída a uma pessoa ou organização, onde as cartas ficam guardadas até serem levantadas."
+    },
+    "Room": {
+      "definition": "Número da sala do edifício."
+    },
+    "PostCode": {
+      "definition": "Identificador constituído por um grupo de letras e/ou números que é acrescentado a um endereço postal para facilitar a triagem do correio."
+    },
+    "TownName": {
+      "definition": "Nome de uma zona urbanizada, com limites definidos e administração local."
+    },
+    "TownLocationName": {
+      "definition": "Nome de um local específico dentro da localidade."
+    },
+    "DistrictName": {
+      "definition": "Identifica uma subdivisão dentro de uma subdivisão de país."
+    },
+    "CountrySubDivision": {
+      "definition": "Identifica uma subdivisão de um país, como estado, região ou distrito."
+    },
+    "Country": {
+      "definition": "Nação com governo próprio."
+    },
+    "AddressLine": {
+      "definition": "Informação que localiza e identifica um endereço específico, conforme definido pelos serviços postais, apresentada em texto de formato livre."
+    }
+  }
+}

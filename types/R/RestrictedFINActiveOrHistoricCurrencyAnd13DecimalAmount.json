@@ -1,0 +1,4 @@
+{
+  "isoType": "RestrictedFINActiveOrHistoricCurrencyAnd13DecimalAmount",
+  "definition": "Número de unidades monetárias especificado numa moeda ativa ou histórica, em que a unidade monetária é explícita e conforme com a norma ISO 4217. O número de casas decimais (ou unidade menor da moeda) não é verificado segundo a norma ISO 4217: tem de ser inferior ou igual a 13.|Nota: o separador decimal é um ponto."
+}

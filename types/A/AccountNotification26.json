@@ -1,0 +1,80 @@
+{
+  "isoType": "AccountNotification26",
+  "definition": "Fornece detalhes sobre a notificação da conta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única, atribuída pelo titular da conta, para identificar inequivocamente a notificação da conta."
+    },
+    "Account": {
+      "definition": "Identifica a conta a creditar com o montante em dinheiro a receber."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gere a conta em nome do titular da conta, ou seja, que gere o registo e a contabilização dos lançamentos na conta, calcula os saldos da conta e fornece informações sobre a conta."
+    },
+    "RelatedAccount": {
+      "definition": "Identifica a conta principal da conta a creditar com o montante em dinheiro a receber."
+    },
+    "TotalAmount": {
+      "definition": "Soma dos montantes de todos os lançamentos Item."
+    },
+    "ExpectedValueDate": {
+      "definition": "Data em que a primeira instituição espera que o numerário esteja disponível para a instituição final."
+    },
+    "Debtor": {
+      "definition": "Parte que deve um montante ao credor (final)."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que presta serviços a uma conta do devedor."
+    },
+    "IntermediaryAgent": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor."
+    },
+    "Item": {
+      "definition": "Fornece detalhes do montante esperado na conta gerida pelo prestador de serviços da conta."
+    }
+  },
+  "isoRules": {
+    "DebtorRule": {
+      "definition": "Pode estar presente Debtor ou Item/Debtor, mas não ambos."
+    },
+    "DebtorAgentRule": {
+      "definition": "Pode estar presente DebtorAgent ou Item/DebtorAgent, mas não ambos."
+    },
+    "IntermediaryAgentRule": {
+      "definition": "Pode estar presente IntermediaryAgent ou Item/IntermediaryAgent, mas não ambos."
+    },
+    "MandatoryDebtorRule": {
+      "definition": "Tem de estar presente Debtor ou Item/Debtor."
+    },
+    "IntermediaryAgentAndDebtorAgentRule": {
+      "definition": "Se IntermediaryAgent estiver presente, DebtorAgent tem de estar presente."
+    },
+    "TotalAmountAndAmount1Rule": {
+      "definition": "Se TotalAmount estiver presente, todas as ocorrências de Item/Amount têm de ter a mesma moeda que a moeda de TotalAmount."
+    },
+    "AccountAndCurrencyRule": {
+      "definition": "Se Account estiver presente, todas as ocorrências de Item/Amount têm de ter a mesma moeda."
+    },
+    "TotalAmountAndAmount2Rule": {
+      "definition": "Se TotalAmount estiver presente, tem de ser igual à soma de todas as ocorrências de Item/Amount."
+    },
+    "AccountRule": {
+      "definition": "Pode estar presente Account ou Item/Account, mas não ambos."
+    },
+    "AccountOwnerRule": {
+      "definition": "Pode estar presente AccountOwner ou Item/AccountOwner, mas não ambos."
+    },
+    "AccountServicerRule": {
+      "definition": "Pode estar presente AccountServicer ou Item/AccountServicer, mas não ambos."
+    },
+    "ExpectedValueDateRule": {
+      "definition": "Pode estar presente ExpectedValueDate ou Item/ExpectedValueDate, mas não ambos."
+    },
+    "RelatedAccountRule": {
+      "definition": "Pode estar presente RelatedAccount ou Item/RelatedAccount, mas não ambos."
+    }
+  }
+}

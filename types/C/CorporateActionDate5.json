@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionDate5",
+  "definition": "Especifica as datas da operação de sociedade.",
+  "isoElements": {
+    "ForeignExchangeRateFixingDate": {
+      "definition": "Data/hora em que será determinada uma taxa de câmbio."
+    },
+    "ValueDate": {
+      "definition": "Data/hora em que os ativos ficam disponíveis para o titular da conta (num lançamento a crédito), ou deixam de estar disponíveis para o titular da conta (num lançamento a débito)."
+    },
+    "PaymentDate": {
+      "definition": "Data/hora em que a distribuição deve ter lugar (numerário e/ou valores mobiliários)."
+    },
+    "EarliestPaymentDate": {
+      "definition": "Data/hora em que pode ser efetuado um pagamento, por exemplo, se a data de pagamento for um dia não útil ou para indicar a data do primeiro pagamento de uma oferta."
+    }
+  }
+}

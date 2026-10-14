@@ -1,0 +1,12 @@
+{
+  "isoType": "UnitsOrAmount1Choice",
+  "definition": "Escolha entre um montante ou um número de unidades.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Moeda e montante dos pagamentos periódicos."
+    },
+    "Unit": {
+      "definition": "Número de unidades a subscrever ou a resgatar."
+    }
+  }
+}

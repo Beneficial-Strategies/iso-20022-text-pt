@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalInvestigationInstrument1Code",
+  "definition": "Especifica o tipo de instrumento ou produto a que a investigação se refere, conforme publicado num conjunto externo de códigos de instrumentos de investigação.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "CHQB": {
+      "name": "Cheque",
+      "definition": "A investigação está relacionada com um cheque."
+    },
+    "INST": {
+      "name": "Transferência a crédito instantânea",
+      "definition": "A investigação está relacionada com uma transferência a crédito imediata."
+    },
+    "XBCT": {
+      "name": "Transferência transfronteiriça",
+      "definition": "A investigação está relacionada com um pagamento transfronteiriço."
+    },
+    "ACHP": {
+      "name": "ACH ou em massa",
+      "definition": "A investigação está relacionada com um pagamento ACH ou em massa."
+    },
+    "DDTP": {
+      "name": "Débito direto",
+      "definition": "A investigação está relacionada com um débito direto."
+    },
+    "CARD": {
+      "name": "Cartão",
+      "definition": "A investigação está relacionada com uma operação com cartão."
+    },
+    "URGP": {
+      "name": "HVP ou transferência eletrónica",
+      "definition": "A investigação está relacionada com um pagamento por transferência eletrónica/de elevado montante."
+    },
+    "STAT": {
+      "name": "Lançamento do extrato",
+      "definition": "A investigação está relacionada com um lançamento de extrato."
+    },
+    "DRFT": {
+      "name": "Saque",
+      "definition": "A investigação está relacionada com uma letra."
+    },
+    "SRTP": {
+      "name": "Pedido de pagamento",
+      "definition": "A investigação está relacionada com um pedido de pagamento."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro instrumento subjacente."
+    }
+  }
+}

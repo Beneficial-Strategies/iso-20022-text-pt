@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxCalculationInformation11",
+  "definition": "Informações utilizadas para calcular um imposto.",
+  "isoElements": {
+    "Basis": {
+      "definition": "Base utilizada para determinar a mais-valia ou menos-valia."
+    },
+    "TaxableAmount": {
+      "definition": "Montante em dinheiro sobre o qual o imposto é cobrado."
+    }
+  }
+}

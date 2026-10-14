@@ -1,0 +1,26 @@
+{
+  "isoType": "Statement58",
+  "definition": "Características do relatório.",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identificação da mensagem SecuritiesStatementQuery enviada para solicitar este extrato."
+    },
+    "ReportIdentification": {
+      "definition": "Referência comum a todas as páginas de um relatório."
+    },
+    "HistoricData": {
+      "definition": "Especifica se os dados são históricos (verdadeiro) ou atuais (falso)."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica se o extrato comunica atividade ou atualização de informação."
+    },
+    "SubAccountIndicator": {
+      "definition": "Indica se o extrato reporta posições ao nível da conta de subcustódia."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "Se o relatório tiver várias páginas, o ReportNumber tem de se manter o mesmo em todas as páginas. É um número único do relatório.|Dois relatórios do mesmo tipo enviados sucessivamente ao mesmo destinatário relativamente à mesma conta de custódia têm de ter ReportNumbers diferentes. Por exemplo, um relatório diário enviado no dia 1 teria ReportNumber 001, no dia 2, 002, etc."
+    }
+  }
+}

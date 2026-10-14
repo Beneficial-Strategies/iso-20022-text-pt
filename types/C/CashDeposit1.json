@@ -1,0 +1,15 @@
+{
+  "isoType": "CashDeposit1",
+  "definition": "Depósito de um montante em dinheiro, definido em notas e/ou moedas.",
+  "isoElements": {
+    "NoteDenomination": {
+      "definition": "Especifica o valor facial da nota ou moeda, incluindo a moeda, por exemplo uma nota de 50 euros."
+    },
+    "NumberOfNotes": {
+      "definition": "Especifica o número de notas do mesmo valor facial no depósito."
+    },
+    "Amount": {
+      "definition": "Especifica o montante total em dinheiro do depósito, ou seja, o valor facial das notas multiplicado pelo número de notas."
+    }
+  }
+}

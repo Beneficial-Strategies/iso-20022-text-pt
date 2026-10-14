@@ -1,0 +1,12 @@
+{
+  "isoType": "PurposeCode9Choice",
+  "definition": "Escolha entre um código e um esquema de fonte de dados para determinar o tipo de conta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o tipo de conta de valores mobiliários."
+    },
+    "Proprietary": {
+      "definition": "Especifica a prioridade de execução da instrução com um esquema proprietário."
+    }
+  }
+}

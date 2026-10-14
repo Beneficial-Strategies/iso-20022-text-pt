@@ -1,0 +1,12 @@
+{
+  "isoType": "RateTypeAndPercentageRate12",
+  "definition": "Especifica o valor expresso como um tipo de taxa e uma taxa percentual.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Valor expresso como um tipo de taxa."
+    },
+    "Rate": {
+      "definition": "Valor expresso como taxa."
+    }
+  }
+}

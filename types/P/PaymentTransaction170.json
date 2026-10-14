@@ -1,0 +1,54 @@
+{
+  "isoType": "PaymentTransaction170",
+  "definition": "Fornece informações adicionais sobre a referência e o estado das operações originais, incluídas na instrução original, a que a mensagem de pedido de cancelamento se aplica.",
+  "isoElements": {
+    "CancellationStatusIdentification": {
+      "definition": "Identificador único e inequívoco do estado de um pedido de cancelamento, atribuído pelo mandante.||Utilização: a identificação do estado de cancelamento pode ser utilizada para reconciliação ou para ligar tarefas relacionadas com o pedido de cancelamento."
+    },
+    "ResolvedCase": {
+      "definition": "Identifica o processo resolvido."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Fornece informações sobre a mensagem original."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificação única, atribuída pela parte instrutora original à parte instruída original, para identificar de forma inequívoca a instrução original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora original, para identificar de forma inequívoca a operação original."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identificação única, atribuída pela primeira instituição instrutora original, para identificar de forma inequívoca a operação."
+    },
+    "OriginalClearingSystemReference": {
+      "definition": "Referência única, atribuída pelo sistema de compensação original, para identificar de forma inequívoca a instrução original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador universalmente único para fornecer a referência ponta a ponta original de uma operação de pagamento."
+    },
+    "TransactionCancellationStatus": {
+      "definition": "Especifica o estado do pedido de cancelamento da operação."
+    },
+    "CancellationStatusReasonInformation": {
+      "definition": "Fornece informações detalhadas sobre o motivo do estado de cancelamento."
+    },
+    "ResolutionRelatedInformation": {
+      "definition": "Referência de uma operação de devolução ou de reversão iniciada para corrigir o processo em investigação como parte da resolução."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Montante movimentado entre a instituição instrutora e a instituição instruída, conforme indicado na instrução original."
+    },
+    "OriginalInterbankSettlementDate": {
+      "definition": "Data, conforme indicada na operação original, em que o montante deixa de estar disponível para a instituição que o deve e em que passa a estar disponível para a instituição a quem é devido."
+    },
+    "Assigner": {
+      "definition": "Parte que atribui o processo.|Utilização: é também a instituição que instrui a parte seguinte na cadeia para executar o(s) pedido(s) de cancelamento."
+    },
+    "Assignee": {
+      "definition": "Parte a quem o processo é atribuído.|Utilização: é também a instituição instruída pela parte anterior na cadeia para executar o(s) pedido(s) de cancelamento."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos-chave utilizados para identificar a operação original a que se faz referência."
+    }
+  }
+}

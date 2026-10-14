@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMConfigurationControlComponent1",
+  "definition": "Informações relativas ao controlo de uma configuração num dispositivo ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Ambiente da operação."
+    },
+    "ConfigurationVersion": {
+      "definition": "A versão da configuração que está a ser enviada ao terminal."
+    },
+    "ActionRequired": {
+      "definition": "A ação exigida ao terminal após a receção desta atualização da configuração. Será uma das seguintes: APLY (Apply), aplicar a atualização da configuração, ou NONE, nenhuma configuração a aplicar."
+    },
+    "Property": {
+      "definition": "Conjunto de propriedades relativas a uma configuração de ATM."
+    },
+    "ActivationDate": {
+      "definition": "Data em que toda a configuração deve ser ativada. Se não for indicada nenhuma data de ativação, a ativação deve ocorrer de imediato."
+    }
+  }
+}

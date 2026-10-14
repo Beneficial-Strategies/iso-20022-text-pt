@@ -1,0 +1,39 @@
+{
+  "isoType": "PaymentTransaction175",
+  "definition": "Fornece informações de referência e de estado sobre as operações originais, incluídas na instrução original, a que a mensagem de pedido de cancelamento se aplica.",
+  "isoElements": {
+    "CancellationStatusIdentification": {
+      "definition": "Identificador único e inequívoco do estado de um pedido de cancelamento, atribuído pelo mandante.||Utilização: a identificação do estado de cancelamento pode ser utilizada para reconciliação ou para ligar tarefas relacionadas com o pedido de cancelamento."
+    },
+    "ResolvedCase": {
+      "definition": "Identifica o processo resolvido."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificação única, atribuída pela parte instrutora original à parte instruída original, para identificar de forma inequívoca a instrução original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora original, para identificar de forma inequívoca a operação original."
+    },
+    "UETR": {
+      "definition": "Identificador universalmente único para fornecer uma referência ponta a ponta de uma operação de pagamento."
+    },
+    "TransactionCancellationStatus": {
+      "definition": "Especifica o estado do pedido de cancelamento da operação."
+    },
+    "CancellationStatusReasonInformation": {
+      "definition": "Fornece informações detalhadas sobre o motivo do estado de cancelamento."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Montante a movimentar entre o devedor e o credor, conforme indicado na operação original, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora original.|Utilização: este montante tem de ser transportado sem alterações ao longo da cadeia da operação."
+    },
+    "OriginalRequestedExecutionDate": {
+      "definition": "Data em que a parte iniciadora solicitou originalmente à instituição de compensação o processamento do pagamento."
+    },
+    "OriginalRequestedCollectionDate": {
+      "definition": "Data em que o credor solicitou originalmente a cobrança do montante ao devedor."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos-chave utilizados para identificar a operação original a que se faz referência."
+    }
+  }
+}

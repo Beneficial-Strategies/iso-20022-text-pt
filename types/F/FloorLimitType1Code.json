@@ -1,0 +1,18 @@
+{
+  "isoType": "FloorLimitType1Code",
+  "definition": "Indica se o limite mínimo se aplica a lançamentos a crédito, a débito ou a ambos.",
+  "isoCodes": {
+    "CRED": {
+      "name": "Crédito",
+      "definition": "O limite mínimo aplica-se a lançamentos a crédito."
+    },
+    "DEBT": {
+      "name": "Débito",
+      "definition": "O limite mínimo aplica-se a lançamentos a débito."
+    },
+    "BOTH": {
+      "name": "Ambos",
+      "definition": "O limite mínimo aplica-se a lançamentos a crédito e a débito."
+    }
+  }
+}

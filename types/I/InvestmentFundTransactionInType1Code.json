@@ -1,0 +1,26 @@
+{
+  "isoType": "InvestmentFundTransactionInType1Code",
+  "definition": "Especifica o tipo de operação sobre fundos de investimento que resulta num movimento de caixa de entrada num fundo.",
+  "isoCodes": {
+    "SUBS": {
+      "name": "Subscrição",
+      "definition": "A operação é uma subscrição de um fundo de investimento."
+    },
+    "SWII": {
+      "name": "Conversão de entrada",
+      "definition": "A operação é a perna de subscrição da execução de uma ordem de conversão."
+    },
+    "INSP": {
+      "name": "Em espécie",
+      "definition": "A operação é uma entrega em espécie (InSpecie)."
+    },
+    "CROI": {
+      "name": "Cruzamento de entrada",
+      "definition": "A operação é uma entrada cruzada."
+    },
+    "RDIV": {
+      "name": "Reinvestimento de dividendo",
+      "definition": "A operação é um reinvestimento de dividendos."
+    }
+  }
+}

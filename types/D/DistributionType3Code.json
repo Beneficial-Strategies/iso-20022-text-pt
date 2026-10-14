@@ -1,0 +1,22 @@
+{
+  "isoType": "DistributionType3Code",
+  "definition": "Especifica se o produto do evento será distribuído de forma contínua (rolling) e não numa data específica.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Final",
+      "definition": "Pagamento final."
+    },
+    "INTE": {
+      "name": "Intercalar",
+      "definition": "Pagamento intercalar."
+    },
+    "ONGO": {
+      "name": "Em curso",
+      "definition": "O evento está em curso para aceitação a título não solicitado."
+    },
+    "ROLL": {
+      "name": "Base rotativa",
+      "definition": "O evento terá várias datas de aceitação e de pagamento até novo anúncio do emitente ou do seu agente."
+    }
+  }
+}

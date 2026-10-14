@@ -1,0 +1,42 @@
+{
+  "isoType": "AmendmentInformationDetails14",
+  "definition": "Fornece detalhes adicionais sobre a lista de elementos do mandato de débito direto que foram modificados quando o indicador de alteração foi definido.",
+  "isoElements": {
+    "OriginalMandateIdentification": {
+      "definition": "Identificação única, atribuída pelo credor, para identificar inequivocamente o mandato original."
+    },
+    "OriginalCreditorSchemeIdentification": {
+      "definition": "Identificação original do esquema do credor que foi modificada."
+    },
+    "OriginalCreditorAgent": {
+      "definition": "Instituição original do credor que foi modificada."
+    },
+    "OriginalCreditorAgentAccount": {
+      "definition": "Conta original da instituição do credor que foi modificada."
+    },
+    "OriginalDebtor": {
+      "definition": "Devedor original que foi modificado."
+    },
+    "OriginalDebtorAccount": {
+      "definition": "Conta original do devedor que foi modificada."
+    },
+    "OriginalDebtorAgent": {
+      "definition": "Instituição original do devedor que foi modificada."
+    },
+    "OriginalDebtorAgentAccount": {
+      "definition": "Conta original da instituição do devedor que foi modificada."
+    },
+    "OriginalFinalCollectionDate": {
+      "definition": "Data original da última cobrança que foi modificada."
+    },
+    "OriginalFrequency": {
+      "definition": "Periodicidade original que foi modificada."
+    },
+    "OriginalReason": {
+      "definition": "Motivo original do mandato, que permite ao utilizador distinguir entre diferentes mandatos do mesmo credor."
+    },
+    "OriginalTrackingDays": {
+      "definition": "Número original de dias de acompanhamento que foi modificado."
+    }
+  }
+}

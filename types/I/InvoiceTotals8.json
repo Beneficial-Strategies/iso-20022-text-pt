@@ -1,0 +1,15 @@
+{
+  "isoType": "InvoiceTotals8",
+  "definition": "Especifica os totais relacionados com a fatura.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação única de uma conta de valores mobiliários ou de uma conta de numerário pertencente ao cliente faturado."
+    },
+    "InvoiceTotals": {
+      "definition": "Especifica os totais relacionados com a fatura."
+    },
+    "ServiceCategoryTotals": {
+      "definition": "Especifica os totais relacionados com a categoria de serviço."
+    }
+  }
+}

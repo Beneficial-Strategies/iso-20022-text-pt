@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderOrError10Choice",
+  "definition": "Escolha entre os detalhes da ordem permanente ou um erro comercial quando os dados solicitados não podem ser obtidos.",
+  "isoElements": {
+    "StandingOrder": {
+      "definition": "Informações solicitadas sobre a conta."
+    },
+    "BusinessError": {
+      "definition": "Motivo pelo qual as informações funcionais solicitadas não são fornecidas."
+    }
+  }
+}

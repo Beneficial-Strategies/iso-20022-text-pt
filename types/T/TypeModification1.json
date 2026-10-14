@@ -1,0 +1,12 @@
+{
+  "isoType": "TypeModification1",
+  "definition": "Especifica o tipo de modificação do tipo de conta.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Especifica o tipo de alteração."
+    },
+    "Type": {
+      "definition": "Tipo da conta."
+    }
+  }
+}

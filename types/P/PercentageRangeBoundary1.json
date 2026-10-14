@@ -1,0 +1,12 @@
+{
+  "isoType": "PercentageRangeBoundary1",
+  "definition": "Limite para um intervalo de taxas percentuais.",
+  "isoElements": {
+    "BoundaryRate": {
+      "definition": "Taxa percentual do limite do intervalo."
+    },
+    "Included": {
+      "definition": "Indica se a taxa percentual-limite está incluída no intervalo de taxas percentuais."
+    }
+  }
+}

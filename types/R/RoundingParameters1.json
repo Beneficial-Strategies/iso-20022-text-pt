@@ -1,0 +1,12 @@
+{
+  "isoType": "RoundingParameters1",
+  "definition": "Parâmetros aplicados a um número fracionário.",
+  "isoElements": {
+    "RoundingModulus": {
+      "definition": "Valor decimal que especifica o valor para o qual é exigido o arredondamento, por exemplo, 10 significa arredondar para um múltiplo de 10 unidades/ações, 0.5 significa arredondar para um múltiplo de 0.5 unidades/ações."
+    },
+    "RoundingDirection": {
+      "definition": "Sentido do arredondamento aplicado aos números fracionários, por exemplo, por excesso."
+    }
+  }
+}

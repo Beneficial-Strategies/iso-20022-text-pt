@@ -1,0 +1,118 @@
+{
+  "isoType": "SecuritiesBalanceType11Code",
+  "definition": "Especifica a natureza do saldo de valores mobiliários ou de fundos de investimento.",
+  "isoCodes": {
+    "BLOK": {
+      "name": "Bloqueado",
+      "definition": "Saldo de instrumentos financeiros que se encontram bloqueados."
+    },
+    "AWAS": {
+      "name": "Disponível sem estado adicional",
+      "definition": "Saldo de instrumentos financeiros que estão livremente disponíveis, sem qualquer estado adicional específico."
+    },
+    "AVAI": {
+      "name": "Disponível",
+      "definition": "Saldo de instrumentos financeiros que estão disponíveis."
+    },
+    "BLCA": {
+      "name": "Bloqueado por ação societária",
+      "definition": "Saldo de instrumentos financeiros bloqueados na sequência de um evento societário, incluindo atividades de representação (proxy)."
+    },
+    "BLOT": {
+      "name": "Bloqueado para negociação",
+      "definition": "Saldo de instrumentos financeiros que estão bloqueados para negociação."
+    },
+    "BLOV": {
+      "name": "Bloqueado por autenticidade",
+      "definition": "Saldo de instrumentos financeiros que estão bloqueados para verificação de autenticidade."
+    },
+    "BORR": {
+      "name": "Tomado de empréstimo",
+      "definition": "Saldo de instrumentos financeiros que foram tomados de empréstimo a outra parte."
+    },
+    "COLI": {
+      "name": "Garantia recebida",
+      "definition": "Saldo de valores mobiliários pertencentes a um terceiro e detidos para efeitos de colateralização."
+    },
+    "COLO": {
+      "name": "Garantia entregue",
+      "definition": "Saldo de valores mobiliários pertencentes à conta de custódia indicada nesta mensagem e depositados junto de um terceiro para efeitos de colateralização."
+    },
+    "COLA": {
+      "name": "Elegível para efeitos de garantia",
+      "definition": "Saldo de valores mobiliários elegíveis para efeitos de garantia."
+    },
+    "LOAN": {
+      "name": "Emprestado",
+      "definition": "Empréstimo de consumo."
+    },
+    "MARG": {
+      "name": "Margem de derivados",
+      "definition": "A conta é utilizada quando o financiamento é efetuado pelo corretor/negociador."
+    },
+    "PECA": {
+      "name": "Receção de ação societária pendente",
+      "definition": "Saldo de instrumentos financeiros pendentes de receção na sequência de um evento societário."
+    },
+    "PEDA": {
+      "name": "Entrega de ação societária pendente",
+      "definition": "Saldo de instrumentos financeiros pendentes de entrega na sequência de um evento societário."
+    },
+    "PLED": {
+      "name": "Empenhado",
+      "definition": "Saldo de valores mobiliários que pertencem e são mantidos na conta de guarda indicada nesta mensagem e que estão penhorados."
+    },
+    "REGO": {
+      "name": "Em registo",
+      "definition": "Saldo de instrumentos financeiros atualmente em processamento pela instituição responsável pelo registo do novo beneficiário efetivo (ou titular interposto)."
+    },
+    "RSTR": {
+      "name": "Restrito",
+      "definition": "Saldo de instrumentos financeiros que só podem ser vendidos sob certas condições ou que exigem documentos legais."
+    },
+    "OTHR": {
+      "name": "Não classificado",
+      "definition": "Outro. Ver Narrative."
+    },
+    "TRAN": {
+      "name": "Em transbordo",
+      "definition": "A operação foi gerada devido a uma transformação na sequência de um evento societário."
+    },
+    "DRAW": {
+      "name": "Sorteado",
+      "definition": "As operações de liquidação dizem respeito a valores mobiliários sorteados."
+    },
+    "CLEN": {
+      "name": "Isento de imposto",
+      "definition": "Os instrumentos financeiros isentos de imposto devem ser liquidados."
+    },
+    "DIRT": {
+      "name": "Não isento de imposto",
+      "definition": "Os instrumentos financeiros tributáveis devem ser liquidados."
+    },
+    "NOMI": {
+      "name": "Nominativo",
+      "definition": "Saldo de instrumentos financeiros registados (em nome de um mandatário ou em nome do beneficiário efetivo)."
+    },
+    "SPOS": {
+      "name": "Posição em nome do intermediário",
+      "definition": "Saldo de instrumentos financeiros que permanecem registados em nome do anterior beneficiário efetivo."
+    },
+    "UNRG": {
+      "name": "Não registado",
+      "definition": "Saldo de valores mobiliários que não puderam ser registados devido a uma limitação de propriedade estrangeira."
+    },
+    "ISSU": {
+      "name": "Emitido",
+      "definition": "Na comunicação entre agente emitente e depositário, saldo de instrumentos financeiros emitidos para os quais foi recebida a documentação legal."
+    },
+    "QUAS": {
+      "name": "Quase emitido",
+      "definition": "Na comunicação entre agente emitente e depositário, saldo de instrumentos financeiros emitidos para os quais a documentação legal ainda não foi recebida."
+    },
+    "LODE": {
+      "name": "Entrega de empréstimo concedido pendente",
+      "definition": "Saldo de instrumentos financeiros pendentes de entrega relativamente a uma operação de concessão de empréstimo."
+    }
+  }
+}

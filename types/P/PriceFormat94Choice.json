@@ -1,0 +1,24 @@
+{
+  "isoType": "PriceFormat94Choice",
+  "definition": "Escolha entre um preço percentual ou um preço em montante ou um preço não especificado ou um preço em montante por montante ou um preço em montante por quantidade de instrumento financeiro.",
+  "isoElements": {
+    "PercentagePrice": {
+      "definition": "Preço expresso como percentagem."
+    },
+    "AmountPrice": {
+      "definition": "Preço expresso como moeda e montante."
+    },
+    "NotSpecifiedPrice": {
+      "definition": "Valor do preço não especificado."
+    },
+    "AmountPricePerFinancialInstrumentQuantity": {
+      "definition": "Preço expresso como rácio: preço em montante por quantidade de instrumento financeiro."
+    },
+    "AmountPricePerAmount": {
+      "definition": "Preço expresso como rácio: preço em montante por montante."
+    },
+    "IndexPoints": {
+      "definition": "Preço expresso em pontos de índice."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionNumber1Choice",
+  "definition": "Escolha entre um número e um número de opção em formato de código.",
+  "isoElements": {
+    "Number": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "Code": {
+      "definition": "Código que identifica números especiais de opção da operação sobre títulos."
+    }
+  }
+}

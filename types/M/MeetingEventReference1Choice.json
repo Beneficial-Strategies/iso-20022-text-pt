@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingEventReference1Choice",
+  "definition": "Escolha entre uma identificação de evento de assembleia ou uma identificação oficial de evento de assembleia.",
+  "isoElements": {
+    "LinkedIssuerMeetingIdentification": {
+      "definition": "Referência oficial e única atribuída pelo organismo/entidade central oficial de cada mercado no início de um evento de assembleia."
+    },
+    "LinkedMeetingIdentification": {
+      "definition": "Referência atribuída pela instituição gestora da conta para identificar inequivocamente um evento de assembleia conexo."
+    }
+  }
+}

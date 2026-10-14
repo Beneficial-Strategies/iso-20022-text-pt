@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAccount19",
+  "definition": "Fornece informações sobre a conta de numerário.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Especifica se o valor é um débito ou um crédito."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identificação da parte titular da conta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação da conta de numerário ou da conta de valores mobiliários da qual deriva a conta de numerário."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "BillingSubServiceQualifier1Code",
+  "definition": "Qualifica o conteúdo do código de subserviço.",
+  "isoCodes": {
+    "LBOX": {
+      "name": "Lockbox",
+      "definition": "O código de subserviço contém um número de cofre postal (lockbox) que identifica o cofre postal que utiliza o serviço."
+    },
+    "STOR": {
+      "name": "Loja",
+      "definition": "O código de subserviço contém um número de loja que identifica a loja que utiliza o serviço."
+    },
+    "BILA": {
+      "name": "Acordado bilateralmente",
+      "definition": "O significado do código de subserviço é estabelecido pelos parceiros comerciais."
+    },
+    "SEQN": {
+      "name": "Número de sequência",
+      "definition": "O código de subserviço é um número de sequência arbitrário utilizado para identificar de forma única este serviço e evitar serviços duplicados no extrato."
+    },
+    "MACT": {
+      "name": "Conta do membro",
+      "definition": "O código de subserviço é o número de conta de um membro de uma estrutura de relação. Permite que um extrato principal inclua o mesmo serviço agregado a partir das contas dos seus membros e evite, ainda assim, a duplicação da identificação do serviço no extrato."
+    }
+  }
+}

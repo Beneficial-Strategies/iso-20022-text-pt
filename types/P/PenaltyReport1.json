@@ -1,0 +1,32 @@
+{
+  "isoType": "PenaltyReport1",
+  "definition": "Especifica os dados do relatório de penalizações.",
+  "isoElements": {
+    "ReportIdentification": {
+      "definition": "Referência comum a todas as páginas de um relatório."
+    },
+    "ReportDate": {
+      "definition": "Data do relatório."
+    },
+    "ReportPeriod": {
+      "definition": "Período do relatório."
+    },
+    "Frequency": {
+      "definition": "Periodicidade do extrato."
+    },
+    "PenaltyListType": {
+      "definition": "Especifica se a lista de penalizações comunicada contém penalizações novas calculadas ou penalizações atualizadas/removidas."
+    },
+    "UpdateType": {
+      "definition": "Indica se o extrato está completo ou contém apenas alterações."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica se existe movimento ou atualização de informação comunicada no relatório."
+    }
+  },
+  "isoRules": {
+    "ReportDatePeriodPresenceRule": {
+      "definition": "Tem de estar presente pelo menos uma ocorrência de ReportDate ou ReportPeriod."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficiaryType1Choice",
+  "definition": "Escolha de formatos para um tipo de beneficiário.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de beneficiário expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de beneficiário expresso sob a forma de código proprietário."
+    }
+  }
+}

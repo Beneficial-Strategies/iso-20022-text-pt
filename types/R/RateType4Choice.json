@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType4Choice",
+  "definition": "Especifica a taxa como uma percentagem ou um texto.",
+  "isoElements": {
+    "Percentage": {
+      "definition": "Relação entre o montante de juros pagos durante um determinado período e o montante de capital do instrumento financeiro que vence juros."
+    },
+    "Other": {
+      "definition": "Tipo de taxa expresso de outra forma."
+    }
+  }
+}

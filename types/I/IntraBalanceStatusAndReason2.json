@@ -1,0 +1,15 @@
+{
+  "isoType": "IntraBalanceStatusAndReason2",
+  "definition": "Escolha do tipo de estado do movimento intrassaldo.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Fornece detalhes sobre o estado de processamento da operação."
+    },
+    "SettlementStatus": {
+      "definition": "Indica o estado de liquidação de uma operação."
+    },
+    "Settled": {
+      "definition": "Especifica o estado ou a condição."
+    }
+  }
+}

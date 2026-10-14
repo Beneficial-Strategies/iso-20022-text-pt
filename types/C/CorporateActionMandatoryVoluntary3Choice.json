@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionMandatoryVoluntary3Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para indicar se um evento de operação de sociedade é obrigatório ou não.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar se o evento é obrigatório, obrigatório com opções ou voluntário."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária de um evento."
+    }
+  }
+}

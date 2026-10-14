@@ -1,0 +1,15 @@
+{
+  "isoType": "VoteDetails7",
+  "definition": "Instrução de voto para uma deliberação da ordem de trabalhos ou da assembleia.",
+  "isoElements": {
+    "VoteInstructionForAgendaResolution": {
+      "definition": "Instruções de voto para as deliberações que são anunciadas através da ordem de trabalhos da assembleia antes da sua realização."
+    },
+    "VoteInstructionForMeetingResolution": {
+      "definition": "Instruções de voto para as deliberações que possam surgir ou ser alteradas na assembleia mas que não constavam anteriormente da ordem de trabalhos."
+    },
+    "InvestorTypeIdentification": {
+      "definition": "Tipos de investidor que podem ou não participar no evento."
+    }
+  }
+}

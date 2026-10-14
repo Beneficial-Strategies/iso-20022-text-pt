@@ -1,0 +1,71 @@
+{
+  "isoType": "CorporateActionOption238",
+  "definition": "Fornece informações sobre a opção de operação sobre títulos.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "OptionFeatures": {
+      "definition": "Especifica as características que podem aplicar-se a uma opção de evento societário."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é titular da conta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta onde os instrumentos financeiros são mantidos."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Endereço blockchain ou carteira onde os ativos digitais são mantidos. É o equivalente da conta de custódia para os ativos digitais."
+    },
+    "CashAccount": {
+      "definition": "Conta na qual é efetuado um lançamento de valores mobiliários."
+    },
+    "SafekeepingPlace": {
+      "definition": "Local onde os instrumentos financeiros se encontram/serão guardados em custódia."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifica o instrumento financeiro."
+    },
+    "TotalEligibleBalance": {
+      "definition": "Saldo total de valores mobiliários elegíveis para este evento de ação societária. O cálculo do direito baseia-se neste saldo."
+    },
+    "InstructedBalance": {
+      "definition": "Saldo da posição instruída."
+    },
+    "UninstructedBalance": {
+      "definition": "Saldo da posição não instruída."
+    },
+    "ProtectBalance": {
+      "definition": "Saldo de valores mobiliários que se encontram em estado de proteção num CSD que opera um serviço de cobertura de proteção."
+    },
+    "StatusQuantity": {
+      "definition": "Quantidade de valores mobiliários a que foi atribuído o estado indicado."
+    },
+    "StatusCashAmount": {
+      "definition": "Montante em numerário subscrito a que foi atribuído o estado indicado."
+    },
+    "SolicitationDealerFeeIndicator": {
+      "definition": "Indica se existe uma comissão de solicitação no evento. Esta comissão é paga pelo intermediário solicitante."
+    }
+  },
+  "isoRules": {
+    "OptionNumberRule": {
+      "definition": "Para diferenciar as opções, deve ser utilizado o OptionNumber em vez do OptionType, por exemplo, no caso em que duas ou mais ofertas possam ser descritas pelo mesmo código de opção de operação sobre títulos. Por conseguinte, o valor de OptionNumber tem de ser diferente para cada opção."
+    },
+    "SafekeepingPlaceRule": {
+      "definition": "SafekeepingPlace só deve ser utilizado por custodiantes globais que permitam aos seus clientes especificar o local onde os valores mobiliários devem ser detidos, por exemplo, numa conta num ICSD versus uma conta no CSD local."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    }
+  }
+}

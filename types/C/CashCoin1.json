@@ -1,0 +1,21 @@
+{
+  "isoType": "CashCoin1",
+  "definition": "Levantamento ou depósito de um montante em dinheiro definido em moedas.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de numerário."
+    },
+    "BoxReference": {
+      "definition": "Referência da caixa que contém estas moedas."
+    },
+    "CoinDenomination": {
+      "definition": "Especifica a denominação da moeda, incluindo a divisa, por exemplo uma moeda de 50 cêntimos de euro."
+    },
+    "NumberOfCoins": {
+      "definition": "Especifica o número de moedas da mesma denominação."
+    },
+    "Amount": {
+      "definition": "Especifica o montante total em dinheiro correspondente a esta denominação de moedas, isto é, a denominação da moeda multiplicada pelo número de moedas."
+    }
+  }
+}

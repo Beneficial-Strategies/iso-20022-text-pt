@@ -1,0 +1,24 @@
+{
+  "isoType": "StatementGroup5",
+  "definition": "Grupo do cabeçalho do extrato que reporta a faturação dos serviços bancários e o extrato de faturação.",
+  "isoElements": {
+    "GroupIdentification": {
+      "definition": "Identificação de um grupo de extratos de faturação de clientes."
+    },
+    "Sender": {
+      "definition": "Instituição financeira de origem que envia o extrato."
+    },
+    "SenderIndividualContact": {
+      "definition": "Especifica a pessoa a contactar em caso de problemas técnicos no local do remetente."
+    },
+    "Receiver": {
+      "definition": "Cliente da instituição financeira que recebe o extrato."
+    },
+    "ReceiverIndividualContact": {
+      "definition": "Especifica a pessoa a contactar em caso de problemas técnicos no local do destinatário."
+    },
+    "BillingStatement": {
+      "definition": "Fornece o extrato de faturação dos serviços bancários, com o relato de todos os eventos de serviço sujeitos a encargos ocorridos durante um ciclo de reporte, como o reporte de fim de mês."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "isoType": "ExternalAgentInstruction1Code",
+  "definition": "Especifica instruções adicionais para o agente relativas ao tratamento de uma instrução.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "CHQB": {
+      "name": "Pagar ao credor por cheque",
+      "definition": "O credor (final) tem de ser pago por cheque."
+    },
+    "HOLD": {
+      "name": "Reter numerário para o credor",
+      "definition": "O montante tem de ser mantido à disposição do credor (final), que o virá levantar. Pagar mediante identificação."
+    },
+    "INQR": {
+      "name": "Motivo do pedido de informação",
+      "definition": "Tem de ser fornecida informação adicional sobre o motivo da consulta."
+    },
+    "PBEN": {
+      "name": "Pagar ao beneficiário",
+      "definition": "(Devedor/credor) final a pagar apenas após verificação da identidade."
+    },
+    "PHOA": {
+      "name": "Telefonar à instituição seguinte",
+      "definition": "Queira avisar/contactar o agente seguinte por telefone."
+    },
+    "PHOB": {
+      "name": "Contactar o beneficiário por telefone",
+      "definition": "Queira avisar/contactar o credor/requerente (final) por telefone."
+    },
+    "TELA": {
+      "name": "Telecomunicar à instituição seguinte",
+      "definition": "Queira avisar/contactar o agente seguinte pelo meio de telecomunicação mais eficiente."
+    },
+    "TELB": {
+      "name": "Telecomunicações",
+      "definition": "Queira avisar/contactar o credor/requerente (final) pelo meio de telecomunicação mais eficiente."
+    },
+    "TFRO": {
+      "name": "Hora de início",
+      "definition": "A instrução de pagamento será válida e elegível para execução a partir da data e hora estipuladas."
+    },
+    "TTIL": {
+      "name": "Hora limite",
+      "definition": "A instrução de pagamento é válida e elegível para execução até à data e hora estipuladas. Caso contrário, a instrução de pagamento será rejeitada."
+    }
+  }
+}

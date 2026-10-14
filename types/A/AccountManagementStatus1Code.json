@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountManagementStatus1Code",
+  "definition": "Especifica o estado de uma instrução de gestão de conta.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Recebido",
+      "definition": "A instrução de gestão de conta foi recebida e é objeto de aviso de receção."
+    },
+    "ACCP": {
+      "name": "Aceite",
+      "definition": "A instrução de gestão de conta foi validada e aceite."
+    },
+    "EXEC": {
+      "name": "Tratamento em curso",
+      "definition": "A instrução de gestão de conta está a ser processada e a confirmação será enviada em seguida."
+    },
+    "STNP": {
+      "name": "Enviado à parte seguinte",
+      "definition": "A instrução de gestão de conta foi enviada à parte seguinte, por exemplo, ao intermediário seguinte."
+    }
+  }
+}

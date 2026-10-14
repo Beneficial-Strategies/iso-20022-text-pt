@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentification274",
+  "definition": "Conjunto de elementos utilizados para identificar uma pessoa ou uma organização.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nome pelo qual uma parte é conhecida e que é normalmente utilizado para identificar essa parte."
+    },
+    "PostalAddress": {
+      "definition": "Informações que localizam e identificam um endereço específico, conforme definido pelos serviços postais."
+    },
+    "Identification": {
+      "definition": "Identificação única e inequívoca de uma parte."
+    },
+    "CountryOfResidence": {
+      "definition": "País onde uma pessoa reside (o local do seu domicílio). No caso de uma empresa, é o país a partir do qual são dirigidos os seus negócios."
+    },
+    "ContactDetails": {
+      "definition": "Conjunto de elementos utilizados para indicar como contactar a parte."
+    }
+  }
+}

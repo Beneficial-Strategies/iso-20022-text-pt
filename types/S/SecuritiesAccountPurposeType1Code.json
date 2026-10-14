@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesAccountPurposeType1Code",
+  "definition": "Especifica a finalidade da conta de valores mobiliários.",
+  "isoCodes": {
+    "MARG": {
+      "name": "Margem",
+      "definition": "A conta é utilizada quando o financiamento é efetuado pelo corretor."
+    },
+    "SHOR": {
+      "name": "Venda a descoberto",
+      "definition": "A conta é utilizada para ordens de venda a descoberto."
+    },
+    "ABRD": {
+      "name": "No estrangeiro",
+      "definition": "A conta está localizada numa instituição financeira fora do país onde a operação se realiza."
+    },
+    "CEND": {
+      "name": "Centralizado",
+      "definition": "A conta e todas as posições a ela associadas são detidas num único local."
+    },
+    "DVPA": {
+      "name": "Entrega contra pagamento em numerário",
+      "definition": "A conta é utilizada para liquidação contra entrega, ou para uma cobrança com base na entrega."
+    },
+    "PHYS": {
+      "name": "Físico",
+      "definition": "A conta é utilizada para a guarda física a nível nacional."
+    }
+  }
+}

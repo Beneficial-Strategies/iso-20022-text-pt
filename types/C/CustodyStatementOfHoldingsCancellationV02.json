@@ -1,0 +1,4 @@
+{
+  "isoType": "CustodyStatementOfHoldingsCancellationV02",
+  "definition": "Âmbito|Uma instituição que gere a conta, por exemplo, um agente de transferências, envia a mensagem CustodyStatementOfHoldingsCancellation ao titular da conta, por exemplo, um gestor de investimentos ou o seu representante autorizado, para cancelar uma mensagem CustodyStatementOfHoldings enviada anteriormente.|Utilização|A mensagem CustodyStatementOfHoldingsCancellation é utilizada para cancelar uma mensagem CustodyStatementOfHoldings enviada anteriormente. Esta mensagem deve conter a referência da mensagem a cancelar.|Esta mensagem pode também conter detalhes da mensagem a cancelar, mas tal não é recomendado."
+}

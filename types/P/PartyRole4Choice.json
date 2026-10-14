@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyRole4Choice",
+  "definition": "Escolha de formatos para a especificação do papel.",
+  "isoElements": {
+    "Code": {
+      "definition": "Papel expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Papel expresso sob a forma de código proprietário."
+    }
+  }
+}

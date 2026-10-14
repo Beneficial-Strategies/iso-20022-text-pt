@@ -1,0 +1,44 @@
+{
+  "isoType": "SafekeepingAccount20",
+  "definition": "Identificação e informações sobre uma conta de valores mobiliários e o respetivo saldo.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta de valores mobiliários entre o titular da conta e a entidade gestora da conta."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Endereço blockchain ou carteira onde os ativos digitais são mantidos. É o equivalente da conta de custódia para os ativos digitais."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identificação de uma subconta no âmbito da conta de custódia."
+    },
+    "InstructedBalance": {
+      "definition": "Quantidade de valores mobiliários a que esta instrução se aplica."
+    },
+    "RightsHolder": {
+      "definition": "Titular dos direitos de voto."
+    },
+    "PledgeDetails": {
+      "definition": "Informações pormenorizadas sobre o penhor."
+    }
+  },
+  "isoRules": {
+    "RightsHolderMultiplicity1Guideline": {
+      "definition": "Recomenda-se que RightsHolder só esteja presente mais do que uma vez em caso de propriedade conjunta."
+    },
+    "BalanceQall1Rule": {
+      "definition": "Se SubAccountIdentification estiver presente, então InstructedBalance/Balance/Code \"QALL\" (AllSecurities) não é permitido em nenhuma ocorrência de InstructedBalance."
+    },
+    "AccountIdentificationOrBlockChainAddress1Rule": {
+      "definition": "Tem de estar presente AccountIdentification ou BlockChainAddressOrWallet, mas não ambos."
+    },
+    "AccountIdentificationOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, então AccountIdentification tem de estar ausente."
+    },
+    "AccountIdentificationOrBlockChainAddress3Rule": {
+      "definition": "Se AccountIdentification estiver presente, então BlockChainAddressOrWallet tem de estar ausente."
+    }
+  }
+}

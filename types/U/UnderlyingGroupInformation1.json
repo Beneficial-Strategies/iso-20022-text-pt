@@ -1,0 +1,18 @@
+{
+  "isoType": "UnderlyingGroupInformation1",
+  "definition": "Identificação única, atribuída pelo primeiro agente instrutor, para identificar inequivocamente o grupo de operações.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte instrutora original, para identificar inequivocamente a mensagem original."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Especifica o identificador do nome da mensagem original a que a mensagem se refere."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Data e hora em que a mensagem original foi criada."
+    },
+    "OriginalMessageDeliveryChannel": {
+      "definition": "Canal original utilizado para a entrega da mensagem, para facilitar ao destinatário do pedido a localização do pagamento."
+    }
+  }
+}

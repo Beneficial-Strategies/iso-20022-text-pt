@@ -1,0 +1,12 @@
+{
+  "isoType": "ConversionType1FormatChoice",
+  "definition": "Escolha de formatos para exprimir o tipo de conversão.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de conversão."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir o tipo de conversão."
+    }
+  }
+}

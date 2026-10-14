@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndCurrencyExchangeDetails5",
+  "definition": "Conjunto de elementos utilizados para fornecer informações sobre o montante original e a operação cambial.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora."
+    },
+    "CurrencyExchange": {
+      "definition": "Conjunto de elementos utilizados para fornecer detalhes sobre a operação cambial."
+    }
+  }
+}

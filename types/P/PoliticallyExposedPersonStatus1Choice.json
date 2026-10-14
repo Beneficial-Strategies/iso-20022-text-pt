@@ -1,0 +1,12 @@
+{
+  "isoType": "PoliticallyExposedPersonStatus1Choice",
+  "definition": "Escolha de formatos para o estado de uma pessoa politicamente exposta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado da pessoa politicamente exposta expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Estado da pessoa politicamente exposta expresso sob a forma de código proprietário."
+    }
+  }
+}

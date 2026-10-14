@@ -1,0 +1,14 @@
+{
+  "isoType": "StatementUpdateTypeCode",
+  "definition": "Especifica a natureza de uma atualização de extrato, por exemplo, tratar-se de um extrato completo.",
+  "isoCodes": {
+    "COMP": {
+      "name": "Completo",
+      "definition": "O extrato está completo."
+    },
+    "DELT": {
+      "name": "Delta",
+      "definition": "O extrato contém apenas alterações."
+    }
+  }
+}

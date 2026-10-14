@@ -1,0 +1,21 @@
+{
+  "isoType": "SettlementTransactionStatusType2",
+  "definition": "Escolha do tipo de estado da instrução de liquidação de valores mobiliários.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Fornece detalhes sobre o estado de processamento da operação."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Fornece o estado de correspondência de uma instrução conforme conhecido pela entidade gestora da conta com base numa alegação. Nesta altura não houve correspondência no mercado (na CSD/ICSD)."
+    },
+    "MatchingStatus": {
+      "definition": "Fornece o estado de correspondência da instrução."
+    },
+    "SettlementStatus": {
+      "definition": "Indica o estado de liquidação de uma operação."
+    },
+    "Settled": {
+      "definition": "Define que a operação foi liquidada."
+    }
+  }
+}

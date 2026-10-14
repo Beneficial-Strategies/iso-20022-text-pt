@@ -1,0 +1,51 @@
+{
+  "isoType": "SecurityOption1",
+  "definition": "Fornece informações sobre a opção de valores mobiliários da CA.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identificação do instrumento financeiro."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica se o valor é um débito ou um crédito."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Quantidade de instrumento financeiro."
+    },
+    "MinimumExercisableSecuritiesQuantity": {
+      "definition": "Quantidade mínima de instrumento financeiro ou lote de direitos/warrants que tem de ser exercida."
+    },
+    "MinimumExercisableMultipleSecuritiesQuantity": {
+      "definition": "Quantidade múltipla mínima de instrumento financeiro ou lote de direitos/warrants que tem de ser exercida."
+    },
+    "NewDenominationSecuritiesQuantity": {
+      "definition": "Nova denominação do instrumento financeiro na sequência, p. ex., de um aumento ou diminuição do valor nominal."
+    },
+    "NewBoardLotSecuritiesQuantity": {
+      "definition": "Quantidade de ações que constitui o novo lote de negociação."
+    },
+    "ShareRanking": {
+      "definition": "Especifica se as ações têm direito a dividendo ou são pari passu."
+    },
+    "AdditionalQuantityForSubscribedResultantSecurities": {
+      "definition": "Quantidade de valores mobiliários intermédios adicionais/novas ações atribuídas por uma determinada quantidade de valores mobiliários resultantes de subscrição."
+    },
+    "DateDetails": {
+      "definition": "Fornece informações sobre as datas relacionadas com um movimento de valores mobiliários."
+    },
+    "PriceDetails": {
+      "definition": "Fornece informações sobre os preços relacionados com um movimento de valores mobiliários."
+    },
+    "TradingPeriod": {
+      "definition": "Período durante o qual os valores mobiliários intermédios são transacionáveis num mercado secundário."
+    },
+    "AdditionalQuantityForExistingSecurities": {
+      "definition": "Quantidade de valores mobiliários adicionais para uma dada quantidade de valores mobiliários subjacentes, não sendo os valores mobiliários subjacentes trocados ou debitados, p. ex., 1 por 1: 1 nova ação creditada por cada 1 ação subjacente = 2 ações resultantes."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "definition": "Especifica que o valor mobiliário é um valor mobiliário temporário."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica como serão tratadas as frações resultantes de valores mobiliários derivados ou como serão arredondadas as decisões objeto de rateio, se for fornecida uma taxa de rateio."
+    }
+  }
+}

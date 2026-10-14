@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosurePendingStatusReason2Choice",
+  "definition": "Escolha de formatos para um código de motivo de encerramento pendente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo do estado de encerramento pendente expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Motivo do estado de encerramento pendente expresso sob a forma de código proprietário."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionElection4",
+  "definition": "Fornece informações sobre uma escolha relativa a uma operação sobre títulos.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "CurrencyOption": {
+      "definition": "Moeda em que o produto em numerário deve ser creditado ou debitado."
+    },
+    "PriceDetails": {
+      "definition": "Fornece informações sobre os preços relacionados com uma opção de operação sobre títulos."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identifica o instrumento financeiro."
+    }
+  }
+}

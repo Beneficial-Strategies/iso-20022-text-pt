@@ -1,0 +1,22 @@
+{
+  "isoType": "ProxyType3Code",
+  "definition": "Especifica o tipo de representante.",
+  "isoCodes": {
+    "CHRM": {
+      "name": "Presidente",
+      "definition": "O presidente da assembleia é o representante."
+    },
+    "DISC": {
+      "name": "Discricionário",
+      "definition": "É permitido qualquer tipo de representante."
+    },
+    "NEPR": {
+      "name": "Procurador neutro",
+      "definition": "Representante neutro nomeado pelo emitente para exercer votos em nome dos investidores na assembleia."
+    },
+    "HLDR": {
+      "name": "Titular de valores mobiliários",
+      "definition": "O representante só pode ser um detentor de valores mobiliários."
+    }
+  }
+}

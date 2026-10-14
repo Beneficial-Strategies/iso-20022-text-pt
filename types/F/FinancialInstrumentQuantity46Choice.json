@@ -1,0 +1,23 @@
+{
+  "isoType": "FinancialInstrumentQuantity46Choice",
+  "definition": "Escolha entre formatos para a quantidade de valores mobiliários.",
+  "isoElements": {
+    "Unit": {
+      "definition": "Quantidade expressa como um número, por exemplo, um número de ações."
+    },
+    "FaceAmount": {
+      "definition": "Quantidade expressa como um montante que representa o valor nominal, ou seja, o capital, de um instrumento de dívida."
+    },
+    "DigitalTokenUnit": {
+      "definition": "Quantidade de tokens digitais expressa como um número, por exemplo, um número de tokens de blockchain."
+    },
+    "Code": {
+      "definition": "Quantidade expressa sob a forma de código."
+    }
+  },
+  "isoRules": {
+    "DigitalTokenUnitUsageRule": {
+      "definition": "O formato DigitalTokenUnit só pode ser utilizado para instrumentos identificados com um identificador de token digital."
+    }
+  }
+}

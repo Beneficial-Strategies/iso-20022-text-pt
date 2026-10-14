@@ -1,0 +1,14 @@
+{
+  "isoType": "ConsentType1Code",
+  "definition": "Especifica o tipo de consentimento anunciado.",
+  "isoCodes": {
+    "CTRM": {
+      "name": "Alteração das condições",
+      "definition": "Alteração dos termos e condições da obrigação."
+    },
+    "DUPY": {
+      "name": "Vencido e exigível",
+      "definition": "Alteração das condições de vencimento e exigibilidade."
+    }
+  }
+}

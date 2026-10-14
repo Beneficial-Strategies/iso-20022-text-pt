@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType4Choice",
+  "definition": "Escolha de formatos para o tipo de encargo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de encargo expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de encargo expresso sob a forma de código proprietário."
+    }
+  }
+}

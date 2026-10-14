@@ -1,0 +1,23 @@
+{
+  "isoType": "Linkages80",
+  "definition": "Informações relativas a uma operação associada.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Momento em que a operação deve ser executada relativamente a uma operação associada."
+    },
+    "MessageNumber": {
+      "definition": "Número do tipo de mensagem/identificador da mensagem referenciada na sequência de associação."
+    },
+    "Reference": {
+      "definition": "Referência à operação associada."
+    },
+    "LinkedQuantity": {
+      "definition": "Quantidade de instrumentos financeiros da operação ligada a compensar (pair-off) ou a inverter (turn)."
+    }
+  },
+  "isoRules": {
+    "LinkedQuantityRule": {
+      "definition": "Se for utilizada a quantidade ligada para compensação parcial e a quantidade invertida para inversões parciais, a sua utilização tem de ser previamente acordada entre o titular da conta da mensagem e o prestador de serviços de conta."
+    }
+  }
+}

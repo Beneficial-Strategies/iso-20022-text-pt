@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMSecurityDevice2",
+  "definition": "Módulo de segurança de hardware do ATM.",
+  "isoElements": {
+    "DeviceProperty": {
+      "definition": "Informação do módulo de segurança de hardware, designado EPP (Encrypted PIN Pad)."
+    },
+    "CurrentConfiguration": {
+      "definition": "Parâmetros de configuração em utilização pelo dispositivo de segurança."
+    },
+    "SupportedConfiguration": {
+      "definition": "Parâmetros de configuração suportados pelo dispositivo de segurança."
+    },
+    "CurrentStatus": {
+      "definition": "Estado atual do dispositivo de segurança."
+    },
+    "Incident": {
+      "definition": "Incidente ocorrido no dispositivo."
+    },
+    "BindingState": {
+      "definition": "Estado de associação (binding) do dispositivo de segurança."
+    }
+  }
+}

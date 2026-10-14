@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingReportOrError6Choice",
+  "definition": "Escolha entre relatório sobre dados de faturação, detalhes do pedido de cancelamento de faturação ou erro operacional.",
+  "isoElements": {
+    "BillingReport": {
+      "definition": "Relatório sobre dados de faturação."
+    },
+    "CancellationReport": {
+      "definition": "Relatório sobre dados de faturação cancelados."
+    },
+    "OperationalError": {
+      "definition": "Indica que foi emitido um erro operacional durante o processamento do pedido associado."
+    }
+  }
+}

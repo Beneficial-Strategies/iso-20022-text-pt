@@ -1,0 +1,26 @@
+{
+  "isoType": "ProrationBelowMinimumQuantity1Code",
+  "definition": "Especifica o tipo de rateio quando inferior à quantidade mínima a instruir.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Aceite na totalidade",
+      "definition": "As instruções serão aceites na íntegra (com a sua quantidade original de valores mobiliários instruída)."
+    },
+    "MIEX": {
+      "name": "Quantidade mínima",
+      "definition": "As instruções serão aceites, mas rateadas para a quantidade mínima a instruir."
+    },
+    "MILT": {
+      "name": "Quantidade múltipla",
+      "definition": "As instruções serão aceites, mas arredondadas por excesso ou por defeito para o múltiplo mínimo especificado da quantidade a instruir, de acordo com o valor do indicador de tratamento de frações."
+    },
+    "REJT": {
+      "name": "Rejeitado",
+      "definition": "As instruções serão rejeitadas."
+    },
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "Desconhece-se o tratamento das instruções rateadas abaixo da quantidade mínima a instruir."
+    }
+  }
+}

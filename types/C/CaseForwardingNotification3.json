@@ -1,0 +1,9 @@
+{
+  "isoType": "CaseForwardingNotification3",
+  "definition": "Estado de um processo resultante de uma atribuição de processo.",
+  "isoElements": {
+    "Justification": {
+      "definition": "Justificação para a ação de reencaminhamento."
+    }
+  }
+}

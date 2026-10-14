@@ -1,0 +1,38 @@
+{
+  "isoType": "PendingProcessingReason3Code",
+  "definition": "Especifica o motivo pelo qual a operação/instrução está em incumprimento de liquidação. A liquidação na data de liquidação instruída já não é possível.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "A instrução foi recebida após o prazo limite da instituição gestora da conta. Processada com o melhor esforço."
+    },
+    "BLOC": {
+      "name": "Conta bloqueada",
+      "definition": "A sua conta está bloqueada, nenhuma instrução pode ser liquidada através da conta."
+    },
+    "MUNO": {
+      "name": "Múltiplo do montante de liquidação",
+      "definition": "A quantidade instruída não é múltipla de um lote de quantidade de liquidação existente para o instrumento financeiro."
+    },
+    "NEXT": {
+      "name": "Próximo processo",
+      "definition": "Foi iniciado o processo seguinte. Não há problemas de processamento pendentes a reportar."
+    },
+    "MINO": {
+      "name": "Montante mínimo de liquidação",
+      "definition": "A quantidade instruída é inferior à quantidade mínima de liquidação existente para o instrumento financeiro."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "DENO": {
+      "name": "Quantidade denominada a entregar indisponível",
+      "definition": "A quantidade instruída não corresponde à denominação disponível/entregável. Os valores mobiliários físicos têm de ser obtidos em quantidades de denominação entregáveis."
+    },
+    "CERT": {
+      "name": "Números de certificados incorretos",
+      "definition": "Erro no número do certificado."
+    }
+  }
+}

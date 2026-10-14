@@ -1,0 +1,14 @@
+{
+  "isoType": "StatementStructure1Code",
+  "definition": "Especifica o tipo de saldos em que o extrato é elaborado.",
+  "isoCodes": {
+    "STAT": {
+      "name": "Estados",
+      "definition": "O extrato está ordenado por estado."
+    },
+    "TRAN": {
+      "name": "Operações",
+      "definition": "O extrato está ordenado por operação."
+    }
+  }
+}

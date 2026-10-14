@@ -1,0 +1,26 @@
+{
+  "isoType": "SequenceType3Code",
+  "definition": "Especifica o tipo da operação em curso que pertence a uma sequência de operações.",
+  "isoCodes": {
+    "FRST": {
+      "name": "Primeiro",
+      "definition": "Primeira cobrança de uma série de instruções de débito direto."
+    },
+    "RCUR": {
+      "name": "Recorrente",
+      "definition": "Instrução de débito direto em que a autorização do devedor é utilizada para operações de débito direto regulares iniciadas pelo credor."
+    },
+    "FNAL": {
+      "name": "Final",
+      "definition": "Última cobrança de uma série de instruções de débito direto."
+    },
+    "OOFF": {
+      "name": "Único",
+      "definition": "Instrução de débito direto em que a autorização do devedor é utilizada para iniciar uma única operação de débito direto."
+    },
+    "RPRE": {
+      "name": "Reapresentado",
+      "definition": "Cobrança utilizada para reapresentar operações de débito direto anteriormente revertidas ou devolvidas."
+    }
+  }
+}

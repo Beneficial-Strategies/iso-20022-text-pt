@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateEventNarrative4",
+  "definition": "Fornece informações narrativas de exoneração de responsabilidade sobre o evento.",
+  "isoElements": {
+    "Disclaimer": {
+      "definition": "Aviso de exoneração de responsabilidade do emitente relativo às informações de anúncio da assembleia fornecidas. Pode ser ignorado no tratamento automatizado."
+    },
+    "ProcessingTextForNextIntermediary": {
+      "definition": "Fornece informações adicionais da entidade gestora da conta ou de um prestador de serviços destinadas exclusivamente ao titular da conta imediatamente seguinte, a fim de permitir ou facilitar o tratamento do evento entre as partes."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingCancellationReason1Choice",
+  "definition": "Escolha do motivo de cancelamento da assembleia.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo do cancelamento de uma assembleia sob a forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo do cancelamento de uma assembleia sob a forma de texto livre."
+    }
+  }
+}

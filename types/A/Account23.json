@@ -1,0 +1,12 @@
+{
+  "isoType": "Account23",
+  "definition": "Relação comercial entre duas entidades; uma das entidades é o titular da conta e a outra é a entidade gestora da conta.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação da conta."
+    },
+    "RelatedAccountDetails": {
+      "definition": "Informações sobre a conta à qual a conta existente deve ser associada."
+    }
+  }
+}

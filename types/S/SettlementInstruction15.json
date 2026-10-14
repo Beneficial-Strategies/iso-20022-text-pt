@@ -1,0 +1,59 @@
+{
+  "isoType": "SettlementInstruction15",
+  "definition": "Fornece mais pormenores sobre a liquidação da instrução.",
+  "isoElements": {
+    "SettlementMethod": {
+      "definition": "Método utilizado para liquidar o (lote de) instruções de pagamento."
+    },
+    "SettlementAccount": {
+      "definition": "Uma conta de finalidade específica utilizada para lançar movimentos a débito e a crédito em resultado da operação."
+    },
+    "ClearingSystem": {
+      "definition": "Especificação de uma oferta previamente acordada entre agentes de compensação ou do canal através do qual a instrução de pagamento é processada."
+    },
+    "InstructingReimbursementAgent": {
+      "definition": "Agente através do qual o agente instrutor reembolsará o agente instruído.||Utilização: se InstructingAgent e InstructedAgent tiverem o mesmo agente de reembolso, deve ser utilizado apenas InstructingReimbursementAgent."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "definition": "Identificação inequívoca da conta do agente de reembolso instrutor junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Agente junto do qual o agente instruído será reembolsado.|Utilização: se InstructedReimbursementAgent contiver uma agência do InstructedAgent, a parte em InstructedAgent solicitará o reembolso a essa agência/será paga por essa agência.|Utilização: se InstructingAgent e InstructedAgent tiverem o mesmo agente de reembolso, deve ser utilizado apenas InstructingReimbursementAgent."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "definition": "Identificação inequívoca da conta do agente de reembolso instruído junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "ThirdReimbursementAgent": {
+      "definition": "Agente junto do qual o agente instruído será reembolsado.|Utilização: se ThirdReimbursementAgent contiver uma agência do InstructedAgent, a parte em InstructedAgent solicitará o reembolso a essa agência/será paga por essa agência."
+    },
+    "ThirdReimbursementAgentAccount": {
+      "definition": "Identificação inequívoca da conta do terceiro agente de reembolso junto do seu agente prestador de serviços na cadeia de pagamento."
+    }
+  },
+  "isoRules": {
+    "ThirdReimbursementAgentRule": {
+      "definition": "Se ThirdReimbursementAgent estiver presente, então InstructingReimbursementAgent e InstructedReimbursementAgent têm ambos de estar presentes."
+    },
+    "SettlementMethodAgentRule": {
+      "definition": "Se SettlementMethod for igual a INDA ou INGA, então ReimbursementAgent(s) e ClearingSystem não são permitidos."
+    },
+    "SettlementMethodCoverRule": {
+      "definition": "Se SettlementMethod for igual a COVE, então SettlementAccount e ClearingSystem não são permitidos."
+    },
+    "SettlementMethodCoverAgentRule": {
+      "definition": "Se SettlementMethod for igual a COVE, então InstructedReimbursementAgent ou InstructingReimbursementAgent tem de estar presente."
+    },
+    "SettlementMethodClearingRule": {
+      "definition": "Se SettlementMethod for igual a CLRG, então SettlementAccount e ReimbursementAgent(s) não são permitidos."
+    },
+    "InstructingReimbursementAgentAccountRule": {
+      "definition": "Se InstructingReimbursementAgentAccount estiver presente, então InstructingReimbursementAgent tem de estar presente."
+    },
+    "InstructedReimbursementAgentAccountRule": {
+      "definition": "Se InstructedReimbursementAgentAccount estiver presente, então InstructedReimbursementAgent tem de estar presente."
+    },
+    "ThirdReimbursementAgentAccountRule": {
+      "definition": "Se ThirdReimbursementAgentAccount estiver presente, então ThirdReimbursementAgent tem de estar presente."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "PaymentRole1Code",
+  "definition": "Papel associado a uma parte específica relativamente a uma instrução de pagamento. O papel identifica a função específica da parte ou os seus direitos quanto à gestão da instrução.",
+  "isoCodes": {
+    "LQMG": {
+      "name": "Gestor de liquidez",
+      "definition": "Parte, numa instituição financeira, responsável pela gestão da liquidez da instituição financeira. Esta parte tem acesso a algumas funções disponíveis no sistema, como as transferências de liquidez ou a gestão de instruções permanentes de controlo de liquidez."
+    },
+    "LMMG": {
+      "name": "Gestor de limites",
+      "definition": "Parte, numa instituição financeira, responsável pela gestão dos limites. Esta parte é responsável por fixar, modificar ou suspender limites, conforme relevante para a gestão do risco de contraparte ou para a contenção do risco sistémico."
+    },
+    "PYMG": {
+      "name": "Gestor de pagamentos",
+      "definition": "Parte, numa instituição financeira, responsável pela gestão do processamento de pagamentos da instituição financeira. Inclui a autorização, a reciclagem e a modificação de operações de pagamento."
+    },
+    "REDR": {
+      "name": "Leitor",
+      "definition": "Parte, numa instituição financeira, com direito a obter informações do sistema, mas sem poder atuar sobre essas informações nem alterá-las."
+    },
+    "BKMG": {
+      "name": "Gestor de cópias de segurança",
+      "definition": "Parte responsável pela gestão das funções de recuperação relacionadas com um sistema."
+    },
+    "STMG": {
+      "name": "Gestor de liquidação",
+      "definition": "Parte, numa instituição financeira, responsável pela gestão do processamento da liquidação."
+    }
+  }
+}

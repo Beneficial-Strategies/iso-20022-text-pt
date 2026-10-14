@@ -1,0 +1,32 @@
+{
+  "isoType": "UnderlyingStatementEntry11",
+  "definition": "Fornece detalhes adicionais sobre o lançamento de extrato subjacente a que a mensagem de investigação se refere.",
+  "isoElements": {
+    "OriginalAccount": {
+      "definition": "Fornece detalhes da conta para a qual o extrato original foi gerado."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Fornece informações sobre a mensagem original."
+    },
+    "OriginalStatementIdentification": {
+      "definition": "Identificação única, atribuída pela instituição gestora da conta, para identificar inequivocamente o extrato original."
+    },
+    "OriginalEntryReference": {
+      "definition": "Referência única original, atribuída pela instituição gestora da conta, para identificar inequivocamente o lançamento original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador universalmente único para fornecer a referência de ponta a ponta original de uma operação de pagamento."
+    },
+    "OriginalEntryAmount": {
+      "definition": "Montante de dinheiro do lançamento de caixa."
+    },
+    "OriginalEntryValueDate": {
+      "definition": "Data e hora em que os fundos ficam disponíveis para o titular da conta, no caso de um lançamento a crédito, ou deixam de estar disponíveis para o titular da conta, no caso de um lançamento a débito.|Utilização: se o estado do lançamento for pendente e a data-valor estiver presente, a data-valor refere-se a uma data-valor esperada/solicitada.|Para lançamentos sujeitos a disponibilidade/float e para os quais é fornecida informação de disponibilidade, a data-valor não deve ser utilizada. Neste caso, o componente de disponibilidade identifica o número de dias de disponibilidade."
+    }
+  },
+  "isoRules": {
+    "OriginalStatementIdentificationOrEntryReferencePresenceRule": {
+      "definition": "Tem de estar presente OriginalStatementIdentification ou OriginalEntryReference; podem estar ambos presentes."
+    }
+  }
+}

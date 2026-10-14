@@ -1,0 +1,18 @@
+{
+  "isoType": "Referred1Code",
+  "definition": "Indica se o investidor foi indicado.",
+  "isoCodes": {
+    "REFR": {
+      "name": "Referenciado",
+      "definition": "O investidor foi indicado ao fundo por um agente de colocação."
+    },
+    "NRFR": {
+      "name": "Não referenciado",
+      "definition": "O investidor não foi indicado ao fundo por um agente de colocação."
+    },
+    "UKNW": {
+      "name": "Desconhecido",
+      "definition": "Não se sabe se o investidor foi indicado ao fundo por um agente de colocação."
+    }
+  }
+}

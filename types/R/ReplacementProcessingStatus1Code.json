@@ -1,0 +1,42 @@
+{
+  "isoType": "ReplacementProcessingStatus1Code",
+  "definition": "Especifica o estado de processamento do pedido de substituição.",
+  "isoCodes": {
+    "DEND": {
+      "name": "Recusado",
+      "definition": "O pedido de substituição não pode ser executado."
+    },
+    "EXCH": {
+      "name": "Recebido na bolsa de valores",
+      "definition": "O pedido de substituição previamente recebido de si foi recebido na bolsa de valores."
+    },
+    "INTE": {
+      "name": "Recebido no intermediário",
+      "definition": "O pedido de substituição previamente recebido de si foi recebido no intermediário (se não for a bolsa de valores)."
+    },
+    "PACK": {
+      "name": "Aceite",
+      "definition": "O pedido de substituição foi aceite para processamento posterior pelo prestador de serviços de conta (aviso de receção técnico)."
+    },
+    "PART": {
+      "name": "Substituição parcial aceite",
+      "definition": "A ordem está parcialmente preenchida, tendo sido aceite o processamento da substituição para a parte restante."
+    },
+    "PEND": {
+      "name": "Pendente",
+      "definition": "O pedido de substituição está pendente."
+    },
+    "REJT": {
+      "name": "Rejeitado",
+      "definition": "O pedido de substituição foi rejeitado para processamento posterior."
+    },
+    "REPL": {
+      "name": "Concluído",
+      "definition": "O pedido de substituição foi concluído."
+    },
+    "REPR": {
+      "name": "Em reparação",
+      "definition": "O pedido de substituição previamente recebido de si está em reparação."
+    }
+  }
+}

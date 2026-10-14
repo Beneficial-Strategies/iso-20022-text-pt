@@ -1,0 +1,12 @@
+{
+  "isoType": "MandateRelatedData3Choice",
+  "definition": "Escolha de informações relativas ao mandato.",
+  "isoElements": {
+    "DirectDebitMandate": {
+      "definition": "Dados específicos do mandato de débito direto."
+    },
+    "CreditTransferMandate": {
+      "definition": "Dados específicos do mandato de transferência."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionPreliminaryAdviceType1Code",
+  "definition": "Tipo de pré-aviso de movimento.",
+  "isoCodes": {
+    "NEWM": {
+      "name": "Novo",
+      "definition": "Novo pré-aviso de movimento."
+    },
+    "REPL": {
+      "name": "Substituição",
+      "definition": "Pré-aviso de movimento que substitui um pré-aviso enviado anteriormente."
+    }
+  }
+}

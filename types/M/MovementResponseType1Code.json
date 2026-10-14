@@ -1,0 +1,14 @@
+{
+  "isoType": "MovementResponseType1Code",
+  "definition": "Especifica o tipo de resposta de movimentos a devolver.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Completo",
+      "definition": "A resposta incluirá todos os detalhes dos movimentos reportados."
+    },
+    "STTS": {
+      "name": "Estado",
+      "definition": "A resposta incluirá detalhes limitados, incluindo o estado dos movimentos reportados."
+    }
+  }
+}

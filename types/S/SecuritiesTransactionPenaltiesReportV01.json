@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesTransactionPenaltiesReportV01",
+  "definition": "A mensagem SecuritiesTransactionPenaltiesReport V01 é enviada pela parte executante/prestadora de serviços à parte instrutora para informar sobre as penalizações em numerário: |- Penalizações em numerário recém-calculadas. Por exemplo, no caso de uma CSD, a informação deve incluir as penalizações em numerário que são impostas ou creditadas a todos os seus participantes e à própria CSD; no caso de um participante de uma CSD, a informação deve incluir as penalizações em numerário que são impostas ou creditadas ao próprio participante da CSD.|- Penalizações modificadas: para informar sobre as modificações ocorridas nas penalizações em numerário existentes desde a última comunicação.|- Montantes agregados de penalizações em numerário: para informar sobre os montantes agregados das penalizações em numerário calculadas para os dias úteis de um determinado período, por exemplo, o mês anterior."
+}

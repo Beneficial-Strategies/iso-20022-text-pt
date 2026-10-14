@@ -1,0 +1,29 @@
+{
+  "isoType": "CashBalance8",
+  "definition": "Conjunto de elementos utilizados para definir os detalhes do saldo.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica a natureza de um saldo."
+    },
+    "CreditLine": {
+      "definition": "Conjunto de elementos utilizados para fornecer detalhes sobre a linha de crédito."
+    },
+    "Amount": {
+      "definition": "Montante do saldo de caixa."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o saldo é credor ou devedor.|Utilização: um saldo nulo é considerado um saldo credor."
+    },
+    "Date": {
+      "definition": "Indica a data (e hora) do saldo."
+    },
+    "Availability": {
+      "definition": "Conjunto de elementos utilizados para indicar quando o montante contabilizado ficará disponível, ou seja, poderá ser acedido e começar a gerar juros. ||Utilização: este tipo de informação é utilizado nos EUA (US) e está associado a instrumentos específicos, como os cheques.|Exemplo: quando um cheque é depositado, é contabilizado no dia do depósito, mas o montante só fica acessível a partir do dia de disponibilidade indicado (de acordo com a regulamentação bancária nacional)."
+    }
+  },
+  "isoRules": {
+    "ForwardBalanceAndAvailabilityRule": {
+      "definition": "Se Type for igual a ForwardAvailable, Availability não é permitido."
+    }
+  }
+}

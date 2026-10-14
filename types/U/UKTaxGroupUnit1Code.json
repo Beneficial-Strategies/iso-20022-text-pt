@@ -1,0 +1,14 @@
+{
+  "isoType": "UKTaxGroupUnit1Code",
+  "definition": "Especifica o grupo fiscal do UK a que as unidades pertencem. Para efeitos fiscais no UK, considera-se que o primeiro dividendo que um investidor recebe de um investimento num fundo é em parte rendimento e em parte reembolso de capital. O elemento de capital é a 'equalização' e está isento de imposto sobre o rendimento.",
+  "isoCodes": {
+    "GRP1": {
+      "name": "Grupo 1",
+      "definition": "As unidades que foram adquiridas antes da última data ex-dividendo."
+    },
+    "GRP2": {
+      "name": "Grupo 2",
+      "definition": "As unidades que foram adquiridas desde a data ex-dividendo e que beneficiam da isenção fiscal."
+    }
+  }
+}

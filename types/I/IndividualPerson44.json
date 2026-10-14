@@ -1,0 +1,57 @@
+{
+  "isoType": "IndividualPerson44",
+  "definition": "Entidade humana, por oposição a uma entidade coletiva (por vezes designada «pessoa artificial»).",
+  "isoElements": {
+    "CurrentName": {
+      "definition": "Nome atual utilizado."
+    },
+    "PreviousName": {
+      "definition": "Nome anterior utilizado."
+    },
+    "Gender": {
+      "definition": "Especifica o género da pessoa."
+    },
+    "Language": {
+      "definition": "Língua em que uma pessoa comunica."
+    },
+    "BirthDate": {
+      "definition": "Data em que uma pessoa nasceu."
+    },
+    "CountryOfBirth": {
+      "definition": "País onde uma pessoa nasceu."
+    },
+    "ProvinceOfBirth": {
+      "definition": "Província onde uma pessoa nasceu."
+    },
+    "CityOfBirth": {
+      "definition": "Cidade onde uma pessoa nasceu."
+    },
+    "TaxationCountry": {
+      "definition": "País de tributação de uma pessoa singular."
+    },
+    "CountryAndResidentialStatus": {
+      "definition": "País e estatuto de residência de um indivíduo, por exemplo, residente não permanente."
+    },
+    "SocialSecurityNumber": {
+      "definition": "Identificação governamental para os seus cidadãos."
+    },
+    "PostalAddress": {
+      "definition": "Informações que localizam e identificam um endereço específico, conforme definido pelos serviços postais."
+    },
+    "CitizenshipInformation": {
+      "definition": "Informações sobre um cidadão."
+    },
+    "PrimaryCommunicationAddress": {
+      "definition": "Endereço do contacto principal."
+    },
+    "SecondaryCommunicationAddress": {
+      "definition": "Número de dispositivo de comunicação ou endereço eletrónico utilizado para comunicação para um endereço alternativo."
+    },
+    "OtherIdentification": {
+      "definition": "Outro tipo de identificação."
+    },
+    "OtherDetails": {
+      "definition": "Informações adicionais necessárias para a mudança de conta."
+    }
+  }
+}

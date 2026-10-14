@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateInitiationRequestV08",
+  "definition": "Âmbito|A mensagem MandateInitiationRequest é enviada pelo iniciador do pedido à sua instituição. O iniciador pode ser o devedor ou o credor.|A mensagem MandateInitiationRequest é reencaminhada pela instituição do iniciador para a instituição da contraparte.|A mensagem MandateInitiationRequest é utilizada para criar a instrução que permite à instituição do devedor aceitar instruções do credor, através da instituição do credor, para debitar a conta do devedor.|Utilização|A mensagem MandateInitiationRequest pode conter um ou mais pedidos de criação de um mandato específico.|As mensagens podem ser trocadas entre o credor e a instituição do credor, entre o devedor e a instituição do devedor e entre a instituição do credor e a instituição do devedor.|A mensagem também pode ser utilizada por uma parte iniciadora com autoridade para enviar a mensagem em nome do credor ou do devedor.|A mensagem MandateInitiationRequest pode ser utilizada em cenários nacionais e transfronteiras.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "O bloco SupplementaryData ao nível da mensagem não pode ser utilizado para fornecer informações adicionais sobre uma operação. O elemento SupplementaryData ao nível da operação deve ser utilizado para esse efeito."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "CancellationRejectedReason1Code",
+  "definition": "Especifica o motivo do estado de rejeição de um cancelamento.",
+  "isoCodes": {
+    "CUTO": {
+      "name": "Hora-limite",
+      "definition": "A instrução foi recebida após a hora-limite."
+    },
+    "COSE": {
+      "name": "Já executado",
+      "definition": "A ordem ou transferência já foi executada e a confirmação foi enviada."
+    }
+  }
+}

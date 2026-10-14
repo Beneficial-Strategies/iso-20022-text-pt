@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyStatus2Choice",
+  "definition": "Especifica o estado das penalizações.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado da penalização, , sob forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Estado da penalização, sob forma proprietária."
+    }
+  }
+}

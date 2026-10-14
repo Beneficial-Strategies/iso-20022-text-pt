@@ -1,0 +1,38 @@
+{
+  "isoType": "ShareholdersIdentificationDisclosureRequestV04",
+  "definition": "A mensagem ShareholdersIdentificationDisclosureRequest é enviada por um emitente ou por um terceiro nomeado pelo emitente (como um agente do emitente) aos primeiros intermediários de uma cadeia de custódia, ou por qualquer intermediário de uma cadeia de custódia ao intermediário seguinte da cadeia (no sentido do investidor), a fim de solicitar a divulgação da identidade dos acionistas, e fornece informações sobre a parte destinatária a quem as respostas devem ser enviadas, sobre o instrumento financeiro em causa e sobre o prazo de resposta.",
+  "isoElements": {
+    "IssuerDisclosureRequestIdentification": {
+      "definition": "Identificação oficial e única atribuída a um processo de pedido de divulgação da identificação de acionistas pelo emitente ou por um terceiro por ele nomeado."
+    },
+    "DisclosureRequestType": {
+      "definition": "Especifica o tipo de pedido de divulgação."
+    },
+    "PreviousDisclosureRequestIdentification": {
+      "definition": "Identificação de uma mensagem de pedido de divulgação da identificação de acionistas enviada anteriormente."
+    },
+    "ForwardRequestIndicator": {
+      "definition": "Indica se o pedido deve ser reencaminhado e respondido pelos outros intermediários da cadeia de intermediários. Se o pedido não for para reencaminhar, o indicador pode não estar presente."
+    },
+    "ResponseThroughChainIndicator": {
+      "definition": "Indica se a resposta de divulgação da identificação de acionistas deve ser reenviada ao longo da cadeia de intermediários ou diretamente ao destinatário da resposta identificado. |Se \"true\" ou \"1\", a resposta deve ser reenviada através da cadeia de intermediários.|Se \"false\" ou \"0\" ou se o indicador não estiver presente, a resposta deve ser enviada diretamente ao destinatário da resposta identificado."
+    },
+    "ShareholderRightsDirectiveIndicator": {
+      "definition": "Indica se o pedido foi iniciado pelo primeiro intermediário da cadeia de custódia em conformidade com a SRD II."
+    },
+    "PlaceOfJurisdiction": {
+      "definition": "Lei aplicável ou local de jurisdição a que se refere o pedido de divulgação."
+    },
+    "ApplicableLaw": {
+      "definition": "Identificação da lei a que se refere o pedido de divulgação."
+    },
+    "SharesQuantityThreshold": {
+      "definition": "Número mínimo de ações detidas por um acionista acima do qual a identificação deve ser divulgada."
+    }
+  },
+  "isoRules": {
+    "PreviousDisclosureRequestIdentificationRule": {
+      "definition": "Se DisclosureRequestType for REPL (Replacement), então PreviousDisclosureRequestIdentification deve estar presente."
+    }
+  }
+}

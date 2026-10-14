@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesSettlementConditionsModificationRequest002V09",
+  "definition": "Âmbito|Um titular da conta envia um SecuritiesSettlementConditionsModificationRequest a uma instituição gestora da conta para solicitar a modificação de um indicador de processamento ou de outra informação não relevante para a correspondência.||A relação entre o titular da conta e a instituição gestora da conta pode ser:|- um participante de um depositário central de valores mobiliários que tem uma conta junto de um depositário central de valores mobiliários.|Pode também ser, se acordado num acordo de nível de serviço:|- um custodiante global que tem uma conta junto do seu agente local (subcustodiante), ou|- uma instituição de gestão de investimentos que gere uma conta de fundo aberta junto de um custodiante, ou|- um corretor que tem uma conta junto de um custodiante, ou|- um depositário central de valores mobiliários que tem uma conta junto de um custodiante, de outro depositário central de valores mobiliários ou de outra infraestrutura de mercado de liquidação.||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente,|- fornecer a um terceiro uma cópia de uma mensagem a título informativo,|- reenviar a um terceiro uma cópia de uma mensagem a título informativo utilizando os elementos relevantes do Business Application Header.||Nos mercados em que tal se aplique (por exemplo, infraestruturas de mercado de valores mobiliários sem processo de correspondência pré-liquidação), é utilizada por uma parte para aprovar, cancelar ou rejeitar uma operação instruída pela contraparte.||Esta mensagem não pode ser utilizada para solicitar a modificação de dados da transação ou do evento.|A utilização de AdditionalInformation e dos seus campos tem de ser previamente acordada entre a instituição gestora da conta e o titular da conta. Os campos dessa sequência não podem ser utilizados para alterar dados de uma transação ou de um evento, salvo se autorizado pela prática de mercado do país.",
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "O Securities Market Practice Group (SMPG) publicou recomendações de prática de mercado sobre a utilização desta mensagem.|Estas práticas de mercado estão disponíveis em www.smpg.info."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    }
+  }
+}

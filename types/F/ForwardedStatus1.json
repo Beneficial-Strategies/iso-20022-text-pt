@@ -1,0 +1,12 @@
+{
+  "isoType": "ForwardedStatus1",
+  "definition": "Informações de estado e de quantidade relativas a um pedido de instrução reencaminhado.",
+  "isoElements": {
+    "ForwardedQuantity": {
+      "definition": "A quantidade de valores mobiliários instruídos anteriormente aceite foi agora reencaminhada ao longo da cadeia."
+    },
+    "ForwardedReason": {
+      "definition": "Motivo do estado reencaminhado."
+    }
+  }
+}

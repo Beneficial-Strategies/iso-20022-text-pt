@@ -1,0 +1,18 @@
+{
+  "isoType": "PenaltyPerCounterparty4",
+  "definition": "Especifica as penalizações de uma determinada parte.",
+  "isoElements": {
+    "AccountServicer": {
+      "definition": "Parte que gere a conta de subnível em nome do titular da conta, isto é, gere o registo e a contabilização dos lançamentos na conta, calcula os saldos da conta e fornece informações sobre a conta."
+    },
+    "PartyIdentification": {
+      "definition": "Identificação única da parte no sistema."
+    },
+    "AggregatedNetAmount": {
+      "definition": "Montante líquido bilateral por parte e contraparte."
+    },
+    "PenaltyDetails": {
+      "definition": "Detalhes adicionais sobre a penalização."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PendingSettlementStatus3Choice",
+  "definition": "Motivo do estado de liquidação pendente.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motivo do estado de liquidação pendente."
+    },
+    "ExtendedReason": {
+      "definition": "Motivo do estado de liquidação pendente."
+    },
+    "DataSourceScheme": {
+      "definition": "Identificação proprietária do motivo do estado de liquidação pendente."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Indica que não existe motivo disponível ou a reportar."
+    }
+  }
+}

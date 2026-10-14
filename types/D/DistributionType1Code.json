@@ -1,0 +1,10 @@
+{
+  "isoType": "DistributionType1Code",
+  "definition": "Especifica se o produto do evento será distribuído de forma contínua (rolling) e não numa data específica.",
+  "isoCodes": {
+    "ROLL": {
+      "name": "Base rotativa",
+      "definition": "O evento terá várias datas de aceitação e de pagamento até novo anúncio do emitente ou do seu agente."
+    }
+  }
+}

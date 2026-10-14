@@ -1,0 +1,12 @@
+{
+  "isoType": "FromToAmountRange1",
+  "definition": "Intervalo de valores do montante.",
+  "isoElements": {
+    "FromAmount": {
+      "definition": "Limite inferior de um intervalo de valores do montante."
+    },
+    "ToAmount": {
+      "definition": "Limite superior de um intervalo de valores do montante."
+    }
+  }
+}

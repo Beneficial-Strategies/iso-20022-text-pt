@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxableIncomePerShareCalculated2Code",
+  "definition": "Especifica se o fundo calcula um juro tributável por ação (TIS).",
+  "isoCodes": {
+    "TSIY": {
+      "name": "O fundo calcula",
+      "definition": "O fundo está a calcular o juro tributável por ação com o NAV."
+    },
+    "TSIN": {
+      "name": "O fundo não calcula",
+      "definition": "O fundo não está a calcular o juro tributável por ação com o NAV."
+    },
+    "UKWN": {
+      "name": "Cálculo pelo fundo desconhecido",
+      "definition": "Não se sabe se o fundo está a calcular o juro tributável por ação com o NAV."
+    }
+  }
+}

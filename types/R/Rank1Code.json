@@ -1,0 +1,14 @@
+{
+  "isoType": "Rank1Code",
+  "definition": "Especifica a classificação de um elemento (parte, mercado) num determinado ambiente.",
+  "isoCodes": {
+    "PRIM": {
+      "name": "Primária",
+      "definition": "O elemento é o principal."
+    },
+    "SECO": {
+      "name": "Secundária",
+      "definition": "O elemento é o principal."
+    }
+  }
+}

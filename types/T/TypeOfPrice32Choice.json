@@ -1,0 +1,12 @@
+{
+  "isoType": "TypeOfPrice32Choice",
+  "definition": "Escolha do formato do tipo de preço.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de preço expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de preço expresso como um código proprietário."
+    }
+  }
+}

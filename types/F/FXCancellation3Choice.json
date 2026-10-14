@@ -1,0 +1,12 @@
+{
+  "isoType": "FXCancellation3Choice",
+  "definition": "Escolha de formato para as informações de cancelamento de câmbio (forex).",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica se a operação cambial (forex) subjacente deve também ser cancelada. Sim significa que o forex deve ser cancelado. Não significa que o forex deve ser mantido."
+    },
+    "Proprietary": {
+      "definition": "Informações de cancelamento de câmbio (forex) expressas sob a forma de código proprietário."
+    }
+  }
+}

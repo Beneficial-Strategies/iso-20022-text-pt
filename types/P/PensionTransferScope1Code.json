@@ -1,0 +1,22 @@
+{
+  "isoType": "PensionTransferScope1Code",
+  "definition": "Especifica o âmbito de uma transferência de pensão.",
+  "isoCodes": {
+    "CRYS": {
+      "name": "Parte cristalizada",
+      "definition": "A transferência refere-se à parte cristalizada."
+    },
+    "SDDT": {
+      "name": "Tranche de levantamento",
+      "definition": "A transferência refere-se a uma tranche de levantamento específica."
+    },
+    "FULP": {
+      "name": "Pensão completa",
+      "definition": "A transferência refere-se à totalidade da pensão."
+    },
+    "UCRY": {
+      "name": "Parte não cristalizada",
+      "definition": "A transferência refere-se à parte não cristalizada."
+    }
+  }
+}

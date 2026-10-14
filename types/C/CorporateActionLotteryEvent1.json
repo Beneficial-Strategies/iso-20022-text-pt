@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionLotteryEvent1",
+  "definition": "Pormenores do evento de sorteio.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo de sorteio anunciado."
+    },
+    "FeatureType": {
+      "definition": "Detalha a característica de sorteio."
+    }
+  }
+}

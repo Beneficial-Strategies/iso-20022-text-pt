@@ -1,0 +1,12 @@
+{
+  "isoType": "MeetingInstructionStatusV12",
+  "definition": "Âmbito|A mensagem MeetingInstructionStatus é enviada por um intermediário ao remetente de uma instrução para confirmar o estado dessa instrução. A mensagem indica o estado de uma mensagem completa ou de uma ou mais instruções específicas da mensagem.|A mensagem também pode ser enviada pelo emitente ou pelo intermediário para confirmar que um voto foi expresso.|Utilização|A mensagem MeetingInstructionStatus é utilizada para quatro finalidades.|Em primeiro lugar, é utilizada para fornecer o estado global de tratamento ou de rejeição de uma mensagem MeetingInstruction.|Em segundo lugar, fornece o estado do tratamento de uma mensagem MeetingInstructionCancellationRequest, por exemplo, se a mensagem de pedido é rejeitada ou aceite.|Em terceiro lugar, é utilizada para fornecer um estado detalhado de tratamento ou de rejeição de uma ou mais instruções da mensagem MeetingInstruction, por exemplo, para cada instrução da mensagem MeetingInstruction o estado de tratamento ou de rejeição é comunicado individualmente através do elemento SingleInstructionIdentification. Esta identificação permite ao destinatário da mensagem de estado associar a confirmação do estado à instrução original.|Em quarto lugar, é utilizada para confirmar que a instrução de voto em causa foi confirmada como expressa pelo emitente ou pelo seu agente.|Esta definição de mensagem destina-se a ser utilizada com o Business Application Header (BAH).",
+  "isoRules": {
+    "Status1Rule": {
+      "definition": "Se InstructionType/InstructionIdentification estiver presente, então InstructionTypeStatus/InstructionStatus tem de estar presente."
+    },
+    "Status2Rule": {
+      "definition": "Se InstructionType/InstructionCancellationIdentification estiver presente, então InstructionTypeStatus/CancellationStatus tem de estar presente."
+    }
+  }
+}

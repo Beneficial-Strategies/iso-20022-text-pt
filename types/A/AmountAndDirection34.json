@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection34",
+  "definition": "Montante em dinheiro expresso com um código de moeda opcional e um indicador de débito/crédito.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante em dinheiro que resulta num aumento (com sinal positivo) ou numa diminuição (com sinal negativo), com indicação da moeda."
+    },
+    "Sign": {
+      "definition": "Indica que o valor do montante é positivo ou negativo."
+    }
+  }
+}

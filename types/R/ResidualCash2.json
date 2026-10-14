@@ -1,0 +1,12 @@
+{
+  "isoType": "ResidualCash2",
+  "definition": "Especifica o tratamento a dar ao numerário da conta que aguarda investimento.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Indica se o numerário da conta que aguarda investimento deve ser transferido."
+    },
+    "Currency": {
+      "definition": "Moeda do numerário."
+    }
+  }
+}

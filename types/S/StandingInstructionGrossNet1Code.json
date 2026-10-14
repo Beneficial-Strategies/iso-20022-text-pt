@@ -1,0 +1,14 @@
+{
+  "isoType": "StandingInstructionGrossNet1Code",
+  "definition": "Especifica o tipo de instrução permanente.",
+  "isoCodes": {
+    "GROS": {
+      "name": "Bruto",
+      "definition": "Pagamento bruto."
+    },
+    "NETT": {
+      "name": "Líquido",
+      "definition": "Pagamento líquido."
+    }
+  }
+}

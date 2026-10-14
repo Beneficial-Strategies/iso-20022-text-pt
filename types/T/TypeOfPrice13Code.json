@@ -1,0 +1,66 @@
+{
+  "isoType": "TypeOfPrice13Code",
+  "definition": "Especifica o tipo de preço e as informações sobre o preço.",
+  "isoCodes": {
+    "BIDE": {
+      "name": "Compra",
+      "definition": "O preço é o preço de compra (bid) calculado de um fundo com dois preços (preços de venda-compra), isto é, o preço de venda das unidades para o investidor."
+    },
+    "OFFR": {
+      "name": "Venda",
+      "definition": "O preço é o preço de venda (offer) calculado de um fundo de investimento com dois preços (preços de venda-compra), isto é, o preço de compra das unidades para um investidor."
+    },
+    "NAVL": {
+      "name": "Valor patrimonial líquido",
+      "definition": "O preço é o valor patrimonial líquido (NAV) por unidade que é utilizado como preço de transação para uma classe de fundo de investimento com preço único, ou como preço nocional para o cálculo de outros preços."
+    },
+    "CREA": {
+      "name": "Criação",
+      "definition": "O preço é o preço de criação calculado de um fundo de investimento com dois preços (preços de criação-cancelamento) e o preço de compra máximo possível das unidades antes da comissão inicial. O preço de compra ou de venda efetivo, que inclui encargos, será mais elevado."
+    },
+    "CANC": {
+      "name": "Cancelamento",
+      "definition": "O preço é o preço de cancelamento calculado de um fundo de investimento com dois preços (preço de criação-cancelamento) e a avaliação mínima possível das unidades em qualquer dia. O preço de venda ou de compra efetivo é geralmente mais elevado."
+    },
+    "INTE": {
+      "name": "Intercalar",
+      "definition": "O preço é o preço provisório não oficial dado a um investidor antes do preço executado."
+    },
+    "SWNG": {
+      "name": "Swing",
+      "definition": "O preço é o preço do valor patrimonial líquido (NAV) calculado de um fundo de investimento com preço único. O preço é ajustado para ter em conta os custos de negociação devidos a grandes operações individuais, ou a um desequilíbrio significativo nos volumes de subscrições face a resgates, como alternativa à taxa de diluição."
+    },
+    "MIDD": {
+      "name": "Médio",
+      "definition": "O preço é o preço médio entre os preços de compra e de venda."
+    },
+    "RINV": {
+      "name": "Reinvestimento",
+      "definition": "O preço é o preço utilizado no reinvestimento de unidades após a distribuição."
+    },
+    "NAVS": {
+      "name": "VPL do side pocket",
+      "definition": "O preço é o valor líquido estimado do ativo para a side pocket."
+    },
+    "SWIC": {
+      "name": "Conversão",
+      "definition": "O preço é o preço utilizado na transferência de unidades entre produtos."
+    },
+    "GAVL": {
+      "name": "Valor bruto dos ativos",
+      "definition": "O preço é o valor bruto do ativo por unidade e inclui a comissão de desempenho por ação. É utilizado como preço de transação para um fundo com equalização. Preço GAVL menos preço NAVL = comissão de desempenho."
+    },
+    "DDVR": {
+      "name": "Taxa de dividendo diária",
+      "definition": "O preço é o rendimento líquido de um instrumento financeiro, calculado em cada dia de negociação e dividido por todas as unidades em circulação nesse dia."
+    },
+    "ACTU": {
+      "name": "Real",
+      "definition": "Preço de venda efetivo."
+    },
+    "EGAV": {
+      "name": "VBA estimado",
+      "definition": "O preço é o valor bruto estimado do ativo por unidade e inclui a comissão de desempenho por ação. É utilizado como preço de transação para um fundo com equalização. Preço GAVL menos preço NAVL = comissão de desempenho."
+    }
+  }
+}

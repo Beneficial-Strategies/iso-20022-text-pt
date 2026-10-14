@@ -1,0 +1,15 @@
+{
+  "isoType": "Remittance1",
+  "definition": "Especifica o recurso de remessa para acesso direto às informações de remessa.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Informação fornecida para permitir a correspondência/reconciliação de um lançamento com os itens que o pagamento se destina a liquidar, como faturas comerciais num sistema de contas a receber, sob forma não estruturada."
+    },
+    "Structured": {
+      "definition": "Informação fornecida para permitir a correspondência/reconciliação de um lançamento com os itens que o pagamento se destina a liquidar, como faturas comerciais num sistema de contas a receber, sob forma estruturada."
+    },
+    "Related": {
+      "definition": "Fornece informações relacionadas com o tratamento das informações de remessa por qualquer das instituições na cadeia de processamento da operação."
+    }
+  }
+}
