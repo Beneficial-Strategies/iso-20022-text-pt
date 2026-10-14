@@ -1,0 +1,62 @@
+name: Wrong, unclear or missing translation
+description: A definition, a format or a name that reads badly, is wrong, or still shows the English
+title: "Translation: "
+labels: ["definition", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Definitions are translated with AI tools and **may not have been reviewed by a person**. Corrections are very welcome, and a native reviewer is the most useful help this text can get.
+        If the problem is one word that recurs (a name, a dropdown value), use the **Glossary entry** form instead: it fixes every place at once.
+  - type: input
+    id: type
+    attributes:
+      label: Type, element or code
+      description: "The ISO name as in the English text, for example PostalAddress27 or its element TownName. The host answers at https://iso-20022-text-pt.beneficialstrategies.com/{TypeName}."
+      placeholder: PostalAddress27
+    validations:
+      required: true
+  - type: dropdown
+    id: what
+    attributes:
+      label: What is wrong
+      options:
+        - The meaning is wrong
+        - It is unclear or reads badly
+        - A term differs from the glossary
+        - It is not translated (it still shows the English)
+        - A name is wrong and the glossary cannot express it (for example word order)
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: variety
+    attributes:
+      label: Language variety
+      description: Which variety of Portuguese is the problem for? Choose General if it is wrong for everyone.
+      options:
+        - General (applies to every variety of Portuguese)
+        - Brazil (pt-BR)
+        - Portugal (pt-PT)
+        - Angola (pt-AO)
+        - Mozambique (pt-MZ)
+        - Other (say which, in the details)
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: The text today
+      description: Paste it from the host or the explorer.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What it should say
+      description: Your wording, if you have it. Keep the ISO type and element names, the acronyms (IBAN, BIC) and `|` (a line break) as they are in the English.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Why the current text is wrong, or a source.

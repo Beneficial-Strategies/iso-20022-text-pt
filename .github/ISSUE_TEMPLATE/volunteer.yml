@@ -1,0 +1,51 @@
+name: Offer to review or maintain
+description: Take over the care of Portuguese, one variety of it, or one business area of it
+title: "Volunteer: "
+labels: ["volunteer", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. This text is free and has few reviewers, so a person who reads it with a professional eye is worth a great deal.
+        You do not need to know Git: reviewing can be as simple as reading a business area on the host and listing what is wrong in the "Wrong, unclear or missing translation" form.
+  - type: dropdown
+    id: variety
+    attributes:
+      label: Variety you can review
+      options:
+        - General (applies to every variety of Portuguese)
+        - Brazil (pt-BR)
+        - Portugal (pt-PT)
+        - Angola (pt-AO)
+        - Mozambique (pt-MZ)
+        - Other (say which, in the details)
+    validations:
+      required: true
+  - type: textarea
+    id: areas
+    attributes:
+      label: Business areas you know
+      description: "For example payments initiation (pain), payments clearing and settlement (pacs), cash management (camt), securities (sese, semt), cards (cain, catm), trade, FX. Say \"all\" if you can read all of it."
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: What you would like to do
+      options:
+        - Review text now and then
+        - Review one business area regularly
+        - Co-maintain this repository (review pull requests, merge)
+        - Sponsor or fund the work
+        - Something else (say what)
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: Your background
+      description: Your institution or role, so we know what kind of text you read well. Share only what you are comfortable with here, in public.
+  - type: textarea
+    id: time
+    attributes:
+      label: How much time you can give

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help keep this text maintained (review, co-maintain, sponsor)
+    url: https://github.com/Beneficial-Strategies/iso-20022-text-pt#help-keep-this-text-maintained
+    about: How to take over the care of a language, a variety or an area of it
+  - name: The English text itself looks wrong
+    url: https://github.com/Beneficial-Strategies/iso-20022-text/issues/new/choose
+    about: The English text is ISO's, held in the hub; report differences from ISO there

@@ -1,0 +1,79 @@
+name: Glossary entry (a word or phrase to translate)
+description: "When ISO 20022 says [Transaction] it should say [Transação] in Portuguese. Names, dropdown values and, for a regional text, definitions follow the glossary"
+title: "Glossary: "
+labels: ["glossary", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The glossary is a list of rules: **when ISO's English says X, this text says Y.** One entry fixes the word everywhere it appears (names, dropdown values; definitions are translated one by one).
+        Use this form for a word or phrase. For a whole definition that reads badly, use "Wrong, unclear or missing translation" instead.
+        The current glossary is [`glossary.json`](https://github.com/Beneficial-Strategies/iso-20022-text-pt/blob/main/glossary.json).
+  - type: input
+    id: iso_term
+    attributes:
+      label: When ISO 20022 says
+      description: The word or phrase in ISO's English, exactly as the standard has it.
+      placeholder: "Transaction"
+    validations:
+      required: true
+  - type: input
+    id: local_term
+    attributes:
+      label: it should be translated as
+      description: How it is written in Portuguese, with the capitalization it should have at the start of a name.
+      placeholder: "Transação"
+    validations:
+      required: true
+  - type: dropdown
+    id: variety
+    attributes:
+      label: Language variety
+      description: "Which variety of Portuguese uses this term? Choose General when every variety does. For example, ISO's Transaction is Operação in European Portuguese and Transação in Brazil. We count these by variety to learn when a variety needs a text of its own."
+      options:
+        - General (applies to every variety of Portuguese)
+        - Brazil (pt-BR)
+        - Portugal (pt-PT)
+        - Angola (pt-AO)
+        - Mozambique (pt-MZ)
+        - Other (say which, in the details)
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: What the text shows today
+      description: Copy it from the explorer or the host, if you saw it there. Leave empty if the word is not translated yet.
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Where the rule should apply
+      options:
+        - Names (types, elements, codes, dropdown values)
+        - Definitions and formats
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: where
+    attributes:
+      label: Where you saw it
+      description: "A type name or a link, for example https://iso-20022-text-pt.beneficialstrategies.com/PostalAddress27. More than one is welcome."
+  - type: textarea
+    id: context
+    attributes:
+      label: Is the rule different in some context?
+      description: For example a phrase that should keep another word, or a code where the word means something else. Also use this to say which variety or institution, if you chose Other.
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this term
+      description: A dictionary, a regulator's or a bank's glossary, a standard, or everyday usage in your market. A link is the best evidence.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you send
+      options:
+        - label: I looked for the word in glossary.json and it is missing or different there.
+        - label: I use this language in my work or daily life, in the variety I chose.
+        - label: I could open the pull request that adds it (a one-line change to glossary.json). Maintainers can do it if not.

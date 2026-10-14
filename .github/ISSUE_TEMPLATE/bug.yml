@@ -1,0 +1,34 @@
+name: Problem with the host, the build or the site
+description: The text host answers wrongly, is down, or the build or a tool of this repository fails
+title: ""
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For wrong wording use "Wrong, unclear or missing translation" or "Glossary entry". This form is for the machinery.
+  - type: input
+    id: url
+    attributes:
+      label: Address that misbehaves
+      description: "For example https://iso-20022-text-pt.beneficialstrategies.com/PostalAddress27"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: Status code, the first lines of the answer, or the build error.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to reproduce it
+      description: A command such as `node ../iso-20022-text/build/build.mjs --spoke . --out <folder>` and its output, if it is a build problem.
