@@ -1,0 +1,44 @@
+name: Propose a regional text (give a variety its own repository)
+description: Extend this language one level out, the way en-US extends en, when a variety differs enough to deserve its own text
+title: "Regional text: "
+labels: ["regional-variant", "tracking", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A regional text is a new repository, `iso-20022-text-<tag>` (for example `iso-20022-text-pt-BR`), based on this one. It holds **only what differs** from Portuguese, and its host is `https://iso-20022-text-pt-br.beneficialstrategies.com`.
+        We start with the variety label on ordinary glossary and translation issues. When enough of them pile up **and** a person is willing to review, a regional text is worth its own repository. Judgement, not a rule: roughly a dozen distinct differences, or one institution that needs it now.
+  - type: input
+    id: variety
+    attributes:
+      label: Variety and language tag
+      description: A BCP 47 tag.
+      placeholder: "pt-BR (Brazil)"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Issues and pull requests that show the need
+      description: "Link them, or the label search: https://github.com/Beneficial-Strategies/iso-20022-text-pt/issues?q=label%3Avariety%3Apt-BR"
+    validations:
+      required: true
+  - type: textarea
+    id: differences
+    attributes:
+      label: How the variety differs
+      description: Mostly a few words (glossary), or also many definitions? Give a few examples.
+    validations:
+      required: true
+  - type: textarea
+    id: people
+    attributes:
+      label: Who will review it
+      description: Names of GitHub users or an institution, and how much time they can give. A text nobody reviews stays a machine draft.
+    validations:
+      required: true
+  - type: textarea
+    id: users
+    attributes:
+      label: Who will use it
+      description: A bank, a vendor, a regulator, a community, an estimate of readers. Optional, but it helps us choose the order.
