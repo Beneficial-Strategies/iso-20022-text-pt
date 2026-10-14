@@ -1,0 +1,51 @@
+{
+  "isoType": "ChargesPerTypeRecord6",
+  "definition": "Fornece detalhes adicionais de registos individuais sobre os encargos relacionados com a operação de pagamento.",
+  "isoElements": {
+    "RecordIdentification": {
+      "definition": "Identificação única e inequívoca do registo de encargos para efeitos de reconciliação."
+    },
+    "ChargesRequestor": {
+      "definition": "Instituição que solicita os encargos, se diferente do remetente."
+    },
+    "SettlementInstruction": {
+      "definition": "Especifica os detalhes sobre a forma como a liquidação da(s) operação(ões) subsequente(s) é concluída.||Usage: Os dados desta instituição e parte devem ser mapeados tal como estão na mensagem resultante para o pagamento dos encargos."
+    },
+    "UnderlyingTransaction": {
+      "definition": "Identifica a(s) operação(ões) subjacente(s) a que os encargos se aplicam."
+    },
+    "Amount": {
+      "definition": "Montante dos encargos da operação a pagar pela parte responsável pelos encargos."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o montante dos encargos é um montante a crédito ou a débito. |Usage: Um montante zero é considerado um crédito."
+    },
+    "ValueDate": {
+      "definition": "Data e hora em que os encargos estão ou estarão disponíveis."
+    },
+    "Debtor": {
+      "definition": "Especifica o devedor da operação de pagamento inicial."
+    },
+    "DebtorAccount": {
+      "definition": "Especifica a conta do devedor da operação de pagamento inicial."
+    },
+    "DebtorAgent": {
+      "definition": "Especifica a instituição do devedor da operação de pagamento inicial, se diferente da instituição da conta de encargos."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Especifica a conta da instituição do devedor da operação de pagamento inicial, quando a instituição instruidora é diferente do titular da conta de encargos."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Instituição que gere a conta de encargos.||Usage: Este elemento deve ser utilizado quando o encargo reclamado não está relacionado com o processamento de uma operação de pagamento, por exemplo, quando se relaciona com uma investigação ou outro processo. Identifica a instituição que gere a conta a partir da qual os encargos devem ser liquidados."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Conta da instituição que gere a conta de encargos.||Usage: Este elemento deve ser utilizado quando o encargo reclamado não está relacionado com o processamento de uma operação de pagamento, por exemplo, quando se relaciona com uma investigação ou outro processo. Identifica a conta a partir da qual os encargos devem ser liquidados."
+    },
+    "InstructionForInstructedAgent": {
+      "definition": "Informações adicionais relacionadas com o processamento da instrução de ajuste de pagamento, que podem exigir ação por parte da instituição seguinte."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalhes adicionais sobre o motivo dos encargos."
+    }
+  }
+}

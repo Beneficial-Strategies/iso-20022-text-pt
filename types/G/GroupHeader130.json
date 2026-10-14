@@ -1,0 +1,27 @@
+{
+  "isoType": "GroupHeader130",
+  "definition": "Conjunto de características comuns a todos os registos individuais de encargos incluídos na mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte instruidora e enviada à parte seguinte da cadeia para identificar inequivocamente a mensagem.|Usage: A parte instruidora tem de assegurar que MessageIdentification é único por parte instruída durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    },
+    "ChargesRequestor": {
+      "definition": "Instituição que solicita os encargos, se diferente do remetente."
+    },
+    "SettlementInstruction": {
+      "definition": "Especifica os detalhes sobre a forma como a liquidação da(s) operação(ões) subsequente(s) é concluída.||Usage: Os dados desta instituição e parte devem ser mapeados tal como estão na mensagem resultante para o pagamento dos encargos."
+    },
+    "TotalCharges": {
+      "definition": "Total dos encargos reclamados através desta mensagem."
+    },
+    "ChargesAccountAgent": {
+      "definition": "Instituição que gere a conta de encargos.||Usage: Este elemento deve ser utilizado quando o encargo reclamado não está relacionado com o processamento de uma operação de pagamento, por exemplo, quando se relaciona com uma investigação ou outro processo. Identifica a instituição que gere a conta a partir da qual os encargos devem ser liquidados."
+    },
+    "ChargesAccountAgentAccount": {
+      "definition": "Conta da instituição que gere a conta de encargos.||Usage: Este elemento deve ser utilizado quando o encargo reclamado não está relacionado com o processamento de uma operação de pagamento, por exemplo, quando se relaciona com uma investigação ou outro processo. Identifica a conta a partir da qual os encargos devem ser liquidados."
+    }
+  }
+}

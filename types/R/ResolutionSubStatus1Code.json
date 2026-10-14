@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionSubStatus1Code",
+  "definition": "Especifica o subestado de uma deliberação.",
+  "isoCodes": {
+    "AMDR": {
+      "name": "Deliberação alterada",
+      "definition": "A deliberação votada na assembleia foi alterada."
+    },
+    "NEWR": {
+      "name": "Nova deliberação",
+      "definition": "A deliberação votada na assembleia é nova."
+    }
+  }
+}

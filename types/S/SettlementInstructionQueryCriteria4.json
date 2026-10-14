@@ -1,0 +1,93 @@
+{
+  "isoType": "SettlementInstructionQueryCriteria4",
+  "definition": "Define os critérios com base nos quais as informações são incluídas.",
+  "isoElements": {
+    "References": {
+      "definition": "Referência coletiva que identifica um conjunto de mensagens."
+    },
+    "Status": {
+      "definition": "Fornece o estado da liquidação de uma operação."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica se o movimento numa conta de valores mobiliários resulta de uma instrução de entrega ou de receção."
+    },
+    "Payment": {
+      "definition": "Especifica a forma como a operação deve ser liquidada, por exemplo, contra pagamento."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifica o tipo de operação sobre valores mobiliários."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financeiros que representam um conjunto de direitos do investidor face ao emitente."
+    },
+    "Priority": {
+      "definition": "Especifica se a operação deve ser executada com prioridade elevada."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta onde os instrumentos financeiros são mantidos."
+    },
+    "CashAccount": {
+      "definition": "Conta na qual o numerário é mantido."
+    },
+    "TradeDate": {
+      "definition": "Especifica a data/hora em que a operação foi executada."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantidade total de valores mobiliários a liquidar."
+    },
+    "SettledQuantity": {
+      "definition": "Quantidade total de valores mobiliários liquidados."
+    },
+    "SettlementAmount": {
+      "definition": "Montante total a pagar ou a receber em troca dos valores mobiliários."
+    },
+    "SettledAmount": {
+      "definition": "Montante total de dinheiro pago ou recebido em troca dos valores mobiliários."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Data em que se prevê a liquidação de uma operação. Ou seja, o dia previsto para a conclusão da transferência de numerário ou de ativos."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Data e hora em que uma operação é concluída e compensada, isto é, em que um pagamento é efetuado e os valores mobiliários são entregues."
+    },
+    "SettlementCurrency": {
+      "definition": "Moeda em que o montante ordenado está expresso."
+    },
+    "SafekeepingAccountOwner": {
+      "definition": "Parte que é titular da conta."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originou a mensagem, se diferente do remetente."
+    },
+    "CounterpartSettlementParties": {
+      "definition": "Identifica a cadeia de partes de liquidação contrapartes."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifica a cadeia de partes de liquidação que entregam."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifica a cadeia de partes de liquidação que recebem."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indica as condições em que a ordem/operação deve ser/foi executada."
+    },
+    "SecuritiesTransactionCondition": {
+      "definition": "Indica as condições em que a ordem/negociação deve ser/foi executada."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica se a liquidação parcial é permitida."
+    },
+    "ConditionalSecuritiesDelivery": {
+      "definition": "Especifica se a operação está sujeita a Entrega Condicional de Valores Mobiliários (CoSD)."
+    },
+    "CountryOfIssue": {
+      "definition": "Mercado primário ou país onde um valor mobiliário é emitido pelo emitente ou pelo seu agente."
+    },
+    "IssuerCSD": {
+      "definition": "Central de valores mobiliários (CSD) em que os instrumentos financeiros são emitidos (ou imobilizados). A CSD emitente abre contas que permitem aos investidores (num sistema de detenção direta) e/ou aos intermediários (incluindo as CSD de investidores) deter esses instrumentos financeiros."
+    },
+    "HoldIndicator": {
+      "definition": "Especifica se a operação está retida, bloqueada ou congelada."
+    }
+  }
+}

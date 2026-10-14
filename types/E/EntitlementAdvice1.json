@@ -1,0 +1,21 @@
+{
+  "isoType": "EntitlementAdvice1",
+  "definition": "Fornece informações sobre o direito da CA.",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "RecordDate": {
+      "definition": "Data em que os titulares de valores mobiliários são/serão registados para efeitos do rendimento pago ou do direito aos direitos ou à oferta/privilégio."
+    },
+    "PaymentDate": {
+      "definition": "Data em que os valores mobiliários/o numerário serão pagos."
+    },
+    "AccountAndDistributionDetails": {
+      "definition": "Fornece informações sobre o direito e a conta com direito."
+    }
+  }
+}

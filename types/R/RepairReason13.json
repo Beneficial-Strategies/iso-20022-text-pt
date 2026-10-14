@@ -1,0 +1,12 @@
+{
+  "isoType": "RepairReason13",
+  "definition": "Especifica o motivo pelo qual a instrução está em reparação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução/o pedido tem o estado de em reparação."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser fornecidas num campo estruturado."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "AgentCAStandingInstructionStatusAdviceV01",
+  "definition": "Âmbito|Esta mensagem é enviada por um emitente (ou pelo seu agente) ao CSD para comunicar o estado, ou a alteração de estado, de um pedido de instrução permanente ou o estado de um pedido de cancelamento de instrução permanente.|Utilização|Quando esta mensagem é utilizada para comunicar o estado de um pedido de instrução permanente, o bloco funcional Standing Instruction Request Identification tem de estar presente.|Quando esta mensagem é utilizada para comunicar o estado de um pedido de cancelamento de instrução permanente, o bloco funcional Standing Instruction Cancellation Request Identification tem de estar presente.",
+  "isoRules": {
+    "StandingInstructionRequestIdentificationOrStandingInstructionCancellationIdentificationRule": {
+      "definition": "AgentCAStandingInstructionRequestIdentification ou AgentCAStandingInstructionCancellationRequestIdentification tem de estar presente, mas não ambos."
+    },
+    "StandingInstructionRequestIdentificationOrStandingInstructionCancellationIdentificationRuleNotBoth": {
+      "definition": "AgentCAStandingInstructionRequestIdentification ou AgentCAStandingInstructionCancellationRequestIdentification tem de estar presente, mas não ambos."
+    },
+    "StandingInstructionRequestStatusOrStandingInstructionCancellationRequestStatusRule": {
+      "definition": "StandingInstructionRequestStatus ou StandingInstructionCancellationRequestStatus tem de estar presente, mas não ambos."
+    },
+    "StandingInstructionRequestStatusOrStandingInstructionCancellationRequestStatusRuleNotBoth": {
+      "definition": "StandingInstructionRequestStatus ou StandingInstructionCancellationRequestStatus tem de estar presente, mas não ambos."
+    },
+    "StandingInstructionCancellationRequestStatusRule": {
+      "definition": "Se AgentCAStandingInstructionCancellationRequestIdentification estiver presente, StandingInstructionCancellationRequestStatus tem de estar presente."
+    },
+    "StandingInstructionRequestStatusRule": {
+      "definition": "Se AgentCAStandingInstructionRequestIdentification estiver presente, StandingInstructionRequestStatus tem de estar presente."
+    }
+  }
+}

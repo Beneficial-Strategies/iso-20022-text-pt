@@ -1,0 +1,42 @@
+{
+  "isoType": "CorporateActionReversalReason3Code",
+  "definition": "Especifica o motivo pelo qual ocorre uma reversão de pagamento no tratamento de operações sobre ativos.",
+  "isoCodes": {
+    "DCBD": {
+      "name": "Diferença na base de contagem de dias",
+      "definition": "Diferença na base de contagem de dias."
+    },
+    "FNRC": {
+      "name": "Fundos não recebidos",
+      "definition": "Os fundos não foram recebidos."
+    },
+    "IRED": {
+      "name": "Data de direito incorreta",
+      "definition": "A data de direito está incorreta."
+    },
+    "IETR": {
+      "name": "Taxa de imposto ao nível do evento incorreta",
+      "definition": "A taxa de imposto ao nível do evento está incorreta."
+    },
+    "IPCU": {
+      "name": "Moeda de pagamento incorreta",
+      "definition": "A moeda de pagamento está incorreta."
+    },
+    "IPRI": {
+      "name": "Preço incorreto",
+      "definition": "O preço está incorreto."
+    },
+    "IVAD": {
+      "name": "Data-valor incorreta",
+      "definition": "A data-valor está incorreta."
+    },
+    "UPAY": {
+      "name": "Pagamento indevido",
+      "definition": "O pagamento não é devido."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro"
+    }
+  }
+}

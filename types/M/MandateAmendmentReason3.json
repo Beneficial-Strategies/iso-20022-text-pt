@@ -1,0 +1,15 @@
+{
+  "isoType": "MandateAmendmentReason3",
+  "definition": "Fornece detalhes adicionais sobre o motivo da alteração do mandato.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Parte que emite o pedido de alteração."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo do pedido de alteração."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalhes adicionais sobre o motivo do pedido de alteração."
+    }
+  }
+}

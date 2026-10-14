@@ -1,0 +1,14 @@
+{
+  "isoType": "CurrencyDesignation1Code",
+  "definition": "Especifica se uma moeda é liquidada offshore ou onshore.",
+  "isoCodes": {
+    "ONSH": {
+      "name": "Onshore",
+      "definition": "Onshore."
+    },
+    "OFFS": {
+      "name": "Offshore",
+      "definition": "Offshore."
+    }
+  }
+}

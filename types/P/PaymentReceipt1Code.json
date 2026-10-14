@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentReceipt1Code",
+  "definition": "Especifica se uma operação é um pagamento, um recebimento ou nenhum dos dois.",
+  "isoCodes": {
+    "PAYM": {
+      "name": "Pagamento",
+      "definition": "A operação é um pagamento."
+    },
+    "RECE": {
+      "name": "Receção",
+      "definition": "A operação é um recebimento."
+    },
+    "NONE": {
+      "name": "Nenhum",
+      "definition": "A operação é nula."
+    }
+  }
+}

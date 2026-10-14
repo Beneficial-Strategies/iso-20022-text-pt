@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionNarrative63",
+  "definition": "Fornece informações adicionais, tais como as condições de tributação.",
+  "isoElements": {
+    "Offeror": {
+      "definition": "Indica a entidade que faz a oferta, que é diferente da sociedade emitente."
+    },
+    "NewCompanyName": {
+      "definition": "Fornece a nova denominação de uma sociedade após uma alteração de denominação."
+    },
+    "URLAddress": {
+      "definition": "Fornece o endereço web publicado para o evento, isto é, o endereço do Universal Resource Locator (URL), por exemplo, utilizado através do serviço www (HTTP)."
+    },
+    "EventProcessingWebSiteAddress": {
+      "definition": "Fornece o endereço web de uma instituição gestora de contas (ou de um prestador de serviços) que contém informações destinadas exclusivamente ao titular imediato da conta, a fim de permitir ou facilitar o tratamento de eventos entre as partes."
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "O campo AdditionalInformation em todos os elementos não deve conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral ou indicação em contrário na definição do elemento."
+    }
+  }
+}

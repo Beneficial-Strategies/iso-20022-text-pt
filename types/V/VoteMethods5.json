@@ -1,0 +1,18 @@
+{
+  "isoType": "VoteMethods5",
+  "definition": "Informações sobre os métodos de voto a utilizar.",
+  "isoElements": {
+    "VoteThroughNetwork": {
+      "definition": "Endereço de rede através do qual um votante pode emitir o seu voto por meio de uma mensagem estruturada."
+    },
+    "VoteByMail": {
+      "definition": "Endereço para onde pode ser enviado o boletim de voto."
+    },
+    "ElectronicVote": {
+      "definition": "Endereço eletrónico, correio eletrónico ou sítio web, onde um detentor de valores mobiliários pode votar."
+    },
+    "VoteByTelephone": {
+      "definition": "Número de telefone que dá acesso a um sistema de votação automatizado."
+    }
+  }
+}

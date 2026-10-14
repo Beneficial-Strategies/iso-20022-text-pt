@@ -1,0 +1,35 @@
+{
+  "isoType": "RequestDetails22",
+  "definition": "Detalhes do pedido que indicam as alterações e as referências da instrução.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referências da operação para a qual é solicitada a modificação intrassaldo."
+    },
+    "Linkage": {
+      "definition": "Especifica o tipo de associação solicitada."
+    },
+    "Priority": {
+      "definition": "Especifica se a operação deve ser executada com prioridade elevada."
+    },
+    "OtherProcessing": {
+      "definition": "Especifica outro tipo de pedido de alteração de tratamento."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica se a liquidação parcial é permitida."
+    },
+    "ClearingChannel": {
+      "definition": "Especifica o canal de compensação a utilizar para tratar a instrução de pagamento."
+    },
+    "Linkages": {
+      "definition": "Informações relativas à associação solicitada."
+    }
+  },
+  "isoRules": {
+    "ModificationRequestPresenceRule": {
+      "definition": "Tem de estar presente pelo menos um elemento de tipo de pedido de modificação."
+    },
+    "OtherProcessingRule": {
+      "definition": "Se OtherProcessing for utilizado, a sua utilização deve ser previamente acordada entre o remetente e o destinatário."
+    }
+  }
+}

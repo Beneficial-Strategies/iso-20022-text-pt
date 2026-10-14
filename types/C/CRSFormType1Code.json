@@ -1,0 +1,38 @@
+{
+  "isoType": "CRSFormType1Code",
+  "definition": "Especifica o tipo de formulário do Common Reporting Standard (CRS).",
+  "isoCodes": {
+    "CER4": {
+      "name": "Certificado de identificação governamental",
+      "definition": "Certificado de identificação emitido por um governo."
+    },
+    "CER3": {
+      "name": "Certificado de residência",
+      "definition": "Certificado de residência."
+    },
+    "CER5": {
+      "name": "Documento oficial do governo para a entidade",
+      "definition": "Documentação oficial emitida por um governo para a entidade."
+    },
+    "CER6": {
+      "name": "Outro documento ou relatório",
+      "definition": "Demonstração financeira, relatório de crédito de terceiros, pedido de falência ou relatório de um regulador de valores mobiliários."
+    },
+    "CER8": {
+      "name": "Informação pública da entidade",
+      "definition": "Informação publicamente disponível sobre a entidade."
+    },
+    "CER1": {
+      "name": "Autocertificação em documento separado",
+      "definition": "Autocertificação em documento separado."
+    },
+    "CER2": {
+      "name": "Autocertificação com contrato de abertura de conta",
+      "definition": "Autocertificação em documento incluído no contrato de abertura da conta."
+    },
+    "CER7": {
+      "name": "Normalizado",
+      "definition": "Sistema normalizado de codificação setorial da entidade."
+    }
+  }
+}

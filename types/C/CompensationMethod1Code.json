@@ -1,0 +1,22 @@
+{
+  "isoType": "CompensationMethod1Code",
+  "definition": "Define se e como os encargos e impostos devidos são pagos à instituição financeira.",
+  "isoCodes": {
+    "NOCP": {
+      "name": "Não",
+      "definition": "A conta não paga quaisquer encargos ou impostos devidos."
+    },
+    "DBTD": {
+      "name": "Debitado",
+      "definition": "A conta é debitada por quaisquer encargos ou impostos devidos."
+    },
+    "INVD": {
+      "name": "Faturado",
+      "definition": "É faturado à conta ou à conta de resumo qualquer encargo ou imposto devido."
+    },
+    "DDBT": {
+      "name": "Débito diferido",
+      "definition": "A conta é debitada automaticamente numa data futura."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "NotificationToReceiveV09",
+  "definition": "Âmbito|A mensagem NotificationToReceive é enviada por um titular de conta, ou por uma parte que atue em nome do titular da conta, a uma das instituições prestadoras de serviços de conta do titular da conta. Trata-se de um pré-aviso de que a instituição prestadora de serviços da conta receberá fundos a creditar na conta do titular da conta.|Utilização|A mensagem NotificationToReceive é utilizada para avisar a instituição prestadora de serviços da conta dos fundos que o titular da conta espera ver creditados na sua conta. A mensagem pode ser utilizada num cenário direto ou de retransmissão."
+}

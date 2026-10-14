@@ -1,0 +1,27 @@
+{
+  "isoType": "ConfirmationPartyDetails14",
+  "definition": "Partes utilizadas para as partes intervenientes que se aplicam à totalidade da mensagem ou a lados individuais.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco de uma organização, atribuído por uma instituição, por exemplo, a Dun & Bradstreet Identification."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "CashDetails": {
+      "definition": "Relação comercial entre duas entidades; uma das entidades é o titular da conta e a outra é a entidade gestora da conta."
+    },
+    "AlternateIdentification": {
+      "definition": "Identificação alternativa de uma parte."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identificação inequívoca da operação para a parte identificada."
+    },
+    "AdditionalInformation": {
+      "definition": "Fornece informações adicionais sobre a identificação de uma parte."
+    },
+    "PartyCapacity": {
+      "definition": "Capacidade do cliente que emite a ordem. Utilizada principalmente pelas bolsas de futuros para indicar o código CTI (indicador do tipo de cliente), conforme exigido pela CFTC (Commodity Futures Trading Commission) dos US."
+    }
+  }
+}

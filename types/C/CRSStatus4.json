@@ -1,0 +1,15 @@
+{
+  "isoType": "CRSStatus4",
+  "definition": "Informações sobre o estatuto do Common Reporting Standard (CRS).",
+  "isoElements": {
+    "Type": {
+      "definition": "Estatuto do Common Reporting Standard (CRS)."
+    },
+    "Source": {
+      "definition": "Origem do estatuto do Common Reporting Standard (CRS)."
+    },
+    "ExceptionalReportingCountry": {
+      "definition": "País declarante para o estatuto CRS quando existe uma exceção ao nível do país."
+    }
+  }
+}

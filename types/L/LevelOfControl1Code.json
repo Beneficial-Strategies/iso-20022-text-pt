@@ -1,0 +1,14 @@
+{
+  "isoType": "LevelOfControl1Code",
+  "definition": "Especifica o nível de controlo.",
+  "isoCodes": {
+    "TRAN": {
+      "name": "Operações",
+      "definition": "São permitidas operações na conta."
+    },
+    "VIEW": {
+      "name": "Consulta",
+      "definition": "A conta apenas pode ser consultada."
+    }
+  }
+}

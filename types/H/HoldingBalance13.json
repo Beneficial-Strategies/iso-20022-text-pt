@@ -1,0 +1,12 @@
+{
+  "isoType": "HoldingBalance13",
+  "definition": "Posição líquida de uma carteira segregada de um único valor mobiliário no âmbito da posição global detida na conta de valores mobiliários, por exemplo, subsaldo por estado.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Quantidade total de instrumentos financeiros da posição referenciada."
+    },
+    "BalanceType": {
+      "definition": "Motivo pelo qual um valor mobiliário não está disponível ou informações adicionais sobre o instrumento financeiro para o qual o saldo é indicado, por exemplo, não registado, registado em nome de um mandatário."
+    }
+  }
+}

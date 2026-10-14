@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesSettlementTransactions6",
+  "definition": "Fornece as operações do relatório.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte que é titular da conta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta onde os instrumentos financeiros são mantidos."
+    },
+    "StatusAndReason": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "Transaction": {
+      "definition": "Identifica a operação individual."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount tem de estar presente ou Transaction(*)/SafekeepingAccount tem de estar presente, mas não ambos."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner tem de estar presente ou Transaction(*)/AccountOwner tem de estar presente, mas não ambos."
+    }
+  }
+}

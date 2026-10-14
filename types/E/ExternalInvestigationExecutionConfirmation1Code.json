@@ -1,0 +1,130 @@
+{
+  "isoType": "ExternalInvestigationExecutionConfirmation1Code",
+  "definition": "Especifica o resultado de uma investigação, conforme publicado num conjunto de códigos externo de confirmação de execução de investigação.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "ACDA": {
+      "name": "Autorização de débito aceite",
+      "definition": "Utilizado quando um credor aceita a autorização de débito."
+    },
+    "ACNR": {
+      "name": "Reclamação de não receção aceite",
+      "definition": "O pedido por não receção de uma instrução de pagamento é aceite."
+    },
+    "ACVA": {
+      "name": "Ajustamento da data-valor aceite",
+      "definition": "O pedido de correção da data-valor é aceite."
+    },
+    "CHRG": {
+      "name": "Detalhes dos encargos fornecidos",
+      "definition": "São fornecidos mais detalhes sobre encargos para resolver o caso."
+    },
+    "CNCL": {
+      "name": "Cancelado conforme solicitado",
+      "definition": "Utilizado quando um cancelamento solicitado é bem-sucedido."
+    },
+    "CONF": {
+      "name": "Confirmação de pagamento",
+      "definition": "Utilizado quando um pagamento foi verificado e executado corretamente sem qualquer intervenção."
+    },
+    "CVAA": {
+      "name": "Data-valor correta já aplicada",
+      "definition": "A data-valor original estava correta."
+    },
+    "CWFW": {
+      "name": "Cancelamento seguirá",
+      "definition": "Utilizado quando um pagamento será cancelado para resolver um processo de investigação."
+    },
+    "FTNA": {
+      "name": "Pedido de cancelamento reencaminhado para a instituição seguinte",
+      "definition": "O pedido de cancelamento foi reencaminhado para a instituição seguinte para execução.|Utilização: este código só deve ser utilizado quando não existe um identificador de processo."
+    },
+    "ICOV": {
+      "name": "Cobertura iniciada",
+      "definition": "Utilizado quando foi iniciada uma transferência de fundos (um pagamento de cobertura) para resolver um caso."
+    },
+    "IDUP": {
+      "name": "Instrução duplicada",
+      "definition": "Utilizado quando a verificação solicitada de uma possível instrução duplicada é confirmada."
+    },
+    "IPAY": {
+      "name": "Pagamento iniciado",
+      "definition": "Utilizado quando o resultado de uma investigação é, ou será, o início de uma instrução de pagamento."
+    },
+    "IPYI": {
+      "name": "Instrução de pagamento iniciada",
+      "definition": "Utilizado quando foi iniciada uma instrução de pagamento (por exemplo, MT103) para resolver um caso."
+    },
+    "MCOV": {
+      "name": "Cobertura modificada",
+      "definition": "Utilizado quando uma transferência de fundos foi modificada (um pagamento de cobertura) para resolver um caso."
+    },
+    "MODI": {
+      "name": "Modificado conforme solicitado",
+      "definition": "Utilizado quando uma modificação solicitada é bem-sucedida."
+    },
+    "MWFW": {
+      "name": "Modificação seguirá",
+      "definition": "Utilizado quando o pagamento será modificado para resolver um processo de investigação."
+    },
+    "PDCR": {
+      "name": "Pedido de anulação pendente",
+      "definition": "Utilizado quando um cancelamento solicitado está pendente."
+    },
+    "PECR": {
+      "name": "Pedido de cancelamento parcialmente executado",
+      "definition": "Utilizado quando um cancelamento solicitado foi parcialmente executado."
+    },
+    "PURP": {
+      "name": "Detalhes da finalidade fornecidos",
+      "definition": "São fornecidos mais detalhes sobre a finalidade para resolver o caso."
+    },
+    "RJCR": {
+      "name": "Pedido de anulação rejeitado",
+      "definition": "Utilizado quando um cancelamento solicitado foi rejeitado."
+    },
+    "RJNR": {
+      "name": "Reclamação de não receção rejeitada",
+      "definition": "O pedido por não receção de uma instrução de pagamento é rejeitado."
+    },
+    "RJVA": {
+      "name": "Ajustamento da data-valor rejeitado",
+      "definition": "O pedido de correção da data-valor é rejeitado."
+    },
+    "SMTC": {
+      "name": "Lançamento do extrato correto",
+      "definition": "Utilizado quando o lançamento no extrato está correto."
+    },
+    "SMTI": {
+      "name": "Lançamento do extrato incorreto",
+      "definition": "Utilizado quando o lançamento no extrato está incorreto e são fornecidas mais informações com a resolução."
+    },
+    "UWFW": {
+      "name": "Impossibilidade de aplicação, seguirá",
+      "definition": "Utilizado quando o remetente pretende responder a uma atribuição com um fluxo de trabalho Unable To Apply."
+    },
+    "BIAS": {
+      "name": "Instrução de lote já liquidada",
+      "definition": "Processar um pedido de cancelamento, mas o lote já foi liquidado."
+    },
+    "IDNE": {
+      "name": "Instrução inexistente",
+      "definition": "Processar um cancelamento de lote \"utilizando um número de sequência de lote incorreto\"."
+    },
+    "IVCR": {
+      "name": "Pedido de cancelamento inválido",
+      "definition": "Processar um pedido de cancelamento com referência incorreta ao lote original."
+    },
+    "INFO": {
+      "name": "Informações adicionais enviadas",
+      "definition": "Utilizado quando foram enviadas informações adicionais ao beneficiário de um pagamento."
+    },
+    "NINF": {
+      "name": "Sem informações disponíveis",
+      "definition": "Utilizado quando não estão disponíveis informações adicionais."
+    },
+    "PDNG": {
+      "name": "Pendente",
+      "definition": "Utilizado para informar que uma resposta a uma investigação está pendente."
+    }
+  }
+}

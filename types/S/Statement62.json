@@ -1,0 +1,24 @@
+{
+  "isoType": "Statement62",
+  "definition": "Características do extrato.",
+  "isoElements": {
+    "CounterpartyPortfolioTransferNotificationReference": {
+      "definition": "Identificação atribuída pela contraparte da transferência de carteira para identificar inequivocamente uma notificação de transferência de carteira."
+    },
+    "ReportNumber": {
+      "definition": "Número sequencial do relatório."
+    },
+    "StatementIdentification": {
+      "definition": "Referência comum a todas as páginas de um extrato."
+    },
+    "StatementDateTime": {
+      "definition": "Data e hora do extrato."
+    },
+    "UpdateType": {
+      "definition": "Indica se o extrato está completo ou contém apenas alterações."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica se o extrato comunica atividade ou atualização de informação."
+    }
+  }
+}

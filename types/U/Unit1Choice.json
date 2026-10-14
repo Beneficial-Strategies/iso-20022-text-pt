@@ -1,0 +1,12 @@
+{
+  "isoType": "Unit1Choice",
+  "definition": "Quantidade de unidades ou de ativos digitais.",
+  "isoElements": {
+    "UnitsNumber": {
+      "definition": "Quantidade de unidades."
+    },
+    "DigitalTokenUnit": {
+      "definition": "Quantidade de tokens digitais expressa como um número, por exemplo, um número de tokens de blockchain."
+    }
+  }
+}

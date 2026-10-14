@@ -1,0 +1,98 @@
+{
+  "isoType": "TransferStatusAndReason09",
+  "definition": "Informações sobre o estado de uma instrução de transferência e o respetivo motivo.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de um grupo de transferências individuais, atribuído pela parte ordenante. Este identificador associa as transferências individuais entre si."
+    },
+    "TransferReference": {
+      "definition": "Identificação única e inequívoca da transferência, atribuída pela parte ordenante."
+    },
+    "ClientReference": {
+      "definition": "Identificação única e inequívoca da transferência pelo investidor. Esta referência pode normalmente ser utilizada num cenário de plataforma central (hub) para indicar a referência da transferência atribuída pelo cliente subjacente."
+    },
+    "CancellationReference": {
+      "definition": "Identificador único e inequívoco de um cancelamento de transferência, atribuído pela parte ordenante."
+    },
+    "TransferEventType": {
+      "definition": "Tipo de evento para o qual a mensagem é enviada."
+    },
+    "TransferStatus": {
+      "definition": "Estado da instrução de transferência."
+    },
+    "Instrument": {
+      "definition": "Identificação do ativo."
+    },
+    "InvestmentAccountDetails": {
+      "definition": "Informações sobre a conta de investimento da transferência para a qual é fornecido o estado ou a informação."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identificação de uma parte relacionada ou de um intermediário."
+    },
+    "TradeDate": {
+      "definition": "Data em que a transferência foi executada.|Em alguns cenários, esta é a data e hora a utilizar como data da operação quando os valores mobiliários são liquidados através de uma Central de Valores Mobiliários Internacional (ICSD) ou de uma Central de Valores Mobiliários (CSD)."
+    },
+    "SettlementDate": {
+      "definition": "Data em que os valores mobiliários devem ser trocados ou foram trocados na Central de Valores Mobiliários Internacional (ICSD) ou na Central de Valores Mobiliários (CSD)."
+    },
+    "SendOutDate": {
+      "definition": "Data em que o documento, por exemplo, o formulário de pedido, foi enviado."
+    },
+    "CashSettlementDate": {
+      "definition": "Data em que o numerário está disponível."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Número de unidades a transferir."
+    },
+    "AveragePrice": {
+      "definition": "Preço médio ponderado das unidades na conta. O preço médio também pode ser designado preço médio de aquisição."
+    },
+    "UnitsDetails": {
+      "definition": "Discriminação das unidades a transferir."
+    },
+    "Conversion": {
+      "definition": "Informações sobre o valor mobiliário de origem após uma conversão."
+    },
+    "TotalTransferValue": {
+      "definition": "Valor total da transferência."
+    },
+    "PaymentDetails": {
+      "definition": "Detalhes de um pagamento que resultará ou resulta da liquidação de um ativo e da transferência de numerário, ou da transferência de numerário que não foi investido."
+    },
+    "BenefitCrystallisationEvent": {
+      "definition": "Informações sobre a realização de benefícios retirados de uma pensão."
+    },
+    "DrawdownTranche": {
+      "definition": "Detalhes de uma tranche de levantamento."
+    },
+    "OtherDrawdownInformation": {
+      "definition": "Informações sobre levantamentos não associadas especificamente a uma tranche de levantamento."
+    },
+    "QueryResponse": {
+      "definition": "Informações de resposta."
+    },
+    "StatusInitiator": {
+      "definition": "Parte que inicia o estado."
+    },
+    "StatusIssuer": {
+      "definition": "Parte que emite a mensagem de estado ou de informação."
+    },
+    "StatusRecipient": {
+      "definition": "Parte que recebe a mensagem de estado ou de informação."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o estado."
+    }
+  },
+  "isoRules": {
+    "TransferStatusEventType1Rule": {
+      "definition": "Se pelo menos uma ocorrência de TransferEventType for Informação (INFO), então TransferStatus/Status/Status tem de ser igual a Recebido (RECE)."
+    },
+    "TransferStatusEventType2Rule": {
+      "definition": "Se pelo menos uma ocorrência de TransferEventType for ConversionStatus (CONV), então TransferStatus/Status/Status tem de ser igual a Recebido (RECE)."
+    },
+    "ConversionRule": {
+      "definition": "Se pelo menos uma ocorrência de TransferEventType for ConversionStatus (CONV), então Conversion tem de estar presente."
+    }
+  }
+}

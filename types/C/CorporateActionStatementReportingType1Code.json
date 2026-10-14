@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionStatementReportingType1Code",
+  "definition": "Tipo de extrato que reporta as posições de conta relativas a eventos sobre ativos, por exemplo, reportando várias contas ou vários eventos.",
+  "isoCodes": {
+    "MASE": {
+      "name": "Várias contas",
+      "definition": "O reporte refere-se a um único evento e a várias contas."
+    },
+    "SAME": {
+      "name": "Vários eventos",
+      "definition": "O reporte refere-se a vários eventos para uma única conta."
+    }
+  }
+}

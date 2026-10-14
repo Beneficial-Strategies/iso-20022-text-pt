@@ -1,0 +1,30 @@
+{
+  "isoType": "ProcessedStatus7Code",
+  "definition": "Estado de processamento do aviso de notificação de ação societária proveniente do agente do emitente.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Recebido",
+      "definition": "A instrução/o pedido foi recebido."
+    },
+    "SENT": {
+      "name": "Enviado ao mercado",
+      "definition": "O aviso foi enviado ao mercado."
+    },
+    "SNAV": {
+      "name": "Sistema não disponível",
+      "definition": "O sistema não está disponível. A instrução é enviada fora do horário de funcionamento."
+    },
+    "WARN": {
+      "name": "Aceite com aviso",
+      "definition": "O anúncio foi aceite, mas outra fonte forneceu informações diferentes."
+    },
+    "PACK": {
+      "name": "Aceite",
+      "definition": "O pedido é aceite."
+    },
+    "PEND": {
+      "name": "Pendente",
+      "definition": "O processamento do pedido está pendente."
+    }
+  }
+}

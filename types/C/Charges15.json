@@ -1,0 +1,12 @@
+{
+  "isoType": "Charges15",
+  "definition": "Fornece informações adicionais sobre os encargos relativos à operação de pagamento.",
+  "isoElements": {
+    "TotalChargesAndTaxAmount": {
+      "definition": "Total de todos os encargos e impostos aplicados ao lançamento."
+    },
+    "Record": {
+      "definition": "Fornece os detalhes do registo individual de encargos."
+    }
+  }
+}

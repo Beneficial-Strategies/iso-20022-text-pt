@@ -1,0 +1,10 @@
+{
+  "isoType": "PlaceType1Code",
+  "definition": "Tipo de data.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "O tipo de local é desconhecido."
+    }
+  }
+}

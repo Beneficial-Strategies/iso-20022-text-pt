@@ -1,0 +1,15 @@
+{
+  "isoType": "TrackerParty2Choice",
+  "definition": "Natureza ou utilização da conta.",
+  "isoElements": {
+    "OrganisationIdentification": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    },
+    "PrivateIdentification": {
+      "definition": "Identificação única e inequívoca de uma pessoa, por exemplo, um passaporte."
+    },
+    "FinancialInstitutionIdentification": {
+      "definition": "Identificação única e inequívoca de uma instituição financeira, conforme atribuída ao abrigo de um esquema de identificação reconhecido internacionalmente ou proprietário."
+    }
+  }
+}

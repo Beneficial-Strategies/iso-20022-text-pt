@@ -1,0 +1,4 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactionsCancellationV02",
+  "definition": "Âmbito|Um intermediário da conta, por exemplo, um agente de transferências, envia a mensagem StatementOfInvestmentFundTransactionsCancellation ao titular da conta, por exemplo, um gestor de investimentos ou o seu representante autorizado, para cancelar uma mensagem StatementOfInvestmentFundTransactions enviada anteriormente.|Utilização|A mensagem StatementOfInvestmentFundTransactionsCancellation é utilizada para cancelar uma mensagem StatementOfInvestmentFundTransactions enviada anteriormente. Esta mensagem deve conter a referência da mensagem a cancelar.|Esta mensagem pode também conter todos os detalhes da mensagem a cancelar, mas tal não é recomendado."
+}

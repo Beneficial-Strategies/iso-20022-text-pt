@@ -1,0 +1,154 @@
+{
+  "isoType": "UnmatchedStatusReason1Code",
+  "definition": "Especifica o motivo pelo qual a operação/instrução não está emparelhada.",
+  "isoCodes": {
+    "CMIS": {
+      "name": "Instrução correspondente não encontrada",
+      "definition": "Não foi possível encontrar a instrução correspondente da contraparte."
+    },
+    "DDAT": {
+      "name": "Discordância na data de liquidação",
+      "definition": "A contraparte discorda da data/hora de liquidação."
+    },
+    "DELN": {
+      "name": "Discordância no sentido da operação",
+      "definition": "A contraparte espera uma entrega e não uma receção, ou espera uma receção e não uma entrega."
+    },
+    "DEPT": {
+      "name": "Discordância no local de liquidação",
+      "definition": "A contraparte discorda do local de liquidação."
+    },
+    "DMON": {
+      "name": "Discordância no montante de liquidação",
+      "definition": "A contraparte discorda do montante de liquidação."
+    },
+    "DDEA": {
+      "name": "Discordância no preço da operação",
+      "definition": "A contraparte discorda do preço da operação."
+    },
+    "DQUA": {
+      "name": "Discordância na quantidade",
+      "definition": "A contraparte discorda da quantidade do instrumento financeiro."
+    },
+    "CADE": {
+      "name": "Discordância no prazo de aviso de recompra",
+      "definition": "O prazo de pré-aviso de recompra não coincide."
+    },
+    "SETR": {
+      "name": "Discordância na operação de liquidação",
+      "definition": "O tipo de operação de liquidação não coincide."
+    },
+    "DSEC": {
+      "name": "Discordância no valor mobiliário",
+      "definition": "A contraparte discorda do valor mobiliário/emissão, por exemplo, o ISIN ou um atributo do instrumento financeiro é diferente."
+    },
+    "VASU": {
+      "name": "Discordância no suporte de taxa variável",
+      "definition": "O suporte de taxa variável não coincide."
+    },
+    "DTRA": {
+      "name": "Não reconhecido",
+      "definition": "A contraparte não reconhece a operação."
+    },
+    "RSPR": {
+      "name": "Discordância no diferencial da taxa de recompra",
+      "definition": "A taxa de diferencial (spread) de recompra não coincide."
+    },
+    "REPO": {
+      "name": "Discordância na taxa de recompra",
+      "definition": "A taxa de recompra não coincide."
+    },
+    "CLAT": {
+      "name": "Contraparte fora de prazo para emparelhamento",
+      "definition": "A instrução da contraparte foi demasiado tardia."
+    },
+    "RERT": {
+      "name": "Discordância no tipo de taxa de recompra",
+      "definition": "O tipo de taxa de recompra não coincide."
+    },
+    "REPA": {
+      "name": "Discordância no montante de recompra",
+      "definition": "O montante de recompra não coincide."
+    },
+    "REPP": {
+      "name": "Discordância no montante do prémio de recompra",
+      "definition": "O montante do prémio de recompra não coincide."
+    },
+    "PHYS": {
+      "name": "Discordância na liquidação física",
+      "definition": "A instrução da contraparte destina-se a liquidação física e a sua não, ou vice-versa."
+    },
+    "IIND": {
+      "name": "Discordância na referência comum",
+      "definition": "A contraparte discorda da referência comum."
+    },
+    "FRAP": {
+      "name": "Discordância no código de pagamento",
+      "definition": "A instrução da contraparte destina-se a liquidação livre de pagamento e a sua a liquidação contra pagamento, ou vice-versa."
+    },
+    "PLCE": {
+      "name": "Discordância no local de negociação",
+      "definition": "O local de negociação não coincide."
+    },
+    "PODU": {
+      "name": "Possível instrução duplicada",
+      "definition": "A instrução é um possível duplicado."
+    },
+    "FORF": {
+      "name": "Discordância no montante de recompra por perda",
+      "definition": "O montante de perda (forfeit) de recompra não coincide."
+    },
+    "REGD": {
+      "name": "Discordância nos dados de registo",
+      "definition": "Existem discrepâncias nos pormenores de registo associados à operação."
+    },
+    "RTGS": {
+      "name": "Discordância no sistema RTGS",
+      "definition": "A contraparte indica uma liquidação através de um sistema RTGS e a sua indica uma liquidação fora do RTGS, ou vice-versa."
+    },
+    "ICAG": {
+      "name": "Agente incorreto",
+      "definition": "A contraparte indicou uma instituição de entrega ou de receção incorreta."
+    },
+    "CPCA": {
+      "name": "Instrução cancelada pela contraparte",
+      "definition": "A contraparte cancelou a operação/instrução."
+    },
+    "CHAR": {
+      "name": "Discordância no montante dos encargos",
+      "definition": "A contraparte discorda do montante dos encargos."
+    },
+    "IEXE": {
+      "name": "Comprador ou vendedor incorreto",
+      "definition": "A instrução indica um comprador (recetor) ou um vendedor (entregador) incorreto."
+    },
+    "NCRR": {
+      "name": "Discordância na moeda do montante de liquidação",
+      "definition": "A contraparte discorda da moeda do montante de liquidação."
+    },
+    "NMAS": {
+      "name": "Emparelhamento não iniciado",
+      "definition": "O processo de emparelhamento ainda não foi iniciado."
+    },
+    "SAFE": {
+      "name": "Discordância na conta de custódia",
+      "definition": "A conta de custódia utilizada como critério de emparelhamento no mercado em causa não coincide."
+    },
+    "DTRD": {
+      "name": "Discordância na data da operação",
+      "definition": "A contraparte discorda da data de negociação."
+    },
+    "LATE": {
+      "name": "A sua instrução está fora de prazo para emparelhamento",
+      "definition": "Instrução recebida demasiado tarde para o emparelhamento."
+    },
+    "TERM": {
+      "name": "Discordância na data e hora de fecho",
+      "definition": "A data/hora de encerramento não coincide."
+    },
+    "ICUS": {
+      "name": "Discordância no custodiante recetor ou entregador",
+      "definition": "Custodiante de entrega ou de receção incorreto."
+    }
+  }
+}

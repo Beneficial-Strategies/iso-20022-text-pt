@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementSystemMethod5Choice",
+  "definition": "Escolha do formato do sistema/método de liquidação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Sistema de liquidação expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Sistema de liquidação expresso como um código proprietário."
+    }
+  }
+}

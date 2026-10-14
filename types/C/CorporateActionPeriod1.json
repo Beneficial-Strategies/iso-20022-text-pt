@@ -1,0 +1,21 @@
+{
+  "isoType": "CorporateActionPeriod1",
+  "definition": "Especifica períodos.",
+  "isoElements": {
+    "ActionPeriod": {
+      "definition": "Período durante o qual a opção especificada, ou todas as opções do evento, permanece válida, por exemplo, o período da oferta."
+    },
+    "CompulsoryPurchasePeriod": {
+      "definition": "Período, durante uma oferta pública de aquisição, em que quaisquer ações em circulação têm de ser adquiridas pela sociedade adquirente."
+    },
+    "InterestPeriod": {
+      "definition": "Período durante o qual a taxa de juro foi aplicada."
+    },
+    "BlockingPeriod": {
+      "definition": "Período durante o qual o valor mobiliário está bloqueado."
+    },
+    "PriceCalculationPeriod": {
+      "definition": "Período durante o qual é determinado o preço de um valor mobiliário."
+    }
+  }
+}

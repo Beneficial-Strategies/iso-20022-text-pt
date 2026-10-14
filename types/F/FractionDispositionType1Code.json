@@ -1,0 +1,30 @@
+{
+  "isoType": "FractionDispositionType1Code",
+  "definition": "Especifica como serão tratadas as frações resultantes de valores mobiliários derivados ou como serão arredondadas as decisões objeto de rateio, se for fornecida uma taxa de rateio.",
+  "isoCodes": {
+    "BUYU": {
+      "name": "Aquisição adicional",
+      "definition": "Comprar valores mobiliários até ao número inteiro seguinte."
+    },
+    "CINL": {
+      "name": "Numerário em substituição de fração",
+      "definition": "Parte fracionária em numerário. Receber numerário em vez de frações."
+    },
+    "DIST": {
+      "name": "Emitir fração",
+      "definition": "Receber a distribuição de frações sob a forma de valores mobiliários."
+    },
+    "RDDN": {
+      "name": "Arredondar por defeito",
+      "definition": "Arredondar por defeito para o número inteiro mais próximo."
+    },
+    "RDUP": {
+      "name": "Arredondar por excesso",
+      "definition": "Arredondar por excesso para o número inteiro mais próximo."
+    },
+    "STAN": {
+      "name": "Arredondar ao mais próximo",
+      "definition": "Se a fração for superior ou igual a 0,5 do valor mobiliário resultante, arredonda-se por excesso; caso contrário, arredonda-se por defeito (0.5)."
+    }
+  }
+}

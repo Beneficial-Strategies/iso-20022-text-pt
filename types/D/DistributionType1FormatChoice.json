@@ -1,0 +1,12 @@
+{
+  "isoType": "DistributionType1FormatChoice",
+  "definition": "Escolha de formatos para exprimir o tipo de distribuição.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de distribuição."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir o tipo de distribuição."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "DocumentNumber13",
+  "definition": "Identificação de um documento.",
+  "isoElements": {
+    "Number": {
+      "definition": "Número utilizado para identificar uma mensagem ou um documento."
+    }
+  }
+}

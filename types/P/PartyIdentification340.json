@@ -1,0 +1,30 @@
+{
+  "isoType": "PartyIdentification340",
+  "definition": "Fornece informações sobre o beneficiário efetivo dos valores mobiliários.",
+  "isoElements": {
+    "OwnerIdentification": {
+      "definition": "Parte que é o beneficiário efetivo da quantidade especificada de valores mobiliários."
+    },
+    "AlternateIdentification": {
+      "definition": "Identificação alternativa de uma parte."
+    },
+    "DomicileCountry": {
+      "definition": "País em que uma pessoa tem domicílio permanente (o local da residência permanente de uma pessoa)."
+    },
+    "NonDomicileCountry": {
+      "definition": "O titular do valor mobiliário certifica, em conformidade com os termos da operação sobre títulos, que não está domiciliado no país indicado."
+    },
+    "OwnedSecuritiesQuantity": {
+      "definition": "Quantidade de valores mobiliários pertencentes ao beneficiário efetivo especificado."
+    },
+    "CertificationType": {
+      "definition": "Tipo de certificação exigida."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Percentagem solicitada de uma distribuição em numerário que será retida pelas autoridades fiscais da jurisdição do emitente, para a qual pode ser possível uma isenção na fonte e/ou uma reclamação."
+    },
+    "CertificationBreakdown": {
+      "definition": "Fornece informações adicionais sobre o tipo de certificação/discriminação exigido."
+    }
+  }
+}

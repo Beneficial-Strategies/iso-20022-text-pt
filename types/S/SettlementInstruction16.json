@@ -1,0 +1,26 @@
+{
+  "isoType": "SettlementInstruction16",
+  "definition": "Fornece detalhes adicionais sobre a liquidação da instrução.",
+  "isoElements": {
+    "InstructingReimbursementAgent": {
+      "definition": "Agente através do qual o agente instrutor reembolsará o agente instruído.|Utilização: Se InstructingAgent e InstructedAgent tiverem o mesmo agente de reembolso, deve ser utilizado apenas InstructingReimbursementAgent."
+    },
+    "InstructingReimbursementAgentAccount": {
+      "definition": "Identificação inequívoca da conta do agente de reembolso instrutor junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "InstructedReimbursementAgent": {
+      "definition": "Agente junto do qual o agente instruído será reembolsado.|Utilização: Se InstructedReimbursementAgent contiver uma sucursal de InstructedAgent, a parte em InstructedAgent solicitará o reembolso a essa sucursal/será paga por essa sucursal.|Utilização: Se InstructingAgent e InstructedAgent tiverem o mesmo agente de reembolso, deve ser utilizado apenas InstructingReimbursementAgent."
+    },
+    "InstructedReimbursementAgentAccount": {
+      "definition": "Identificação inequívoca da conta do agente de reembolso instruído junto do seu agente prestador de serviços na cadeia de pagamento."
+    }
+  },
+  "isoRules": {
+    "InstructingReimbursementAgentAccountRule": {
+      "definition": "Se InstructingReimbursementAgentAcount estiver presente, então InstructingReimbursementAgent tem de estar presente."
+    },
+    "InstructedReimbursementAgentAccountRule": {
+      "definition": "Se InstructedReimbursementAgentAccount estiver presente, então InstructedReimbursementAgent tem de estar presente."
+    }
+  }
+}

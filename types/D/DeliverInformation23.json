@@ -1,0 +1,74 @@
+{
+  "isoType": "DeliverInformation23",
+  "definition": "Parâmetros aplicados à liquidação de uma transferência de valores mobiliários.",
+  "isoElements": {
+    "Transferor": {
+      "definition": "Parte que entrega (cedente) os valores mobiliários ao agente recetor (cessionário)."
+    },
+    "TransferorRegisteredAccount": {
+      "definition": "Conta a partir da qual os valores mobiliários devem ser entregues."
+    },
+    "IntermediaryInformation": {
+      "definition": "Identificação de uma parte relacionada ou de um intermediário."
+    },
+    "SecuritiesForm": {
+      "definition": "Forma, isto é, titularidade, do valor mobiliário, isto é, nominativo ou ao portador."
+    },
+    "DematerialisedIndicator": {
+      "definition": "Indica se um valor mobiliário existe apenas como registo eletrónico, ou seja, se não existe nenhum documento físico que represente o valor mobiliário."
+    },
+    "IncomePreference": {
+      "definition": "Opção de dividendos escolhida pelo titular da conta com base nas opções oferecidas no prospeto."
+    },
+    "BeneficiaryCertificationCompletion": {
+      "definition": "O beneficiário efetivo ou o seu agente designado certifica que cumpre quaisquer restrições ou requisitos de detenção ou de investimento do fundo."
+    },
+    "RequestedTradeDate": {
+      "definition": "Data utilizada como data de negociação quando os valores mobiliários são liquidados através de um Depositário Central Internacional de Valores Mobiliários (ICSD) ou de um Depositário Central de Valores Mobiliários (CSD)."
+    },
+    "RequestedSettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários devem ser trocados na central internacional de depósito de valores mobiliários (ICSD) ou na central de depósito de valores mobiliários (CSD)."
+    },
+    "EffectiveSettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários foram trocados no Depositário Central Internacional de Valores Mobiliários (ICSD) ou no Depositário Central de Valores Mobiliários (CSD)."
+    },
+    "SettlementAmount": {
+      "definition": "Montante total de dinheiro pago/a pagar ou recebido em troca do instrumento financeiro."
+    },
+    "StampDuty": {
+      "definition": "Especifica se o montante de liquidação inclui o montante do imposto do selo."
+    },
+    "NetAmount": {
+      "definition": "Montante da transação."
+    },
+    "Fees": {
+      "definition": "Comissão relacionada com a transferência do instrumento financeiro."
+    },
+    "IndividualTax": {
+      "definition": "Imposto relacionado com a transferência de um instrumento financeiro."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Informações necessárias para processar uma troca ou conversão de moeda.|A forma como a taxa de câmbio é expressa determina qual é a Moeda Unitária (Unit Currency) e qual é a Moeda Cotada (Quoted Currency). Se os montantes em causa forem EUR 1000 e USD 1300, a taxa de câmbio pode ser expressa segundo qualquer um dos exemplos seguintes:|EXEMPLO 1 |UnitCurrency EUR|QuotedCurrency USD|ExchangeRate 1.300|EXEMPLO 2|UnitCurrency USD|QuotedCurrency EUR|ExchangeRate 0.769 (EXAMPLE)."
+    },
+    "SettlementPartiesDetails": {
+      "definition": "Cadeia de partes envolvidas na liquidação da operação."
+    },
+    "PhysicalTransfer": {
+      "definition": "Indica se o instrumento financeiro deve ser entregue fisicamente."
+    },
+    "PhysicalTransferDetails": {
+      "definition": "Parâmetros de uma entrega física."
+    },
+    "ClientReference": {
+      "definition": "Identificação única e inequívoca da transferência pelo investidor. Esta referência pode normalmente ser utilizada num cenário de plataforma central (hub) para indicar a referência da transferência atribuída pelo cliente subjacente."
+    }
+  },
+  "isoRules": {
+    "PhysicalTransferDetails1Rule": {
+      "definition": "Se PhysicalTransfer for PHYS (Físico), então PhysicalTransferDetails tem de estar presente."
+    },
+    "PhysicalTransferDetails2Rule": {
+      "definition": "Se PhysicalTransfer for DEMT (Desmaterializado), então PhysicalTransferDetails não é permitido."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "TR34Command1Code",
+  "definition": "Comando TR34 específico que o ATM pode executar.",
+  "isoCodes": {
+    "BIND": {
+      "name": "Associar",
+      "definition": "Operação TR34 de associação (bind)."
+    },
+    "HILR": {
+      "name": "Reassociação de nível superior",
+      "definition": "Operação TR34 de reassociação (rebind) de nível superior."
+    },
+    "HILU": {
+      "name": "Desassociação de nível superior",
+      "definition": "Operação TR34 de desassociação (unbind) de nível superior."
+    },
+    "RBND": {
+      "name": "Reassociar",
+      "definition": "Operação TR34 de reassociação (rebind)."
+    },
+    "UBND": {
+      "name": "Desassociar",
+      "definition": "Operação TR34 de desassociação (unbind)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMCommand9",
+  "definition": "Parte que solicitou a reconciliação.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comando a executar pelo ATM."
+    },
+    "CommandIdentification": {
+      "definition": "Identificação da entidade que emite o comando."
+    }
+  }
+}

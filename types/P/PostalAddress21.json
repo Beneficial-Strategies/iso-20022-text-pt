@@ -1,0 +1,65 @@
+{
+  "isoType": "PostalAddress21",
+  "definition": "Informações que localizam e identificam um endereço específico, conforme definido pelos serviços postais.",
+  "isoElements": {
+    "AddressType": {
+      "definition": "Tipo de morada."
+    },
+    "MailingIndicator": {
+      "definition": "Indica se o correio deve ser enviado para a morada."
+    },
+    "RegistrationAddressIndicator": {
+      "definition": "Indica se a morada é a morada oficial da parte."
+    },
+    "CareOf": {
+      "definition": "Quando o particular reside na morada de outra pessoa, o nome dessa outra pessoa."
+    },
+    "AddressLine": {
+      "definition": "Informações que localizam e identificam um endereço específico, tal como definido pelos serviços postais, apresentadas em texto de formato livre."
+    },
+    "StreetName": {
+      "definition": "Nome da rua ou via pública."
+    },
+    "BuildingNumber": {
+      "definition": "Número que identifica a posição do edifício numa rua."
+    },
+    "BuildingName": {
+      "definition": "Nome do edifício ou da casa."
+    },
+    "PostBox": {
+      "definition": "Número da caixa postal do destinatário no interior do edifício residencial ou da empresa."
+    },
+    "SideInBuilding": {
+      "definition": "Lado ou ala do edifício, por exemplo, «ala A»."
+    },
+    "Floor": {
+      "definition": "Andar ou piso do edifício."
+    },
+    "SuiteIdentification": {
+      "definition": "Identificação da fração ou do apartamento."
+    },
+    "PostCode": {
+      "definition": "Identificador constituído por um grupo de letras e/ou números que é acrescentado a um endereço postal para facilitar a triagem do correio."
+    },
+    "DistrictName": {
+      "definition": "Nome de um bairro, ou seja, de uma parte da cidade ou da região."
+    },
+    "Village": {
+      "definition": "Nome da aldeia."
+    },
+    "TownName": {
+      "definition": "Nome da vila ou cidade."
+    },
+    "State": {
+      "definition": "Nome do estado, do condado ou da subdivisão do país."
+    },
+    "Country": {
+      "definition": "País da morada."
+    }
+  },
+  "isoRules": {
+    "MailingIndicatorRule": {
+      "definition": "Se RegistrationAddressIndicator for \"true\" ou \"1\" (Sim), então MailingIndicator tem de ser \"true\" ou \"1\"."
+    }
+  }
+}

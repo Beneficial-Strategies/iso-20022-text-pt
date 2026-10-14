@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionEnvironment3Code",
+  "definition": "Indica a entidade que aloja o terminal que efetua a operação.",
+  "isoCodes": {
+    "BRCH": {
+      "name": "Balcão",
+      "definition": "Ambiente bancário."
+    },
+    "MERC": {
+      "name": "Comerciante",
+      "definition": "Ambiente de comerciante."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outros ambientes, por exemplo um centro comercial ou um aeroporto."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountDetailsConfirmationV08",
+  "definition": "Âmbito|A mensagem AccountDetailsConfirmation é enviada por um prestador de serviços da conta, por exemplo, um registador, agente de transferência, banco depositário ou central de valores mobiliários, ao titular da conta, por exemplo, um investidor, para confirmar a abertura de uma conta, a execução de uma AccountModificationInstruction ou para devolver as informações solicitadas numa mensagem GetAccountDetails.|Utilização|A mensagem AccountDetailsConfirmation é utilizada para confirmar a abertura de uma conta, a alteração de uma conta ou a prestação das informações solicitadas numa mensagem GetAccountDetails enviada anteriormente. A mensagem contém informações detalhadas relevantes para a conta aberta.|Quando a AccountDetailsConfirmation é utilizada para confirmar a execução de uma mensagem AccountModificationInstruction, pode:|- conter os subconjuntos modificados dos detalhes da conta que foram especificados na AccountModificationInstruction, e/ou|- indicar o estado da conta.|Quando a mensagem AccountModificationInstruction é utilizada para dar instruções de encerramento de uma conta, a mensagem AccountDetailsConfirmation é utilizada para confirmar que a conta foi encerrada. |Quando a AccountDetailsConfirmation é utilizada para responder a uma mensagem GetAccountDetails, devolve os subconjuntos selecionados dos detalhes da conta que foram especificados na mensagem GetAccountDetails.",
+  "isoRules": {
+    "InvestmentAccountRule": {
+      "definition": "Se ConfirmationDetails/ConfirmationType/Code for ACCO (AccountOpening), então InvestmentAccount tem de estar presente."
+    },
+    "UnitRule": {
+      "definition": "Se SavingsInvestmentPlan estiver presente, então SavingsInvestmentPlan/Quantity/Unit não é permitido."
+    }
+  }
+}

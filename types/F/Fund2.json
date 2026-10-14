@@ -1,0 +1,59 @@
+{
+  "isoType": "Fund2",
+  "definition": "Informações sobre um fundo de investimento.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nome do fundo/subfundo."
+    },
+    "LegalEntityIdentifier": {
+      "definition": "Identificação do fundo/subfundo com um Legal Entity Identifier. Trata-se de um código atribuído a uma parte, tal como descrito na norma ISO 17442 \"Financial Services - Legal Entity Identifier (LEI)\"."
+    },
+    "Identification": {
+      "definition": "Identificador único e inequívoco do fundo/subfundo, atribuído ao abrigo de um esquema de identificação formal ou proprietário."
+    },
+    "Currency": {
+      "definition": "Moeda do fundo/subfundo."
+    },
+    "TradeDateTime": {
+      "definition": "Data e, se necessário, hora em que o preço será aplicado."
+    },
+    "PreviousTradeDateTime": {
+      "definition": "Data e hora anteriores em que o preço foi aplicado."
+    },
+    "TotalNAV": {
+      "definition": "Valor total de todas as participações, deduzido o passivo do fundo, do fundo/subfundo."
+    },
+    "PreviousTotalNAV": {
+      "definition": "Valor total anterior de todas as participações, deduzidas as responsabilidades do fundo, do fundo/subfundo."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Número total de unidades do fundo/subfundo."
+    },
+    "PreviousTotalUnitsNumber": {
+      "definition": "Número total anterior de unidades do fundo/subfundo."
+    },
+    "PercentageOfFundTotalNAV": {
+      "definition": "Fluxo de caixa líquido consolidado, expresso em percentagem do valor patrimonial líquido (NAV) total do fundo/subfundo."
+    },
+    "CashInForecastDetails": {
+      "definition": "Movimento de caixa de entrada no fundo/subfundo."
+    },
+    "CashOutForecastDetails": {
+      "definition": "Movimento de caixa de saída do fundo/subfundo."
+    },
+    "NetCashForecastDetails": {
+      "definition": "Numerário líquido resultante dos fluxos de caixa de entrada e de saída."
+    }
+  },
+  "isoRules": {
+    "FundIdentification1Rule": {
+      "definition": "Se Identification não estiver presente, então Name ou LegalEntityIdentifier têm de estar presentes. Identification, Name e Legal Entity Identifier podem estar todos presentes."
+    },
+    "FundIdentification2Rule": {
+      "definition": "Se Name não estiver presente, então Identification ou Legal Entity Identifier têm de estar presentes. Identification, Name e Legal Entity Identifier podem estar todos presentes."
+    },
+    "FundIdentification3Rule": {
+      "definition": "Se Legal Entity Identifier não estiver presente, então Identification ou Name têm de estar presentes. Identification, Name e Legal Entity Identifier podem estar todos presentes."
+    }
+  }
+}

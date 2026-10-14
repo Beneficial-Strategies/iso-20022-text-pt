@@ -1,0 +1,12 @@
+{
+  "isoType": "Quantity83Choice",
+  "definition": "Escolha entre a quantidade de liquidação do token de moeda eletrónica e a quantidade da taxa de rede.",
+  "isoElements": {
+    "ElectronicMoneyTokenSettlementQuantity": {
+      "definition": "Quantidade de token de moeda eletrónica para o pagamento de liquidação."
+    },
+    "NetworkFeeQuantity": {
+      "definition": "Quantidade de ativos digitais correspondente à taxa de rede atribuída a uma operação numa rede DLT."
+    }
+  }
+}

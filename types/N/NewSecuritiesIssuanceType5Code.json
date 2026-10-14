@@ -1,0 +1,34 @@
+{
+  "isoType": "NewSecuritiesIssuanceType5Code",
+  "definition": "Especifica o tipo de produto de valores mobiliários; se são ou não de nova emissão, com defeasance ou sem defeasance.",
+  "isoCodes": {
+    "DEFE": {
+      "name": "Indicador de valor mobiliário extinto por defeasance",
+      "definition": "Os fundos foram colocados em depósito fiduciário por um fiduciário ou agente para assegurar o pagamento de uma parte do saldo em dívida do valor mobiliário original na data de vencimento. Aplicável apenas no âmbito de um evento societário de defeasance parcial PDEF."
+    },
+    "EXIS": {
+      "name": "Emissão existente",
+      "definition": "O produto de valores mobiliários não são novas emissões."
+    },
+    "NEIS": {
+      "name": "Nova emissão",
+      "definition": "O produto de valores mobiliários são novas emissões."
+    },
+    "NDEF": {
+      "name": "Indicador de valor mobiliário não extinto por defeasance",
+      "definition": "Os fundos não serão garantidos no vencimento pelo emitente ou pelo agente pagador para este valor mobiliário sem defeasance de nova emissão. Aplicável apenas no âmbito de um evento societário de defeasance parcial PDEF."
+    },
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "Não se sabe se o produto de valores mobiliários são ou não novas emissões."
+    },
+    "NREF": {
+      "name": "Indicador de valor mobiliário não reembolsado",
+      "definition": "Novo valor mobiliário emitido que não foi reembolsado e cuja data de vencimento do valor mobiliário subjacente original se mantém inalterada. Aplicável apenas no âmbito de um evento societário de defeasance parcial PDEF."
+    },
+    "REFU": {
+      "name": "Indicador de valor mobiliário reembolsado",
+      "definition": "Novo valor mobiliário emitido que foi reembolsado para uma data de vencimento anterior. Aplicável apenas no âmbito de um evento societário de defeasance parcial PDEF."
+    }
+  }
+}

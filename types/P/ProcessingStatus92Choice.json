@@ -1,0 +1,33 @@
+{
+  "isoType": "ProcessingStatus92Choice",
+  "definition": "Escolha do formato do estado de tratamento.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "A instrução foi confirmada pela instituição gestora da conta."
+    },
+    "PendingProcessing": {
+      "definition": "O processamento da instrução/pedido está pendente."
+    },
+    "Rejected": {
+      "definition": "A instrução/pedido foi rejeitada para processamento posterior."
+    },
+    "Repair": {
+      "definition": "A instrução/pedido é aceite mas encontra-se em reparação."
+    },
+    "Cancelled": {
+      "definition": "A instrução foi cancelada."
+    },
+    "PendingCancellation": {
+      "definition": "O seu pedido de cancelamento desta instrução está pendente, aguardando processamento adicional."
+    },
+    "Proprietary": {
+      "definition": "Estado que não pode ser reportado através de um dos estados padrão disponíveis."
+    },
+    "CancellationRequested": {
+      "definition": "O pedido de cancelamento da sua contraparte para esta operação está pendente, a aguardar o seu pedido de cancelamento ou consentimento."
+    },
+    "ModificationRequested": {
+      "definition": "O pedido de modificação da sua contraparte para esta operação está pendente, aguardando o seu pedido de cancelamento ou o seu consentimento."
+    }
+  }
+}

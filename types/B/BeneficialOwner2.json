@@ -1,0 +1,30 @@
+{
+  "isoType": "BeneficialOwner2",
+  "definition": "Fornece informações sobre o beneficiário efetivo dos valores mobiliários.",
+  "isoElements": {
+    "BeneficialOwnerIdentification": {
+      "definition": "Identificação da parte que é o beneficiário efetivo do instrumento financeiro especificado."
+    },
+    "AdditionalIdentification": {
+      "definition": "Identificação adicional da parte que é o beneficiário efetivo do instrumento financeiro especificado."
+    },
+    "Nationality": {
+      "definition": "Nacionalidade do beneficiário efetivo."
+    },
+    "DomicileCountry": {
+      "definition": "País em que a pessoa tem domicílio permanente (o local da residência permanente de uma pessoa)."
+    },
+    "NonDomicileCountry": {
+      "definition": "País em que o titular do instrumento financeiro tem de declarar que não está domiciliado. (O titular tem de certificar, em conformidade com os termos da operação sobre títulos, que não está domiciliado no país indicado.)."
+    },
+    "CertificationIndicator": {
+      "definition": "Indica se é exigida certificação por parte do titular da conta. (Sim significa que a certificação é exigida. Não significa que a certificação não é exigida.)."
+    },
+    "CertificationType": {
+      "definition": "Tipo de certificação do beneficiário efetivo que é exigida."
+    },
+    "DeclarationDetails": {
+      "definition": "Dados da declaração relativos ao instrumento financeiro, por exemplo, a titularidade efetiva."
+    }
+  }
+}

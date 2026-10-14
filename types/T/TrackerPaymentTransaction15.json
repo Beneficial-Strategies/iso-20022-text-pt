@@ -1,0 +1,204 @@
+{
+  "isoType": "TrackerPaymentTransaction15",
+  "definition": "Elementos-chave utilizados para identificar a(s) operação(ões) original(ais) a que se faz referência.",
+  "isoElements": {
+    "TrackedMessageIdentification": {
+      "definition": "Fornece informações sobre a mensagem rastreada original que continha a operação."
+    },
+    "TrackerInformingParty": {
+      "definition": "Parte que fornece informações sobre o estado e os detalhes relacionados de uma operação."
+    },
+    "TrackerInformedParty": {
+      "definition": "Parte que é informada sobre o estado e os detalhes relacionados de uma operação."
+    },
+    "TechnicalSender": {
+      "definition": "A parte indicada como remetente no cabeçalho técnico de uma mensagem de pagamento ISO."
+    },
+    "TechnicalReceiver": {
+      "definition": "A parte indicada como destinatário no cabeçalho técnico de uma mensagem de pagamento ISO."
+    },
+    "PaymentIdentification": {
+      "definition": "Conjunto de elementos utilizados para referenciar uma instrução de pagamento."
+    },
+    "RelatedPaymentIdentification": {
+      "definition": "Conjunto de elementos que identificam as operações associadas à instrução de pagamento."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificação única, atribuída pela parte instrutora original à parte instruída original, para identificar inequivocamente a instrução original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora original, para identificar inequivocamente a operação original."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar melhor o tipo de operação."
+    },
+    "PaymentScenario": {
+      "definition": "Especifica os cenários comerciais em que o pagamento é executado, como a transferência a crédito de cliente ou o pagamento de cobertura."
+    },
+    "SettlementInformation": {
+      "definition": "Especifica os detalhes de como é concluída a liquidação da(s) operação(ões) entre a instituição instrutora e a instituição instruída."
+    },
+    "InstructingAgent": {
+      "definition": "Instituição que instrui a parte seguinte da cadeia para executar a(s) instrução(ões)."
+    },
+    "InstructedAgent": {
+      "definition": "Instituição instruída pela parte anterior da cadeia para executar a(s) instrução(ões)."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montante em dinheiro movimentado entre a instituição instrutora e a instituição instruída."
+    },
+    "ReturnedInterbankSettlementAmount": {
+      "definition": "Montante a movimentar entre o agente instrutor e o agente instruído na instrução devolvida."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Data em que o montante em dinheiro deixa de estar disponível para a instituição que o deve e em que passa a estar disponível para a instituição a quem é devido."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Data em que a parte iniciadora solicita à instituição de compensação que trate o pagamento. |Utilização: Esta é a data em que a conta do devedor deve ser debitada. Se o pagamento for por cheque, a data em que o cheque deve ser emitido pelo banco."
+    },
+    "SettlementPriority": {
+      "definition": "Indicador da urgência ou da ordem de importância que a parte instrutora pretende que a parte instruída aplique ao tratamento da instrução de liquidação."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Fornece informações sobre o(s) momento(s) de liquidação ocorrido(s) da operação de pagamento."
+    },
+    "SettlementTimeRequest": {
+      "definition": "Fornece informações sobre o(s) momento(s) de liquidação solicitado(s) da instrução de pagamento."
+    },
+    "AcceptanceDateTime": {
+      "definition": "Momento em que a ordem de pagamento da parte iniciadora satisfaz as condições de tratamento da instituição gestora da conta. Isto significa que a instituição gestora da conta recebeu a ordem de pagamento e aplicou verificações como a autorização e a disponibilidade de fundos."
+    },
+    "PoolingAdjustmentDate": {
+      "definition": "Data utilizada para a correção da data-valor de um movimento de cash pool que foi lançado com uma data-valor diferente."
+    },
+    "InstructedAmount": {
+      "definition": "Montante em dinheiro a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora.|Utilização: Este montante tem de ser transportado sem alterações ao longo da cadeia da operação."
+    },
+    "EquivalentAmount": {
+      "definition": "Montante a movimentar entre o devedor e o credor, expresso na moeda da conta do devedor e na moeda em que o montante vai ser movimentado."
+    },
+    "ReturnedInstructedAmount": {
+      "definition": "Montante a movimentar entre o devedor e o credor, antes da dedução de encargos, na operação devolvida.|Utilização: Este montante tem de ser transportado sem alterações ao longo da cadeia da operação."
+    },
+    "ExchangeRateData": {
+      "definition": "Fornece detalhes sobre a taxa e as moedas utilizadas na operação cambial."
+    },
+    "ForeignExchangeAgent": {
+      "definition": "Agente que realizou a operação cambial."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica a(s) parte(s) que suportará(ão) os encargos associados ao tratamento da operação de pagamento."
+    },
+    "ChargesInformation": {
+      "definition": "Fornece informações sobre os encargos a pagar pela(s) parte(s) responsável(is) pelos encargos relacionados com a operação de pagamento."
+    },
+    "TrackerRecord": {
+      "definition": "Fornece as informações de seguimento da operação para uma instituição específica envolvida na cadeia da operação."
+    },
+    "TrackerData": {
+      "definition": "Fornece informações sobre o seguimento da operação interbancária relacionada com o pagamento."
+    },
+    "DebitConfirmationURLAddress": {
+      "definition": "Endereço do localizador uniforme de recursos (URL), por exemplo, um endereço utilizado no serviço www (HTTP) que confirma que um pagamento debitou uma conta."
+    },
+    "PreviousInstructingAgent1": {
+      "definition": "Agente imediatamente anterior ao agente instruidor."
+    },
+    "PreviousInstructingAgent1Account": {
+      "definition": "Identificação inequívoca da conta do agente instrutor anterior junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "PreviousInstructingAgent2": {
+      "definition": "Agente imediatamente anterior ao agente instruidor."
+    },
+    "PreviousInstructingAgent2Account": {
+      "definition": "Identificação inequívoca da conta do agente instrutor anterior junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "PreviousInstructingAgent3": {
+      "definition": "Agente imediatamente anterior ao agente instruidor."
+    },
+    "PreviousInstructingAgent3Account": {
+      "definition": "Identificação inequívoca da conta do agente instrutor anterior junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor.||Utilização: Se existir mais do que uma instituição intermediária, IntermediaryAgent1 identifica a instituição entre DebtorAgent e IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 1 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor.||Utilização: Se existirem mais do que duas instituições intermediárias, IntermediaryAgent2 identifica a instituição entre IntermediaryAgent1 e IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 2 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Agente entre a instituição do devedor e a instituição do credor.||Utilização: Se IntermediaryAgent3 estiver presente, identifica o agente entre o IntermediaryAgent 2 e o CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 3 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que deve um montante em dinheiro ao credor (final)."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia o pagamento.|Utilização: Pode ser o devedor ou uma parte que inicia a transferência em nome do devedor."
+    },
+    "Debtor": {
+      "definition": "Parte que deve um montante em dinheiro ao credor (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificação inequívoca da conta do devedor a debitar em resultado da operação."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do devedor junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do credor junto da sua instituição gestora, a creditar em resultado da operação de pagamento."
+    },
+    "Creditor": {
+      "definition": "Parte a quem é devido um montante em dinheiro."
+    },
+    "CreditorAccount": {
+      "definition": "Identificação inequívoca da conta do credor a creditar em resultado da operação de pagamento."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a quem é devido um montante em dinheiro."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Informações adicionais relativas ao tratamento da instrução de pagamento, fornecidas pela parte iniciadora e destinadas à instituição do credor."
+    },
+    "InstructionForNextAgent": {
+      "definition": "Informações adicionais relativas ao tratamento da instrução de pagamento que podem exigir uma ação por parte do agente seguinte. ||Utilização: O agente seguinte pode não ser a instituição do credor.|A instrução pode referir-se a um nível de serviço, pode ser uma instrução a executar pelo agente ou pode ser uma informação necessária ao agente seguinte."
+    },
+    "Purpose": {
+      "definition": "Motivo subjacente à operação de pagamento.|Utilização: A finalidade é utilizada pelos clientes finais, ou seja, a parte iniciadora, o devedor (final) e o credor (final), para fornecer informações sobre a natureza do pagamento. A finalidade é um elemento de conteúdo, que não é utilizado para tratamento por nenhuma das instituições envolvidas na cadeia de pagamento."
+    },
+    "RegulatoryReporting": {
+      "definition": "Informações necessárias por força de requisitos regulamentares e legais."
+    },
+    "Tax": {
+      "definition": "Fornece detalhes sobre o imposto."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Fornece informações relativas ao tratamento das informações de remessa por qualquer das instituições na cadeia de tratamento da operação."
+    },
+    "RemittanceInformation": {
+      "definition": "Informações fornecidas para permitir a correspondência de um lançamento com os itens que a transferência se destina a liquidar, como faturas comerciais num sistema de contas a receber."
+    },
+    "RejectReturnReason": {
+      "definition": "Fornece informações detalhadas sobre o motivo da devolução."
+    },
+    "ReturnChain": {
+      "definition": "Fornece todas as partes (agentes e não agentes) envolvidas numa operação de devolução."
+    },
+    "UnderlyingCustomerCreditTransfer": {
+      "definition": "Fornece informações sobre a transferência a crédito de cliente subjacente para a qual é prestada cobertura."
+    }
+  }
+}

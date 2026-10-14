@@ -1,0 +1,21 @@
+{
+  "isoType": "VerificationReport5",
+  "definition": "Fornece os detalhes da verificação dos dados de identificação cuja verificação foi solicitada.",
+  "isoElements": {
+    "OriginalIdentification": {
+      "definition": "Identificação única, atribuída por uma parte remetente, para identificar inequivocamente o grupo de informações de identificação da parte e da conta na mensagem original."
+    },
+    "Verification": {
+      "definition": "Identifica se as informações da parte e/ou da conta recebidas estão corretas."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo pelo qual as informações de identificação verificadas estão incorretas."
+    },
+    "OriginalPartyAndAccountIdentification": {
+      "definition": "Fornece informações de identificação da parte e/ou da conta tal como constam da mensagem original."
+    },
+    "UpdatedPartyAndAccountIdentification": {
+      "definition": "Fornece informações de identificação da parte e/ou da conta."
+    }
+  }
+}

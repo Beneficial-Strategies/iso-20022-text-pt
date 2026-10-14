@@ -1,0 +1,18 @@
+{
+  "isoType": "SafekeepingPlaceFormat29Choice",
+  "definition": "Escolha entre formatos para o local de guarda.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Local de guarda expresso como um código e uma descrição narrativa."
+    },
+    "Country": {
+      "definition": "Local de guarda expresso com um código de país."
+    },
+    "TypeAndIdentification": {
+      "definition": "Local de guarda expresso com um tipo e uma identificação."
+    },
+    "Proprietary": {
+      "definition": "Local de guarda expresso com um esquema de identificação proprietário."
+    }
+  }
+}

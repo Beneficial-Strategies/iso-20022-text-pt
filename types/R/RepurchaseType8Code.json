@@ -1,0 +1,22 @@
+{
+  "isoType": "RepurchaseType8Code",
+  "definition": "Especifica o tipo de operação de recompra.",
+  "isoCodes": {
+    "PADJ": {
+      "name": "Ajustamento da exposição do principal",
+      "definition": "Diz respeito a um ajustamento do capital."
+    },
+    "ROLP": {
+      "name": "Renovação de contrato de reporte",
+      "definition": "Diz respeito à renovação (rollover) de um repo de um contrato que prorroga a data de encerramento ou de vencimento sem impacto na garantia subjacente."
+    },
+    "RATE": {
+      "name": "Taxa de reporte",
+      "definition": "Faz parte de um pair-off."
+    },
+    "CALL": {
+      "name": "Chamada de recompra",
+      "definition": "Diz respeito à data de encerramento/vencimento antecipado de um repo a prazo ou à data de cessação de um repo em aberto com a garantia subjacente."
+    }
+  }
+}

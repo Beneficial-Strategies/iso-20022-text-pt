@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionAdditionalInformation1",
+  "definition": "Fornece informações adicionais sobre os dados de entrega, os dados do proprietário efetivo, etc.",
+  "isoElements": {
+    "BeneficialOwnerDetails": {
+      "definition": "Fornece informações sobre o beneficiário efetivo dos valores mobiliários."
+    },
+    "RegistrationDetails": {
+      "definition": "Fornece as informações necessárias para o registo."
+    },
+    "ReceiverIdentification": {
+      "definition": "Identificação do destinatário dos recursos resultantes (numerário/valores mobiliários) no caso de os recursos terem de ser entregues fora da CSD."
+    },
+    "CertificationIndicator": {
+      "definition": "Indica se é ou não exigida certificação ao titular da conta. |Y: certificação exigida |N: certificação não exigida."
+    },
+    "CertificationType": {
+      "definition": "Tipo de certificação exigida."
+    },
+    "DeliveryDetails": {
+      "definition": "Fornece informações sobre os dados de entrega do produto."
+    },
+    "AdditionalInstruction": {
+      "definition": "Fornece detalhes adicionais relativos à instrução da operação sobre títulos."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "DateType10Code",
+  "definition": "A data é especificada como um valor de código fixo.",
+  "isoCodes": {
+    "MEET": {
+      "name": "Bloqueio até à data da assembleia",
+      "definition": "O bloqueio ocorre até à data da assembleia, inclusive."
+    },
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "A data é desconhecida do remetente ou não foi estabelecida."
+    },
+    "NARR": {
+      "name": "Data de desbloqueio descritiva",
+      "definition": "Consultar o elemento de informação adicional para a data até à qual os valores mobiliários estão bloqueados."
+    },
+    "RDTE": {
+      "name": "Bloqueio até à data de registo",
+      "definition": "O bloqueio ocorre até à data de registo do evento, inclusive."
+    },
+    "PPYD": {
+      "name": "Bloqueio até à data de pagamento do prémio",
+      "definition": "O desbloqueio ocorrerá na data de pagamento do prémio."
+    }
+  }
+}

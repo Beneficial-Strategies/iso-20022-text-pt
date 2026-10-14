@@ -1,0 +1,15 @@
+{
+  "isoType": "References26",
+  "definition": "Fornece um conjunto de identificações para referenciar uma operação de liquidação de valores mobiliários.",
+  "isoElements": {
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pela instituição gestora da conta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador da operação que não seja o titular da conta, a entidade gestora de contas nem a infraestrutura de mercado que não seja um CSD."
+    }
+  }
+}

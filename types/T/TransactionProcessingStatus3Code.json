@@ -1,0 +1,22 @@
+{
+  "isoType": "TransactionProcessingStatus3Code",
+  "definition": "Indica o estado de processamento de uma operação (ao nível da instituição gestora da conta).",
+  "isoCodes": {
+    "CAND": {
+      "name": "Cancelado",
+      "definition": "A instrução foi cancelada."
+    },
+    "PACK": {
+      "name": "Reconhecido e aceite",
+      "definition": "A instrução foi reconhecida/aceite pela instituição gestora da conta para processamento adicional."
+    },
+    "REJT": {
+      "name": "Rejeitado",
+      "definition": "A instrução foi rejeitada para processamento adicional."
+    },
+    "REPR": {
+      "name": "Em reparação",
+      "definition": "A instrução foi aceite, mas está em reparação."
+    }
+  }
+}

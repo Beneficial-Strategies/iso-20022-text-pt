@@ -1,0 +1,15 @@
+{
+  "isoType": "ChargesBreakdown1",
+  "definition": "Fornece uma discriminação dos encargos por tipo.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante dos encargos da operação a pagar pela parte responsável pelos encargos."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o montante dos encargos é um montante a crédito ou a débito. |Usage: Um montante zero é considerado um crédito."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de encargo."
+    }
+  }
+}

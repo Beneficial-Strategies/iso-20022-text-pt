@@ -1,0 +1,12 @@
+{
+  "isoType": "SystemPartyIdentification8",
+  "definition": "Identificação única e inequívoca de uma parte dentro de um sistema.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única que identifica inequivocamente a parte dentro do sistema."
+    },
+    "ResponsiblePartyIdentification": {
+      "definition": "Identificação única da parte responsável pela manutenção dos dados de referência da parte."
+    }
+  }
+}

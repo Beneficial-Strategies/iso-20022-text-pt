@@ -1,0 +1,12 @@
+{
+  "isoType": "FATCAStatus2Choice",
+  "definition": "Escolha de formatos para o estado do Foreign Account Tax Compliance Act (FATCA).",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado do Foreign Account Tax Compliance Act (FATCA) expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Estado do Foreign Account Tax Compliance Act (FATCA) expresso sob a forma de código proprietário."
+    }
+  }
+}

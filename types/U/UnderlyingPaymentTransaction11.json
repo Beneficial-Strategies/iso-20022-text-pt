@@ -1,0 +1,38 @@
+{
+  "isoType": "UnderlyingPaymentTransaction11",
+  "definition": "Fornece detalhes adicionais sobre a operação de pagamento original, à qual a mensagem de investigação se refere.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Conjunto de elementos utilizados para fornecer informações sobre a mensagem original."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificação única, atribuída pela parte instrutora original à parte instruída original, para identificar inequivocamente a instrução original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora original, para identificar inequivocamente a operação original."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identificação única, atribuída pela primeira instituição instrutora original, para identificar inequivocamente a operação."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador universalmente único para fornecer a referência de ponta a ponta original de uma operação de pagamento."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Montante de dinheiro movimentado entre a instituição instrutora e a instituição instruída, conforme indicado na instrução original."
+    },
+    "OriginalInterbankSettlementDate": {
+      "definition": "Data, conforme indicada na operação original, em que o montante deixa de estar disponível para a instituição que o deve e em que passa a estar disponível para a instituição a quem é devido."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos principais utilizados para identificar a operação original a que se faz referência."
+    },
+    "OriginalServiceLevel": {
+      "definition": "Acordo ou regras ao abrigo dos quais a operação deve ser processada."
+    }
+  },
+  "isoRules": {
+    "OriginalIdentificationRule": {
+      "definition": "Tem de estar presente OriginalInstructionIdentification, OriginalEndToEndIdentification, OriginalTransactionIdentification ou OriginalUETR."
+    }
+  }
+}

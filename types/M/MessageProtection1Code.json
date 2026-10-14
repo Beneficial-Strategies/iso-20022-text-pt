@@ -1,0 +1,22 @@
+{
+  "isoType": "MessageProtection1Code",
+  "definition": "Mecanismo utilizado para proteger a mensagem do protocolo ATM.",
+  "isoCodes": {
+    "EVLP": {
+      "name": "Mensagem envelopada",
+      "definition": "As mensagens contêm um corpo cifrado e um MAC ou uma assinatura digital calculados sobre a mensagem completa (cabeçalho mais corpo após a cifra)."
+    },
+    "MACB": {
+      "name": "Corpo do MAC",
+      "definition": "As mensagens contêm um MAC ou uma assinatura digital calculados apenas sobre o corpo."
+    },
+    "MACM": {
+      "name": "Mensagem MAC",
+      "definition": "As mensagens contêm um MAC ou uma assinatura digital calculados sobre a mensagem completa (cabeçalho mais corpo)."
+    },
+    "UNPR": {
+      "name": "Sem proteção",
+      "definition": "As mensagens não são protegidas, sem cifra e sem MAC nem assinatura digital."
+    }
+  }
+}

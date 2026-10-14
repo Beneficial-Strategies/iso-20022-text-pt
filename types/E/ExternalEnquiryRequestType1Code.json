@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalEnquiryRequestType1Code",
+  "definition": "Especifica o código externo do tipo de pedido de consulta de uma posição, sob a forma de cadeia de caracteres com um máximo de 4 caracteres.|A lista de códigos válidos é um conjunto de códigos externo, publicado separadamente.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "RT11": {
+      "name": "Consulta de posição bancária",
+      "definition": "O tipo é uma consulta sobre a posição do banco."
+    },
+    "RT12": {
+      "name": "Consulta de operação específica",
+      "definition": "O tipo é uma consulta sobre uma operação específica."
+    },
+    "RT13": {
+      "name": "Consulta de operação em fila de espera",
+      "definition": "O tipo é uma consulta sobre uma operação em fila de espera."
+    },
+    "RT14": {
+      "name": "Consulta de operação suspeita",
+      "definition": "O tipo é uma consulta sobre uma operação suspeita."
+    },
+    "RT16": {
+      "name": "Consulta de hora do sistema",
+      "definition": "O tipo é uma consulta sobre a data e/ou hora do sistema."
+    },
+    "RT15": {
+      "name": "Consulta de créditos recebidos pendentes",
+      "definition": "O tipo é uma consulta sobre créditos recebidos pendentes."
+    }
+  }
+}

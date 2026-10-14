@@ -1,0 +1,18 @@
+{
+  "isoType": "DirectDebitTransaction12",
+  "definition": "Fornece mais pormenores específicos sobre a operação de débito direto e o mandato associado.",
+  "isoElements": {
+    "MandateRelatedInformation": {
+      "definition": "Fornece mais pormenores sobre o mandato de débito direto assinado entre o credor e o devedor."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Parte creditada que assina o mandato."
+    },
+    "PreNotificationIdentification": {
+      "definition": "Identificação única e inequívoca da pré-notificação enviada separadamente da instrução de débito direto.||Utilização: A pré-notificação do débito direto é utilizada para reconciliar as informações de cobrança enviadas separadamente com as informações da operação de débito direto."
+    },
+    "PreNotificationDate": {
+      "definition": "Data em que o credor notifica o devedor do montante e da data em que a instrução de débito direto será apresentada à instituição do devedor."
+    }
+  }
+}

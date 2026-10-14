@@ -1,0 +1,14 @@
+{
+  "isoType": "ATMStatus1Code",
+  "definition": "Estado do ATM.",
+  "isoCodes": {
+    "INSV": {
+      "name": "Em serviço",
+      "definition": "O componente está em serviço."
+    },
+    "OUTS": {
+      "name": "Fora de serviço",
+      "definition": "ATM fora de serviço."
+    }
+  }
+}

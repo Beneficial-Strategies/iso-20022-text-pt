@@ -1,0 +1,41 @@
+{
+  "isoType": "IntraPositionMovement10",
+  "definition": "Identifica os detalhes da operação.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte que é titular da conta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "StatusAndReason": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pelo titular da conta (ou pela parte instrutora que gere a conta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pela instituição gestora da conta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador."
+    },
+    "PoolIdentification": {
+      "definition": "Referência coletiva que identifica um conjunto de mensagens."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificação atribuída pela instituição gestora da conta para identificar inequivocamente um evento societário."
+    },
+    "MovementDetails": {
+      "definition": "Identifica detalhes adicionais da operação."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Se não estiver disponível nenhuma referência para AccountOwnerTransactionIdentification, por exemplo, porque a operação foi enviada por fax, então AccountOwnerTransactionIdentification deve ser NONREF."
+    }
+  }
+}

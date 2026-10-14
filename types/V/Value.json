@@ -1,0 +1,12 @@
+{
+  "isoType": "Value",
+  "definition": "Lançamento de um item numa conta de caixa, no contexto de uma operação de caixa, que resulta num aumento ou diminuição do saldo da conta.",
+  "isoElements": {
+    "BaseCurrencyItem": {
+      "definition": "Especifica o montante na moeda de base do destinatário."
+    },
+    "AlternateCurrencyItem": {
+      "definition": "Especifica o montante noutra moeda."
+    }
+  }
+}

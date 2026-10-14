@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventReference3",
+  "definition": "Identificação de um evento de ação societária associado.",
+  "isoElements": {
+    "EventIdentification": {
+      "definition": "Identificação do evento de ação societária associado."
+    },
+    "LinkageType": {
+      "definition": "Especifica quando este evento de ação societária deve ser processado em relação a um evento de ação societária associado."
+    }
+  }
+}

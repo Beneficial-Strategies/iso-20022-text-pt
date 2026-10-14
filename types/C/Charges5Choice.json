@@ -1,0 +1,15 @@
+{
+  "isoType": "Charges5Choice",
+  "definition": "Especifica a escolha entre encargos de uma única operação, encargos consolidados por operação ou por tipo de encargo.",
+  "isoElements": {
+    "Single": {
+      "definition": "Encargos relacionados com uma única operação de pagamento."
+    },
+    "PerTransaction": {
+      "definition": "Encargos discriminados por operação de pagamento."
+    },
+    "PerType": {
+      "definition": "Encargos discriminados por tipo de encargos."
+    }
+  }
+}

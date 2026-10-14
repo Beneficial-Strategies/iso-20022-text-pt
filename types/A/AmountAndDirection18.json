@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection18",
+  "definition": "Lançamento de um item numa conta de caixa, no contexto de uma operação de caixa, que resulta num aumento ou diminuição do saldo da conta.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante de dinheiro do lançamento de caixa."
+    },
+    "CreditDebit": {
+      "definition": "Indica se um movimento é a crédito ou a débito."
+    }
+  }
+}

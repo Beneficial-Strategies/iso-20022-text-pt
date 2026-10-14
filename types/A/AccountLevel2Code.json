@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountLevel2Code",
+  "definition": "Define o nível de uma conta na hierarquia de contas.",
+  "isoCodes": {
+    "INTM": {
+      "name": "Intermédio",
+      "definition": "Nível intermédio numa hierarquia de contas."
+    },
+    "SMRY": {
+      "name": "Resumo",
+      "definition": "Nível mais elevado numa hierarquia de contas."
+    },
+    "DETL": {
+      "name": "Detalhe",
+      "definition": "A conta é uma conta de depósito/à ordem real."
+    }
+  }
+}

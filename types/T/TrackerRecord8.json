@@ -1,0 +1,24 @@
+{
+  "isoType": "TrackerRecord8",
+  "definition": "Especifica as informações do sistema de seguimento específico de uma instituição relativas a uma operação de pagamento.",
+  "isoElements": {
+    "PartyOrAgentIdentification": {
+      "definition": "Identificação de uma parte ou de um agente no rastreador."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Montante em dinheiro movimentado entre a instituição instrutora e a instituição instruída."
+    },
+    "ChargeBearer": {
+      "definition": "Especifica a(s) parte(s) que suportará(ão) os encargos associados ao tratamento da operação de pagamento."
+    },
+    "ChargesAmount": {
+      "definition": "Encargos da operação a pagar pelo responsável pelos encargos."
+    },
+    "ExchangeRateData": {
+      "definition": "Fornece detalhes da taxa e das moedas utilizadas na operação cambial."
+    },
+    "ProcessingDateTime": {
+      "definition": "Data/hora em que a instrução foi tratada pela parte especificada."
+    }
+  }
+}

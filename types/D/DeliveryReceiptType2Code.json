@@ -1,0 +1,14 @@
+{
+  "isoType": "DeliveryReceiptType2Code",
+  "definition": "Especifica a forma como a operação deve ser liquidada.",
+  "isoCodes": {
+    "FREE": {
+      "name": "Liquidação separada",
+      "definition": "A liquidação do instrumento financeiro e do numerário é separada."
+    },
+    "APMT": {
+      "name": "Liquidação contra pagamento",
+      "definition": "A liquidação do instrumento financeiro e do numerário realiza-se num ambiente de entrega contra pagamento (DVP), isto é, através de uma central internacional de valores mobiliários (ICSD) ou de uma central de valores mobiliários (CSD)."
+    }
+  }
+}

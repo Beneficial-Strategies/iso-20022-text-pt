@@ -1,0 +1,21 @@
+{
+  "isoType": "References58Choice",
+  "definition": "Escolha de referência.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Identificação inequívoca de uma operação de liquidação de valores mobiliários, tal como conhecida pelo titular da conta (ou pela parte instrutora que age em seu nome)."
+    },
+    "PoolIdentification": {
+      "definition": "Referência coletiva que identifica um conjunto de mensagens."
+    },
+    "IntraPositionMovementIdentification": {
+      "definition": "Identificação inequívoca da operação de movimento intraposição, tal como conhecida pelo titular da conta (ou pela parte instrutora que age em seu nome)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pela instituição gestora da conta."
+    },
+    "OtherTransactionIdentification": {
+      "definition": "Identificação de uma operação que não pode ser identificada através de um elemento de referência normalizado presente na mensagem."
+    }
+  }
+}

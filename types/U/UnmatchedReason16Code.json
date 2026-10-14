@@ -1,0 +1,54 @@
+{
+  "isoType": "UnmatchedReason16Code",
+  "definition": "Especifica o motivo pelo qual a operação, transferência ou instrução de liquidação não tem correspondência.",
+  "isoCodes": {
+    "NCRR": {
+      "name": "Montante de liquidação na moeda",
+      "definition": "A moeda do montante de liquidação não corresponde."
+    },
+    "DSEC": {
+      "name": "Instrumento financeiro",
+      "definition": "A identificação do instrumento financeiro não corresponde, por exemplo, ISIN ou atributos do instrumento financeiro diferentes."
+    },
+    "DQUA": {
+      "name": "Quantidade do instrumento financeiro",
+      "definition": "A quantidade de instrumentos financeiros não corresponde."
+    },
+    "CMIS": {
+      "name": "Sem correspondência",
+      "definition": "Não foi possível encontrar uma instrução correspondente da sua contraparte."
+    },
+    "DEPT": {
+      "name": "Depositário recetor ou entregador",
+      "definition": "O depositário não corresponde."
+    },
+    "ICAG": {
+      "name": "Parte recetora ou entregadora 1",
+      "definition": "O participante do depositário que entrega ou recebe não corresponde."
+    },
+    "ICUS": {
+      "name": "Parte recetora ou entregadora 2",
+      "definition": "O cliente da parte 1 que entrega ou recebe não corresponde."
+    },
+    "IEXE": {
+      "name": "Parte recetora ou entregadora 3",
+      "definition": "O cliente da parte 2 que entrega ou recebe não corresponde."
+    },
+    "DMON": {
+      "name": "Montante de liquidação",
+      "definition": "O montante de liquidação não corresponde."
+    },
+    "DDAT": {
+      "name": "Data de liquidação",
+      "definition": "A data/hora de liquidação não corresponde."
+    },
+    "DTRD": {
+      "name": "Data de negociação",
+      "definition": "A data da negociação não corresponde."
+    },
+    "DELN": {
+      "name": "Sentido da operação",
+      "definition": "O sentido da negociação não corresponde. A contraparte espera uma entrega da sua parte, e não uma receção, ou vice-versa."
+    }
+  }
+}

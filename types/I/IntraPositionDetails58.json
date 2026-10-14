@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraPositionDetails58",
+  "definition": "Detalhes do movimento intraposição.",
+  "isoElements": {
+    "Priority": {
+      "definition": "Especifica se a operação deve ser executada com prioridade elevada."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantidade total de valores mobiliários a liquidar."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Número que identifica um tipo de subsaldo de valores mobiliários (por exemplo, identificação de restrição, etc.)."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora a que os valores mobiliários devem ser movimentados."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo de origem dos valores mobiliários a movimentar."
+    },
+    "BalanceTo": {
+      "definition": "Saldo de destino dos valores mobiliários a movimentar."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fornece informações adicionais de processamento da liquidação que não podem ser incluídas nos campos estruturados da mensagem."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acordo bilateral entre o Remetente e o Destinatário, se InstructionProcessingAdditionalDetails estiver presente, então não deve conter informações que possam ser fornecidas num campo estruturado."
+    },
+    "BalanceFromToRule": {
+      "definition": "O SecuritiesBalanceType de BalanceFrom tem de ser diferente do SecuritiesBalanceType de BalanceTo."
+    }
+  }
+}

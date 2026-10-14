@@ -1,0 +1,18 @@
+{
+  "isoType": "RepoCallAcknowledgementReason2Code",
+  "definition": "Especifica informações adicionais sobre a instrução processada de resgate de acordo de recompra.",
+  "isoCodes": {
+    "CALD": {
+      "name": "Em processamento",
+      "definition": "O resgate de acordo de recompra está em processamento."
+    },
+    "CALP": {
+      "name": "Processado",
+      "definition": "O resgate de acordo de recompra foi processado."
+    },
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Recebida após o prazo limite da instituição gestora da conta. Processada com o melhor esforço."
+    }
+  }
+}

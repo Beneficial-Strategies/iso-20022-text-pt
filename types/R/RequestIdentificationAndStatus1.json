@@ -1,0 +1,21 @@
+{
+  "isoType": "RequestIdentificationAndStatus1",
+  "definition": "Detalhes e estado do pedido original.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Fornece informações sobre a mensagem original."
+    },
+    "OriginalRequestIdentification": {
+      "definition": "Identificação do CashDepositRequest, CashWithdrawalRequest ou CashDepositOrWithdrawalCancellationRequest original."
+    },
+    "RequestHandling": {
+      "definition": "Fornece o estado do pedido."
+    },
+    "CashDepositValidation": {
+      "definition": "Confirmação da forma como o destinatário do numerário validou o depósito de numerário."
+    },
+    "CashWithdrawalConfirmation": {
+      "definition": "Confirmação das denominações de notas e moedas utilizadas pelo remetente do numerário para o levantamento de numerário."
+    }
+  }
+}

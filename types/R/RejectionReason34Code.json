@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason34Code",
+  "definition": "Especifica o motivo pelo qual a instrução/pedido de cancelamento tem o estado rejeitado.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "CASH": {
+      "name": "Conta de numerário",
+      "definition": "Conta de numerário não reconhecida ou inválida."
+    },
+    "NRGM": {
+      "name": "Sem correspondência",
+      "definition": "Mais do que uma instrução corresponde aos critérios."
+    },
+    "NRGN": {
+      "name": "Rejeição por não encontrado",
+      "definition": "Não foi possível encontrar a instrução."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "REFE": {
+      "name": "Rejeição por referência",
+      "definition": "A instrução tem uma referência idêntica à de outra instrução recebida anteriormente."
+    }
+  }
+}

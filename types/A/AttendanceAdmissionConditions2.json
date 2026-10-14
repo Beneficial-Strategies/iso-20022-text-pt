@@ -1,0 +1,12 @@
+{
+  "isoType": "AttendanceAdmissionConditions2",
+  "definition": "Condições de admissão para presença física numa assembleia.",
+  "isoElements": {
+    "Code": {
+      "definition": "Condição de admissão presencial à assembleia geral."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre as condições de admissão presencial à assembleia geral."
+    }
+  }
+}

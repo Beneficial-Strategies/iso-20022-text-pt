@@ -1,0 +1,17 @@
+{
+  "isoType": "TransferInInstructionV10",
+  "definition": "A mensagem TransferInInstruction é enviada por uma parte ordenante, por exemplo, um gestor de investimentos ou o seu representante autorizado, à parte executante, por exemplo, um agente de transferências, para dar instruções de receção de um instrumento financeiro, livre de pagamento, numa determinada data, de uma parte especificada.|Esta mensagem pode também ser utilizada para dar instruções de receção de um instrumento financeiro, livre de pagamento, de outra das contas próprias das partes ordenantes ou de um terceiro.|Utilização|A mensagem TransferInInstruction é utilizada para dar instruções de receção de um instrumento financeiro proveniente de outra conta, pertencente quer à parte ordenante quer a um terceiro.",
+  "isoElements": {
+    "Function": {
+      "definition": "Função da transferência de entrada, isto é, se a mensagem de transferência de entrada é utilizada como instrução ou como aviso e pedido de informações. A ausência de Function indica que a mensagem é uma instrução."
+    },
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de um grupo de transferências individuais, atribuído pela parte ordenante. Este identificador associa as transferências individuais entre si."
+    }
+  },
+  "isoRules": {
+    "RequestedSettlementDateRule": {
+      "definition": "Ou TransferDetails/RequestedSettlementDate pode estar presente numa ou mais ocorrências de TransferDetails, ou SettlementDetails/RequestedSettlementDate pode estar presente, mas não ambos."
+    }
+  }
+}

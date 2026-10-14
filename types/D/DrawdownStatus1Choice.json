@@ -1,0 +1,12 @@
+{
+  "isoType": "DrawdownStatus1Choice",
+  "definition": "Escolha de formatos para um estado de levantamento progressivo (drawdown).",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Estado expresso sob a forma de código proprietário."
+    }
+  }
+}

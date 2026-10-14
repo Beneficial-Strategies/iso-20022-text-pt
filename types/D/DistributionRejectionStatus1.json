@@ -1,0 +1,12 @@
+{
+  "isoType": "DistributionRejectionStatus1",
+  "definition": "Fornece informações sobre o estado de rejeição de um movimento global.",
+  "isoElements": {
+    "Reason": {
+      "definition": "O motivo da rejeição."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o estado."
+    }
+  }
+}

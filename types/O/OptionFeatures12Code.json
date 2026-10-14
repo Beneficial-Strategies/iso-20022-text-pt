@@ -1,0 +1,10 @@
+{
+  "isoType": "OptionFeatures12Code",
+  "definition": "Especifica as características que podem aplicar-se a uma opção de evento societário.",
+  "isoCodes": {
+    "OPLF": {
+      "name": "Preferência por lote irregular",
+      "definition": "Oferta ou troca com preferência para lotes incompletos."
+    }
+  }
+}

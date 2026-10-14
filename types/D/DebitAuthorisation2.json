@@ -1,0 +1,18 @@
+{
+  "isoType": "DebitAuthorisation2",
+  "definition": "Indica o motivo do pedido de autorização de débito, bem como o montante do débito solicitado.",
+  "isoElements": {
+    "CancellationReason": {
+      "definition": "Especifica o motivo do pedido de cancelamento."
+    },
+    "AmountToDebit": {
+      "definition": "Montante solicitado para a autorização de débito."
+    },
+    "ValueDateToDebit": {
+      "definition": "Data-valor do débito do montante."
+    },
+    "AdditionalCancellationReasonInformation": {
+      "definition": "Mais pormenores sobre o motivo do pedido de cancelamento."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "PartyIdentificationAndAccount226",
+  "definition": "Fornece informações sobre a identificação e a conta da parte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação de uma parte."
+    },
+    "CashAccount": {
+      "definition": "Conta na qual o numerário é mantido."
+    },
+    "ProcessingIdentification": {
+      "definition": "Referência significativa para a parte identificada."
+    },
+    "AlternateIdentification": {
+      "definition": "Identificação alternativa de uma parte."
+    }
+  },
+  "isoRules": {
+    "AdditionalInforrmationRule": {
+      "definition": "O campo AdditionalInformation em todos os elementos não deve conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral ou indicação em contrário na definição do elemento, como em NarrativeVersion."
+    }
+  }
+}

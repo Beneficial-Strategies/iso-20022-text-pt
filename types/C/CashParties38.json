@@ -1,0 +1,21 @@
+{
+  "isoType": "CashParties38",
+  "definition": "Processos de pagamento necessários para transferir numerário do devedor para o credor.",
+  "isoElements": {
+    "Debtor": {
+      "definition": "Parte que deve um montante em dinheiro ao credor (final)."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor."
+    },
+    "Creditor": {
+      "definition": "Parte a quem é devido um montante em dinheiro."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    },
+    "Intermediary": {
+      "definition": "Instituição financeira através da qual a operação tem de passar para chegar à instituição da conta."
+    }
+  }
+}

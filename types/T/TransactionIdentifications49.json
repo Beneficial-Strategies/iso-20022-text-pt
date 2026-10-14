@@ -1,0 +1,32 @@
+{
+  "isoType": "TransactionIdentifications49",
+  "definition": "Fornece informações sobre o tipo e a identificação da operação.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pelo titular da conta (ou pela parte instrutora que gere a conta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pela instituição gestora da conta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação de contraparte atribuída por uma infraestrutura de mercado que não seja uma central de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador da instrução que não seja o titular da conta, o intermediário da conta nem a infraestrutura do mercado."
+    },
+    "CommonIdentification": {
+      "definition": "Referência única acordada entre as duas contrapartes da negociação para identificar a negociação."
+    },
+    "NettingServiceProviderIdentification": {
+      "definition": "Identificação atribuída pelo prestador de serviços de compensação para identificar a operação líquida resultante do processo de compensação."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Se não estiver disponível nenhuma referência para AccountOwnerTransactionIdentification, por exemplo, porque a operação foi enviada por fax, então AccountOwnerTransactionIdentification deve ser NONREF."
+    }
+  }
+}

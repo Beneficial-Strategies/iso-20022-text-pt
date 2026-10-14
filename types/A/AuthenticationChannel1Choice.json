@@ -1,0 +1,12 @@
+{
+  "isoType": "AuthenticationChannel1Choice",
+  "definition": "Escolha de formato para um canal de autenticação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Canal de autenticação expresso como um código ISO 20022 externo."
+    },
+    "Proprietary": {
+      "definition": "Canal de autenticação expresso como um código proprietário."
+    }
+  }
+}

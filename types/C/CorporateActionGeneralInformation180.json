@@ -1,0 +1,26 @@
+{
+  "isoType": "CorporateActionGeneralInformation180",
+  "definition": "Informações gerais sobre o evento de operação sobre valores mobiliários.",
+  "isoElements": {
+    "CorporateActionEventIdentification": {
+      "definition": "Referência atribuída pela instituição gestora da conta para identificar inequivocamente um evento de operação sobre títulos."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Referência oficial e única atribuída pelo organismo/entidade central oficial de cada mercado no início de um evento de operação sobre títulos."
+    },
+    "EventType": {
+      "definition": "Tipo de evento de operação sobre títulos."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Valor mobiliário abrangido pela operação sobre valores mobiliários."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "EventType/Code OTHR só deve ser utilizado no caso de nenhum outro código de evento de operação sobre títulos ser adequado. |EventType/Code CHAN só deve ser utilizado no caso de nenhum outro código de evento de operação sobre títulos ser adequado e apenas para um evento relacionado com uma alteração. |EventType/Code REDM só deve ser utilizado quando o reembolso for decidido pelo emitente e não pelos titulares dos valores mobiliários."
+    },
+    "OfficialCorporateActionEventReference": {
+      "definition": "O Securities Market Practice Group (SMPG) publicou recomendações de práticas de mercado sobre a estrutura e a utilização da Referência Oficial do Evento de Operação sobre Títulos (COAF). Essas recomendações estão|disponíveis no documento SMPG Global Market Practices Part 1, em www.smpg.info."
+    }
+  }
+}

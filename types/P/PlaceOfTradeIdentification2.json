@@ -1,0 +1,12 @@
+{
+  "isoType": "PlaceOfTradeIdentification2",
+  "definition": "Identificação do mercado em que uma operação de negociação foi executada.",
+  "isoElements": {
+    "MarketTypeAndIdentification": {
+      "definition": "Identificação e tipo do local de negociação."
+    },
+    "LEI": {
+      "definition": "Identificação de pessoa coletiva como identificação alternativa de um local de negociação."
+    }
+  }
+}

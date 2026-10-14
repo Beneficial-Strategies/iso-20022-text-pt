@@ -1,0 +1,12 @@
+{
+  "isoType": "FractionDispositionType31Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o tipo de tratamento das frações.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar como serão tratadas as frações resultantes de valores mobiliários derivados ou como serão arredondadas as decisões rateadas, se for indicada uma taxa de rateio."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de tratamento das frações."
+    }
+  }
+}

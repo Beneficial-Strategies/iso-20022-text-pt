@@ -1,0 +1,12 @@
+{
+  "isoType": "RateAndAmountFormat48Choice",
+  "definition": "Escolha entre um montante ou uma taxa não especificada.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Número de unidades monetárias especificado numa moeda."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valor da taxa não especificado."
+    }
+  }
+}

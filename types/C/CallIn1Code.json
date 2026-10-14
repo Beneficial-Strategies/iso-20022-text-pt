@@ -1,0 +1,18 @@
+{
+  "isoType": "CallIn1Code",
+  "definition": "Especifica o tipo de relatório de chamada de pay-in.",
+  "isoCodes": {
+    "CFAV": {
+      "name": "Pedido de valor da conta",
+      "definition": "A chamada de pay-in refere-se ao valor da conta."
+    },
+    "CFST": {
+      "name": "Pedido de liquidação",
+      "definition": "A chamada de pay-in refere-se à liquidação."
+    },
+    "CFCC": {
+      "name": "Pedido de fecho da moeda",
+      "definition": "A chamada de pay-in refere-se ao fecho da moeda."
+    }
+  }
+}

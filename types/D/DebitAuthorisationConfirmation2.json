@@ -1,0 +1,18 @@
+{
+  "isoType": "DebitAuthorisationConfirmation2",
+  "definition": "Especifica se a autorização de débito é concedida ou não.",
+  "isoElements": {
+    "DebitAuthorisation": {
+      "definition": "Código que exprime a decisão tomada pelo titular da conta relativamente ao pedido de autorização de débito."
+    },
+    "AmountToDebit": {
+      "definition": "Montante autorizado para débito. |Utilização: a parte que aprova o débito pode pretender autorizar o montante deduzido de encargos e pode estar disposta a aprovar o débito apenas com data-valor de hoje, em vez da data-valor original."
+    },
+    "ValueDateToDebit": {
+      "definition": "Data-valor do débito do montante."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo do pedido de autorização de débito."
+    }
+  }
+}

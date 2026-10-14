@@ -1,0 +1,170 @@
+{
+  "isoType": "ExternalUnableToApplyIncorrectData1Code",
+  "definition": "Especifica o motivo de um unable to apply devido a dados incorretos, conforme publicado numa lista de códigos externa de dados incorretos de unable to apply.|As listas de códigos externas podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "IN01": {
+      "name": "Referência conexa incorreta",
+      "definition": "A referência da operação relacionada está incorreta."
+    },
+    "IN02": {
+      "name": "Nível de serviço de pagamento incorreto",
+      "definition": "O nível de serviço do tipo de pagamento está incorreto (anteriormente IncorrectBankOperationCode)."
+    },
+    "IN03": {
+      "name": "Categoria de finalidade incorreta",
+      "definition": "A finalidade da categoria do tipo de pagamento está incorreta (anteriormente IncorrectInstructionCode)."
+    },
+    "IN04": {
+      "name": "Data de execução solicitada incorreta",
+      "definition": "A data de execução solicitada (RequestedExecutionDate) está incorreta."
+    },
+    "IN05": {
+      "name": "Data de liquidação interbancária incorreta",
+      "definition": "A data de liquidação interbancária está incorreta (anteriormente IncorrectValueDate)."
+    },
+    "IN06": {
+      "name": "Montante de liquidação interbancária incorreto",
+      "definition": "O montante da liquidação interbancária está incorreto (anteriormente IncorrectSettledAmount)."
+    },
+    "IN07": {
+      "name": "Devedor incorreto",
+      "definition": "O devedor está incorreto."
+    },
+    "IN08": {
+      "name": "Conta do devedor incorreta",
+      "definition": "A conta do devedor (DebtorAccount) está incorreta."
+    },
+    "IN09": {
+      "name": "Instituição de reembolso ordenada incorreta",
+      "definition": "A instituição de reembolso ordenada (InstructedReimbursementAgent) está incorreta (anteriormente IncorrectReceiverCorrespondent)."
+    },
+    "IN10": {
+      "name": "Terceira instituição de reembolso incorreta",
+      "definition": "A terceira instituição de reembolso (ThirdReimbursementAgent) está incorreta (anteriormente IncorrectThirdReimbursementInstitution)."
+    },
+    "IN11": {
+      "name": "Canal de compensação do pagamento incorreto",
+      "definition": "O canal de compensação do tipo de pagamento está incorreto (anteriormente PaymentScheme)."
+    },
+    "IN12": {
+      "name": "Conta da instituição do credor incorreta",
+      "definition": "A conta da instituição do credor (CreditorAgentAccount) está incorreta (anteriormente IncorrectAccountOfBeneficiaryInstitution)."
+    },
+    "IN13": {
+      "name": "Credor incorreto",
+      "definition": "O credor está incorreto."
+    },
+    "IN14": {
+      "name": "Conta do credor incorreta",
+      "definition": "A conta do credor está incorreta."
+    },
+    "IN15": {
+      "name": "Informações de remessa incorretas",
+      "definition": "As informações de remessa (RemittanceInformation) estão incorretas."
+    },
+    "IN16": {
+      "name": "Finalidade do pagamento incorreta",
+      "definition": "A finalidade do pagamento da operação está incorreta."
+    },
+    "IN17": {
+      "name": "Responsável pelos encargos incorreto",
+      "definition": "O responsável pelos encargos (ChargeBearer) está incorreto (anteriormente IncorrectDetailsOfCharges)."
+    },
+    "IN18": {
+      "name": "Instrução para a instituição seguinte incorreta",
+      "definition": "A instrução para a instituição seguinte está incorreta (anteriormente IncorrectSenderToReceiverInformation)."
+    },
+    "IN19": {
+      "name": "Instrução para a instituição do credor incorreta",
+      "definition": "A instrução para a instituição do credor está incorreta (anteriormente IncorrectInstructionForFinalAgent)."
+    },
+    "IN33": {
+      "name": "Montante da entrada do relatório incorreto",
+      "definition": "O montante na lançamento do extrato está incorreto."
+    },
+    "IN36": {
+      "name": "Conta de liquidação incorreta",
+      "definition": "A conta de liquidação (SettlementAccount) está incorreta."
+    },
+    "IN37": {
+      "name": "Instituição de reembolso ordenante incorreta",
+      "definition": "A instituição de reembolso ordenante está incorreta."
+    },
+    "IN38": {
+      "name": "Morada do devedor incorreta",
+      "definition": "A morada do devedor está incorreta."
+    },
+    "IN39": {
+      "name": "Morada do credor incorreta",
+      "definition": "A morada do credor está incorreta."
+    },
+    "IN40": {
+      "name": "Informações de remessa conexas incorretas",
+      "definition": "As informações de remessa relacionadas (RelatedRemittanceInformation) estão incorretas."
+    },
+    "MM20": {
+      "name": "Nome do credor não corresponde à conta",
+      "definition": "O nome e a conta do credor não correspondem."
+    },
+    "MM21": {
+      "name": "Nome do devedor não corresponde à conta",
+      "definition": "O nome e a conta do devedor não correspondem."
+    },
+    "MM22": {
+      "name": "Nome da instituição do credor não corresponde à conta",
+      "definition": "O nome e a conta da instituição do credor (anteriormente FinalAgent) não correspondem."
+    },
+    "MM23": {
+      "name": "Dados do devedor insuficientes",
+      "definition": "Dados insuficientes ou incoerentes sobre o devedor face aos requisitos regulamentares."
+    },
+    "MM24": {
+      "name": "Dados do credor insuficientes",
+      "definition": "Dados insuficientes ou incoerentes sobre o credor face aos requisitos regulamentares."
+    },
+    "MM25": {
+      "name": "Execução pendente: conta ou identificação do devedor",
+      "definition": "O pagamento está pendente de execução. Por motivos de requisitos regulamentares, solicitamos mais informações sobre o número da conta ou a identificação única do devedor."
+    },
+    "MM26": {
+      "name": "Execução pendente: nome ou morada do devedor",
+      "definition": "O pagamento está pendente de execução. Por motivos de requisitos regulamentares, solicitamos mais informações sobre o nome e/ou a morada do devedor."
+    },
+    "MM27": {
+      "name": "Pagamento executado: conta ou identificação do devedor",
+      "definition": "O pagamento foi executado. Por motivos de requisitos regulamentares, solicitamos mais informações sobre o número da conta ou a identificação única do devedor."
+    },
+    "MM28": {
+      "name": "Pagamento executado: nome ou morada do devedor",
+      "definition": "O pagamento foi executado. Por motivos de requisitos regulamentares, solicitamos mais informações sobre o nome e/ou a morada do devedor."
+    },
+    "MM29": {
+      "name": "Execução pendente: conta ou identificação do credor",
+      "definition": "O pagamento está pendente de execução. Por motivos de requisitos regulamentares, solicitamos mais informações sobre o número da conta ou a identificação única do credor."
+    },
+    "MM30": {
+      "name": "Execução pendente: nome ou morada do credor",
+      "definition": "O pagamento está pendente de execução. Por motivos de requisitos regulamentares, solicitamos mais informações sobre o nome e/ou a morada do credor."
+    },
+    "MM31": {
+      "name": "Pagamento executado: conta ou identificação do credor",
+      "definition": "O pagamento foi executado. Por motivos de requisitos regulamentares, solicitamos mais informações sobre o número da conta ou a identificação única do credor."
+    },
+    "MM32": {
+      "name": "Pagamento executado: nome ou morada do credor",
+      "definition": "O pagamento foi executado. Por motivos de requisitos regulamentares, solicitamos mais informações sobre o nome e/ou a morada do credor."
+    },
+    "MM34": {
+      "name": "Detalhes dos encargos insuficientes",
+      "definition": "Detalhes de encargos fornecidos insuficientes."
+    },
+    "MM35": {
+      "name": "Finalidade do pagamento insuficiente",
+      "definition": "A finalidade do pagamento tem de ser especificada com maior detalhe."
+    },
+    "NARR": {
+      "name": "Descritivo",
+      "definition": "Consulte o campo narrativo para informações adicionais."
+    }
+  }
+}

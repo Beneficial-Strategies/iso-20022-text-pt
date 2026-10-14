@@ -1,0 +1,12 @@
+{
+  "isoType": "CashType1Choice",
+  "definition": "Especifica o tipo de numerário.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de numerário, conforme publicado num conjunto de códigos externo de tipos de numerário."
+    },
+    "Proprietary": {
+      "definition": "Tipo de numerário, sob forma proprietária."
+    }
+  }
+}

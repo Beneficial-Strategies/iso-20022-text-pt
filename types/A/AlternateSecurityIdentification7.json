@@ -1,0 +1,12 @@
+{
+  "isoType": "AlternateSecurityIdentification7",
+  "definition": "Esquema de identificação proprietário ou nacional que identifica de forma única um valor mobiliário.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco de um valor mobiliário."
+    },
+    "IdentificationSource": {
+      "definition": "Origem da identificação, isto é, nacional ou proprietária."
+    }
+  }
+}

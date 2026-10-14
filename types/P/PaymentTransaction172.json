@@ -1,0 +1,51 @@
+{
+  "isoType": "PaymentTransaction172",
+  "definition": "Fornece informações de referência e de estado sobre as operações originais, incluídas na instrução original, a que a mensagem de pedido de cancelamento se aplica.",
+  "isoElements": {
+    "CancellationIdentification": {
+      "definition": "Identificador único e inequívoco de um pedido de cancelamento, atribuído pelo cedente.||Utilização: a identificação do pedido de cancelamento pode ser utilizada para reconciliação ou para ligar tarefas relativas ao pedido de cancelamento."
+    },
+    "Case": {
+      "definition": "Conjunto de elementos que identificam de forma única e inequívoca uma exceção ou um fluxo de trabalho de investigação."
+    },
+    "OriginalGroupInformation": {
+      "definition": "Fornece informações sobre a mensagem original."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificação única, atribuída pela parte instrutora original à parte instruída original, para identificar de forma inequívoca a instrução original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora original, para identificar de forma inequívoca a operação original."
+    },
+    "OriginalTransactionIdentification": {
+      "definition": "Identificação única, atribuída pela primeira instituição instrutora original, para identificar de forma inequívoca a operação."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador universalmente único para fornecer a referência ponta a ponta original de uma operação de pagamento."
+    },
+    "OriginalClearingSystemReference": {
+      "definition": "Referência única, atribuída pelo sistema de compensação original, para identificar de forma inequívoca a instrução original."
+    },
+    "OriginalInterbankSettlementAmount": {
+      "definition": "Montante movimentado entre a instituição instrutora e a instituição instruída, conforme indicado na instrução original."
+    },
+    "OriginalInterbankSettlementDate": {
+      "definition": "Data, conforme indicada na operação original, em que o montante deixa de estar disponível para a instituição que o deve e em que passa a estar disponível para a instituição a quem é devido."
+    },
+    "Assigner": {
+      "definition": "Parte que atribui o processo.|Utilização: é também a instituição que instrui a parte seguinte na cadeia para executar o(s) pedido(s) de cancelamento."
+    },
+    "Assignee": {
+      "definition": "Parte a quem o processo é atribuído.|Utilização: é também a instituição instruída pela parte anterior na cadeia para executar o(s) pedido(s) de cancelamento."
+    },
+    "CancellationReasonInformation": {
+      "definition": "Fornece informações pormenorizadas sobre o motivo do cancelamento."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos-chave utilizados para identificar a operação original a que se faz referência."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  }
+}

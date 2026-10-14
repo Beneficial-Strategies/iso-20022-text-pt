@@ -1,0 +1,75 @@
+{
+  "isoType": "TaxEfficientProduct7",
+  "definition": "Características de um produto fiscalmente eficiente.",
+  "isoElements": {
+    "TaxEfficientProductType": {
+      "definition": "Tipo de produto fiscalmente eficiente, por exemplo, uma conta de poupança individual (ISA) no UK."
+    },
+    "CurrentYear": {
+      "definition": "Indica que todos os produtos do exercício fiscal em curso estão incluídos."
+    },
+    "CashComponentIndicator": {
+      "definition": "Indica se, no ano em curso, o produto contém um ativo em numerário para transferência."
+    },
+    "PreviousYears": {
+      "definition": "Planos de investimento emitidos em anos anteriores."
+    },
+    "PreviousYearSubscriptionAmount": {
+      "definition": "Subscrições do ano de subscrição anterior."
+    },
+    "PreviousYearsSubscriptionAmount": {
+      "definition": "Montante subscrito em todos os anos anteriores."
+    },
+    "DateOfFirstSubscription": {
+      "definition": "Data em que o plano de investimento teve início."
+    },
+    "CurrentYearSubscriptionDetails": {
+      "definition": "Montantes já subscritos para o ano em curso."
+    },
+    "BonusOrWithdrawal": {
+      "definition": "Bonificação paga ou levantada."
+    },
+    "WithdrawalForResidentialPurchaseProgress": {
+      "definition": "Indica se existe uma aquisição de imóvel relacionada em curso no momento da transferência. Pode ser aplicável a produtos como os produtos de Conta de Poupança Individual Vitalícia (LISA)."
+    },
+    "TransferorAlternateIdentification": {
+      "definition": "Identificação alternativa do cedente (parte cedente), por exemplo, a 'referência Z do gestor de ISA' no UK."
+    },
+    "TotalSubscriptionAmount": {
+      "definition": "Montante total subscrito ao longo da vida do produto."
+    },
+    "OtherAmount": {
+      "definition": "Outro montante, como o total de adições elegíveis no ano da transferência, os juros capitalizados no ano em curso, o total de dividendos pendentes, etc."
+    },
+    "DateFirstQualifyingAddition": {
+      "definition": "Data em que o primeiro montante adicional elegível foi entregue ao produto.  Podem ser efetuados montantes adicionais elegíveis num produto de Conta de Poupança Individual Vitalícia (LISA)."
+    },
+    "InvestorTaxReference": {
+      "definition": "Identificação do investidor atribuída por uma autoridade fiscal."
+    },
+    "InvestmentsToFollowValue": {
+      "definition": "Valor dos investimentos a seguir."
+    },
+    "InnovativeFinance": {
+      "definition": "Informações sobre um produto de financiamento inovador."
+    },
+    "LowestInvestedAmountCurrentYear": {
+      "definition": "Montante de investimento mais baixo no ano em curso, utilizado para calcular um montante de dedução fiscal."
+    },
+    "TaxCalculationBase": {
+      "definition": "Montante de dinheiro a partir do qual a dedução fiscal é calculada."
+    },
+    "UnusedTaxDeduction": {
+      "definition": "Montante de dedução fiscal não utilizado."
+    },
+    "CurrentInvestmentAmount": {
+      "definition": "Montante de dinheiro investido."
+    },
+    "EstimatedValue": {
+      "definition": "Valor estimado dos ativos do produto fiscalmente eficiente a transferir."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o produto fiscalmente eficiente."
+    }
+  }
+}

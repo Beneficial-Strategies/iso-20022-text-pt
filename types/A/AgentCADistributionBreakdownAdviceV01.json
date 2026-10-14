@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCADistributionBreakdownAdviceV01",
+  "definition": "Âmbito|Esta mensagem é enviada por uma CSD a um emitente (ou ao seu agente) para fornecer informações sobre o detalhe da distribuição do produto que será entregue fora da CSD (p. ex., quando o produto não é elegível na CSD).|Utilização|Esta mensagem é utilizada para fornecer informações sobre o detalhe da distribuição (valores mobiliários e/ou numerário) por conta para uma opção específica de uma operação sobre títulos.|Nota: os dados de entrega são enviados através do Agent Corporate Action Information Advice."
+}

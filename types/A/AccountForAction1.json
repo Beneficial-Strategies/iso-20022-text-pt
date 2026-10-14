@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountForAction1",
+  "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de numerário.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "Currency": {
+      "definition": "Meio de troca de valor."
+    }
+  }
+}

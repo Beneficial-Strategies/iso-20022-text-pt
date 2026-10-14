@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionElection3",
+  "definition": "Fornece informações sobre uma escolha relativa a uma operação sobre títulos.",
+  "isoElements": {
+    "AccountDetails": {
+      "definition": "Fornece informações sobre a conta."
+    },
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "InstructedUnderlyingSecuritiesQuantity": {
+      "definition": "Quantidade de valores mobiliários subjacentes a que se aplica esta instrução."
+    },
+    "InstructedSecuritiesQuantityToReceive": {
+      "definition": "Quantidade dos benefícios que o titular da conta pretende receber, p. ex., em resultado do reinvestimento de dividendos."
+    },
+    "ProposedRate": {
+      "definition": "Taxa proposta numa recolocação de obrigações de taxa variável."
+    },
+    "CashMovementDetails": {
+      "definition": "Fornece informações sobre o movimento de numerário resultante da instrução de eleição."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Fornece informações sobre o movimento de valores mobiliários resultante da instrução de eleição."
+    }
+  }
+}

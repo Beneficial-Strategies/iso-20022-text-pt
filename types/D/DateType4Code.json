@@ -1,0 +1,14 @@
+{
+  "isoType": "DateType4Code",
+  "definition": "Especifica um tipo de data.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Aberto",
+      "definition": "Data em aberto, o que indica que a data não foi estabelecida."
+    },
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "A data é desconhecida do remetente ou não foi estabelecida."
+    }
+  }
+}

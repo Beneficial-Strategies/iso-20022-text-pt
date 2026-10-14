@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAInformationStatusAdviceV01",
+  "definition": "Âmbito|Esta mensagem é enviada por um emitente (ou pelo seu agente) a um CSD para comunicar o estado, ou a alteração de estado, de um aviso de informação.|Utilização|Esta mensagem tem de ser utilizada em resposta a um Agent Corporate Action Information Advice em caso de rejeição. No entanto, pode também ser utilizada para comunicar outros estados.|A identificação do aviso de informação tem de estar presente para associar esta mensagem ao aviso de informação cujo estado é fornecido."
+}

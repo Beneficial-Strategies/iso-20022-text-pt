@@ -1,0 +1,12 @@
+{
+  "isoType": "Account32",
+  "definition": "Relação comercial entre duas entidades; uma das entidades é o titular da conta e a outra é a entidade gestora da conta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "AccountServicer": {
+      "definition": "Instituição que gere uma conta e atribui o identificador da conta ao titular da conta."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "SecuritiesSettlementAllegementRemovalAdvice002V06",
+  "definition": "Âmbito|Uma instituição gestora da conta envia um SecuritiesSettlementAllegementRemovalAdvice a um titular da conta para confirmar que uma alegação enviada anteriormente deixou de estar pendente, porque a parte alvo da alegação enviou a sua instrução.|A relação entre a instituição gestora da conta e o titular da conta pode ser:|- um depositário central de valores mobiliários ou outra infraestrutura de mercado de liquidação que atua em nome dos seus participantes|- um agente (subcustodiante) que atua em nome do seu cliente custodiante global, ou|- um custodiante que atua em nome de uma instituição de gestão de investimentos ou de um corretor/negociador.||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente,|- fornecer a um terceiro uma cópia de uma mensagem a título informativo,|- reenviar a um terceiro uma cópia de uma mensagem a título informativo |utilizando os elementos relevantes do Business Application Header.",
+  "isoElements": {
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação de contraparte atribuída por uma infraestrutura de mercado que não seja uma central de valores mobiliários, por exemplo, o Target2-Securities."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    }
+  }
+}

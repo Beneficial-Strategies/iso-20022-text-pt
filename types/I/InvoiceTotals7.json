@@ -1,0 +1,21 @@
+{
+  "isoType": "InvoiceTotals7",
+  "definition": "Especifica os totais relacionados com a fatura.",
+  "isoElements": {
+    "Tax": {
+      "definition": "Informações detalhadas sobre o imposto aplicado."
+    },
+    "Adjustment": {
+      "definition": "Variação do montante da fatura tendo em conta descontos, abonos e encargos."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Montante total da fatura, correspondente à soma dos montantes totais das linhas da fatura, do montante total de ajustamento da fatura (descontos, abonos e encargos) e dos montantes totais de imposto."
+    },
+    "PaymentDueDate": {
+      "definition": "Data de vencimento para o pagamento da fatura."
+    },
+    "CashAccount": {
+      "definition": "Conta de numerário a partir da qual as comissões são pagas."
+    }
+  }
+}

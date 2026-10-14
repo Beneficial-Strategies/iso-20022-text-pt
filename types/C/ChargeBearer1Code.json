@@ -1,0 +1,18 @@
+{
+  "isoType": "ChargeBearer1Code",
+  "definition": "Especifica que parte(s) pagará(ão) os encargos devidos pelo processamento da operação de pagamento.",
+  "isoCodes": {
+    "OUR": {
+      "name": "Suportado pelo devedor",
+      "definition": "Todos os encargos da operação ficam a cargo do devedor."
+    },
+    "BEN": {
+      "name": "Suportado pelo credor",
+      "definition": "Todos os encargos da operação ficam a cargo do credor."
+    },
+    "SHA": {
+      "name": "Partilhado",
+      "definition": "No cenário de transferência, os encargos da operação do lado do ordenante são suportados pelo devedor; os encargos da operação do lado do destinatário são suportados pelo credor."
+    }
+  }
+}

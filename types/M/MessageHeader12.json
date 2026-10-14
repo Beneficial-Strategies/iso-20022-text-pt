@@ -1,0 +1,15 @@
+{
+  "isoType": "MessageHeader12",
+  "definition": "Especifica os dados de cabeçalho, como a identificação e a data e hora de criação, específicos da mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pelo remetente, para identificar inequivocamente a mensagem.|Utilização: o remetente deve garantir que a MessageIdentification é única durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora a que a mensagem foi criada."
+    },
+    "OriginalBusinessInstruction": {
+      "definition": "Identificação única da instrução original."
+    }
+  }
+}

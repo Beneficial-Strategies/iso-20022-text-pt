@@ -1,0 +1,48 @@
+{
+  "isoType": "PartyProfileInformation5",
+  "definition": "Informações de apoio aos processos de Know Your Customer (KYC).",
+  "isoElements": {
+    "CertificationIndicator": {
+      "definition": "Indica se o tipo de certificado foi obtido e verificado."
+    },
+    "ValidatingParty": {
+      "definition": "Identificação da pessoa que validou o documento."
+    },
+    "CheckingParty": {
+      "definition": "Identificação da pessoa que verificou o documento."
+    },
+    "ResponsibleParty": {
+      "definition": "Identificação da pessoa responsável pelo documento."
+    },
+    "CertificateType": {
+      "definition": "Tipo de certificado."
+    },
+    "CheckingDate": {
+      "definition": "Data em que a verificação da certificação foi realizada."
+    },
+    "CheckingFrequency": {
+      "definition": "Especifica a frequência com que a verificação é realizada."
+    },
+    "NextRevisionDate": {
+      "definition": "Especifica a data em que será realizada a próxima verificação da certificação."
+    },
+    "SalaryRange": {
+      "definition": "Limites entre os quais se estima o salário de uma pessoa."
+    },
+    "SourceOfWealth": {
+      "definition": "Indica a principal fonte de rendimento."
+    },
+    "CustomerConductClassification": {
+      "definition": "Especifica uma avaliação do comportamento do cliente no momento do pedido de abertura de conta."
+    },
+    "RiskLevel": {
+      "definition": "Especifica o risco de branqueamento de capitais do cliente."
+    },
+    "KnowYourCustomerCheckType": {
+      "definition": "Especifica o tipo de verificações de diligência devida realizadas ao investidor ou ao titular da conta. Para as definições de verificações Know Your Customer ordinárias, simplificadas e reforçadas, devem ser consultadas as regulamentações do mercado local."
+    },
+    "KnowYourCustomerDatabaseCheck": {
+      "definition": "Especifica se um cliente foi verificado numa base de dados Know Your Customer (KYC)."
+    }
+  }
+}

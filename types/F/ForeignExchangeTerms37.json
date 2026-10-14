@@ -1,0 +1,27 @@
+{
+  "isoType": "ForeignExchangeTerms37",
+  "definition": "Informações necessárias para processar uma troca ou conversão de moeda.",
+  "isoElements": {
+    "ToAmount": {
+      "definition": "Montante em numerário resultante de uma operação de câmbio."
+    },
+    "FromAmount": {
+      "definition": "Montante em numerário para o qual é necessária uma operação de câmbio."
+    },
+    "UnitCurrency": {
+      "definition": "Moeda a partir da qual a moeda cotada é convertida no cálculo de uma taxa de câmbio.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotedCurrency": {
+      "definition": "Moeda para a qual a moeda de referência é convertida no cálculo de uma taxa de câmbio.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "ExchangeRate": {
+      "definition": "Fator utilizado para a conversão de um montante de uma moeda para outra. Reflete o montante da moeda cotada que pode ser adquirido com uma unidade da moeda de referência, do seguinte modo: |1 x CUR1 = nnn x CUR2, |em que: |CUR1 é a moeda de referência |CUR2 é a moeda cotada |nnn é a taxa de câmbio.|1 x <UnitCcy> = <XchgRate> x <QtdCcy>."
+    },
+    "QuotationDate": {
+      "definition": "Data e hora em que uma taxa de câmbio é cotada."
+    },
+    "QuotingInstitution": {
+      "definition": "Parte que propõe a taxa de câmbio."
+    }
+  }
+}

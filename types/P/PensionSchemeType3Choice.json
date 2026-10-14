@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionSchemeType3Choice",
+  "definition": "Escolha de formatos para um tipo de regime de pensões.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de apólice, plano ou regime de pensões expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de apólice, plano ou regime de pensões expresso sob a forma de código proprietário."
+    }
+  }
+}

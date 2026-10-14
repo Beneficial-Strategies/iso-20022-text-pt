@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericIdentification16",
+  "definition": "Especifica uma identificação genérica.",
+  "isoElements": {
+    "Identification": {
+      "definition": "O identificador."
+    },
+    "IdentificationType": {
+      "definition": "Especifica a natureza do identificador."
+    },
+    "Issuer": {
+      "definition": "Parte que atribui a identificação."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "OtherParties39",
+  "definition": "Informação sobre outras partes.",
+  "isoElements": {
+    "Investor": {
+      "definition": "Parte, pessoa singular ou organização, cujos ativos estão a ser investidos."
+    },
+    "StockExchange": {
+      "definition": "Identificação da bolsa de valores à qual será feita a declaração da operação."
+    },
+    "TradeRegulator": {
+      "definition": "Instituição à qual uma negociação tem de ser declarada."
+    }
+  },
+  "isoRules": {
+    "InvestorCountryCodeRule": {
+      "definition": "Se Investor for utilizado com um código de país, então o código de país especifica a nacionalidade do investidor, por exemplo, para a liquidação de determinados valores mobiliários (isto é, companhias aéreas, fabricantes de material de defesa) ao abrigo da legislação da EU."
+    }
+  }
+}

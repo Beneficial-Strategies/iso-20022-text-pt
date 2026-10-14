@@ -1,0 +1,12 @@
+{
+  "isoType": "CommunicationFormat1Choice",
+  "definition": "Especifica uma escolha de formato para os extratos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Identificação única e inequívoca do formato de comunicação através de uma lista de códigos."
+    },
+    "Proprietary": {
+      "definition": "Identificação única e inequívoca do formato de comunicação através de um esquema de identificação proprietário."
+    }
+  }
+}

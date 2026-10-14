@@ -1,0 +1,18 @@
+{
+  "isoType": "LumpSumType1Code",
+  "definition": "Especifica um tipo de montante global.",
+  "isoCodes": {
+    "DEAB": {
+      "name": "Benefício por morte",
+      "definition": "O montante global é um montante global de prestação por morte."
+    },
+    "PCLS": {
+      "name": "Início da pensão",
+      "definition": "O montante global é um montante global de início da pensão."
+    },
+    "UFPL": {
+      "name": "Não cristalizado",
+      "definition": "O montante global é um montante global de pensão de fundo não cristalizado."
+    }
+  }
+}

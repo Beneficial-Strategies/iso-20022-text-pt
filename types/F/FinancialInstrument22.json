@@ -1,0 +1,39 @@
+{
+  "isoType": "FinancialInstrument22",
+  "definition": "Valor mobiliário que é um subconjunto de um fundo de investimento e é regido pela mesma política do fundo de investimento, por exemplo, opção de dividendos ou moeda de avaliação.",
+  "isoElements": {
+    "ClassType": {
+      "definition": "Características das unidades oferecidas por um fundo. Por exemplo, uma unidade pode ter uma estrutura de comissões específica, por exemplo, de subscrição ou de resgate, uma política de rendimentos, por exemplo, distribuição ou acumulação, ou uma política de comissões de gestão continuada (trailer), por exemplo, com ou sem. As classes de fundos são normalmente designadas por um único carácter, por exemplo, 'Classe A', 'Classe 2'."
+    },
+    "SecuritiesForm": {
+      "definition": "Especifica a forma, isto é, a titularidade, do valor mobiliário."
+    },
+    "DistributionPolicy": {
+      "definition": "Política de rendimentos relativa a um tipo de classe, isto é, se os rendimentos são distribuídos ou retidos no fundo."
+    },
+    "ProductGroup": {
+      "definition": "Descrição, específica da sociedade, de um grupo de fundos."
+    },
+    "UmbrellaName": {
+      "definition": "Nome do fundo chapéu em que o instrumento financeiro está contido."
+    },
+    "BaseCurrency": {
+      "definition": "Moeda da classe do fundo de investimento."
+    },
+    "DenominationCurrency": {
+      "definition": "Moeda em que um valor mobiliário é emitido ou redenominado."
+    },
+    "RequestedNAVCurrency": {
+      "definition": "Moeda a utilizar para a fixação do preço do fundo. Esta moeda tem de constar do conjunto de moedas em que o preço pode ser expresso, conforme indicado no prospeto."
+    },
+    "DualFundIndicator": {
+      "definition": "Indica se o fundo tem dois preços."
+    },
+    "CountryOfDomicile": {
+      "definition": "País onde o fundo tem domicílio legal, conforme refletido na classificação ISIN."
+    },
+    "RegisteredDistributionCountry": {
+      "definition": "Países onde o fundo está registado para distribuição."
+    }
+  }
+}

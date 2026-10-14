@@ -1,0 +1,4 @@
+{
+  "isoType": "MessageRejectV01",
+  "definition": "Âmbito|A mensagem MessageReject é enviada por um sistema central para notificar a rejeição de uma mensagem recebida anteriormente.|Utilização|A mensagem fornece informações específicas sobre o motivo da rejeição."
+}

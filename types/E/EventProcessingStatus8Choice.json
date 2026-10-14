@@ -1,0 +1,18 @@
+{
+  "isoType": "EventProcessingStatus8Choice",
+  "definition": "Fornece informações sobre o estado de uma operação sobre títulos ou o estado de um pagamento.",
+  "isoElements": {
+    "Complete": {
+      "definition": "Especifica que o processamento de um evento de operação sobre títulos foi concluído."
+    },
+    "Reconciled": {
+      "definition": "Processamento de um evento de operação sobre títulos que especifica que os fundos pagos foram reconciliados com os fundos recebidos da instituição (o que significa que deixa de existir risco de reversão do pagamento)."
+    },
+    "Pending": {
+      "definition": "Especifica que o processamento de um evento de operação sobre títulos não foi totalmente concluído e, por conseguinte, está pendente."
+    },
+    "ProprietaryStatus": {
+      "definition": "Estado proprietário relativo ao processamento do evento."
+    }
+  }
+}

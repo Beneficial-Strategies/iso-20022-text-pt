@@ -1,0 +1,24 @@
+{
+  "isoType": "SafekeepingAccount17",
+  "definition": "Informações pormenorizadas sobre a conta de custódia, as suas posições e as subcontas.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Conta onde são mantidos instrumentos financeiros. Conta detida pelo intermediário que responde junto da sua entidade gestora de contas."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gere a conta por conta do titular da conta, isto é, gere o registo e a contabilização dos lançamentos na conta, calcula os saldos da conta e presta informações sobre a conta."
+    },
+    "ShareholdingBalanceOnOwnAccount": {
+      "definition": "Número de ações detidas pelo intermediário que responde por conta própria."
+    },
+    "ShareholdingBalanceOnClientAccount": {
+      "definition": "Número de ações detidas pelo intermediário que responde por conta de terceiros."
+    },
+    "TotalShareholdingBalance": {
+      "definition": "Número total de ações detidas pelo intermediário que responde."
+    },
+    "AccountSubLevel": {
+      "definition": "Informações de participações ao nível de subconta."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "AutoBorrowing1Code",
+  "definition": "Especifica a condição em que o empréstimo automático é permitido.",
+  "isoCodes": {
+    "LAMI": {
+      "name": "Último recurso",
+      "definition": "Apenas deve ser considerado o empréstimo como último recurso para que a liquidação ocorra."
+    },
+    "NBOR": {
+      "name": "Não automático",
+      "definition": "Não deve ocorrer nenhum empréstimo automático."
+    },
+    "YBOR": {
+      "name": "Automático",
+      "definition": "Deve ocorrer empréstimo automático."
+    }
+  }
+}

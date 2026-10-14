@@ -1,0 +1,45 @@
+{
+  "isoType": "Cheque17",
+  "definition": "Características de uma instrução de cheque, como o tipo de cheque ou o número do cheque.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identificação única, atribuída por uma parte instruidora a uma parte instruída, para identificar inequivocamente a instrução. ||Usage: A identificação da instrução é uma referência ponto a ponto que pode ser utilizada entre a parte instruidora e a parte instruída para se referir à instrução individual. Pode ser incluída em várias mensagens relacionadas com a instrução."
+    },
+    "ChequeNumber": {
+      "definition": "Identificador único e inequívoco de um cheque, atribuído pela instituição."
+    },
+    "IssueDate": {
+      "definition": "Data em que o cheque foi emitido pelo ordenante."
+    },
+    "StaleDate": {
+      "definition": "Data após a qual um cheque deixa de ser válido. O prazo de validade de um cheque é calculado a partir da data de emissão constante na face do cheque.  O prazo pode estar indicado na própria face do cheque, por exemplo «Válido por 90 dias», ou ser determinado de acordo com a prática bancária nacional. |Nem todos os países têm um prazo de validade."
+    },
+    "Amount": {
+      "definition": "Especifica o montante do cheque a pagar ao beneficiário."
+    },
+    "ValueDate": {
+      "definition": "Data e hora a partir das quais o montante do cheque fica disponível na conta do beneficiário."
+    },
+    "Payer": {
+      "definition": "Parte que emite um cheque ordenando à instituição sacada que pague, à vista, um montante determinado ao beneficiário."
+    },
+    "PayerAccount": {
+      "definition": "Especifica a conta do pagador."
+    },
+    "DrawerAgent": {
+      "definition": "Especifica a instituição que gere a conta do pagador do cheque."
+    },
+    "DrawerAgentAccount": {
+      "definition": "Especifica a conta da instituição sacadora."
+    },
+    "Payee": {
+      "definition": "Parte que recebe um montante em dinheiro conforme especificado no cheque."
+    },
+    "PayeeAccount": {
+      "definition": "Especifica a conta do beneficiário."
+    },
+    "InstructionForChequeAgent": {
+      "definition": "Informações adicionais relativas ao processamento da instrução de cheque, que podem exigir uma ação por parte da instituição que processa o cheque."
+    }
+  }
+}

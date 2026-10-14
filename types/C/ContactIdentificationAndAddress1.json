@@ -1,0 +1,15 @@
+{
+  "isoType": "ContactIdentificationAndAddress1",
+  "definition": "Entidade humana, por oposição a uma entidade coletiva (por vezes designada «pessoa artificial»).",
+  "isoElements": {
+    "Name": {
+      "definition": "Nome pelo qual uma parte é conhecida e que é habitualmente utilizado para identificar essa parte."
+    },
+    "Role": {
+      "definition": "Papel da parte na atividade."
+    },
+    "CommunicationAddress": {
+      "definition": "Número, ou endereço virtual, utilizado para comunicação."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "VotingRightsThreshold2",
+  "definition": "Especifica um nível de limiar e uma base de limiar para a aprovação de deliberações em assembleias gerais.",
+  "isoElements": {
+    "Threshold": {
+      "definition": "Limiar de direitos de voto necessário para a aprovação de uma deliberação, em percentagem ou em quantidade."
+    },
+    "ThresholdBasis": {
+      "definition": "Natureza da quantidade utilizada como base para fixar um limiar de votação das deliberações em assembleias gerais."
+    }
+  }
+}

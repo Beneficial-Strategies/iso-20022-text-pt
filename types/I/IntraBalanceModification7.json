@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraBalanceModification7",
+  "definition": "Fornece os dados dos pedidos de modificação do relatório.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de numerário."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte titular da conta."
+    },
+    "CashAccountServicer": {
+      "definition": "Parte que gere a conta de numerário por conta do titular da conta, ou seja, gere o registo e o lançamento de movimentos na conta, calcula os saldos da conta e presta informações sobre a conta."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "Modification": {
+      "definition": "Detalhes adicionais da operação individual de modificação intrassaldo."
+    }
+  },
+  "isoRules": {
+    "CashAccountRule": {
+      "definition": "CashAccount tem de estar presente ou Cancellation(*)/CashAccount tem de estar presente, mas não ambos."
+    },
+    "CashAccountOwnerRule": {
+      "definition": "CashAccountOwner tem de estar presente ou Cancellation(*)/AccountOwner tem de estar presente, mas não ambos."
+    },
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus tem de estar presente ou Cancellation(*)/ProcessingStatus tem de estar presente, mas não ambos."
+    },
+    "CashAccountServicerRule": {
+      "definition": "CashAccountServicer tem de estar presente ou Cancellation(*)/AccountOwner tem de estar presente, mas não ambos."
+    }
+  }
+}

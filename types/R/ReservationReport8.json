@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationReport8",
+  "definition": "Comunica informações sobre a reserva ou sobre um erro de negócio.",
+  "isoElements": {
+    "ReservationIdentification": {
+      "definition": "Identificação da reserva sobre a qual são solicitadas informações."
+    },
+    "ReservationOrError": {
+      "definition": "Informações pedidas sobre o limite."
+    }
+  }
+}

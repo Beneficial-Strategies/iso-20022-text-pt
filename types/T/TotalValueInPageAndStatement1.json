@@ -1,0 +1,23 @@
+{
+  "isoType": "TotalValueInPageAndStatement1",
+  "definition": "Totais do valor das posições reportadas no extrato ou na página.",
+  "isoElements": {
+    "TotalHoldingsValueOfPage": {
+      "definition": "Valor total das posições reportadas nesta mensagem."
+    },
+    "TotalHoldingsValueOfStatement": {
+      "definition": "Valor total das posições reportadas neste extrato (um extrato pode compreender uma ou mais mensagens)."
+    },
+    "TotalBookValueOfStatement": {
+      "definition": "Valor contabilístico total das posições reportadas neste extrato (um extrato pode compreender uma ou mais mensagens)."
+    },
+    "TotalEligibleCollateralValue": {
+      "definition": "Valor total das posições elegíveis para efeitos de garantia reportadas neste extrato (um extrato pode compreender uma ou mais mensagens)."
+    }
+  },
+  "isoRules": {
+    "TotalEligibleCollateralValueRule": {
+      "definition": "O valor total da garantia elegível só deve ser utilizado na comunicação entre (I)CSD e participantes ou se tal for acordado bilateralmente entre o remetente e o destinatário."
+    }
+  }
+}

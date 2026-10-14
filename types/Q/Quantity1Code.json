@@ -1,0 +1,10 @@
+{
+  "isoType": "Quantity1Code",
+  "definition": "Especifica a quantidade de um instrumento financeiro.",
+  "isoCodes": {
+    "QALL": {
+      "name": "Todos os valores mobiliários",
+      "definition": "A instrução aplica-se à totalidade do saldo elegível dos valores mobiliários subjacentes."
+    }
+  }
+}

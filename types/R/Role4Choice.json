@@ -1,0 +1,12 @@
+{
+  "isoType": "Role4Choice",
+  "definition": "Escolha do formato de um papel da parte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Função da parte na atividade, expressa como código."
+    },
+    "Proprietary": {
+      "definition": "Papel da parte na atividade expresso como um código proprietário."
+    }
+  }
+}

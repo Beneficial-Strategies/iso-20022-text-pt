@@ -1,0 +1,12 @@
+{
+  "isoType": "Amount4Choice",
+  "definition": "Escolha entre um montante de aumento ou de diminuição.",
+  "isoElements": {
+    "IncreaseAmount": {
+      "definition": "Montante pelo qual o limite aumentou."
+    },
+    "DecreaseAmount": {
+      "definition": "Montante pelo qual o limite diminuiu."
+    }
+  }
+}

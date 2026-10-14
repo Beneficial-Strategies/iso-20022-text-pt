@@ -1,0 +1,27 @@
+{
+  "isoType": "ProcessingStatus105Choice",
+  "definition": "Escolha do formato do estado de tratamento.",
+  "isoElements": {
+    "PendingCancellation": {
+      "definition": "O cancelamento está pendente de processamento."
+    },
+    "Rejected": {
+      "definition": "A instrução/pedido foi rejeitada para processamento posterior."
+    },
+    "Repair": {
+      "definition": "A instrução/pedido é aceite mas encontra-se em reparação."
+    },
+    "AcknowledgedAccepted": {
+      "definition": "A instrução foi confirmada pela instituição gestora da conta."
+    },
+    "Proprietary": {
+      "definition": "Estado que não pode ser reportado através de um dos estados padrão disponíveis."
+    },
+    "Denied": {
+      "definition": "A instrução/pedido não será executado."
+    },
+    "Cancelled": {
+      "definition": "Cancelamento solicitado executado."
+    }
+  }
+}

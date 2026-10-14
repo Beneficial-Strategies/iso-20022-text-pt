@@ -1,0 +1,83 @@
+{
+  "isoType": "FinancialInstrumentAttributes129",
+  "definition": "Descrição do instrumento financeiro.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificação do instrumento financeiro."
+    },
+    "PlaceOfListing": {
+      "definition": "Local onde o instrumento financeiro referido está cotado."
+    },
+    "DayCountBasis": {
+      "definition": "Especifica o método de cálculo dos juros (acumulados) do instrumento financeiro."
+    },
+    "ClassificationType": {
+      "definition": "Tipo de classificação do instrumento financeiro, de acordo com a Classificação ISO de Instrumentos Financeiros (CFI)."
+    },
+    "OptionStyle": {
+      "definition": "Especifica como uma opção pode ser exercida."
+    },
+    "DenominationCurrency": {
+      "definition": "Moeda em que um instrumento financeiro está atualmente denominado."
+    },
+    "NextCouponDate": {
+      "definition": "Próxima data de pagamento de um instrumento financeiro que vence juros."
+    },
+    "FloatingRateFixingDate": {
+      "definition": "Data em que a taxa de juro ou o preço de reembolso será/foi calculado de acordo com os termos da emissão."
+    },
+    "MaturityDate": {
+      "definition": "Data em que um instrumento financeiro se torna exigível e os ativos devem ser reembolsados."
+    },
+    "IssueDate": {
+      "definition": "Data em que o valor mobiliário foi disponibilizado."
+    },
+    "NextCallableDate": {
+      "definition": "Data em que um instrumento financeiro é resgatado/reembolsado antes do seu vencimento previsto."
+    },
+    "PutableDate": {
+      "definition": "Data em que o detentor de um instrumento financeiro tem o direito de solicitar o reembolso do capital antes da data de vencimento prevista."
+    },
+    "DatedDate": {
+      "definition": "Data em que um instrumento financeiro que vence juros começa a acumular juros."
+    },
+    "ConversionDate": {
+      "definition": "Prazo-limite até ao qual um valor mobiliário convertível tem de ser convertido, de acordo com os termos da emissão."
+    },
+    "PreviousFactor": {
+      "definition": "Fator utilizado para calcular o valor do capital em dívida do instrumento financeiro (no caso de valores mobiliários com fator) até à próxima data de reembolso (fator)."
+    },
+    "NextFactor": {
+      "definition": "Fator utilizado para calcular o valor do capital em dívida do instrumento financeiro (no caso de valores mobiliários com fator) que será aplicável após a data de reembolso (fator)."
+    },
+    "InterestRate": {
+      "definition": "Taxa de juro anualizada de um instrumento financeiro utilizada para calcular a taxa de juro efetiva do cupão ou dos juros corridos."
+    },
+    "NextInterestRate": {
+      "definition": "Taxa de juro aplicável ao próximo período de pagamento de juros relativamente a instrumentos de taxa variável."
+    },
+    "MinimumNominalQuantity": {
+      "definition": "Quantidade nominal mínima do instrumento financeiro."
+    },
+    "MinimumQuantityToInstruct": {
+      "definition": "Quantidade mínima de instrumento financeiro que pode ser instruída."
+    },
+    "MinimumMultipleQuantityToInstruct": {
+      "definition": "Quantidade múltipla mínima de instrumento financeiro que pode ser instruída."
+    },
+    "ContractSize": {
+      "definition": "Relação ou fator multiplicador utilizado para converter um contrato numa quantidade de instrumento financeiro."
+    },
+    "IssuePrice": {
+      "definition": "Preço inicial de emissão/avaliação de um valor mobiliário resultante de uma operação sobre títulos."
+    }
+  },
+  "isoRules": {
+    "PreviousNextFactorRule": {
+      "definition": "No caso de reembolso parcial por fator de pool, PreviousFactor indica o fator aplicável antes do reembolso e NextFactor indica o fator aplicável após o reembolso."
+    },
+    "MaturityDateRule": {
+      "definition": "A data de vencimento pode fornecer apenas informações genéricas sobre o vencimento final do instrumento subjacente."
+    }
+  }
+}

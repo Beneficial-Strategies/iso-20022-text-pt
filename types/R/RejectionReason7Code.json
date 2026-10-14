@@ -1,0 +1,62 @@
+{
+  "isoType": "RejectionReason7Code",
+  "definition": "Especifica o motivo da rejeição de um pedido de cancelamento.",
+  "isoCodes": {
+    "DEAC": {
+      "name": "Evento já desativado",
+      "definition": "Rejeitada porque a desativação do evento já está concluída."
+    },
+    "FAIL": {
+      "name": "Validação falhada",
+      "definition": "A validação do aviso/instrução/pedido falhou."
+    },
+    "PDEA": {
+      "name": "Sem instrução de desativação pendente",
+      "definition": "O pedido de cancelamento é rejeitado porque não existe nenhuma instrução de desativação pendente."
+    },
+    "INID": {
+      "name": "Identificação inválida",
+      "definition": "A instrução contém uma identificação de mensagem inválida, identificação desconhecida."
+    },
+    "REFI": {
+      "name": "Identificação de ação societária inválida",
+      "definition": "Foi fornecida uma identificação de ação societária inválida."
+    },
+    "AGIN": {
+      "name": "Agente inválido",
+      "definition": "Identificação de agente fornecida inválida."
+    },
+    "SAID": {
+      "name": "Mesma identificação",
+      "definition": "Várias mensagens com a mesma identificação."
+    },
+    "DEAO": {
+      "name": "Opção já desativada",
+      "definition": "Rejeitada porque a desativação da opção já está concluída."
+    },
+    "INET": {
+      "name": "Tipo de evento inválido",
+      "definition": "O CA Event Type não corresponde à operação sobre títulos a que se refere."
+    },
+    "INUS": {
+      "name": "Valor mobiliário subjacente inválido",
+      "definition": "A Underlying Security Identification não corresponde à Corporate Action Reference fornecida."
+    },
+    "INPT": {
+      "name": "Tipo de tratamento de evento inválido",
+      "definition": "O Event Processing Type não corresponde à operação sobre títulos a que se refere."
+    },
+    "INMV": {
+      "name": "Tipo de evento obrigatório/voluntário inválido",
+      "definition": "O Mandatory/Voluntary Event Type não corresponde à operação sobre títulos a que se refere."
+    },
+    "INDE": {
+      "name": "Informações da operação sobre títulos inválidas",
+      "definition": "Os detalhes especificados no bloco Corporate Action General Information são incoerentes com os que foram especificados na mensagem original a que se refere."
+    },
+    "INDT": {
+      "name": "Detalhes inválidos",
+      "definition": "Os dados da mensagem especificados na instrução/pedido são incoerentes com os especificados na mensagem original a que se refere."
+    }
+  }
+}

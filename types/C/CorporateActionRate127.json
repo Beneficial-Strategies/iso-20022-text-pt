@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionRate127",
+  "definition": "Especifica as taxas relacionadas com uma opção de operação sobre títulos.",
+  "isoElements": {
+    "ProposedRate": {
+      "definition": "Taxa proposta numa recolocação de obrigações de taxa variável."
+    },
+    "OversubscriptionRate": {
+      "definition": "Taxa de sobresubscrição permitida."
+    },
+    "RequestedWithholdingTaxRate": {
+      "definition": "Taxa de imposto solicitada que será retida pelas autoridades fiscais da jurisdição do emitente, para a qual pode ser possível uma isenção na fonte e/ou uma reclamação."
+    },
+    "RequestedSecondLevelTaxRate": {
+      "definition": "Taxa solicitada à qual o rendimento será retido pela jurisdição que não seja a jurisdição do país de constituição fiscal do emitente, para a qual pode ser possível uma isenção na fonte e/ou uma reclamação."
+    }
+  }
+}

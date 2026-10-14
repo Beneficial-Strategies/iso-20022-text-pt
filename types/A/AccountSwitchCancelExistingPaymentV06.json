@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchCancelExistingPaymentV06",
+  "definition": "A mensagem AccountSwitchCancelExistingPayment é enviada pela nova instituição gestora da conta à anterior instituição gestora da conta para identificar quais os acordos de pagamento a cancelar na conta do titular e quando devem ser cancelados. Esta mensagem é utilizada durante uma mudança parcial da conta e pode ser enviada várias vezes, para permitir que as partes da conta transfiram diferentes acordos de pagamento em momentos diferentes durante a mudança."
+}

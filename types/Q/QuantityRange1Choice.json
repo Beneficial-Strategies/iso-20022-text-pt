@@ -1,0 +1,21 @@
+{
+  "isoType": "QuantityRange1Choice",
+  "definition": "Escolha entre intervalos de valores em que uma quantidade é considerada válida ou um valor de quantidade especificado que tem de coincidir ou não coincidir para ser válido.",
+  "isoElements": {
+    "FromQuantity": {
+      "definition": "Limite inferior de um intervalo de valores de quantidade."
+    },
+    "ToQuantity": {
+      "definition": "Limite superior de um intervalo de valores de quantidade."
+    },
+    "FromToQuantity": {
+      "definition": "Intervalo de valores de quantidade válidos."
+    },
+    "EqualQuantity": {
+      "definition": "Valor exato com que uma quantidade tem de coincidir para ser considerada válida."
+    },
+    "NotEqualQuantity": {
+      "definition": "Valor com que uma quantidade não pode coincidir para ser considerada válida."
+    }
+  }
+}

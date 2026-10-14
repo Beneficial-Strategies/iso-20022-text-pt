@@ -1,0 +1,18 @@
+{
+  "isoType": "TotalTransactions6",
+  "definition": "Conjunto de elementos utilizados para fornecer informações resumidas sobre os lançamentos.",
+  "isoElements": {
+    "TotalEntries": {
+      "definition": "Especifica o número total e a soma dos lançamentos a débito e a crédito."
+    },
+    "TotalCreditEntries": {
+      "definition": "Especifica o número total e a soma dos lançamentos a crédito."
+    },
+    "TotalDebitEntries": {
+      "definition": "Especifica o número total e a soma dos lançamentos a débito."
+    },
+    "TotalEntriesPerBankTransactionCode": {
+      "definition": "Especifica o número total e a soma dos lançamentos por código de operação bancária."
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "isoType": "PaymentSearch10",
+  "definition": "Define os critérios utilizados para pesquisar um pagamento.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte iniciadora original, para identificar de forma inequívoca a mensagem da operação de pagamento original. |Utilização: esta é a anterior referência da operação."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Data e hora em que o numerário fica à disposição do titular da conta a creditar, ou deixa de estar à disposição do titular da conta a debitar."
+    },
+    "PaymentIdentification": {
+      "definition": "Identificador único e inequívoco de uma instrução de pagamento, atribuído pelo agente de compensação ou pela parte iniciadora."
+    },
+    "Status": {
+      "definition": "Informações detalhadas sobre o estado de uma transferência."
+    },
+    "InstructedAmount": {
+      "definition": "Especifica o(s) montante(s) ordenado(s) sobre o(s) qual(is) é efetuada a consulta."
+    },
+    "InstructedAmountCurrency": {
+      "definition": "Moeda em que o montante ordenado é expresso."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se a instrução de pagamento é um débito ou um crédito."
+    },
+    "InterbankSettlementAmount": {
+      "definition": "Especifica o(s) montante(s) de liquidação interbancária sobre o(s) qual(is) é efetuada a consulta."
+    },
+    "InterbankSettlementAmountCurrency": {
+      "definition": "Moeda em que o montante de liquidação interbancária é expresso."
+    },
+    "PaymentMethod": {
+      "definition": "Indica a mensagem ou o evento a partir do qual foi iniciada uma instrução."
+    },
+    "PaymentType": {
+      "definition": "Instrução para pagar um montante de dinheiro a um beneficiário final, por conta de um ordenante. Esta instrução pode ter de ser reencaminhada várias vezes para concluir a cadeia de liquidação."
+    },
+    "Priority": {
+      "definition": "Urgência ou ordem de importância que o ordenante pretende que o destinatário da instrução de pagamento aplique ao seu processamento."
+    },
+    "ProcessingValidityTime": {
+      "definition": "Intervalo de data e hora no qual a instrução de pagamento tem de ser processada."
+    },
+    "Instruction": {
+      "definition": "Informações adicionais relativas ao processamento da instrução de pagamento. A instrução pode referir-se a um nível de serviço entre o banco e o cliente, ou dar instruções a e para partes específicas da cadeia de pagamento."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificação única, atribuída pelo primeiro agente instrutor, para identificar de forma inequívoca a operação que é transmitida, sem alterações, ao longo de toda a cadeia interbancária.|Utilização: a identificação da operação pode ser utilizada para reconciliação, rastreio ou para associar tarefas relativas à operação ao nível interbancário. O agente instrutor deve assegurar que a identificação da operação é única durante um período previamente acordado.|Utilização: este é o anterior PaymentInstructionReference."
+    },
+    "UETR": {
+      "definition": "Identificador universalmente único para fornecer uma referência de ponta a ponta de uma operação de pagamento."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Data em que o montante de dinheiro deixa de estar disponível para o agente que o deve e em que passa a estar disponível para o agente a quem é devido.|Utilização: esta é a anterior InterbankValueDate."
+    },
+    "EndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora, para identificar de forma inequívoca a operação. Esta identificação é transmitida, sem alterações, ao longo de toda a cadeia de ponta a ponta.|Utilização: a identificação de ponta a ponta pode ser utilizada para reconciliação ou para associar tarefas relativas à operação.|Pode ser incluída em várias mensagens relacionadas com a operação.|Utilização: esta é a anterior RelatedReference."
+    },
+    "Parties": {
+      "definition": "Define os campos de parte utilizados para pesquisar um pagamento."
+    }
+  },
+  "isoRules": {
+    "SettlementAmountCurrencyRule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de InterbankSettlementAmount/CurrencyAndAmountRange, não é permitida nenhuma ocorrência de InterbankSettlementAmountCurrency.|Se InterbankSettlementAmount/CurrencyAndAmountRange não estiver presente, qualquer ocorrência de InterbankSettlementAmountCurrency é facultativa."
+    },
+    "InstructedAmountCurrencyRule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de InstructedAmount/CurrencyAndAmountRange, não é permitida nenhuma ocorrência de InstructedAmountCurrency.|Se InstructedAmount/CurrencyAndAmountRange não estiver presente, qualquer ocorrência de InstructedAmountCurrency é facultativa."
+    },
+    "InstructedAmountCreditDebitIndicator1Rule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de InstructedAmount/CurrencyAndAmountRange/CreditDebitIndicator, CreditDebitIndicator não é permitido.|Se InstructedAmount/CurrencyAndAmountRange/CreditDebitIndicator não estiver presente, CreditDebitIndicator é facultativo."
+    },
+    "InstructedAmountCreditDebitIndicator2Rule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de InstructedAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator, CreditDebitIndicator não é permitido.|Se InstructedAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator não estiver presente, CreditDebitIndicator é facultativo."
+    },
+    "SettlementAmountCreditDebitIndicator1Rule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de InterbankSettlementAmount/CurrencyAndAmountRange/CreditDebitIndicator, CreditDebitIndicator não é permitido.|Se InterbankSettlementAmount/CurrencyAndAmountRange/CreditDebitIndicator não estiver presente, CreditDebitIndicator é facultativo."
+    },
+    "SettlementAmountCreditDebitIndicator2Rule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de InterbankSettlementAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator, CreditDebitIndicator não é permitido.|Se InterbankSettlementAmount/ImpliedCurrencyAndAmountRange/CreditDebitIndicator não estiver presente, CreditDebitIndicator é facultativo."
+    }
+  }
+}

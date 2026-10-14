@@ -1,0 +1,65 @@
+{
+  "isoType": "CashOption110",
+  "definition": "Fornece informações sobre a opção em numerário.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indica se o valor é um débito ou um crédito."
+    },
+    "ContractualPaymentIndicator": {
+      "definition": "Indica se o pagamento em numerário ocorre ou ocorrerá antes da receção do produto do emitente, com base num acordo contratual estabelecido com a entidade gestora da conta, ou aquando da receção do produto do emitente."
+    },
+    "IssuerOfferorTaxabilityIndicator": {
+      "definition": "O produto é tributável de acordo com as informações fornecidas pelo emitente / oferente."
+    },
+    "IncomeType": {
+      "definition": "Especifica o tipo de rendimento.|As listas de códigos de tipo de rendimento a utilizar estão disponíveis no sítio Web da SMPG em www.smpg.info."
+    },
+    "OtherIncomeType": {
+      "definition": "Tipo de rendimento a utilizar ao abrigo de outro regime fiscal."
+    },
+    "ExemptionType": {
+      "definition": "Especifica o fundamento da taxa de retenção na fonte reduzida."
+    },
+    "CountryOfIncomeSource": {
+      "definition": "Indica o país de origem do rendimento."
+    },
+    "Account": {
+      "definition": "Escolha entre uma conta de numerário, uma conta de encargos ou uma conta de impostos."
+    },
+    "CashParties": {
+      "definition": "Fornece informações sobre as partes de numerário."
+    },
+    "AmountDetails": {
+      "definition": "Fornece informações sobre os montantes relacionados com um movimento de numerário."
+    },
+    "DateDetails": {
+      "definition": "Fornece informações sobre as datas relacionadas com um movimento de numerário."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Taxa de câmbio entre o montante e o montante resultante."
+    },
+    "TaxVoucherDetails": {
+      "definition": "Fornece informações sobre o comprovativo fiscal relacionado com um movimento de numerário."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fornece informações sobre a opção de operação sobre títulos."
+    },
+    "PriceDetails": {
+      "definition": "Fornece informações sobre os preços relacionados com uma opção de operação sobre títulos."
+    }
+  },
+  "isoRules": {
+    "ExemptionTypeUsageRule": {
+      "definition": "As listas de códigos de tipo de isenção a utilizar em ExemptionType são fornecidas no documento \"ETYP-ITYP Exemption & Income Type Codes\", disponível no sítio Web da SMPG em www.smpg.info."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "As listas de códigos de tipo de rendimento a utilizar em IncomeType são fornecidas no documento \"ETYP-ITYP Exemption & Income Type Codes\", disponível no sítio Web da SMPG em www.smpg.info."
+    },
+    "IssuerOfferorTaxabilityIndicatorUsageRule": {
+      "definition": "O IssuerOfferorTaxabilityIndicator só pode ser utilizado quando não é fornecida nenhuma taxa de imposto na mensagem e não deve ser utilizado em eventos como dividendos ou juros.|A lista de códigos proprietários de IssuerOfferorTaxabilityIndicator que podem ser utilizados consta do documento \" TXAP Taxability Codes\" disponível no sítio web do SMPG em www.smpg.info."
+    },
+    "IncomeType2Rule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de OtherIncomeType, então IncomeType tem de estar presente."
+    }
+  }
+}

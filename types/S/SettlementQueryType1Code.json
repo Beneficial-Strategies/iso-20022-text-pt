@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementQueryType1Code",
+  "definition": "Especifica o tipo de consulta de instruções de liquidação a executar.",
+  "isoCodes": {
+    "INST": {
+      "name": "Instrução",
+      "definition": "Consulta instruções de liquidação com base em critérios que excluem estados."
+    },
+    "STTS": {
+      "name": "Estado",
+      "definition": "Consulta instruções de liquidação com base em critérios que incluem estados."
+    },
+    "STPD": {
+      "name": "Período do estado",
+      "definition": "Consulta instruções de liquidação com base em critérios que incluem estados durante um período."
+    }
+  }
+}

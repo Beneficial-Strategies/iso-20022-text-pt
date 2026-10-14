@@ -1,0 +1,18 @@
+{
+  "isoType": "TotalCharges8",
+  "definition": "Especifica o montante total de registos e encargos incluídos no bloco.",
+  "isoElements": {
+    "NumberOfChargesBreakdownItems": {
+      "definition": "Número de itens individuais de discriminação de encargos contidos no registo."
+    },
+    "ControlSum": {
+      "definition": "Total de todos os montantes individuais de discriminação de encargos, independentemente das moedas."
+    },
+    "TotalChargesAmount": {
+      "definition": "Montante total dos encargos reclamados através dos itens de discriminação de encargos."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o montante total dos encargos é um montante a crédito ou a débito. |Usage: Um montante zero é considerado um crédito."
+    }
+  }
+}

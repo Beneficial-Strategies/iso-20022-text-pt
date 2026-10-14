@@ -1,0 +1,54 @@
+{
+  "isoType": "IntermediateSecurityDistributionType1Code",
+  "definition": "Especifica o tipo de distribuição de valores mobiliários intermédios.",
+  "isoCodes": {
+    "BIDS": {
+      "name": "Direitos inversos",
+      "definition": "Distribuição de direitos inversos."
+    },
+    "BONU": {
+      "name": "Direitos de bonificação",
+      "definition": "Distribuição de direitos de bonificação."
+    },
+    "DRIP": {
+      "name": "Reinvestimento de dividendos",
+      "definition": "Distribuição de valores mobiliários de reinvestimento de dividendos."
+    },
+    "DVCA": {
+      "name": "Dividendo em numerário",
+      "definition": "Distribuição de numerário aos acionistas, proporcional à sua participação no capital. Os dividendos ordinários são recorrentes e regulares. O acionista tem de receber numerário e pode ser-lhe oferecida a escolha da moeda."
+    },
+    "DVOP": {
+      "name": "Opção de dividendo",
+      "definition": "Distribuição de opção de dividendo."
+    },
+    "EXRI": {
+      "name": "Direitos de subscrição",
+      "definition": "Distribuição de direitos de subscrição."
+    },
+    "PRIO": {
+      "name": "Direitos de oferta aberta",
+      "definition": "Distribuição de direitos de oferta aberta."
+    },
+    "DVSC": {
+      "name": "Dividendo ou pagamento em scrip",
+      "definition": "Dividendo ou juros pagos sob a forma de scrip."
+    },
+    "DVSE": {
+      "name": "Dividendo em ações",
+      "definition": "Dividendo pago aos acionistas sob a forma de ações."
+    },
+    "INTR": {
+      "name": "Pagamento de juros",
+      "definition": "Pagamento de juros distribuído aos titulares de um ativo que vence juros."
+    },
+    "LIQU": {
+      "name": "Dividendo ou pagamento de liquidação",
+      "definition": "Distribuição de numerário, de ativos ou de ambos."
+    },
+    "SOFF": {
+      "name": "Cisão",
+      "definition": "Distribuição de ações de uma filial aos acionistas."
+    }
+  }
+}

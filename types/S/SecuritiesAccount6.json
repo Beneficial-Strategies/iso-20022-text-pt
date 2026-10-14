@@ -1,0 +1,21 @@
+{
+  "isoType": "SecuritiesAccount6",
+  "definition": "Fornece informações sobre a conta de valores mobiliários.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identificação do instrumento financeiro."
+    },
+    "SecuritiesAccountIdentification": {
+      "definition": "Identificação da conta onde são mantidos os instrumentos financeiros."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identificação da parte titular da conta."
+    },
+    "SafekeepingPlace": {
+      "definition": "Identificação do local de custódia."
+    },
+    "RegistrationDetails": {
+      "definition": "Fornece as informações necessárias para o registo do valor mobiliário."
+    }
+  }
+}

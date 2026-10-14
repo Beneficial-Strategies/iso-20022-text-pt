@@ -1,0 +1,14 @@
+{
+  "isoType": "ActivationStatus2Code",
+  "definition": "Estado de uma configuração.",
+  "isoCodes": {
+    "WACT": {
+      "name": "Aguarda ativação",
+      "definition": "A transferência da configuração foi bem-sucedida e aguarda agora uma futura data de ativação."
+    },
+    "FAIL": {
+      "name": "Falha",
+      "definition": "A atualização da configuração falhou."
+    }
+  }
+}

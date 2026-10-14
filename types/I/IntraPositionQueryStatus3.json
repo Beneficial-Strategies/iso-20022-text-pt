@@ -1,0 +1,12 @@
+{
+  "isoType": "IntraPositionQueryStatus3",
+  "definition": "Define os critérios de consulta do estado do movimento intraposição, incluindo o período do estado.",
+  "isoElements": {
+    "Type": {
+      "definition": "Define o tipo de estado dos critérios de consulta."
+    },
+    "DatePeriod": {
+      "definition": "Período de datas especificado do estado."
+    }
+  }
+}

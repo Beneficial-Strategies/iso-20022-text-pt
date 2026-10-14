@@ -1,0 +1,4 @@
+{
+  "isoType": "CashDepositRequestV01",
+  "definition": "A mensagem CashDepositRequest é enviada por um remetente de numerário a um destinatário de numerário para solicitar que o numerário possa ser entregue para depósito numa conta."
+}

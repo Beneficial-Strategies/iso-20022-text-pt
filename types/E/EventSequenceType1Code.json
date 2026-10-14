@@ -1,0 +1,14 @@
+{
+  "isoType": "EventSequenceType1Code",
+  "definition": "Especifica se o evento é um evento intercalar ou final numa série de eventos sucessivos.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Final",
+      "definition": "Evento final numa série de eventos sucessivos."
+    },
+    "INTE": {
+      "name": "Intercalar",
+      "definition": "Evento intercalar numa série de eventos sucessivos."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionAmounts80",
+  "definition": "Especifica montantes no âmbito de um evento de operação sobre valores mobiliários.",
+  "isoElements": {
+    "RefundedAmount": {
+      "definition": "Para eventos de pré-reembolso parcial, montante que o emitente está a reembolsar para uma data de vencimento anterior, o qual é garantido e depositado em caução (escrow)."
+    },
+    "NonRefundedAmount": {
+      "definition": "Para eventos de pré-reembolso parcial, montante remanescente que continuará a ter a mesma data de vencimento."
+    },
+    "DepositoryCalledAmount": {
+      "definition": "Indica a parte do montante resgatado que está detida no depositário. Pode incluir a posição detida sob forma de certificado no depositário mais o saldo detido no agente de reembolso. Para emissões nominativas, inclui apenas a parte dos certificados detidos no depositário sob forma nominativa ou ao portador."
+    }
+  }
+}

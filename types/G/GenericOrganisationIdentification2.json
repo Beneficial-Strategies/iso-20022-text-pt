@@ -1,0 +1,15 @@
+{
+  "isoType": "GenericOrganisationIdentification2",
+  "definition": "Informações relativas a uma identificação, por exemplo, identificação de parte ou identificação de conta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação atribuída por uma instituição."
+    },
+    "SchemeName": {
+      "definition": "Nome do esquema de identificação."
+    },
+    "Issuer": {
+      "definition": "Entidade que atribui a identificação."
+    }
+  }
+}

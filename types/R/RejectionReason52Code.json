@@ -1,0 +1,18 @@
+{
+  "isoType": "RejectionReason52Code",
+  "definition": "Especifica o motivo pelo qual a resposta de divulgação da identificação tem um estado de rejeitada.",
+  "isoCodes": {
+    "IDRI": {
+      "name": "Identificação do pedido de divulgação inválida",
+      "definition": "A identificação do pedido de divulgação é inválida ou desconhecida."
+    },
+    "IDRJ": {
+      "name": "Identificação da resposta de divulgação inválida",
+      "definition": "A identificação da resposta de divulgação é inválida ou desconhecida."
+    },
+    "SVNO": {
+      "name": "Serviço não oferecido",
+      "definition": "O serviço para o qual as informações foram enviadas não é oferecido."
+    }
+  }
+}

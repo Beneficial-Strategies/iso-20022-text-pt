@@ -1,0 +1,12 @@
+{
+  "isoType": "NameAndAddress13",
+  "definition": "Informações que localizam e identificam uma parte.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nome pelo qual uma parte é conhecida e que é normalmente utilizado para identificar essa parte."
+    },
+    "Address": {
+      "definition": "Endereço postal de uma parte."
+    }
+  }
+}

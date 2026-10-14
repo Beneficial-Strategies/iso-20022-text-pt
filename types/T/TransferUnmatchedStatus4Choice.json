@@ -1,0 +1,18 @@
+{
+  "isoType": "TransferUnmatchedStatus4Choice",
+  "definition": "Motivo do estado não emparelhado.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que não existe motivo disponível ou a reportar."
+    },
+    "Reason": {
+      "definition": "Motivo do estado não emparelhado."
+    },
+    "ExtendedReason": {
+      "definition": "Motivo do estado não emparelhado."
+    },
+    "DataSourceScheme": {
+      "definition": "Identificação proprietária do motivo do estado não emparelhado."
+    }
+  }
+}

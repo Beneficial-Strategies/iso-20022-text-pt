@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection35",
+  "definition": "Montante a débito ou a crédito resultante da compensação dos montantes de todos os lançamentos a débito e a crédito.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante resultante da compensação dos montantes de todos os lançamentos a débito e a crédito."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o montante é um montante a crédito ou a débito."
+    }
+  }
+}

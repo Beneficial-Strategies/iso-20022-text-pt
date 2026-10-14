@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyIdentification192",
+  "definition": "Identificação de uma parte.",
+  "isoElements": {
+    "Party": {
+      "definition": "Identificação única da parte."
+    },
+    "LEI": {
+      "definition": "Identificação da entidade jurídica como identificação alternativa da parte."
+    }
+  }
+}

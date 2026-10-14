@@ -1,0 +1,12 @@
+{
+  "isoType": "ExposureType25Choice",
+  "definition": "Escolha de formato para a informação da exposição.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de exposição do movimento de garantia expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de exposição do movimento de garantia expresso como um código proprietário."
+    }
+  }
+}

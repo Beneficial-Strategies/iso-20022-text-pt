@@ -1,0 +1,12 @@
+{
+  "isoType": "OwnershipType3Choice",
+  "definition": "Escolha do formato do tipo de proprietário.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de proprietário expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de proprietário expresso como um código proprietário."
+    }
+  }
+}

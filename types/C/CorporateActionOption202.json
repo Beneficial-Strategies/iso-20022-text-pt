@@ -1,0 +1,23 @@
+{
+  "isoType": "CorporateActionOption202",
+  "definition": "Fornece informações sobre a opção de operação sobre títulos.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "InstructedQuantity": {
+      "definition": "Quantidade de valores mobiliários a que esta instrução se aplica."
+    }
+  },
+  "isoRules": {
+    "OptionNumber1Rule": {
+      "definition": "Para diferenciar as opções, deve ser utilizado o OptionNumber (de preferência ao OptionType, por exemplo no caso em que duas ou mais ofertas podem ser descritas pelo mesmo código de opção de operação sobre ativos). Por conseguinte, o valor de OptionNumber deve ser diferente para cada opção."
+    },
+    "OptionNumber2Rule": {
+      "definition": "Quando a CorporateActionInstruction não é solicitada, isto é, a instrução não foi precedida de uma Corporate ActionNotification, então OptionNumber/code deve ser UNSO (unsolicited)."
+    }
+  }
+}

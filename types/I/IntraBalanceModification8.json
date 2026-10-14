@@ -1,0 +1,30 @@
+{
+  "isoType": "IntraBalanceModification8",
+  "definition": "Fornece os detalhes dos pedidos de modificação.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de numerário."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte titular da conta."
+    },
+    "CashAccountServicer": {
+      "definition": "Parte que gere a conta de numerário por conta do titular da conta, ou seja, gere o registo e o lançamento de movimentos na conta, calcula os saldos da conta e presta informações sobre a conta."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "RequestReference": {
+      "definition": "Identificação inequívoca do pedido de modificação."
+    },
+    "StatusDate": {
+      "definition": "Data e hora em que o estado foi atribuído."
+    },
+    "RequestDetails": {
+      "definition": "Detalhes do pedido com as alterações e as referências da instrução cuja modificação é solicitada."
+    },
+    "UnderlyingIntraBalance": {
+      "definition": "Identifica detalhes adicionais da operação."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "ServiceCategoryTotals8",
+  "definition": "Especifica os totais relacionados com a fatura.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação única de uma conta de valores mobiliários ou de uma conta de numerário pertencente ao cliente faturado."
+    },
+    "ParentAccountIdentification": {
+      "definition": "Identificação única de uma conta-mãe de valores mobiliários ou de uma conta-mãe de numerário pertencente ao cliente faturado, quando se reporta sobre subcontas."
+    },
+    "BilledCustomerIdentification": {
+      "definition": "Identificação do cliente que é faturado."
+    },
+    "Tax": {
+      "definition": "Informações detalhadas sobre o imposto aplicado."
+    },
+    "TotalInvoiceAmount": {
+      "definition": "Montante total da fatura, correspondente à soma dos montantes totais das linhas da fatura, do montante total de ajustamento da fatura (descontos, abonos e encargos) e dos montantes totais de imposto."
+    },
+    "ServiceCategory": {
+      "definition": "Acordo ou regras ao abrigo dos quais a operação deve ser processada."
+    },
+    "ServiceItemTotals": {
+      "definition": "Totais relacionados com a fatura."
+    },
+    "ServiceItemCorrection": {
+      "definition": "Correção aplicada à fatura."
+    }
+  }
+}

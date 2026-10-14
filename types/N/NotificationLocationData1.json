@@ -1,0 +1,15 @@
+{
+  "isoType": "NotificationLocationData1",
+  "definition": "Fornece detalhes adicionais sobre os dados ou a documentação.",
+  "isoElements": {
+    "Method": {
+      "definition": "Método utilizado para entregar os dados ou a documentação."
+    },
+    "ElectronicAddress": {
+      "definition": "Endereço eletrónico para o qual uma instituição enviou os dados ou a documentação."
+    },
+    "PostalAddress": {
+      "definition": "Endereço postal para o qual uma instituição enviou os dados ou a documentação."
+    }
+  }
+}

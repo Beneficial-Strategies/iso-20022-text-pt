@@ -1,0 +1,14 @@
+{
+  "isoType": "BlockTrade1Code",
+  "definition": "Especifica se a instrução é a principal ou uma subordinada de uma operação em bloco.",
+  "isoCodes": {
+    "BLPA": {
+      "name": "Principal",
+      "definition": "A operação é uma operação em bloco principal."
+    },
+    "BLCH": {
+      "name": "Subordinado",
+      "definition": "A operação é uma operação em bloco subordinada."
+    }
+  }
+}

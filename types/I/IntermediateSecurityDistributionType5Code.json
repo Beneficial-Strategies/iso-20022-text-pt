@@ -1,0 +1,66 @@
+{
+  "isoType": "IntermediateSecurityDistributionType5Code",
+  "definition": "Especifica o tipo de distribuição de valores mobiliários intermédios.",
+  "isoCodes": {
+    "BIDS": {
+      "name": "Direitos inversos",
+      "definition": "Distribuição de direitos inversos."
+    },
+    "DRIP": {
+      "name": "Reinvestimento de dividendos",
+      "definition": "Distribuição de valores mobiliários de reinvestimento de dividendos."
+    },
+    "DVCA": {
+      "name": "Dividendo em numerário",
+      "definition": "Distribuição de numerário aos acionistas, proporcional à sua participação no capital. Os dividendos ordinários são recorrentes e regulares. O acionista tem de receber numerário e pode ser-lhe oferecida a escolha da moeda."
+    },
+    "DVOP": {
+      "name": "Opção de dividendo",
+      "definition": "Distribuição de opção de dividendo."
+    },
+    "EXRI": {
+      "name": "Direitos de subscrição",
+      "definition": "Distribuição de direitos de subscrição."
+    },
+    "PRIO": {
+      "name": "Direitos de oferta aberta",
+      "definition": "Distribuição de direitos de oferta aberta."
+    },
+    "DVSC": {
+      "name": "Dividendo ou pagamento em scrip",
+      "definition": "Dividendo ou juros pagos sob a forma de scrip."
+    },
+    "DVSE": {
+      "name": "Dividendo em ações",
+      "definition": "Dividendo pago aos acionistas sob a forma de ações."
+    },
+    "INTR": {
+      "name": "Pagamento de juros",
+      "definition": "Pagamento de juros distribuído aos titulares de um ativo que vence juros."
+    },
+    "LIQU": {
+      "name": "Dividendo ou pagamento de liquidação",
+      "definition": "Distribuição de numerário, de ativos ou de ambos."
+    },
+    "SOFF": {
+      "name": "Cisão",
+      "definition": "Distribuição de ações de uma filial aos acionistas."
+    },
+    "SPLF": {
+      "name": "Desdobramento de ações",
+      "definition": "Também conhecido como alteração do valor nominal ou subdivisão.|Aumento do número de ações em circulação de uma sociedade sem qualquer alteração do capital próprio do acionista nem do valor de mercado agregado no momento da divisão. O preço das ações e o valor nominal são reduzidos em conformidade."
+    },
+    "BONU": {
+      "name": "Direitos de bonificação",
+      "definition": "Distribuição de direitos de bonificação."
+    },
+    "EXOF": {
+      "name": "Troca",
+      "definition": "Troca de participações por outros valores mobiliários e/ou numerário. A troca pode ser obrigatória ou voluntária e implica a troca de valores mobiliários em circulação por diferentes valores mobiliários e/ou numerário. Por exemplo, \"oferta de troca\", \"reorganização do capital\" ou \"separação de fundos\"."
+    },
+    "MRGR": {
+      "name": "Fusão",
+      "definition": "Troca de valores mobiliários em circulação, iniciada pelo emitente e que pode incluir opções, em resultado da combinação de ativos de duas ou mais sociedades, ou seja, uma sociedade externa, terceira. Podem ser efetuados pagamentos em numerário em conjunto com a troca de ações."
+    }
+  }
+}

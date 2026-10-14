@@ -1,0 +1,15 @@
+{
+  "isoType": "MessageHeader9",
+  "definition": "Conjunto de características, como a identificação ou a data e hora de criação, específicas da mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pelo remetente, para identificar de forma inequívoca a mensagem.|Utilização: o remetente deve assegurar que a MessageIdentification é única durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    },
+    "RequestType": {
+      "definition": "Ações específicas a executar através do pedido."
+    }
+  }
+}

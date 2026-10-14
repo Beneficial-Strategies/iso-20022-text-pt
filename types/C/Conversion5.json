@@ -1,0 +1,12 @@
+{
+  "isoType": "Conversion5",
+  "definition": "Identificação de um instrumento financeiro.",
+  "isoElements": {
+    "TargetSecurity": {
+      "definition": "Identificação do valor mobiliário de destino."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a conversão."
+    }
+  }
+}

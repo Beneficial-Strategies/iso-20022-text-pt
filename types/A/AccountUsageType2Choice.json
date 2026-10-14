@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountUsageType2Choice",
+  "definition": "Escolha de formatos para a especificação do tipo de utilização da conta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de utilização da conta expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de utilização da conta expresso sob a forma de código proprietário."
+    }
+  }
+}

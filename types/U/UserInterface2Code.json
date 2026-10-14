@@ -1,0 +1,14 @@
+{
+  "isoType": "UserInterface2Code",
+  "definition": "Tipo de interface para apresentar uma mensagem.",
+  "isoCodes": {
+    "MDSP": {
+      "name": "Ecrã do comerciante",
+      "definition": "Ecrã ou interface do comerciante."
+    },
+    "CDSP": {
+      "name": "Ecrã do titular do cartão",
+      "definition": "Ecrã ou interface do titular do cartão."
+    }
+  }
+}

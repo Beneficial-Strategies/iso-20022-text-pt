@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchTerminationSwitchV01",
+  "definition": "A mensagem AccountSwitchTerminationSwitch é enviada pela nova instituição gestora da conta à instituição de gestão da mudança de conta para sinalizar que a mudança de conta tem de ser interrompida. A mensagem AccountSwitchTerminationSwitch só é utilizada a título excecional, depois de a nova instituição gestora da conta ter recebido uma mensagem AccountSwitchInformationResponse."
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "Case6",
+  "definition": "Fornece informações adicionais para identificar um processo de investigação.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identifica de forma inequívoca o processo."
+    },
+    "Creator": {
+      "definition": "Parte que criou o processo de investigação."
+    },
+    "ReopenCaseIndication": {
+      "definition": "Indica se o processo foi anteriormente encerrado e foi agora reaberto."
+    }
+  }
+}

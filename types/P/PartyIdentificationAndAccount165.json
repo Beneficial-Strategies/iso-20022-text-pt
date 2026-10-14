@@ -1,0 +1,21 @@
+{
+  "isoType": "PartyIdentificationAndAccount165",
+  "definition": "Detalhes da parte e da conta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação da parte."
+    },
+    "LEI": {
+      "definition": "Identificação da entidade jurídica como identificação alternativa de uma parte."
+    },
+    "AlternateIdentification": {
+      "definition": "Identificação alternativa de uma parte."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identificação inequívoca da operação para a parte identificada."
+    },
+    "AdditionalInformation": {
+      "definition": "Fornece informações adicionais sobre a parte."
+    }
+  }
+}

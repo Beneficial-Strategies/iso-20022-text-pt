@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionFrequencyType5Code",
+  "definition": "Reinvestimento automático de numerário distribuído mediante a acumulação de fundos.",
+  "isoCodes": {
+    "FINL": {
+      "name": "Final",
+      "definition": "Pagamento de um dividendo, deduzidos os montantes já pagos através de dividendos intercalares."
+    },
+    "INTE": {
+      "name": "Intercalar",
+      "definition": "Dividendo declarado e pago antes de os resultados anuais terem sido determinados."
+    },
+    "REIN": {
+      "name": "Reinvestimento",
+      "definition": "Reinvestimento do numerário distribuído."
+    },
+    "REGR": {
+      "name": "Regular",
+      "definition": "Dividendo pago a intervalos regulares, por exemplo, trimestralmente."
+    },
+    "SPEC": {
+      "name": "Especial",
+      "definition": "Dividendo adicional ao dividendo regular pago pela sociedade."
+    },
+    "SPRE": {
+      "name": "Dividendo especial com reinvestimento",
+      "definition": "Dividendo especial com componente de reinvestimento."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditorReferenceType2",
+  "definition": "Especifica o tipo de referência do credor.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Tipo de referência do credor em formato codificado ou proprietário."
+    },
+    "Issuer": {
+      "definition": "Entidade que atribui o tipo de referência de crédito."
+    }
+  }
+}

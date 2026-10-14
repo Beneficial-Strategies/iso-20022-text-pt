@@ -1,0 +1,58 @@
+{
+  "isoType": "RejectionReason59Code",
+  "definition": "Especifica o motivo pelo qual o pedido de instrução tem um estado rejeitado.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "OPTY": {
+      "name": "Tipo de opção inválido",
+      "definition": "Tipo de opção inválido."
+    },
+    "ULNK": {
+      "name": "Referência inválida",
+      "definition": "A referência associada é desconhecida."
+    },
+    "DSEC": {
+      "name": "Valor mobiliário inválido",
+      "definition": "Identificação do instrumento financeiro não reconhecida ou inválida."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "NMTY": {
+      "name": "Divergência",
+      "definition": "Divergência entre o número da opção e o tipo de opção."
+    },
+    "OPNM": {
+      "name": "Rejeição do número da opção",
+      "definition": "Número de opção não reconhecido."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "DQUA": {
+      "name": "Rejeição da quantidade",
+      "definition": "Quantidade instruída não reconhecida ou inválida."
+    },
+    "SAFE": {
+      "name": "Rejeição da conta de guarda",
+      "definition": "Conta de custódia do remetente da mensagem não reconhecida ou inválida."
+    },
+    "EVNM": {
+      "name": "Identificação não reconhecida",
+      "definition": "Número de evento não reconhecido."
+    },
+    "DQCS": {
+      "name": "Rejeição do montante",
+      "definition": "Montante em numerário instruído não reconhecido ou inválido."
+    },
+    "DQCC": {
+      "name": "Rejeição da moeda",
+      "definition": "Moeda instruída inválida."
+    }
+  }
+}

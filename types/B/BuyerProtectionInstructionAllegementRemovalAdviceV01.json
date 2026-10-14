@@ -1,0 +1,12 @@
+{
+  "isoType": "BuyerProtectionInstructionAllegementRemovalAdviceV01",
+  "definition": "Âmbito|Uma entidade gestora de contas envia uma mensagem BuyerProtectionInstructionAllegementRemovalAdvice a um titular de conta para confirmar que uma alegação de instrução de proteção do comprador anteriormente enviada já não está pendente.||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem anteriormente enviada,|- fornecer a um terceiro uma cópia de uma mensagem a título informativo,|- reenviar a um terceiro uma cópia de uma mensagem a título informativo|utilizando os elementos pertinentes do cabeçalho aplicacional de negócio.",
+  "isoElements": {
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador da instrução que não seja o titular da conta, o intermediário da conta nem a infraestrutura do mercado."
+    },
+    "AllegementRemovalReason": {
+      "definition": "Motivo da remoção da alegação de proteção do comprador."
+    }
+  }
+}

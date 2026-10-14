@@ -1,0 +1,12 @@
+{
+  "isoType": "Priority1Choice",
+  "definition": "A prioridade é expressa sob a forma de um código ou de um texto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código de prioridade, sob forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Código de prioridade acordado bilateralmente entre as partes."
+    }
+  }
+}

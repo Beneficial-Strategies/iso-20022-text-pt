@@ -1,0 +1,70 @@
+{
+  "isoType": "ExternalVerificationReason1Code",
+  "definition": "Especifica o código externo do motivo de verificação, conforme publicado num conjunto de códigos externo de verificação.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "AC01": {
+      "name": "Número de conta incorreto",
+      "definition": "O número de conta fornecido no pedido é inválido ou está em falta."
+    },
+    "AGNT": {
+      "name": "Agente incorreto",
+      "definition": "A identificação da instituição fornecida no pedido está incorreta"
+    },
+    "DUPL": {
+      "name": "Pedido duplicado",
+      "definition": "O pedido é duplicado de outro pedido"
+    },
+    "AG01": {
+      "name": "Operação proibida nesta conta",
+      "definition": "Operação proibida neste tipo de conta (não é possível efetuar o pagamento para esta conta, por exemplo, não aceita depósitos, está bloqueada ou encerrada)."
+    },
+    "BNOR": {
+      "name": "Banco depositário da conta não registado",
+      "definition": "O PSP não está registado neste sistema."
+    },
+    "DS28": {
+      "name": "Devolução por motivo técnico",
+      "definition": "Devolução na sequência de problemas técnicos que resultaram numa operação errónea."
+    },
+    "FF01": {
+      "name": "Formato de ficheiro inválido",
+      "definition": "Formato de ficheiro incompleto ou inválido."
+    },
+    "MS03": {
+      "name": "Motivo não especificado gerado pela instituição",
+      "definition": "O motivo não foi especificado pela instituição."
+    },
+    "NORR": {
+      "name": "Nenhum relatório recebido",
+      "definition": "Sem resposta ao pedido dentro do prazo."
+    },
+    "NR01": {
+      "name": "Nenhum motivo possível",
+      "definition": "O PSP não consegue confirmar os dados e não é indicado qualquer motivo."
+    },
+    "RC03": {
+      "name": "Identificador do banco do devedor inválido",
+      "definition": "O identificador do banco do devedor é inválido ou está em falta."
+    },
+    "RC04": {
+      "name": "Identificador do banco do credor inválido",
+      "definition": "O identificador do banco do credor é inválido ou está em falta."
+    },
+    "TM01": {
+      "name": "Hora-limite inválida",
+      "definition": "A mensagem associada foi recebida após a hora-limite de processamento acordada."
+    },
+    "PN01": {
+      "name": "O nome do titular da conta não corresponde",
+      "definition": "O nome do titular da conta e o número da conta de pagamento não correspondem."
+    },
+    "PN02": {
+      "name": "O nome do titular da conta corresponde parcialmente",
+      "definition": "O nome do titular da conta e o número da conta de pagamento correspondem de forma aproximada."
+    },
+    "PI01": {
+      "name": "A identificação do titular da conta não corresponde",
+      "definition": "A identificação do titular da conta e o número da conta de pagamento não correspondem."
+    }
+  }
+}

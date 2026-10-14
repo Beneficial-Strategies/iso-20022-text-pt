@@ -1,0 +1,29 @@
+{
+  "isoType": "SecuritiesModification2",
+  "definition": "Fornece as operações do relatório.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte que é titular da conta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "Modification": {
+      "definition": "Identifica a operação individual."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount tem de estar presente ou Modification(*)/SafekeepingAccount tem de estar presente, mas não ambos."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner tem de estar presente ou Modification(*)/AccountOwner tem de estar presente, mas não ambos."
+    },
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus tem de estar presente ou Modification(*)/ProcessingStatus tem de estar presente, mas não ambos."
+    }
+  }
+}

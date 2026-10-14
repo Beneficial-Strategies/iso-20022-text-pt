@@ -1,0 +1,12 @@
+{
+  "isoType": "CardTransaction3Choice",
+  "definition": "Escolha entre uma operação com cartão globalizada pelo adquirente e uma operação individual com cartão.",
+  "isoElements": {
+    "Aggregated": {
+      "definition": "Dados da operação com cartão, com base nos dados agregados de operações com cartão efetuadas pelo adquirente."
+    },
+    "Individual": {
+      "definition": "Dados da operação individual com cartão, tal como registados no POI (point of interaction)."
+    }
+  }
+}

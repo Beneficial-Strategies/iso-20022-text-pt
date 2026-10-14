@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationVerification5",
+  "definition": "Fornece os detalhes dos dados de identificação cuja verificação é solicitada.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única, atribuída por uma parte remetente, para identificar inequivocamente o grupo de informações de identificação da parte e da conta na mensagem."
+    },
+    "PartyAndAccountIdentification": {
+      "definition": "Informações de identificação da parte e/ou da conta cuja verificação é solicitada."
+    }
+  }
+}

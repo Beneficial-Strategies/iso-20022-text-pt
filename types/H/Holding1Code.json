@@ -1,0 +1,18 @@
+{
+  "isoType": "Holding1Code",
+  "definition": "Especifica a forma como a posição está bloqueada.",
+  "isoCodes": {
+    "CERT": {
+      "name": "Certificado",
+      "definition": "Certificado."
+    },
+    "NPRH": {
+      "name": "Posição não parcial",
+      "definition": "Posição não parcial."
+    },
+    "PRTH": {
+      "name": "Posição parcial",
+      "definition": "Posição parcial."
+    }
+  }
+}

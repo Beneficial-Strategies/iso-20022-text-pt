@@ -1,0 +1,26 @@
+{
+  "isoType": "CashOutForecast6",
+  "definition": "Movimentos de numerário para fora de um fundo em resultado de operações de fundos de investimento, por exemplo, resgates ou saídas por troca.",
+  "isoElements": {
+    "CashSettlementDate": {
+      "definition": "Data em que o numerário está disponível."
+    },
+    "SubTotalAmount": {
+      "definition": "Montante parcial do fluxo de caixa de saída, expresso como um montante em dinheiro."
+    },
+    "SubTotalUnitsNumber": {
+      "definition": "Montante parcial do fluxo de caixa de saída, expresso como um número de unidades."
+    },
+    "ExceptionalCashFlowIndicator": {
+      "definition": "Indica se o fluxo de caixa de saída é excecional."
+    },
+    "AdditionalBalance": {
+      "definition": "Saldos adicionais para montantes em numerário e número de unidades. |Num relatório estimado, o total de numerário decorrente de ordens colocadas como número de unidades é um montante estimado de numerário e o total de unidades decorrentes de ordens colocadas como montante em numerário é um número estimado de unidades."
+    }
+  },
+  "isoRules": {
+    "AdditionalBalanceRule": {
+      "definition": "Se AdditionalBalance estiver presente, então pelo menos um ou mais elementos da lista (AdditionalBalance/TotalUnitsFromUnitOrders, AdditionalBalance/TotalUnitsFromCashOrders, AdditionalBalance/TotalCashFromUnitOrders, AdditionalBalance/TotalCashFromCashOrders) têm de estar presentes."
+    }
+  }
+}

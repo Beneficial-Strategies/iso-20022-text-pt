@@ -1,0 +1,74 @@
+{
+  "isoType": "ATMCommand7Code",
+  "definition": "Tipo de comando executado pelo ATM.",
+  "isoCodes": {
+    "ABAL": {
+      "name": "Saldo do ATM",
+      "definition": "Fornecer os contadores do ATM, repondo a zero os que forem aplicáveis."
+    },
+    "ASTS": {
+      "name": "Atualização do estado do ATM",
+      "definition": "Estado do ATM exigido pelo gestor do ATM."
+    },
+    "CFGT": {
+      "name": "Atualização da configuração",
+      "definition": "Atualizar os parâmetros de configuração do ATM."
+    },
+    "CCNT": {
+      "name": "Consulta de contadores",
+      "definition": "Pedir o valor dos contadores do ATM."
+    },
+    "DISC": {
+      "name": "Desligar",
+      "definition": "Efetuar uma desligação seguida de uma religação."
+    },
+    "KACT": {
+      "name": "Ativação de chave",
+      "definition": "Ativar chaves criptográficas."
+    },
+    "KDAC": {
+      "name": "Desativação de chave",
+      "definition": "Desativar chaves criptográficas."
+    },
+    "KDWL": {
+      "name": "Descarregamento de chave",
+      "definition": "Iniciar um descarregamento de chave criptográfica."
+    },
+    "KRMV": {
+      "name": "Remoção de chave",
+      "definition": "Remover chaves criptográficas."
+    },
+    "SCFU": {
+      "name": "Atualização da configuração do dispositivo de segurança",
+      "definition": "Atualizar a configuração do módulo de segurança de hardware do ATM."
+    },
+    "SSCU": {
+      "name": "Atualização do esquema do dispositivo de segurança",
+      "definition": "Atualizar o esquema de segurança do módulo de segurança de hardware do ATM."
+    },
+    "SSTU": {
+      "name": "Atualização do estado do dispositivo de segurança",
+      "definition": "Atualizar o estado do módulo de segurança de hardware do ATM."
+    },
+    "SNDM": {
+      "name": "Enviar mensagem",
+      "definition": "Enviar uma mensagem específica para iniciar um processo."
+    },
+    "HKCG": {
+      "name": "Substituição de chave HLA",
+      "definition": "Substituir uma chave existente através de uma chave de autoridade de nível superior (HLA). No esquema TR34, seria utilizado para implementar uma operação de HLA Rebind."
+    },
+    "HKRV": {
+      "name": "Remoção de chave HLA",
+      "definition": "Remover uma chave criptográfica através de uma chave de autoridade de nível superior (HLA). No esquema TR34, seria utilizado para implementar uma operação de HLA Unbind."
+    },
+    "KCHG": {
+      "name": "Substituição de chave",
+      "definition": "Substitui uma chave criptográfica existente. Num esquema TR34, seria utilizado para implementar uma operação de Rebind."
+    },
+    "RREQ": {
+      "name": "Pedido de reconciliação",
+      "definition": "Enviar uma mensagem ReconciliationRequest."
+    }
+  }
+}

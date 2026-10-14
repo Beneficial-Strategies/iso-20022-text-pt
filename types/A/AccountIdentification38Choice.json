@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification38Choice",
+  "definition": "Identificação única da conta de valores mobiliários ou da conta de numerário detida pelo cliente.",
+  "isoElements": {
+    "SecuritiesAccountIdentification": {
+      "definition": "Identificação única da conta de valores mobiliários, atribuída pela instituição gestora da conta."
+    },
+    "CashAccountIdentification": {
+      "definition": "Identificação única da conta de numerário, atribuída pela instituição gestora da conta."
+    }
+  }
+}

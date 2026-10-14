@@ -1,0 +1,4 @@
+{
+  "isoType": "CorporateActionMovementPreliminaryAdviceCancellationAdvice002V13",
+  "definition": "Âmbito|A mensagem CorporateActionMovementPreliminaryAdviceCancellationAdvice é enviada por uma entidade gestora de contas a um titular de conta ou ao seu agente designado para cancelar um CorporateActionMovementPreliminaryAdvice anunciado anteriormente.|Utilização|A mensagem também pode ser utilizada para:|- reenviar uma mensagem enviada anteriormente (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy Duplicate), utilizando os elementos pertinentes do cabeçalho aplicacional da mensagem (BAH)."
+}

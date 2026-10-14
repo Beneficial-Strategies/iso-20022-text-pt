@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingStatementStatus1Code",
+  "definition": "Define o estado do extrato de faturação.",
+  "isoCodes": {
+    "ORGN": {
+      "name": "Original",
+      "definition": "O extrato é o extrato original."
+    },
+    "RPLC": {
+      "name": "Substituir",
+      "definition": "O extrato substitui o extrato original."
+    },
+    "TEST": {
+      "name": "Teste",
+      "definition": "O extrato é um extrato de teste."
+    }
+  }
+}

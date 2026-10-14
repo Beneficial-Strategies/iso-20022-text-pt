@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionTaxableIncomePerShareCalculated1Code",
+  "definition": "Especifica se o fundo calcula o rendimento tributável por dividendo/rendimento tributável por ação (TID/TIS).",
+  "isoCodes": {
+    "TDIY": {
+      "name": "Calculado",
+      "definition": "O fundo calcula o rendimento tributável por dividendo/rendimento tributável por ação."
+    },
+    "TDIN": {
+      "name": "Não calculado",
+      "definition": "O fundo não calcula o rendimento tributável por dividendo/rendimento tributável por ação."
+    },
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "Desconhece-se se o fundo calcula o rendimento tributável por dividendo/rendimento tributável por ação."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "DisclosureRequestType1Code",
+  "definition": "Tipo de pedido de divulgação.",
+  "isoCodes": {
+    "NEWM": {
+      "name": "Novo",
+      "definition": "Novo pedido de divulgação."
+    },
+    "REPL": {
+      "name": "Substituição",
+      "definition": "Pedido de divulgação que substitui um pedido enviado anteriormente."
+    }
+  }
+}

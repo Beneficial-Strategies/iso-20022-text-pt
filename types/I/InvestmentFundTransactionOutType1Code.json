@@ -1,0 +1,22 @@
+{
+  "isoType": "InvestmentFundTransactionOutType1Code",
+  "definition": "Especifica o tipo de operação sobre fundos de investimento que resulta num movimento de caixa de saída de um fundo.",
+  "isoCodes": {
+    "REDM": {
+      "name": "Resgate",
+      "definition": "A operação é um resgate de um fundo de investimento."
+    },
+    "SWIO": {
+      "name": "Conversão de saída",
+      "definition": "A operação é a perna de subscrição da execução de uma ordem de conversão."
+    },
+    "INSP": {
+      "name": "Em espécie",
+      "definition": "A operação é uma entrega em espécie (InSpecie)."
+    },
+    "CROO": {
+      "name": "Cruzamento de saída",
+      "definition": "A operação é uma saída cruzada."
+    }
+  }
+}

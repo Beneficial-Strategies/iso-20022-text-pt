@@ -1,0 +1,17 @@
+{
+  "isoType": "PartyTextInformation5",
+  "definition": "Fornece informações adicionais sobre a parte, por exemplo, a unidade de contacto ou a pessoa responsável pela operação identificada na mensagem.",
+  "isoElements": {
+    "DeclarationDetails": {
+      "definition": "Fornece uma narrativa dos detalhes da declaração relativa à parte."
+    },
+    "PartyContactDetails": {
+      "definition": "Fornece informações adicionais sobre a parte, por exemplo, a unidade de contacto ou a pessoa responsável pela operação identificada na mensagem."
+    }
+  },
+  "isoRules": {
+    "AdditonalDetailsGuideline": {
+      "definition": "Salvo acordo bilateral entre o Sender e o Receiver, DeclarationlDetails e PartyContactDetails não devem conter informações que possam ser fornecidas num campo estruturado."
+    }
+  }
+}

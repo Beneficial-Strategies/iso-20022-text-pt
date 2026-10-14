@@ -1,0 +1,10 @@
+{
+  "isoType": "VotingParticipationMethod2Code",
+  "definition": "Especifica os diferentes métodos permitidos para participar na votação das deliberações da ordem de trabalhos de uma assembleia geral.",
+  "isoCodes": {
+    "PHNV": {
+      "name": "Sem voto",
+      "definition": "A participação na assembleia é presencial, mas a pessoa não vota."
+    }
+  }
+}

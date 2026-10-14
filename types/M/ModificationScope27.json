@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope27",
+  "definition": "Âmbito da modificação a aplicar a um conjunto de informações identificado.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Especifica o tipo de modificação a aplicar a um conjunto de informações."
+    },
+    "InvestorProfileValidation": {
+      "definition": "Informações detalhadas sobre as informações do perfil da parte."
+    }
+  }
+}

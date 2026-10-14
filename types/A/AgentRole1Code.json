@@ -1,0 +1,14 @@
+{
+  "isoType": "AgentRole1Code",
+  "definition": "Especifica o papel do agente do emitente.",
+  "isoCodes": {
+    "PRIN": {
+      "name": "Agente mandante",
+      "definition": "Identificação do agente que atua como agente principal."
+    },
+    "SUBA": {
+      "name": "Subagente",
+      "definition": "Identificação do agente que atua como agente de codomiciliação ou subagente."
+    }
+  }
+}

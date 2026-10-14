@@ -1,0 +1,22 @@
+{
+  "isoType": "LotteryFeatureType1Code",
+  "definition": "Especifica a característica de sorteio.",
+  "isoCodes": {
+    "XTRA": {
+      "name": "Extraordinária",
+      "definition": "Reembolso extraordinário. O reembolso extraordinário permite ao emitente resgatar as suas obrigações antes do vencimento se ocorrerem determinados eventos especificados, como o facto de o projeto que a obrigação foi emitida para financiar ter sido danificado ou destruído. Esta característica deve ser especificada no prospeto de oferta da obrigação."
+    },
+    "OPTL": {
+      "name": "Facultativo",
+      "definition": "O emitente tem o direito de reembolsar a totalidade ou parte das obrigações antes das respetivas datas de vencimento."
+    },
+    "SINK": {
+      "name": "Fundo de amortização",
+      "definition": "Fundo de amortização de obrigações (sinking fund). O fundo de amortização de obrigações é um mecanismo financeiro utilizado pelos emitentes de obrigações para reservar dinheiro com o objetivo de reembolsar os obrigacionistas no vencimento ou através de reembolsos periódicos."
+    },
+    "SPCL": {
+      "name": "Especial",
+      "definition": "Obrigação de reembolso especial. Obrigação que pode ser reembolsada antes do vencimento devido a um evento invulgar, como uma catástrofe que afete a fonte de receitas da obrigação. Esta característica deve ser especificada no prospeto de oferta da obrigação. O reembolso especial pode ser efetuado nos termos das disposições do contrato de emissão (indenture)."
+    }
+  }
+}

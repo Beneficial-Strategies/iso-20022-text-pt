@@ -1,0 +1,12 @@
+{
+  "isoType": "AllocationSatus3Choice",
+  "definition": "Escolha de formato para o motivo do estado de atribuição.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fornece o estado da atribuição de garantias para cobrir a instrução."
+    },
+    "Proprietary": {
+      "definition": "Fornece o estado da atribuição de garantias para cobrir a instrução."
+    }
+  }
+}

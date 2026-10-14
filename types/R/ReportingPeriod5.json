@@ -1,0 +1,15 @@
+{
+  "isoType": "ReportingPeriod5",
+  "definition": "Especifica o período de comunicação solicitado.",
+  "isoElements": {
+    "FromToDate": {
+      "definition": "Especifica um intervalo de datas."
+    },
+    "FromToTime": {
+      "definition": "Especifica um intervalo de horas."
+    },
+    "Type": {
+      "definition": "Especifica se devem ser comunicados todos os itens correspondentes ou apenas os itens novos ou alterados desde que foi efetuado o último pedido semelhante."
+    }
+  }
+}

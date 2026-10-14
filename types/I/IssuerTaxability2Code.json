@@ -1,0 +1,10 @@
+{
+  "isoType": "IssuerTaxability2Code",
+  "definition": "Especifica se o produto da ação societária é tributável ao nível do emitente.",
+  "isoCodes": {
+    "TXBL": {
+      "name": "Tributável",
+      "definition": "O produto em causa é tributável."
+    }
+  }
+}

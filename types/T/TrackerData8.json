@@ -1,0 +1,27 @@
+{
+  "isoType": "TrackerData8",
+  "definition": "Especifica as informações detalhadas fornecidas por um sistema de seguimento de pagamentos.",
+  "isoElements": {
+    "ConfirmedDate": {
+      "definition": "Momento em que a conta do credor foi creditada com os fundos de um pagamento."
+    },
+    "ConfirmedAmount": {
+      "definition": "Montante efetivamente creditado ao credor e confirmado ao sistema de rastreamento pelo agente."
+    },
+    "ReturnedConfirmedDate": {
+      "definition": "Momento em que a conta do credor foi creditada com os fundos de uma devolução de pagamento."
+    },
+    "ReturnedConfirmedAmount": {
+      "definition": "Montante efetivamente creditado ao credor por uma devolução de pagamento e confirmado ao sistema de rastreamento pelo agente."
+    },
+    "RemainingToBeConfirmedAmount": {
+      "definition": "Montante que falta confirmar."
+    },
+    "PreviouslyConfirmedAmount": {
+      "definition": "Montante creditado anteriormente ao credor e confirmado ao sistema de rastreamento pelo agente."
+    },
+    "PreviouslyConfirmedDate": {
+      "definition": "Momento em que o montante anterior foi confirmado.||Utilização:|Esta data indica o momento em que o último montante confirmado anteriormente foi fornecido ao rastreador, em caso de confirmação parcial."
+    }
+  }
+}

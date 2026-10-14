@@ -1,0 +1,24 @@
+{
+  "isoType": "Unit15",
+  "definition": "Informações sobre as unidades a transferir.",
+  "isoElements": {
+    "Units": {
+      "definition": "Quantidade de unidades ou de ativos digitais."
+    },
+    "OrderDate": {
+      "definition": "Data em que o investidor ou o seu agente deu a ordem original."
+    },
+    "AcquisitionDate": {
+      "definition": "Data em que o investidor adquiriu o instrumento financeiro."
+    },
+    "CertificateNumber": {
+      "definition": "Certificado que representa o valor mobiliário."
+    },
+    "Group1Or2Units": {
+      "definition": "Grupo fiscal a que pertencem as unidades de fundo de investimento adquiridas. O investidor indica ao intermediário que gere contas coletivas de representantes qual o tipo de unidade a vender."
+    },
+    "Reference": {
+      "definition": "Referência ao número das unidades. Pode ser a referência da ordem da aquisição original, a identificação de um lote, uma referência do cliente, uma referência de subposição ou outra referência conexa."
+    }
+  }
+}

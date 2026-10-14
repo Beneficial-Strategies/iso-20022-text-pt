@@ -1,0 +1,12 @@
+{
+  "isoType": "MemberReportOrError7Choice",
+  "definition": "Utilizado para fornecer informações sobre as operações e os lançamentos contabilizados mantidos no administrador de operações.",
+  "isoElements": {
+    "Report": {
+      "definition": "Fornece os detalhes do membro solicitado."
+    },
+    "OperationalError": {
+      "definition": "Indica que foi emitido um erro operacional durante o processamento do pedido associado."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AgentCAMovementInstructionV01",
+  "definition": "Âmbito|Esta mensagem é enviada por um emitente (ou pelo seu agente) a uma CSD para ordenar:|- o débito global ou individual de recursos exercidos (numerário e/ou valores mobiliários), por evento e, opcionalmente, por opção e por recurso, para todas as contas de clientes da CSD ou para contas individuais;|- e/ou os créditos individuais dos recursos resultantes, por evento e, opcionalmente, por opção e por recurso, para a conta de um determinado cliente da CSD.|Utilização|Esta mensagem é utilizada para instruir:|- o débito global dos recursos exercidos do saldo disponível ou sequestrado do cliente da CSD, caso em que o tipo de ordem tem de ser 'ordem de débito global';|- os débitos e créditos individuais:|- o débito individual dos recursos exercidos do saldo disponível ou sequestrado do cliente da CSD e/ou|- o crédito individual dos recursos resultantes na conta do cliente da CSD.|O tipo de ordem tem de ser 'ordem individual';|- uma ordem de devolução, no caso de um rateio, isto é, a devolução dos recursos exercidos à conta do cliente da CSD. O tipo de ordem tem de ser 'ordem de devolução global' ou 'ordem de devolução individual'; e|a alteração de opção, p. ex., no caso do encerramento de uma opção, mediante a transferência dos recursos exercidos de uma opção para outra opção dentro dos saldos sequestrados, de acordo com as condições da nova opção. O tipo de ordem tem de ser 'ordem de alteração de opção'.",
+  "isoRules": {
+    "OptionRule1": {
+      "definition": "SE MovementGeneralInformation/OrderType for CHAN (OptionChangeOrder), então OptionNumber e OptionType têm de estar presentes em cada ocorrência de UnderlyingSecuritiesMovementDetails/CreditAccountDetails e UnderlyingSecuritiesMovement/DebitAccountDetails e OptionNumber e OptionType não podem estar presentes em MovementGeneralInformation."
+    },
+    "OptionRule2": {
+      "definition": "SE MovementGeneralInformation/OrderType não for CHAN (OptionChangeOrder), então OptionNumber e OptionType têm de estar presentes em MovementGeneralInformation e não podem estar presentes em nenhuma ocorrência de UnderlyingSecuritiesMovementDetails/CreditAccountDetails nem em UnderlyingSecuritiesMovement/DebitAccountDetails."
+    }
+  }
+}

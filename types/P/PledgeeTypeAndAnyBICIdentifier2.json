@@ -1,0 +1,12 @@
+{
+  "isoType": "PledgeeTypeAndAnyBICIdentifier2",
+  "definition": "Identificação da entidade a favor da qual os instrumentos financeiros são penhorados, expressa como um código e um BIC.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação da entidade a favor da qual os instrumentos financeiros são penhorados, expressa como um BIC."
+    },
+    "PledgeeType": {
+      "definition": "Entidade a favor da qual os instrumentos financeiros são penhorados, expressa como um código."
+    }
+  }
+}

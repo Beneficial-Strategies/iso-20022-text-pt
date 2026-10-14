@@ -1,0 +1,62 @@
+{
+  "isoType": "CRSStatus1Code",
+  "definition": "Especifica o estatuto do Common Reporting Standard (CRS).",
+  "isoCodes": {
+    "C101": {
+      "name": "CRS101",
+      "definition": "O tipo de titular da conta é uma entidade não financeira passiva com uma ou mais pessoas que a controlam que são pessoas estrangeiras."
+    },
+    "C102": {
+      "name": "CRS102",
+      "definition": "O tipo de titular da conta é uma pessoa estrangeira."
+    },
+    "C103": {
+      "name": "CRS103",
+      "definition": "O tipo de titular da conta é uma entidade não financeira estrangeira passiva sem pessoas que a controlam que sejam pessoas estrangeiras."
+    },
+    "C104": {
+      "name": "CRS104",
+      "definition": "O tipo de titular da conta é uma instituição financeira, como um depositário, uma instituição de custódia ou uma empresa de seguros especificada."
+    },
+    "C105": {
+      "name": "CRS105",
+      "definition": "O tipo de titular da conta é uma instituição financeira, como uma entidade de investimento de uma jurisdição não participante e gerida por outra instituição financeira, sem uma ou mais pessoas que a controlam que sejam pessoas estrangeiras."
+    },
+    "C106": {
+      "name": "CRS106",
+      "definition": "O tipo de titular da conta é uma instituição financeira, como uma entidade de investimento de uma jurisdição não participante e gerida por outra instituição financeira, com uma ou mais pessoas que a controlam que sejam pessoas estrangeiras."
+    },
+    "C107": {
+      "name": "CRS107",
+      "definition": "O tipo de titular da conta é uma instituição financeira, como outra entidade de investimento."
+    },
+    "C108": {
+      "name": "CRS108",
+      "definition": "O tipo de titular da conta é uma entidade não financeira ativa, como uma sociedade cujas ações são regularmente negociadas num mercado de valores mobiliários estabelecido."
+    },
+    "C109": {
+      "name": "CRS109",
+      "definition": "O tipo de titular da conta é uma entidade não financeira ativa, como uma sociedade que é uma entidade relacionada com uma sociedade cujas ações são regularmente negociadas num mercado de valores mobiliários estabelecido."
+    },
+    "C110": {
+      "name": "CRS110",
+      "definition": "O tipo de titular da conta é uma entidade não financeira ativa, como uma entidade pública."
+    },
+    "C111": {
+      "name": "CRS111",
+      "definition": "O tipo de titular da conta é uma entidade não financeira ativa, como um banco central."
+    },
+    "C112": {
+      "name": "CRS112",
+      "definition": "O tipo de titular da conta é uma entidade não financeira ativa, como uma organização internacional."
+    },
+    "C113": {
+      "name": "CRS113",
+      "definition": "O tipo de titular da conta não é uma pessoa estrangeira."
+    },
+    "C114": {
+      "name": "CRS114",
+      "definition": "O tipo de titular da conta é uma instituição financeira, como uma entidade de investimento de uma jurisdição participante e gerida por outra instituição financeira."
+    }
+  }
+}

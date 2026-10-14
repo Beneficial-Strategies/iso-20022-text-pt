@@ -1,0 +1,18 @@
+{
+  "isoType": "PartyIdentificationAndAccount170",
+  "definition": "Detalhes da parte e da conta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação da parte."
+    },
+    "LEI": {
+      "definition": "Identificação da entidade jurídica como identificação alternativa de uma parte."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identificação inequívoca da operação para a parte identificada."
+    }
+  }
+}

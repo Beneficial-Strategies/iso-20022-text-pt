@@ -1,0 +1,12 @@
+{
+  "isoType": "RateTypeAndPercentageRate22",
+  "definition": "Especifica o valor expresso como um tipo de taxa presumida e uma taxa percentual.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Valor expresso como um tipo de taxa."
+    },
+    "Rate": {
+      "definition": "Valor expresso como taxa."
+    }
+  }
+}

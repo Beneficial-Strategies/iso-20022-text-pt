@@ -1,0 +1,44 @@
+{
+  "isoType": "Penalty4",
+  "definition": "Especifica as penalizações de uma determinada parte.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Moeda das penalizações comunicadas."
+    },
+    "Date": {
+      "definition": "Data em que as penalizações comunicadas neste bloco foram calculadas inicialmente.|."
+    },
+    "PartyIdentification": {
+      "definition": "Identificação única da parte no sistema."
+    },
+    "CounterpartyCSD": {
+      "definition": "Identificação única e inequívoca da parte a que se referem os montantes agregados."
+    },
+    "CSDDepository": {
+      "definition": "Depositário/intermediário utilizado por um ICSD para aceder à CSD de uma contraparte específica, ou seja, a parte que presta serviços à conta."
+    },
+    "AggregatedAmount": {
+      "definition": "Montante agregado da penalização."
+    },
+    "CashAccount": {
+      "definition": "Conta a debitar/creditar para a liquidação da penalização."
+    },
+    "CashSettlementDate": {
+      "definition": "Data em que o pagamento da penalização é devido."
+    },
+    "CashPenaltyIdentification": {
+      "definition": "Referência do pagamento da penalização."
+    },
+    "NumberOfCounterparties": {
+      "definition": "Número de contrapartes envolvidas na penalização."
+    },
+    "PenaltyPerCounterparty": {
+      "definition": "Créditos (penalizações) numa moeda e numa data comunicados para uma determinada parte.|Se não existirem penalizações numa determinada moeda para uma parte, este bloco não será informado."
+    }
+  },
+  "isoRules": {
+    "CounterpartyCSDPresenceRule": {
+      "definition": "Ou o CounterpartyCSD ou PenaltyPerCounterparty/AccountServicer é informado, mas não ambos."
+    }
+  }
+}

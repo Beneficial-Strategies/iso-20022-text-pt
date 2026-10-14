@@ -1,0 +1,18 @@
+{
+  "isoType": "HoldingsPlanType1Code",
+  "definition": "Especifica o plano de posições dos ativos a transferir.",
+  "isoCodes": {
+    "INVP": {
+      "name": "Plano de investimento",
+      "definition": "A posição a transferir pertence a um plano de investimento."
+    },
+    "SWIP": {
+      "name": "Plano de conversão",
+      "definition": "A posição a transferir pertence a um plano de conversão."
+    },
+    "PLAR": {
+      "name": "Plano de resgate",
+      "definition": "A posição a transferir pertence a um plano de resgate."
+    }
+  }
+}

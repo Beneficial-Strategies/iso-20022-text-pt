@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraBalanceType3",
+  "definition": "Tipo intrassaldo utilizado para especificar pares de saldos de origem/destino.",
+  "isoElements": {
+    "BalanceFrom": {
+      "definition": "Saldo de que o montante em dinheiro é movimentado."
+    },
+    "BalanceTo": {
+      "definition": "Saldo para o qual o montante em dinheiro é movimentado."
+    }
+  },
+  "isoRules": {
+    "BalanceFromToRule": {
+      "definition": "O tipo de saldo de caixa de BalanceFrom tem de ser diferente do tipo de saldo de caixa de BalanceTo."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "LimitJournalReportOrError7Choice",
+  "definition": "Define o relatório do limite como um erro operacional ou um relatório comercial.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Especifica o relatório comercial como um diário de utilização do limite ou um erro comercial."
+    },
+    "OperationalError": {
+      "definition": "Especifica o erro operacional resultante do tratamento de um pedido."
+    }
+  }
+}

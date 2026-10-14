@@ -1,0 +1,30 @@
+{
+  "isoType": "MovementRecord2",
+  "definition": "Detalhes de um registo de movimento solicitado numa única instrução de liquidação.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única, atribuída pelo agente instrutor e enviada à infraestrutura de mercado, para identificar inequivocamente o registo de movimento específico (operação) num pedido de liquidação.||Utilização: A identificação do movimento é uma referência ponto a ponto que pode ser utilizada entre o agente instrutor e a infraestrutura de mercado para referir o registo de movimento individual num pedido de liquidação. Pode ser incluída em várias mensagens relacionadas com o movimento."
+    },
+    "SequenceNumber": {
+      "definition": "Índice para identificar o lançamento individual do registo de movimento."
+    },
+    "Amount": {
+      "definition": "Montante solicitado pelo agente instrutor para liquidação na infraestrutura de mercado num único lançamento de registo de movimento."
+    },
+    "SettlementAgent": {
+      "definition": "Agente em cuja conta os fundos são liquidados em nome do participante."
+    },
+    "SettlementAgentAccount": {
+      "definition": "Identificação inequívoca da conta do agente de liquidação."
+    },
+    "Participant": {
+      "definition": "Identificação de um participante em nome do qual o agente de liquidação instrui a infraestrutura de mercado a liquidar as obrigações utilizando contas detidas no serviço de liquidação."
+    },
+    "ParticipantAccount": {
+      "definition": "Identificação inequívoca da conta do participante detida no serviço de liquidação."
+    },
+    "Reference": {
+      "definition": "Informação de referência para complementar um registo de movimento."
+    }
+  }
+}

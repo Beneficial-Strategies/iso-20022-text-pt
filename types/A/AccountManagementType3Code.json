@@ -1,0 +1,22 @@
+{
+  "isoType": "AccountManagementType3Code",
+  "definition": "Especifica a instrução para a qual é solicitado um estado.",
+  "isoCodes": {
+    "ACCM": {
+      "name": "Alteração de conta",
+      "definition": "Refere-se a uma mensagem de instrução de alteração de conta."
+    },
+    "ACCO": {
+      "name": "Abertura de conta",
+      "definition": "Refere-se a uma mensagem de instrução de abertura de conta."
+    },
+    "GACC": {
+      "name": "Obter detalhes da conta",
+      "definition": "Refere-se a uma mensagem de obtenção de detalhes da conta."
+    },
+    "ACST": {
+      "name": "Estado da conta",
+      "definition": "Refere-se ao estado da conta."
+    }
+  }
+}

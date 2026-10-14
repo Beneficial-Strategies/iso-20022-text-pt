@@ -1,0 +1,110 @@
+{
+  "isoType": "CorporateActionOption16Code",
+  "definition": "Especifica o tipo de opções de eventos societários.",
+  "isoCodes": {
+    "ABST": {
+      "name": "Abstenção",
+      "definition": "Voto expresso como abstenção. Neste caso, a sociedade emitente acrescentará o número de ações ao quórum da assembleia.|Se o direito de voto não for exercido, não será acrescentado ao quórum. Neste caso, deve ser utilizado o código NOAC."
+    },
+    "BSPL": {
+      "name": "Plano de ações de bonificação",
+      "definition": "Receber ações da reserva de prémio de emissão da sociedade, consideradas como uma distribuição de capital e não como um pagamento de rendimentos, com diferentes implicações fiscais (encontra-se tipicamente na Austrália)."
+    },
+    "BUYA": {
+      "name": "Aquisição adicional",
+      "definition": "Comprar valores mobiliários adicionais para arredondar a posição."
+    },
+    "CASE": {
+      "name": "Numerário e valores mobiliários",
+      "definition": "Opção de escolher entre diferentes opções de valores mobiliários e de numerário."
+    },
+    "CASH": {
+      "name": "Numerário",
+      "definition": "Opção de escolher numerário."
+    },
+    "CERT": {
+      "name": "Certificação",
+      "definition": "É fornecida certificação."
+    },
+    "CEXC": {
+      "name": "Consentimento e troca",
+      "definition": "Voto de consentimento para alterar os termos do contrato de valores mobiliários e para trocar valores mobiliários."
+    },
+    "CONN": {
+      "name": "Consentimento recusado",
+      "definition": "Voto de não aprovação do evento ou da proposta."
+    },
+    "CONY": {
+      "name": "Consentimento concedido",
+      "definition": "Voto de aprovação do evento ou da proposta."
+    },
+    "CTEN": {
+      "name": "Consentimento e oferta",
+      "definition": "Voto de consentimento para alterar os termos do contrato de valores mobiliários e para propor valores mobiliários em troca de numerário."
+    },
+    "EXER": {
+      "name": "Exercício",
+      "definition": "Exercer valores mobiliários intermédios ou warrants."
+    },
+    "LAPS": {
+      "name": "Caducidade",
+      "definition": "Permitir que o evento ou o valor mobiliário com direito caduque."
+    },
+    "MKDW": {
+      "name": "Redução de preço",
+      "definition": "Reduzir o certificado global em resultado de uma operação sobre títulos (instrução das International Central Securities Depositories (ICSDs) aos depositários comuns que detêm o certificado global por conta das International Central Securities Depositories (ICSDs))."
+    },
+    "MKUP": {
+      "name": "Aumento de preço",
+      "definition": "Aumentar o certificado global em resultado de uma operação sobre títulos (instrução das International Central Securities Depositories (ICSDs) aos depositários comuns que detêm o certificado global por conta das International Central Securities Depositories (ICSDs))."
+    },
+    "MPUT": {
+      "name": "Manter",
+      "definition": "Opção que permite a um detentor optar por manter a sua posição, por exemplo, uma obrigação com opção de venda."
+    },
+    "NOAC": {
+      "name": "Sem ação",
+      "definition": "Opção para o titular da conta não participar no evento. Inclui a exclusão de ações coletivas e a apresentação de direitos de dissidentes."
+    },
+    "NOQU": {
+      "name": "Investidor não qualificado",
+      "definition": "O titular da conta é um investidor não qualificado."
+    },
+    "OFFR": {
+      "name": "Taxa proposta",
+      "definition": "Numa recolocação de títulos de taxa variável, a margem que os acionistas podem propor para o período de juros seguinte."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Opção genérica de evento societário a utilizar caso nenhum outro código específico seja adequado."
+    },
+    "OVER": {
+      "name": "Subscrição em excesso",
+      "definition": "Subscrever mais ações do que a posição em valores mobiliários subjacentes permite."
+    },
+    "QINV": {
+      "name": "Investidor qualificado",
+      "definition": "O titular da conta é um investidor qualificado."
+    },
+    "SECU": {
+      "name": "Segurança",
+      "definition": "Distribuição de valores mobiliários aos detentores."
+    },
+    "SLLE": {
+      "name": "Venda do direito",
+      "definition": "Vender os valores mobiliários intermédios."
+    },
+    "TAXI": {
+      "name": "Instrução fiscal",
+      "definition": "Instrução fiscal."
+    },
+    "PRUN": {
+      "name": "Produto desconhecido",
+      "definition": "Produto não conhecido durante o período de eleição. A opção pode resultar em numerário e/ou valores mobiliários."
+    },
+    "BOBD": {
+      "name": "Pedido de discriminação do beneficiário efetivo",
+      "definition": "Discriminação da titularidade efetiva exigida para o evento de pedido de reembolso do imposto retido na fonte."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "LinkageType1Code",
+  "definition": "Tipo de associação solicitada.",
+  "isoCodes": {
+    "LINK": {
+      "name": "Associar",
+      "definition": "O pedido consiste em associar as operações referenciadas."
+    },
+    "UNLK": {
+      "name": "Desassociar",
+      "definition": "O pedido consiste em desassociar as operações referenciadas."
+    },
+    "SOFT": {
+      "name": "Flexível",
+      "definition": "O pedido consiste em associar de forma flexível as operações referenciadas."
+    }
+  }
+}

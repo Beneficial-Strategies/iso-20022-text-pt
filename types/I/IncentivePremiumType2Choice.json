@@ -1,0 +1,15 @@
+{
+  "isoType": "IncentivePremiumType2Choice",
+  "definition": "Escolha do prémio em numerário pago ao detentor de valores mobiliários quando vota.",
+  "isoElements": {
+    "PerSecurity": {
+      "definition": "Número de valores mobiliários que dão direito a um prémio."
+    },
+    "PerVote": {
+      "definition": "Quantidade de votos por tipo de voto que dá direito a um prémio."
+    },
+    "PerAttendee": {
+      "definition": "Indica que o prémio é concedido por participante."
+    }
+  }
+}

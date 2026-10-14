@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndDirection20",
+  "definition": "Montante debitado ou creditado nos livros de um prestador de serviços da conta.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante total a liquidar."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se um movimento é a crédito ou a débito."
+    }
+  }
+}

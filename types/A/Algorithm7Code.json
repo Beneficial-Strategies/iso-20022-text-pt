@@ -1,0 +1,14 @@
+{
+  "isoType": "Algorithm7Code",
+  "definition": "Algoritmo de cifra assimétrica de uma chave de transporte.",
+  "isoCodes": {
+    "ERSA": {
+      "name": "RSAEncryption",
+      "definition": "Algoritmo de cifra RSA - (ASN.1 Object Identifier: rsaEncryption)."
+    },
+    "RSAO": {
+      "name": "RSAES-OAEP",
+      "definition": "Esquema de cifra RSA baseado no esquema de cifra assimétrica ótima (PKCS #1 versão 2.1) - (ASN.1 Object Identifier: id-RSAES-OAEP)."
+    }
+  }
+}

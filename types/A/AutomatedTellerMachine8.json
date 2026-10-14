@@ -1,0 +1,27 @@
+{
+  "isoType": "AutomatedTellerMachine8",
+  "definition": "Informação do ATM.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação do dispositivo terminal ATM para o adquirente e o emitente."
+    },
+    "AdditionalIdentification": {
+      "definition": "Identificação do dispositivo terminal ATM para o gestor do ATM."
+    },
+    "SequenceNumber": {
+      "definition": "Identificação do dispositivo terminal ATM para a agência."
+    },
+    "BaseCurrency": {
+      "definition": "Moeda de referência do ATM."
+    },
+    "Location": {
+      "definition": "Localização do ATM."
+    },
+    "LocationCategory": {
+      "definition": "Indica o ambiente da operação."
+    },
+    "Equipment": {
+      "definition": "Equipamento terminal ATM."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "ProcessingStatus67Choice",
+  "definition": "Escolha do formato do estado de tratamento.",
+  "isoElements": {
+    "Rejected": {
+      "definition": "A instrução ou o pedido foi rejeitado para tratamento posterior."
+    },
+    "Repair": {
+      "definition": "A instrução ou o pedido é aceite, mas está em reparação."
+    },
+    "Cancelled": {
+      "definition": "A instrução foi cancelada. O estado do tratamento de um pedido de cancelamento deve ser fornecido através de uma mensagem de relatório de pedido de cancelamento."
+    },
+    "AcknowledgedAccepted": {
+      "definition": "A instrução foi confirmada pela instituição gestora da conta."
+    },
+    "Proprietary": {
+      "definition": "Especifica uma escolha de estado para o tratamento de um movimento intrassaldo."
+    }
+  }
+}

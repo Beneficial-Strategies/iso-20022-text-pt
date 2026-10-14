@@ -1,0 +1,26 @@
+{
+  "isoType": "DeliveryPlace3Code",
+  "definition": "Especifica o local de entrega.",
+  "isoCodes": {
+    "EMAL": {
+      "name": "Correio eletrónico",
+      "definition": "O cartão tem de ser enviado por correio eletrónico."
+    },
+    "EMPL": {
+      "name": "Empregador",
+      "definition": "O cartão tem de ser enviado pelo correio para o endereço da entidade patronal."
+    },
+    "INDI": {
+      "name": "Individual",
+      "definition": "O cartão tem de ser enviado pelo correio para a pessoa indicada em PersonDetail."
+    },
+    "ENTR": {
+      "name": "Entrada da assembleia",
+      "definition": "O cartão tem de estar disponível à entrada da assembleia."
+    },
+    "OADR": {
+      "name": "Outro endereço",
+      "definition": "Os cartões têm de ser enviados para outro endereço especificado."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isoType": "CorporateActionCancellationAdvice002V13",
+  "definition": "Âmbito|A mensagem CorporateActionCancellationAdvice é enviada por um prestador de serviços de conta a um titular de conta ou ao seu agente designado para cancelar um evento de operação sobre ativos anunciado anteriormente, em caso de erro do prestador de serviços de conta ou de retirada pelo emitente.|Utilização|A mensagem também pode ser utilizada para:|- reenviar uma mensagem enviada anteriormente (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem para fins informativos (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem para fins informativos (a subfunção da mensagem é Copy Duplicate), utilizando os elementos relevantes no cabeçalho aplicacional de negócio (BAH).",
+  "isoElements": {
+    "AdditionalText": {
+      "definition": "Fornece informações adicionais ou especifica de forma mais detalhada o conteúdo de uma mensagem. Este campo só pode ser utilizado quando a informação a transmitir não puder ser codificada."
+    }
+  }
+}

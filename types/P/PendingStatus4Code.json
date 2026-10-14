@@ -1,0 +1,74 @@
+{
+  "isoType": "PendingStatus4Code",
+  "definition": "Indica que o estado de um pagamento junto do agente de compensação é pendente.",
+  "isoCodes": {
+    "ACPD": {
+      "name": "Aceite",
+      "definition": "A operação foi aceite pelo agente de compensação."
+    },
+    "VALD": {
+      "name": "Validado",
+      "definition": "A operação foi validada pelo agente de compensação."
+    },
+    "MATD": {
+      "name": "Correspondido",
+      "definition": "A operação foi emparelhada com uma operação correspondente pelo agente de compensação."
+    },
+    "AUTD": {
+      "name": "Autorizado",
+      "definition": "A operação foi autorizada pelo administrador de operações ou por uma parte autorizada."
+    },
+    "INVD": {
+      "name": "Inválido",
+      "definition": "A operação é inválida."
+    },
+    "UMAC": {
+      "name": "Não correspondido",
+      "definition": "O agente de compensação tentou emparelhar a operação com uma operação correspondente, mas sem êxito."
+    },
+    "STLE": {
+      "name": "Elegível para liquidação",
+      "definition": "A operação é elegível para liquidação futura."
+    },
+    "STLM": {
+      "name": "Liquidação vencida",
+      "definition": "A operação é elegível para liquidação imediata."
+    },
+    "SSPD": {
+      "name": "Suspenso",
+      "definition": "A operação foi suspensa pelo agente de compensação."
+    },
+    "PCAN": {
+      "name": "Cancelamento pendente",
+      "definition": "O agente de compensação recebeu um pedido de cancelamento da operação e necessita de um pedido de cancelamento correspondente da contraparte ou de uma confirmação de uma parte autorizada."
+    },
+    "PSTL": {
+      "name": "Liquidação pendente",
+      "definition": "A operação é elegível para liquidação, mas está pendente."
+    },
+    "PFST": {
+      "name": "Liquidação pendente em falha",
+      "definition": "A operação, elegível para liquidação imediata, não foi liquidada."
+    },
+    "SMLR": {
+      "name": "Relacionado com o limite multilateral do remetente",
+      "definition": "A operação faz com que o «limite multilateral do remetente» seja excedido e não pode ser processada de momento."
+    },
+    "RMLR": {
+      "name": "Relacionado com o limite multilateral do destinatário",
+      "definition": "A operação faz com que o «limite multilateral do destinatário» seja excedido e não pode ser processada de momento."
+    },
+    "SRBL": {
+      "name": "Relacionado com o limite bilateral remetente-destinatário",
+      "definition": "A operação faz com que o limite bilateral fixado entre o remetente e o destinatário seja excedido e não pode ser processada de momento."
+    },
+    "AVLB": {
+      "name": "Retido até à disponibilidade do serviço",
+      "definition": "Especifica que a mensagem está em fila de espera no sistema de pagamentos recetor e aguarda processamento porque o sistema de pagamentos recetor não está operacional (aberto) nesse momento."
+    },
+    "SRML": {
+      "name": "Relacionado com o limite multilateral remetente-destinatário",
+      "definition": "A operação faz com que os limites multilaterais fixados entre o remetente e o destinatário sejam excedidos pelo montante total dos pagamentos submetidos no final do dia e não pode ser processada de momento."
+    }
+  }
+}

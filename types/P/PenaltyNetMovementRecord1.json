@@ -1,0 +1,21 @@
+{
+  "isoType": "PenaltyNetMovementRecord1",
+  "definition": "Especifica os atributos quando a penalização se aplica a um movimento de liquidação líquida.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "SecuritiesShortfall": {
+      "definition": "Quantidade total de valores mobiliários cuja liquidação falhou."
+    },
+    "ShortfallValuation": {
+      "definition": "Valorização dos valores mobiliários cuja liquidação falhou."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indica as condições em que a ordem/negociação deve ser/foi executada."
+    },
+    "NumberOfEntries": {
+      "definition": "Número de lançamentos relacionados com a posição líquida."
+    }
+  }
+}

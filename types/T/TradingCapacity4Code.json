@@ -1,0 +1,66 @@
+{
+  "isoType": "TradingCapacity4Code",
+  "definition": "Especifica o papel de uma parte negociadora numa operação.",
+  "isoCodes": {
+    "PRIN": {
+      "name": "Mandante",
+      "definition": "Negociação como principal."
+    },
+    "CPRN": {
+      "name": "Mandante em cruzamento",
+      "definition": "Cruzamento como principal."
+    },
+    "RISP": {
+      "name": "Mandante sem risco",
+      "definition": "Negociação como principal sem risco, ou seja, a ordem de compra (venda) foi compensada em simultâneo por uma ordem de venda (compra) com outra parte."
+    },
+    "PROP": {
+      "name": "Proprietário",
+      "definition": "Negociação por conta própria da empresa. A operação afeta a conta da própria empresa, e não a dos seus clientes."
+    },
+    "AGEN": {
+      "name": "Agente",
+      "definition": "Negociação como agente em nome de um cliente."
+    },
+    "CAGN": {
+      "name": "Agente em cruzamento",
+      "definition": "Cruzamento como agente."
+    },
+    "OAGN": {
+      "name": "Outro agente",
+      "definition": "Atuação como agente de uma parte que não seja um cliente."
+    },
+    "PRAG": {
+      "name": "Agente mandante",
+      "definition": "Atuação como agente em algumas execuções e como principal noutras, na mesma operação."
+    },
+    "BAGN": {
+      "name": "Agente em exercício",
+      "definition": "Parte que atua como agente, simultaneamente, de um cliente e de outra pessoa."
+    },
+    "INFI": {
+      "name": "Empresa de investimento",
+      "definition": "Qualquer pessoa coletiva cuja ocupação ou atividade habitual consista na prestação de um ou mais serviços de investimento a terceiros e/ou no exercício de uma ou mais atividades de investimento a título profissional."
+    },
+    "MKTM": {
+      "name": "Criador de mercado",
+      "definition": "Negociador ou especialista que transaciona por conta própria no mercado de balcão (OTC). Espera-se que os criadores de mercado mantenham um mercado ordenado, estando disponíveis para comprar ou vender."
+    },
+    "MLTF": {
+      "name": "Sistema de negociação multilateral",
+      "definition": "Um sistema de negociação multilateral (MTF) é um sistema multilateral que reúne vários interesses de compra e de venda de instrumentos financeiros de terceiros, de forma a resultar na celebração de um contrato."
+    },
+    "RMKT": {
+      "name": "Mercado regulamentado",
+      "definition": "Mercado regulamentado no qual os instrumentos financeiros podem ser negociados de acordo com as regras definidas pela bolsa de valores."
+    },
+    "SINT": {
+      "name": "Internalizador sistemático",
+      "definition": "Empresas que, de forma organizada, frequente e sistemática, negoceiam por conta própria executando ordens de clientes fora de um mercado regulamentado ou de um MTF. Os internalizadores sistemáticos têm a obrigação de fornecer e tornar públicas cotações firmes de compra e de venda para valores mobiliários líquidos."
+    },
+    "TAGT": {
+      "name": "Agente de transferência",
+      "definition": "Parte nomeada pela sociedade gestora do fundo. Atualiza os registos das contas dos investidores para refletir as compras, os resgates, as trocas, as transferências e os novos registos diários dos investidores. Assegura a liquidação atempada das operações e pode fornecer informações fiscais ao investidor e/ou aos seus intermediários. Pode calcular, cobrar e reembolsar comissões. Prepara e distribui confirmações das operações, que resultam em movimentos de unidades de participação ou de conta de numerário para o investidor ou para o intermediário do investidor. Responde a pedidos de informação sobre o estado da conta e processa a distribuição de rendimentos."
+    }
+  }
+}

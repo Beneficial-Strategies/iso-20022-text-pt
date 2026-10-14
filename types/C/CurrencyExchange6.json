@@ -1,0 +1,27 @@
+{
+  "isoType": "CurrencyExchange6",
+  "definition": "Descreve os detalhes da operação cambial.",
+  "isoElements": {
+    "SourceCurrency": {
+      "definition": "Moeda a partir da qual um montante deve ser convertido numa conversão cambial."
+    },
+    "TargetCurrency": {
+      "definition": "Moeda para a qual um montante deve ser convertido numa conversão cambial."
+    },
+    "ExchangeRate": {
+      "definition": "Fator utilizado para converter um montante de uma moeda para outra. Reflete o preço a que uma moeda foi comprada com outra moeda."
+    },
+    "Description": {
+      "definition": "Identificação única para identificar inequivocamente o contrato cambial."
+    },
+    "UnitCurrency": {
+      "definition": "Moeda em que a taxa de câmbio é expressa numa operação de câmbio. No exemplo 1GBP = xxxCUR, a moeda de referência é GBP."
+    },
+    "Comments": {
+      "definition": "Informações adicionais sobre a taxa de câmbio."
+    },
+    "QuotationDate": {
+      "definition": "Data e hora em que uma taxa de câmbio é cotada."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountModification1",
+  "definition": "Especifica o tipo de alteração de um montante.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Especifica o tipo de alteração."
+    },
+    "Amount": {
+      "definition": "Montante."
+    }
+  }
+}

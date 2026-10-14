@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxRecordDetails2",
+  "definition": "Fornece informações sobre o(s) montante(s) individual(is) de imposto por período do registo fiscal.",
+  "isoElements": {
+    "Period": {
+      "definition": "Conjunto de elementos utilizados para fornecer detalhes sobre o período de tempo relativo ao pagamento do imposto."
+    },
+    "Amount": {
+      "definition": "Montante de imposto subjacente relativo ao período especificado."
+    }
+  }
+}

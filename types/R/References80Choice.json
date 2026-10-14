@@ -1,0 +1,39 @@
+{
+  "isoType": "References80Choice",
+  "definition": "Escolha entre referências.",
+  "isoElements": {
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Identificação inequívoca de uma operação de liquidação de valores mobiliários tal como conhecida pelo titular da conta (ou pela parte instrutora que atua em seu nome)."
+    },
+    "IntraPositionMovementIdentification": {
+      "definition": "Identificação inequívoca da operação de movimento intraposição tal como conhecida pelo titular da conta (ou pela parte instrutora que atua em seu nome)."
+    },
+    "IntraBalanceMovementIdentification": {
+      "definition": "Identificação inequívoca da operação de movimento intrassaldo tal como conhecida pelo titular da conta."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação tal como conhecida pelo prestador de serviços da conta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado que não seja uma central de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "CounterpartyMarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação de contraparte atribuída por uma infraestrutura de mercado que não seja uma central de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "PoolIdentification": {
+      "definition": "Referência coletiva que identifica um conjunto de mensagens."
+    },
+    "CommonIdentification": {
+      "definition": "Referência única acordada entre as duas contrapartes da negociação para identificar a negociação."
+    },
+    "TradeIdentification": {
+      "definition": "Referência atribuída à negociação pelo investidor ou pela parte negociadora. Esta referência será utilizada ao longo de todo o ciclo de vida da negociação para aceder aos detalhes da negociação ou os atualizar."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Identificador Único de Operação (UTI) tal como acordado com a outra contraparte."
+    },
+    "OtherTransactionIdentification": {
+      "definition": "Identificação de uma operação que não pode ser identificada através de um elemento de referência normalizado presente na mensagem."
+    }
+  }
+}

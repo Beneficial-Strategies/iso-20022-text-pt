@@ -1,0 +1,14 @@
+{
+  "isoType": "TransferInFunction2Code",
+  "definition": "Especifica a função da confirmação de transferência de entrada.",
+  "isoCodes": {
+    "CONF": {
+      "name": "Confirmação",
+      "definition": "A transferência de entrada é uma confirmação (e não um aviso)."
+    },
+    "ADVI": {
+      "name": "Aviso",
+      "definition": "A transferência de entrada fornece um aviso sobre as informações da conta relativas a uma transferência."
+    }
+  }
+}

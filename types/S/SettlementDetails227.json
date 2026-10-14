@@ -1,0 +1,62 @@
+{
+  "isoType": "SettlementDetails227",
+  "definition": "Detalhes da liquidação de uma operação.",
+  "isoElements": {
+    "HoldIndicator": {
+      "definition": "Indica se a operação está em espera/bloqueada/congelada."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Condições em que a ordem/transação deve ser liquidada."
+    },
+    "SettlingCapacity": {
+      "definition": "Papel de uma parte na liquidação da operação."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Especifica o tipo de imposto do selo ou o motivo de isenção aplicável à operação de liquidação."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Especifica se a operação de liquidação deve ser liquidada através de um sistema RTGS ou não RTGS."
+    },
+    "BeneficialOwnership": {
+      "definition": "Especifica se há alteração da titularidade efetiva."
+    },
+    "CashClearingSystem": {
+      "definition": "Especifica a categoria do sistema de compensação em numerário, por exemplo, compensação de cheques."
+    },
+    "TaxCapacity": {
+      "definition": "Capacidade fiscal da parte instrutora."
+    },
+    "MarketClientSide": {
+      "definition": "Especifica se uma instrução diz respeito a uma operação do lado do mercado ou do lado do cliente."
+    },
+    "BlockTrade": {
+      "definition": "Especifica se a instrução de liquidação é uma principal ou uma subordinada de um bloco."
+    },
+    "LegalRestrictions": {
+      "definition": "Restrições regulamentares aplicáveis a um valor mobiliário."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Especifica se a instrução de liquidação deve ser liquidada através do sistema de liquidação predefinido ou do alternativo."
+    },
+    "NettingEligibility": {
+      "definition": "Especifica se a operação de liquidação é elegível para compensação por saldos líquidos (netting)."
+    },
+    "CCPEligibility": {
+      "definition": "Especifica se a operação de liquidação é elegível para CCP (contraparte central)."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica se a liquidação parcial é permitida."
+    },
+    "EligibleForCollateral": {
+      "definition": "Especifica se os valores mobiliários devem ser incluídos no conjunto de valores mobiliários elegíveis para efeitos de garantia."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Se forem utilizados elementos SettlementDetails, as respetivas condições de utilização devem ser previamente acordadas entre o titular da conta e a entidade gestora da conta."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Os códigos CashSettlementSystem só devem ser utilizados por agentes diretamente envolvidos no processo de liquidação, como agentes de liquidação locais, CSD e bancos centrais."
+    }
+  }
+}

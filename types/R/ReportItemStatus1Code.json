@@ -1,0 +1,14 @@
+{
+  "isoType": "ReportItemStatus1Code",
+  "definition": "Especifica o estado de um lançamento num relatório.",
+  "isoCodes": {
+    "ACPD": {
+      "name": "Aceite",
+      "definition": "O lançamento foi aceite pelo destinatário do relatório."
+    },
+    "REJT": {
+      "name": "Rejeitado",
+      "definition": "O lançamento foi rejeitado pelo destinatário do relatório."
+    }
+  }
+}

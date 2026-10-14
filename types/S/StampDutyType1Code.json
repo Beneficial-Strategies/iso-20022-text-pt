@@ -1,0 +1,22 @@
+{
+  "isoType": "StampDutyType1Code",
+  "definition": "Especifica se o imposto do selo é aplicável.",
+  "isoCodes": {
+    "SDRU": {
+      "name": "Fora da CSD",
+      "definition": "SDRT pago fora da CSD numa operação sobre títulos."
+    },
+    "SDRT": {
+      "name": "Pago",
+      "definition": "SDRT pago noutra operação."
+    },
+    "SDRN": {
+      "name": "Não aplicável",
+      "definition": "Imposto do selo não aplicável."
+    },
+    "SDRQ": {
+      "name": "Isenção",
+      "definition": "Isento, por qualquer outro motivo."
+    }
+  }
+}

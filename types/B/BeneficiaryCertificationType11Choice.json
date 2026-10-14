@@ -1,0 +1,12 @@
+{
+  "isoType": "BeneficiaryCertificationType11Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o tipo de certificação do beneficiário exigida.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de certificação exigida."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de certificação exigida."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "TypeOfRequest1Code",
+  "definition": "Especifica um tipo de pedido.",
+  "isoCodes": {
+    "INFO": {
+      "name": "Informação",
+      "definition": "Pedido de informações."
+    },
+    "STAT": {
+      "name": "Estado",
+      "definition": "Pedido de estado."
+    }
+  }
+}

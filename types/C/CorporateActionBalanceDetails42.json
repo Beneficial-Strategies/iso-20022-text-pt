@@ -1,0 +1,48 @@
+{
+  "isoType": "CorporateActionBalanceDetails42",
+  "definition": "Saldo elegível e não elegível de valores mobiliários para um evento de ação societária.",
+  "isoElements": {
+    "TotalEligibleBalance": {
+      "definition": "Quantidade total de instrumentos financeiros do saldo."
+    },
+    "BlockedBalance": {
+      "definition": "Saldo de instrumentos financeiros que se encontram bloqueados."
+    },
+    "BorrowedBalance": {
+      "definition": "Saldo de instrumentos financeiros que foram tomados de empréstimo a outra parte."
+    },
+    "CollateralInBalance": {
+      "definition": "Saldo de valores mobiliários pertencentes a um terceiro e detidos para efeitos de colateralização."
+    },
+    "CollateralOutBalance": {
+      "definition": "Saldo de valores mobiliários pertencentes à conta de custódia indicada nesta mensagem e depositados junto de um terceiro para efeitos de colateralização."
+    },
+    "OnLoanBalance": {
+      "definition": "Saldo de instrumentos financeiros que foram cedidos por empréstimo a um terceiro."
+    },
+    "PendingDeliveryBalance": {
+      "definition": "Saldo de instrumentos financeiros com entrega pendente."
+    },
+    "PendingReceiptBalance": {
+      "definition": "Saldo de instrumentos financeiros com receção pendente."
+    },
+    "OutForRegistrationBalance": {
+      "definition": "Saldo de instrumentos financeiros atualmente em processamento pela instituição responsável pelo registo do novo beneficiário efetivo (ou titular interposto)."
+    },
+    "SettlementPositionBalance": {
+      "definition": "Saldo de valores mobiliários que representa apenas operações liquidadas; as operações pendentes não estão incluídas."
+    },
+    "StreetPositionBalance": {
+      "definition": "Saldo de instrumentos financeiros que permanecem registados em nome do anterior beneficiário efetivo."
+    },
+    "TradeDatePositionBalance": {
+      "definition": "Saldo de valores mobiliários com base na data da operação, por exemplo, inclui todas as operações pendentes além do saldo das operações liquidadas."
+    },
+    "InTransshipmentBalance": {
+      "definition": "Saldo de valores mobiliários físicos em processo de transferência de um depositário/agente para outro."
+    },
+    "RegisteredBalance": {
+      "definition": "Saldo de instrumentos financeiros que estão registados (em nome de um titular interposto ou do beneficiário efetivo)."
+    }
+  }
+}

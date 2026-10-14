@@ -1,0 +1,24 @@
+{
+  "isoType": "MessageHeader8",
+  "definition": "Conjunto de características, como a identificação ou a data e hora de criação, específicas da mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pelo remetente, para identificar inequivocamente a mensagem.|Utilização: o remetente deve garantir que a MessageIdentification é única durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora a que a mensagem foi criada."
+    },
+    "MessagePagination": {
+      "definition": "Paginação da mensagem.|Utilização: a paginação da mensagem só é permitida quando acordada entre as partes."
+    },
+    "OriginalBusinessQuery": {
+      "definition": "Identificação única da mensagem de consulta original."
+    },
+    "RequestType": {
+      "definition": "Ações específicas a executar através do pedido."
+    },
+    "QueryName": {
+      "definition": "Recorda os critérios (de pesquisa e de devolução) definidos numa consulta anterior."
+    }
+  }
+}

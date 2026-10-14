@@ -1,0 +1,12 @@
+{
+  "isoType": "Frequency25Choice",
+  "definition": "Escolha do formato para uma frequência, por exemplo, a frequência de envio de um extrato.",
+  "isoElements": {
+    "Code": {
+      "definition": "Frequência expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Frequência expressa como um código proprietário."
+    }
+  }
+}

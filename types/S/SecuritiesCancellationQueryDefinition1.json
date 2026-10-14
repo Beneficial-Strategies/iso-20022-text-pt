@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesCancellationQueryDefinition1",
+  "definition": "Define as informações que são pesquisadas através da definição de critérios específicos.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Define o tipo de consulta."
+    },
+    "SearchCriteria": {
+      "definition": "Define os critérios para extrair as informações das instruções de cancelamento de movimentos intraposição ou de instruções de liquidação."
+    }
+  }
+}

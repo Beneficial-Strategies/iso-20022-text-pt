@@ -1,0 +1,12 @@
+{
+  "isoType": "NumberAndSumOfTransactions1",
+  "definition": "Conjunto de elementos que fornecem a soma total dos lançamentos.",
+  "isoElements": {
+    "NumberOfEntries": {
+      "definition": "Número de lançamentos individuais incluídos no relatório."
+    },
+    "Sum": {
+      "definition": "Total de todos os lançamentos individuais incluídos no relatório."
+    }
+  }
+}

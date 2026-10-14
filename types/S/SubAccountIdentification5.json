@@ -1,0 +1,18 @@
+{
+  "isoType": "SubAccountIdentification5",
+  "definition": "Conta a ou de que é efetuado um lançamento de valores mobiliários.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "FungibleIndicator": {
+      "definition": "Indica se os valores mobiliários na conta são fungíveis, ou seja, permutáveis."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica se há atividade reportada no extrato."
+    },
+    "BalanceForSubAccount": {
+      "definition": "Posição líquida de uma detenção segregada, num único valor mobiliário, no âmbito da posição global detida numa conta de valores mobiliários."
+    }
+  }
+}

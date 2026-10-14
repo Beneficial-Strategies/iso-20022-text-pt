@@ -1,0 +1,95 @@
+{
+  "isoType": "Rate47",
+  "definition": "Fornece informações sobre as taxas relacionadas com o movimento de valores mobiliários.",
+  "isoElements": {
+    "AdditionalTax": {
+      "definition": "Taxa utilizada para imposto adicional que não pode ser categorizado."
+    },
+    "GrossDistributionRate": {
+      "definition": "Taxa de distribuição antes da dedução do imposto."
+    },
+    "GrossInterestRateUsedForPayment": {
+      "definition": "Taxa de juro efetiva antes de impostos, utilizada para o pagamento dos juros relativos ao período de juros especificado. |Orientação de utilização: É utilizada para indicar a taxa aplicável ao pagamento corrente, depois de efetuados todos os cálculos, ou seja, a aplicação do período e do método de cálculo dos juros."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Percentagem de uma distribuição em numerário que será retida pelas autoridades fiscais da jurisdição do emitente, relativamente à qual poderá ser possível uma redução na fonte e/ou um pedido de reembolso."
+    },
+    "SecondLevelTax": {
+      "definition": "Taxa à qual o rendimento será retido por uma jurisdição diferente da jurisdição do país de constituição fiscal do emitente, relativamente à qual poderá ser possível uma redução na fonte e/ou um pedido de reembolso. É cobrada em complemento ou em compensação da taxa de retenção na fonte (TAXR) cobrada pela jurisdição do domicílio fiscal do emitente."
+    },
+    "ChargesFees": {
+      "definition": "Taxa utilizada para calcular o montante dos encargos/comissões que não podem ser categorizados."
+    },
+    "EarlySolicitationFeeRate": {
+      "definition": "Taxa em numerário disponibilizada, como incentivo, para além da comissão de solicitação, a fim de incentivar a participação antecipada numa oferta."
+    },
+    "FiscalStamp": {
+      "definition": "Percentagem de imposto fiscal a aplicar."
+    },
+    "ThirdPartyIncentiveRate": {
+      "definition": "Taxa em numerário disponibilizada num evento a fim de incentivar a participação na oferta. A título informativo, o pagamento é efetuado a um terceiro que tenha solicitado a uma entidade que participe na oferta."
+    },
+    "NetDistributionRate": {
+      "definition": "Taxa de distribuição após a dedução do imposto."
+    },
+    "ApplicableRate": {
+      "definition": "Taxa aplicável ao evento anunciado, por exemplo, a taxa de resgate num evento de resgate."
+    },
+    "SolicitationFeeRate": {
+      "definition": "Taxa do prémio em numerário disponibilizado se o titular dos valores mobiliários consentir ou participar num evento, por exemplo, comissões de consentimento ou comissão de solicitação."
+    },
+    "TaxCreditRate": {
+      "definition": "Montante em dinheiro por ação atribuído em resultado de um crédito de imposto."
+    },
+    "TaxOnIncome": {
+      "definition": "Imposto global retido na fonte pelos gestores de fundos antes de considerar a obrigação fiscal de cada titular de unidades de participação."
+    },
+    "TaxOnProfits": {
+      "definition": "Tributação aplicada a um montante claramente identificado como lucros de capital, mais-valias."
+    },
+    "TaxReclaimRate": {
+      "definition": "Percentagem do numerário que foi pago em excesso relativamente à obrigação fiscal efetiva e que foi reclamada."
+    },
+    "EqualisationRate": {
+      "definition": "Parte da distribuição do fundo que representa o rendimento corrido médio incluído no preço de compra das unidades de participação adquiridas durante o período contabilístico."
+    },
+    "DeemedRate": {
+      "definition": "Taxa aplicada para o cálculo do produto presumido, que não é pago aos titulares de valores mobiliários mas sobre o qual é aplicável retenção na fonte."
+    }
+  },
+  "isoRules": {
+    "NetDistributionRate1Rule": {
+      "definition": "Se NetDistributionRate for repetido, então:|- os valores de RateTypeAndAmountAndRateStatus/RateType/Code têm de ser todos diferentes em cada ocorrência de NetDistributionRate. (MT 564 NVR C8)."
+    },
+    "GrossDistributionRate2Rule": {
+      "definition": "Se GrossDistributionRate for repetido, então:|- os valores de RateTypeAndAmountAndRateStatus/RateType/Code têm de ser todos diferentes em cada ocorrência de GrossDistributionRate. (MT 564 NVR C8)."
+    },
+    "GrossDistributionRate3Rule": {
+      "definition": "Só pode estar presente uma única ocorrência de GrossDistributionRate/Amount, de GrossDistributionRate/AmountAndRateStatus ou de GrossDistributionRate/NotSpecifiedRate, e apenas um destes elementos pode estar presente.|(MT 564 NVR C7)."
+    },
+    "NetDistributionRate2Rule": {
+      "definition": "Apenas pode estar presente uma única ocorrência de NetDistributionRate/Amount, de NetDistributionRate/AmountAndRateStatus ou de NetDistributionRate/NotSpecifiedRate, e apenas um destes elementos pode estar presente.|(MT 564 NVR C7)."
+    },
+    "SecondLevelTax3Rule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de SecondLevelTax, então tem de estar presente pelo menos uma ocorrência de WithholdingTaxRate. (MT 564 NVR C19)."
+    },
+    "SecondLevelTax1Rule": {
+      "definition": "Se SecondLevelTax for repetido, então os valores de SecondLevelTax/RateTypeAndRate/RateType/Code têm de ser todos diferentes em cada ocorrência de SecondLevelTax. |(MT 564 NVR C8)."
+    },
+    "SecondLevelTax2Rule": {
+      "definition": "Apenas pode estar presente uma única ocorrência de SecondLevelTax/Amount, de SecondLevelTax/Rate ou de SecondLevelTax/NotSpecifiedRate; apenas um destes elementos pode estar presente. |(MT 564 NVR C7)."
+    },
+    "WithholdingTaxRate1Rule": {
+      "definition": "Se WithholdingTaxRate for repetido, então os valores de WithholdingTaxRate/RateTypeAndRate/RateType/Code têm de ser todos diferentes em cada ocorrência de WithholdingTaxRate. |(MT 564 NVR C8)."
+    },
+    "WithholdingTaxRate2Rule": {
+      "definition": "Apenas pode estar presente uma única ocorrência de WithholdingTaxRate/Amount, de WithholdingTaxRate/Rate ou de WithholdingTaxRate/NotSpecifiedRate; apenas um destes elementos pode estar presente. |(MT 564 NVR C7)."
+    },
+    "DeemedRate1Rule": {
+      "definition": "Se DeemedRate for repetido, então os valores de DeemedRate/RateTypeAndAmountAndRateStatus/RateType/Code e os valores de DeemedRate/RateTypeAndRate/RateType/Code têm de ser todos diferentes em cada ocorrência de DeemedRate. |(MT 564 NVR C8)."
+    },
+    "DeemedRate2Rule": {
+      "definition": "Apenas pode estar presente uma única ocorrência de DeemedRate/Amount, de DeemedRate/Rate ou de DeemedRate/NotSpecifiedRate; apenas um destes elementos pode estar presente. |(MT 564 NVR C7)."
+    }
+  }
+}

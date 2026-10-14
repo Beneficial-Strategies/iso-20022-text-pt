@@ -1,0 +1,18 @@
+{
+  "isoType": "BeneficiaryCertificationType5Code",
+  "definition": "Especifica o tipo de certificação exigida.",
+  "isoCodes": {
+    "ACCI": {
+      "name": "Investidor acreditado",
+      "definition": "O titular do valor mobiliário tem de certificar, de forma irrevogável, que é um Investidor Qualificado (Accredited Investor) na aceção da Regulation D da Securities and Exchange Commission dos US."
+    },
+    "NCOM": {
+      "name": "Não sociedade",
+      "definition": "O titular do valor mobiliário tem de certificar que é uma pessoa não relacionada com a sociedade."
+    },
+    "QIBB": {
+      "name": "Certificação QIB",
+      "definition": "O titular do valor mobiliário tem de certificar, de forma irrevogável, que é um Comprador Institucional Qualificado (Qualified Institutional Buyer) na aceção da Rule 144A da Securities and Exchange Commission dos US."
+    }
+  }
+}

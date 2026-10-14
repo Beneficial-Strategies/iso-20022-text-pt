@@ -1,0 +1,65 @@
+{
+  "isoType": "SettlementDetails231",
+  "definition": "Detalhes da liquidação de uma operação.",
+  "isoElements": {
+    "SettlementTransactionCondition": {
+      "definition": "Condições em que a ordem/transação deve ser liquidada."
+    },
+    "SettlingCapacity": {
+      "definition": "Papel de uma parte na liquidação da operação."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Especifica o tipo de imposto do selo ou o motivo de isenção aplicável à operação de liquidação."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Especifica se a operação de liquidação deve ser liquidada através de um sistema RTGS ou não RTGS."
+    },
+    "Registration": {
+      "definition": "Especifica se o registo deve ocorrer aquando da receção."
+    },
+    "BeneficialOwnership": {
+      "definition": "Especifica se há alteração da titularidade efetiva."
+    },
+    "CashClearingSystem": {
+      "definition": "Especifica a categoria do sistema de compensação em numerário, por exemplo, compensação de cheques."
+    },
+    "TaxCapacity": {
+      "definition": "Capacidade fiscal da parte instrutora."
+    },
+    "RepurchaseType": {
+      "definition": "Especifica se a taxa é fixa, variável ou um montante global (forfeit)."
+    },
+    "MarketClientSide": {
+      "definition": "Especifica se uma instrução diz respeito a uma operação do lado do mercado ou do lado do cliente."
+    },
+    "BlockTrade": {
+      "definition": "Especifica se a instrução de liquidação é uma principal ou uma subordinada de um bloco."
+    },
+    "LegalRestrictions": {
+      "definition": "Restrições regulamentares aplicáveis a um valor mobiliário."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Especifica se a instrução de liquidação deve ser liquidada através do sistema de liquidação predefinido ou do alternativo."
+    },
+    "NettingEligibility": {
+      "definition": "Especifica se a operação de liquidação é elegível para compensação por saldos líquidos (netting)."
+    },
+    "CCPEligibility": {
+      "definition": "Especifica se a operação de liquidação é elegível para CCP (contraparte central)."
+    },
+    "LetterOfGuarantee": {
+      "definition": "Especifica se a liquidação física pode ser executada com uma carta de garantia ou se devem ser utilizados os certificados físicos."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica se a liquidação parcial é permitida."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Se forem utilizados elementos SettlementDetails, as respetivas condições de utilização devem ser previamente acordadas entre o titular da conta e a entidade gestora da conta."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Os códigos CashSettlementSystem devem ser utilizados apenas por instituições diretamente envolvidas no processo de liquidação, como agentes de liquidação locais, CSD e bancos centrais."
+    }
+  }
+}

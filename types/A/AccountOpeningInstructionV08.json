@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountOpeningInstructionV08",
+  "definition": "Âmbito|A mensagem AccountOpeningInstruction é enviada por um titular de conta, por exemplo, um investidor ou o seu agente designado, ao prestador de serviços da conta, por exemplo, um registador, agente de transferência, depositário ou central de valores mobiliários, para dar instruções de abertura de uma conta ou de abertura de uma conta e de constituição de um plano de investimento.|Utilização|A AccountOpeningInstruction é utilizada para abrir uma conta direta ou indiretamente junto do prestador de serviços da conta ou de um intermediário.|Em alguns mercados, por exemplo, a Austrália, e para alguns produtos no Reino Unido, é colocada uma primeira ordem (também conhecida como instrução de depósito) em simultâneo com a abertura da conta. Para contemplar este cenário, uma mensagem de ordem pode ser associada (através de referências na mensagem) à mensagem AccountOpeningInstruction, quando necessário.|A execução da AccountOpeningInstruction é confirmada através de uma mensagem AccountDetailsConfirmation.",
+  "isoRules": {
+    "InvestmentAccountIdentificationRule": {
+      "definition": "Se InstructionDetails/OpeningType/Code for SUPA (SupplementaryAccountOpening), então InvestmentAccount/Identification tem de estar presente e tem de conter a identificação da conta principal a que a conta suplementar se refere."
+    },
+    "UnitRule": {
+      "definition": "Se SavingsInvestmentPlan estiver presente, então SavingsInvestmentPlan/Quantity/Unit não é permitido."
+    }
+  }
+}

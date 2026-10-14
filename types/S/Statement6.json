@@ -1,0 +1,33 @@
+{
+  "isoType": "Statement6",
+  "definition": "Características gerais relativas a um extrato que reporta informação para uma data precisa.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referência do extrato."
+    },
+    "StatementDateTime": {
+      "definition": "Data do extrato."
+    },
+    "CreationDateTime": {
+      "definition": "Data de preparação do extrato."
+    },
+    "Frequency": {
+      "definition": "Periodicidade do extrato."
+    },
+    "UpdateType": {
+      "definition": "Indica se o relatório está completo ou contém apenas alterações."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica se o extrato comunica atividade ou atualização de informação."
+    },
+    "StatementBasis": {
+      "definition": "Tipo de saldo em que se baseia o extrato."
+    },
+    "ReportNumber": {
+      "definition": "Número sequencial do extrato."
+    },
+    "AuditedIndicator": {
+      "definition": "Indica se o extrato é auditado."
+    }
+  }
+}

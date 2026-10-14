@@ -1,0 +1,38 @@
+{
+  "isoType": "OptionFeatures14Code",
+  "definition": "Especifica a característica de uma opção.",
+  "isoCodes": {
+    "COND": {
+      "name": "Condicional",
+      "definition": "Característica pela qual o detentor pode optar por impor uma condição à aceitação da opção."
+    },
+    "MAXC": {
+      "name": "Numerário máximo",
+      "definition": "Opção de numerário máximo, que pode estar sujeita a redução proporcional, pelo que pode receber-se uma combinação de numerário e valores mobiliários como resultado."
+    },
+    "MAXS": {
+      "name": "Valores mobiliários máximos",
+      "definition": "Opção de ações máxima, que pode estar sujeita a redução proporcional, pelo que pode receber-se uma combinação de valores mobiliários e numerário como resultado."
+    },
+    "OPLF": {
+      "name": "Preferência por lote irregular",
+      "definition": "Oferta ou troca com preferência para lotes incompletos."
+    },
+    "PROR": {
+      "name": "Rateio",
+      "definition": "Característica pela qual a opção pode estar sujeita a rateio em caso, por exemplo, de excesso de subscrição."
+    },
+    "VVPR": {
+      "name": "Retenção na fonte reduzida",
+      "definition": "Aplica-se à opção uma taxa reduzida de imposto retido na fonte."
+    },
+    "RGRS": {
+      "name": "Reinvestimento do dividendo bruto",
+      "definition": "O dividendo bruto é reinvestido."
+    },
+    "RNET": {
+      "name": "Reinvestimento do dividendo líquido",
+      "definition": "O reinvestimento do dividendo é processado líquido de imposto retido na fonte."
+    }
+  }
+}

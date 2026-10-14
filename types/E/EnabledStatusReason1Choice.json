@@ -1,0 +1,12 @@
+{
+  "isoType": "EnabledStatusReason1Choice",
+  "definition": "Escolha de formatos para um motivo de estado ativo.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Não existe nenhum motivo disponível ou a comunicar para o estado ativo da conta."
+    },
+    "Reason": {
+      "definition": "Motivo do estado ativo da conta."
+    }
+  }
+}

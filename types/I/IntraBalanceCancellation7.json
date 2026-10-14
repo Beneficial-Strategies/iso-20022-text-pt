@@ -1,0 +1,35 @@
+{
+  "isoType": "IntraBalanceCancellation7",
+  "definition": "Fornece os dados dos pedidos de cancelamento no relatório.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de caixa."
+    },
+    "CashAccountOwner": {
+      "definition": "Parte que é titular da conta."
+    },
+    "CashAccountServicer": {
+      "definition": "Parte que gere a conta de numerário em nome do titular da conta, ou seja, gere o registo e a contabilização dos lançamentos na conta, calcula os saldos da conta e fornece informações sobre a conta."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "Cancellation": {
+      "definition": "Detalhes adicionais da operação individual de cancelamento entre saldos."
+    }
+  },
+  "isoRules": {
+    "CashAccountRule": {
+      "definition": "CashAccount deve estar presente ou Cancellation(*)/CashAccount deve estar presente, mas não ambos."
+    },
+    "CashAccountOwnerRule": {
+      "definition": "CashAccountOwner deve estar presente ou Cancellation(*)/AccountOwner deve estar presente, mas não ambos."
+    },
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus deve estar presente ou Cancellation(*)/ProcessingStatus deve estar presente, mas não ambos."
+    },
+    "CashAccountServicerRule": {
+      "definition": "CashAccountServicer deve estar presente ou Cancellation(*)/AccountOwner deve estar presente, mas não ambos."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "isoType": "CorporateActionNarrative57",
+  "definition": "Fornece informações adicionais, tais como as condições de tributação.",
+  "isoElements": {
+    "AdditionalText": {
+      "definition": "Fornece informações adicionais ou especifica de forma mais detalhada o conteúdo de uma mensagem. Este campo só pode ser utilizado quando a informação a transmitir não puder ser codificada."
+    },
+    "NarrativeVersion": {
+      "definition": "Fornece informações que podem ser ignoradas no processamento automatizado; - reiteração de informações que já foram incluídas em campos estruturados, - ou informações narrativas desnecessárias para o processamento automático."
+    },
+    "InformationConditions": {
+      "definition": "Fornece informações condicionais relacionadas com o evento, por exemplo, uma oferta sujeita a aceitação de 50 por cento, ou o oferente permite que o titular dos valores mobiliários estabeleça algumas condições."
+    },
+    "InformationToComplyWith": {
+      "definition": "Fornece ao titular da conta informações sobre condições que têm de ser cumpridas, por exemplo, não aberto a residentes nos US/Canadá, Qualified Institutional Buyers (QIB) ou SIL (Sophisticated Investor Letter) a fornecer."
+    },
+    "SecurityRestriction": {
+      "definition": "Fornece a(s) restrição(ões) aplicável(is) aos valores mobiliários."
+    },
+    "TaxationConditions": {
+      "definition": "Fornece condições fiscais que não podem ser incluídas nos campos estruturados desta mensagem e que não foram mencionadas no acordo de nível de serviço (SLA)."
+    },
+    "Disclaimer": {
+      "definition": "Fornece uma declaração de exoneração de responsabilidade relativa às informações fornecidas na mensagem. Pode ser ignorada para efeitos de processamento automático."
+    },
+    "CertificationBreakdown": {
+      "definition": "Fornece informações adicionais sobre o tipo de certificação/discriminação exigido."
+    }
+  },
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "O campo AdditionalInformation em todos os elementos não deve conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral ou indicação em contrário na definição do elemento, como em NarrativeVersion."
+    }
+  }
+}

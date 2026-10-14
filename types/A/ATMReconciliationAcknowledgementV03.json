@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationAcknowledgementV03",
+  "definition": "A mensagem ATMReconciliationAcknowledgement é enviada por um adquirente ou pelo seu agente a um ATM para confirmar a receção de uma mensagem ATMReconciliationAdvice."
+}

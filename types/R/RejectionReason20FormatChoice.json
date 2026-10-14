@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionReason20FormatChoice",
+  "definition": "Escolha de formatos para exprimir o motivo da rejeição do pedido de instrução permanente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o motivo da rejeição do pedido de instrução permanente."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir o motivo da rejeição do pedido de instrução permanente."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "OtherIdentification1",
+  "definition": "Outra identificação aceite de um instrumento financeiro que não o ISIN.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação de um valor mobiliário."
+    },
+    "Suffix": {
+      "definition": "Identifica o sufixo da identificação do valor mobiliário."
+    },
+    "Type": {
+      "definition": "Tipo de identificação."
+    }
+  }
+}

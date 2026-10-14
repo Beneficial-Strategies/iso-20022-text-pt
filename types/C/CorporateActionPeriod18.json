@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionPeriod18",
+  "definition": "Especifica períodos relacionados com uma opção de evento societário.",
+  "isoElements": {
+    "PriceCalculationPeriod": {
+      "definition": "Período durante o qual é determinado o preço de um valor mobiliário."
+    },
+    "ParallelTradingPeriod": {
+      "definition": "Período durante o qual as ações antigas e novas podem ser negociadas simultaneamente, por exemplo, consolidação ou divisão de ações."
+    },
+    "ActionPeriod": {
+      "definition": "Período durante o qual a opção especificada, ou todas as opções do evento, se mantém válida, por exemplo, período da oferta."
+    },
+    "RevocabilityPeriod": {
+      "definition": "Período durante o qual o acionista pode revogar, alterar ou retirar a sua instrução."
+    },
+    "PrivilegeSuspensionPeriod": {
+      "definition": "Período durante o qual o privilégio não está disponível, por exemplo, o que pode acontecer sempre que se realiza uma assembleia ou sempre que é devido o pagamento de um cupão."
+    },
+    "AccountServicerRevocabilityPeriod": {
+      "definition": "Período durante o qual o participante da instituição gestora da conta pode revogar, alterar ou retirar as suas instruções."
+    },
+    "DepositorySuspensionPeriodForWithdrawal": {
+      "definition": "Período que define a última data em que serão aceites pedidos de levantamento em nome de rua sobre o valor mobiliário resultante e a data em que a suspensão será levantada e o processamento de levantamento por transferência do valor mobiliário resultante será retomado."
+    }
+  }
+}

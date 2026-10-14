@@ -1,0 +1,12 @@
+{
+  "isoType": "Vote17Choice",
+  "definition": "Escolha entre um voto por deliberação da ordem de trabalhos e um voto para todas as deliberações da ordem de trabalhos.",
+  "isoElements": {
+    "VotePerAgendaResolution": {
+      "definition": "A instrução de voto é fornecida individualmente para cada deliberação da ordem de trabalhos."
+    },
+    "VoteForAllAgendaResolutions": {
+      "definition": "É fornecida uma única instrução de voto que abrange todas as deliberações da ordem de trabalhos."
+    }
+  }
+}

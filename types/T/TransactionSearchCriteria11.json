@@ -1,0 +1,18 @@
+{
+  "isoType": "TransactionSearchCriteria11",
+  "definition": "Define os critérios utilizados para pesquisar uma operação de pagamento.",
+  "isoElements": {
+    "PaymentTo": {
+      "definition": "Define os critérios utilizados para pesquisar o destino do pagamento."
+    },
+    "PaymentFrom": {
+      "definition": "Define os critérios utilizados para pesquisar a origem do pagamento."
+    },
+    "PaymentSearch": {
+      "definition": "Define os critérios utilizados para pesquisar um pagamento."
+    },
+    "AccountEntrySearch": {
+      "definition": "Define os critérios utilizados para pesquisar um movimento de caixa."
+    }
+  }
+}

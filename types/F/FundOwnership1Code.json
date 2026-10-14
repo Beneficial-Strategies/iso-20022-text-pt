@@ -1,0 +1,14 @@
+{
+  "isoType": "FundOwnership1Code",
+  "definition": "Especifica se todas as ações pertencem exclusivamente à sociedade do fundo.",
+  "isoCodes": {
+    "YALL": {
+      "name": "Totalmente detido",
+      "definition": "Todas as ações detidas."
+    },
+    "NALL": {
+      "name": "Não totalmente detido",
+      "definition": "Nem todas as ações detidas."
+    }
+  }
+}

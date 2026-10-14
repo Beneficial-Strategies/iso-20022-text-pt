@@ -1,0 +1,12 @@
+{
+  "isoType": "PenaltyAmountBreakdown1",
+  "definition": "Especifica a decomposição da penalização em submontantes.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante da penalização definido por tipo de montante."
+    },
+    "Type": {
+      "definition": "Tipo de montante para a decomposição da penalização."
+    }
+  }
+}

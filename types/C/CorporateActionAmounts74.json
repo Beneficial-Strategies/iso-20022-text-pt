@@ -1,0 +1,177 @@
+{
+  "isoType": "CorporateActionAmounts74",
+  "definition": "Especifica montantes no âmbito de um evento de operação sobre valores mobiliários.",
+  "isoElements": {
+    "PostingAmount": {
+      "definition": "Montante em dinheiro a lançar/lançado na conta."
+    },
+    "GrossAmount": {
+      "definition": "Montante em dinheiro antes de qualquer dedução fiscal."
+    },
+    "NetAmount": {
+      "definition": "Montante em dinheiro após as deduções fiscais."
+    },
+    "SolicitationFees": {
+      "definition": "Prémio em numerário disponibilizado se o detentor dos valores mobiliários der o seu consentimento ou participar num evento, por exemplo comissões de consentimento ou comissões de solicitação."
+    },
+    "CashInLieuOfShare": {
+      "definition": "Pagamento em numerário em substituição de uma quantidade fracionária de, por exemplo, ações."
+    },
+    "CapitalGain": {
+      "definition": "Montante em dinheiro distribuído em resultado de uma mais-valia."
+    },
+    "InterestAmount": {
+      "definition": "Montante em dinheiro correspondente ao pagamento de um cupão."
+    },
+    "MarketClaimAmount": {
+      "definition": "Montante resultante de uma reclamação de mercado."
+    },
+    "IndemnityAmount": {
+      "definition": "(Exclusivo de França) Montante devido a um comprador de valores mobiliários negociados antes da data ex, que pode estar sujeito a uma taxa de tributação diferente."
+    },
+    "ManufacturedDividendPaymentAmount": {
+      "definition": "Montante de dinheiro que o mutuário paga ao mutuante a título de compensação. Não confere ao mutuante o direito de reclamar qualquer crédito de imposto e é por vezes tratado de forma diferente pelas autoridades fiscais locais do mutuante. Abrange igualmente a compensação/indemnização por dividendo não recebido relativa a liquidações antecipadas/tardias, se aplicável a um mercado."
+    },
+    "ReinvestmentAmount": {
+      "definition": "Montante em dinheiro reinvestido em valores mobiliários adicionais."
+    },
+    "FullyFrankedAmount": {
+      "definition": "Montante resultante de um dividendo totalmente isento (fully franked) pago por uma sociedade; o montante inclui o crédito fiscal para as sociedades que efetuaram pagamentos de imposto suficientes durante o período fiscal."
+    },
+    "UnfrankedAmount": {
+      "definition": "Montante resultante de um dividendo não isento (unfranked) pago por uma sociedade; o montante não inclui crédito fiscal e está sujeito a retenção na fonte."
+    },
+    "SundryOrOtherAmount": {
+      "definition": "Montante em dinheiro relativo a rendimentos tributáveis que não pode ser classificado."
+    },
+    "TaxFreeAmount": {
+      "definition": "Montante em dinheiro que não foi sujeito a tributação."
+    },
+    "TaxDeferredAmount": {
+      "definition": "Montante de rendimentos elegível para tributação diferida."
+    },
+    "ValueAddedTaxAmount": {
+      "definition": "Imposto sobre o valor acrescentado."
+    },
+    "StampDutyAmount": {
+      "definition": "Montante do imposto do selo."
+    },
+    "TaxReclaimAmount": {
+      "definition": "Montante pago em excesso relativamente à obrigação fiscal efetiva e que foi reclamado."
+    },
+    "TaxCreditAmount": {
+      "definition": "Montante de impostos previamente pagos relativamente ao facto tributável."
+    },
+    "AdditionalTaxAmount": {
+      "definition": "Montante de impostos adicionais que não pode ser classificado."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Montante de uma distribuição em numerário que será retido pelas autoridades fiscais da jurisdição do emitente, relativamente ao qual poderá ser possível uma redução na fonte e/ou um pedido de reembolso."
+    },
+    "SecondLevelTaxAmount": {
+      "definition": "Montante em dinheiro retido por uma jurisdição diferente da jurisdição do país de constituição fiscal do emitente, relativamente ao qual poderá ser possível uma redução na fonte e/ou um pedido de reembolso. É cobrado em complemento ou compensação da taxa de retenção na fonte cobrada pela jurisdição do domicílio fiscal do emitente."
+    },
+    "FiscalStampAmount": {
+      "definition": "Montante do imposto fiscal a aplicar."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Montante pago a um corretor de execução a título de comissão."
+    },
+    "PayingAgentCommissionAmount": {
+      "definition": "Montante da comissão do agente pagador/subagente pagador."
+    },
+    "LocalBrokerCommissionAmount": {
+      "definition": "Comissão do corretor local."
+    },
+    "RegulatoryFeesAmount": {
+      "definition": "Montante cobrado por uma autoridade reguladora, por exemplo, taxas da Securities and Exchange."
+    },
+    "ShippingFeesAmount": {
+      "definition": "Todos os custos relacionados com a entrega física de documentos, tais como selos, portes de correio, custos de transportadores, seguros ou serviços de estafeta."
+    },
+    "ChargesAmount": {
+      "definition": "Montante pago pela prestação de serviços financeiros que não pode ser classificado por outro qualificador."
+    },
+    "CashAmountBroughtForward": {
+      "definition": "Indica o numerário retido de um dividendo anterior."
+    },
+    "CashAmountCarriedForward": {
+      "definition": "Indica o saldo transitado para o próximo dividendo."
+    },
+    "NotionalDividendPayableAmount": {
+      "definition": "Montante em numerário que teria sido pagável se o dividendo tivesse sido recebido em numerário em vez de ações."
+    },
+    "NotionalTaxAmount": {
+      "definition": "Quando são emitidos novos valores mobiliários em substituição de um dividendo em numerário, o imposto teórico é o imposto sobre o montante em numerário que teria sido pago."
+    },
+    "TaxArrearsAmount": {
+      "definition": "Montante pago pelas autoridades fiscais para além do pagamento do próprio reembolso de imposto."
+    },
+    "OriginalAmount": {
+      "definition": "Montante de lançamento/liquidação na sua moeda original quando ocorreu uma conversão de/para outra moeda."
+    },
+    "PrincipalOrCorpus": {
+      "definition": "Montante em dinheiro correspondente a uma distribuição do capital de uma obrigação, por exemplo, o reembolso de dívida pendente."
+    },
+    "RedemptionPremiumAmount": {
+      "definition": "Montante em dinheiro (não correspondente a juros) adicional ao capital no reembolso de uma obrigação."
+    },
+    "IncomePortion": {
+      "definition": "Montante relativo ao valor mobiliário subjacente pelo qual são distribuídos rendimentos."
+    },
+    "StockExchangeTax": {
+      "definition": "Montante do imposto de bolsa."
+    },
+    "EUTaxRetentionAmount": {
+      "definition": "Montante total do imposto retido na fonte em conformidade com a Diretiva EU relativa à Poupança."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Montante de juros acumulados entre períodos de pagamento de cupões."
+    },
+    "EqualisationAmount": {
+      "definition": "Parte do montante de distribuição do fundo que representa o rendimento acumulado médio incluído no preço de compra das unidades adquiridas durante o período contabilístico."
+    },
+    "FATCATaxAmount": {
+      "definition": "Montante de imposto relacionado com a FATCA (Foreign Account Tax Compliance Act)."
+    },
+    "NRATaxAmount": {
+      "definition": "Montante de rendimento fiscal sujeito a NRA (Non Resident Alien)."
+    },
+    "BackUpWithholdingTaxAmount": {
+      "definition": "Montante de imposto relativo à retenção na fonte de salvaguarda (back up withholding)."
+    },
+    "TaxOnIncomeAmount": {
+      "definition": "Montante global de imposto retido na fonte pelos gestores de fundos antes de se considerar a obrigação fiscal de cada detentor de unidades."
+    },
+    "TransactionTax": {
+      "definition": "Montante do imposto sobre operações."
+    },
+    "DeemedAmount": {
+      "definition": "Montante de rendimentos que não é efetivamente pago ao detentor dos valores mobiliários, mas sobre o qual é aplicável retenção na fonte."
+    },
+    "ForeignIncomeAmount": {
+      "definition": "Montante relativo a um rendimento de origem estrangeira, como um rendimento estrangeiro de canalização (conduit foreign income)."
+    },
+    "DeemedDividendAmount": {
+      "definition": "Montante presumido resultante da diferença entre a taxa de rendimentos de dividendos atribuída ao detentor dos valores mobiliários para o ano fiscal e a taxa de rendimentos de dividendos previamente notificada ao detentor dos valores mobiliários relativamente às distribuições em numerário do ano."
+    },
+    "DeemedFundAmount": {
+      "definition": "Montante presumido resultante da diferença entre a taxa das componentes de rendimentos que constituem um pagamento de fundo atribuída ao detentor dos valores mobiliários para o ano fiscal e a taxa de rendimentos do fundo previamente notificada ao detentor dos valores mobiliários relativamente às distribuições em numerário do ano."
+    },
+    "DeemedInterestAmount": {
+      "definition": "Montante presumido resultante da diferença entre a taxa de rendimentos de juros atribuída ao detentor dos valores mobiliários para o ano fiscal e a taxa de rendimentos de juros previamente notificada ao detentor dos valores mobiliários relativamente às distribuições em numerário do ano."
+    },
+    "DeemedRoyaltiesAmount": {
+      "definition": "Montante presumido resultante da diferença entre a taxa de rendimentos de royalties atribuída ao detentor dos valores mobiliários para o ano fiscal e a taxa de rendimentos de royalties previamente notificada ao detentor dos valores mobiliários relativamente às distribuições em numerário do ano."
+    },
+    "AdjustedSubscriptionAmount": {
+      "definition": "Montante debitado ou creditado para ajustar a diferença entre a taxa de subscrição estimada e a final nos eventos de exercício de direitos."
+    },
+    "RefundedSubscriptionAmount": {
+      "definition": "Montante reembolsado do custo de subscrição original num evento de exercício de direitos.  Ocorre quando o evento é objeto de rateio e o custo de subscrição relativo ao saldo não afetado (não aceite) é devolvido ao titular."
+    },
+    "BuyUpAmount": {
+      "definition": "Montante em numerário debitado no contexto de uma opção de aquisição adicional (buy up)."
+    }
+  }
+}

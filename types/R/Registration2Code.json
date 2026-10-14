@@ -1,0 +1,22 @@
+{
+  "isoType": "Registration2Code",
+  "definition": "Especifica se o registo deve ocorrer aquando da receção.",
+  "isoCodes": {
+    "PTYH": {
+      "name": "Retenção pela parte",
+      "definition": "Você ou a sua parte colocou a instrução em modo de retenção/congelamento/pré-aviso."
+    },
+    "CSDH": {
+      "name": "Retenção pelo CSD",
+      "definition": "A central de depósito de valores mobiliários coloca a instrução em modo de retenção/congelamento/pré-aviso."
+    },
+    "CDEL": {
+      "name": "Entrega condicional",
+      "definition": "A instrução está em modo de retenção/congelamento/pré-aviso por satisfazer regras de entrega condicional predefinidas na plataforma da infraestrutura de mercado para entrega condicional."
+    },
+    "CVAL": {
+      "name": "Validação pelo CSD",
+      "definition": "A instrução está em modo de retenção/congelamento/pré-aviso por satisfazer condições predefinidas de um tipo de processamento de restrição na plataforma da infraestrutura de mercado."
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "isoType": "IntraPositionMovementDetails20",
+  "definition": "Detalhes do movimento intraposição.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificações (do titular da conta e/ou do prestador de serviços de conta) do movimento intraposição."
+    },
+    "SettledQuantity": {
+      "definition": "Quantidade de instrumento financeiro efetivamente liquidada."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Quantidade de instrumento financeiro previamente liquidada."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Quantidade de instrumento financeiro que resta liquidar."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Número que identifica um tipo de subsaldo de valores mobiliários, por exemplo, a identificação de uma restrição."
+    },
+    "BalanceTo": {
+      "definition": "Saldo para o qual os valores mobiliários foram movimentados."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários foram movimentados."
+    },
+    "AvailableDate": {
+      "definition": "Data/hora a partir da qual os valores mobiliários ficam disponíveis para venda (se os valores mobiliários se tornarem indisponíveis, especifica a data/hora em que voltarão a estar disponíveis)."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Carimbo de data/hora do momento em que a operação é reconhecida."
+    },
+    "CorporateActionEventType": {
+      "definition": "Especifica o tipo de evento societário."
+    },
+    "CollateralMonitorAmount": {
+      "definition": "Valor da garantia disponível para o processo de liquidação de entrega ao nível da conta."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fornece informações adicionais sobre o tratamento da liquidação que não podem ser incluídas nos campos estruturados da mensagem."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acordo bilateral entre o Remetente e o Destinatário, se InstructionProcessingAdditionalDetails estiver presente, então não deve conter informações que possam ser fornecidas num campo estruturado."
+    }
+  }
+}

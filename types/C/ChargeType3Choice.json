@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargeType3Choice",
+  "definition": "Especifica o tipo de encargo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de encargo, em forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de encargo em forma própria, conforme definido pelo emitente."
+    }
+  }
+}

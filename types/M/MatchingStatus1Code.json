@@ -1,0 +1,14 @@
+{
+  "isoType": "MatchingStatus1Code",
+  "definition": "Fornece o estado de correspondência da instrução no momento em que a instrução de liquidação foi enviada.",
+  "isoCodes": {
+    "MACH": {
+      "name": "Correspondido",
+      "definition": "A instrução foi correspondida."
+    },
+    "NMAT": {
+      "name": "Não correspondido",
+      "definition": "A instrução não foi correspondida."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "Repartition6",
+  "definition": "Indica como o montante do plano de investimento é repartido pelos fundos.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Montante, unidades ou percentagem do instrumento financeiro investido ou resgatado."
+    },
+    "FinancialInstrument": {
+      "definition": "Informações pormenorizadas sobre o valor mobiliário ou fundo de investimento."
+    },
+    "CurrencyOfPlan": {
+      "definition": "Quando um fundo tem várias moedas no mesmo ISIN, indica a moeda do plano de poupança ou de resgate."
+    }
+  }
+}

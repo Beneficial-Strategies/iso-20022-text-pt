@@ -1,0 +1,26 @@
+{
+  "isoType": "SettlementConditionModificationStatus1Code",
+  "definition": "Especifica o estado de um pedido de modificação de condição de liquidação de valores mobiliários.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Reconhecido e aceite",
+      "definition": "A instrução foi reconhecida/aceite pelo prestador de serviços de conta."
+    },
+    "REJT": {
+      "name": "Rejeitado",
+      "definition": "A instrução foi rejeitada para processamento adicional."
+    },
+    "MODP": {
+      "name": "Pendente",
+      "definition": "A modificação está pendente. Neste momento, não se sabe se a modificação pode ser efetuada."
+    },
+    "DEND": {
+      "name": "Recusado",
+      "definition": "O pedido de modificação não será executado."
+    },
+    "MODC": {
+      "name": "Concluído",
+      "definition": "A modificação foi concluída."
+    }
+  }
+}

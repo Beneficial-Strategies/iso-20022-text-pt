@@ -1,0 +1,30 @@
+{
+  "isoType": "QuantityBreakdown58",
+  "definition": "Detalhes da decomposição de uma quantidade.",
+  "isoElements": {
+    "LotNumber": {
+      "definition": "Identificação, para efeitos fiscais, de um lote de valores mobiliários idênticos adquiridos numa determinada data e a um determinado preço."
+    },
+    "LotQuantity": {
+      "definition": "Quantidade de instrumentos financeiros que faz parte do lote descrito."
+    },
+    "LotDateTime": {
+      "definition": "Data/hora em que o lote foi adquirido."
+    },
+    "LotPrice": {
+      "definition": "Preço a que o lote foi adquirido."
+    },
+    "TypeOfPrice": {
+      "definition": "Especifica o tipo de preço e as informações sobre o preço."
+    },
+    "AccountBaseCurrencyAmounts": {
+      "definition": "Montantes de avaliação do lote indicados na moeda de base da conta."
+    },
+    "InstrumentCurrencyAmounts": {
+      "definition": "Montantes de avaliação do lote indicados na moeda do instrumento financeiro."
+    },
+    "AlternateReportingCurrencyAmounts": {
+      "definition": "Montantes de avaliação do lote indicados numa moeda diferente da moeda de base da conta."
+    }
+  }
+}

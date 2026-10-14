@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesSettlementConditionsModificationRequestReportV01",
+  "definition": "A mensagem SecuritiesSettlementConditionsModificationRequestReport é enviada por uma infraestrutura de liquidação a um titular de conta/requerente para fornecer os detalhes completos ou os valores de estado atuais dos pedidos de modificação de liquidação ou de movimento intraposição, tal como definidos na consulta. ||A mensagem também pode ser utilizada para: |- reenviar uma mensagem enviada anteriormente (a subfunção da mensagem é \"Duplicate\") |- fornecer a um terceiro uma cópia de uma mensagem, a título informativo (a subfunção da mensagem é \"Copy\") |- reenviar a um terceiro uma cópia de uma mensagem, a título informativo (a subfunção da mensagem é \"Copy Duplicate\").",
+  "isoRules": {
+    "ActivityIndicatorYesRule": {
+      "definition": "Se ReportGeneralDetails/ActivityIndicator for igual a Sim (true ou 1), Modifications tem de estar presente."
+    },
+    "ActivityIndicatorNoRule": {
+      "definition": "Se ReportGeneralDetails/ActivityIndicator for igual a Não (false ou 0), Modifications tem de estar ausente."
+    }
+  }
+}

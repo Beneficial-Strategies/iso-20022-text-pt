@@ -1,0 +1,18 @@
+{
+  "isoType": "FundBalance1",
+  "definition": "Saldos de unidades e de numerário decorrentes de ordens de fundos de investimento.",
+  "isoElements": {
+    "TotalUnitsFromUnitOrders": {
+      "definition": "Número total de unidades de ordens colocadas em unidades."
+    },
+    "TotalUnitsFromCashOrders": {
+      "definition": "Número de unidades decorrentes de ordens colocadas em numerário."
+    },
+    "TotalCashFromUnitOrders": {
+      "definition": "Montante total de numerário decorrente de ordens colocadas em unidades."
+    },
+    "TotalCashFromCashOrders": {
+      "definition": "Montante total de numerário de ordens colocadas em numerário."
+    }
+  }
+}

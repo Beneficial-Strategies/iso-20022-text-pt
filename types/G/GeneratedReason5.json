@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneratedReason5",
+  "definition": "Especifica o motivo pelo qual a operação foi gerada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a operação foi gerada."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser fornecidas num campo estruturado."
+    }
+  }
+}

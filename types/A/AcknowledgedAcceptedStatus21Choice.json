@@ -1,0 +1,12 @@
+{
+  "isoType": "AcknowledgedAcceptedStatus21Choice",
+  "definition": "Especifica se o estado é fornecido com ou sem motivo.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que não há motivo disponível ou a comunicar."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo do estado de aceite confirmado."
+    }
+  }
+}

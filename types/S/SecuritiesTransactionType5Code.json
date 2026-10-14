@@ -1,0 +1,10 @@
+{
+  "isoType": "SecuritiesTransactionType5Code",
+  "definition": "Especifica informações subjacentes relativas ao tipo de operação.",
+  "isoCodes": {
+    "TRAD": {
+      "name": "Negócio",
+      "definition": "Diz respeito à liquidação de uma transação."
+    }
+  }
+}

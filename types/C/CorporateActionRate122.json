@@ -1,0 +1,47 @@
+{
+  "isoType": "CorporateActionRate122",
+  "definition": "Especifica as taxas de uma operação de sociedade.",
+  "isoElements": {
+    "InterestRate": {
+      "definition": "Taxa de juro anualizada de um instrumento financeiro utilizada para calcular a taxa de juro efetiva do cupão ou dos juros corridos."
+    },
+    "PercentageSought": {
+      "definition": "Percentagem de valores mobiliários que o oferente/emitente adquirirá ou reembolsará nos termos do evento."
+    },
+    "RelatedIndex": {
+      "definition": "Taxa de índice relativa à taxa de juro do próximo pagamento de juros."
+    },
+    "Spread": {
+      "definition": "Margem permitida acima ou abaixo de uma determinada taxa."
+    },
+    "BidInterval": {
+      "definition": "Incremento de preço aceitável utilizado para a apresentação de uma oferta de compra."
+    },
+    "PreviousFactor": {
+      "definition": "Fator utilizado para calcular o valor do capital em dívida do instrumento financeiro (no caso de valores mobiliários com fator) até à próxima data de reembolso (fator)."
+    },
+    "NextFactor": {
+      "definition": "Fator utilizado para calcular o valor do capital em dívida do instrumento financeiro (no caso de valores mobiliários com fator) que será aplicável após a data de reembolso (fator)."
+    },
+    "ReinvestmentDiscountRateToMarket": {
+      "definition": "Taxa de desconto dos valores mobiliários adquiridos através de um plano de reinvestimento em comparação com o preço de mercado atual do valor mobiliário."
+    },
+    "InterestShortfall": {
+      "definition": "No caso de emissões de valores mobiliários estruturados com um calendário fixo de pagamentos de capital e juros durante a vida da emissão, é a diferença entre a taxa efetiva do pagamento de juros e a taxa esperada ou programada do pagamento de juros."
+    },
+    "RealisedLoss": {
+      "definition": "No caso de emissões de valores mobiliários estruturados com um calendário fixo de pagamentos de capital e juros durante a vida da emissão, é a diferença entre a taxa efetiva do reembolso de capital e o reembolso de capital programado."
+    },
+    "DeclaredRate": {
+      "definition": "Taxa de dividendo ou de juro declarada pelo emitente."
+    },
+    "IndexFactor": {
+      "definition": "Taxa de índice público aplicada ao montante pago para o ajustar à inflação."
+    }
+  },
+  "isoRules": {
+    "DeclaredRateRule": {
+      "definition": "DeclaredRate só pode ser utilizado se o dividendo ou o juro declarado pelo emitente for efetivamente pago numa moeda diferente da declarada ou se o evento de dividendo ou de juro permitir escolher entre várias opções de moeda."
+    }
+  }
+}

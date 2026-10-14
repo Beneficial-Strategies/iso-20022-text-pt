@@ -1,0 +1,15 @@
+{
+  "isoType": "Parameter6",
+  "definition": "Parâmetros associados a um algoritmo criptográfico de cifra.",
+  "isoElements": {
+    "EncryptionFormat": {
+      "definition": "Formato dos dados antes da cifra, se o formato não for texto simples ou implícito."
+    },
+    "InitialisationVector": {
+      "definition": "Vetor de inicialização de uma cifra em modo de encadeamento de blocos (CBC)."
+    },
+    "BytePadding": {
+      "definition": "Preenchimento de bytes para uma cifra em modo de encadeamento de blocos, se o preenchimento não for implícito."
+    }
+  }
+}

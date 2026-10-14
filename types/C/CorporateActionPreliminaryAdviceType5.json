@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionPreliminaryAdviceType5",
+  "definition": "Tipo de documento de pré-aviso de movimento.",
+  "isoElements": {
+    "MovementPreliminaryAdviceIdentification": {
+      "definition": "Identificação única do grupo de mensagens de pré-aviso de movimento de operação sobre ativos quando o pré-aviso é dividido em várias mensagens (paginadas)."
+    },
+    "Type": {
+      "definition": "Tipo de pré-aviso de movimento, por exemplo, novo ou de substituição."
+    },
+    "Function": {
+      "definition": "Especifica se a mensagem avisa sobre o saldo elegível final e os direitos, ou sobre um próximo lançamento ou reversão de lançamentos de valores mobiliários e/ou de numerário."
+    }
+  }
+}

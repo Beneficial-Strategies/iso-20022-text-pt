@@ -1,0 +1,12 @@
+{
+  "isoType": "RenounceableEntitlementStatusTypeFormat4Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o tipo de estado do direito renunciável.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o estado de renunciabilidade."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do estado de renunciabilidade."
+    }
+  }
+}

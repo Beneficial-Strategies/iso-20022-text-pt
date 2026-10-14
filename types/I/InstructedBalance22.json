@@ -1,0 +1,27 @@
+{
+  "isoType": "InstructedBalance22",
+  "definition": "Fornece informações sobre o saldo total instruído.",
+  "isoElements": {
+    "TotalInstructedBalance": {
+      "definition": "Fornece informações sobre o saldo total instruído."
+    },
+    "TotalAcceptedInstructionBalance": {
+      "definition": "Total diário de todas as instruções aceites para o dia em causa. As instruções de cobertura de proteção serão incluídas neste saldo total."
+    },
+    "TotalCancelledInstructionBalance": {
+      "definition": "Total diário das instruções canceladas para um determinado dia."
+    },
+    "TotalPendingInstructionBalance": {
+      "definition": "Total diário das instruções pendentes. Inclui as instruções com cancelamento pendente."
+    },
+    "TotalRejectedInstructionBalance": {
+      "definition": "Total diário das instruções rejeitadas."
+    },
+    "TotalProtectInstructionBalance": {
+      "definition": "Total diário de todas as instruções de proteção enviadas num determinado dia."
+    },
+    "OptionDetails": {
+      "definition": "Fornece a decomposição do saldo instruído por opção."
+    }
+  }
+}

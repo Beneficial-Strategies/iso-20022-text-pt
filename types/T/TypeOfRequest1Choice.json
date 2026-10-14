@@ -1,0 +1,12 @@
+{
+  "isoType": "TypeOfRequest1Choice",
+  "definition": "Escolha entre formatos para um tipo de pedido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de pedido expresso como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de pedido expresso como código proprietário."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingServicesAmount1",
+  "definition": "Conversões para a moeda de origem do montante do encargo de serviço tributável.",
+  "isoElements": {
+    "HostAmount": {
+      "definition": "Soma de todos os impostos individuais do serviço, expressa na moeda de origem."
+    },
+    "PricingAmount": {
+      "definition": "Montante da obrigação fiscal expresso na moeda de tarifação da região fiscal.|Utilização: é o mesmo montante que consta do montante de origem, mas permite ao remetente exprimir opcionalmente o valor na moeda de tarifação."
+    }
+  }
+}

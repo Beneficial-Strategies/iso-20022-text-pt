@@ -1,0 +1,30 @@
+{
+  "isoType": "InstructionProcessingStatus63Choice",
+  "definition": "Escolha de formato para o estado de processamento da instrução.",
+  "isoElements": {
+    "PendingProcessing": {
+      "definition": "O processamento da instrução/pedido está pendente."
+    },
+    "CancellationRequested": {
+      "definition": "O pedido de cancelamento da sua contraparte para esta operação está pendente, aguardando o seu pedido de cancelamento."
+    },
+    "AcknowledgedAccepted": {
+      "definition": "A instrução foi confirmada pela instituição gestora da conta."
+    },
+    "Cancelled": {
+      "definition": "A instrução foi cancelada."
+    },
+    "Generated": {
+      "definition": "A operação foi criada pela entidade gestora da conta ou por um terceiro. Não foi instruída diretamente pelo titular da conta."
+    },
+    "Repair": {
+      "definition": "A instrução/pedido é aceite mas encontra-se em reparação."
+    },
+    "PendingCancellation": {
+      "definition": "O seu pedido de cancelamento desta instrução está pendente, aguardando processamento adicional."
+    },
+    "ModificationRequested": {
+      "definition": "O pedido de modificação da sua contraparte para esta operação está pendente, aguardando o seu pedido de cancelamento ou o seu consentimento."
+    }
+  }
+}

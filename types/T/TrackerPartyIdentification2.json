@@ -1,0 +1,15 @@
+{
+  "isoType": "TrackerPartyIdentification2",
+  "definition": "Especifica a identificação de uma pessoa, de uma organização ou de uma instituição financeira no rastreador.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nome pelo qual uma parte é conhecida e que é normalmente utilizado para identificar essa parte."
+    },
+    "PostalAddress": {
+      "definition": "Informações que localizam e identificam um endereço específico, conforme definido pelos serviços postais."
+    },
+    "Identification": {
+      "definition": "Identificação única e inequívoca de uma parte."
+    }
+  }
+}

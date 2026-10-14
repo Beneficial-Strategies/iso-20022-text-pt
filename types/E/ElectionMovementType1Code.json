@@ -1,0 +1,14 @@
+{
+  "isoType": "ElectionMovementType1Code",
+  "definition": "Especifica o efeito da eleição de uma opção de ação societária nas posições detidas.",
+  "isoCodes": {
+    "REST": {
+      "name": "Restrito",
+      "definition": "A eleição resulta numa alteração do tipo de saldo que transfere o controlo dos valores mobiliários e não os próprios valores mobiliários."
+    },
+    "DRCT": {
+      "name": "Direto",
+      "definition": "Movimento direto de recursos, isto é, numerário ou valores mobiliários creditados diretamente na conta do agente pagador."
+    }
+  }
+}

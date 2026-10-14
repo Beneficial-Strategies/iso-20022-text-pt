@@ -1,0 +1,15 @@
+{
+  "isoType": "MessageIdentification8",
+  "definition": "Identifica uma mensagem por um identificador único e pela data e hora em que a mensagem foi criada pelo remetente.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pelo atribuidor e enviada à parte seguinte da cadeia, para identificar inequivocamente a mensagem.||Utilização: o atribuidor tem de assegurar que a MessageIdentification é única por destinatário da atribuição durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    },
+    "FirstAgent": {
+      "definition": "Identifica a primeira instituição da cadeia de identificação, a seguir à parte iniciadora do pagamento."
+    }
+  }
+}

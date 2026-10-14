@@ -1,0 +1,32 @@
+{
+  "isoType": "InvestigationReason2",
+  "definition": "Fornece o motivo detalhado do pedido de investigação.",
+  "isoElements": {
+    "Sequence": {
+      "definition": "Quando o bloco InvestigationData é repetido, identifica uma referência numérica do motivo que pode ser utilizada para a reconciliação de dados."
+    },
+    "Reason": {
+      "definition": "Motivo da abertura da investigação."
+    },
+    "ReasonSubType": {
+      "definition": "Subtipo que identifica mais detalhadamente o motivo da abertura de uma investigação."
+    },
+    "AdditionalRequestData": {
+      "definition": "Informações adicionais relativas ao pedido."
+    },
+    "RelatedInvestigationData": {
+      "definition": "Informações adicionais relativas ao pedido que serão enviadas ou disponibilizadas em separado, como a cópia de um passaporte."
+    },
+    "EnclosedFile": {
+      "definition": "Documento anexo à mensagem.||Utilização: a utilização do elemento EnclosedFile tem de ser acordada bilateralmente."
+    },
+    "RelatedFileData": {
+      "definition": "Detalhes de um documento não anexo à mensagem que será enviado ou disponibilizado em separado."
+    }
+  },
+  "isoRules": {
+    "InvestigationReasonAndAdditionalRequestDataRule": {
+      "definition": "Se Reason/Code for Narrative (NARR), então AdditionalRequestData tem de estar presente."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "isoType": "ExternalNotificationType1Code",
+  "definition": "Especifica o tipo de notificação, tal como publicado numa lista de códigos externa de tipos de notificação.|As listas de códigos externas podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "CUHO": {
+      "name": "Feriado da moeda",
+      "definition": "Notificação de um feriado de uma moeda."
+    },
+    "ATAC": {
+      "name": "Termos e condições da conta",
+      "definition": "Notificação de condições novas ou alteradas de uma conta."
+    },
+    "SUSP": {
+      "name": "Suspensão",
+      "definition": "Notificação de suspensão de um processo devido a um incidente."
+    },
+    "COUP": {
+      "name": "Atualização de contactos",
+      "definition": "Notificação de dados de contacto novos ou alterados."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro tipo de notificação."
+    },
+    "INFO": {
+      "name": "Partilha de informações",
+      "definition": "Partilha de informações."
+    },
+    "ADDR": {
+      "name": "Alteração de morada",
+      "definition": "Notificação de alteração de morada."
+    },
+    "TERM": {
+      "name": "Cessação do serviço",
+      "definition": "Notificação de cessação de um serviço, como o encerramento de uma conta."
+    },
+    "SSIS": {
+      "name": "Atualização de instruções permanentes de liquidação",
+      "definition": "Notificação de alteração das instruções de liquidação permanentes (SSIs)."
+    },
+    "MERG": {
+      "name": "Aviso de fusão",
+      "definition": "Notificação de uma fusão e de quaisquer alterações associadas."
+    },
+    "SYST": {
+      "name": "Pedido de acesso ao sistema",
+      "definition": "Pedido de acesso a um sistema."
+    },
+    "OPEN": {
+      "name": "Alteração do horário de abertura de balcão bancário",
+      "definition": "Notificação de alteração do horário de funcionamento."
+    },
+    "INCH": {
+      "name": "Alterações do setor",
+      "definition": "Notificação de quaisquer alterações relevantes do setor ou do mercado."
+    }
+  }
+}

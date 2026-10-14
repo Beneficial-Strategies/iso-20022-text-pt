@@ -1,0 +1,21 @@
+{
+  "isoType": "AdditionalRights4",
+  "definition": "Informações sobre os direitos adicionais que podem ser concedidos para uma assembleia.",
+  "isoElements": {
+    "AdditionalRight": {
+      "definition": "Direitos específicos concedidos aos acionistas que podem ser exercidos nas assembleias de acionistas, por exemplo, o direito de colocar questões, o direito de aditar pontos à ordem de trabalhos ou de apresentar projetos de deliberação."
+    },
+    "AdditionalRightInformationURLAddress": {
+      "definition": "Endereço a utilizar no serviço www (HTTP) onde podem ser encontradas informações adicionais sobre os direitos específicos concedidos aos acionistas."
+    },
+    "AdditionalRightDeadline": {
+      "definition": "Direito adicional concedido para determinar a data e hora até às quais os detentores de valores mobiliários podem propor alterações ou novas deliberações. Este prazo é fixado por um intermediário."
+    },
+    "AdditionalRightMarketDeadline": {
+      "definition": "Direito adicional concedido para determinar a data e hora até às quais os detentores de valores mobiliários podem propor alterações ou novas deliberações. Este prazo é fixado pelo emitente."
+    },
+    "AdditionalRightThreshold": {
+      "definition": "Direito adicional concedido para especificar a participação mínima no capital social, o valor em numerário ou o número de detentores de valores mobiliários necessários para apresentar deliberações."
+    }
+  }
+}

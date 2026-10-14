@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalEntryStatus1Code",
+  "definition": "Especifica o estado de um lançamento nos livros da instituição gestora da conta, tal como publicado num conjunto de códigos externo.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "BOOK": {
+      "name": "Contabilizado",
+      "definition": "Contabilizado significa que a transferência de dinheiro foi concluída entre o prestador de serviços de conta e o titular da conta.|Utilização: o estado Contabilizado não implica necessariamente a irrevogabilidade do dinheiro, pois esta depende de outros fatores, como o sistema de pagamentos utilizado, a conclusão da operação de ponta a ponta e as condições acordadas entre o prestador de serviços de conta e o titular.|O estado Contabilizado é o único estado que pode ser revertido."
+    },
+    "FUTR": {
+      "name": "Futuro",
+      "definition": "O movimento está registado nos livros da instituição gestora da conta e o valor será aplicado ao titular da conta numa data e hora futuras."
+    },
+    "INFO": {
+      "name": "Informação",
+      "definition": "O lançamento é fornecido apenas a título informativo e não foi efetuado qualquer registo na conta do titular no livro-razão do prestador de serviços de conta."
+    },
+    "PDNG": {
+      "name": "Pendente",
+      "definition": "O registo na conta do titular no livro-razão do prestador de serviços de conta não foi concluído.|Utilização: pode ser utilizado para itens esperados, ou para itens para os quais ainda têm de ser cumpridas algumas condições antes de poderem ser contabilizados. Se o registo ocorrer, o lançamento será incluído com o estado Contabilizado no extrato ou relatório de conta subsequente. O estado Pendente não pode ser revertido."
+    }
+  }
+}

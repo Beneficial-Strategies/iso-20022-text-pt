@@ -1,0 +1,23 @@
+{
+  "isoType": "AdditionalBalanceInformation2",
+  "definition": "Posição líquida de uma detenção segregada de um único valor mobiliário no âmbito da posição global detida na conta de valores mobiliários, por exemplo, subsaldo por estado.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantidade de valores mobiliários no subsaldo."
+    },
+    "SubBalanceType": {
+      "definition": "Motivo pelo qual um valor mobiliário não está disponível ou informações adicionais sobre o instrumento financeiro para o qual o saldo é indicado, por exemplo, não registado, registado em nome de um mandatário."
+    },
+    "ExtendedSubBalanceType": {
+      "definition": "Motivo pelo qual um valor mobiliário não está disponível ou informações adicionais sobre o instrumento financeiro para o qual o saldo é indicado, por exemplo, não registado, registado em nome de um mandatário."
+    }
+  },
+  "isoRules": {
+    "SubBalanceTypeOrExtendedSubBalanceTypeRule": {
+      "definition": "Tem de estar presente SubBalanceType ou ExtendedSubBalanceType, mas não ambos."
+    },
+    "SubBalanceTypeOrExtendedSubBalanceTypeRuleNotBoth": {
+      "definition": "Tem de estar presente SubBalanceType ou ExtendedSubBalanceType, mas não ambos."
+    }
+  }
+}

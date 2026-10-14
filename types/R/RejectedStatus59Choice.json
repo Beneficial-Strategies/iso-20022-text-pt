@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectedStatus59Choice",
+  "definition": "Escolha entre um motivo e a ausência de motivo para o estado de tratamento rejeitado da instrução de assembleia geral.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo não especificado."
+    },
+    "Reason": {
+      "definition": "Motivo pelo qual a mensagem de instrução de assembleia ou a instrução individual de assembleia é rejeitada."
+    }
+  }
+}

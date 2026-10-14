@@ -1,0 +1,15 @@
+{
+  "isoType": "CashProceeds1",
+  "definition": "Fornece informações sobre o produto em numerário.",
+  "isoElements": {
+    "PostingAmount": {
+      "definition": "Montante de numerário que é lançado."
+    },
+    "ReconciliationDetails": {
+      "definition": "Informações de reconciliação."
+    },
+    "AccountDetails": {
+      "definition": "Fornece informações sobre a conta de valores mobiliários debitada."
+    }
+  }
+}

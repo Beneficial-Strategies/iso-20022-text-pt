@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason17",
+  "definition": "Especifica o motivo pelo qual a instrução ou o pedido tem o estado pendente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual um pedido de cancelamento enviado para a instrução associada está pendente."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser fornecidas num campo estruturado."
+    }
+  }
+}

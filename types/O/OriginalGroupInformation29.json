@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalGroupInformation29",
+  "definition": "Identificador único e inequívoco do grupo de operações, atribuído pela parte instrutora original.",
+  "isoElements": {
+    "OriginalMessageIdentification": {
+      "definition": "Referência ponto a ponto atribuída pela parte instrutora original para identificar inequivocamente a mensagem original."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Especifica o identificador do nome da mensagem original a que a mensagem se refere, por exemplo, pacs.003.001.01 ou MT103."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Data e hora originais em que a mensagem foi criada."
+    }
+  }
+}

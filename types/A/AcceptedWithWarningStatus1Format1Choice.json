@@ -1,0 +1,12 @@
+{
+  "isoType": "AcceptedWithWarningStatus1Format1Choice",
+  "definition": "Escolha de formatos para expressar o estado de aceite com aviso do aviso de notificação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o estado de processamento do aviso de notificação."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para expressar o estado de processamento do aviso de notificação."
+    }
+  }
+}

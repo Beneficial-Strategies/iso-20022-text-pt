@@ -1,0 +1,4 @@
+{
+  "isoType": "ChequeCancellationOrStopReportV02",
+  "definition": "A mensagem ChequeCancellationOrStopReport é enviada pela instituição sacada (sobre a qual um cheque é sacado) à instituição sacadora, ou à instituição que age em nome da instituição sacadora, para indicar as ações realizadas na tentativa de cancelar a apresentação e/ou suspender o pagamento do cheque a que a mensagem se refere."
+}

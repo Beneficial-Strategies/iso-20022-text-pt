@@ -1,0 +1,4 @@
+{
+  "isoType": "GetReservationV08",
+  "definition": "Âmbito|A mensagem GetReservation é enviada por um membro ao administrador de operações.|É utilizada para solicitar informações sobre os pormenores de uma ou mais facilidades de reserva definidas pelo membro e geridas pelo administrador de operações.|Utilização|O membro pode solicitar informações sobre reservas com base nos seguintes elementos:|- identificação do sistema;|- identificação da conta;|- estado da reserva (por defeito e/ou atual);|- tipo de reserva.|Esta mensagem será respondida com uma mensagem ReturnReservation."
+}

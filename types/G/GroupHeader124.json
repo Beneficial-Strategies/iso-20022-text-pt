@@ -1,0 +1,44 @@
+{
+  "isoType": "GroupHeader124",
+  "definition": "Fornece as características comuns a todas as operações individuais incluídas na mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte instrutora e enviada à parte seguinte da cadeia para identificar inequivocamente a mensagem.|Utilização: A parte instrutora tem de garantir que MessageIdentification é único por parte instruída durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    },
+    "Authorisation": {
+      "definition": "Identificação do utilizador ou qualquer chave de utilizador a utilizar para verificar se a parte iniciadora está autorizada a iniciar operações a partir da conta especificada na mensagem.||Utilização: O conteúdo não é de natureza técnica, mas reflete a estrutura organizacional do lado iniciador.|O elemento de autorização pode ser tipicamente utilizado em cenários de retransmissão, iniciações de pagamento, devoluções de pagamento ou reversões de pagamento iniciadas em nome de uma parte diferente da parte iniciadora."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operações individuais contidas na mensagem."
+    },
+    "ControlSum": {
+      "definition": "Total de todos os montantes individuais incluídos na mensagem, independentemente das moedas."
+    },
+    "GroupReversal": {
+      "definition": "Indica se a reversão se aplica a todo o grupo de operações ou a operações individuais do grupo original."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia a mensagem de reversão. |Utilização: pode ser o credor ou uma parte que inicia a reversão do débito direto em nome do credor."
+    },
+    "ForwardingAgent": {
+      "definition": "Instituição financeira que recebe a instrução da parte iniciadora e a reencaminha para a instituição seguinte na cadeia de pagamento."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    }
+  },
+  "isoRules": {
+    "ControlSumAndGroupReversalRule": {
+      "definition": "Se GroupReversal for verdadeiro, ControlSum não é permitido."
+    },
+    "GroupReversalAndNumberOfTransactionsGuideline": {
+      "definition": "Se GroupReversal for verdadeiro, NumberOfTransactions é igual ao número de operações da mensagem original."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessDayReportOrError9Choice",
+  "definition": "Escolha entre os detalhes das informações do dia útil ou um erro operacional quando os dados solicitados não podem ser obtidos.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Informa sobre as informações do dia útil ou sobre um erro de negócio."
+    },
+    "OperationalError": {
+      "definition": "Indica que foi emitido um erro operacional durante o processamento do pedido associado."
+    }
+  }
+}

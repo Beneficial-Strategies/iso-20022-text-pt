@@ -1,0 +1,9 @@
+{
+  "isoType": "PayInCallItem",
+  "definition": "Representação numérica dos aumentos e diminuições líquidos numa conta num determinado momento. Um saldo de caixa é calculado como a soma dos créditos em numerário menos a soma dos débitos em numerário.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Especifica a moeda e o montante do item chamado."
+    }
+  }
+}

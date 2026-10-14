@@ -1,0 +1,34 @@
+{
+  "isoType": "PartyType3Code",
+  "definition": "Identificação do tipo de entidade envolvida numa operação.",
+  "isoCodes": {
+    "OPOI": {
+      "name": "POI de origem",
+      "definition": "Ponto de interação que inicia a operação de pagamento com cartão."
+    },
+    "MERC": {
+      "name": "Comerciante",
+      "definition": "Comerciante que fornece bens e serviços na operação de pagamento com cartão."
+    },
+    "ACCP": {
+      "name": "Aceitante",
+      "definition": "Aceitante do cartão, parte que aceita o cartão e apresenta os dados da operação ao adquirente."
+    },
+    "ITAG": {
+      "name": "Instituição intermediária",
+      "definition": "Parte que atua em nome de outras partes para processar ou reencaminhar dados para outras partes."
+    },
+    "ACQR": {
+      "name": "Adquirente",
+      "definition": "Entidade que adquire operações com cartão."
+    },
+    "CISS": {
+      "name": "Emitente do cartão",
+      "definition": "Parte que emite cartões."
+    },
+    "DLIS": {
+      "name": "Emitente delegado",
+      "definition": "Parte a quem o emitente do cartão delega a autorização de operações de pagamento com cartão."
+    }
+  }
+}

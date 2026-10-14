@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneratedReasons6Choice",
+  "definition": "Escolha do formato para o motivo de geração.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a operação foi gerada."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo pelo qual a operação foi gerada."
+    }
+  }
+}

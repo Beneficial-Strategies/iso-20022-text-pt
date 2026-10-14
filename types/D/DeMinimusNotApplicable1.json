@@ -1,0 +1,9 @@
+{
+  "isoType": "DeMinimusNotApplicable1",
+  "definition": "Condições aplicáveis quando o investidor não está abrangido pela isenção \"de minimis\".",
+  "isoElements": {
+    "RestrictedPersonReason": {
+      "definition": "Motivo da pessoa restrita."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "BusinessInformationCriteria1",
+  "definition": "Define os critérios utilizados para pesquisar informações de negócio e para reportar essas informações. Pode ser atribuído um nome à nova consulta.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nome da consulta definida pelos critérios de pesquisa e pelos critérios de devolução."
+    },
+    "SearchCriteria": {
+      "definition": "Define os critérios com base nos quais a informação é extraída."
+    },
+    "ReturnCriteria": {
+      "definition": "Define o relatório esperado."
+    }
+  },
+  "isoRules": {
+    "ReturnCriteriaAndOrSearchCriteriaRule": {
+      "definition": "Se ReturnCriteria não estiver presente, tem de estar presente pelo menos uma ocorrência de SearchCriteria. Se ReturnCriteria estiver presente, qualquer ocorrência de SearchCriteria é facultativa."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalBusinessProcessFormat15Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o tipo de processo de negócio adicional.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o processo de negócio adicional associado a um evento de operação sobre valores mobiliários."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do processo de negócio adicional associado a um evento de operação sobre valores mobiliários."
+    }
+  }
+}

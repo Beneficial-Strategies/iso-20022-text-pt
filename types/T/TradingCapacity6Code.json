@@ -1,0 +1,34 @@
+{
+  "isoType": "TradingCapacity6Code",
+  "definition": "Especifica o papel de uma parte negociadora numa operação.",
+  "isoCodes": {
+    "AGEN": {
+      "name": "Agente",
+      "definition": "Negociação como agente em nome de um cliente."
+    },
+    "BAGN": {
+      "name": "Agente em exercício",
+      "definition": "Parte que atua como agente, simultaneamente, de um cliente e de outra pessoa."
+    },
+    "CAGN": {
+      "name": "Agente em cruzamento",
+      "definition": "Cruzamento como agente."
+    },
+    "CPRN": {
+      "name": "Mandante em cruzamento",
+      "definition": "Cruzamento como principal."
+    },
+    "OAGN": {
+      "name": "Outro agente",
+      "definition": "Atuação como agente de uma parte que não seja um cliente."
+    },
+    "PRAG": {
+      "name": "Agente mandante",
+      "definition": "Atuação como agente em algumas execuções e como principal noutras, na mesma operação."
+    },
+    "PRIN": {
+      "name": "Mandante",
+      "definition": "Negociação como principal."
+    }
+  }
+}

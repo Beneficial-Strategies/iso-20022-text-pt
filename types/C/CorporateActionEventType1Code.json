@@ -1,0 +1,86 @@
+{
+  "isoType": "CorporateActionEventType1Code",
+  "definition": "Especifica o tipo de evento de operação sobre valores mobiliários.",
+  "isoCodes": {
+    "DRIP": {
+      "name": "Reinvestimento de dividendos",
+      "definition": "O evento é um tipo de pagamento de dividendos em que o dividendo em numerário é reinvestido em ações adicionais da sociedade emitente."
+    },
+    "CAPG": {
+      "name": "Distribuição de mais-valias",
+      "definition": "O evento é a distribuição de lucros resultantes da venda de valores mobiliários. Os acionistas de fundos mútuos, fundos de investimento ou Sicavs são os destinatários das distribuições de mais-valias, que são frequentemente reinvestidas em ações adicionais do fundo."
+    },
+    "DVCA": {
+      "name": "Dividendo em numerário",
+      "definition": "O evento é uma distribuição de numerário aos acionistas, proporcional à sua participação no capital. Os dividendos ordinários são recorrentes e regulares. O acionista tem de receber numerário e não lhe é oferecida escolha quanto à forma de distribuição."
+    },
+    "DVOP": {
+      "name": "Opção de dividendo",
+      "definition": "O evento é uma distribuição de dividendos aos acionistas com possibilidade de escolha do método de pagamento. O acionista tem de escolher a forma de pagamento - ações, numerário ou ambos."
+    },
+    "DVSE": {
+      "name": "Dividendo em ações",
+      "definition": "O evento é um dividendo pago aos acionistas sob a forma de ações da sociedade emitente ou de outra sociedade. O acionista tem de receber ações e não lhe é oferecida escolha quanto à forma de distribuição."
+    },
+    "LIQU": {
+      "name": "Liquidação",
+      "definition": "O evento é um dividendo de liquidação ou uma liquidação que consiste numa distribuição de numerário, ativos ou ambos. As dívidas podem ser pagas por ordem de prioridade com base nos direitos preferenciais sobre os ativos especificados pelo valor mobiliário. O titular do valor mobiliário pode ter a possibilidade de escolher a forma da distribuição de liquidação."
+    },
+    "MRGR": {
+      "name": "Fusão",
+      "definition": "O evento é uma troca obrigatória ou voluntária de valores mobiliários em circulação em resultado da combinação de ativos de duas ou mais sociedades. Podem ser efetuados pagamentos em numerário em conjunto com a troca de ações."
+    },
+    "NAME": {
+      "name": "Alteração de denominação",
+      "definition": "O evento é uma alteração de denominação. A sociedade emitente altera a sua denominação. O evento mostra a alteração da denominação antiga para a nova e pode implicar a entrega de ações físicas com a denominação antiga ao agente de registo."
+    },
+    "SOFF": {
+      "name": "Cisão",
+      "definition": "O evento é uma cisão ou distribuição ou uma separação. Trata-se de uma distribuição de ações de uma filial aos acionistas da sociedade-mãe sem entrega de ações. Uma cisão representa uma forma de desinvestimento que resulta numa sociedade independente. Normalmente é efetuada sem custos para os acionistas da emissão da sociedade-mãe."
+    },
+    "SPLF": {
+      "name": "Desdobramento de ações",
+      "definition": "O evento é uma alteração do valor nominal, uma subdivisão. Corresponde a um aumento do número de ações em circulação de uma sociedade sem qualquer alteração dos capitais próprios do acionista nem do valor de mercado agregado no momento da divisão. O preço das ações e o valor nominal são reduzidos em conformidade."
+    },
+    "SPLR": {
+      "name": "Agrupamento de ações",
+      "definition": "O evento é uma alteração do valor nominal, uma consolidação. Corresponde a uma diminuição do número de ações em circulação sem qualquer alteração dos capitais próprios do acionista nem do valor de mercado agregado no momento da divisão. O preço das ações e o valor nominal são reduzidos em conformidade."
+    },
+    "TEND": {
+      "name": "Oferta pública de aquisição",
+      "definition": "O evento é uma aquisição ou uma oferta pública de aquisição ou offre publique de retrait (FR) ou uma oferta de compra ou recompra. Trata-se de uma oferta dirigida aos acionistas, solicitando-lhes que vendam (apresentem) as suas ações por um preço especificado, geralmente com um prémio sobre o preço de mercado vigente. Em geral, o objetivo de uma oferta pública de aquisição é obter o controlo da sociedade visada."
+    },
+    "BONU": {
+      "name": "Emissão de ações gratuitas",
+      "definition": "O evento é uma emissão de ações gratuitas ou emissão de capitalização. Os titulares de valores mobiliários recebem ativos adicionais do emitente sem pagamento, proporcionalmente à sua participação. Uma emissão de ações gratuitas é tipicamente representada por ações, direitos ou warrants. O valor nominal não se altera. Pode ser oferecida ao titular a escolha da forma."
+    },
+    "RHDI": {
+      "name": "Distribuição de direitos",
+      "definition": "O evento é a distribuição de direitos aos acionistas, proporcionalmente à sua participação no capital."
+    },
+    "EXRI": {
+      "name": "Chamada sobre direitos",
+      "definition": "O evento é uma chamada ou exercício de valores mobiliários ou direitos não liberados resultantes de uma distribuição de direitos (RHDI). Deve ser utilizado para o segundo evento nos casos em que a emissão de direitos é tratada em dois eventos, sendo o primeiro evento a distribuição de direitos (RHDI)."
+    },
+    "CHAN": {
+      "name": "Alteração",
+      "definition": "O evento é uma alteração genérica. Por exemplo, uma alteração dos termos de uma emissão, uma alteração da identificação de um valor mobiliário, uma alteração de um lote de negociação, uma passagem de global a definitivo."
+    },
+    "REDO": {
+      "name": "Redenominação",
+      "definition": "Evento pelo qual a unidade (moeda e/ou valor nominal) de um instrumento financeiro é redenominada, por exemplo, a dívida numa moeda nacional é redenominada em euros."
+    },
+    "EXOP": {
+      "name": "Opção de troca",
+      "definition": "O evento é uma opção dos acionistas para trocarem os seus valores mobiliários por outros valores mobiliários e/ou numerário. As opções de troca são mencionadas nos termos e condições de um valor mobiliário e são válidas durante toda a vida do valor mobiliário."
+    },
+    "EXOF": {
+      "name": "Oferta de troca",
+      "definition": "O evento é uma oferta de troca ou reorganização do capital.|Trata-se de uma oferta aos acionistas para trocarem as suas participações por outros valores mobiliários e/ou numerário. As ofertas de troca são geralmente voluntárias e implicam a troca de um valor mobiliário em circulação por outro ou outros valores mobiliários e/ou numerário."
+    },
+    "DECR": {
+      "name": "Diminuição de valor",
+      "definition": "O evento é uma redução do capital social e do valor facial de uma única ação. O número de ações em circulação mantém-se inalterado. Pode incluir um pagamento de capital ao acionista."
+    }
+  }
+}

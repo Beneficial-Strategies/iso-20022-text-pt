@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesOption81",
+  "definition": "Especifica a opção de valores mobiliários de um evento societário.",
+  "isoElements": {
+    "MaximumQuantityToInstruct": {
+      "definition": "Quantidade máxima de instrumento financeiro que pode ser instruída."
+    },
+    "MinimumQuantityToInstruct": {
+      "definition": "Quantidade mínima de instrumento financeiro que pode ser instruída."
+    },
+    "MinimumMultipleQuantityToInstruct": {
+      "definition": "Quantidade múltipla mínima de instrumento financeiro que pode ser instruída."
+    },
+    "NewBoardLotQuantity": {
+      "definition": "Quantidade de ações que constitui o novo lote de negociação."
+    },
+    "NewDenominationQuantity": {
+      "definition": "Nova denominação das ações na sequência, por exemplo, de um aumento ou diminuição do valor nominal."
+    },
+    "FrontEndOddLotQuantity": {
+      "definition": "Especifica que, se uma ordem for rateada, os detentores de lotes incompletos que ofereçam a totalidade da sua posição não terão a posição oferecida rateada, mas sim aceite na íntegra."
+    },
+    "BackEndOddLotQuantity": {
+      "definition": "Representa a presença de uma disposição de lote incompleto a posteriori e a quantidade de ações exigida após o rateio para ter direito a este privilégio."
+    }
+  }
+}

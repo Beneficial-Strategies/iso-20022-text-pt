@@ -1,0 +1,30 @@
+{
+  "isoType": "CorporateActionNarrative1Code",
+  "definition": "Especifica o tipo de narrativa de uma operação sobre ativos.",
+  "isoCodes": {
+    "TAXE": {
+      "name": "Condições de tributação",
+      "definition": "Fornece condições fiscais que não podem ser incluídas nos campos estruturados desta mensagem."
+    },
+    "REGI": {
+      "name": "Detalhes do registo",
+      "definition": "Fornece as informações necessárias para o registo."
+    },
+    "WTRC": {
+      "name": "Certificação de isenção de imposto retido na fonte",
+      "definition": "Processo de certificação para redução ou isenção de imposto retido na fonte com base no estatuto fiscal do titular."
+    },
+    "RFMC": {
+      "name": "Recusa pelo ICSD da confirmação de majoração/minoração",
+      "definition": "No contexto de uma operação sobre ativos, uma International Central Securities Depository (ICSD) recusa uma confirmação de majoração/minoração enviada pelo prestador de serviços de conta."
+    },
+    "PAUT": {
+      "name": "Insistência por autorização prévia",
+      "definition": "A International Central Securities Depository (ICSD) solicita ao prestador de serviços de conta a autorização para processar a troca de global temporário para global permanente."
+    },
+    "CTIN": {
+      "name": "Confirmação da transferência de posição",
+      "definition": "Confirmação da transferência de interesses entre International Central Securities Depositories (ICSDs) na sequência de operações sobre ativos."
+    }
+  }
+}

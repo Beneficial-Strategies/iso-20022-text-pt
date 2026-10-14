@@ -1,0 +1,12 @@
+{
+  "isoType": "NetDividendRate2",
+  "definition": "Montante do dividendo em numerário por ação depois de efetuadas deduções ou abatimentos.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Tipo de valores mobiliários subjacentes a que a taxa está associada, p. ex., valor mobiliário subjacente pelo qual é pago um juro."
+    },
+    "Amount": {
+      "definition": "Valor expresso como um montante."
+    }
+  }
+}

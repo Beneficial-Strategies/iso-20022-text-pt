@@ -1,0 +1,15 @@
+{
+  "isoType": "SecuritiesStatementQueryV09",
+  "definition": "Âmbito|Um titular da conta envia uma SecuritiesStatementQuery a uma instituição gestora da conta para solicitar qualquer extrato de valores mobiliários existente.|A relação entre titular da conta e instituição gestora da conta pode ser:|- um depositário global que tem uma conta junto de um depositário local, ou|- uma instituição de gestão de investimentos que gere uma conta de fundo aberta junto de um depositário, ou|- um corretor que tem uma conta junto de um depositário, ou|- um participante de uma central de depósito de valores mobiliários que tem uma conta junto de uma central de depósito de valores mobiliários, ou|- uma central de depósito de valores mobiliários que tem uma conta junto de um depositário, de outra central de depósito de valores mobiliários ou de outra infraestrutura de mercado de liquidação, ou|- uma contraparte central, uma bolsa de valores ou uma entidade de correspondência de operações que necessita de dar instruções a uma central de depósito de valores mobiliários ou a outra infraestrutura de mercado de liquidação.||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente,|- fornecer a um terceiro uma cópia de uma mensagem, a título informativo,|- reenviar a um terceiro uma cópia de uma mensagem, a título informativo,|utilizando os elementos pertinentes do Business Application Header.",
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    }
+  }
+}

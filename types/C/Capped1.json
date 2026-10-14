@@ -1,0 +1,21 @@
+{
+  "isoType": "Capped1",
+  "definition": "Informações sobre um levantamento com limite máximo.",
+  "isoElements": {
+    "StartDate": {
+      "definition": "Data de início do período de referência atual"
+    },
+    "IncomeLimitCurrentPeriod": {
+      "definition": "Limite de rendimento para o período atual."
+    },
+    "IncomeCurrentPeriod": {
+      "definition": "Rendimento retirado no ano de rendimento em curso."
+    },
+    "IncomeLimitNextPeriod": {
+      "definition": "Limite de rendimento para o próximo ano de rendimento."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o limite máximo."
+    }
+  }
+}

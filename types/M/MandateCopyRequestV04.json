@@ -1,0 +1,9 @@
+{
+  "isoType": "MandateCopyRequestV04",
+  "definition": "Âmbito|A mensagem MandateCopyRequest é enviada pelo iniciador do pedido à sua instituição. O iniciador pode ser o devedor ou o credor.|A mensagem MandateCopyRequest é reencaminhada pela instituição do iniciador para a instituição da contraparte.|A mensagem MandateCopyRequest é utilizada para solicitar uma cópia de um mandato existente. Se for aceite, a cópia do mandato pode ser enviada através da mensagem MandateAcceptanceReport.|Utilização|A mensagem MandateCopyRequest pode conter um ou mais pedidos de cópia.|As mensagens podem ser trocadas entre o credor e a instituição do credor, entre o devedor e a instituição do devedor e entre a instituição do credor e a instituição do devedor.|A mensagem também pode ser utilizada por uma parte iniciadora com autoridade para enviar a mensagem em nome do credor ou do devedor.|A mensagem MandateCopyRequest pode ser utilizada em cenários nacionais e transfronteiras.",
+  "isoRules": {
+    "SupplementaryDataRule": {
+      "definition": "O bloco SupplementaryData ao nível da mensagem não pode ser utilizado para fornecer informações adicionais sobre uma operação. O elemento SupplementaryData ao nível da operação deve ser utilizado para esse efeito."
+    }
+  }
+}

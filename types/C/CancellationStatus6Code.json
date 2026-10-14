@@ -1,0 +1,18 @@
+{
+  "isoType": "CancellationStatus6Code",
+  "definition": "Especifica o estado de cancelamento.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Aceite",
+      "definition": "A instrução / pedido de cancelamento foi recebido e reconhecido / aceite para tratamento posterior."
+    },
+    "CAND": {
+      "name": "Completo",
+      "definition": "A instrução / pedido de cancelamento foi aceite e tratado; o cancelamento está concluído."
+    },
+    "RCIS": {
+      "name": "Recebido pelo emitente ou pelo registador",
+      "definition": "A instrução / pedido de cancelamento foi recebido pelo emitente ou pelo agente de registo."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BlockedStatusReason2Choice",
+  "definition": "Escolha de formatos para o motivo de um estado de bloqueio.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Não existe motivo disponível ou a comunicar para o estado de conta encerrada."
+    },
+    "Reason": {
+      "definition": "Tipo de operação para o qual a conta está bloqueada e respetivo motivo subjacente."
+    }
+  }
+}

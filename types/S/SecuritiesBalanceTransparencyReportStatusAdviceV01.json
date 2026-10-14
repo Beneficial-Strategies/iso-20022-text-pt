@@ -1,0 +1,4 @@
+{
+  "isoType": "SecuritiesBalanceTransparencyReportStatusAdviceV01",
+  "definition": "SCOPE||Um titular de conta, tal como um custodiante, uma central de valores mobiliários, uma central internacional de valores mobiliários ou um agente de transferências, envia a mensagem SecuritiesBalanceTransparencyReportStatusAdvice em resposta a um SecuritiesBalanceTransparencyReport, para aceitar ou rejeitar o extrato de posições enviado num SecuritiesBalanceTransparencyReport.||USAGE|A SecuritiesBalanceTransparencyReportStatusAdvice é utilizada para aceitar (Accepted), aceitar parcialmente (Accepted With Exception) ou rejeitar (Rejected) um SecuritiesBalanceTransparencyReport recebido anteriormente."
+}

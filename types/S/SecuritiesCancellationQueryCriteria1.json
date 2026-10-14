@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesCancellationQueryCriteria1",
+  "definition": "Define os critérios com base nos quais as informações são incluídas.",
+  "isoElements": {
+    "CancellationRequestIdentification": {
+      "definition": "Referência coletiva que identifica um conjunto de mensagens."
+    },
+    "InstructionQueryType": {
+      "definition": "Tipo de operação subjacente a cancelar, como uma instrução de liquidação ou um movimento intraposição."
+    },
+    "ProcessingStatus": {
+      "definition": "Fornece o estado da liquidação de uma operação."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é titular da conta."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originou a mensagem, se diferente do remetente."
+    },
+    "CreationDateTime": {
+      "definition": "Especifica a data/hora de criação da instrução de liquidação ou do movimento intraposição."
+    }
+  }
+}

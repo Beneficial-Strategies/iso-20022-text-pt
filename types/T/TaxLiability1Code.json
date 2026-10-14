@@ -1,0 +1,14 @@
+{
+  "isoType": "TaxLiability1Code",
+  "definition": "Especifica a capacidade fiscal da parte instrutora.",
+  "isoCodes": {
+    "PRIN": {
+      "name": "Principal fiscal",
+      "definition": "A parte de liquidação atua como principal para efeitos de responsabilidade fiscal."
+    },
+    "AGEN": {
+      "name": "Agente fiscal",
+      "definition": "A parte de liquidação atua como agente para efeitos de responsabilidade fiscal."
+    }
+  }
+}

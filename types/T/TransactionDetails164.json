@@ -1,0 +1,98 @@
+{
+  "isoType": "TransactionDetails164",
+  "definition": "Especifica os detalhes da operação.",
+  "isoElements": {
+    "TransactionActivity": {
+      "definition": "Especifica o tipo de atividade a que esta instrução se refere."
+    },
+    "SettlementTransactionOrCorporateActionEventType": {
+      "definition": "Escolha do tipo para a operação reportada."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica se o movimento numa conta de valores mobiliários resulta de uma instrução de entrega ou de receção."
+    },
+    "Payment": {
+      "definition": "Especifica a forma como a operação deve ser liquidada, por exemplo, contra pagamento."
+    },
+    "SettlementParameters": {
+      "definition": "Parâmetros aplicados à liquidação de uma transferência de valores mobiliários."
+    },
+    "PlaceOfTrade": {
+      "definition": "Mercado em que foi executada uma operação de negociação."
+    },
+    "SafekeepingPlace": {
+      "definition": "Local onde os valores mobiliários são guardados, física ou nocionalmente. Este local pode ser, por exemplo, um custodiante local, uma central de depósito de valores mobiliários (CSD) ou uma central internacional de depósito de valores mobiliários (ICSD)."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infraestrutura que pode ser uma componente de uma câmara de compensação e que facilita a compensação e a liquidação para os seus membros, interpondo-se entre o comprador e o vendedor. Pode compensar operações em base líquida e substitui-se como contraparte de liquidação para cada posição."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumento financeiro que representa um conjunto de direitos do investidor face ao emitente."
+    },
+    "PostingQuantity": {
+      "definition": "Quantidade de instrumento financeiro (a) lançar na conta de custódia."
+    },
+    "PartiallyReleasedQuantity": {
+      "definition": "Quantidade de instrumento financeiro a libertar."
+    },
+    "PostingAmount": {
+      "definition": "Montante em dinheiro a lançar/lançado na conta."
+    },
+    "TradeDate": {
+      "definition": "Especifica a data/hora em que a operação foi executada."
+    },
+    "ExpectedSettlementDate": {
+      "definition": "Data/hora em que o remetente espera a liquidação."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários devem ser entregues ou recebidos."
+    },
+    "LateDeliveryDate": {
+      "definition": "Data e hora posteriores à data de liquidação especificada na negociação, utilizadas para negociações de pool resultantes dos valores mobiliários originais To Be Assigned (TBA)."
+    },
+    "ExpectedValueDate": {
+      "definition": "Para operações contra pagamento, a data/hora-valor em que a entidade gestora da conta espera que o montante de liquidação seja creditado ou debitado."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Carimbo de data/hora do momento em que a operação é reconhecida."
+    },
+    "MatchedStatusTimeStamp": {
+      "definition": "Carimbo de data/hora da correspondência da operação."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifica a cadeia de partes de liquidação que entregam."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifica a cadeia de partes de liquidação que recebem."
+    },
+    "TransactionAdditionalDetails": {
+      "definition": "Fornece detalhes adicionais sobre a operação que não podem ser incluídos nos campos estruturados da mensagem."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acordo bilateral entre o remetente e o destinatário, se TransactionAdditionalDetails estiver presente, não deve conter informações que possam ser fornecidas num campo estruturado."
+    },
+    "PostingAmountRule": {
+      "definition": "Se a instrução for contra pagamento, PostingAmount deve estar presente."
+    },
+    "LateDeliveryDateRule": {
+      "definition": "Se LateDeliveryDate for utilizado, então a operação deve ser uma negociação de pools resultante da TBA (To Be Announced) original. A TBA original seria compensada por uma operação oposta e substituída por compras ou vendas de pools individuais. É uma data posterior à data de liquidação indicada na negociação, para pools concebidos para liquidação tardia."
+    },
+    "ReceivingParty1Rule": {
+      "definition": "Se a instrução for uma entrega, então ReceivingParty 1 deve estar presente."
+    },
+    "DeliveringParty1Rule": {
+      "definition": "Se a instrução for uma receção, então DeliveringParty1 deve estar presente."
+    },
+    "TwoLegTransactionOpeningClosing1Rule": {
+      "definition": "Para a liquidação de operações em duas partes (financiamento de valores mobiliários), a abertura/início e o encerramento/devolução da operação são confirmados mediante o envio da seguinte combinação de códigos TransactionIdentificationDetails/SecuritiesMovementType e códigos SettlementParameters/SecuritiesTransactionType:||Abertura de repo|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)|Encerramento de repo|SecuritiesMovementType: Receção (RECE)|SettlementParameters/SecuritiesTransactionType: Repo (REPU)||Abertura de reverse repo|SecuritiesMovementType: Receção (RECE)|SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)|Encerramento de reverse repo|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: ReverseRepo (RVPO)||Abertura de repo tripartido|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)|Encerramento de repo tripartido|SecuritiesMovementType: Receção (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyRepo (TRPO)||Abertura de reverse repo tripartido|SecuritiesMovementType: Receção (RECE)|SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)|Encerramento de reverse repo tripartido|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: TriPartyReverseRepo (TRVO)||Início de empréstimo de valores mobiliários|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)|Devolução de empréstimo de valores mobiliários|SecuritiesMovementType: Receção (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesLending (SECL)||Início de contração de empréstimo de valores mobiliários|SecuritiesMovementType: Receção (RECE)|SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)|Devolução de contração de empréstimo de valores mobiliários|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: SecuritiesBorrowing (SECB)."
+    },
+    "TwoLegTransactionOpeningClosing2Rule": {
+      "definition": "Para a liquidação de operações em duas partes (buy-sell back, sell buy-back, entrada e saída de garantias), a abertura/início e o encerramento/devolução da operação são identificados mediante a indicação da seguinte combinação de códigos SecuritiesMovementType e códigos SettlementParameters/SecuritiesTransactionType:|||Sell-Buy Back: venda|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)|Sell-Buy Back: recompra|SecuritiesMovementType: Receção (RECE)|SettlementParameters/SecuritiesTransactionType: SellBuyBack (SBBK)||Buy-Sell Back: compra|SecuritiesMovementType: Receção (RECE)|SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)|Buy-Sell Back: revenda|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: BuySellBack (BSBK)||Início de saída de garantia (prestador)|SecuritiesMovementType: Entrega (DELI)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)|Devolução de saída de garantia (prestador)|SecuritiesMovementType: Receção (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralOut (COLO)||Início de entrada de garantia (beneficiário)|SecuritiesMovementType: Receção (RECE)|SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)|Devolução de entrada de garantia (beneficiário)|SecuritiesMovementType: Entrega (DELI) |SettlementParameters/SecuritiesTransactionType: CollateralIn (COLI)."
+    }
+  }
+}

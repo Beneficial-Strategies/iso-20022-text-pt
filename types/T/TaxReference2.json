@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxReference2",
+  "definition": "Referência fiscal do regime de pensões.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de referência fiscal."
+    },
+    "Reference": {
+      "definition": "Referência fiscal do regime de pensões atribuída ao plano de pensões por uma organização central."
+    }
+  }
+}

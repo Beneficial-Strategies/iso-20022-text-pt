@@ -1,0 +1,54 @@
+{
+  "isoType": "CryptographicKeyType5Code",
+  "definition": "Códigos para qualificar o tipo de chaves criptográficas.",
+  "isoCodes": {
+    "AES2": {
+      "name": "AES128",
+      "definition": "Chave criptográfica AES (Advanced Encryption Standard) de 128 bits, conforme definida pelas Federal Information Processing Standards (FIPS 197 - 6 de novembro de 2001 - Advanced Encryption Standard)."
+    },
+    "EDE3": {
+      "name": "DES112",
+      "definition": "Chave do Data Encryption Standard de 112 bits (sem os bits de paridade)."
+    },
+    "DKP9": {
+      "name": "DUKPT2009",
+      "definition": "Chave DUKPT (Derived Unique Key Per Transaction), conforme especificada na norma ANSI X9.24-2009, Anexo A."
+    },
+    "AES9": {
+      "name": "AES192",
+      "definition": "Cifra AES (Advanced Encryption Standard) com chave criptográfica de 192 bits, conforme definida pelas Federal Information Processing Standards (FIPS 197 – 6 de novembro de 2001 - Advanced Encryption Standard)."
+    },
+    "AES5": {
+      "name": "AES256",
+      "definition": "Cifra AES (Advanced Encryption Standard) com chave criptográfica de 256 bits, conforme definida pelas Federal Information Processing Standards (FIPS 197 – 6 de novembro de 2001 - Advanced Encryption Standard)."
+    },
+    "EDE4": {
+      "name": "DES168",
+      "definition": "Chave do Data Encryption Standard de 168 bits (sem os bits de paridade)."
+    },
+    "UKA2": {
+      "name": "UKPTAES192",
+      "definition": "Cifra de chaves UKPT (Unique Key Per Transaction) ou Master Session Key, com Advanced Encryption Standard e chave criptográfica de 192 bits, aprovada pelas Federal Information Processing Standards (FIPS 197 - 6 de novembro de 2001 - Advanced Encryption Standard)."
+    },
+    "UKA6": {
+      "name": "UKPTAES256",
+      "definition": "UKPT (Unique Key Per Transaction). Chave de cifra que utiliza AES (Advanced Encryption Standard) com uma chave de 256 bits de comprimento.|FIPS 197 - 6 de novembro de 2001)."
+    },
+    "RSAC": {
+      "name": "RSA",
+      "definition": "Rivest, Shamir e Adleman."
+    },
+    "ECCC": {
+      "name": "ECC",
+      "definition": "Criptografia de curva elíptica."
+    },
+    "DKAE": {
+      "name": "DUKPTAES",
+      "definition": "Algoritmo DUKPT AES (Derived Unique Key Per Transaction)."
+    },
+    "UKA8": {
+      "name": "UKPTAES128",
+      "definition": "UKPT (Unique Key Per Transaction). Chave de cifra que utiliza AES (Advanced Encryption Standard) com uma chave de 128 bits de comprimento.|FIPS 197 - 6 de novembro de 2001)."
+    }
+  }
+}

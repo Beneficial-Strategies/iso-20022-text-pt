@@ -1,0 +1,18 @@
+{
+  "isoType": "OutputFormat1Code",
+  "definition": "Formato da mensagem.",
+  "isoCodes": {
+    "MREF": {
+      "name": "Referência da mensagem",
+      "definition": "Mensagens pré-configuradas, identificadas por uma referência."
+    },
+    "TEXT": {
+      "name": "Texto simples",
+      "definition": "Texto sem atributos de formatação."
+    },
+    "HTML": {
+      "name": "XHTML",
+      "definition": "Documento XHTML que inclui um subconjunto da etiqueta de saída XHTML."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "SafekeepingPlaceFormatChoice",
+  "definition": "Escolha de formatos para o local de custódia.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Local de custódia expresso como um código e um BIC."
+    },
+    "IdentificationAsDSS": {
+      "definition": "Local de guarda expresso com um esquema de identificação proprietário."
+    },
+    "IdentificationAsCountry": {
+      "definition": "Local de guarda expresso com um código de país."
+    }
+  }
+}

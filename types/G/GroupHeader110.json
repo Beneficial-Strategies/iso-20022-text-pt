@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader110",
+  "definition": "Conjunto de características comuns a todas as operações individuais incluídas na mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte instrutora e enviada à parte instruída, para identificar de forma inequívoca a mensagem.|Utilização: a parte instrutora deve garantir que MessageIdentification é única por parte instruída durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    },
+    "Authorisation": {
+      "definition": "Identificação de utilizador ou qualquer chave de utilizador a utilizar para verificar a autoridade da parte iniciadora.||Utilização: o conteúdo não é de natureza técnica, mas reflete a estrutura organizacional do lado da iniciação. O elemento de autorização pode normalmente ser utilizado em cenários de reenvio, iniciações de pagamento, devoluções de pagamento ou reversões de pagamento iniciadas em nome de uma parte diferente da parte iniciadora."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia a mensagem de mandato."
+    },
+    "InstructingAgent": {
+      "definition": "Instituição que instrui a parte seguinte na cadeia para executar uma instrução.||Regra de utilização: |No caso de mensagens de pedido de alteração e de cancelamento, a instituição instrutora é a parte que envia a mensagem de pedido de alteração e de cancelamento e não a parte que enviou a mensagem original de pedido de iniciação do mandato.|No caso da mensagem de relatório de aceitação, a instituição instrutora é a parte que envia a mensagem de relatório de aceitação e não a parte que enviou a mensagem original de pedido de mandato."
+    },
+    "InstructedAgent": {
+      "definition": "Instituição instruída pela parte anterior na cadeia para executar uma instrução.||Regra de utilização: |No caso de mensagens de pedido de alteração e de cancelamento, a instituição instruída é a parte que recebe a mensagem de pedido de alteração e de cancelamento e não a parte que recebeu a mensagem original de pedido de iniciação do mandato.|No caso da mensagem de relatório de aceitação, a instituição instruída é a parte que recebe a mensagem de relatório de aceitação e não a parte que recebeu a mensagem original de pedido de mandato."
+    }
+  }
+}

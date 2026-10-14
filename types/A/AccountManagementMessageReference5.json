@@ -1,0 +1,26 @@
+{
+  "isoType": "AccountManagementMessageReference5",
+  "definition": "Informações sobre as referências de uma mensagem de instrução de gestão de conta.",
+  "isoElements": {
+    "LinkedReference": {
+      "definition": "Referência a uma mensagem associada."
+    },
+    "StatusRequestType": {
+      "definition": "Tipo de instrução de gestão de conta cujo estado é solicitado ou pedido para conhecer o estado da conta."
+    },
+    "AccountApplicationIdentification": {
+      "definition": "Identificador único e inequívoco da instrução de abertura ou alteração de conta ao nível da aplicação."
+    },
+    "ExistingAccountIdentification": {
+      "definition": "Conta a que a abertura de conta se refere."
+    },
+    "InvestmentAccount": {
+      "definition": "Informações da conta para a qual é solicitado o estado de uma instrução de gestão de conta."
+    }
+  },
+  "isoRules": {
+    "LinkedReferenceOrAccountApplicationIdentificationRule": {
+      "definition": "Ou LinkedReference ou AccountApplicationIdentification tem de estar presente."
+    }
+  }
+}

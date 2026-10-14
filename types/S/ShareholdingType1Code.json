@@ -1,0 +1,22 @@
+{
+  "isoType": "ShareholdingType1Code",
+  "definition": "Especifica o tipo de participação.",
+  "isoCodes": {
+    "BENE": {
+      "name": "Participação beneficiária",
+      "definition": "As ações são detidas por conta do beneficiário efetivo. |Utilização: este tipo deve ser utilizado para reportar os ativos que o intermediário detém por conta de um beneficiário efetivo final."
+    },
+    "NOMI": {
+      "name": "Participação por interposta pessoa",
+      "definition": "As ações são detidas por conta de um intermediário.|Utilização: este tipo deve ser utilizado para reportar os ativos que o intermediário detém por conta de outro intermediário."
+    },
+    "OOAC": {
+      "name": "Por conta própria",
+      "definition": "As ações são detidas pelo intermediário que responde por conta própria.|Utilização: este tipo só deve ser utilizado para reportar os ativos próprios do intermediário se e quando o intermediário os misturar com os dos seus clientes. Nas jurisdições em que a mistura não é permitida, este tipo não deve ser utilizado."
+    },
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "O tipo de participação é desconhecido.|Utilização: este tipo deve ser utilizado quando o cliente do intermediário não tiver sido classificado."
+    }
+  }
+}

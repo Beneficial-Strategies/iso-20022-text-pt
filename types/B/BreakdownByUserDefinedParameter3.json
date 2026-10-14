@@ -1,0 +1,32 @@
+{
+  "isoType": "BreakdownByUserDefinedParameter3",
+  "definition": "Especifica os fluxos de caixa de entrada e de saída por parâmetro(s) definido(s) pelo utilizador.",
+  "isoElements": {
+    "Party": {
+      "definition": "Parte relativamente à qual é comunicado o fluxo de caixa."
+    },
+    "Country": {
+      "definition": "País relativamente ao qual é comunicado o fluxo de caixa."
+    },
+    "Currency": {
+      "definition": "Moeda relativamente à qual é comunicado o fluxo de caixa."
+    },
+    "UserDefined": {
+      "definition": "Parâmetro relativamente ao qual é comunicado o fluxo de caixa."
+    },
+    "CashInForecast": {
+      "definition": "Movimento de caixa de entrada no fundo, resultante de operações sobre ações de um fundo de investimento, por exemplo, subscrições ou entradas por conversão."
+    },
+    "CashOutForecast": {
+      "definition": "Movimento de caixa de saída do fundo, resultante de operações sobre ações de um fundo de investimento, por exemplo, resgates ou saídas por conversão."
+    },
+    "NetCashForecast": {
+      "definition": "Caixa líquida resultante dos fluxos de caixa de entrada e de saída especificados para o parâmetro definido pelo utilizador."
+    }
+  },
+  "isoRules": {
+    "UserDefinedRule": {
+      "definition": "Deve estar presente pelo menos um elemento de mensagem da lista (Party, Country, Currency, UserDefined). Pode estar presente mais de um elemento da lista (Party, Country, Currency, UserDefined)."
+    }
+  }
+}

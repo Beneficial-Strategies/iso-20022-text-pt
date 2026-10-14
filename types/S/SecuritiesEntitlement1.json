@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesEntitlement1",
+  "definition": "Fornece informações sobre direitos.",
+  "isoElements": {
+    "SecurityIdentification": {
+      "definition": "Identificação do instrumento financeiro."
+    },
+    "EntitledSecuritiesQuantity": {
+      "definition": "Quantidade de valores mobiliários com base nos termos do evento de operação sobre títulos e no saldo de valores mobiliários subjacentes a que o titular da conta tem direito. (Esta quantidade pode ser positiva ou negativa)."
+    }
+  }
+}

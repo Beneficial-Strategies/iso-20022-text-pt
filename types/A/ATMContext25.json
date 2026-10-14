@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMContext25",
+  "definition": "Contexto da exceção.",
+  "isoElements": {
+    "SessionReference": {
+      "definition": "Identificação única da sessão do cliente em que ocorreu a exceção."
+    },
+    "Service": {
+      "definition": "Serviço prestado pelo ATM durante a sessão."
+    }
+  }
+}

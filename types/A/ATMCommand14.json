@@ -1,0 +1,30 @@
+{
+  "isoType": "ATMCommand14",
+  "definition": "Comando de manutenção que o ATM deve executar.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comando a executar pelo ATM."
+    },
+    "Urgency": {
+      "definition": "Urgência do comando."
+    },
+    "DateTime": {
+      "definition": "Data e hora em que o comando deve ser executado."
+    },
+    "CommandIdentification": {
+      "definition": "Identificação da entidade que emite o comando."
+    },
+    "Reason": {
+      "definition": "Motivo do envio do comando."
+    },
+    "TraceReason": {
+      "definition": "Rasto dos motivos indicados pelas entidades no percurso desde a origem do comando até ao ATM."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informação adicional sobre o motivo do pedido deste comando."
+    },
+    "CommandParameters": {
+      "definition": "Parâmetros específicos associados ao comando."
+    }
+  }
+}

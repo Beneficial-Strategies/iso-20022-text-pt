@@ -1,0 +1,14 @@
+{
+  "isoType": "VoteType1Code",
+  "definition": "Especifica o impacto de um voto sobre uma deliberação da ordem de trabalhos em assembleias gerais.",
+  "isoCodes": {
+    "ADVI": {
+      "name": "Consultivo",
+      "definition": "Os resultados de uma votação sobre uma proposta têm carácter meramente consultivo."
+    },
+    "BNDG": {
+      "name": "Vinculativo",
+      "definition": "Os resultados de uma votação sobre uma proposta são vinculativos."
+    }
+  }
+}

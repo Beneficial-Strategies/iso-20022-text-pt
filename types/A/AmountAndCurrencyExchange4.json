@@ -1,0 +1,21 @@
+{
+  "isoType": "AmountAndCurrencyExchange4",
+  "definition": "Conjunto de elementos utilizados para fornecer informações sobre o montante original.",
+  "isoElements": {
+    "InstructedAmount": {
+      "definition": "Identifica o montante a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora, e fornece informações cambiais caso o montante e/ou a moeda instruídos sejam diferentes do montante e/ou da moeda do lançamento."
+    },
+    "TransactionAmount": {
+      "definition": "Montante da operação subjacente."
+    },
+    "CounterValueAmount": {
+      "definition": "Conjunto de elementos utilizados para fornecer o montante de contravalor e as informações de câmbio. |Utilização: pode ser o montante de contrapartida cotado numa operação cambial (FX) ou o resultado da informação cambial aplicada a um montante instruído, antes da dedução de encargos."
+    },
+    "AnnouncedPostingAmount": {
+      "definition": "Montante, com base nos termos do evento de operação sobre títulos e no saldo dos títulos subjacentes, a que o titular da conta tem direito ou que lhe é devido.|Em algumas situações, este montante pode também ser designado montante com direito."
+    },
+    "ProprietaryAmount": {
+      "definition": "Conjunto de elementos utilizados para fornecer informações sobre o montante original e a operação cambial."
+    }
+  }
+}

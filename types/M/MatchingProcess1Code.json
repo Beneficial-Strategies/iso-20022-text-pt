@@ -1,0 +1,14 @@
+{
+  "isoType": "MatchingProcess1Code",
+  "definition": "Especifica a ação a executar no processo de emparelhamento.",
+  "isoCodes": {
+    "UNMT": {
+      "name": "Anular correspondência",
+      "definition": "É solicitado que a operação referenciada seja desemparelhada."
+    },
+    "MTRE": {
+      "name": "Retomar correspondência",
+      "definition": "O processo de emparelhamento deve ser retomado para a operação referenciada."
+    }
+  }
+}

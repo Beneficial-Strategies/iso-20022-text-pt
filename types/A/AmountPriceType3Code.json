@@ -1,0 +1,14 @@
+{
+  "isoType": "AmountPriceType3Code",
+  "definition": "Especifica o tipo de preço em montante.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Montante real",
+      "definition": "Preço expresso como moeda e montante por unidade ou por ação."
+    },
+    "PLOT": {
+      "name": "Lote",
+      "definition": "Preço expresso como montante de dinheiro por lote."
+    }
+  }
+}

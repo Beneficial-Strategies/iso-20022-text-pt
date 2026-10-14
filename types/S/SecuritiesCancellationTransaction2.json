@@ -1,0 +1,27 @@
+{
+  "isoType": "SecuritiesCancellationTransaction2",
+  "definition": "Identifica os detalhes da operação.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte que é titular da conta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "RequestReference": {
+      "definition": "Identificação inequívoca do pedido de cancelamento."
+    },
+    "StatusDate": {
+      "definition": "Data e hora em que o estado foi atribuído."
+    },
+    "TransactionIdentification": {
+      "definition": "Referências da operação para a qual é solicitada a modificação intraposição."
+    },
+    "Underlying": {
+      "definition": "Identifica detalhes adicionais da operação."
+    }
+  }
+}

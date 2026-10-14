@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalNotificationSubType1Code",
+  "definition": "Especifica o subtipo de notificação, tal como publicado numa lista de códigos externa de subtipos de notificação.|As listas de códigos externas podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "SALE": {
+      "name": "Vendas",
+      "definition": "A notificação destina-se ao departamento comercial."
+    },
+    "SERV": {
+      "name": "Prestação de serviço",
+      "definition": "A notificação destina-se ao departamento de serviços."
+    },
+    "LIQI": {
+      "name": "Liquidez",
+      "definition": "A notificação destina-se ao departamento de liquidez."
+    },
+    "PAOP": {
+      "name": "Operações de pagamento",
+      "definition": "A notificação destina-se ao departamento de operações de pagamento."
+    },
+    "CRED": {
+      "name": "Crédito",
+      "definition": "A notificação destina-se ao departamento de crédito."
+    },
+    "LOAN": {
+      "name": "Empréstimos",
+      "definition": "A notificação destina-se ao departamento de empréstimos."
+    }
+  }
+}

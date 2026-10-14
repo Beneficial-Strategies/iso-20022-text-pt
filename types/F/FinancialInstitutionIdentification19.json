@@ -1,0 +1,18 @@
+{
+  "isoType": "FinancialInstitutionIdentification19",
+  "definition": "Identificação de uma instituição financeira.",
+  "isoElements": {
+    "BICFI": {
+      "definition": "Código de identificação de entidade comercial da instituição financeira."
+    },
+    "ClearingSystemMemberIdentification": {
+      "definition": "Informação utilizada para identificar um membro num sistema de compensação."
+    },
+    "LEI": {
+      "definition": "Identificador de entidade jurídica como identificação alternativa de uma parte."
+    },
+    "Other": {
+      "definition": "Identificação única de uma instituição, atribuída por uma instituição, utilizando um esquema de identificação."
+    }
+  }
+}

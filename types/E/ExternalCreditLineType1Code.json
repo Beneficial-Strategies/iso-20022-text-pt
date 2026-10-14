@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalCreditLineType1Code",
+  "definition": "Especifica o código externo do tipo de linha de crédito, sob a forma de cadeia de carateres com um máximo de 4 carateres.|A lista de códigos válidos é um conjunto de códigos externo publicado separadamente.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org."
+}

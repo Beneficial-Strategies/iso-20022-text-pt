@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope43",
+  "definition": "Âmbito da modificação a aplicar a um conjunto de informações identificado.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Especifica o tipo de modificação a aplicar."
+    },
+    "Placement": {
+      "definition": "Informações de referenciação."
+    }
+  }
+}

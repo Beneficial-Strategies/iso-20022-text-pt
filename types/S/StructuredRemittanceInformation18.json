@@ -1,0 +1,30 @@
+{
+  "isoType": "StructuredRemittanceInformation18",
+  "definition": "Informações fornecidas para permitir a correspondência/reconciliação de um lançamento com os itens que o pagamento se destina a liquidar, tais como faturas comerciais num sistema de contas a receber, sob forma estruturada.",
+  "isoElements": {
+    "ReferredDocumentInformation": {
+      "definition": "Fornece a identificação e o conteúdo do documento referido."
+    },
+    "ReferredDocumentAmount": {
+      "definition": "Fornece detalhes sobre os montantes do documento referido."
+    },
+    "CreditorReferenceInformation": {
+      "definition": "Informações de referência fornecidas pelo credor para permitir a identificação dos documentos subjacentes."
+    },
+    "Invoicer": {
+      "definition": "Identificação da organização que emite a fatura, quando é diferente do credor ou do credor final."
+    },
+    "Invoicee": {
+      "definition": "Identificação da parte a quem é emitida a fatura, quando é diferente do devedor ou do devedor final."
+    },
+    "TaxRemittance": {
+      "definition": "Fornece informações de remessa sobre um pagamento efetuado para fins fiscais."
+    },
+    "GarnishmentRemittance": {
+      "definition": "Fornece informações de remessa sobre um pagamento para fins de penhora."
+    },
+    "AdditionalRemittanceInformation": {
+      "definition": "Informações adicionais, em texto livre, para complementar as informações de remessa estruturadas."
+    }
+  }
+}

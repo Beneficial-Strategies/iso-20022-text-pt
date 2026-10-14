@@ -1,0 +1,12 @@
+{
+  "isoType": "DateCodeAndTimeFormat4",
+  "definition": "Especifica um código de data e uma hora.",
+  "isoElements": {
+    "DateCode": {
+      "definition": "Especifica o tipo de data."
+    },
+    "Time": {
+      "definition": "Especifica a hora."
+    }
+  }
+}

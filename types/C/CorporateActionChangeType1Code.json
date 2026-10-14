@@ -1,0 +1,50 @@
+{
+  "isoType": "CorporateActionChangeType1Code",
+  "definition": "Especifica o tipo de alterações.",
+  "isoCodes": {
+    "BERE": {
+      "name": "De ao portador para nominativo",
+      "definition": "Alteração de forma ao portador para forma nominativa."
+    },
+    "CERT": {
+      "name": "Certificados",
+      "definition": "Alteração de todos os instrumentos para certificados."
+    },
+    "DEPH": {
+      "name": "De desmaterializado para físico",
+      "definition": "Alteração de forma desmaterializada para forma física."
+    },
+    "GPPH": {
+      "name": "De global permanente para físico",
+      "definition": "Alteração de global permanente para forma física."
+    },
+    "GTGP": {
+      "name": "De global temporário para global permanente",
+      "definition": "Alteração de global temporário para global permanente."
+    },
+    "GTPH": {
+      "name": "De global temporário para físico",
+      "definition": "Alteração de global temporário para forma física."
+    },
+    "NAME": {
+      "name": "Nome",
+      "definition": "A sociedade emitente altera a sua denominação. O evento societário mostra a alteração da denominação antiga para a nova e pode implicar a entrega de ações físicas com a denominação antiga ao agente de registo (CA)."
+    },
+    "PHDE": {
+      "name": "De físico para desmaterializado",
+      "definition": "Alteração de forma física para forma desmaterializada."
+    },
+    "REBE": {
+      "name": "De nominativo para ao portador",
+      "definition": "Alteração de forma nominativa para forma ao portador."
+    },
+    "TERM": {
+      "name": "Condições",
+      "definition": "Alteração dos termos do valor mobiliário."
+    },
+    "DECI": {
+      "name": "Decimalização",
+      "definition": "Processo de alteração do método contabilístico de um valor mobiliário, por exemplo, um fundo mútuo, de unidades para uma quantidade com casas decimais."
+    }
+  }
+}

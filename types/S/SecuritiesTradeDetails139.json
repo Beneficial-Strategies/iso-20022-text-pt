@@ -1,0 +1,80 @@
+{
+  "isoType": "SecuritiesTradeDetails139",
+  "definition": "Detalhes da negociação de valores mobiliários.",
+  "isoElements": {
+    "NotificationSenderTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como é conhecida pelo destinatário da notificação."
+    },
+    "NotificationReceiverTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como é conhecida pelo destinatário da notificação."
+    },
+    "CommonIdentification": {
+      "definition": "Referência única acordada entre as duas contrapartes da negociação para identificar a negociação."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica se o movimento numa conta de valores mobiliários resulta de uma instrução de entrega ou de receção."
+    },
+    "Payment": {
+      "definition": "Especifica a forma como a operação deve ser liquidada, por exemplo, contra pagamento."
+    },
+    "Status": {
+      "definition": "Estado da transferência."
+    },
+    "TradeDate": {
+      "definition": "Especifica a data/hora em que a operação foi executada."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários devem ser entregues ou recebidos."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de dias em que a taxa de juro é acumulada (título de acumulação diária)."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financeiros que representam um conjunto de direitos do investidor face ao emitente."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elementos que caracterizam um instrumento financeiro."
+    },
+    "Reporting": {
+      "definition": "Especifica que uma operação deve ser comunicada a um terceiro."
+    },
+    "QuantityDetails": {
+      "definition": "Detalhes sobre a quantidade de instrumentos financeiros envolvida na transferência."
+    },
+    "SettlementParameters": {
+      "definition": "Parâmetros aplicados à liquidação de uma transferência de valores mobiliários."
+    },
+    "DeliveringSettlementParties": {
+      "definition": "Identifica a cadeia de partes de liquidação que entregam."
+    },
+    "ReceivingSettlementParties": {
+      "definition": "Identifica a cadeia de partes de liquidação que recebem."
+    },
+    "SettlementAmount": {
+      "definition": "Montante total a pagar ou a receber em troca dos valores mobiliários."
+    },
+    "OtherAmounts": {
+      "definition": "Outros montantes para além do montante de liquidação."
+    },
+    "OtherBusinessParties": {
+      "definition": "Outras partes comerciais relevantes para a operação."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "TradeDateRule": {
+      "definition": "Se Trade Date/Time for utilizado com uma hora ou uma hora + indicador UTC, então deve ser a hora local do local da negociação, por exemplo, da bolsa de valores, ou do corretor vendedor no caso de OTC."
+    },
+    "SettlementAmountRule": {
+      "definition": "Se a instrução for contra pagamento, então SettlementAmount tem de estar presente."
+    },
+    "ReceivingParty1Rule": {
+      "definition": "Se a instrução for uma entrega, então ReceivingParty 1 deve estar presente."
+    },
+    "DeliveringParty1Rule": {
+      "definition": "Se a instrução for uma receção, então DeliveringParty1 deve estar presente."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingFeeRecord1",
+  "definition": "Fornece informações sobre comissões e encargos.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comissões ou encargos."
+    },
+    "Description": {
+      "definition": "Informações adicionais sobre os encargos ou comissões."
+    },
+    "Rate": {
+      "definition": "Taxa utilizada para calcular os encargos ou comissões."
+    },
+    "Amount": {
+      "definition": "Montante de dinheiro pedido ou pago a título de encargos ou comissões."
+    }
+  }
+}

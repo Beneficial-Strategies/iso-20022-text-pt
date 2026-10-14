@@ -1,0 +1,21 @@
+{
+  "isoType": "BuyerProtectionInstructionDetails1",
+  "definition": "Informações recebidas relativas a uma determinada instrução de proteção do comprador.",
+  "isoElements": {
+    "BuyerProtectionInstructionIdentification": {
+      "definition": "Identificação do documento de instrução de proteção do comprador conexo, cujo cancelamento é solicitado."
+    },
+    "RelatedSettlementInstructionIdentification": {
+      "definition": "Conjunto de elementos utilizados para identificar a instrução de liquidação com proteção do comprador."
+    },
+    "CounterpartyDepository": {
+      "definition": "Primeira parte recetora na cadeia de liquidação. Numa liquidação simples, é a central de depósito de valores mobiliários onde o lado recetor da operação solicita a receção do instrumento financeiro."
+    },
+    "AccountIdentification": {
+      "definition": "Lista de contas de custódia selecionadas às quais o evento de operação sobre ativos se aplica."
+    },
+    "InstructionProcessingStatus": {
+      "definition": "Informações sobre o estado de processamento da instrução."
+    }
+  }
+}

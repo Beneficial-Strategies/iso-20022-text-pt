@@ -1,0 +1,18 @@
+{
+  "isoType": "CardEntry5",
+  "definition": "Lançamento de operação com cartão.",
+  "isoElements": {
+    "Card": {
+      "definition": "Produto de moeda eletrónica que fornece ao titular do cartão um dispositivo informático portátil e especializado, que normalmente contém um microprocessador."
+    },
+    "POI": {
+      "definition": "Terminal físico ou lógico de pagamento com cartão que contém componentes de software e de hardware."
+    },
+    "AggregatedEntry": {
+      "definition": "Detalhes do lançamento de cartão, com base em dados agregados de operações com cartão efetuados pela instituição gestora da conta."
+    },
+    "PrePaidAccount": {
+      "definition": "Conta pré-paga para a transferência ou o carregamento de um montante."
+    }
+  }
+}

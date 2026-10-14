@@ -1,0 +1,83 @@
+{
+  "isoType": "SettlementDetails230",
+  "definition": "Detalhes da liquidação de uma operação.",
+  "isoElements": {
+    "SecuritiesTransactionType": {
+      "definition": "Identifica o tipo de operação sobre valores mobiliários."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Condições em que a ordem/transação deve ser liquidada."
+    },
+    "BeneficialOwnership": {
+      "definition": "Especifica se há alteração da titularidade efetiva."
+    },
+    "CCPEligibility": {
+      "definition": "Especifica se a operação de liquidação é elegível para CCP (contraparte central)."
+    },
+    "DeliveryReturnReason": {
+      "definition": "Motivo de uma devolução de entrega."
+    },
+    "CashClearingSystem": {
+      "definition": "Especifica a categoria do sistema de compensação em numerário, por exemplo, compensação de cheques."
+    },
+    "ExposureType": {
+      "definition": "Especifica a área de negócio ou o tipo de negociação subjacente que origina o movimento de garantia."
+    },
+    "FXStandingInstruction": {
+      "definition": "Especifica se a instrução permanente de câmbio em vigor deve ser aplicada."
+    },
+    "MarketClientSide": {
+      "definition": "Especifica se uma instrução diz respeito a uma operação do lado do mercado ou do lado do cliente."
+    },
+    "NettingEligibility": {
+      "definition": "Especifica se a operação de liquidação é elegível para compensação por saldos líquidos (netting)."
+    },
+    "Registration": {
+      "definition": "Especifica se o registo deve ocorrer aquando da receção."
+    },
+    "LegalRestrictions": {
+      "definition": "Restrições regulamentares aplicáveis a um valor mobiliário."
+    },
+    "SettlingCapacity": {
+      "definition": "Papel de uma parte na liquidação da operação."
+    },
+    "TaxCapacity": {
+      "definition": "Capacidade fiscal da parte instrutora."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Especifica o tipo de imposto do selo ou o motivo de isenção aplicável à operação de liquidação."
+    },
+    "Tracking": {
+      "definition": "Especifica se o empréstimo e/ou a garantia são acompanhados."
+    },
+    "LetterOfGuarantee": {
+      "definition": "Especifica se a liquidação física pode ser executada com uma carta de garantia ou se devem ser utilizados os certificados físicos."
+    },
+    "ReturnLeg": {
+      "definition": "Indica se, numa operação de liquidação de empréstimo/tomada de empréstimo de valores mobiliários, o mutuante instruirá a perna de devolução conforme acordado com o mutuário."
+    },
+    "ModificationCancellationAllowed": {
+      "definition": "Especifica se um terceiro tem permissão para modificar ou cancelar a operação."
+    },
+    "EligibleForCollateral": {
+      "definition": "Especifica se os valores mobiliários devem ser incluídos no conjunto de valores mobiliários elegíveis para efeitos de garantia."
+    },
+    "SecuritiesSubBalanceType": {
+      "definition": "Especifica o indicador do tipo de subsaldo de valores mobiliários (por exemplo, o tipo de restrição de uma infraestrutura de mercado)."
+    },
+    "CashSubBalanceType": {
+      "definition": "Especifica o indicador do tipo de subsaldo de numerário, por exemplo, o tipo de restrição para uma infraestrutura de mercado."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsElementsUsageRule": {
+      "definition": "As condições de utilização dos códigos do campo SettlementDetails têm de ser previamente acordadas entre o titular da conta e a instituição gestora da conta."
+    },
+    "CashSettlementSystemUsageRule": {
+      "definition": "Os códigos de sistemas de liquidação em numerário só devem ser utilizados por agentes diretamente envolvidos no processo de liquidação, como agentes de liquidação locais, CSD e bancos centrais."
+    },
+    "OpeningClosingUsageRule": {
+      "definition": "Para a liquidação de operações em duas partes (financiamento com valores mobiliários, buy-sell back, sell buy-back), a abertura/início e o encerramento/devolução da operação são confirmados mediante o envio da seguinte combinação de códigos ReceiveDelivery e códigos SettlementTransactionType:||Abertura de reporte|ReceiveDelivery: Delivery (DELI)|SettlementTransactionType: Repo (REPU)|Encerramento de reporte|ReceiveDelivery: Receive (RECE)|SettlementTransactionType: Repo (REPU)||Abertura de reporte inverso|ReceiveDelivery: Receive (RECE)|SettlementTransactionType: ReverseRepo (RVPO)|Encerramento de reporte inverso|ReceiveDelivery: Delivery (DELI) |SettlementTransactionType: ReverseRepo (RVPO)||Abertura de reporte tripartido|ReceiveDelivery: Delivery (DELI)|SettlementTransactionType: TriPartyRepo (TRPO)|Encerramento de reporte tripartido|ReceiveDelivery: Receive (RECE)|SettlementTransactionType: TriPartyRepo (TRPO)||Abertura de reporte inverso tripartido|ReceiveDelivery: Receive (RECE)|SettlementTransactionType: TriPartyReverseRepo (TRVO)|Encerramento de reporte inverso tripartido|ReceiveDelivery: Delivery (DELI) |SettlementTransactionType: TriPartyReverseRepo (TRVO)||Início de empréstimo de valores mobiliários|ReceiveDelivery: Delivery (DELI)|SettlementTransactionType: SecuritiesLending (SECL)|Devolução de empréstimo de valores mobiliários|ReceiveDelivery: Receive (RECE)|SettlementTransactionType: SecuritiesLending (SECL)||Início de tomada de valores mobiliários por empréstimo|ReceiveDelivery: Receive (RECE)|SettlementTransactionType: SecuritiesBorrowing (SECB)|Devolução de tomada de valores mobiliários por empréstimo|ReceiveDelivery: Delivery (DELI) |SettlementTransactionType: SecuritiesBorrowing (SECB)||Sell-Buy Back: venda|ReceiveDelivery: Delivery (DELI)|SettlementTransactionType: SellBuyBack (SBBK)|Sell-Buy Back: recompra|ReceiveDelivery: Receive (RECE)|SettlementTransactionType: SellBuyBack (SBBK)||Buy-Sell Back: compra|ReceiveDelivery: Receive (RECE)|SettlementTransactionType: BuySellBack (BSBK)|Buy-Sell Back: revenda|ReceiveDelivery: Delivery (DELI) |SettlementTransactionType: BuySellBack (BSBK)||Início de saída de garantia (prestador)|ReceiveDelivery: Delivery (DELI)|SettlementTransactionType: CollateralOut (COLO)|Devolução de saída de garantia (prestador)|ReceiveDelivery: Receive (RECE)|SettlementTransactionType: CollateralOut (COLO)||Início de entrada de garantia (beneficiário)|ReceiveDelivery: Receive (RECE)|SettlementTransactionType: CollateralIn (COLI)|Devolução de entrada de garantia (beneficiário)|ReceiveDelivery: Delivery (DELI) |SettlementTransactionType: CollateralIn (COLI)."
+    }
+  }
+}

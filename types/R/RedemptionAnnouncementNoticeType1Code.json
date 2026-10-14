@@ -1,0 +1,14 @@
+{
+  "isoType": "RedemptionAnnouncementNoticeType1Code",
+  "definition": "Especifica se o anúncio do evento de reembolso se refere a certificados detidos apenas no depositário ou fora do depositário.",
+  "isoCodes": {
+    "DEPT": {
+      "name": "Depositário",
+      "definition": "O anúncio do evento referir-se-á apenas a certificados detidos no depositário. Utilizado apenas para eventos de reembolso."
+    },
+    "UNVL": {
+      "name": "Universal",
+      "definition": "O anúncio do evento referir-se-á a certificados detidos fora do depositário."
+    }
+  }
+}

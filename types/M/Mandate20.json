@@ -1,0 +1,80 @@
+{
+  "isoType": "Mandate20",
+  "definition": "Informações que servem de base para debitar uma conta.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identificação única, atribuída pela parte responsável (como o credor) ou pela instituição (como a instituição do devedor), para identificar de forma inequívoca o mandato."
+    },
+    "MandateRequestIdentification": {
+      "definition": "Identificação do pedido de mandato, atribuída pela parte iniciadora."
+    },
+    "Authentication": {
+      "definition": "Especifica os detalhes de autenticação do transporte relacionados com o mandato."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de mandato, como papel, eletrónico ou esquema."
+    },
+    "Occurrences": {
+      "definition": "Fornece detalhes da duração do mandato e da ocorrência das operações subjacentes."
+    },
+    "TrackingIndicator": {
+      "definition": "Especifica se as instruções de débito direto devem ser reenviadas automaticamente de forma periódica, quando acordado bilateralmente."
+    },
+    "FirstCollectionAmount": {
+      "definition": "Montante diferente do montante de cobrança, por incluir os custos associados ao primeiro montante debitado."
+    },
+    "CollectionAmount": {
+      "definition": "Montante fixo a cobrar da conta do devedor."
+    },
+    "MaximumAmount": {
+      "definition": "Montante máximo que pode ser cobrado da conta do devedor, por instrução."
+    },
+    "Adjustment": {
+      "definition": "Especifica as características do ajustamento aplicado ao montante de cobrança de uma instrução de débito direto."
+    },
+    "Reason": {
+      "definition": "Indica o motivo da criação do mandato."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Parte creditada que assina o mandato."
+    },
+    "Creditor": {
+      "definition": "Parte que assina o mandato e a quem é devido um montante."
+    },
+    "CreditorAccount": {
+      "definition": "Identificação inequívoca da conta do credor a creditar em resultado da operação de pagamento."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a quem é devido um montante em dinheiro."
+    },
+    "Debtor": {
+      "definition": "Parte que assina o mandato e deve um montante ao credor (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificação inequívoca da conta do devedor, na qual será efetuado um lançamento a débito em resultado da operação."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que deve um montante em dinheiro ao credor (final)."
+    },
+    "MandateReference": {
+      "definition": "Referência atribuída por um credor ou credor final para utilização interna relativa ao mandato."
+    },
+    "ReferredDocument": {
+      "definition": "Fornece informações para identificar os documentos subjacentes associados ao mandato."
+    }
+  },
+  "isoRules": {
+    "UltimateDebtorGuideline": {
+      "definition": "UltimateDebtor só pode estar presente se for diferente de Debtor."
+    },
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor só pode estar presente se for diferente de Creditor."
+    }
+  }
+}

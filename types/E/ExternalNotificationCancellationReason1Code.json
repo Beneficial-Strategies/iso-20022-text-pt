@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalNotificationCancellationReason1Code",
+  "definition": "Especifica o motivo do cancelamento, conforme publicado num conjunto de códigos externo de motivos de cancelamento.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org."
+}

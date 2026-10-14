@@ -1,0 +1,26 @@
+{
+  "isoType": "AccountAndBalance50",
+  "definition": "Fornece informações sobre a conta e o saldo.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Conta onde os instrumentos financeiros são mantidos."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Endereço blockchain ou carteira onde os ativos digitais são mantidos. É o equivalente da conta de custódia para os ativos digitais."
+    },
+    "ConfirmedBalance": {
+      "definition": "Saldo ao qual o pagamento se aplica (inferior ou igual ao saldo elegível total)."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount tem de estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet tem de estar ausente."
+    }
+  }
+}

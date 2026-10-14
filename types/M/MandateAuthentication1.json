@@ -1,0 +1,15 @@
+{
+  "isoType": "MandateAuthentication1",
+  "definition": "Especifica os detalhes de autenticação do transporte relacionados com o mandato.",
+  "isoElements": {
+    "MessageAuthenticationCode": {
+      "definition": "Especifica uma informação utilizada para autenticar uma mensagem, ou seja, para confirmar que a mensagem provém do remetente indicado (autenticidade) e que não foi alterada durante a transmissão (integridade)."
+    },
+    "Date": {
+      "definition": "Data em que a autenticação foi efetuada."
+    },
+    "Channel": {
+      "definition": "Canal utilizado para transmitir as informações de autenticação."
+    }
+  }
+}

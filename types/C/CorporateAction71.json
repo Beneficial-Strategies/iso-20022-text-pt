@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateAction71",
+  "definition": "Fornece informações sobre o evento de operação sobre títulos.",
+  "isoElements": {
+    "DateDetails": {
+      "definition": "Fornece informações sobre as datas relacionadas com um evento de operação sobre títulos."
+    },
+    "EventStage": {
+      "definition": "Fase do ciclo de vida do evento de operação sobre títulos."
+    },
+    "LotteryType": {
+      "definition": "Especifica o tipo de sorteio anunciado."
+    }
+  }
+}

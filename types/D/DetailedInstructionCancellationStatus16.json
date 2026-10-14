@@ -1,0 +1,23 @@
+{
+  "isoType": "DetailedInstructionCancellationStatus16",
+  "definition": "Estado aplicável aos pedidos individuais de cancelamento de instruções de uma mensagem de pedido de cancelamento de instruções de assembleia.",
+  "isoElements": {
+    "SingleInstructionCancellationIdentification": {
+      "definition": "Identificação do pedido individual de cancelamento de instrução específico, da mensagem original de pedido de cancelamento de instruções de assembleia identificada em InstructionType/ InstructionCancellationIdentification, para o qual o estado é fornecido."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação da conta de valores mobiliários."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identificação da subconta no âmbito da conta de custódia."
+    },
+    "InstructionCancellationStatus": {
+      "definition": "Estado de um pedido individual de cancelamento de instrução de assembleia."
+    }
+  },
+  "isoRules": {
+    "SubAccount1Rule": {
+      "definition": "Se SubAccountIdentification estiver presente, então AccountIdentification tem de estar presente."
+    }
+  }
+}

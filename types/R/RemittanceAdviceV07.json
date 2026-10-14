@@ -1,0 +1,4 @@
+{
+  "isoType": "RemittanceAdviceV07",
+  "definition": "A mensagem RemittanceAdvice permite ao ordenante fornecer detalhes de remessa que podem ser associados a um pagamento."
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "PreConfirmation1Code",
+  "definition": "Especifica se existe uma pré-confirmação de numerário ou de valores mobiliários.",
+  "isoCodes": {
+    "PRCA": {
+      "name": "Pré-confirmação de numerário",
+      "definition": "Pré-confirmação do movimento do numerário, pendente do movimento dos valores mobiliários."
+    },
+    "PRSE": {
+      "name": "Pré-confirmação de valores mobiliários",
+      "definition": "Pré-confirmação do movimento dos valores mobiliários, pendente do movimento do numerário."
+    }
+  }
+}

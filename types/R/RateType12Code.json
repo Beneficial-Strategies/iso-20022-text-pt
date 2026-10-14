@@ -1,0 +1,18 @@
+{
+  "isoType": "RateType12Code",
+  "definition": "Especifica o tipo de taxa.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Aberto",
+      "definition": "A taxa não foi estabelecida."
+    },
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "A taxa é desconhecida do remetente ou não foi estabelecida."
+    },
+    "NILP": {
+      "name": "Pagamento nulo",
+      "definition": "A taxa não será paga."
+    }
+  }
+}

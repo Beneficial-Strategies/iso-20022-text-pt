@@ -1,0 +1,110 @@
+{
+  "isoType": "SettlementDetails225",
+  "definition": "Detalhes da liquidação de uma operação.",
+  "isoElements": {
+    "HoldIndicator": {
+      "definition": "Especifica se a operação está retida/bloqueada/congelada."
+    },
+    "Priority": {
+      "definition": "Especifica se a operação deve ser executada com prioridade elevada."
+    },
+    "SecuritiesTransactionType": {
+      "definition": "Identifica o tipo de operação sobre valores mobiliários."
+    },
+    "SettlementTransactionCondition": {
+      "definition": "Condições em que a ordem/transação deve ser liquidada."
+    },
+    "PartialSettlementIndicator": {
+      "definition": "Especifica se a liquidação parcial é permitida."
+    },
+    "BeneficialOwnership": {
+      "definition": "Especifica se há alteração da titularidade efetiva."
+    },
+    "BlockTrade": {
+      "definition": "Especifica se a instrução de liquidação é uma principal ou uma subordinada de um bloco."
+    },
+    "CCPEligibility": {
+      "definition": "Especifica se a operação de liquidação é elegível para CCP (contraparte central)."
+    },
+    "DeliveryReturnReason": {
+      "definition": "Motivo de uma devolução de entrega."
+    },
+    "CashClearingSystem": {
+      "definition": "Especifica a categoria do sistema de compensação em numerário, por exemplo, compensação de cheques."
+    },
+    "ExposureType": {
+      "definition": "Especifica a área de negócio ou o tipo de negociação subjacente que origina o movimento de garantia."
+    },
+    "FXStandingInstruction": {
+      "definition": "Especifica se a instrução permanente de câmbio em vigor deve ser aplicada."
+    },
+    "MarketClientSide": {
+      "definition": "Especifica se uma instrução diz respeito a uma operação do lado do mercado ou do lado do cliente."
+    },
+    "NettingEligibility": {
+      "definition": "Especifica se a operação de liquidação é elegível para compensação por saldos líquidos (netting)."
+    },
+    "Registration": {
+      "definition": "Especifica se o registo deve ocorrer aquando da receção."
+    },
+    "RepurchaseType": {
+      "definition": "Especifica se a taxa é fixa, variável ou um montante global (forfeit)."
+    },
+    "LegalRestrictions": {
+      "definition": "Restrições regulamentares aplicáveis a um valor mobiliário."
+    },
+    "SecuritiesRTGS": {
+      "definition": "Especifica se a operação de liquidação deve ser liquidada através de um sistema RTGS ou não RTGS."
+    },
+    "SettlingCapacity": {
+      "definition": "Papel de uma parte na liquidação da operação."
+    },
+    "SettlementSystemMethod": {
+      "definition": "Especifica se a instrução de liquidação deve ser liquidada através do sistema de liquidação predefinido ou do alternativo."
+    },
+    "TaxCapacity": {
+      "definition": "Capacidade fiscal da parte instrutora."
+    },
+    "StampDutyTaxBasis": {
+      "definition": "Especifica o tipo de imposto do selo ou o motivo de isenção aplicável à operação de liquidação."
+    },
+    "Tracking": {
+      "definition": "Especifica se o empréstimo e/ou a garantia são acompanhados."
+    },
+    "AutomaticBorrowing": {
+      "definition": "Condição para o empréstimo automático."
+    },
+    "LetterOfGuarantee": {
+      "definition": "Especifica se a liquidação física pode ser executada com uma carta de garantia ou se devem ser utilizados os certificados físicos."
+    },
+    "ReturnLeg": {
+      "definition": "Indica se, numa operação de liquidação de empréstimo/tomada de empréstimo de valores mobiliários, o mutuante instruirá a perna de devolução conforme acordado com o mutuário."
+    },
+    "ModificationCancellationAllowed": {
+      "definition": "Especifica se um terceiro tem permissão para modificar ou cancelar a operação."
+    },
+    "EligibleForCollateral": {
+      "definition": "Especifica se os valores mobiliários devem ser incluídos no conjunto de valores mobiliários elegíveis para efeitos de garantia."
+    },
+    "SecuritiesSubBalanceType": {
+      "definition": "Especifica o indicador do tipo de subsaldo de valores mobiliários (por exemplo, o tipo de restrição de uma infraestrutura de mercado)."
+    },
+    "CashSubBalanceType": {
+      "definition": "Especifica o indicador do tipo de subsaldo de numerário, por exemplo, o tipo de restrição para uma infraestrutura de mercado."
+    }
+  },
+  "isoRules": {
+    "SettlementDetailsRule": {
+      "definition": "Se forem utilizados elementos SettlementDetails, as respetivas condições de utilização devem ser previamente acordadas entre o titular da conta e a entidade gestora da conta."
+    },
+    "CashClearingSystemRule": {
+      "definition": "Os códigos CashSettlementSystem só devem ser utilizados por agentes diretamente envolvidos no processo de liquidação, como agentes de liquidação locais, CSD e bancos centrais."
+    },
+    "FXStandingInstructionPresenceRule": {
+      "definition": "Se HoldIndicator estiver presente e tiver o valor TRUE (Yes), então FXStandingInstruction não pode estar presente. |Na ISO 15022, e, por conseguinte, na ISO 20022, o indicador FXStandingInstruction só pode ser utilizado quando a operação é instruída em modo libertado."
+    },
+    "SettlementParametersGuideline": {
+      "definition": "• Liquidação física:|No caso de receção física ao nível do agente local, o agente recetor tem de receber uma instrução de receção livre de pagamento|para efeitos de reconciliação. Se o beneficiário final dos valores mobiliários utilizar um custodiante global, a instrução|de receção livre de pagamento será enviada ao custodiante global, que a reencaminhará para o seu agente recetor no mercado.|Para a liquidação física, tem de ser utilizado SettlementTransactionCondition/Physical.|• Liquidação parcial:|Esta prática de mercado só se aplica nos mercados em que a liquidação parcial é permitida.|Se um titular de conta quiser especificar na sua instrução original que a liquidação parcial é ou não permitida, tem|de utilizar o PartialSettlementIndicator.|• Transferência contabilística:|A utilização de SecuritiesTransactionTypes OWNI, OWNE, INSP e PORT e de outros campos relacionados com|transferências contabilísticas é regida por um documento de práticas de mercado.|• Operações em bloco:|A operação principal tem de ser identificada através do campo BloclTrade com o código BLPA. As operações|subordinadas têm de ser identificadas através do código BLCH.||Para mais informações, consulte o documento de práticas de mercado relevante em www.smpg.info."
+    }
+  }
+}

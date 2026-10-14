@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationOrError11Choice",
+  "definition": "É utilizado para fornecer detalhes de confirmação de uma ou mais reservas constituídas pelo membro (ou em seu nome) e geridas pelo administrador de operações.",
+  "isoElements": {
+    "BusinessReport": {
+      "definition": "Comunica informações sobre reservas."
+    },
+    "OperationalError": {
+      "definition": "Indica que foi emitido um erro operacional durante o processamento do pedido associado."
+    }
+  }
+}

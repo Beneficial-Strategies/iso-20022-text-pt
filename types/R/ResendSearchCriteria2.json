@@ -1,0 +1,24 @@
+{
+  "isoType": "ResendSearchCriteria2",
+  "definition": "Define os critérios para extrair a(s) mensagem(ns) que devem ser reenviadas.",
+  "isoElements": {
+    "BusinessDate": {
+      "definition": "Data do dia útil das mensagens pedidas para as quais a função de reenvio é utilizada."
+    },
+    "SequenceNumber": {
+      "definition": "Contador independente da sequência de mensagens, disponível uma vez por endereço técnico de parte.|Especifica o número de sequência de identificação para um determinado par remetente/destinatário."
+    },
+    "SequenceRange": {
+      "definition": "Contador independente de um intervalo de sequências de mensagens, disponível uma vez por endereço técnico de parte.|Especifica o intervalo de números de sequência de identificação para um determinado par remetente/destinatário."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Identifica de forma inequívoca a mensagem comercial original, entregue pelo remetente comercial."
+    },
+    "FileReference": {
+      "definition": "Cadeia de caracteres que identifica de forma única o ficheiro entregue pelo remetente."
+    },
+    "Recipient": {
+      "definition": "Identificação única para identificar de forma inequívoca o destinatário da mensagem de relatório."
+    }
+  }
+}

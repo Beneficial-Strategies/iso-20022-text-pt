@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxCalculationInformation10",
+  "definition": "Informações utilizadas para calcular o imposto.",
+  "isoElements": {
+    "Basis": {
+      "definition": "Forma do desconto, por exemplo, numerário."
+    },
+    "TaxableAmount": {
+      "definition": "Montante em dinheiro sobre o qual o imposto é cobrado."
+    }
+  }
+}

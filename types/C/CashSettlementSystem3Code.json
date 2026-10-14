@@ -1,0 +1,18 @@
+{
+  "isoType": "CashSettlementSystem3Code",
+  "definition": "Especifica o sistema de liquidação em numerário utilizado.",
+  "isoCodes": {
+    "DCSS": {
+      "name": "Sistema de liquidação de numerário digital",
+      "definition": "Sistema digital de liquidação em numerário utilizado para o pagamento."
+    },
+    "GROS": {
+      "name": "Sistema de liquidação bruta",
+      "definition": "Liquidar o dinheiro através de um sistema de liquidação bruta."
+    },
+    "NETS": {
+      "name": "Sistema de liquidação líquida",
+      "definition": "Liquidar o dinheiro através de um sistema de liquidação líquida."
+    }
+  }
+}

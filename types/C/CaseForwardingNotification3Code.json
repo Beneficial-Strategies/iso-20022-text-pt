@@ -1,0 +1,30 @@
+{
+  "isoType": "CaseForwardingNotification3Code",
+  "definition": "Especifica a ação solicitada ao reencaminhar um processo.",
+  "isoCodes": {
+    "FTHI": {
+      "name": "Investigação adicional",
+      "definition": "O processo foi reencaminhado para a parte seguinte para investigação adicional."
+    },
+    "CANC": {
+      "name": "Pedido de cancelamento",
+      "definition": "O processo foi reencaminhado para a parte seguinte para anulação."
+    },
+    "MODI": {
+      "name": "Pedido de modificação",
+      "definition": "O processo foi reencaminhado para a parte seguinte para modificação."
+    },
+    "DTAU": {
+      "name": "Pedido de autorização de débito",
+      "definition": "O processo foi reencaminhado para obter autorização de débito."
+    },
+    "SAIN": {
+      "name": "Informações adicionais enviadas",
+      "definition": "Foram reencaminhadas informações adicionais para o credor."
+    },
+    "MINE": {
+      "name": "Processo de investigação próprio",
+      "definition": "O processo está a ser tratado pela parte atribuída."
+    }
+  }
+}

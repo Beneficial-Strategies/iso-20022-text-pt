@@ -1,0 +1,9 @@
+{
+  "isoType": "Cheque4",
+  "definition": "Conjunto de características relativas a uma instrução de cheque, como o tipo de cheque ou o número do cheque.",
+  "isoElements": {
+    "PayeeIdentification": {
+      "definition": "Parte a favor da qual é emitido um cheque."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "isoType": "IntraPositionPending12",
+  "definition": "Identifica os detalhes da operação.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pelo titular da conta (ou pela parte instrutora que gere a conta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação, tal como conhecida pela instituição gestora da conta."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificação atribuída pela instituição gestora da conta para identificar inequivocamente um evento societário."
+    },
+    "PoolIdentification": {
+      "definition": "Referência coletiva que identifica um conjunto de mensagens."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo de origem dos valores mobiliários a movimentar."
+    },
+    "BalanceTo": {
+      "definition": "Saldo de destino dos valores mobiliários a movimentar."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumentos financeiros que representam um conjunto de direitos do investidor face ao emitente."
+    },
+    "FinancialInstrumentAttributes": {
+      "definition": "Elementos que caracterizam um instrumento financeiro."
+    },
+    "SettlementQuantity": {
+      "definition": "Quantidade total de valores mobiliários a liquidar."
+    },
+    "IntendedSettlementDate": {
+      "definition": "Data e hora em que se pretende que os valores mobiliários sejam movimentados."
+    },
+    "StatusDate": {
+      "definition": "Data e hora em que o estado foi atribuído."
+    },
+    "AcknowledgedStatusTimeStamp": {
+      "definition": "Carimbo de data/hora do momento em que a operação é reconhecida."
+    },
+    "Linkages": {
+      "definition": "Ligação a outra operação que tem de ser processada depois, antes ou ao mesmo tempo."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Número que identifica um lote que constitui o subsaldo."
+    },
+    "Priority": {
+      "definition": "Especifica se a operação deve ser executada com prioridade elevada."
+    },
+    "CorporateActionEventType": {
+      "definition": "Especifica o tipo de evento societário."
+    },
+    "MessageOriginator": {
+      "definition": "Parte que originou a mensagem, se diferente do remetente."
+    },
+    "CreationDateTime": {
+      "definition": "Especifica a data/hora de criação do movimento intraposição."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fornece informações adicionais sobre o tratamento da liquidação que não podem ser incluídas nos campos estruturados da mensagem."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "NoAccountOwnerTransactionIdentificationRule": {
+      "definition": "Se não estiver disponível nenhuma referência para AccountOwnerTransactionIdentification, por exemplo, porque a operação foi enviada por fax, então AccountOwnerTransactionIdentification deve ser NONREF."
+    }
+  }
+}

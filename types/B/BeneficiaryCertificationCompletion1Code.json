@@ -1,0 +1,18 @@
+{
+  "isoType": "BeneficiaryCertificationCompletion1Code",
+  "definition": "Especifica o tipo de preenchimento de certificação exigido a um beneficiário.",
+  "isoCodes": {
+    "NCER": {
+      "name": "Certificação não exigida",
+      "definition": "Não é exigida certificação para este fundo."
+    },
+    "ELEC": {
+      "name": "Certificação eletrónica",
+      "definition": "A certificação eletrónica é aceitável."
+    },
+    "PHYS": {
+      "name": "Certificação física",
+      "definition": "A certificação eletrónica não é aceitável e é exigida em suporte físico."
+    }
+  }
+}

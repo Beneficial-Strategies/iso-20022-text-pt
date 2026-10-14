@@ -1,0 +1,30 @@
+{
+  "isoType": "OriginatorRole2Code",
+  "definition": "Especifica o papel da parte negociadora na operação.",
+  "isoCodes": {
+    "SINT": {
+      "name": "Internalizador sistemático",
+      "definition": "Empresas que, de forma organizada, frequente e sistemática, negoceiam por conta própria executando ordens de clientes fora de um mercado regulamentado ou de um sistema de negociação multilateral (MTF). Os SI terão a obrigação de fornecer e tornar público um preço firme de compra e de venda para valores mobiliários líquidos. Atuam como «mini» bolsas."
+    },
+    "MLTF": {
+      "name": "Sistema de negociação multilateral",
+      "definition": "Sistema multilateral que reúne múltiplos interesses de compra e de venda de terceiros em instrumentos financeiros, de uma forma que resulta num contrato."
+    },
+    "RMKT": {
+      "name": "Mercado regulamentado",
+      "definition": "Mercado no qual os instrumentos financeiros podem ser negociados de acordo com as regras definidas pela bolsa de valores."
+    },
+    "MKTM": {
+      "name": "Criador de mercado",
+      "definition": "Negociador ou especialista que transaciona por conta própria no mercado de balcão (OTC). Espera-se que os criadores de mercado mantenham um mercado ordenado, estando disponíveis para comprar ou vender."
+    },
+    "INVE": {
+      "name": "Investidor",
+      "definition": "Parte, pessoa singular ou organização, cujos ativos estão a ser investidos."
+    },
+    "TAGT": {
+      "name": "Agente de transferências",
+      "definition": "Parte nomeada pela sociedade gestora do fundo. Atualiza os registos das contas dos investidores para refletir as subscrições, os resgates, as trocas, as transferências e os novos registos diários dos investidores. Assegura a liquidação atempada das operações e pode fornecer informações fiscais ao investidor e/ou aos seus intermediários. Pode calcular, cobrar e reembolsar comissões. Prepara e distribui confirmações que refletem as operações, resultando em movimentos de unidades ou de contas de numerário para o investidor ou para o intermediário do investidor. Responde a pedidos de informação sobre o estado da conta e processa a distribuição de rendimentos."
+    }
+  }
+}

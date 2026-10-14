@@ -1,0 +1,15 @@
+{
+  "isoType": "DigitalPaymentSettlement3",
+  "definition": "Especifica as informações relacionadas com a liquidação de pagamentos digitais.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumento financeiro que representa um conjunto de direitos do investidor face ao emitente."
+    },
+    "Quantity": {
+      "definition": "Escolha entre diferentes quantidades relacionadas com o pagamento em ativos digitais."
+    },
+    "DigitalLedgerIdentification": {
+      "definition": "Local de liquidação expresso com um Digital Ledger Identifier. Identifica um registo digital ou sistema de registo distribuído (por exemplo, blockchain ou plataformas semelhantes)."
+    }
+  }
+}

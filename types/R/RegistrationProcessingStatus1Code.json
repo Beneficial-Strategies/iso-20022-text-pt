@@ -1,0 +1,14 @@
+{
+  "isoType": "RegistrationProcessingStatus1Code",
+  "definition": "Especifica o estado do processamento do registo.",
+  "isoCodes": {
+    "PACK": {
+      "name": "Reconhecido e aceite",
+      "definition": "O registo foi reconhecido/aceite pelo emitente/agente de registo."
+    },
+    "REJT": {
+      "name": "Rejeitado",
+      "definition": "O registo foi rejeitado pelo emitente/agente de registo."
+    }
+  }
+}

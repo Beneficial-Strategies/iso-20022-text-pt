@@ -1,0 +1,12 @@
+{
+  "isoType": "Adjustment5",
+  "definition": "Modificação do valor de bens e/ou serviços. Por exemplo: abatimento, desconto, sobretaxa.",
+  "isoElements": {
+    "Direction": {
+      "definition": "Especifica se o ajustamento deve ser subtraído ou adicionado ao montante total."
+    },
+    "Amount": {
+      "definition": "Especifica o montante monetário do ajustamento."
+    }
+  }
+}

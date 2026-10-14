@@ -1,0 +1,70 @@
+{
+  "isoType": "DocumentType6Code",
+  "definition": "Especifica um tipo de documento financeiro ou comercial.",
+  "isoCodes": {
+    "MSIN": {
+      "name": "Fatura de serviço medido",
+      "definition": "O documento é uma fatura que reclama o pagamento pelo fornecimento de serviços medidos, por exemplo, gás ou eletricidade fornecidos a um contador fixo."
+    },
+    "CNFA": {
+      "name": "Nota de crédito relativa a ajustamento financeiro",
+      "definition": "O documento é uma nota de crédito pelo montante final liquidado numa operação comercial."
+    },
+    "DNFA": {
+      "name": "Nota de débito relativa a ajustamento financeiro",
+      "definition": "O documento é uma nota de débito pelo montante final liquidado numa operação comercial."
+    },
+    "CINV": {
+      "name": "Fatura comercial",
+      "definition": "O documento é uma fatura."
+    },
+    "CREN": {
+      "name": "Nota de crédito",
+      "definition": "O documento é uma nota de crédito."
+    },
+    "DEBN": {
+      "name": "Nota de débito",
+      "definition": "O documento é uma nota de débito."
+    },
+    "HIRI": {
+      "name": "Fatura de aluguer",
+      "definition": "O documento é uma fatura pela contratação de recursos humanos ou pelo aluguer de bens ou equipamentos."
+    },
+    "SBIN": {
+      "name": "Autofaturação",
+      "definition": "O documento é uma fatura emitida pelo devedor."
+    },
+    "CMCN": {
+      "name": "Contrato comercial",
+      "definition": "O documento é um acordo entre as partes que estipula os termos e condições de entrega de bens ou serviços."
+    },
+    "SOAC": {
+      "name": "Extrato de conta",
+      "definition": "O documento é um extrato das operações lançadas na conta do devedor junto do fornecedor."
+    },
+    "DISP": {
+      "name": "Aviso de expedição",
+      "definition": "O documento é um aviso de expedição."
+    },
+    "BOLD": {
+      "name": "Conhecimento de embarque",
+      "definition": "O documento é uma notificação de envio."
+    },
+    "VCHR": {
+      "name": "Vale",
+      "definition": "O documento é um documento de pagamento eletrónico."
+    },
+    "AROI": {
+      "name": "Item em aberto de contas a receber",
+      "definition": "O documento é um pagamento que se aplica a um documento de origem específico."
+    },
+    "TSUT": {
+      "name": "Operação de serviços públicos de comércio",
+      "definition": "O documento é um identificador de operação atribuído pelo Trade Services Utility."
+    },
+    "PUOR": {
+      "name": "Ordem de compra",
+      "definition": "O documento é uma nota de encomenda."
+    }
+  }
+}

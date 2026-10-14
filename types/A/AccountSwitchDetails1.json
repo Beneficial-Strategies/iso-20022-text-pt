@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountSwitchDetails1",
+  "definition": "Detalhes da mudança de conta, incluindo o respetivo estado e quaisquer códigos de resposta.",
+  "isoElements": {
+    "UniqueReferenceNumber": {
+      "definition": "Número único que fornece a identificação única e inequívoca da mudança de conta."
+    },
+    "RoutingUniqueReferenceNumber": {
+      "definition": "Número único que fornece a identificação única e inequívoca da mudança de conta. ||Utilização: quando se tenham realizado uma ou mais mudanças de conta desde a mudança de conta original, este campo contém o número único relativo à mudança que transferiu a conta para o gestor de conta novo mais recente."
+    },
+    "SwitchReceivedDateTime": {
+      "definition": "Data e hora em que o pedido foi recebido pelo serviço central de mudança de conta, preenchida apenas pelo serviço central de mudança de conta."
+    },
+    "SwitchDate": {
+      "definition": "Data em que se prevê que a mudança de conta esteja concluída. O valor é o mesmo que a data de mudança pretendida se a mudança for concluída no prazo previsto."
+    },
+    "SwitchType": {
+      "definition": "Indica se a mudança de conta é uma mudança total ou parcial.||Utilização: Uma mudança total indica a transferência do saldo integral da conta e dos mandatos de pagamento associados. Uma mudança parcial indica a transferência de determinados mandatos de pagamento para uma nova conta."
+    },
+    "SwitchStatus": {
+      "definition": "Estado da mudança de conta no momento do envio da mensagem."
+    },
+    "BalanceTransferWindow": {
+      "definition": "Identifica a janela de processamento em que a transferência de saldo será processada no dia da mudança de conta."
+    },
+    "Response": {
+      "definition": "Código de resposta e informações adicionais."
+    }
+  }
+}

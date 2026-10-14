@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationStatus34Choice",
+  "definition": "Estado aplicável ao pedido de cancelamento de instrução recebido.",
+  "isoElements": {
+    "GlobalCancellationStatus": {
+      "definition": "Estado aplicável globalmente à mensagem de pedido de cancelamento de instruções de assembleia."
+    },
+    "DetailedCancellationStatus": {
+      "definition": "Estado dos pedidos individuais de cancelamento de instrução recebidos na mensagem de cancelamento de instruções identificada em InstructionType/InstructionCancellationIdentification."
+    }
+  }
+}

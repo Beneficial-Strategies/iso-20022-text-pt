@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceQuantity1Choice",
+  "definition": "Escolha entre formatos para a informação do saldo.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantidade total de instrumentos financeiros do saldo."
+    },
+    "QuantityAsDSS": {
+      "definition": "Quantidade total de instrumentos financeiros do saldo."
+    }
+  }
+}

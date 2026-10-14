@@ -1,0 +1,29 @@
+{
+  "isoType": "Statement83",
+  "definition": "Características do extrato.",
+  "isoElements": {
+    "StatementDateOrPeriod": {
+      "definition": "Data ou período do extrato."
+    },
+    "Frequency": {
+      "definition": "Periodicidade do extrato."
+    },
+    "UpdateType": {
+      "definition": "Indica se o extrato está completo ou contém apenas alterações."
+    },
+    "StatementBasis": {
+      "definition": "Tipo de saldo em que se baseia o extrato."
+    },
+    "StatementType": {
+      "definition": "Tipo de saldo em que se baseia o extrato."
+    }
+  },
+  "isoRules": {
+    "StatementTypeRule": {
+      "definition": "Se StatementType for utilizado, então o extrato solicitado tem de ser um SecuritiesBalanceAccountingReport, um SecuritiesBalanceCustodyReport ou um SecuritiesTransactionPostingReport."
+    },
+    "StatementBasisRule": {
+      "definition": "Se StatementBasis for utilizado, então o extrato solicitado tem de ser um SecuritiesBalanceAccountingReport ou um SecuritiesBalanceCustodyReport."
+    }
+  }
+}

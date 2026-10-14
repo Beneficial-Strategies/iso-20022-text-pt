@@ -1,0 +1,18 @@
+{
+  "isoType": "LetterIntent1",
+  "definition": "Especifica informações sobre a carta de intenções.",
+  "isoElements": {
+    "LetterIntentReference": {
+      "definition": "Referência de um programa de carta de intenções, no qual as comissões de venda são reduzidas com base no total das compras efetivas e previstas de um cliente, durante um determinado período de tempo, conforme acordado pelo cliente."
+    },
+    "Amount": {
+      "definition": "Montante indicado na carta de intenções."
+    },
+    "StartDate": {
+      "definition": "Data de início indicada na carta de intenções."
+    },
+    "EndDate": {
+      "definition": "Data de fim indicada na carta de intenções."
+    }
+  }
+}

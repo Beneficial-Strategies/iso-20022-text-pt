@@ -1,0 +1,12 @@
+{
+  "isoType": "RevaluationIndicator3Choice",
+  "definition": "Escolha do formato para a reavaliação.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica se a posição de garantia deve ser sujeita a reavaliação automática pela instituição gestora da conta."
+    },
+    "Proprietary": {
+      "definition": "Informações de reavaliação fornecidas sob a forma de código proprietário."
+    }
+  }
+}

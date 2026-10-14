@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderReport3",
+  "definition": "Define os atributos detalhados de uma ordem permanente.",
+  "isoElements": {
+    "StandingOrderIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "StandingOrderOrError": {
+      "definition": "Informações solicitadas sobre a ordem permanente ou erro comercial quando as informações não foram encontradas."
+    }
+  }
+}

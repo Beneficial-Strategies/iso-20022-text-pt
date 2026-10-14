@@ -1,0 +1,12 @@
+{
+  "isoType": "IntermediateSecurityDistributionType1FormatChoice",
+  "definition": "Escolha de formatos para exprimir o tipo de distribuição de valores mobiliários intermédios.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de distribuição de valores mobiliários intermédios."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir o tipo de distribuição de valores mobiliários intermédios."
+    }
+  }
+}

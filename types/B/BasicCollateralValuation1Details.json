@@ -1,0 +1,12 @@
+{
+  "isoType": "BasicCollateralValuation1Details",
+  "definition": "Dados básicos de avaliação de uma posição de garantia.",
+  "isoElements": {
+    "ValuationHaircut": {
+      "definition": "Percentagem de margem de segurança (haircut) aplicada ao valor de mercado dos ativos subjacentes utilizados como garantia, como medida de controlo de risco. A instituição que avalia a garantia calcula o valor dos ativos subjacentes com base no seu valor de mercado deduzido de uma determinada percentagem (o haircut)."
+    },
+    "HaircutSource": {
+      "definition": "Local onde a margem de segurança (haircut) da avaliação foi calculada."
+    }
+  }
+}

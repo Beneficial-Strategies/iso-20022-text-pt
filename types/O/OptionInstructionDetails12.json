@@ -1,0 +1,42 @@
+{
+  "isoType": "OptionInstructionDetails12",
+  "definition": "Informações de instruções recebidas para uma determinada opção.",
+  "isoElements": {
+    "InstructionIdentification": {
+      "definition": "Identifica a instrução ou a instrução de proteção."
+    },
+    "InstructionSequenceNumber": {
+      "definition": "Fornece o número de sequência da instrução."
+    },
+    "ProtectIndicator": {
+      "definition": "Indica se a instrução é uma instrução de proteção ou de cobertura de proteção."
+    },
+    "InstructionQuantity": {
+      "definition": "Quantidade de valores mobiliários instruída na instrução."
+    },
+    "InstructionDate": {
+      "definition": "Data da instrução."
+    },
+    "ProtectDate": {
+      "definition": "Data da instrução de proteção do cliente."
+    },
+    "CoverProtectDate": {
+      "definition": "Data da instrução de cobertura de proteção"
+    },
+    "BidPrice": {
+      "definition": "Preço de oferta da instrução."
+    },
+    "ConditionalQuantity": {
+      "definition": "Quantidade condicional da instrução."
+    },
+    "CustomerReference": {
+      "definition": "Informação narrativa relativa ao cliente."
+    },
+    "InstructionNarrative": {
+      "definition": "Informação narrativa da instrução apresentada."
+    },
+    "InstructionStatus": {
+      "definition": "Estado de uma instrução específica."
+    }
+  }
+}

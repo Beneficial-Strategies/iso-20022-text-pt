@@ -1,0 +1,26 @@
+{
+  "isoType": "ExtendedEventType8Code",
+  "definition": "Especifica o tipo de evento de operação sobre valores mobiliários definido pela DTCC (The Depository Trust and Clearing Corporation).",
+  "isoCodes": {
+    "CDRD": {
+      "name": "Reembolso antecipado de certificado de depósito",
+      "definition": "Característica de um valor mobiliário que permite ao emitente efetuar um pagamento ao detentor. Este evento será utilizado para valores mobiliários sujeitos a reembolsos diferentes dos classificados como resgates totais e parciais (por exemplo, reembolsos antecipados de certificados de depósito)."
+    },
+    "FPAY": {
+      "name": "Amortização final",
+      "definition": "Distribuição final do capital devido de um valor mobiliário, tipicamente Collateralised Mortgage Obligations."
+    },
+    "REDW": {
+      "name": "Reembolso de warrant",
+      "definition": "O evento é um reembolso de warrant."
+    },
+    "TMTN": {
+      "name": "Cessação",
+      "definition": "Valor mobiliário, normalmente uma forma de derivado, relativamente ao qual o agente ou o emitente decidiu pôr termo ao derivado com base numa alteração do(s) valor(es) mobiliário(s) subjacente(s) ou numa mudança de estratégia. Distingue-se dos tipos de evento Mandatory Exchange e Exchange Offer, que são mapeados para o mesmo código de tipo de evento ISO."
+    },
+    "FPRE": {
+      "name": "Pré-financiamento total",
+      "definition": "Exercício de um privilégio pelo emitente para reembolsar integralmente qualquer título de dívida antes do vencimento, quando o emitente deposita ativos em fidúcia. Tal restringe irrevogavelmente a sua utilização à liquidação da dívida."
+    }
+  }
+}

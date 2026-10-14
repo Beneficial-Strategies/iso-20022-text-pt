@@ -1,0 +1,12 @@
+{
+  "isoType": "Conversion6",
+  "definition": "Identificação de um instrumento financeiro.",
+  "isoElements": {
+    "OriginalSecurity": {
+      "definition": "Identificação dos valores mobiliários originais."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a conversão."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceType11Choice",
+  "definition": "Especifica os detalhes do saldo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica a natureza de um saldo, sob forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Especifica a natureza de um saldo, sob forma proprietária."
+    }
+  }
+}

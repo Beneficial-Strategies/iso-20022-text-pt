@@ -1,0 +1,12 @@
+{
+  "isoType": "LinkageType3Choice",
+  "definition": "Escolha do formato do tipo de associação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de associação expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de associação expresso como um código proprietário."
+    }
+  }
+}

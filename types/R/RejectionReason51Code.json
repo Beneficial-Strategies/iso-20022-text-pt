@@ -1,0 +1,54 @@
+{
+  "isoType": "RejectionReason51Code",
+  "definition": "Especifica um motivo pelo qual a instrução/pedido de cancelamento tem o estado de rejeitado.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "DQUA": {
+      "name": "Rejeição da quantidade",
+      "definition": "Quantidade instruída não reconhecida ou inválida."
+    },
+    "DCAN": {
+      "name": "Rejeitado por já ter sido cancelado",
+      "definition": "O pedido de cancelamento foi rejeitado, uma vez que a instrução já foi cancelada."
+    },
+    "DPRG": {
+      "name": "Rejeitado por estar em curso",
+      "definition": "O pedido de cancelamento foi rejeitado porque o processo da instrução está em curso ou já foi processado."
+    },
+    "DSEC": {
+      "name": "Valor mobiliário inválido",
+      "definition": "Identificação do instrumento financeiro não reconhecida ou inválida."
+    },
+    "EVNM": {
+      "name": "Identificação não reconhecida",
+      "definition": "Número de evento não reconhecido."
+    },
+    "INIR": {
+      "name": "Instrução irrevogável",
+      "definition": "A instrução é irrevogável."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "RBIS": {
+      "name": "Rejeitado pelo emitente ou pelo registador",
+      "definition": "O emitente ou o agente de registo rejeitou a instrução."
+    },
+    "SAFE": {
+      "name": "Rejeição da conta de guarda",
+      "definition": "Conta de custódia do remetente da mensagem não reconhecida ou inválida."
+    },
+    "ULNK": {
+      "name": "Referência inválida",
+      "definition": "A referência associada é desconhecida."
+    }
+  }
+}

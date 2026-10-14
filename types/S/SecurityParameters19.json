@@ -1,0 +1,15 @@
+{
+  "isoType": "SecurityParameters19",
+  "definition": "Parâmetros de segurança do anfitrião que descarrega a chave.",
+  "isoElements": {
+    "HostChallenge": {
+      "definition": "Valor aleatório do anfitrião."
+    },
+    "Key": {
+      "definition": "Chave criptográfica a armazenar no ATM."
+    },
+    "SignatureChoice": {
+      "definition": "Elemento que contém a assinatura."
+    }
+  }
+}

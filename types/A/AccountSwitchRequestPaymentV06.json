@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchRequestPaymentV06",
+  "definition": "A mensagem AccountSwitchRequestPayment é enviada pela anterior instituição gestora da conta à nova instituição gestora da conta após a conclusão da mudança de conta, para solicitar a transferência de fundos relativa a um pagamento que a anterior instituição gestora da conta teve de efetuar a partir da conta anterior (por exemplo: a liquidação de uma operação com cartão que foi autorizada offline)."
+}

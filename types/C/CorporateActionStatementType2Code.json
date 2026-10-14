@@ -1,0 +1,22 @@
+{
+  "isoType": "CorporateActionStatementType2Code",
+  "definition": "Indica se o extrato contém apenas as instruções em falta ou todas as instruções.",
+  "isoCodes": {
+    "MISS": {
+      "name": "Em falta",
+      "definition": "O extrato contém as instruções em falta."
+    },
+    "ALLL": {
+      "name": "Todos",
+      "definition": "O extrato contém todas as instruções."
+    },
+    "BALO": {
+      "name": "Notificação apenas de saldo",
+      "definition": "Informações de saldo sem pormenores das instruções."
+    },
+    "BALI": {
+      "name": "Informações de saldo",
+      "definition": "Informações de saldo com pormenores das instruções."
+    }
+  }
+}

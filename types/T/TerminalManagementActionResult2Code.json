@@ -1,0 +1,42 @@
+{
+  "isoType": "TerminalManagementActionResult2Code",
+  "definition": "Resultado final do comando processado no ATM.",
+  "isoCodes": {
+    "CNTE": {
+      "name": "Erro de ligação",
+      "definition": "Problema de ligação durante a execução da ação."
+    },
+    "FMTE": {
+      "name": "Erro de formato",
+      "definition": "Os dados transferidos têm um formato errado."
+    },
+    "HRDW": {
+      "name": "Equipamento",
+      "definition": "Erro de hardware."
+    },
+    "NSUP": {
+      "name": "Não suportado",
+      "definition": "A ação não é suportada."
+    },
+    "SECR": {
+      "name": "Valor mobiliário",
+      "definition": "Erro de segurança."
+    },
+    "SUCC": {
+      "name": "Sucesso",
+      "definition": "A ação foi executada com êxito."
+    },
+    "SYNE": {
+      "name": "Erro de sintaxe",
+      "definition": "Os dados transferidos têm uma sintaxe errada."
+    },
+    "TIMO": {
+      "name": "Tempo limite excedido",
+      "definition": "O tempo limite expirou durante a transferência de dados."
+    },
+    "UKRF": {
+      "name": "Referência de chave desconhecida",
+      "definition": "A referência da chave criptográfica utilizada para a assinatura dos dados não é válida."
+    }
+  }
+}

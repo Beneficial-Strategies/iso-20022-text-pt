@@ -1,0 +1,18 @@
+{
+  "isoType": "SettlementDate1Code",
+  "definition": "Indica a data de liquidação sob forma codificada.",
+  "isoCodes": {
+    "ASAP": {
+      "name": "O mais cedo possível",
+      "definition": "A transferência deve ser efetuada o mais rapidamente possível."
+    },
+    "ENDC": {
+      "name": "No termo do contrato",
+      "definition": "A transferência deve ser efetuada no final do contrato."
+    },
+    "WHIF": {
+      "name": "Quando e se emitido",
+      "definition": "A liquidação tem lugar quando o instrumento financeiro é emitido pelo emitente."
+    }
+  }
+}

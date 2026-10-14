@@ -1,0 +1,27 @@
+{
+  "isoType": "BusinessDayReturnCriteria2",
+  "definition": "Define os critérios utilizados para reportar informações sobre o dia útil.",
+  "isoElements": {
+    "SystemDateIndicator": {
+      "definition": "Indica se a data do sistema é solicitada."
+    },
+    "SystemStatusIndicator": {
+      "definition": "Indica se o estado do sistema é solicitado."
+    },
+    "SystemCurrencyIndicator": {
+      "definition": "Indica se a moeda do sistema é solicitada."
+    },
+    "ClosurePeriodIndicator": {
+      "definition": "Indica se as informações de encerramento são solicitadas."
+    },
+    "EventIndicator": {
+      "definition": "Indica se os eventos são solicitados."
+    },
+    "SessionPeriodIndicator": {
+      "definition": "Indica se o período de sessão é solicitado."
+    },
+    "EventTypeIndicator": {
+      "definition": "Indica se o tipo de evento do sistema é solicitado."
+    }
+  }
+}

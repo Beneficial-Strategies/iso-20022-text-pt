@@ -1,0 +1,26 @@
+{
+  "isoType": "PaginationBalance1",
+  "definition": "Saldo de um instrumento financeiro para uma página específica do extrato.",
+  "isoElements": {
+    "FirstOpeningBalance": {
+      "definition": "Saldo de abertura do instrumento financeiro no extrato."
+    },
+    "IntermediaryOpeningBalance": {
+      "definition": "Saldo de abertura apenas desta página. Tem de ser o saldo de encerramento intermédio da página anterior (parte do mesmo extrato)."
+    },
+    "FinalClosingBalance": {
+      "definition": "Saldo de encerramento do instrumento financeiro no extrato."
+    },
+    "IntermediaryClosingBalance": {
+      "definition": "Saldo de encerramento apenas desta página. Tem de ser o saldo de abertura intermédio da página seguinte (parte do mesmo extrato)."
+    }
+  },
+  "isoRules": {
+    "FirstOpeningBalanceOrIntermediaryOpeningBalanceRule": {
+      "definition": "Pode estar presente FirstOpeningBalance ou IntermediaryOpeningBalance, mas não ambos."
+    },
+    "FinalClosingBalanceOrIntermediaryClosingBalanceRule": {
+      "definition": "Pode estar presente FinalClosingBalance ou IntermediaryClosingBalance, mas não ambos."
+    }
+  }
+}

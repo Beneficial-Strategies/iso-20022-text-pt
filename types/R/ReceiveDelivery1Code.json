@@ -1,0 +1,14 @@
+{
+  "isoType": "ReceiveDelivery1Code",
+  "definition": "Especifica se a operação de liquidação é uma entrega ou uma receção.",
+  "isoCodes": {
+    "DELI": {
+      "name": "Entrega",
+      "definition": "Os instrumentos financeiros serão debitados da conta de custódia."
+    },
+    "RECE": {
+      "name": "Receção",
+      "definition": "Os instrumentos financeiros serão creditados na conta de custódia."
+    }
+  }
+}

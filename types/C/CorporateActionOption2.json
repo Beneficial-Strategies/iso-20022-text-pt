@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionOption2",
+  "definition": "Fornece informações sobre uma opção de ação societária (CA).",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    }
+  }
+}

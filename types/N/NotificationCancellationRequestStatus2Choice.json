@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationCancellationRequestStatus2Choice",
+  "definition": "Escolha entre vários estados.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Fornece informações sobre o estado de processamento do pedido de cancelamento."
+    },
+    "RejectedStatus": {
+      "definition": "Fornece informações sobre o estado de rejeição."
+    }
+  }
+}

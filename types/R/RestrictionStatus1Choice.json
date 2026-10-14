@@ -1,0 +1,12 @@
+{
+  "isoType": "RestrictionStatus1Choice",
+  "definition": "Escolha de formatos para o estado da restrição ou limitação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado da restrição expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Estado da restrição expresso sob a forma de código proprietário."
+    }
+  }
+}

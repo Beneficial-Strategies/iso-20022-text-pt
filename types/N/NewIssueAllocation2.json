@@ -1,0 +1,15 @@
+{
+  "isoType": "NewIssueAllocation2",
+  "definition": "Informações sobre a titularidade da conta de investimento relativamente à atribuição de novas emissões para um fundo de cobertura.",
+  "isoElements": {
+    "Restricted": {
+      "definition": "Indica se o investidor é elegível para participar nos lucros e perdas de uma nova emissão."
+    },
+    "ExemptPersonReason": {
+      "definition": "Motivo da isenção."
+    },
+    "DeMinimus": {
+      "definition": "Condições aplicáveis quando o investidor está abrangido pela isenção \"de minimis\"."
+    }
+  }
+}

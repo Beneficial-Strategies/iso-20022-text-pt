@@ -1,0 +1,14 @@
+{
+  "isoType": "Eligible1Code",
+  "definition": "Especifica se o item é elegível ou não elegível.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Elegível",
+      "definition": "O item é elegível."
+    },
+    "NELI": {
+      "name": "Não elegível",
+      "definition": "O item não é elegível."
+    }
+  }
+}

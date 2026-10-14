@@ -1,0 +1,12 @@
+{
+  "isoType": "StandingOrderOrError9Choice",
+  "definition": "Escolha entre os detalhes da ordem permanente ou um erro operacional quando os dados solicitados não podem ser obtidos.",
+  "isoElements": {
+    "Report": {
+      "definition": "Comunica a ordem permanente ou um erro comercial."
+    },
+    "OperationalError": {
+      "definition": "Indica que foi emitido um erro operacional durante o processamento do pedido associado."
+    }
+  }
+}

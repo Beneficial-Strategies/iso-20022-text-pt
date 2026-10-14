@@ -1,0 +1,18 @@
+{
+  "isoType": "CounterpartyResponseStatusReason1Code",
+  "definition": "Especifica o tipo de ação da contraparte a que a resposta se refere.",
+  "isoCodes": {
+    "CPTR": {
+      "name": "Operação da contraparte",
+      "definition": "Especifica que a resposta se refere a uma alegação da contraparte."
+    },
+    "CPCX": {
+      "name": "Anulação da contraparte",
+      "definition": "Especifica que a resposta se refere ao pedido de cancelamento da contraparte."
+    },
+    "CPMD": {
+      "name": "Modificação da contraparte",
+      "definition": "Especifica que a resposta se refere ao pedido de modificação da contraparte."
+    }
+  }
+}

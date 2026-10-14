@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledStatus12Choice",
+  "definition": "Escolha entre um motivo ou nenhum motivo para o estado de cancelado/cancelamento concluído da instrução relativa à operação sobre títulos ou do cancelamento da instrução.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo não especificado."
+    },
+    "Reason": {
+      "definition": "Motivo do estado cancelado."
+    }
+  }
+}

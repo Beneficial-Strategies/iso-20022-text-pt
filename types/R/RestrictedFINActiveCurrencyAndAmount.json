@@ -1,0 +1,4 @@
+{
+  "isoType": "RestrictedFINActiveCurrencyAndAmount",
+  "definition": "Número de unidades monetárias expresso numa moeda ativa em que a unidade monetária é explícita e conforme com a norma ISO 4217."
+}

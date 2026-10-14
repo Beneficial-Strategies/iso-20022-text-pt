@@ -1,0 +1,21 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters21",
+  "definition": "Informações de identificação da operação de financiamento de valores mobiliários, tipo (acordo de recompra, acordo de recompra inversa, empréstimo de valores mobiliários ou contração de empréstimo de valores mobiliários) e outros parâmetros.",
+  "isoElements": {
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Especifica o tipo de operação de financiamento de valores mobiliários, ou seja, acordo de recompra, acordo de recompra inversa, empréstimo de valores mobiliários ou contração de empréstimo de valores mobiliários."
+    },
+    "Payment": {
+      "definition": "Especifica a forma como a operação deve ser liquidada, por exemplo, contra pagamento."
+    },
+    "CommonIdentification": {
+      "definition": "Referência única acordada entre as duas contrapartes da negociação para identificar a negociação."
+    },
+    "NonceIdentification": {
+      "definition": "Identificação inequívoca de um número aleatório ou semialeatório utilizado uma só vez (NONCE), gerado no âmbito de uma comunicação criptográfica."
+    },
+    "ReconciliationIndicator": {
+      "definition": "A operação de liquidação já foi enviada para o mercado. É enviada por um titular da conta a uma instituição gestora da conta para efeitos de reconciliação."
+    }
+  }
+}

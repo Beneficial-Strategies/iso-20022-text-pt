@@ -1,0 +1,12 @@
+{
+  "isoType": "DataFormat2Choice",
+  "definition": "Escolha entre a especificação dos dados sob forma estruturada ou não estruturada.",
+  "isoElements": {
+    "Structured": {
+      "definition": "Especificação dos dados sob forma estruturada."
+    },
+    "Unstructured": {
+      "definition": "Especificação dos dados para os quais não existe forma estruturada."
+    }
+  }
+}

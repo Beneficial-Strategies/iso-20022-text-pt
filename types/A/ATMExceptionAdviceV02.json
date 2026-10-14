@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMExceptionAdviceV02",
+  "definition": "A mensagem ATMExceptionAdvice é enviada por um ATM a um adquirente ou ao seu agente para o informar de que ocorreu uma exceção fora de um serviço."
+}

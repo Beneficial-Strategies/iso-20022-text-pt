@@ -1,0 +1,12 @@
+{
+  "isoType": "BusinessDayQuery2",
+  "definition": "Define os critérios da consulta.",
+  "isoElements": {
+    "QueryType": {
+      "definition": "Especifica o tipo de itens correspondentes a devolver na resposta à consulta."
+    },
+    "Criteria": {
+      "definition": "Define os critérios de consulta das informações sobre o dia útil."
+    }
+  }
+}

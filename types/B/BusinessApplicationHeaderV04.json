@@ -1,0 +1,41 @@
+{
+  "isoType": "BusinessApplicationHeaderV04",
+  "definition": "A camada comercial lida com mensagens comerciais. O comportamento das mensagens comerciais é plenamente descrito pela transação comercial, e a sua estrutura pelas definições de mensagem e pelas regras de mensagem, regras e práticas de mercado associadas, todas registadas no repositório ISO 20022.|Para cada evento comercial, isto é, cada interação de uma transação comercial, o MessagingEndpoint emissor cria uma única nova mensagem comercial (com o seu Business Application Header). Uma mensagem comercial obedece aos seguintes princípios:|\" Uma mensagem comercial (e o seu Business Application Header) não deve conter informações sobre o sistema de transporte de mensagens nem sobre a mecânica ou o mecanismo de envio, transporte ou receção de mensagens. |\" Uma mensagem comercial deve ser compreensível fora do contexto da mensagem de transporte. Ou seja, não deve exigir conhecimento da mensagem de transporte para ser entendida.|\" Uma mensagem comercial pode conter cabeçalhos, rodapés e envelopes com significado para o negócio. Quando presentes, são tratados como qualquer outro conteúdo da mensagem, o que significa que são considerados parte da definição da mensagem comercial e, como tal, farão parte do repositório ISO 20022.|\" Uma mensagem comercial refere-se aos atores comerciais pelo seu nome. Cada instância de um ator comercial tem um nome. O ator comercial não deve ser referido na camada de transporte.|A utilização específica deste BusinessMessageHeader pode ser definida pelo SEG relevante.",
+  "isoElements": {
+    "CharacterSet": {
+      "definition": "Contém o conjunto de carateres dos elementos de texto utilizados na mensagem comercial."
+    },
+    "BusinessMessageIdentifier": {
+      "definition": "Identifica de forma inequívoca a mensagem comercial perante o MessagingEndpoint que a criou."
+    },
+    "MessageDefinitionIdentifier": {
+      "definition": "O identificador da definição de mensagem da instância de mensagem comercial a que esta instância de Business Application Header está associada."
+    },
+    "BusinessService": {
+      "definition": "Especifica o serviço comercial acordado entre os dois MessagingEndpoints, segundo cujas regras esta mensagem comercial é trocada.|A utilizar quando existe uma escolha entre serviços de processamento ou níveis de serviço de processamento.||Exemplo: |«marketx.hvps.01» e «marketx.xbdr.01» poderiam ser utilizados para indicar que as mensagens associadas estão sujeitas a diferentes níveis de processamento para pagamentos nacionais de elevado montante e para pagamentos transfronteiriços dentro da mesma prática de mercado."
+    },
+    "CreationDate": {
+      "definition": "Data e hora de criação desta mensagem comercial (cabeçalho)."
+    },
+    "BusinessProcessingDate": {
+      "definition": "Data e hora de processamento indicadas pelo emissor para o recetor da mensagem comercial. Esta data pode ser diferente da data e hora fornecidas em CreationDate.||Utilização: a prática de mercado ou um acordo bilateral devem especificar como este elemento deve ser utilizado."
+    },
+    "CopyDuplicate": {
+      "definition": "Indica se a mensagem é uma cópia, um duplicado ou uma cópia de um duplicado de uma mensagem ISO 20022 enviada anteriormente."
+    },
+    "PossibleDuplicate": {
+      "definition": "Indicador de se a mensagem comercial trocada entre os MessagingEndpoints é possivelmente um duplicado. |Se o MessagingEndpoint recetor não recebeu o original, esta mensagem comercial deve ser processada como se fosse o original. ||Se o MessagingEndpoint recetor recebeu o original, deve realizar as ações necessárias para evitar processar novamente esta mensagem comercial.||Isto garante um comportamento idempotente a nível comercial.||NOTA (NOTE): no FIX designa-se «PossResend»; é um reenvio a nível aplicacional e não uma retransmissão a nível de rede."
+    },
+    "Priority": {
+      "definition": "Indicação relativa da precedência de processamento da mensagem face a um (conjunto de) mensagens comerciais com prioridades atribuídas."
+    },
+    "Signature": {
+      "definition": "Contém a assinatura digital da entidade comercial autorizada a assinar esta mensagem comercial."
+    }
+  },
+  "isoRules": {
+    "RelatedPresentWhenCopyDupl": {
+      "definition": "Related TEM DE (MUST) conter os elementos BusinessMessageHeader relevantes da BusinessMessage com a qual esta BusinessMessage se relaciona.||Se CopyDuplicate estiver presente, Related TEM DE (MUST) estar presente."
+    }
+  }
+}

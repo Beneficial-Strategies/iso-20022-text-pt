@@ -1,0 +1,24 @@
+{
+  "isoType": "Compensation5",
+  "definition": "Especifica os detalhes de uma compensação de pagamento.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante a pagar a título de compensação."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor.||Utilização: a instituição do devedor é o pagador do montante da compensação."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do devedor junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor.||Utilização: a instituição do credor é o beneficiário do montante da compensação."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do credor junto da sua instituição gestora, que será creditada em resultado da operação de pagamento."
+    },
+    "Reason": {
+      "definition": "Motivo da compensação do pagamento."
+    }
+  }
+}

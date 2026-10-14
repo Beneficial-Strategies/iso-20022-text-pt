@@ -1,0 +1,22 @@
+{
+  "isoType": "TransferType4Code",
+  "definition": "Especifica se um instrumento financeiro é transferido como ativo ou em numerário.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Numerário",
+      "definition": "Transferência em numerário."
+    },
+    "CONV": {
+      "name": "Conversão",
+      "definition": "O ISIN é convertido noutro ISIN e depois transferido."
+    },
+    "EXCL": {
+      "name": "Excluído",
+      "definition": "Ativo excluído da transferência."
+    },
+    "SECU": {
+      "name": "Em espécie",
+      "definition": "Transferir o valor mobiliário como ativo em espécie, ou seja, 'na sua forma atual'."
+    }
+  }
+}

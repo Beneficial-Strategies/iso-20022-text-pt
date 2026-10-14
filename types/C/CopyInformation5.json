@@ -1,0 +1,12 @@
+{
+  "isoType": "CopyInformation5",
+  "definition": "Informações fornecidas quando a mensagem é uma cópia de uma mensagem anterior.",
+  "isoElements": {
+    "CopyIndicator": {
+      "definition": "Indica se a mensagem é uma cópia."
+    },
+    "OriginalReceiver": {
+      "definition": "Destinatário original da mensagem, se esta mensagem for uma cópia."
+    }
+  }
+}

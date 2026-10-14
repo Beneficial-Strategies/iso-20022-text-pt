@@ -1,0 +1,77 @@
+{
+  "isoType": "TaxVoucher1",
+  "definition": "Fornece informações sobre o comprovativo fiscal.",
+  "isoElements": {
+    "TaxVoucherRate": {
+      "definition": "Taxa de distribuição por ação."
+    },
+    "TaxCredit": {
+      "definition": "Montante do imposto que foi pago anteriormente."
+    },
+    "TaxDeduction": {
+      "definition": "Montante do imposto que foi deduzido anteriormente."
+    },
+    "GrossAmount": {
+      "definition": "Montante de numerário antes de efetuadas quaisquer deduções e abatimentos."
+    },
+    "NetAmount": {
+      "definition": "Montante de numerário depois de efetuadas quaisquer deduções e abatimentos."
+    },
+    "RecordDateHolding": {
+      "definition": "Posição em valores mobiliários na data de registo."
+    },
+    "TaxCreditRate": {
+      "definition": "Taxa de imposto aplicável ao montante do crédito de imposto."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Montante de numerário que será retido por uma autoridade fiscal."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Taxa de uma distribuição em numerário que será retida por uma autoridade fiscal."
+    },
+    "ScripDividendReinvestmentPricePerShare": {
+      "definition": "Custo por ação das novas ações atribuídas."
+    },
+    "CashAmountBroughtForward": {
+      "definition": "Montante de numerário retido de um pagamento anterior de dividendos ou juros."
+    },
+    "AllotedSharesCost": {
+      "definition": "Montante total de numerário necessário para adquirir as ações atribuídas."
+    },
+    "CashAmountCarriedForward": {
+      "definition": "Montante de numerário transitado para o pagamento seguinte de dividendos ou juros."
+    },
+    "NotionalTax": {
+      "definition": "Quando são emitidos novos valores mobiliários em substituição de um dividendo em numerário, o imposto nocional é o imposto sobre o montante de numerário que teria sido pago. Apenas para scrips."
+    },
+    "NotionalDividendPayable": {
+      "definition": "Montante de numerário que teria sido pagável se o dividendo tivesse sido recebido em numerário e não em ações. Apenas para scrip."
+    },
+    "BargainDate": {
+      "definition": "Data em que a compra DRIP foi concluída."
+    },
+    "BargainSettlementDate": {
+      "definition": "Data de liquidação da operação de compra DRIP."
+    },
+    "StampDutyAmount": {
+      "definition": "Montante do imposto do selo."
+    },
+    "ChargeAmount": {
+      "definition": "Montante dos encargos/comissões cobrados ao cliente."
+    },
+    "CommissionAmount": {
+      "definition": "Montante devido ao agente pagador."
+    },
+    "ForeignExchangeDetails": {
+      "definition": "Fornece informações sobre a operação cambial."
+    }
+  },
+  "isoRules": {
+    "TaxCreditOrTaxDeductionRule": {
+      "definition": "Tem de estar presente TaxCredit ou TaxDeduction."
+    },
+    "TaxCreditOrTaxDeductionRuleNotBoth": {
+      "definition": "Tem de estar presente TaxCredit ou TaxDeduction."
+    }
+  }
+}

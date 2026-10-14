@@ -1,0 +1,17 @@
+{
+  "isoType": "Vote18Choice",
+  "definition": "Determina a forma como as instruções de voto são especificadas.",
+  "isoElements": {
+    "VoteInstruction": {
+      "definition": "Instrução que especifica a quantidade instruída de direitos de voto por deliberação."
+    },
+    "GlobalVoteInstruction": {
+      "definition": "Instrução que especifica uma instrução de voto por deliberação para a totalidade do direito."
+    }
+  },
+  "isoRules": {
+    "InFavourListingGroup1Rule": {
+      "definition": "Se duas ou mais ocorrências do elemento VoteInstruction/ListingGroupResolutionLabel tiverem exatamente o mesmo valor textual, então apenas uma única ocorrência da sequência VoteInstruction entre essas ocorrências pode ter o elemento “For” (voto a favor) presente."
+    }
+  }
+}

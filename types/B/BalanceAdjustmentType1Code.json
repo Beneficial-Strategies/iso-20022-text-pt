@@ -1,0 +1,18 @@
+{
+  "isoType": "BalanceAdjustmentType1Code",
+  "definition": "Define o tipo de ajuste de saldo permitido.",
+  "isoCodes": {
+    "LDGR": {
+      "name": "Contabilístico",
+      "definition": "O ajuste aplica-se ao saldo médio contabilístico (de livro)."
+    },
+    "FLOT": {
+      "name": "Flutuante",
+      "definition": "O ajuste aplica-se ao saldo médio de flutuação (indisponível)."
+    },
+    "CLLD": {
+      "name": "Cobrado",
+      "definition": "O ajuste aplica-se ao saldo médio cobrado (saldo contabilístico menos flutuação)."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "isoType": "PowerOfAttorneyRequirements4",
+  "definition": "Condições para obter a procuração.",
+  "isoElements": {
+    "LegalRequirement": {
+      "definition": "Autoridade que deve validar a procuração."
+    },
+    "OtherDocumentation": {
+      "definition": "Documentos necessários para obter uma procuração válida."
+    },
+    "DocumentSubmissionDeadline": {
+      "definition": "Data até à qual os documentos solicitados devem ser fornecidos."
+    }
+  },
+  "isoRules": {
+    "OtherDocumentation1Guideline": {
+      "definition": "Se forem anunciados prazos específicos para a procuração, recomenda-se a utilização de OtherDocumentation."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventStatus1",
+  "definition": "Processo de notificação de uma operação de sociedade futura. Fornece os detalhes da operação de sociedade, incluindo as diferentes opções.",
+  "isoElements": {
+    "EventCompletenessStatus": {
+      "definition": "Indica se os detalhes fornecidos sobre um evento estão completos ou incompletos."
+    },
+    "EventConfirmationStatus": {
+      "definition": "Indica o estado da ocorrência de um evento."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "isoType": "FIToFIPaymentReversalV14",
+  "definition": "Âmbito|A mensagem FinancialInstitutionToFinancialInstitutionPaymentReversal é enviada por um agente à parte seguinte na cadeia de pagamento. É utilizada para reverter um pagamento previamente executado.|Utilização|A mensagem FIToFIPaymentReversal é trocada entre agentes para reverter uma mensagem de pagamento que foi liquidada. O resultado será um crédito na conta do devedor (quando o pagamento revertido era um débito direto) ou um débito na conta do credor (quando o pagamento revertido era uma transferência a crédito).|A mensagem FIToFIPaymentReversal pode ou não ser o seguimento de uma mensagem de pagamento.|A mensagem FIToFIPaymentReversal refere-se à mensagem de pagamento original apenas por meio de referências ou por meio de referências e de um conjunto de elementos da instrução original.|A mensagem FIToFIPaymentReversal pode ser utilizada em cenários nacionais e transfronteiriços.",
+  "isoRules": {
+    "GroupReversalAndTransactionInformationNotPresentRule": {
+      "definition": "Se GroupHeader/GroupReversal for verdadeiro, TransactionInformation não é permitido."
+    },
+    "GroupReversalAndTransactionInformationPresentRule": {
+      "definition": "Se GroupHeader/GroupReversal for falso, tem de estar presente pelo menos uma ocorrência de TransactionInformation."
+    },
+    "GroupReversalAndReasonRule": {
+      "definition": "Se GroupHeader/GroupReversal for verdadeiro, OriginalGroupInformation/ReversalReasonInformation/Reason tem de estar presente."
+    },
+    "InstructedAgentRule": {
+      "definition": "Se GroupHeader/InstructedAgent estiver presente, TransactionInformation/InstructedAgent não é permitido."
+    },
+    "InstructingAgentRule": {
+      "definition": "Se GroupHeader/InstructingAgent estiver presente, TransactionInformation/InstructingAgent não é permitido."
+    },
+    "GroupHeaderInterbankSettlementDateRule": {
+      "definition": "Se GroupHeader/InterbankSettlementDate estiver presente, TransactionInformation/InterbankSettlementDate não é permitido."
+    },
+    "TransactionInterbankSettlementDateRule": {
+      "definition": "Se GroupHeader/InterbankSettlementDate não estiver presente, TransactionInformation/InterbankSettlementDate tem de estar presente."
+    },
+    "GroupReversalAndNumberOfTransactionsRule": {
+      "definition": "Se GroupHeader/GroupReversal for falso, GroupHeader/NumberOfTransactions tem de ser igual ao número de ocorrências de TransactionInformation."
+    },
+    "TotalReversedInterbankSettlementAmountRule": {
+      "definition": "Se GroupHeader/TotalReversedInterbankSettlementAmount estiver presente, todas as ocorrências de TransactionInformation/ReversedInterbankSettlementAmount têm de ter a mesma moeda que GroupHeader/TotalReversedInterbankSettlementAmount."
+    },
+    "TotalReversedInterbankSettlementAmountAndSumRule": {
+      "definition": "GroupHeader/TotalReversedInterbankSettlementAmount tem de ser igual à soma de todas as ocorrências individuais de TransactionInformation/ReversedInterbankSettlementAmount, quando presente."
+    },
+    "NoCoverSettlementMethodRule": {
+      "definition": "GroupHeader/SettlementInformation/SettlementMethod tem de ser diferente de COVE (Cover) na reversão de operações de débito direto."
+    },
+    "SupplementaryDataRule": {
+      "definition": "O bloco SupplementaryData ao nível da mensagem não pode ser utilizado para fornecer informações adicionais sobre uma operação. O elemento SupplementaryData ao nível da operação deve ser utilizado para esse efeito."
+    },
+    "OriginalGroupInformationRule": {
+      "definition": "Se OriginalGroupInformation estiver presente, TransactionInformation/OriginalGroupInformation não é permitido."
+    }
+  }
+}

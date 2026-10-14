@@ -1,0 +1,21 @@
+{
+  "isoType": "CashAccount38",
+  "definition": "Fornece os dados para identificar uma conta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "Type": {
+      "definition": "Especifica a natureza ou a utilização da conta."
+    },
+    "Currency": {
+      "definition": "Identificação da moeda em que a conta é mantida. ||Utilização: a moeda só deve ser utilizada no caso de um mesmo número de conta abranger várias moedas|e a parte iniciadora necessitar de identificar a moeda a utilizar para a liquidação na conta."
+    },
+    "Name": {
+      "definition": "Nome da conta, atribuído pela instituição gestora da conta, de acordo com o titular da conta, para fornecer um meio adicional de identificação da conta.||Utilização: o nome da conta é diferente do nome do titular da conta. O nome da conta é utilizado em certas comunidades de utilizadores para identificar a conta, para além da identidade do titular e do número da conta."
+    },
+    "Proxy": {
+      "definition": "Especifica um nome alternativo presumido para a identificação da conta."
+    }
+  }
+}

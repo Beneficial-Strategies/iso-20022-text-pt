@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason77Code",
+  "definition": "Especifica o motivo pelo qual o pedido tem um estado de rejeitado ou de reparação.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Rejeição da conta de guarda",
+      "definition": "Conta de custódia do remetente da mensagem não reconhecida ou inválida."
+    },
+    "DSEC": {
+      "name": "Valor mobiliário inválido",
+      "definition": "Identificação do instrumento financeiro não reconhecida ou inválida."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "REFE": {
+      "name": "Rejeição por referência",
+      "definition": "A instrução tem uma referência idêntica à de outra instrução recebida anteriormente."
+    },
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "MISM": {
+      "name": "Pedido inválido",
+      "definition": "O pedido de aviso de extrato/estado não pode ser executado. O tipo de mensagem solicitado não é válido para a referência da mensagem ou para o período do extrato em causa."
+    }
+  }
+}

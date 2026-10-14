@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentMethod3Choice",
+  "definition": "Método de pagamento para a remessa do CSD ou do NCB à parte que emite a fatura.",
+  "isoElements": {
+    "Code": {
+      "definition": "Método de pagamento para a remessa do CSD ou do NCB à parte que emite a fatura, em formato codificado."
+    },
+    "Proprietary": {
+      "definition": "Método de pagamento para a remessa do CSD ou do NCB à parte que emite a fatura, em formato de texto livre proprietário."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesPaymentStatus5Choice",
+  "definition": "Escolha do formato do estado de pagamento de um valor mobiliário num determinado momento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estado de pagamento dos valores mobiliários expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Estado de pagamento dos valores mobiliários expresso como um código proprietário."
+    }
+  }
+}

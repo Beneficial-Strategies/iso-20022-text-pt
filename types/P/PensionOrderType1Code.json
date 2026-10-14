@@ -1,0 +1,14 @@
+{
+  "isoType": "PensionOrderType1Code",
+  "definition": "Especifica um tipo de ordem associada a uma pensão.",
+  "isoCodes": {
+    "EARM": {
+      "name": "Reserva",
+      "definition": "A apólice, o plano ou o regime de pensões foi reservado (posto de parte)."
+    },
+    "SHAR": {
+      "name": "Partilha",
+      "definition": "Foi emitida por um tribunal uma ordem de partilha relativa à apólice, ao plano ou ao regime de pensões."
+    }
+  }
+}

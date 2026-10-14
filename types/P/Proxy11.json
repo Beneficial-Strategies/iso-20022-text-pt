@@ -1,0 +1,12 @@
+{
+  "isoType": "Proxy11",
+  "definition": "Identificação de um representante nomeado para representar uma parte autorizada a votar numa assembleia de acionistas.",
+  "isoElements": {
+    "ProxyType": {
+      "definition": "Tipo de representante."
+    },
+    "PersonDetails": {
+      "definition": "Pessoa, que não o presidente da assembleia, designada pelo detentor de valores mobiliários como representante."
+    }
+  }
+}

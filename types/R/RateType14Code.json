@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType14Code",
+  "definition": "Especifica o tipo de taxa.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "A taxa é desconhecida do remetente ou não foi estabelecida."
+    },
+    "JLID": {
+      "name": "Critério do emitente",
+      "definition": "Indica que não existirá uma taxa de rateio uniforme aplicável a todas as instruções ou contas."
+    }
+  }
+}

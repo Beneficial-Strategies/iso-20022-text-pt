@@ -1,0 +1,12 @@
+{
+  "isoType": "DocumentIdentification3Choice",
+  "definition": "Escolha entre uma identificação de documento fornecida pelo titular da conta ou pela entidade gestora da conta.",
+  "isoElements": {
+    "AccountServicerDocumentIdentification": {
+      "definition": "Identificação do documento atribuída pela entidade gestora da conta."
+    },
+    "AccountOwnerDocumentIdentification": {
+      "definition": "Identificação do documento atribuída pelo titular da conta."
+    }
+  }
+}

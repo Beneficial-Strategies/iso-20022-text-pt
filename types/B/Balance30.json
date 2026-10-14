@@ -1,0 +1,23 @@
+{
+  "isoType": "Balance30",
+  "definition": "Relatório sobre a posição líquida de um valor mobiliário, numa única conta de valores mobiliários, numa determinada data.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "BalanceForAccount": {
+      "definition": "Relatório sobre a posição líquida de um valor mobiliário, numa única conta de valores mobiliários, numa determinada data."
+    },
+    "SubAccountDetails": {
+      "definition": "Subconta da conta de custódia ou de investimento."
+    },
+    "AccountBaseCurrencyTotalAmounts": {
+      "definition": "Montantes totais de avaliação indicados na moeda de base da conta."
+    }
+  },
+  "isoRules": {
+    "BalanceForAccountOrSubAccountRule": {
+      "definition": "BalanceForAccount tem de estar presente ou SubAccountDetails tem de estar presente, podendo ambos estar presentes."
+    }
+  }
+}

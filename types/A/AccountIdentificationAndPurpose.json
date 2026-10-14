@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentificationAndPurpose",
+  "definition": "Identificação da conta expressa com um número de conta e um código.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "Purpose": {
+      "definition": "Especifica a finalidade da conta."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PledgeInformation1",
+  "definition": "Informações sobre o penhor e o autor do penhor.",
+  "isoElements": {
+    "Pledger": {
+      "definition": "Entidade que fornece ativos a uma contraparte como garantia."
+    },
+    "ThirdParty": {
+      "definition": "Terceiro, normalmente um banco, envolvido no penhor."
+    },
+    "PledgeType": {
+      "definition": "Identifica o tipo de penhor."
+    },
+    "ReturnSecuritiesIndicator": {
+      "definition": "Indica se o autor do penhor tem direito de voto; caso contrário, o direito de voto pertence ao titular do direito."
+    }
+  }
+}

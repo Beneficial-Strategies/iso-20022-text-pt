@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingReason15",
+  "definition": "Especifica o motivo pelo qual a instrução ou o pedido tem o estado de liquidação em incumprimento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de incumprimento."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Fornece informações adicionais sobre o motivo que não podem ser fornecidas num campo estruturado."
+    }
+  }
+}

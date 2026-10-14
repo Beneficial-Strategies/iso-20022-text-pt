@@ -1,0 +1,30 @@
+{
+  "isoType": "CompanyLink1Code",
+  "definition": "Especifica o tipo de ligações a uma sociedade.",
+  "isoCodes": {
+    "AGEN": {
+      "name": "Agente",
+      "definition": "Agente autónomo acreditado pela corretora."
+    },
+    "BROK": {
+      "name": "Corretor",
+      "definition": "Empregado, operador ou agente da corretora."
+    },
+    "PART": {
+      "name": "Parceiro de corretagem",
+      "definition": "Parceiro ou acionista da corretora, pessoa singular ou entidade que exerce uma função de controlo direto ou indireto e titular de um cargo de gestão ou administração."
+    },
+    "MEMB": {
+      "name": "Corretor membro",
+      "definition": "Corretora membro de um conglomerado financeiro (a pessoa é membro do conselho, administrador, dirigente ou empregado de uma sociedade membro do conglomerado)."
+    },
+    "PCOM": {
+      "name": "Sociedade-mãe",
+      "definition": "Sociedade-mãe da corretora."
+    },
+    "RELA": {
+      "name": "Familiar",
+      "definition": "Cônjuge ou parceiro e filho de um empregado, operador ou agente da corretora; agente da corretora; parceiros ou acionistas da corretora; pessoa singular ou entidade que exerce uma função de controlo direto ou indireto e titular de um cargo de gestão ou administração."
+    }
+  }
+}

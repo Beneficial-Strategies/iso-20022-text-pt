@@ -1,0 +1,30 @@
+{
+  "isoType": "ServicePaymentMethod1Code",
+  "definition": "Define o método de pagamento do encargo do serviço.",
+  "isoCodes": {
+    "BCMP": {
+      "name": "Compensável com saldo",
+      "definition": "Permite ao banco compensar um encargo de serviço com os juros auferidos sobre o saldo da conta de depósito. Os encargos efetivos decorrentes de serviços compensáveis por saldo são sempre calculados e cobrados no final do mês. Utilizado nos EUA (USA)."
+    },
+    "FLAT": {
+      "name": "Cobrança efetiva",
+      "definition": "O encargo não é compensável por saldo e é devido. Na ausência de encargos compensáveis por saldo na Europa, este seria o código mais utilizado para serviços faturados no final do mês."
+    },
+    "PVCH": {
+      "name": "Cobrado anteriormente",
+      "definition": "O encargo foi previamente apurado e não faz parte do montante devido à data deste extrato. Este código é utilizado para encargos que foram debitados quando ocorreu o facto gerador."
+    },
+    "INVS": {
+      "name": "Faturado separadamente",
+      "definition": "O encargo foi previamente faturado e não faz parte do montante devido à data deste extrato. Este código é utilizado para encargos que foram faturados quando ocorreu o facto gerador."
+    },
+    "WVED": {
+      "name": "Dispensado",
+      "definition": "O encargo é dispensado e não é devido. O montante dispensado deve ser colocado no montante do encargo original."
+    },
+    "FREE": {
+      "name": "Gratuito",
+      "definition": "O serviço é gratuito para o cliente, sem encargo."
+    }
+  }
+}

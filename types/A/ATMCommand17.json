@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMCommand17",
+  "definition": "Comando de manutenção a executar num ATM.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comando a executar pelo ATM."
+    },
+    "Urgency": {
+      "definition": "Urgência do comando."
+    },
+    "DateTime": {
+      "definition": "Data e hora em que o comando deve ser executado."
+    },
+    "CommandIdentification": {
+      "definition": "Identificação da entidade que emite o comando."
+    },
+    "CommandParameters": {
+      "definition": "Parâmetros específicos associados ao comando."
+    }
+  }
+}

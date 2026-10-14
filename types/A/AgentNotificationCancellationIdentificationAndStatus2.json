@@ -1,0 +1,15 @@
+{
+  "isoType": "AgentNotificationCancellationIdentificationAndStatus2",
+  "definition": "Identificação e estado do pedido de cancelamento de notificação de ação societária enviado pelo agente.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única do documento."
+    },
+    "CreationDateTime": {
+      "definition": "Data/hora de criação do documento."
+    },
+    "Status": {
+      "definition": "Estado do pedido de cancelamento de ação societária enviado pelo agente."
+    }
+  }
+}

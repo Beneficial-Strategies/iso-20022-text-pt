@@ -1,0 +1,27 @@
+{
+  "isoType": "TrackerHeader5",
+  "definition": "Conjunto de características comuns a todas as operações individuais incluídas na mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte informadora do rastreador e enviada pelo rastreador para identificar de forma inequívoca a mensagem."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operações individuais contidas na mensagem."
+    },
+    "TrackerInformingParty": {
+      "definition": "Parte que fornece informações sobre o estado e os detalhes relacionados de uma operação."
+    },
+    "TrackerInformedParty": {
+      "definition": "Parte que é informada sobre o estado e os detalhes relacionados de uma operação."
+    },
+    "OriginalTrackerUpdate": {
+      "definition": "Referência original, atribuída pelo informador e enviada ao rastreador para identificar de forma inequívoca a mensagem de atualização do rastreador.||Utilização: este elemento só pode estar presente quando a notificação de alerta está relacionada com uma atualização do rastreador de estado de pagamento."
+    },
+    "ServiceLevel": {
+      "definition": "Acordo ou regras segundo os quais a atualização do rastreador deve ser processada."
+    }
+  }
+}

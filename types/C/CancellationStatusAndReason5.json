@@ -1,0 +1,24 @@
+{
+  "isoType": "CancellationStatusAndReason5",
+  "definition": "Estado de uma instrução de cancelamento de transferência e motivo do estado.",
+  "isoElements": {
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de um grupo de transferências individuais, atribuído pela parte ordenante. Este identificador associa as transferências individuais entre si."
+    },
+    "TransferReference": {
+      "definition": "Identificação única e inequívoca da transferência, atribuída pela parte ordenante."
+    },
+    "ClientReference": {
+      "definition": "Identificação única e inequívoca da transferência pelo investidor. Esta referência pode normalmente ser utilizada num cenário de plataforma central (hub) para indicar a referência da transferência atribuída pelo cliente subjacente."
+    },
+    "CancellationReference": {
+      "definition": "Identificador único e inequívoco de um cancelamento de transferência, atribuído pela parte ordenante."
+    },
+    "Status": {
+      "definition": "Estado do cancelamento da transferência."
+    },
+    "StatusInitiator": {
+      "definition": "Parte que inicia o estado."
+    }
+  }
+}

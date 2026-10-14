@@ -1,0 +1,15 @@
+{
+  "isoType": "RepoCallRequestStatus7Choice",
+  "definition": "Escolha de formato para o reconhecimento do pedido de resgate de acordo de recompra.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "A instrução foi confirmada pela instituição gestora da conta."
+    },
+    "Denied": {
+      "definition": "A instrução/pedido não será executado."
+    },
+    "Proprietary": {
+      "definition": "Estado proprietário."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "PartyType4Code",
+  "definition": "Entidade que atribui uma identificação (por exemplo, comerciante, aceitante, adquirente, autoridade fiscal, etc.).",
+  "isoCodes": {
+    "MERC": {
+      "name": "Comerciante",
+      "definition": "Comerciante que fornece bens e serviços na operação de pagamento com cartão."
+    },
+    "ACCP": {
+      "name": "Aceitante",
+      "definition": "Aceitante do cartão, parte que aceita o cartão e apresenta os dados da operação ao adquirente."
+    },
+    "ITAG": {
+      "name": "Instituição intermediária",
+      "definition": "Parte que atua em nome de outras partes para processar ou reencaminhar dados para outras partes."
+    },
+    "ACQR": {
+      "name": "Adquirente",
+      "definition": "Entidade que adquire operações com cartão."
+    },
+    "CISS": {
+      "name": "Emitente do cartão",
+      "definition": "Parte que emite cartões."
+    },
+    "TAXH": {
+      "name": "Autoridade fiscal",
+      "definition": "Autoridade fiscal."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "SystemClosureReason1Code",
+  "definition": "Especifica o motivo da inatividade do sistema.",
+  "isoCodes": {
+    "BHOL": {
+      "name": "Feriado bancário",
+      "definition": "O sistema está encerrado devido a um feriado bancário."
+    },
+    "SMTN": {
+      "name": "Manutenção do sistema",
+      "definition": "O sistema está encerrado por motivos de manutenção."
+    },
+    "NOOP": {
+      "name": "Sem operação",
+      "definition": "O sistema não está a processar nenhuma operação."
+    },
+    "RCVR": {
+      "name": "Recuperação",
+      "definition": "O sistema não está operacional durante operações de recuperação."
+    },
+    "ADTW": {
+      "name": "Janela de indisponibilidade permitida",
+      "definition": "O sistema não está operacional durante as janelas de indisponibilidade permitidas."
+    }
+  }
+}

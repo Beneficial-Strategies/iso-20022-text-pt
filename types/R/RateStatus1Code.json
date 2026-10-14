@@ -1,0 +1,14 @@
+{
+  "isoType": "RateStatus1Code",
+  "definition": "Especifica o tipo de taxa.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Taxa real",
+      "definition": "A taxa é efetiva."
+    },
+    "INDI": {
+      "name": "Taxa indicativa",
+      "definition": "A taxa é indicativa."
+    }
+  }
+}

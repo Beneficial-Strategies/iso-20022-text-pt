@@ -1,0 +1,12 @@
+{
+  "isoType": "Rate4",
+  "definition": "Conjunto de elementos utilizados para qualificar a taxa de juro.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo de taxa de juro."
+    },
+    "ValidityRange": {
+      "definition": "Intervalo de montantes em que a taxa de juro é aplicável."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CopyDuplicate1Code",
+  "definition": "Especifica se este documento é uma cópia, um duplicado ou um duplicado de uma cópia.",
+  "isoCodes": {
+    "CODU": {
+      "name": "Cópia e duplicado",
+      "definition": "A mensagem é enviada como cópia a uma parte que não o titular da conta, para fins informativos, e é um duplicado de uma mensagem enviada anteriormente."
+    },
+    "COPY": {
+      "name": "Cópia",
+      "definition": "A mensagem é enviada como cópia a uma parte que não o titular da conta, para fins informativos."
+    },
+    "DUPL": {
+      "name": "Duplicado",
+      "definition": "A mensagem destina-se a fins de informação/confirmação. É um duplicado de uma mensagem enviada anteriormente."
+    }
+  }
+}

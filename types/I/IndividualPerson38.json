@@ -1,0 +1,69 @@
+{
+  "isoType": "IndividualPerson38",
+  "definition": "Entidade humana, por oposição a uma entidade coletiva (por vezes designada «pessoa artificial»).",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Termo utilizado para tratar a pessoa."
+    },
+    "GivenName": {
+      "definition": "Nome próprio da pessoa."
+    },
+    "MiddleName": {
+      "definition": "Segundo nome da pessoa."
+    },
+    "Name": {
+      "definition": "Nome pelo qual a parte é conhecida e que é normalmente utilizado para identificar essa pessoa."
+    },
+    "NameSuffix": {
+      "definition": "Informações adicionais sobre a pessoa que se seguem ao nome da pessoa, por exemplo, uma qualificação como o doutoramento (PhD)."
+    },
+    "Gender": {
+      "definition": "Género da pessoa."
+    },
+    "BirthDate": {
+      "definition": "Data em que a pessoa nasceu."
+    },
+    "CountryOfBirth": {
+      "definition": "País onde a pessoa nasceu."
+    },
+    "ProvinceOfBirth": {
+      "definition": "Província onde a pessoa nasceu."
+    },
+    "CityOfBirth": {
+      "definition": "Cidade onde a pessoa nasceu."
+    },
+    "Profession": {
+      "definition": "Nome da ocupação ou profissão da pessoa."
+    },
+    "ModifiedPostalAddress": {
+      "definition": "Informações relativas a uma morada a inserir, atualizar ou eliminar."
+    },
+    "ModifiedCitizenship": {
+      "definition": "Informações de nacionalidade a inserir ou eliminar."
+    },
+    "EmployingCompany": {
+      "definition": "Organização representada por uma pessoa, ou para a qual uma pessoa trabalha."
+    },
+    "BusinessFunction": {
+      "definition": "Título da função."
+    },
+    "PoliticallyExposedPerson": {
+      "definition": "Verificações de pessoa politicamente exposta."
+    },
+    "DeathDate": {
+      "definition": "Data de óbito."
+    },
+    "CivilStatus": {
+      "definition": "Estado civil da pessoa singular."
+    },
+    "EducationLevel": {
+      "definition": "Nível de ensino mais elevado atingido pela pessoa singular."
+    },
+    "FamilyInformation": {
+      "definition": "Informações relativas à pessoa."
+    },
+    "GDPRData": {
+      "definition": "Informações sobre o consentimento do particular para a utilização de dados pessoais ao abrigo do Regulamento Geral sobre a Proteção de Dados (GDPR) 2016/679."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalMandateSuspensionReason1Code",
+  "definition": "Especifica o código externo do motivo da suspensão do mandato, sob a forma de uma cadeia de caracteres com um máximo de 4 caracteres.|A lista de códigos válidos é uma lista externa de códigos publicada em separado.|As listas externas de códigos podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "CTAM": {
+      "name": "Contrato alterado",
+      "definition": "Mandato suspenso devido à alteração do contrato."
+    },
+    "CTCA": {
+      "name": "Cancelamento do contrato iniciado pelo devedor",
+      "definition": "Mandato suspenso devido à anulação do contrato, solicitada pelo devedor."
+    },
+    "CTEX": {
+      "name": "Contrato expirado",
+      "definition": "Mandato suspenso devido à caducidade do contrato."
+    },
+    "MCFC": {
+      "name": "Mandato suspenso, cobrança final",
+      "definition": "Mandato suspenso por ter ocorrido a cobrança final."
+    },
+    "MCOC": {
+      "name": "Mandato suspenso, cobrança única",
+      "definition": "Mandato suspenso por ter ocorrido a cobrança única."
+    },
+    "MSUC": {
+      "name": "Mandato suspenso após 7 cobranças consecutivas sem êxito",
+      "definition": "Mandato suspenso após 7 cobranças consecutivas sem êxito."
+    }
+  }
+}

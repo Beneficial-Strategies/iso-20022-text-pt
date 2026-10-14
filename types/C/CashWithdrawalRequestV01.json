@@ -1,0 +1,4 @@
+{
+  "isoType": "CashWithdrawalRequestV01",
+  "definition": "A mensagem CashWithdrawalRequest é enviada por um destinatário de numerário a um remetente de numerário para solicitar que o numerário seja levantado de uma conta."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementStatus25Choice",
+  "definition": "Escolha do formato do estado de liquidação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Indica o estado de liquidação de uma instrução/movimento de instrumento financeiro."
+    },
+    "Proprietary": {
+      "definition": "Indica o estado de liquidação de uma instrução/movimento de instrumento financeiro."
+    }
+  }
+}

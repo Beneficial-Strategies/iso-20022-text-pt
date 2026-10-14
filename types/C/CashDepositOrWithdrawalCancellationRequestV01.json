@@ -1,0 +1,4 @@
+{
+  "isoType": "CashDepositOrWithdrawalCancellationRequestV01",
+  "definition": "A mensagem CashDepositOrWithdrawalCancellationRequest solicita o cancelamento de um pedido de depósito de numerário ou de um pedido de levantamento de numerário.|Quando solicita o cancelamento de um pedido de depósito de numerário, é enviada por um destinatário de numerário a um remetente de numerário.|Quando solicita o cancelamento de um pedido de levantamento de numerário, é enviada por um remetente de numerário a um destinatário de numerário."
+}

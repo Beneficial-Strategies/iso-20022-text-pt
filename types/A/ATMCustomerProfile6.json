@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMCustomerProfile6",
+  "definition": "Perfil do cliente selecionado por um ATM.",
+  "isoElements": {
+    "RetrievalMode": {
+      "definition": "Descreve a forma principal como as informações do cliente foram recolhidas para construir o menu do cliente e prestar o serviço."
+    },
+    "ProfileReference": {
+      "definition": "Referência do perfil do cliente."
+    },
+    "CustomerIdentification": {
+      "definition": "Identificação do cliente junto do banco."
+    },
+    "PreferredLanguage": {
+      "definition": "Idioma selecionado pelo cliente e armazenado pelo emitente para ser utilizado em futuras sessões do cliente. O PreferredLanguage pode ser obtido enviando um ATMInquiryRequest ao emitente. Referência ISO 639-1 (alpha-2) e ISO 639-2 (alpha-3)."
+    }
+  }
+}

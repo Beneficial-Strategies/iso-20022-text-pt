@@ -1,0 +1,44 @@
+{
+  "isoType": "UnderlyingPaymentInstruction9",
+  "definition": "Fornece detalhes adicionais sobre a iniciação de pagamento original a que se refere a mensagem de investigação.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Conjunto de elementos utilizados para fornecer informações sobre a mensagem original."
+    },
+    "OriginalPaymentInformationIdentification": {
+      "definition": "Identificação única, atribuída pela parte emissora original, para identificar inequivocamente o grupo de informações de pagamento original."
+    },
+    "OriginalInstructionIdentification": {
+      "definition": "Identificação única, atribuída pela parte instrutora original à parte instruída original, para identificar inequivocamente a instrução original."
+    },
+    "OriginalEndToEndIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora original, para identificar inequivocamente a operação original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador único universal para indicar a referência ponta a ponta original de uma operação de pagamento."
+    },
+    "OriginalInstructedAmount": {
+      "definition": "Montante, tal como indicado na operação original, a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora original."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Data em que a parte iniciadora solicita à instituição de compensação que processe o pagamento. |Utilização: Esta é a data em que a conta do devedor deve ser debitada. Se o pagamento for por cheque, é a data em que o cheque deve ser emitido pelo banco."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Data em que o credor solicita que o montante seja cobrado ao devedor."
+    },
+    "OriginalTransactionReference": {
+      "definition": "Elementos principais utilizados para identificar a operação original a que se faz referência."
+    },
+    "OriginalServiceLevel": {
+      "definition": "Acordo ou regras ao abrigo dos quais a operação deve ser processada."
+    }
+  },
+  "isoRules": {
+    "OriginalIdentificationRule": {
+      "definition": "Tem de estar presente OriginalInstructionIdentification, OriginalEndToEndIdentification ou OriginalUETR."
+    },
+    "OriginalRequestedDateRule": {
+      "definition": "Tem de estar presente RequestedExecutionDate ou RequestedCollectionDate."
+    }
+  }
+}

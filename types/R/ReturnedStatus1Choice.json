@@ -1,0 +1,12 @@
+{
+  "isoType": "ReturnedStatus1Choice",
+  "definition": "Escolha entre um motivo e nenhum motivo para o estado devolvido do processamento da instrução relativa à operação sobre títulos.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Motivo não especificado."
+    },
+    "Reason": {
+      "definition": "Motivo pelo qual a mensagem de instrução de assembleia ou a instrução de assembleia individual é devolvida."
+    }
+  }
+}

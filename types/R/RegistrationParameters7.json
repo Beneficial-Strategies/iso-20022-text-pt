@@ -1,0 +1,18 @@
+{
+  "isoType": "RegistrationParameters7",
+  "definition": "Informações relativas ao registo de valores mobiliários.",
+  "isoElements": {
+    "CertificationIdentification": {
+      "definition": "Identificação atribuída a um depósito."
+    },
+    "CertificationDateTime": {
+      "definition": "Data/hora em que os certificados do depósito foram validados pelo agente."
+    },
+    "RegistrarAccount": {
+      "definition": "Conta junto do registador onde os instrumentos financeiros estão registados."
+    },
+    "CertificateNumber": {
+      "definition": "Identificador único e inequívoco de um certificado atribuído pelo emitente."
+    }
+  }
+}

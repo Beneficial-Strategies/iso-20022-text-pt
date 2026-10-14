@@ -1,0 +1,12 @@
+{
+  "isoType": "Party56Choice",
+  "definition": "Natureza ou utilização da conta.",
+  "isoElements": {
+    "OrganisationIdentification": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    },
+    "FinancialInstitutionIdentification": {
+      "definition": "Identificação única e inequívoca de uma instituição financeira."
+    }
+  }
+}

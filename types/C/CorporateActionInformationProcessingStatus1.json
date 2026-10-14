@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionInformationProcessingStatus1",
+  "definition": "Fornece as informações sobre o estado de processamento de um aviso de informação.",
+  "isoElements": {
+    "Status": {
+      "definition": "O estado de processamento."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o estado."
+    }
+  }
+}

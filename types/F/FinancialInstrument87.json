@@ -1,0 +1,56 @@
+{
+  "isoType": "FinancialInstrument87",
+  "definition": "Valor mobiliário que é um subconjunto de um fundo de investimento e é regido pela mesma política do fundo de investimento, por exemplo, opção de dividendos ou moeda de avaliação.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação do valor mobiliário através de um ISIN."
+    },
+    "Name": {
+      "definition": "Nome do instrumento financeiro em texto de formato livre."
+    },
+    "ShortName": {
+      "definition": "Financial Instrument Short Name (FISN) expresso em conformidade com a norma ISO 18774."
+    },
+    "SupplementaryIdentification": {
+      "definition": "Informações adicionais sobre o instrumento financeiro que ajudam a identificá-lo."
+    },
+    "ClassType": {
+      "definition": "Caraterísticas das unidades oferecidas pelo fundo. Por exemplo, uma unidade pode ter uma estrutura de comissões específica, por exemplo, de entrada ou de saída, uma política de rendimentos, por exemplo, distribuição ou capitalização, ou uma política de comissões de gestão contínuas, por exemplo, com ou sem. As classes de fundos são normalmente designadas por um único caráter, por exemplo, 'Classe A', 'Classe 2'."
+    },
+    "SecuritiesForm": {
+      "definition": "Forma, isto é, titularidade, do valor mobiliário, isto é, nominativo ou ao portador."
+    },
+    "DistributionPolicy": {
+      "definition": "Política de rendimentos relativa ao tipo de classe, isto é, se os rendimentos são distribuídos ou retidos no fundo."
+    },
+    "ProductGroup": {
+      "definition": "Descrição, específica da sociedade, de um grupo de fundos."
+    },
+    "BlockedHoldingDetails": {
+      "definition": "Quando uma conta ao nível do fundo ou do valor mobiliário está bloqueada, especifica pormenores sobre a forma como a posição está bloqueada."
+    },
+    "Pledging": {
+      "definition": "Especifica se as posições na conta são elegíveis para penhor."
+    },
+    "Collateral": {
+      "definition": "Especifica se as posições na conta são utilizadas como garantia."
+    },
+    "ThirdPartyRights": {
+      "definition": "Pormenores dos direitos de terceiros."
+    },
+    "FundOwnership": {
+      "definition": "Especifica se todas as ações pertencem exclusivamente à sociedade do fundo."
+    },
+    "FundIntention": {
+      "definition": "Especifica se o fundo se destina a investidores qualificados."
+    },
+    "OperationalStatus": {
+      "definition": "Estado operacional do fundo."
+    }
+  },
+  "isoRules": {
+    "IdentificationGuideline": {
+      "definition": "Recomenda-se a utilização do ISIN em Identification.|Quando existe um código ISIN, é vivamente recomendado que seja utilizado o ISIN."
+    }
+  }
+}

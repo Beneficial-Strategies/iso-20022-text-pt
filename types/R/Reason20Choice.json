@@ -1,0 +1,50 @@
+{
+  "isoType": "Reason20Choice",
+  "definition": "Escolha do motivo.",
+  "isoElements": {
+    "RepoCallAcknowledgementReason": {
+      "definition": "Especifica informações adicionais sobre a confirmação de receção do pedido de reembolso antecipado do acordo de recompra."
+    },
+    "CancellationReason": {
+      "definition": "Especifica o motivo pelo qual a instrução associada é cancelada, ou o pedido de cancelamento associado é executado."
+    },
+    "PendingCancellationReason": {
+      "definition": "Especifica o motivo pelo qual o pedido de cancelamento está pendente."
+    },
+    "GeneratedReason": {
+      "definition": "Especifica o motivo pelo qual a operação foi gerada."
+    },
+    "DeniedReason": {
+      "definition": "Especifica o motivo pelo qual o pedido foi recusado."
+    },
+    "AcknowledgedAcceptedReason": {
+      "definition": "Especifica informações adicionais sobre a instrução processada."
+    },
+    "PendingReason": {
+      "definition": "Especifica o motivo pelo qual a instrução tem um estado pendente."
+    },
+    "FailingReason": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de liquidação em incumprimento."
+    },
+    "PendingProcessingReason": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de processamento pendente."
+    },
+    "RejectionReason": {
+      "definition": "Especifica o motivo pelo qual a instrução/o pedido tem o estado de rejeitado."
+    },
+    "RepairReason": {
+      "definition": "Especifica o motivo pelo qual a instrução está em reparação."
+    },
+    "PendingModificationReason": {
+      "definition": "Especifica o motivo pelo qual o pedido de modificação está pendente."
+    },
+    "UnmatchedReason": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de sem correspondência."
+    }
+  },
+  "isoRules": {
+    "ReasonRule": {
+      "definition": "Se for solicitado o motivo, este tem de estar em conformidade com os motivos disponíveis para o tipo de mensagem solicitado."
+    }
+  }
+}

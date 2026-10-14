@@ -1,0 +1,12 @@
+{
+  "isoType": "LotteryTypeFormat5Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o tipo de sorteio.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de sorteio anunciado."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de sorteio anunciado."
+    }
+  }
+}

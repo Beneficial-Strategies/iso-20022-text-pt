@@ -1,0 +1,32 @@
+{
+  "isoType": "CorporateActionGeneralInformation175",
+  "definition": "Informações gerais sobre o evento de operação sobre valores mobiliários.",
+  "isoElements": {
+    "AgentIdentification": {
+      "definition": "Identificação da parte nomeada para administrar o evento em nome da sociedade emitente/ofertante."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Referência atribuída pela instituição gestora da conta para identificar inequivocamente um evento de operação sobre títulos."
+    },
+    "OfficialCorporateActionEventIdentification": {
+      "definition": "Referência oficial e única atribuída pelo organismo/entidade central oficial de cada mercado no início de um evento de operação sobre títulos."
+    },
+    "EventProcessingType": {
+      "definition": "Tipo de tratamento envolvido numa operação sobre valores mobiliários."
+    },
+    "EventType": {
+      "definition": "Tipo de evento de operação sobre títulos."
+    },
+    "MandatoryVoluntaryEventType": {
+      "definition": "Especifica se o evento é obrigatório, obrigatório com opções ou voluntário."
+    },
+    "UnderlyingSecurity": {
+      "definition": "Valor mobiliário abrangido pela operação sobre valores mobiliários."
+    }
+  },
+  "isoRules": {
+    "OfficialCorporateActionEventReference": {
+      "definition": "O Securities Market Practice Group (SMPG) publicou recomendações de prática de mercado sobre a estrutura e a utilização da referência oficial do evento de operação sobre valores mobiliários (COAF). Estas recomendações estão disponíveis no documento SMPG Global Market Practices Part 1 em www.smpg.info."
+    }
+  }
+}

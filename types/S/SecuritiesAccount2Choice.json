@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAccount2Choice",
+  "definition": "Especifica uma conta de valores mobiliários ou um intervalo de contas de valores mobiliários.",
+  "isoElements": {
+    "Range": {
+      "definition": "Intervalo de identificações das contas de valores mobiliários."
+    },
+    "Account": {
+      "definition": "Identificação única da conta de valores mobiliários."
+    }
+  }
+}

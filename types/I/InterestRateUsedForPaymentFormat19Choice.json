@@ -1,0 +1,15 @@
+{
+  "isoType": "InterestRateUsedForPaymentFormat19Choice",
+  "definition": "Escolha entre um montante ou uma taxa.",
+  "isoElements": {
+    "Rate": {
+      "definition": "O valor é expresso como uma taxa."
+    },
+    "Amount": {
+      "definition": "Número de unidades monetárias especificado numa moeda."
+    },
+    "RateTypeAndAmountAndRateStatus": {
+      "definition": "Especifica diferentes formatos para a taxa de juro utilizada para o pagamento."
+    }
+  }
+}

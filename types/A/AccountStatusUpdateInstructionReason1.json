@@ -1,0 +1,17 @@
+{
+  "isoType": "AccountStatusUpdateInstructionReason1",
+  "definition": "Motivo de uma atualização do estado de uma conta.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo da instrução de alteração do estado da conta."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o motivo da instrução de alteração do estado da conta."
+    }
+  },
+  "isoRules": {
+    "ReasonElementRule": {
+      "definition": "Ou Code ou AdditionalInformation tem de estar presente. Ambos podem estar presentes."
+    }
+  }
+}

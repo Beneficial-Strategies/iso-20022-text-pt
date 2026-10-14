@@ -1,0 +1,15 @@
+{
+  "isoType": "DateTimePeriod1Choice",
+  "definition": "Escolha entre vários padrões de data e hora.",
+  "isoElements": {
+    "FromDateTime": {
+      "definition": "Data e hora em que o intervalo começa."
+    },
+    "ToDateTime": {
+      "definition": "Data e hora em que o intervalo termina."
+    },
+    "DateTimeRange": {
+      "definition": "Intervalo de tempo entre uma data e hora de início e uma data e hora de fim."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "isoType": "CurrencyExchange20",
+  "definition": "Informações necessárias para processar uma troca ou conversão de moeda.",
+  "isoElements": {
+    "ExchangeRate": {
+      "definition": "O valor de uma moeda expresso em relação a outra moeda. ExchangeRate exprime a razão entre UnitCurrency e QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "QuotedCurrency": {
+      "definition": "Moeda para a qual a moeda de base é convertida, numa troca de moeda."
+    },
+    "QuotationDate": {
+      "definition": "Data e hora em que uma taxa de câmbio é cotada."
+    },
+    "LowLimit": {
+      "definition": "Limite mais baixo definido para a taxa de câmbio.||Utilização: a autoridade monetária publica a taxa de câmbio com base no preço formado no mercado cambial, permitindo que esta flutue para cima e para baixo dentro da banda de flutuação prescrita. É a taxa de câmbio mais baixa suportada nas operações do mercado cambial."
+    },
+    "HighLimit": {
+      "definition": "Limite mais alto definido para a taxa de câmbio.||Utilização: a autoridade monetária publica a taxa de câmbio com base no preço formado no mercado cambial, permitindo que esta flutue para cima e para baixo dentro da banda de flutuação prescrita. É a taxa de câmbio mais alta suportada nas operações do mercado cambial."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "LimitJournalEntry3",
+  "definition": "As entradas do diário registam as alterações à utilização do limite. Existem entradas para toda a atividade que afeta o limite.",
+  "isoElements": {
+    "JournalDate": {
+      "definition": "Data e hora a que se aplica a entrada do diário do limite."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se a entrada é uma entrada de crédito ou de débito."
+    },
+    "Amount": {
+      "definition": "Montante em dinheiro de cada entrada que afeta o limite."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "TransactionIdentification": {
+      "definition": "Referência única, atribuída pela instituição titular da conta, para identificar inequivocamente a entrada."
+    },
+    "AccountServicerReference": {
+      "definition": "Referência única, atribuída pela instituição gestora da conta, para identificar inequivocamente a entrada."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador."
+    },
+    "AdditionalEntryInformation": {
+      "definition": "Detalhes adicionais do lançamento."
+    }
+  }
+}

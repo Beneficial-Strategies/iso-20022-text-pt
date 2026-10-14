@@ -1,0 +1,18 @@
+{
+  "isoType": "UnderlyingStatementEntry3",
+  "definition": "Fornece detalhes adicionais sobre o lançamento de extrato subjacente a que se refere a mensagem de investigação.",
+  "isoElements": {
+    "OriginalGroupInformation": {
+      "definition": "Conjunto de elementos utilizados para fornecer informações sobre a mensagem original."
+    },
+    "OriginalStatementIdentification": {
+      "definition": "Identificação única, atribuída pelo agente prestador de serviços de conta, para identificar inequivocamente o extrato original."
+    },
+    "OriginalEntryIdentification": {
+      "definition": "Identificação única original, atribuída pelo agente prestador de serviços de conta, para identificar inequivocamente o lançamento original."
+    },
+    "OriginalUETR": {
+      "definition": "Identificador único universal para indicar a referência ponta a ponta original de uma operação de pagamento."
+    }
+  }
+}

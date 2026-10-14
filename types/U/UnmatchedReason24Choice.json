@@ -1,0 +1,12 @@
+{
+  "isoType": "UnmatchedReason24Choice",
+  "definition": "Escolha do formato para o motivo de não correspondência do financiamento de valores mobiliários.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de sem correspondência."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de sem correspondência."
+    }
+  }
+}

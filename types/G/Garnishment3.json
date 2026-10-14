@@ -1,0 +1,30 @@
+{
+  "isoType": "Garnishment3",
+  "definition": "Fornece informações de remessa sobre um pagamento para fins relacionados com penhora.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo de penhora."
+    },
+    "Garnishee": {
+      "definition": "Parte final que deve um montante ao credor (final), neste caso, ao exequente da penhora."
+    },
+    "GarnishmentAdministrator": {
+      "definition": "Parte do lado do crédito da operação que administra a penhora em nome do beneficiário final."
+    },
+    "ReferenceNumber": {
+      "definition": "Informação de referência específica da entidade que recebe a penhora."
+    },
+    "Date": {
+      "definition": "Data do pagamento do qual foi efetuada a penhora."
+    },
+    "RemittedAmount": {
+      "definition": "Montante de dinheiro remetido para o documento referido."
+    },
+    "FamilyMedicalInsuranceIndicator": {
+      "definition": "Indica se a pessoa à qual se aplica a penhora (ou seja, o devedor final) dispõe de cobertura de seguro de saúde familiar."
+    },
+    "EmployeeTerminationIndicator": {
+      "definition": "Indica se o emprego da pessoa à qual se aplica a penhora (ou seja, o devedor final) cessou."
+    }
+  }
+}

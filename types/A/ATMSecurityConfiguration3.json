@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMSecurityConfiguration3",
+  "definition": "Configuração da cifra ou do envelope digital, se o módulo de segurança for capaz de efetuar cifras.",
+  "isoElements": {
+    "AsymmetricEncryption": {
+      "definition": "Verdadeiro se o módulo de segurança for capaz de efetuar cifras com uma chave assimétrica."
+    },
+    "AsymmetricKeyStandardIdentification": {
+      "definition": "Verdadeiro se o módulo de segurança for capaz de identificar uma chave assimétrica através do nome X.500 do emitente do certificado e do número de série do certificado. Falso se for exigido um identificador de chave assimétrica proprietário."
+    },
+    "AsymmetricEncryptionAlgorithm": {
+      "definition": "Algoritmo de cifra assimétrica que o módulo de segurança é capaz de gerir."
+    },
+    "SymmetricTransportKey": {
+      "definition": "Verdadeiro se o módulo de segurança for capaz de gerir uma chave de sessão de transporte simétrica para proteger chaves criptográficas e dados. Falso se apenas puder ser utilizada uma chave simétrica previamente trocada; nesse caso, é utilizado um identificador de chave simétrica proprietário."
+    },
+    "SymmetricTransportKeyAlgorithm": {
+      "definition": "Algoritmo de chave de sessão de transporte simétrica que o módulo de segurança é capaz de gerir."
+    },
+    "SymmetricEncryptionAlgorithm": {
+      "definition": "Algoritmo de cifra simétrica que o módulo de segurança é capaz de gerir."
+    },
+    "EncryptionFormat": {
+      "definition": "Formato dos dados antes da cifra, se o formato não for texto simples ou implícito."
+    }
+  }
+}

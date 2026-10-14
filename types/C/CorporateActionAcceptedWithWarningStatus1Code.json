@@ -1,0 +1,14 @@
+{
+  "isoType": "CorporateActionAcceptedWithWarningStatus1Code",
+  "definition": "Estado de aceite com aviso do aviso de notificação de ação societária proveniente do agente do emitente.",
+  "isoCodes": {
+    "SCAL": {
+      "name": "Montante chamado do valor mobiliário inválido",
+      "definition": "Montante chamado do valor mobiliário inválido."
+    },
+    "PAYD": {
+      "name": "Data de pagamento fora do intervalo",
+      "definition": "Data de pagamento fora do intervalo de datas aplicável."
+    }
+  }
+}

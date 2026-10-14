@@ -1,0 +1,15 @@
+{
+  "isoType": "RequestIdentification1",
+  "definition": "Identificação do pedido original de levantamento ou depósito.",
+  "isoElements": {
+    "OriginalOrderReference": {
+      "definition": "Identificação única da ordem."
+    },
+    "OriginalCashReceiverReference": {
+      "definition": "Identificação única, atribuída pelo destinatário do numerário, para o levantamento de numerário."
+    },
+    "OriginalCashSenderReference": {
+      "definition": "Identificação única, atribuída pelo remetente do numerário, para o depósito de numerário."
+    }
+  }
+}

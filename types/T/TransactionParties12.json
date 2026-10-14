@@ -1,0 +1,33 @@
+{
+  "isoType": "TransactionParties12",
+  "definition": "Fornece mais pormenores sobre as partes específicas da operação individual.",
+  "isoElements": {
+    "InitiatingParty": {
+      "definition": "Parte que iniciou o pagamento comunicado no lançamento."
+    },
+    "Debtor": {
+      "definition": "Parte que deve um montante em dinheiro ao credor (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificação inequívoca da conta do devedor."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que deve um montante em dinheiro ao credor (final)."
+    },
+    "Creditor": {
+      "definition": "Parte à qual é devido um montante em dinheiro."
+    },
+    "CreditorAccount": {
+      "definition": "Identificação inequívoca da conta do credor na qual foi lançado um crédito em resultado da operação de pagamento."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final à qual é devido um montante em dinheiro."
+    },
+    "TradingParty": {
+      "definition": "Parte que desempenha um papel ativo no planeamento e na execução das operações que criam ou liquidam investimentos dos ativos dos investidores, ou que transferem os ativos do investidor de um investimento para outro. Uma parte negociadora é um ordenante de operações, um decisor de investimento, um administrador pós-negociação ou um operador. No contexto da tesouraria, é a parte que negoceia e executa a operação de tesouraria."
+    },
+    "Proprietary": {
+      "definition": "Parte proprietária relativa à operação subjacente."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "isoType": "PenaltyStatusReason2Code",
+  "definition": "Especifica o motivo do estado da penalização.",
+  "isoCodes": {
+    "UPDT": {
+      "name": "Atualizado",
+      "definition": "A penalização foi atualizada."
+    },
+    "SUSP": {
+      "name": "Negociação suspensa",
+      "definition": "A penalização foi removida devido à suspensão da negociação do ISIN."
+    },
+    "TECH": {
+      "name": "Impossibilidades técnicas",
+      "definition": "A penalização foi removida devido a impossibilidades técnicas ao nível da CSD que impedem a liquidação, tais como: falha dos componentes da infraestrutura, ciberataque, problemas de rede."
+    },
+    "SWIC": {
+      "name": "Comutado",
+      "definition": "A penalização foi transferida entre a parte faltosa e a parte não faltosa."
+    },
+    "SESU": {
+      "name": "Liquidação suspensa",
+      "definition": "A penalização foi removida devido à suspensão da liquidação do ISIN por um problema de reconciliação nos termos do artigo 65.º, n.os 2 e 6, das RTS sobre os requisitos aplicáveis às CSD."
+    },
+    "SEMP": {
+      "name": "Liquidação em várias plataformas",
+      "definition": "Liquidação em várias plataformas, em que uma das plataformas está encerrada para liquidação (de numerário ou de valores mobiliários)."
+    },
+    "RALO": {
+      "name": "Reatribuído",
+      "definition": "Reatribuição de uma penalização por falha de correspondência tardia da parte instrutora para a parte que entrega/recebe."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Ver narrativa."
+    },
+    "NEWP": {
+      "name": "Nova penalização",
+      "definition": "A penalização é nova."
+    },
+    "INTS": {
+      "name": "Liquidação internalizada",
+      "definition": "A penalização não é calculada porque a liquidação foi internalizada."
+    },
+    "INSO": {
+      "name": "Insolvência",
+      "definition": "A penalização foi removida porque foram instaurados processos de insolvência contra o participante faltoso."
+    },
+    "CORP": {
+      "name": "Operação sobre títulos",
+      "definition": "Especifica que, devido a uma operação societária específica, o valor mobiliário deixou de existir."
+    },
+    "NOSU": {
+      "name": "Não sujeito",
+      "definition": "A penalização não é calculada ou é removida porque o valor mobiliário não está sujeito a penalizações."
+    }
+  }
+}

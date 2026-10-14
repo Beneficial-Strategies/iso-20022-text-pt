@@ -1,0 +1,29 @@
+{
+  "isoType": "LimitIdentification8",
+  "definition": "Define os dados de identificação que identificam de forma única um limite no sistema.",
+  "isoElements": {
+    "SystemIdentification": {
+      "definition": "Identificação de um sistema de compensação de numerário específico."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "definition": "Identificação do membro do sistema para o qual o limite é estabelecido."
+    },
+    "Type": {
+      "definition": "Natureza do limite de gestão de risco."
+    },
+    "AccountOwner": {
+      "definition": "Titular da conta que é objeto da consulta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    }
+  },
+  "isoRules": {
+    "BilateralLimitCounterparty1Rule": {
+      "definition": "Se Type for MULT, então BilateralLimitCounterpartyIdentification não é permitido."
+    },
+    "BilateralLimitCounterparty2Rule": {
+      "definition": "Se Type for BILI ou NELI ou INBI, então BilateralLimitCounterpartyIdentification tem de estar presente."
+    }
+  }
+}

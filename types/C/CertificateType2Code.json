@@ -1,0 +1,46 @@
+{
+  "isoType": "CertificateType2Code",
+  "definition": "Especifica o tipo de certificado.",
+  "isoCodes": {
+    "AMLC": {
+      "name": "Prevenção do branqueamento de capitais",
+      "definition": "Formulário de certificação de combate ao branqueamento de capitais."
+    },
+    "DVLC": {
+      "name": "Carta de condução",
+      "definition": "Documento de identificação com fotografia emitido pelo Estado - carta de condução."
+    },
+    "DFOR": {
+      "name": "Constituição e organização devidas",
+      "definition": "Certificação de devida constituição e organização."
+    },
+    "GOST": {
+      "name": "Situação regular",
+      "definition": "Certificado de boa situação (good standing)."
+    },
+    "IDEN": {
+      "name": "Cartão de identificação",
+      "definition": "Documento de identificação com fotografia emitido pelo Estado - cartão de identidade."
+    },
+    "INCU": {
+      "name": "Certidão de cargos",
+      "definition": "Certificação de exercício de funções (incumbency)."
+    },
+    "LREF": {
+      "name": "Carta de referência",
+      "definition": "Carta de referência."
+    },
+    "PASS": {
+      "name": "Passaporte",
+      "definition": "Documento de identificação com fotografia emitido pelo Estado - passaporte."
+    },
+    "PRAD": {
+      "name": "Comprovativo de morada",
+      "definition": "Comprovativo de morada, como uma fatura de serviços públicos."
+    },
+    "PKIC": {
+      "name": "Certificado de infraestrutura de chave pública",
+      "definition": "Certificado de infraestrutura de chave pública."
+    }
+  }
+}

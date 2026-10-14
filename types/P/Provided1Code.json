@@ -1,0 +1,14 @@
+{
+  "isoType": "Provided1Code",
+  "definition": "Especifica se os itens foram fornecidos.",
+  "isoCodes": {
+    "NPRO": {
+      "name": "Não fornecido",
+      "definition": "Não fornecido."
+    },
+    "PROV": {
+      "name": "Fornecido",
+      "definition": "Fornecido."
+    }
+  }
+}

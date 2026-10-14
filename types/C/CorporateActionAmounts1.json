@@ -1,0 +1,156 @@
+{
+  "isoType": "CorporateActionAmounts1",
+  "definition": "Especifica montantes no âmbito de um evento de operação sobre valores mobiliários.",
+  "isoElements": {
+    "GrossCashAmount": {
+      "definition": "Montante antes de efetuadas quaisquer deduções e abatimentos."
+    },
+    "NetCashAmount": {
+      "definition": "Montante depois de efetuadas deduções e abatimentos, se existirem, ou seja, o montante total +/- encargos/comissões."
+    },
+    "IssueDiscountAmount": {
+      "definition": "Montante definido como desconto numa nova emissão ou numa tranche de uma emissão existente."
+    },
+    "SolicitationFees": {
+      "definition": "Montante do prémio em numerário disponibilizado para incentivar a participação na oferta. O pagamento é efetuado a um terceiro que solicitou a uma entidade a participação na oferta."
+    },
+    "CashInLieuOfShare": {
+      "definition": "Pagamento em numerário em substituição de uma quantidade fracionária de, p. ex., ações."
+    },
+    "OriginalAmount": {
+      "definition": "Montante na sua moeda original quando ocorreu uma conversão de/para outra moeda."
+    },
+    "CapitalGain": {
+      "definition": "Montante em dinheiro distribuído em resultado de uma mais-valia."
+    },
+    "InterestAmount": {
+      "definition": "Montante em dinheiro correspondente ao pagamento de um cupão."
+    },
+    "IndemnityAmount": {
+      "definition": "(Exclusivo de França) Montante devido a um comprador de valores mobiliários negociados antes da data ex, que pode estar sujeito a uma taxa de tributação diferente."
+    },
+    "RedemptionPremiumAmount": {
+      "definition": "Montante em dinheiro (não correspondente a juros) adicional ao capital no reembolso de uma obrigação."
+    },
+    "ManufacturedDividendAmount": {
+      "definition": "Montante que o mutuário paga ao mutuante a título de compensação. Não confere ao mutuante o direito de reclamar qualquer crédito de imposto e é por vezes tratado de forma diferente pelas autoridades fiscais locais do mutuante."
+    },
+    "PrincipalOrCorpus": {
+      "definition": "Montante que representa uma distribuição do capital de uma obrigação, p. ex., reembolso de dívida pendente."
+    },
+    "ReinvestmentAmount": {
+      "definition": "Montante em dinheiro reinvestido em valores mobiliários adicionais."
+    },
+    "MarketClaimAmount": {
+      "definition": "Montante resultante de uma reclamação de mercado."
+    },
+    "FullyFrankedAmount": {
+      "definition": "Montante resultante de um dividendo totalmente isento (fully franked) pago por uma sociedade; o montante inclui o crédito fiscal para as sociedades que efetuaram pagamentos de imposto suficientes durante o período fiscal."
+    },
+    "UnfrankedAmount": {
+      "definition": "Montante resultante de um dividendo não isento (unfranked) pago por uma sociedade; o montante não inclui crédito fiscal e está sujeito a retenção na fonte."
+    },
+    "SundryOrOtherAmount": {
+      "definition": "Montante em dinheiro relativo a rendimentos tributáveis que não pode ser classificado."
+    },
+    "SpecialConcessionAmount": {
+      "definition": "Montante de levantamento ou outra redução ou acréscimo ao preço da operação."
+    },
+    "EntitledAmount": {
+      "definition": "Montante em numerário baseado nos termos do evento de ação societária e no saldo dos valores mobiliários subjacentes, a que o titular da conta tem direito ou que lhe é devido (podendo ser positivo ou negativo)."
+    },
+    "CashIncentive": {
+      "definition": "Taxa do prémio em numerário disponibilizado se o titular dos valores mobiliários consentir ou participar num evento, p. ex., comissões de consentimento."
+    },
+    "AdditionalSubscriptionCost": {
+      "definition": "Custos adicionais - que acrescem aos custos de subscrição - que o subscritor deve pagar de acordo com o processo de subscrição. Não deve ser utilizado para o próprio custo de subscrição."
+    },
+    "TaxFreeAmount": {
+      "definition": "Montante em dinheiro que não foi sujeito a tributação."
+    },
+    "TaxDeferredAmount": {
+      "definition": "Montante de rendimentos elegível para tributação diferida."
+    },
+    "GermanLocalTax1Amount": {
+      "definition": "Imposto local (ZAS Anrechnungsbetrag) sujeito ao imposto de pagamento antecipado de juros (proporção dos juros sujeitos ao imposto de pagamento antecipado de juros/lucro intercalar não coberta pelo montante isento de imposto)."
+    },
+    "GermanLocalTax2Amount": {
+      "definition": "Imposto local (ZAS Pflichtige Zinsen) juros sujeitos ao imposto de pagamento antecipado de juros (proporção dos juros brutos por unidade/lucros intercalares não coberta pelo crédito no fundo de juros)."
+    },
+    "GermanLocalTax3Amount": {
+      "definition": "Imposto local (Zinstopf) compensação dos juros por unidade com o montante isento de imposto (variação da compensação dos juros por unidade em relação ao montante isento de imposto)."
+    },
+    "GermanLocalTax4Amount": {
+      "definition": "Imposto local (Ertrag Besitzanteilig) rendimento sujeito ao imposto de pagamento antecipado de juros."
+    },
+    "StockExchangeTaxAmount": {
+      "definition": "Montante do imposto de bolsa."
+    },
+    "TransferTaxAmount": {
+      "definition": "Imposto cobrado sobre uma transferência de propriedade de instrumento financeiro."
+    },
+    "TransactionTaxAmount": {
+      "definition": "Montante do imposto sobre operações."
+    },
+    "ValueAddedTaxAmount": {
+      "definition": "Imposto sobre o valor acrescentado."
+    },
+    "EURetentionTaxAmount": {
+      "definition": "Montante total do imposto retido na fonte em conformidade com a Diretiva EU relativa à Poupança."
+    },
+    "LocalTaxAmount": {
+      "definition": "Montante do imposto cobrado pela jurisdição em que o instrumento financeiro é liquidado."
+    },
+    "PaymentLevyTaxAmount": {
+      "definition": "Imposto sobre pagamentos."
+    },
+    "CountryNationalFederalTaxAmount": {
+      "definition": "Montante do imposto nacional, federal ou do país cobrado pela jurisdição em que se situa o agente de conta."
+    },
+    "StampDutyAmount": {
+      "definition": "Montante do imposto do selo."
+    },
+    "TaxReclaimAmount": {
+      "definition": "Montante pago em excesso relativamente à obrigação fiscal efetiva e que foi reclamado."
+    },
+    "TaxCreditAmount": {
+      "definition": "Montante de impostos previamente pagos relativamente ao facto tributável."
+    },
+    "WithholdingOfForeignTaxAmount": {
+      "definition": "Montante retido pela jurisdição em que o rendimento foi originalmente pago, relativamente ao qual pode ser possível a isenção na fonte e/ou o reembolso."
+    },
+    "WithholdingOfLocalTaxAmount": {
+      "definition": "Montante retido pela jurisdição em que se situa o titular da conta, relativamente ao qual pode ser possível a isenção na fonte e/ou o reembolso."
+    },
+    "AdditionalTaxAmount": {
+      "definition": "Montante de impostos adicionais que não pode ser classificado."
+    },
+    "WithholdingTaxAmount": {
+      "definition": "Montante de uma distribuição em numerário que será retido por uma autoridade fiscal."
+    },
+    "FiscalStampAmount": {
+      "definition": "Montante do imposto fiscal a aplicar."
+    },
+    "ExecutingBrokerAmount": {
+      "definition": "Montante pago a um corretor de execução a título de comissão."
+    },
+    "PayingAgentCommissionAmount": {
+      "definition": "Montante da comissão do agente pagador/subagente pagador."
+    },
+    "LocalBrokerCommissionAmount": {
+      "definition": "Comissão do corretor local."
+    },
+    "PostageFeeAmount": {
+      "definition": "Montante pago pela entrega por correio normal."
+    },
+    "RegulatoryFeesAmount": {
+      "definition": "Montante cobrado por uma autoridade reguladora, p. ex., taxas da Securities and Exchange."
+    },
+    "ShippingFeesAmount": {
+      "definition": "Montante (incluindo seguro) pago pela entrega por transportadora."
+    },
+    "ChargesAmount": {
+      "definition": "Montante pago pela prestação de serviços financeiros que não pode ser classificado por outro qualificador."
+    }
+  }
+}

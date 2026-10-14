@@ -1,0 +1,12 @@
+{
+  "isoType": "CreditorReferenceType1Choice",
+  "definition": "Especifica o tipo de documento referido pelo credor.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de referência do credor, sob forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de referência do credor, numa forma proprietária."
+    }
+  }
+}

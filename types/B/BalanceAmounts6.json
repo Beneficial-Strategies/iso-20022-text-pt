@@ -1,0 +1,15 @@
+{
+  "isoType": "BalanceAmounts6",
+  "definition": "Montantes associados a um saldo de valores mobiliários, por exemplo, o valor da posição.",
+  "isoElements": {
+    "HoldingValue": {
+      "definition": "Valor de uma posição individual em instrumentos financeiros numa conta de guarda."
+    },
+    "BookValue": {
+      "definition": "Valor de um instrumento financeiro, tal como contabilizado/adquirido numa conta. Pode ser utilizado para determinar a responsabilidade pelo imposto sobre mais-valias."
+    },
+    "UnrealisedGainLoss": {
+      "definition": "Diferença entre o valor da posição e o valor contabilístico."
+    }
+  }
+}

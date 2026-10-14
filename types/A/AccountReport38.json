@@ -1,0 +1,54 @@
+{
+  "isoType": "AccountReport38",
+  "definition": "Fornece mais pormenores do relatório da conta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única, atribuída pela instituição gestora da conta, para identificar inequivocamente o relatório da conta."
+    },
+    "ReportPagination": {
+      "definition": "Fornece pormenores sobre o número de página do relatório.||Utilização: a paginação do relatório só é permitida quando acordada entre as partes."
+    },
+    "ElectronicSequenceNumber": {
+      "definition": "Número sequencial do relatório, atribuído pela instituição gestora da conta. |Utilização: o número sequencial é incrementado por cada relatório enviado eletronicamente."
+    },
+    "ReportingSequence": {
+      "definition": "Especifica o intervalo de números de sequência de identificação, tal como fornecido no pedido."
+    },
+    "LegalSequenceNumber": {
+      "definition": "Número sequencial legal do relatório, atribuído pela instituição gestora da conta. É incrementado por cada relatório enviado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que o relatório foi criado."
+    },
+    "FromToDate": {
+      "definition": "Intervalo de tempo entre uma data de início e uma data de fim para o qual o relatório da conta é emitido."
+    },
+    "CopyDuplicateIndicator": {
+      "definition": "Indica se o documento é uma cópia, um duplicado ou um duplicado de uma cópia."
+    },
+    "ReportingSource": {
+      "definition": "Especifica a aplicação utilizada para gerar o reporte."
+    },
+    "Account": {
+      "definition": "Identificação inequívoca da conta na qual são efetuados lançamentos a crédito e a débito."
+    },
+    "RelatedAccount": {
+      "definition": "Identifica a conta principal da conta para a qual o relatório foi emitido."
+    },
+    "Interest": {
+      "definition": "Fornece informações gerais sobre os juros que se aplicam à conta num determinado momento."
+    },
+    "Balance": {
+      "definition": "Conjunto de elementos utilizados para definir o saldo como uma representação numérica dos aumentos e diminuições líquidos de uma conta num determinado momento."
+    },
+    "TransactionsSummary": {
+      "definition": "Fornece informações resumidas sobre os lançamentos."
+    },
+    "Entry": {
+      "definition": "Especifica um lançamento no relatório.|Utilização: tem de ser fornecida pelo menos uma referência para identificar o lançamento e a(s) operação(ões) subjacente(s).||Regra de utilização: no caso de uma operação de retificação (R-transaction) de pagamentos, o credor/devedor referenciado nas mensagens originais de iniciação de pagamento é também utilizado para o reporte da R-transaction. O devedor/credor original no reporte de R-transactions não é invertido. |Os seguintes elementos, todos definidos em TransactionDetails, em RelatedParties ou RelatedAgents, são afetados por esta regra de utilização:|Creditor, UltimateCreditor, CreditorAccount, CreditorAgent, Debtor, UltimateDebtor, DebtorAccount e DebtorAgent."
+    },
+    "AdditionalReportInformation": {
+      "definition": "Mais pormenores do relatório da conta."
+    }
+  }
+}

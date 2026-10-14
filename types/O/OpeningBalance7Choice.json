@@ -1,0 +1,12 @@
+{
+  "isoType": "OpeningBalance7Choice",
+  "definition": "Escolha do saldo de abertura.",
+  "isoElements": {
+    "First": {
+      "definition": "Saldo de abertura do período do extrato. É sempre igual ao saldo de fecho do extrato anterior."
+    },
+    "Intermediary": {
+      "definition": "Saldo de abertura apenas desta página. Este saldo tem de ser o saldo de fecho intermédio da página anterior do mesmo extrato."
+    }
+  }
+}

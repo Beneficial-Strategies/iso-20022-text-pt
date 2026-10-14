@@ -1,0 +1,254 @@
+{
+  "isoType": "ExternalInvestigationReason1Code",
+  "definition": "Especifica o motivo da investigação, conforme publicado num conjunto externo de códigos de motivos de investigação.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "RERE": {
+      "name": "Referência associada",
+      "definition": "A referência da operação relacionada está incorreta, incompleta ou em falta."
+    },
+    "SVLV": {
+      "name": "Nível de serviço de pagamento",
+      "definition": "O nível de serviço do tipo de pagamento está incorreto, incompleto ou em falta."
+    },
+    "CAPU": {
+      "name": "Categoria da finalidade",
+      "definition": "A finalidade da categoria do tipo de pagamento está incorreta, incompleta ou em falta."
+    },
+    "REDT": {
+      "name": "Data de execução solicitada",
+      "definition": "A data de execução solicitada está incorreta ou em falta."
+    },
+    "ISDT": {
+      "name": "Data de liquidação interbancária",
+      "definition": "A data de liquidação interbancária está incorreta."
+    },
+    "ISAM": {
+      "name": "Montante de liquidação interbancária",
+      "definition": "O montante de liquidação interbancária está incorreto."
+    },
+    "AMNT": {
+      "name": "Montante",
+      "definition": "Um elemento de montante desencadeou a investigação."
+    },
+    "DTOR": {
+      "name": "Devedor",
+      "definition": "Solicitam-se mais informações relativas ao devedor."
+    },
+    "DTAG": {
+      "name": "Instituição do devedor",
+      "definition": "Solicitam-se mais informações relativas à instituição do devedor."
+    },
+    "IGRA": {
+      "name": "Instituição de reembolso ordenante",
+      "definition": "Solicitam-se mais informações relativas à instituição de reembolso instruidora."
+    },
+    "IDRA": {
+      "name": "Instituição de reembolso instruída",
+      "definition": "Solicitam-se mais informações relativas à instituição de reembolso instruída."
+    },
+    "TDRA": {
+      "name": "Terceira instituição de reembolso",
+      "definition": "Solicitam-se mais informações relativas à terceira instituição de reembolso."
+    },
+    "INAG": {
+      "name": "Instituição intermediária",
+      "definition": "Solicitam-se mais informações relativas a uma instituição intermediária."
+    },
+    "PYCC": {
+      "name": "Canal de compensação de pagamentos",
+      "definition": "O canal de compensação do tipo de pagamento está incorreto, incompleto ou em falta."
+    },
+    "CTAG": {
+      "name": "Instituição do credor",
+      "definition": "Solicitam-se mais informações relativas à instituição do credor."
+    },
+    "CTOR": {
+      "name": "Credor",
+      "definition": "Solicitam-se mais informações relativas ao credor."
+    },
+    "REIN": {
+      "name": "Informações de remessa",
+      "definition": "As informações de remessa estão incorretas, incompletas ou em falta."
+    },
+    "PYPU": {
+      "name": "Finalidade do pagamento",
+      "definition": "A finalidade do pagamento da operação está incorreta, incompleta ou em falta."
+    },
+    "CHBE": {
+      "name": "Encargos",
+      "definition": "Solicitam-se mais informações relativas ao responsável pelos encargos."
+    },
+    "INNA": {
+      "name": "Instrução para a instituição seguinte",
+      "definition": "Solicitam-se mais informações relativas à instrução para a instituição seguinte."
+    },
+    "INCA": {
+      "name": "Instrução para a instituição do credor",
+      "definition": "Solicitam-se mais informações relativas à instrução para a instituição do credor."
+    },
+    "STET": {
+      "name": "Lançamento do extrato",
+      "definition": "Solicitam-se mais informações relativas a um lançamento de extrato."
+    },
+    "SEAC": {
+      "name": "Conta de liquidação",
+      "definition": "Solicitam-se mais informações relativas à conta de liquidação."
+    },
+    "CHIN": {
+      "name": "Informações sobre encargos",
+      "definition": "Solicitam-se mais informações relativas às informações sobre encargos."
+    },
+    "ULTD": {
+      "name": "Devedor final",
+      "definition": "Solicitam-se mais informações relativas ao devedor final."
+    },
+    "ULTC": {
+      "name": "Credor final",
+      "definition": "Solicitam-se mais informações relativas ao credor final."
+    },
+    "PURP": {
+      "name": "Finalidade",
+      "definition": "Solicitam-se mais informações relativas à finalidade."
+    },
+    "INPA": {
+      "name": "Parte iniciadora",
+      "definition": "Solicitam-se mais informações relativas à parte iniciadora."
+    },
+    "REGR": {
+      "name": "Reporte regulamentar",
+      "definition": "A comunicação regulamentar está incompleta ou em falta."
+    },
+    "TAXD": {
+      "name": "Imposto",
+      "definition": "Os dados fiscais estão incompletos ou em falta."
+    },
+    "FRAD": {
+      "name": "Instrumento fraudulento",
+      "definition": "O instrumento é confirmado como fraudulento."
+    },
+    "FCCI": {
+      "name": "Conformidade em matéria de criminalidade financeira",
+      "definition": "A investigação está relacionada com a conformidade em matéria de crimes financeiros."
+    },
+    "FWTR": {
+      "name": "Regulamento relativo às transferências de fundos ou regulamento relativo às transferências eletrónicas",
+      "definition": "A investigação está relacionada com a regulamentação relativa a transferências de fundos ou a transferências eletrónicas."
+    },
+    "CHCO": {
+      "name": "Pedido de cópia do cheque",
+      "definition": "Solicita-se uma cópia do cheque."
+    },
+    "DRCO": {
+      "name": "Pedido de cópia da letra",
+      "definition": "Solicita-se uma cópia da letra."
+    },
+    "AMLI": {
+      "name": "Prevenção do branqueamento de capitais",
+      "definition": "A mensagem de pedido está relacionada com o combate ao branqueamento de capitais."
+    },
+    "RQPR": {
+      "name": "Pedido de relação entre as partes",
+      "definition": "Solicita-se esclarecimento sobre uma relação entre partes."
+    },
+    "RQVD": {
+      "name": "Pedido de dados da embarcação ou aeronave",
+      "definition": "Solicita-se esclarecimento sobre uma embarcação ou aeronave."
+    },
+    "RQLD": {
+      "name": "Pedido de dados de localização",
+      "definition": "Solicita-se esclarecimento sobre os dados de localização."
+    },
+    "RQSG": {
+      "name": "Pedido de dados dos serviços ou bens",
+      "definition": "Solicita-se esclarecimento sobre os bens ou serviços envolvidos."
+    },
+    "RQED": {
+      "name": "Pedido da data de troca dos serviços ou bens",
+      "definition": "Solicita-se esclarecimento sobre quando os bens ou serviços foram trocados."
+    },
+    "RQDO": {
+      "name": "Pedido de documentação",
+      "definition": "Solicita-se documentação relativa à operação."
+    },
+    "CHNP": {
+      "name": "Cheque ainda não pago",
+      "definition": "O cheque ainda não foi pago, apesar de ter sido enviado à instituição."
+    },
+    "NARR": {
+      "name": "Descritivo",
+      "definition": "Consulte o elemento AdditionalRequestData para informações adicionais"
+    },
+    "RQCD": {
+      "name": "Pedido da data de encerramento da conta",
+      "definition": "Solicita-se a data de encerramento da conta."
+    },
+    "UTAP": {
+      "name": "Impossibilidade de aplicação pelo credor",
+      "definition": "Um lançamento contabilizado não pode ser aplicado pelo credor."
+    },
+    "CCNR": {
+      "name": "Reclamação do credor por não receção",
+      "definition": "O credor alega a não receção do pagamento."
+    },
+    "CONR": {
+      "name": "Reclamação da instituição do credor por não receção da cobertura",
+      "definition": "A instituição do credor alega a não receção da cobertura ou da liquidação."
+    },
+    "PINC": {
+      "name": "Iniciação de pagamento não confirmada",
+      "definition": "A iniciação do pagamento não foi liquidada nem confirmada."
+    },
+    "RQVA": {
+      "name": "Pedido de ajustamento da data-valor",
+      "definition": "Solicita-se a revalorização de um lançamento."
+    },
+    "RQUF": {
+      "name": "Pedido de utilização dos fundos",
+      "definition": "Solicita-se a utilização de fundos num lançamento."
+    },
+    "RQDA": {
+      "name": "Pedido de autorização de débito",
+      "definition": "Solicita-se a autorização de débito num lançamento."
+    },
+    "ACCT": {
+      "name": "Investigação relativa à conta",
+      "definition": "Investigação relativa a uma conta."
+    },
+    "RQCH": {
+      "name": "Pedido relativo a encargos",
+      "definition": "Investigação relativa a encargos que foram cobrados ou estão por pagar."
+    },
+    "RIMF": {
+      "name": "Pedido do IMF",
+      "definition": "Pedido do Fundo Monetário Internacional."
+    },
+    "MCAT": {
+      "name": "Montante a crédito em falta",
+      "definition": "Montante a crédito em falta no extrato."
+    },
+    "MDAT": {
+      "name": "Montante a débito em falta",
+      "definition": "Montante a débito em falta no extrato."
+    },
+    "IIRT": {
+      "name": "Tipo de taxa de juro inválido",
+      "definition": "Taxa de juro inválida."
+    },
+    "INCB": {
+      "name": "Saldo de fecho incorreto",
+      "definition": "Saldo de fecho incorreto."
+    },
+    "IAIB": {
+      "name": "Juros acumulados incorretos",
+      "definition": "Saldo de juros acumulados incorreto."
+    },
+    "IDAI": {
+      "name": "Juros acumulados diários incorretos",
+      "definition": "Montante diário de juros acumulados incorreto."
+    },
+    "INTA": {
+      "name": "Montante da operação incorreto",
+      "definition": "Montante da operação incorreto."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationProcessingStatus7Choice",
+  "definition": "Escolha do estado de processamento do cancelamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fornece o estado de um pedido de cancelamento."
+    },
+    "Proprietary": {
+      "definition": "Fornece o estado de um pedido de cancelamento."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "OrderOriginatorEligibility1Code",
+  "definition": "Especifica o tipo de elegibilidade das contrapartes, tal como definido no artigo 24.º da Diretiva MiFID da EU, aplicável a operações executadas por empresas de investimento para contrapartes elegíveis.",
+  "isoCodes": {
+    "ELIG": {
+      "name": "Elegível",
+      "definition": "Contraparte elegível - classificação MiFID de contraparte. Os clientes elegíveis constituem o nível mais sofisticado de investidor, podendo optar por não beneficiar de algumas das proteções conferidas pelas regras de conduta definidas ao abrigo da MiFID."
+    },
+    "RETL": {
+      "name": "Retalho",
+      "definition": "Cliente de retalho - classificação MiFID de contraparte. Os clientes de retalho constituem o nível menos sofisticado de investidor."
+    },
+    "PROF": {
+      "name": "Profissional",
+      "definition": "Cliente profissional - classificação MiFID de contraparte. Os clientes profissionais são, por exemplo, empresas de investimento, instituições de crédito e empresas de seguros."
+    }
+  }
+}

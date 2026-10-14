@@ -1,0 +1,21 @@
+{
+  "isoType": "BalanceAmounts5",
+  "definition": "Lançamento de um item numa conta de caixa, no contexto de uma operação de caixa, que resulta num aumento ou diminuição do saldo da conta.",
+  "isoElements": {
+    "HoldingValue": {
+      "definition": "Valor de uma posição individual em instrumentos financeiros numa conta de guarda."
+    },
+    "PreviousHoldingValue": {
+      "definition": "Valor anterior de uma posição individual em instrumentos financeiros numa conta de guarda."
+    },
+    "BookValue": {
+      "definition": "Valor de um instrumento financeiro, tal como contabilizado/adquirido numa conta. Pode ser utilizado para determinar a responsabilidade pelo imposto sobre mais-valias."
+    },
+    "UnrealisedGainLoss": {
+      "definition": "Diferença entre o valor da posição e o valor contabilístico."
+    },
+    "AccruedInterestAmount": {
+      "definition": "Montante de juros que se venceram entre os períodos de pagamento de cupões."
+    }
+  }
+}

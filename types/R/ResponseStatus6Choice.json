@@ -1,0 +1,15 @@
+{
+  "isoType": "ResponseStatus6Choice",
+  "definition": "Escolha de estado de resposta.",
+  "isoElements": {
+    "Consented": {
+      "definition": "Motivo fornecido para o estado."
+    },
+    "Rejected": {
+      "definition": "Estado de rejeitada de uma instrução, aviso ou pedido."
+    },
+    "Pending": {
+      "definition": "Estado de pendente de uma instrução, aviso ou pedido."
+    }
+  }
+}

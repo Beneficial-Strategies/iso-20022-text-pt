@@ -1,0 +1,21 @@
+{
+  "isoType": "MandateSuspension4",
+  "definition": "Identifica o mandato que está a ser suspenso.",
+  "isoElements": {
+    "SuspensionRequestIdentification": {
+      "definition": "Identificação única, atribuída pela parte iniciadora, para identificar de forma inequívoca o pedido de suspensão."
+    },
+    "OriginalMessageInformation": {
+      "definition": "Fornece informações sobre a mensagem original."
+    },
+    "SuspensionReason": {
+      "definition": "Fornece informações detalhadas sobre o motivo da suspensão."
+    },
+    "OriginalMandate": {
+      "definition": "Fornece os dados do mandato original."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  }
+}

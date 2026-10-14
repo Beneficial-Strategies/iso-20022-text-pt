@@ -1,0 +1,12 @@
+{
+  "isoType": "LevelOfControl1Choice",
+  "definition": "Escolha de formatos para o nível de controlo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Nível de controlo expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Nível de controlo expresso sob a forma de código proprietário."
+    }
+  }
+}

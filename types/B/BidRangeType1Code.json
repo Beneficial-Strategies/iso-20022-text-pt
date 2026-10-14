@@ -1,0 +1,18 @@
+{
+  "isoType": "BidRangeType1Code",
+  "definition": "Tipos de valores de intervalo de licitação aceitáveis.",
+  "isoCodes": {
+    "DIVI": {
+      "name": "Divisível",
+      "definition": "Todos os valores (incluindo os preços mínimo e máximo) são divisíveis pelo intervalo de licitação."
+    },
+    "INCR": {
+      "name": "Incremental",
+      "definition": "Nenhum valor dentro do intervalo de licitação é divisível pelo intervalo de licitação, incluindo os preços mínimo e máximo.  Cada valor entre os preços mínimo e máximo é incrementado pelo intervalo de licitação."
+    },
+    "MULT": {
+      "name": "Em múltiplos",
+      "definition": "Os preços mínimo e máximo não são divisíveis pelo intervalo de licitação.  Todos os valores sucessivos entre os preços mínimo e máximo são múltiplos do intervalo de licitação."
+    }
+  }
+}

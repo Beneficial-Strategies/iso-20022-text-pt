@@ -1,0 +1,12 @@
+{
+  "isoType": "CRSStatus3Choice",
+  "definition": "Escolha de formatos para o estatuto do Common Reporting Standard (CRS).",
+  "isoElements": {
+    "Code": {
+      "definition": "Estatuto do Common Reporting Standard (CRS) expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Estatuto do Common Reporting Standard (CRS) expresso sob a forma de código proprietário."
+    }
+  }
+}

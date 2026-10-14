@@ -1,0 +1,15 @@
+{
+  "isoType": "PersonName1",
+  "definition": "Identifica uma pessoa através do seu nome próprio e apelido.",
+  "isoElements": {
+    "FirstName": {
+      "definition": "Nome(s) próprio(s) pelo(s) qual(is) uma pessoa singular é conhecida."
+    },
+    "Surname": {
+      "definition": "Nome(s) pelo(s) qual(is) uma pessoa singular é conhecida e que é(são) normalmente utilizado(s) para identificar essa parte."
+    },
+    "Address": {
+      "definition": "Endereço postal da parte."
+    }
+  }
+}

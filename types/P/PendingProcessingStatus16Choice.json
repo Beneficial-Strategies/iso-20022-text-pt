@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingProcessingStatus16Choice",
+  "definition": "Especifica se o estado é fornecido com ou sem motivo.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que não existe motivo disponível ou a reportar."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo do estado de processamento pendente."
+    }
+  }
+}

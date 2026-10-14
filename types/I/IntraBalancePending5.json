@@ -1,0 +1,17 @@
+{
+  "isoType": "IntraBalancePending5",
+  "definition": "Fornece os dados dos movimentos intrassaldo pendentes.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "Movement": {
+      "definition": "Detalhes adicionais sobre a operação individual de movimento intrassaldo."
+    }
+  },
+  "isoRules": {
+    "StatusAndReasonRule": {
+      "definition": "StatusAndReason tem de estar presente ou Movement(*)/StatusAndReason tem de estar presente, mas não ambos."
+    }
+  }
+}

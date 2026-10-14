@@ -1,0 +1,27 @@
+{
+  "isoType": "DirectDebitInstructionDetails3",
+  "definition": "Instruções, iniciadas pelo credor, para debitar a conta de um devedor a favor do credor.",
+  "isoElements": {
+    "MandateIdentification": {
+      "definition": "Identificação do mandato de uma instrução de débito direto."
+    },
+    "AutomatedDirectDebitInstructionIndicator": {
+      "definition": "Indica se a instrução é uma instrução de débito direto automatizada.||Utilização: O valor por omissão de AutomatedDirectDebitInstructionIndicator é falso."
+    },
+    "DirectDebitTransferableIndicator": {
+      "definition": "Indica se a instrução de débito direto é transferível.||Utilização: O valor por omissão de DirectDebitTransferableIndicator é falso."
+    },
+    "Creditor": {
+      "definition": "Parte a quem é devido um montante em dinheiro."
+    },
+    "LastCollectionCurrencyAmount": {
+      "definition": "Montante do último débito efetuado ao abrigo do mandato de débito direto."
+    },
+    "LastCollectionDate": {
+      "definition": "Data em que pode ser efetuado o último débito ao abrigo do mandato de débito direto.||Utilização: Não incluída se todos os limites de validade do mandato de débito direto já tiverem sido especificados ou se não existirem limites de tempo para a validade do débito direto."
+    },
+    "OtherDetails": {
+      "definition": "Fornece informações adicionais sobre o estado de uma transferência de calendário de operações solicitada."
+    }
+  }
+}

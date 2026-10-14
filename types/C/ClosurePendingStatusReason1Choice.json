@@ -1,0 +1,12 @@
+{
+  "isoType": "ClosurePendingStatusReason1Choice",
+  "definition": "Escolha de formatos para um motivo de estado de encerramento pendente.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Não existe nenhum motivo disponível ou a comunicar para o estado de encerramento pendente."
+    },
+    "Reason": {
+      "definition": "Motivo do estado de encerramento pendente."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "IdentificationType45Choice",
+  "definition": "Escolha entre um código e um esquema de fonte de dados para especificar o tipo de identificação de uma pessoa singular.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de identificação expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de identificação expresso sob a forma de código proprietário."
+    }
+  }
+}

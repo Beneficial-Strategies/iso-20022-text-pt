@@ -1,0 +1,94 @@
+{
+  "isoType": "ExternalSystemEventType1Code",
+  "definition": "Especifica o tipo de evento gerado num sistema, conforme publicado numa lista de códigos de tipos de evento do sistema.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "CRCO": {
+      "name": "Hora limite de reserva de numerário",
+      "definition": "O evento é a hora-limite da janela de reserva de numerário."
+    },
+    "CUSC": {
+      "name": "Hora limite de clientes",
+      "definition": "O evento corresponde à hora-limite para os pagamentos de clientes."
+    },
+    "ESTF": {
+      "name": "Fim das facilidades permanentes",
+      "definition": "O evento corresponde à hora-limite das facilidades permanentes."
+    },
+    "EUCO": {
+      "name": "Hora limite Euro1",
+      "definition": "O evento é a hora-limite do sistema Euro1, ou seja, o prazo para o processamento das operações Euro1."
+    },
+    "EUSU": {
+      "name": "Arranque Euro1",
+      "definition": "O evento é a abertura do funcionamento do sistema Euro 1."
+    },
+    "FIRE": {
+      "name": "Reporte final",
+      "definition": "O evento é o relatório após a cessação de todas as operações no sistema."
+    },
+    "IBKC": {
+      "name": "Hora limite interbancária",
+      "definition": "O evento corresponde à hora-limite para os pagamentos interbancários."
+    },
+    "LTDC": {
+      "name": "Hora limite LTD",
+      "definition": "O evento corresponde à hora-limite para a liquidação dos saldos multilaterais em numerário resultantes do ciclo diurno do sistema de liquidação de valores mobiliários."
+    },
+    "LTGC": {
+      "name": "Hora limite LTG",
+      "definition": "O evento é a hora-limite do ciclo diurno do sistema de liquidação de valores mobiliários."
+    },
+    "LTNC": {
+      "name": "Hora limite LTN",
+      "definition": "O evento é a hora-limite para a liquidação dos saldos multilaterais de numerário resultantes do ciclo noturno do sistema de liquidação de valores mobiliários."
+    },
+    "LVCC": {
+      "name": "Hora limite de cancelamento LVP",
+      "definition": "O evento é a hora-limite a partir da qual os pagamentos de baixo valor já não podem ser cancelados."
+    },
+    "LVCO": {
+      "name": "Hora limite LVP",
+      "definition": "O evento é a hora-limite para os pagamentos de baixo valor processados pelo sistema."
+    },
+    "LVRT": {
+      "name": "Hora do relatório de hora limite LVP",
+      "definition": "O evento é a hora a que será disponibilizado aos membros o relatório correspondente ao processamento dos pagamentos de baixo valor."
+    },
+    "LWSU": {
+      "name": "Arranque do aviso de limite",
+      "definition": "O evento é o início do período de aviso de limite."
+    },
+    "NPCT": {
+      "name": "Hora limite de novos pagamentos",
+      "definition": "O evento corresponde à hora-limite para a receção de novos pagamentos comerciais."
+    },
+    "PCOT": {
+      "name": "Hora limite de processamento",
+      "definition": "O evento corresponde à hora-limite para o tratamento de pagamentos."
+    },
+    "RECC": {
+      "name": "Hora limite Rec",
+      "definition": "O evento é a hora-limite para a liquidação dos saldos multilaterais resultantes do sistema de compensação de retalho."
+    },
+    "REOP": {
+      "name": "Retoma da operação",
+      "definition": "O evento corresponde à hora prevista de retoma de um componente TARGET."
+    },
+    "SSSC": {
+      "name": "Hora limite de reserva líquida SSS",
+      "definition": "O evento corresponde à hora-limite da janela de reserva de numerário do sistema de liquidação de valores mobiliários."
+    },
+    "STDY": {
+      "name": "Início do dia",
+      "definition": "O evento é o início do dia operacional."
+    },
+    "STSU": {
+      "name": "Arranque Step1",
+      "definition": "O evento é o início do funcionamento do Passo 1 do sistema."
+    },
+    "SYSC": {
+      "name": "Hora limite do sistema",
+      "definition": "O evento corresponde à hora-limite do sistema."
+    }
+  }
+}

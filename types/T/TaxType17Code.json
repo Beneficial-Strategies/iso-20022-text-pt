@@ -1,0 +1,78 @@
+{
+  "isoType": "TaxType17Code",
+  "definition": "Especifica o tipo de imposto.",
+  "isoCodes": {
+    "PROV": {
+      "name": "Provincial",
+      "definition": "O imposto é um imposto provincial."
+    },
+    "NATI": {
+      "name": "Imposto nacional",
+      "definition": "O imposto é um imposto nacional."
+    },
+    "STAT": {
+      "name": "Imposto estadual",
+      "definition": "O imposto é um imposto estadual."
+    },
+    "WITH": {
+      "name": "Imposto retido na fonte",
+      "definition": "O imposto incide sobre rendimentos deduzidos na fonte, que o agente pagador é legalmente obrigado a deduzir dos seus pagamentos de juros de depósitos e de outros produtos de um instrumento financeiro."
+    },
+    "KAPA": {
+      "name": "Imposto sobre mais-valias",
+      "definition": "O imposto incide sobre uma mais-valia (realizada e não realizada), ou seja, o lucro obtido com a venda de um instrumento financeiro."
+    },
+    "NKAP": {
+      "name": "Crédito por menos-valias",
+      "definition": "A recuperação do imposto deve-se a uma menos-valia."
+    },
+    "INPO": {
+      "name": "Imposto sobre lucros intercalares",
+      "definition": "O imposto incide sobre a soma de todos os ganhos/receitas acumulados desde a última distribuição de dividendos."
+    },
+    "STAM": {
+      "name": "Imposto do selo",
+      "definition": "O imposto incide sobre determinados documentos e operações."
+    },
+    "WTAX": {
+      "name": "Imposto sobre o património",
+      "definition": "O imposto é um imposto especial, aplicável apenas quando o valor dos ativos ou das categorias de ativos detidos por uma entidade excede um determinado limite definido pela autoridade fiscal. O imposto sobre o património não está associado ao rendimento."
+    },
+    "INHT": {
+      "name": "Imposto sucessório",
+      "definition": "Imposto devido no momento da morte sobre quaisquer bens (dinheiro ou outros), quando a propriedade muda por ocasião da morte ou num número de anos legalmente especificado antes da morte."
+    },
+    "SOSU": {
+      "name": "Sobretaxa de solidariedade",
+      "definition": "Imposto cobrado pelas autoridades legais para fins de solidariedade."
+    },
+    "CTAX": {
+      "name": "Crédito de imposto",
+      "definition": "Redução direta da dívida fiscal de uma pessoa singular."
+    },
+    "GIFT": {
+      "name": "Imposto sobre doações",
+      "definition": "Imposto cobrado sobre bens doados a pessoas singulares antes da morte do doador. O imposto sobre doações destina-se a garantir a integridade do imposto sucessório, impedindo a transferência de riqueza antes da morte."
+    },
+    "COAX": {
+      "name": "Imposto sobre o consumo",
+      "definition": "Imposto cobrado sobre os bens e serviços adquiridos pelos clientes e acrescentado ao preço de venda a retalho."
+    },
+    "EUTR": {
+      "name": "Retenção fiscal da UE",
+      "definition": "Imposto retido na fonte no âmbito da Diretiva europeia relativa à tributação dos rendimentos da poupança sob a forma de juros."
+    },
+    "AKT1": {
+      "name": "Aktiengewinn1",
+      "definition": "Lucro relacionado com ações. Trata-se de um imposto específico do mercado alemão. O lucro relacionado com ações dá ao fundo a possibilidade de transmitir ao investidor institucional que resgata unidades do fundo determinados rendimentos isentos de imposto provenientes de ações. O método de cálculo baseia-se na antiga lei do imposto sobre investimentos (Investmentsteuergesetz)."
+    },
+    "AKT2": {
+      "name": "Aktiengewinn2",
+      "definition": "Lucro relacionado com ações. Trata-se de um imposto específico do mercado alemão. O lucro relacionado com ações dá ao fundo a possibilidade de transmitir ao investidor institucional que resgata unidades do fundo determinados rendimentos isentos de imposto provenientes de ações. O método de cálculo baseia-se na nova lei do imposto sobre investimentos (Investmentsteuergesetz)."
+    },
+    "ZWIS": {
+      "name": "Zwischengewinn",
+      "definition": "Zwischengewinn."
+    }
+  }
+}

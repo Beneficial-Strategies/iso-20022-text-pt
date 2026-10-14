@@ -1,0 +1,32 @@
+{
+  "isoType": "CurrencyExchange24",
+  "definition": "Conjunto de elementos utilizados para fornecer os detalhes da operação cambial.",
+  "isoElements": {
+    "SourceCurrency": {
+      "definition": "Moeda a partir da qual um montante é convertido numa conversão cambial."
+    },
+    "TargetCurrency": {
+      "definition": "Moeda para a qual um montante é convertido numa conversão cambial."
+    },
+    "UnitCurrency": {
+      "definition": "Moeda em que a taxa de câmbio é expressa numa operação cambial. No exemplo 1GBP = xxxCUR, a moeda unitária é GBP."
+    },
+    "ExchangeRate": {
+      "definition": "Fator utilizado para converter um montante de uma moeda para outra. Reflete o preço a que uma moeda foi comprada com outra moeda.||Utilização: ExchangeRate exprime a relação entre UnitCurrency e QuotedCurrency (ExchangeRate = UnitCurrency/QuotedCurrency)."
+    },
+    "ContractIdentification": {
+      "definition": "Identificação única para identificar de forma inequívoca o contrato cambial."
+    },
+    "QuotationDate": {
+      "definition": "Data e hora em que uma taxa de câmbio é cotada."
+    },
+    "ExchangeRateBase": {
+      "definition": "Exprime a relação entre a base da denominação da moeda unitária e a base da denominação da moeda cotada."
+    }
+  },
+  "isoRules": {
+    "ExchangeRateBaseGuideline": {
+      "definition": "A base da taxa de câmbio só pode estar presente se acordada bilateralmente."
+    }
+  }
+}

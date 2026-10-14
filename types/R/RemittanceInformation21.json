@@ -1,0 +1,12 @@
+{
+  "isoType": "RemittanceInformation21",
+  "definition": "Informação fornecida para permitir a correspondência/reconciliação de um lançamento com os itens que o pagamento se destina a liquidar, como faturas comerciais num sistema de contas a receber.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Informação fornecida para permitir a correspondência/reconciliação de um lançamento com os itens que o pagamento se destina a liquidar, como faturas comerciais num sistema de contas a receber, sob forma não estruturada."
+    },
+    "Structured": {
+      "definition": "Informação fornecida para permitir a correspondência/reconciliação de um lançamento com os itens que o pagamento se destina a liquidar, como faturas comerciais num sistema de contas a receber, sob forma estruturada."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentScenario1Choice",
+  "definition": "Especifica os cenários comerciais em que o pagamento é executado, como a transferência a crédito de cliente ou o pagamento de cobertura.",
+  "isoElements": {
+    "Code": {
+      "definition": "Cenário de pagamento, tal como publicado numa lista de códigos externa de cenários de pagamento."
+    },
+    "Proprietary": {
+      "definition": "Cenário de pagamento, em forma proprietária."
+    }
+  }
+}

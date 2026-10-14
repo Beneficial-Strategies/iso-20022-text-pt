@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesOption76",
+  "definition": "Fornece informações sobre a opção de valores mobiliários da operação sobre títulos.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificação do instrumento financeiro."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica se o valor é um débito ou um crédito."
+    },
+    "EntitledQuantity": {
+      "definition": "Quantidade de valores mobiliários com base nos termos do evento de operação sobre títulos e no saldo de valores mobiliários subjacentes a que o titular da conta tem direito. (Esta quantidade pode ser positiva ou negativa)."
+    },
+    "PaymentDate": {
+      "definition": "Data/hora em que o movimento deve ocorrer (numerário e/ou valores mobiliários)."
+    }
+  }
+}

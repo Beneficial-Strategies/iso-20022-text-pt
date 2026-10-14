@@ -1,0 +1,126 @@
+{
+  "isoType": "SecuritiesBalanceType14Code",
+  "definition": "Especifica o tipo de saldo de valores mobiliários ou de fundos de investimento.",
+  "isoCodes": {
+    "AWAS": {
+      "name": "Disponível sem estado adicional",
+      "definition": "Saldo de instrumentos financeiros que estão livremente disponíveis, sem qualquer estado adicional específico."
+    },
+    "BTRA": {
+      "name": "Em transferência",
+      "definition": "O instrumento financeiro está indisponível em resultado de uma ordem de transferência, com movimentação pendente no registo de acionistas."
+    },
+    "BLOK": {
+      "name": "Bloqueado",
+      "definition": "Saldo de instrumentos financeiros que se encontram bloqueados."
+    },
+    "BLOV": {
+      "name": "Bloqueado por autenticidade",
+      "definition": "Saldo de instrumentos financeiros que estão bloqueados para verificação de autenticidade."
+    },
+    "BLCA": {
+      "name": "Bloqueado por ação societária",
+      "definition": "Saldo de instrumentos financeiros bloqueados na sequência de um evento societário, incluindo atividades de representação (proxy)."
+    },
+    "BLOT": {
+      "name": "Bloqueado para negociação",
+      "definition": "Saldo de instrumentos financeiros que estão bloqueados para negociação."
+    },
+    "BORR": {
+      "name": "Tomado de empréstimo",
+      "definition": "Saldo de instrumentos financeiros que foram tomados de empréstimo a outra parte."
+    },
+    "OPNT": {
+      "name": "Líquido pendente em atraso",
+      "definition": "Saldo líquido do instrumento financeiro negociado com liquidação pendente e cuja liquidação está em atraso."
+    },
+    "PNET": {
+      "name": "Líquido pendente",
+      "definition": "Saldo líquido do instrumento financeiro negociado com liquidação pendente."
+    },
+    "COLI": {
+      "name": "Garantia recebida",
+      "definition": "Saldo de valores mobiliários pertencentes a um terceiro e detidos para efeitos de colateralização."
+    },
+    "COLO": {
+      "name": "Garantia entregue",
+      "definition": "Saldo de valores mobiliários pertencentes à conta de custódia indicada nesta mensagem e depositados junto de um terceiro para efeitos de colateralização."
+    },
+    "MARG": {
+      "name": "Margem de derivados",
+      "definition": "A conta é utilizada quando o financiamento é efetuado pelo corretor/negociador."
+    },
+    "DRAW": {
+      "name": "Sorteado",
+      "definition": "As operações de liquidação dizem respeito a valores mobiliários sorteados."
+    },
+    "TRAN": {
+      "name": "Em transbordo",
+      "definition": "A operação foi gerada devido a uma transformação na sequência de um evento societário."
+    },
+    "LOAN": {
+      "name": "Emprestado",
+      "definition": "Empréstimo de consumo."
+    },
+    "REGO": {
+      "name": "Em registo",
+      "definition": "Saldo de instrumentos financeiros atualmente em processamento pela instituição responsável pelo registo do novo beneficiário efetivo (ou titular interposto)."
+    },
+    "BODE": {
+      "name": "Entrega de empréstimo tomado pendente",
+      "definition": "Saldo de instrumentos financeiros pendentes de entrega relativamente a uma operação de empréstimo tomado."
+    },
+    "BORE": {
+      "name": "Receção de empréstimo tomado pendente",
+      "definition": "Saldo de instrumentos financeiros pendentes de receção relativamente a uma operação de empréstimo tomado."
+    },
+    "PEDA": {
+      "name": "Entrega de ação societária pendente",
+      "definition": "Saldo de instrumentos financeiros pendentes de entrega na sequência de um evento societário."
+    },
+    "PECA": {
+      "name": "Receção de ação societária pendente",
+      "definition": "Saldo de instrumentos financeiros pendentes de receção na sequência de um evento societário."
+    },
+    "PEND": {
+      "name": "Entrega pendente",
+      "definition": "O processamento não foi concluído."
+    },
+    "LODE": {
+      "name": "Entrega de empréstimo concedido pendente",
+      "definition": "Saldo de instrumentos financeiros pendentes de entrega relativamente a uma operação de concessão de empréstimo."
+    },
+    "LORE": {
+      "name": "Receção de empréstimo concedido pendente",
+      "definition": "Saldo de instrumentos financeiros pendentes de receção relativamente a uma operação de concessão de empréstimo."
+    },
+    "PENR": {
+      "name": "Receção pendente",
+      "definition": "A instrução está pendente da receção de valores mobiliários, por exemplo, de uma compra, empréstimo, etc."
+    },
+    "PLED": {
+      "name": "Empenhado",
+      "definition": "Saldo de valores mobiliários que pertencem e são mantidos na conta de guarda indicada nesta mensagem e que estão penhorados."
+    },
+    "RSTR": {
+      "name": "Restrito",
+      "definition": "Saldo de instrumentos financeiros que só podem ser vendidos sob certas condições ou que exigem documentos legais."
+    },
+    "OTHR": {
+      "name": "Não classificado",
+      "definition": "Outro. Ver Narrative."
+    },
+    "WDOC": {
+      "name": "A aguardar documentação",
+      "definition": "O instrumento financeiro está indisponível devido a documentação em falta ou incompleta relativa à conta, ou devido a uma ordem em falta ou incompleta."
+    },
+    "GRP1": {
+      "name": "Unidade do grupo fiscal 1 do fundo de investimento adquirida",
+      "definition": "Unidades de fundos de investimento adquiridas antes da última data ex-dividendo."
+    },
+    "GRP2": {
+      "name": "Unidade do grupo fiscal 2 do fundo de investimento adquirida",
+      "definition": "Unidades de fundos de investimento adquiridas desde a data ex-dividendo e que beneficiam da isenção fiscal."
+    }
+  }
+}

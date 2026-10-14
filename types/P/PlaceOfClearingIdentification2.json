@@ -1,0 +1,12 @@
+{
+  "isoType": "PlaceOfClearingIdentification2",
+  "definition": "Identificação da infraestrutura que pode ser uma componente de uma câmara de compensação e que facilita a compensação e a liquidação para os seus membros, colocando-se entre o comprador e o vendedor. Pode compensar operações por saldos líquidos e substitui-se como contraparte de liquidação em cada posição.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única do local de compensação."
+    },
+    "LEI": {
+      "definition": "Identificação de pessoa coletiva como identificação alternativa de um local de compensação."
+    }
+  }
+}

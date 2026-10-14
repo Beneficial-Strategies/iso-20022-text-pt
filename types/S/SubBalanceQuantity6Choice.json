@@ -1,0 +1,15 @@
+{
+  "isoType": "SubBalanceQuantity6Choice",
+  "definition": "Escolha entre formatos para a informação do saldo.",
+  "isoElements": {
+    "Quantity": {
+      "definition": "Quantidade de valores mobiliários no subsaldo."
+    },
+    "Proprietary": {
+      "definition": "Quantidade de valores mobiliários no subsaldo."
+    },
+    "QuantityAndAvailability": {
+      "definition": "Quantidade de valores mobiliários no subsaldo e indicação de se o saldo está disponível."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ChargePaymentMethod1Choice",
+  "definition": "Escolha de formatos para a especificação do método de pagamento dos encargos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Método de pagamento dos encargos expresso como código."
+    },
+    "Proprietary": {
+      "definition": "Método de pagamento dos encargos expresso como código proprietário."
+    }
+  }
+}

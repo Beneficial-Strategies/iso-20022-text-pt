@@ -1,0 +1,27 @@
+{
+  "isoType": "AdditiononalInformation13",
+  "definition": "Restrições, observações ou notas que podem ser aplicadas a uma conta ou a um plano de investimento.",
+  "isoElements": {
+    "Limitation": {
+      "definition": "Restrições e/ou limitações à conta ou à parte."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais, como observações ou notas, que devem ser transmitidas sobre a atividade de gestão da conta ou sobre a parte."
+    },
+    "AccountValidation": {
+      "definition": "Informações ou instruções para contornar validações no processo de registo da conta."
+    },
+    "Type": {
+      "definition": "Tipo ou identificação da observação, nota, limitação ou restrição."
+    },
+    "Regulator": {
+      "definition": "Regulador que poderá ter de ser informado sobre a observação, nota, limitação ou restrição."
+    },
+    "Status": {
+      "definition": "Estado da observação, nota, limitação ou restrição."
+    },
+    "Period": {
+      "definition": "Período da restrição."
+    }
+  }
+}

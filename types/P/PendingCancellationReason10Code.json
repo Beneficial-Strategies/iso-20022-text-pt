@@ -1,0 +1,18 @@
+{
+  "isoType": "PendingCancellationReason10Code",
+  "definition": "Especifica o motivo pelo qual o pedido de cancelamento tem um estado pendente.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "A instrução foi recebida depois do prazo limite da entidade gestora da conta. Será gerida de acordo com o acordo de serviço bilateral entre a entidade gestora da conta e o titular da conta."
+    },
+    "CONF": {
+      "name": "A aguardar confirmação",
+      "definition": "A aguardar confirmação da contraparte."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    }
+  }
+}

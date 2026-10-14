@@ -1,0 +1,33 @@
+{
+  "isoType": "IndividualPersonNameLong2",
+  "definition": "Nome próprio de uma pessoa.",
+  "isoElements": {
+    "NamePrefix": {
+      "definition": "Prefixo, como título antes do nome de uma pessoa."
+    },
+    "Surname": {
+      "definition": "O apelido é um nome acrescentado ao nome próprio e faz parte de um nome pessoal. Em muitos casos, o apelido é o nome de família."
+    },
+    "GivenName": {
+      "definition": "Nome atribuído à nascença."
+    },
+    "MiddleName": {
+      "definition": "Segundo nome de uma pessoa."
+    },
+    "Initials": {
+      "definition": "Prefixo inicial do nome."
+    },
+    "NameSuffix": {
+      "definition": "Sufixo do nome."
+    },
+    "Name": {
+      "definition": "Nome legal completo."
+    },
+    "StartDate": {
+      "definition": "Data em que o nome foi atribuído."
+    },
+    "EndDate": {
+      "definition": "Data em que o nome foi alterado."
+    }
+  }
+}

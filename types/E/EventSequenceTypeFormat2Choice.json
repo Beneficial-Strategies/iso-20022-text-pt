@@ -1,0 +1,12 @@
+{
+  "isoType": "EventSequenceTypeFormat2Choice",
+  "definition": "Escolha entre um código normalizado e um código proprietário para especificar o tipo de evento numa série de eventos predefinidos ou planeados.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de uma sequência de eventos, em formato codificado."
+    },
+    "Proprietary": {
+      "definition": "Tipo de uma sequência de eventos, em formato proprietário."
+    }
+  }
+}

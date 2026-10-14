@@ -1,0 +1,12 @@
+{
+  "isoType": "CashAvailabilityDate1Choice",
+  "definition": "Indica quando o montante ficará disponível.",
+  "isoElements": {
+    "NumberOfDays": {
+      "definition": "Indica o número de dias de float associados ao saldo."
+    },
+    "ActualDate": {
+      "definition": "Identifica a data efetiva de disponibilidade."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "isoType": "Statement79",
+  "definition": "Características do extrato.",
+  "isoElements": {
+    "ReportNumber": {
+      "definition": "Número sequencial do relatório."
+    },
+    "QueryReference": {
+      "definition": "Identificação da mensagem SecuritiesStatementQuery enviada para solicitar este extrato."
+    },
+    "StatementIdentification": {
+      "definition": "Referência comum a todas as páginas de um extrato."
+    },
+    "StatementPeriod": {
+      "definition": "Período do extrato."
+    },
+    "Frequency": {
+      "definition": "Periodicidade do extrato."
+    },
+    "UpdateType": {
+      "definition": "Indica se o extrato está completo ou contém apenas alterações."
+    },
+    "StatementBasis": {
+      "definition": "Tipo de saldo em que se baseia o extrato."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica se o extrato comunica atividade ou atualização de informação."
+    },
+    "SubAccountIndicator": {
+      "definition": "Indica se o extrato reporta posições ao nível da conta de subcustódia."
+    }
+  },
+  "isoRules": {
+    "ReportNumberRule": {
+      "definition": "Se ReportNumber/Long number (Exact5NumericTest) for utilizado, o relatório tem de ser um relatório delta (UpdateType: DELT).|Se o relatório tiver várias páginas, o ReportNumber tem de se manter igual em todas as páginas. É um número único do relatório.|Dois relatórios do mesmo tipo enviados um após o outro ao mesmo destinatário relativamente à mesma conta de custódia têm de ter ReportNumbers diferentes. Por exemplo, um relatório diário enviado no dia 1 teria o ReportNumber 001, no dia 2, 002."
+    }
+  }
+}

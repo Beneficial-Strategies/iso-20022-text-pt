@@ -1,0 +1,45 @@
+{
+  "isoType": "StandingOrderSearchCriteria5",
+  "definition": "Define os critérios utilizados para pesquisar ordens permanentes definidas no sistema.",
+  "isoElements": {
+    "KeyAttributesIndicator": {
+      "definition": "Indica se devem ser devolvidos os campos-chave ou os atributos de negócio definidos no sistema."
+    },
+    "StandingOrderIdentification": {
+      "definition": "Identificação única que identifica inequivocamente a ordem permanente utilizada para iniciar a transferência de liquidez."
+    },
+    "Type": {
+      "definition": "Tipo da ordem permanente."
+    },
+    "Account": {
+      "definition": "Conta de origem ou de destino da transferência de liquidez no conjunto de contas sob gestão do requerente."
+    },
+    "Currency": {
+      "definition": "Identificação única e inequívoca de uma ordem permanente, atribuída pela instituição gestora da conta ou pelo titular da conta."
+    },
+    "ValidityPeriod": {
+      "definition": "Datas durante as quais a ordem permanente está em vigor."
+    },
+    "SystemMember": {
+      "definition": "Especifica se a conta é debitada ou creditada pela ordem permanente."
+    },
+    "ResponsibleParty": {
+      "definition": "Entidade envolvida numa atividade."
+    },
+    "AssociatedPoolAccount": {
+      "definition": "Conta de origem ou de destino da transferência de liquidez no conjunto de contas sob gestão do requerente."
+    },
+    "LinkSetIdentification": {
+      "definition": "Identificação única que identifica inequivocamente o conjunto de ligação em que a ordem permanente está definida. O conjunto de ligação é um conjunto de ordens permanentes definidas numa sequência específica."
+    },
+    "LinkSetOrderIdentification": {
+      "definition": "Identificação única que identifica inequivocamente a ordem permanente de transferência de liquidez dentro do conjunto de ligação."
+    },
+    "LinkSetOrderSequence": {
+      "definition": "Especifica a sequência pela qual o sistema executará as ordens permanentes de transferência de liquidez dentro do conjunto de ligação quando for necessária liquidez adicional."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Indica se a consulta deve devolver todas as ordens permanentes de transferência de liquidez definidas como ordens de varrimento a zero.|Quando o indicador está definido como verdadeiro, a ordem permanente de transferência de liquidez transferirá todo o montante da conta, de modo que o saldo resultante seja zero."
+    }
+  }
+}

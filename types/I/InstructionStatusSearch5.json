@@ -1,0 +1,15 @@
+{
+  "isoType": "InstructionStatusSearch5",
+  "definition": "Define os critérios utilizados para pesquisar o estado do pagamento.",
+  "isoElements": {
+    "PaymentInstructionStatus": {
+      "definition": "Estado de uma transferência."
+    },
+    "PaymentInstructionStatusDateTime": {
+      "definition": "Data e hora em que o estado foi atribuído à transferência."
+    },
+    "ProprietaryStatusReason": {
+      "definition": "Define o motivo utilizado pelo sistema para rejeitar a operação."
+    }
+  }
+}

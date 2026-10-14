@@ -1,0 +1,12 @@
+{
+  "isoType": "ElectionMovementType1FormatChoice",
+  "definition": "Escolha de formatos para exprimir o efeito da eleição de uma opção de ação societária nas posições detidas.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o efeito da eleição de uma opção de ação societária nas posições detidas."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir o efeito da eleição de uma opção de ação societária nas posições detidas."
+    }
+  }
+}

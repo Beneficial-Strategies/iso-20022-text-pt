@@ -1,0 +1,12 @@
+{
+  "isoType": "ActivityIndicator1Choice",
+  "definition": "Escolha do formato do indicador de atividade.",
+  "isoElements": {
+    "ISICIdentifier": {
+      "definition": "Indicador de atividade expresso como um código identificador ISIC."
+    },
+    "ProprietaryIndicator": {
+      "definition": "Indicador de atividade expresso como um código de indicador proprietário."
+    }
+  }
+}

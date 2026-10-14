@@ -1,0 +1,15 @@
+{
+  "isoType": "IdentificationInformation5",
+  "definition": "Fornece os detalhes das informações de identificação.",
+  "isoElements": {
+    "Party": {
+      "definition": "Titular da conta que deve uma quantia em dinheiro ou a quem é devida uma quantia em dinheiro."
+    },
+    "Account": {
+      "definition": "Identificação inequívoca da conta de uma parte."
+    },
+    "Agent": {
+      "definition": "Instituição financeira que gere uma conta de uma parte."
+    }
+  }
+}

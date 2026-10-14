@@ -1,0 +1,15 @@
+{
+  "isoType": "GeneralBusinessInformationReturnCriteria1",
+  "definition": "Define os critérios utilizados para reportar informações de negócio.",
+  "isoElements": {
+    "QualifierIndicator": {
+      "definition": "Indica se o qualificador é solicitado."
+    },
+    "SubjectIndicator": {
+      "definition": "Indica se o assunto é solicitado."
+    },
+    "SubjectDetailsIndicator": {
+      "definition": "Indica se os detalhes do assunto são solicitados."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestigationReasonSubType1Choice",
+  "definition": "Especifica o subtipo do código de motivo de uma investigação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Subtipo de motivo, conforme publicado no conjunto externo de códigos de subtipos de motivos de investigação."
+    },
+    "Proprietary": {
+      "definition": "Subtipo de motivo, numa forma proprietária."
+    }
+  }
+}

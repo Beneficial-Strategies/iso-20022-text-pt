@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxReference1",
+  "definition": "Referência fiscal do regime de pensões.",
+  "isoElements": {
+    "TaxType": {
+      "definition": "Tipo de referência fiscal."
+    },
+    "Reference": {
+      "definition": "Referência fiscal."
+    },
+    "HolderType": {
+      "definition": "Tipo de titular da referência. Por exemplo, a referência fiscal do cessionário. O cessionário pode também ser designado parte adquirente."
+    }
+  }
+}

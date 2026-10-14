@@ -1,0 +1,78 @@
+{
+  "isoType": "ExternalServiceCategory1Code",
+  "definition": "Especifica a categoria de serviço, conforme publicada numa lista externa de códigos de motivo de estado.|As listas externas de códigos podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "ACMS": {
+      "name": "Serviços de gestão de contas",
+      "definition": "Acordo ao abrigo do qual, ou regras segundo as quais, a operação deve ser processada, expresso sob a forma de código.|Esta categoria abrange o reporte das comissões relacionadas com serviços de gestão de contas, incluindo, entre outras, quotas de adesão e comissões mínimas (i.e. comissões adicionadas a faturas de pequeno valor para atingir as comissões mínimas acordadas para cada participante)."
+    },
+    "BICM": {
+      "name": "Gestão bilateral de colaterais",
+      "definition": "Esta categoria abrange o reporte de todas as comissões relacionadas com a gestão de garantias sujeitas a acordos bilaterais (abrangendo o financiamento do banco central para ativos transacionáveis e não transacionáveis, derivados OTC não compensados e financiamento com valores mobiliários)."
+    },
+    "CALM": {
+      "name": "Serviços de gestão de numerário e liquidez",
+      "definition": "Esta categoria abrange o reporte de todas as comissões relacionadas com serviços de gestão de numerário e de liquidez."
+    },
+    "CLEA": {
+      "name": "Serviços de compensação",
+      "definition": "Esta categoria abrange o reporte das comissões relacionadas com a prestação de serviços de compensação."
+    },
+    "CUST": {
+      "name": "Serviços de custódia",
+      "definition": "Esta categoria abrange o reporte de todas as comissões cobradas por operação, como as instruções de eleição. A categoria é também utilizada para reportar comissões sobre serviços fiscais relacionados com ativos sob custódia, juntamente com o processamento de operações sobre títulos e de assembleias."
+    },
+    "INSV": {
+      "name": "Serviços de informação",
+      "definition": "Esta categoria abrange o reporte de todas as comissões relacionadas com a prestação de informação por qualquer meio e com a disponibilização de ferramentas de conectividade. Inclui as mensagens ISO (recebidas ou enviadas), o acesso à interface gráfica de utilizador (GUI), a conectividade, a recarga de tokens de segurança, as subscrições de relatórios e a disponibilização de dados por qualquer outro meio (por exemplo, formatos em papel)."
+    },
+    "INVS": {
+      "name": "Serviços de fundos de investimento",
+      "definition": "Esta categoria abrange o reporte de todas as comissões relacionadas com serviços específicos prestados a fundos de investimento, como o encaminhamento de ordens ou o reporte de detentores.  A guarda e a liquidação de fundos de investimento e de fundos negociados em bolsa devem ser reportadas nas categorias Serviços de Guarda e Serviços de Liquidação, respetivamente."
+    },
+    "ISSU": {
+      "name": "Serviços de emitente",
+      "definition": "Esta categoria abrange o reporte das comissões relacionadas com a prestação de serviços de emitente por uma CSD. Inclui comissões como a emissão e o reembolso de valores mobiliários e a gestão de operações sobre títulos."
+    },
+    "OTHR": {
+      "name": "Outros serviços",
+      "definition": "Esta categoria abrange o reporte das comissões relacionadas com outros serviços prestados que podem não constar de uma tarifa geral aplicável a todos os clientes, mas ser acordados bilateralmente com cada cliente. Inclui a prestação de pedidos de serviço personalizados e de outro apoio prestado aos clientes, como formação e acesso de teste, bem como despesas reembolsáveis."
+    },
+    "PENM": {
+      "name": "Mecanismo de penalizações",
+      "definition": "Esta categoria abrange o reporte das comissões relacionadas com a recuperação de custos associados ao desenvolvimento e à manutenção do mecanismo de sanções. Nota: esta categoria não deve ser utilizada para o reporte da própria sanção."
+    },
+    "REGI": {
+      "name": "Serviços de registo",
+      "definition": "Esta categoria abrange o reporte de todas as comissões relacionadas com o registo de valores mobiliários."
+    },
+    "SAFE": {
+      "name": "Serviços de guarda de valores",
+      "definition": "Esta categoria abrange o reporte de todas as comissões calculadas em pontos base aplicados aos ativos sob custódia. Inclui as comissões de notariado, de manutenção central e de serviços de ativos."
+    },
+    "SECL": {
+      "name": "Serviços de empréstimo de valores mobiliários",
+      "definition": "Esta categoria abrange o reporte de todas as comissões relacionadas com serviços de empréstimo de valores mobiliários."
+    },
+    "PENA": {
+      "name": "Penalizações de liquidação",
+      "definition": "Esta categoria abrange o reporte de todas as comissões relacionadas com a recuperação de custos das sanções de liquidação aplicadas por sistemas de liquidação não pertencentes à EU (fora do âmbito da disciplina de liquidação do CSDR)."
+    },
+    "SETT": {
+      "name": "Serviços de liquidação",
+      "definition": "Esta categoria abrange o reporte de todas as comissões relacionadas com a liquidação de valores mobiliários e/ou numerário. Inclui as comissões relacionadas com a liquidação de reclamações de mercado e de transformações. Os impostos aplicados às operações liquidadas (como os impostos sobre transações financeiras) e os serviços de liquidação acessórios são também reportados nesta categoria."
+    },
+    "SHDT": {
+      "name": "Serviços de transmissão de dados de acionistas",
+      "definition": "Esta categoria abrange o reporte das comissões relacionadas com a prestação de serviços que permitem aos intermediários enviar dados de acionistas aos emitentes. Inclui os custos relacionados com a prestação do serviço de cálculo e liquidação das comissões aplicadas pelos intermediários aos emitentes pela notificação de dados de acionistas."
+    },
+    "STEX": {
+      "name": "Serviços de bolsa de valores",
+      "definition": "Esta categoria abrange o reporte das comissões relacionadas com a prestação de serviços de bolsa de valores. Inclui as comissões de operação."
+    },
+    "TPCM": {
+      "name": "Serviços de gestão tripartida de colaterais",
+      "definition": "Esta categoria abrange o reporte de todas as comissões relacionadas com a prestação de serviços ao prestador e/ou aos tomadores de garantias envolvidos numa operação de gestão de garantias tripartida."
+    }
+  }
+}

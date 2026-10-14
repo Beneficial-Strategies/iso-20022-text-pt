@@ -1,0 +1,12 @@
+{
+  "isoType": "AdditionalBusinessProcessFormat24Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o tipo do processo de negócio adicional, isto é, um reembolso de imposto.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o processo de negócio adicional \"reembolso de imposto\" associado a um evento de operação sobre ativos."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do processo de negócio adicional \"reembolso de imposto\" associado a um evento de operação sobre ativos."
+    }
+  }
+}

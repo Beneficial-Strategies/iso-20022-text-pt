@@ -1,0 +1,15 @@
+{
+  "isoType": "StatementReference1",
+  "definition": "Identifica a referência do extrato através de um identificador único e da data (e hora).",
+  "isoElements": {
+    "StatementIdentification": {
+      "definition": "Referência comum a todas as páginas do extrato para o qual é enviado o aviso de estado."
+    },
+    "StatementDateTime": {
+      "definition": "Data e hora em que o extrato foi criado."
+    },
+    "Pagination": {
+      "definition": "Número de página da mensagem associada (no âmbito do extrato) e indicador de continuação para indicar que o extrato prossegue ou que a mensagem associada é a última página do extrato."
+    }
+  }
+}

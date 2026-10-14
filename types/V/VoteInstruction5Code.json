@@ -1,0 +1,50 @@
+{
+  "isoType": "VoteInstruction5Code",
+  "definition": "Especifica um tipo de instrução de voto que pode fazer parte de uma recomendação de voto.",
+  "isoCodes": {
+    "ABST": {
+      "name": "Abstenção",
+      "definition": "Voto ativo expresso como abstenção (sem opinião)."
+    },
+    "CAGS": {
+      "name": "Contra",
+      "definition": "Voto contra uma deliberação da assembleia."
+    },
+    "CHRM": {
+      "name": "Presidente",
+      "definition": "O titular dos direitos confere ao presidente poderes para votar em seu nome."
+    },
+    "CFOR": {
+      "name": "A favor",
+      "definition": "Voto a favor de uma deliberação da assembleia."
+    },
+    "NOAC": {
+      "name": "Sem ação",
+      "definition": "Não votar."
+    },
+    "WTHH": {
+      "name": "Reter",
+      "definition": "O participante numa assembleia retém o seu voto relativamente a uma deliberação. Esta ação é normalmente tomada para indicar um forte desacordo com uma deliberação (mercado dos US)."
+    },
+    "ONEY": {
+      "name": "Um ano",
+      "definition": "Voto a favor por um ano numa deliberação do tipo \"say on pay\"."
+    },
+    "THRY": {
+      "name": "Três anos",
+      "definition": "Voto a favor por três anos numa deliberação do tipo \"say on pay\"."
+    },
+    "TWOY": {
+      "name": "Dois anos",
+      "definition": "Voto a favor por dois anos numa deliberação do tipo \"say on pay\"."
+    },
+    "BLNK": {
+      "name": "Em branco",
+      "definition": "O voto é emitido em branco, mas é contabilizado."
+    },
+    "NREC": {
+      "name": "Sem recomendação",
+      "definition": "Nenhuma recomendação fornecida para o tipo de instrução de voto."
+    }
+  }
+}

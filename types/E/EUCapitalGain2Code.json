@@ -1,0 +1,18 @@
+{
+  "isoType": "EUCapitalGain2Code",
+  "definition": "Especifica se a mais-valia se insere no âmbito da diretiva europeia relativa à tributação dos rendimentos da poupança sob a forma de juros (Diretiva 2003/48/CE do Conselho, de 3 de junho) para um rendimento obtido com a venda, o reembolso ou o resgate de ações e unidades de participação, etc (EC).",
+  "isoCodes": {
+    "EUSI": {
+      "name": "Mais-valias abrangidas",
+      "definition": "A mais-valia insere-se no âmbito da diretiva."
+    },
+    "EUSO": {
+      "name": "Mais-valias não abrangidas",
+      "definition": "A mais-valia não se insere no âmbito da diretiva."
+    },
+    "UKWN": {
+      "name": "Mais-valias desconhecidas",
+      "definition": "Desconhece-se se a mais-valia se insere ou não no âmbito da diretiva."
+    }
+  }
+}

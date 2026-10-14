@@ -1,0 +1,20 @@
+{
+  "isoType": "SubAccountIdentification6",
+  "definition": "Conta a ou de que é efetuado um lançamento de valores mobiliários.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "ActivityIndicator": {
+      "definition": "Indica se há atividade reportada no extrato."
+    },
+    "TransactionOnSubAccount": {
+      "definition": "Criação/cancelamento de unidades de participação nos registos do fundo ou do seu agente designado, em resultado da execução de uma ordem de fundo de investimento."
+    }
+  },
+  "isoRules": {
+    "TransactionOnSubAccountRule": {
+      "definition": "Se ActivityIndicator for \"true\" ou \"1\" (Sim), então TransactionOnSubAccount tem de estar presente. Se ActivityIndicator for \"false\" ou \"0\" (Não), então TransactionOnSubAccount não é permitido."
+    }
+  }
+}

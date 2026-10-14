@@ -1,0 +1,33 @@
+{
+  "isoType": "TransferStatus5Choice",
+  "definition": "Escolha de estados para o estado de uma transferência.",
+  "isoElements": {
+    "Status": {
+      "definition": "O estado da transferência é recebida, aceite, enviada à parte seguinte, emparelhada, já executada ou liquidada."
+    },
+    "PendingSettlement": {
+      "definition": "O estado da transferência é liquidação pendente."
+    },
+    "Unmatched": {
+      "definition": "O estado da transferência é não emparelhada."
+    },
+    "InRepair": {
+      "definition": "O estado da transferência é em reparação."
+    },
+    "Rejected": {
+      "definition": "O estado da transferência é rejeitada."
+    },
+    "FailedSettlement": {
+      "definition": "O estado da transferência é liquidação falhada, ou seja, a liquidação na Central de Valores Mobiliários Internacional (ICSD) ou na Central de Valores Mobiliários (CSD) falhou."
+    },
+    "Cancelled": {
+      "definition": "O estado da transferência é cancelada."
+    },
+    "Reversed": {
+      "definition": "O estado da transferência é revertida."
+    },
+    "CancellationPending": {
+      "definition": "O estado da transferência é cancelamento pendente."
+    }
+  }
+}

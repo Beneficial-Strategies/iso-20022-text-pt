@@ -1,0 +1,12 @@
+{
+  "isoType": "MemberReportOrError8Choice",
+  "definition": "Informa sobre um membro ou sobre um erro de negócio.",
+  "isoElements": {
+    "Member": {
+      "definition": "Dados solicitados do membro, quando encontrados no sistema."
+    },
+    "BusinessError": {
+      "definition": "Motivo pelo qual as informações funcionais solicitadas não são fornecidas."
+    }
+  }
+}

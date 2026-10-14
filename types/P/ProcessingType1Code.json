@@ -1,0 +1,42 @@
+{
+  "isoType": "ProcessingType1Code",
+  "definition": "Especifica o tipo de restrições de processamento que o sistema central deve aplicar.",
+  "isoCodes": {
+    "RJCT": {
+      "name": "Rejeição",
+      "definition": "A restrição consiste na rejeição durante a validação da instrução de liquidação."
+    },
+    "CVHD": {
+      "name": "Retenção por validação da CSD",
+      "definition": "A restrição consiste em colocar automaticamente a validação do CSD em retenção ao aceitar uma instrução de liquidação."
+    },
+    "RSVT": {
+      "name": "Reserva",
+      "definition": "A restrição consiste na criação de uma reserva de um saldo de numerário ou de uma posição de valores mobiliários para um fim específico."
+    },
+    "BLCK": {
+      "name": "Bloqueio",
+      "definition": "A restrição consiste no bloqueio de uma parte, conta de valores mobiliários, valor mobiliário ou conta de numerário para efeitos de liquidação, ou no bloqueio de uma posição de valores mobiliários ou de um saldo de numerário para um fim específico."
+    },
+    "EARM": {
+      "name": "Afetação",
+      "definition": "Restrição associada ao tipo de saldo que define e gere os tipos de posição das posições de valores mobiliários."
+    },
+    "EFAC": {
+      "name": "Afetação para colateralização automática",
+      "definition": "Restrição associada ao tipo de saldo que define e gere os tipos de posição das posições de valores mobiliários para autocolateralização."
+    },
+    "DLVR": {
+      "name": "Entregável",
+      "definition": "Não foi definida qualquer restrição."
+    },
+    "COLD": {
+      "name": "Colateralizado",
+      "definition": "A restrição está associada a uma operação de garantia subpenhorada."
+    },
+    "CSDB": {
+      "name": "Bloqueio CoSD",
+      "definition": "A restrição não admite qualquer execução parcial."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "TransactionType2",
+  "definition": "Conjunto de elementos utilizados para identificar as operações a reportar.",
+  "isoElements": {
+    "Status": {
+      "definition": "Especifica o estado, nos livros da instituição gestora da conta, das operações a reportar."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o pedido de reporte se refere a lançamentos a crédito ou a débito."
+    },
+    "FloorLimit": {
+      "definition": "Especifica o valor mínimo dos lançamentos a comunicar na mensagem solicitada."
+    }
+  }
+}

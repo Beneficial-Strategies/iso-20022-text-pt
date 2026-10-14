@@ -1,0 +1,41 @@
+{
+  "isoType": "CashAccountData1",
+  "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de numerário.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nome da conta. Constitui um meio adicional de identificação e é designado pela instituição gestora da conta de acordo com o titular da conta."
+    },
+    "Type": {
+      "definition": "Especifica a natureza, ou a utilização, da conta de numerário."
+    },
+    "Currency": {
+      "definition": "Especifica a moeda da conta de numerário."
+    },
+    "Proxy": {
+      "definition": "Especifica um nome alternativo presumido para a identificação da conta."
+    },
+    "CurrentMultilateralLimit": {
+      "definition": "Valor máximo do montante aplicado a ou por um participante relativamente a um conjunto de contrapartes. O sistema multilateral é tido em conta pelo administrador das operações para conter o risco no sistema.|Com o limite multilateral, o participante direto restringe a utilização de liquidez na compensação de pagamentos com todos os outros participantes diretos para os quais não foi definido nenhum limite bilateral."
+    },
+    "Owner": {
+      "definition": "Titular da conta que está a ser consultada."
+    },
+    "Servicer": {
+      "definition": "Instituição gestora da conta que está a ser consultada."
+    },
+    "MultilateralBalance": {
+      "definition": "O saldo é calculado em relação a vários membros do sistema."
+    },
+    "CurrentBilateralLimit": {
+      "definition": "Limite fixado por uma parte A relativamente a uma contraparte específica B e correspondente ao montante máximo de tráfego que a parte A pode enviar à parte B. O limite bilateral pode ser expresso como limite de débito ou como limite de crédito. |Com o limite bilateral, o participante direto restringe a utilização de liquidez na compensação de pagamentos com outro participante direto."
+    },
+    "StandingOrder": {
+      "definition": "Instrução dada por uma parte com autoridade explícita para ordenar um débito na conta, isto é, o devedor ou a parte originadora, à instituição do devedor, para processar transferências de liquidez a intervalos especificados durante um período implícito ou explícito. Uma ordem permanente é dada uma só vez e é válida por um período aberto ou fechado."
+    }
+  },
+  "isoRules": {
+    "BilateralBalanceRule": {
+      "definition": "Se MultilateralBalance não estiver presente, deve estar presente pelo menos uma ocorrência de CurrentBilateralLimit/BilateralBalance.|Se MultilateralBalance estiver presente, qualquer ocorrência de CurrentBilateralLimit/BilateralBalance é facultativa."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "NumberCount2Choice",
+  "definition": "Escolha do tipo de contagem de números.",
+  "isoElements": {
+    "CurrentInstructionNumber": {
+      "definition": "Número sequencial da instrução num conjunto de instruções de liquidação associadas."
+    },
+    "TotalNumber": {
+      "definition": "Números totais de operações de liquidação, receções e entregas, e o número da operação de liquidação em causa."
+    }
+  },
+  "isoRules": {
+    "CurrentInstructionNumberRule": {
+      "definition": "Se o remetente pretender indicar que esta instrução está associada a uma ou mais instruções de liquidação, o CurrentInstructionNumber deve ser especificado."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "SwitchType1Code",
+  "definition": "Especifica o estado da mudança de conta, total ou parcial, para uma determinada conta.",
+  "isoCodes": {
+    "FULL": {
+      "name": "Mudança total",
+      "definition": "Indica uma mudança total para uma conta."
+    },
+    "PART": {
+      "name": "Mudança parcial",
+      "definition": "Indica uma mudança parcial para uma conta."
+    }
+  }
+}

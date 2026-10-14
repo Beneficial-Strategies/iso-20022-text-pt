@@ -1,0 +1,14 @@
+{
+  "isoType": "DTCBaseDisbursed1Code",
+  "definition": "Código que qualifica se a base de cálculo é o valor mobiliário de base (original) ou o valor mobiliário desembolsado (distribuído).",
+  "isoCodes": {
+    "BASE": {
+      "name": "Base",
+      "definition": "Com base no valor mobiliário de base."
+    },
+    "DISB": {
+      "name": "Desembolsado",
+      "definition": "Com base no valor mobiliário desembolsado."
+    }
+  }
+}

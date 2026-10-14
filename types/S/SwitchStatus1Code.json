@@ -1,0 +1,42 @@
+{
+  "isoType": "SwitchStatus1Code",
+  "definition": "Especifica o estado de uma determinada mudança de conta.",
+  "isoCodes": {
+    "ACPT": {
+      "name": "Aceite",
+      "definition": "A mudança de conta é aceite.||Utilização: o estado Aceite deve ser utilizado quando o serviço de mudança de conta recebe e valida um pedido de resposta de informações que aceita a mudança."
+    },
+    "BTRQ": {
+      "name": "Transferência de saldo solicitada",
+      "definition": "A transferência de saldo da conta é solicitada.||Utilização: o estado de transferência de saldo solicitada deve ser utilizado quando o serviço de mudança de conta recebe e valida um pedido de transferência de saldo."
+    },
+    "BTRS": {
+      "name": "Resposta à transferência de saldo",
+      "definition": "Transferência de saldo respondida.||Utilização: o estado de transferência de saldo respondida deve ser utilizado quando o serviço de mudança de conta recebe e valida um pedido de confirmação de transferência de saldo."
+    },
+    "COMP": {
+      "name": "Concluído",
+      "definition": "A mudança de conta está concluída.||Utilização: o estado Concluída deve ser utilizado quando o serviço de mudança de conta recebe e valida um pedido de notificação de conclusão da mudança de conta."
+    },
+    "REDT": {
+      "name": "Redirecionamento",
+      "definition": "Pedido de redirecionamento. ||Utilização: o estado de redirecionamento deve ser utilizado quando o serviço de mudança de conta recebe e valida o primeiro pedido de redirecionamento."
+    },
+    "REDE": {
+      "name": "Redirecionamento terminado",
+      "definition": "O redirecionamento terminou no final do período de redirecionamento. ||Utilização: indica a cessação do redirecionamento da conta por um determinado serviço."
+    },
+    "REJT": {
+      "name": "Rejeitado",
+      "definition": "A mudança de conta é rejeitada. ||Utilização: o estado Rejeitada deve ser utilizado quando o serviço de mudança de conta recebe e valida um pedido de resposta de informações que rejeita a mudança de conta."
+    },
+    "REQU": {
+      "name": "Solicitado",
+      "definition": "São solicitadas informações para a mudança de conta. ||Utilização: o estado Solicitada deve ser utilizado quando o serviço de mudança de conta recebe e valida um pedido de informações."
+    },
+    "TMTN": {
+      "name": "Cessação",
+      "definition": "A mudança de conta é cancelada. ||Utilização: o estado Cancelada deve ser utilizado quando o serviço de mudança de conta recebe e valida um pedido de cancelamento da mudança."
+    }
+  }
+}

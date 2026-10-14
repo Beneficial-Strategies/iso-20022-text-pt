@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementDateTimeIndication1",
+  "definition": "Informações sobre o(s) momento(s) de liquidação ocorrido(s) da operação de pagamento.",
+  "isoElements": {
+    "DebitDateTime": {
+      "definition": "Data e hora em que um pagamento foi debitado no administrador da operação. No caso do TARGET, a data e hora em que o pagamento foi debitado no banco central, expressas em hora da Europa Central (CET)."
+    },
+    "CreditDateTime": {
+      "definition": "Data e hora em que um pagamento foi creditado no administrador da operação. No caso do TARGET, a data e hora em que o pagamento foi creditado no banco central recetor, expressas em hora da Europa Central (CET)."
+    }
+  }
+}

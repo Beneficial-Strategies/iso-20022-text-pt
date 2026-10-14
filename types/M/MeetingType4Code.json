@@ -1,0 +1,30 @@
+{
+  "isoType": "MeetingType4Code",
+  "definition": "Especifica um tipo de assembleia de detentores de valores mobiliários.",
+  "isoCodes": {
+    "XMET": {
+      "name": "Extraordinária",
+      "definition": "Assembleia que se realiza sempre que necessário, para além das assembleias gerais, e que é extraordinária nos termos dos estatutos. As deliberações dizem respeito a assuntos fora do âmbito normal da sociedade, por exemplo, a aprovação de aquisições, fusões ou cisões. Estas assembleias são sempre convocadas por iniciativa do emitente."
+    },
+    "GMET": {
+      "name": "Geral",
+      "definition": "Inclui as assembleias anuais e ordinárias. Assembleia(s) estatutária(s) normalmente realizada(s) pelo menos uma vez por ano. As deliberações dizem respeito à atividade corrente da sociedade, por exemplo, a aprovação de dividendos e de administradores. Estas assembleias são sempre convocadas por iniciativa do emitente."
+    },
+    "MIXD": {
+      "name": "Misto",
+      "definition": "Assembleia que inclui deliberações ordinárias e extraordinárias."
+    },
+    "SPCL": {
+      "name": "Especial",
+      "definition": "Assembleia que se realiza sempre que necessário e que não é ordinária nem extraordinária."
+    },
+    "BMET": {
+      "name": "Assembleia de obrigacionistas",
+      "definition": "Assembleia presencial de obrigacionistas."
+    },
+    "CMET": {
+      "name": "Assembleia judicial",
+      "definition": "A assembleia resulta de um processo judicial."
+    }
+  }
+}

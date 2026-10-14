@@ -1,0 +1,12 @@
+{
+  "isoType": "Price10",
+  "definition": "Tipo e informações sobre um preço.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especificação do tipo de preço."
+    },
+    "Value": {
+      "definition": "Valor do preço, por exemplo, como moeda e valor."
+    }
+  }
+}

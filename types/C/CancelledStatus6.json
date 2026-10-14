@@ -1,0 +1,12 @@
+{
+  "isoType": "CancelledStatus6",
+  "definition": "Escolha entre um motivo ou nenhum motivo para o estado de cancelado/cancelamento concluído da instrução relativa à operação sobre títulos ou do cancelamento da instrução.",
+  "isoElements": {
+    "CancelledQuantity": {
+      "definition": "Quantidade de valores mobiliários instruídos para a qual a instrução é cancelada."
+    },
+    "CancellationReason": {
+      "definition": "Motivo do estado cancelado."
+    }
+  }
+}

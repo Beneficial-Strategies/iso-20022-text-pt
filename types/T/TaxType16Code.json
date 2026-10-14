@@ -1,0 +1,70 @@
+{
+  "isoType": "TaxType16Code",
+  "definition": "Especifica o tipo de imposto.",
+  "isoCodes": {
+    "COAX": {
+      "name": "Imposto sobre o consumo",
+      "definition": "Imposto cobrado sobre os bens e serviços adquiridos pelos clientes e acrescentado ao preço de venda a retalho."
+    },
+    "CTAX": {
+      "name": "Crédito de imposto",
+      "definition": "Redução direta da dívida fiscal de uma pessoa singular."
+    },
+    "EUTR": {
+      "name": "Retenção fiscal da UE",
+      "definition": "Imposto retido na fonte no âmbito da Diretiva europeia relativa à tributação dos rendimentos da poupança sob a forma de juros."
+    },
+    "LEVY": {
+      "name": "Imposto sobre pagamentos",
+      "definition": "Imposto cobrado sobre um pagamento."
+    },
+    "LOCL": {
+      "name": "Imposto local",
+      "definition": "Imposto cobrado por um sistema de liquidação local ou por uma jurisdição local."
+    },
+    "NATI": {
+      "name": "Imposto nacional",
+      "definition": "O imposto é um imposto nacional."
+    },
+    "PROV": {
+      "name": "Provincial",
+      "definition": "O imposto é um imposto provincial."
+    },
+    "STAM": {
+      "name": "Imposto do selo",
+      "definition": "O imposto incide sobre determinados documentos e operações."
+    },
+    "STAT": {
+      "name": "Imposto estadual",
+      "definition": "O imposto é um imposto estadual."
+    },
+    "STEX": {
+      "name": "Imposto de bolsa",
+      "definition": "Imposto cobrado por uma bolsa de valores."
+    },
+    "TRAN": {
+      "name": "Imposto sobre transferências",
+      "definition": "Imposto cobrado sobre uma transferência."
+    },
+    "TRAX": {
+      "name": "Imposto sobre operações",
+      "definition": "Imposto cobrado sobre uma operação."
+    },
+    "VATA": {
+      "name": "Imposto sobre o valor acrescentado",
+      "definition": "O imposto é um imposto sobre o valor acrescentado."
+    },
+    "WITH": {
+      "name": "Imposto retido na fonte",
+      "definition": "O imposto incide sobre rendimentos deduzidos na fonte, que o agente pagador é legalmente obrigado a deduzir dos seus pagamentos de juros de depósitos e de outros produtos de um instrumento financeiro."
+    },
+    "NKAP": {
+      "name": "Crédito por menos-valias",
+      "definition": "A recuperação do imposto deve-se a uma menos-valia."
+    },
+    "KAPA": {
+      "name": "Imposto sobre mais-valias",
+      "definition": "O imposto incide sobre uma mais-valia (realizada e não realizada), ou seja, o lucro obtido com a venda de um instrumento financeiro."
+    }
+  }
+}

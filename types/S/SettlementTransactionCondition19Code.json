@@ -1,0 +1,102 @@
+{
+  "isoType": "SettlementTransactionCondition19Code",
+  "definition": "Especifica as condições em que a ordem/transação deve ser liquidada.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Aceitação após o prazo normal de liquidação",
+      "definition": "A liquidação refere-se a uma operação aceite bilateralmente que deve ser aceite após o prazo regular de liquidação."
+    },
+    "ASGN": {
+      "name": "Atribuição",
+      "definition": "Transferência da propriedade do ativo para outra parte durante o encerramento de uma opção."
+    },
+    "BUTC": {
+      "name": "Compra para cobertura",
+      "definition": "A operação é uma compra para cobertura (buy to cover)."
+    },
+    "CLEN": {
+      "name": "Limpo",
+      "definition": "Os instrumentos financeiros isentos de imposto devem ser liquidados."
+    },
+    "DLWM": {
+      "name": "Entrega sem correspondência",
+      "definition": "Não é necessária instrução de receção correspondente (apenas para as centrais internacionais ou nacionais de valores mobiliários em causa)."
+    },
+    "DIRT": {
+      "name": "Sujo",
+      "definition": "Os instrumentos financeiros tributáveis devem ser liquidados."
+    },
+    "DRAW": {
+      "name": "Sorteado",
+      "definition": "As operações de liquidação dizem respeito a valores mobiliários sorteados."
+    },
+    "EXER": {
+      "name": "Exercido",
+      "definition": "A operação de liquidação diz respeito a opções, futuros ou derivados que são exercidos."
+    },
+    "EXPI": {
+      "name": "Expirado",
+      "definition": "A operação de liquidação diz respeito a opções, futuros ou derivados que expiraram."
+    },
+    "FRCL": {
+      "name": "Liquidação livre de pagamento limpa",
+      "definition": "A entrega será efetuada livre de pagamento, mas será enviada uma ordem de pagamento limpa."
+    },
+    "GATE": {
+      "name": "Participação em evento de bloqueio",
+      "definition": "Participação em evento condicionado (gating). Manter até à hora de início do evento."
+    },
+    "KNOC": {
+      "name": "Eliminado (knock-out)",
+      "definition": "A operação de liquidação diz respeito a opções, futuros ou derivados que expiraram sem valor."
+    },
+    "NOMC": {
+      "name": "Sem reclamação de mercado automática",
+      "definition": "Não deve ser gerada automaticamente nenhuma reclamação de mercado."
+    },
+    "PENS": {
+      "name": "Venda pendente",
+      "definition": "A posição para cobrir a venda pendente estará disponível até à data de liquidação contratual (informação contabilística)."
+    },
+    "PHYS": {
+      "name": "Físico",
+      "definition": "Os valores mobiliários devem ser liquidados fisicamente."
+    },
+    "RHYP": {
+      "name": "Reutilização de garantia",
+      "definition": "A posição de garantia está disponível para outros fins (por exemplo, entrega subsequente)."
+    },
+    "RPTO": {
+      "name": "Relato",
+      "definition": "Diz respeito a uma operação que se destina apenas a efeitos de reporte."
+    },
+    "RESI": {
+      "name": "Residual",
+      "definition": "Diz respeito a uma operação sobre um valor mobiliário que não é elegível na central de valores mobiliários (CSD), mas cujo pagamento será efetuado pela central de valores mobiliários."
+    },
+    "SHOR": {
+      "name": "Venda a descoberto",
+      "definition": "A conta é utilizada para ordens de venda a descoberto."
+    },
+    "SPDL": {
+      "name": "Entrega especial",
+      "definition": "Operações de liquidação a liquidar com entrega especial."
+    },
+    "SPST": {
+      "name": "Liquidação fracionada",
+      "definition": "O dinheiro e os instrumentos financeiros são liquidados em locais diferentes."
+    },
+    "TRAN": {
+      "name": "Transformação",
+      "definition": "Operação resultante de uma transformação."
+    },
+    "TRIP": {
+      "name": "Segregação tripartida",
+      "definition": "Os valores mobiliários não são entregues, mas segregados na sequência de uma operação de garantia tripartida."
+    },
+    "UNEX": {
+      "name": "Sem exposição",
+      "definition": "A entrega não pode ser efetuada até o dinheiro ser recebido."
+    }
+  }
+}

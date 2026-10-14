@@ -1,0 +1,33 @@
+{
+  "isoType": "ReportQuerySearchCriteria3",
+  "definition": "Define os critérios utilizados para procurar um relatório.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "Balance": {
+      "definition": "Representação numérica dos aumentos e diminuições líquidos numa conta num determinado momento. Um saldo de caixa é calculado como a soma dos créditos em numerário menos a soma dos débitos em numerário."
+    },
+    "ReportName": {
+      "definition": "Valores dos possíveis relatórios."
+    },
+    "MessageNameIdentification": {
+      "definition": "Especifica o identificador do nome da mensagem de consulta a que a mensagem se refere."
+    },
+    "PartyIdentification": {
+      "definition": "Parte proprietária do relatório."
+    },
+    "ResponsiblePartyIdentification": {
+      "definition": "Parte responsável da parte proprietária do relatório."
+    },
+    "DateSearch": {
+      "definition": "Data e hora em que o relatório foi criado."
+    },
+    "ScheduledTime": {
+      "definition": "Momento em que o evento (comercial) que desencadeou o relatório estava agendado."
+    },
+    "Event": {
+      "definition": "O tipo de execução é executado com base num desencadeador orientado por eventos."
+    }
+  }
+}

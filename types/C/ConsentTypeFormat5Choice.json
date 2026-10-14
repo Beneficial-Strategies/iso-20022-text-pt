@@ -1,0 +1,12 @@
+{
+  "isoType": "ConsentTypeFormat5Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o formato do tipo de consentimento exigido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de consentimento exigido."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de consentimento."
+    }
+  }
+}

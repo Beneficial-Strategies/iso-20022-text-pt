@@ -1,0 +1,26 @@
+{
+  "isoType": "AmountConsistencyType1Code",
+  "definition": "Especifica um tipo de inconsistências de montante, ou seja, se o tipo de montante fornecido corresponde ou não ao montante de referência.",
+  "isoCodes": {
+    "CONS": {
+      "name": "Montante consistente",
+      "definition": "A informação do montante corresponde ao registo de dados de referência."
+    },
+    "ICNS": {
+      "name": "Montante inconsistente",
+      "definition": "A informação do montante não corresponde ao registo de dados de referência."
+    },
+    "ICGA": {
+      "name": "Montante de encargos inconsistente",
+      "definition": "A informação do montante de encargos não corresponde ao registo de dados de referência."
+    },
+    "ICFA": {
+      "name": "Montante confirmado inconsistente",
+      "definition": "A informação do montante confirmado ao credor não corresponde ao registo de dados de referência."
+    },
+    "IISA": {
+      "name": "Montante de liquidação interbancária inconsistente",
+      "definition": "A informação do montante de liquidação interbancária não corresponde ao registo de dados de referência."
+    }
+  }
+}

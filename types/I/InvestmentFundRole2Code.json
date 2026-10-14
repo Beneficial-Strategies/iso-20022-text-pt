@@ -1,0 +1,42 @@
+{
+  "isoType": "InvestmentFundRole2Code",
+  "definition": "Especifica o papel desempenhado por um interveniente numa operação de fundo de investimento.",
+  "isoCodes": {
+    "FMCO": {
+      "name": "Sociedade gestora de fundos",
+      "definition": "Parte que constitui um fundo, decide a estratégia de investimento, nomeia agentes e é responsável pela promoção e comercialização do fundo. Esta parte toma todas as decisões estratégicas relacionadas com um fundo."
+    },
+    "REGI": {
+      "name": "Entidade registadora",
+      "definition": "Parte responsável por manter o registo dos titulares de valores mobiliários. No setor dos fundos de investimento, esta parte mantém o registo de investidores do fundo e administra as contas de investidores e os registos conexos. É nomeada pela sociedade gestora do fundo."
+    },
+    "TRAG": {
+      "name": "Agente de transferência",
+      "definition": "Parte nomeada pela sociedade gestora do fundo. Esta parte atualiza os registos das contas de investidores para refletir as compras, resgates, mudanças, transferências e novos registos diários dos investidores. Assegura a liquidação atempada das operações e pode fornecer informações fiscais ao investidor e/ou aos seus intermediários. Pode calcular, cobrar e reembolsar comissões. Prepara e distribui confirmações que refletem as operações, resultando em movimentos de unidades de participação ou de conta de numerário para o investidor ou para o intermediário do investidor. Responde a pedidos de informação sobre o estado da conta e processa a distribuição de rendimentos."
+    },
+    "INTR": {
+      "name": "Intermediário",
+      "definition": "Parte que presta serviços a investidores relacionados com produtos financeiros. Estes serviços podem incluir alguns ou todos os seguintes: prestação de informações e aconselhamento sobre produtos, colocação de ordens de investimento, transmissão de pagamentos, custódia de ativos e administração de direitos e benefícios. No quadro específico do setor dos fundos de investimento, um intermediário pode apresentar informações sobre fundos a potenciais investidores e angariar ordens para o fundo. Este intermediário pode facilitar a transmissão de ordens e informações de/para os investidores e/ou outros intermediários. O intermediário recebe uma comissão do fundo e/ou taxas do investidor."
+    },
+    "DIST": {
+      "name": "Distribuidor",
+      "definition": "Parte que atua como grossista de fundos."
+    },
+    "CONC": {
+      "name": "Concentrador",
+      "definition": "Parte que atua como agregador de fundos, também designada plataforma de fundos."
+    },
+    "UCL1": {
+      "name": "Cliente subjacente 1",
+      "definition": "Cliente subjacente do intermediário."
+    },
+    "UCL2": {
+      "name": "Cliente subjacente 2",
+      "definition": "Cliente subjacente do cliente subjacente 1."
+    },
+    "TRAN": {
+      "name": "Agente transmissor",
+      "definition": "Parte que transmite a instrução, o aviso, a notificação ou o relatório."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "OriginalAndCurrentQuantities7",
+  "definition": "Valor nominal com sinal e valor amortizado.",
+  "isoElements": {
+    "ShortLongPosition": {
+      "definition": "Sinal da quantidade de valores mobiliários."
+    },
+    "FaceAmount": {
+      "definition": "Quantidade expressa como um montante que representa o valor nominal, ou seja, o capital, de um instrumento de dívida."
+    },
+    "AmortisedValue": {
+      "definition": "Quantidade expressa como um montante que representa o valor nominal amortizado atual de uma obrigação, por exemplo, uma redução/aumento periódico do montante de capital de uma obrigação."
+    }
+  }
+}

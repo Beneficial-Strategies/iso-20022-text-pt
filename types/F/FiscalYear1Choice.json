@@ -1,0 +1,12 @@
+{
+  "isoType": "FiscalYear1Choice",
+  "definition": "Escolha entre data de início e data de fim do exercício fiscal.",
+  "isoElements": {
+    "StartDate": {
+      "definition": "Data de início do exercício fiscal."
+    },
+    "EndDate": {
+      "definition": "Data de fim do exercício fiscal."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "isoType": "CashAccountCharacteristics5",
+  "definition": "Especifica as características da conta de caixa.",
+  "isoElements": {
+    "AccountLevel": {
+      "definition": "Define o nível da conta numa hierarquia de contas."
+    },
+    "CashAccount": {
+      "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de caixa."
+    },
+    "AccountServicer": {
+      "definition": "Utilização: o prestador de serviços da conta é o agente de domicílio que gere a conta local."
+    },
+    "ParentAccount": {
+      "definition": "Define uma conta principal à qual a conta de caixa está associada."
+    },
+    "CompensationMethod": {
+      "definition": "Define se e como os encargos e impostos devidos são pagos à instituição financeira."
+    },
+    "DebitAccount": {
+      "definition": "Define a conta debitada pelos encargos e impostos devidos relativos à conta de caixa, se diferente da conta de caixa."
+    },
+    "DelayedDebitDate": {
+      "definition": "Data futura em que a conta será debitada automaticamente pelos encargos e impostos devidos."
+    },
+    "SettlementAdvice": {
+      "definition": "Mensagem de texto livre que informa o cliente sobre a liquidação dos encargos e impostos devidos."
+    },
+    "AccountBalanceCurrencyCode": {
+      "definition": "Moeda utilizada para especificar a moeda do saldo da conta."
+    },
+    "SettlementCurrencyCode": {
+      "definition": "Moeda utilizada para especificar a moeda de liquidação da conta."
+    },
+    "HostCurrencyCode": {
+      "definition": "Moeda utilizada para especificar a moeda de tributação de origem da conta."
+    },
+    "Tax": {
+      "definition": "Descreve os parâmetros de tributação da conta."
+    },
+    "AccountServicerContact": {
+      "definition": "Pessoa a contactar no local da instituição financeira em caso de problemas de natureza comercial."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMSecurityContext3",
+  "definition": "Contexto do ATM para o descarregamento de chaves.",
+  "isoElements": {
+    "CurrentSecurityScheme": {
+      "definition": "Esquema de segurança de troca de chaves ativo no ATM para o gestor do anfitrião."
+    },
+    "DeviceProperty": {
+      "definition": "Informação do módulo de segurança de hardware, designado EPP (Encrypted PIN Pad)."
+    },
+    "CurrentConfiguration": {
+      "definition": "Parâmetros de configuração em utilização pelo dispositivo de segurança."
+    }
+  }
+}

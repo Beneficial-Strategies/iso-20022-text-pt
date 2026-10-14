@@ -1,0 +1,21 @@
+{
+  "isoType": "ImpliedCurrencyAmountRange1Choice",
+  "definition": "Escolha entre intervalos de valores em que um montante é considerado válido e um valor específico do montante que tem de coincidir, ou não coincidir, para ser válido.",
+  "isoElements": {
+    "FromAmount": {
+      "definition": "Limite inferior de um intervalo de valores do montante."
+    },
+    "ToAmount": {
+      "definition": "Limite superior de um intervalo de valores do montante."
+    },
+    "FromToAmount": {
+      "definition": "Intervalo de valores válidos do montante."
+    },
+    "EqualAmount": {
+      "definition": "Valor exato com o qual um montante tem de coincidir para ser considerado válido."
+    },
+    "NotEqualAmount": {
+      "definition": "Valor com o qual um montante não pode coincidir para ser considerado válido."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "ExecutionType1Choice",
+  "definition": "Define o tipo de execução a efetuar no pedido.",
+  "isoElements": {
+    "Time": {
+      "definition": "O tipo de execução é executado com base num desencadeador temporal."
+    },
+    "Event": {
+      "definition": "O tipo de execução é executado com base num desencadeador orientado por eventos."
+    }
+  }
+}

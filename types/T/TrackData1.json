@@ -1,0 +1,12 @@
+{
+  "isoType": "TrackData1",
+  "definition": "Pista magnética ou dados equivalentes do cartão de pagamento.",
+  "isoElements": {
+    "TrackNumber": {
+      "definition": "Número da pista do cartão."
+    },
+    "TrackValue": {
+      "definition": "Conteúdo da pista do cartão ou equivalente."
+    }
+  }
+}

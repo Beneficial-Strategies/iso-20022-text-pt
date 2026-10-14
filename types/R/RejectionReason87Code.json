@@ -1,0 +1,90 @@
+{
+  "isoType": "RejectionReason87Code",
+  "definition": "Especifica o motivo pelo qual o pedido de instrução tem um estado rejeitado.",
+  "isoCodes": {
+    "OPTY": {
+      "name": "Tipo de opção inválido",
+      "definition": "Tipo de opção inválido."
+    },
+    "ULNK": {
+      "name": "Referência inválida",
+      "definition": "A referência associada é desconhecida."
+    },
+    "DSEC": {
+      "name": "Valor mobiliário inválido",
+      "definition": "Identificação do instrumento financeiro não reconhecida ou inválida."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "NMTY": {
+      "name": "Divergência",
+      "definition": "Divergência entre o número da opção e o tipo de opção."
+    },
+    "CANC": {
+      "name": "Opção cancelada",
+      "definition": "A opção não é válida; foi cancelada pelo mercado ou pelo prestador de serviços e não pode ser objeto de resposta. Quaisquer respostas já processadas relativamente a esta opção são consideradas nulas e serão necessárias novas respostas."
+    },
+    "INTV": {
+      "name": "Opção inativa",
+      "definition": "A opção não está ativa e já não pode ser objeto de resposta. Quaisquer respostas já processadas relativamente a esta opção permanecem válidas, por exemplo, opção expirada."
+    },
+    "OPNM": {
+      "name": "Rejeição do número da opção",
+      "definition": "Número de opção não reconhecido."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "EVNM": {
+      "name": "Identificação não reconhecida",
+      "definition": "Número de evento não reconhecido."
+    },
+    "DQCC": {
+      "name": "Rejeição da moeda",
+      "definition": "Moeda instruída inválida."
+    },
+    "DUPL": {
+      "name": "Instrução duplicada",
+      "definition": "A instrução é rejeitada devido a identificador de mensagem de negócio duplicado."
+    },
+    "DSET": {
+      "name": "Recusado por já ter sido liquidado",
+      "definition": "O pedido de cancelamento foi recusado porque a instrução já tinha sido liquidada."
+    },
+    "DCAN": {
+      "name": "Rejeitado por já ter sido cancelado",
+      "definition": "O pedido de cancelamento foi rejeitado, uma vez que a instrução já foi cancelada."
+    },
+    "TRTY": {
+      "name": "Tipo de operação incorreto",
+      "definition": "O tipo de operação está incorreto."
+    },
+    "BUMM": {
+      "name": "Divergência na proteção do comprador",
+      "definition": "Desacordo da contraparte quanto ao resultado escolhido da operação sobre títulos."
+    },
+    "ECMD": {
+      "name": "Prazo de mercado da eleição para a contraparte não cumprido",
+      "definition": "Recebida após o prazo de mercado da escolha junto da contraparte."
+    },
+    "ECRD": {
+      "name": "Prazo de resposta da eleição para a contraparte não cumprido",
+      "definition": "Recebida após o prazo de mercado de resposta à escolha junto da contraparte."
+    },
+    "DUCK": {
+      "name": "Operação subjacente cancelada",
+      "definition": "Instrução de proteção do comprador rejeitada, uma vez que a operação de liquidação subjacente foi cancelada."
+    },
+    "DUST": {
+      "name": "Operação subjacente já liquidada",
+      "definition": "A instrução de proteção do comprador foi rejeitada, porque a operação de liquidação subjacente já foi liquidada."
+    },
+    "DSNA": {
+      "name": "Proteção do comprador não permitida",
+      "definition": "O tipo/estado da operação subjacente não permite uma proteção do comprador."
+    }
+  }
+}

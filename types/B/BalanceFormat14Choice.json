@@ -1,0 +1,15 @@
+{
+  "isoType": "BalanceFormat14Choice",
+  "definition": "Escolha entre os formatos de saldo, saldo elegível e saldo não elegível.",
+  "isoElements": {
+    "Balance": {
+      "definition": "Fornece informações sobre o saldo relacionado com uma ação societária."
+    },
+    "EligibleBalance": {
+      "definition": "Fornece informações sobre o saldo elegível em diferentes formatos."
+    },
+    "NotEligibleBalance": {
+      "definition": "Fornece informações sobre o saldo não elegível em diferentes formatos."
+    }
+  }
+}

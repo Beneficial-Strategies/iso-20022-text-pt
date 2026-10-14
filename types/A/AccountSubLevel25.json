@@ -1,0 +1,15 @@
+{
+  "isoType": "AccountSubLevel25",
+  "definition": "Fornece informações sobre participações ao nível de subconta.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Conta onde são mantidos instrumentos financeiros. Conta gerida pelo intermediário que responde para um titular de conta."
+    },
+    "AccountHolder": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "ShareholdingBalance": {
+      "definition": "Informações pormenorizadas sobre o saldo de participações de uma conta."
+    }
+  }
+}

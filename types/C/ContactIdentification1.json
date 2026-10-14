@@ -1,0 +1,27 @@
+{
+  "isoType": "ContactIdentification1",
+  "definition": "Informações necessárias para contactar uma pessoa singular.",
+  "isoElements": {
+    "Name": {
+      "definition": "Nome pelo qual uma parte é conhecida e que é normalmente utilizado para identificar essa parte."
+    },
+    "NamePrefix": {
+      "definition": "Especifica o tratamento utilizado para se dirigir formalmente a uma pessoa."
+    },
+    "GivenName": {
+      "definition": "Nome próprio de uma pessoa."
+    },
+    "Role": {
+      "definition": "Papel da parte na atividade."
+    },
+    "PhoneNumber": {
+      "definition": "Conjunto de informações que identificam um número de telefone, conforme definido pelos serviços de telecomunicações."
+    },
+    "FaxNumber": {
+      "definition": "Conjunto de informações que identificam um número de FAX, conforme definido pelos serviços de telecomunicações."
+    },
+    "EmailAddress": {
+      "definition": "Endereço de correio eletrónico (e-mail)."
+    }
+  }
+}

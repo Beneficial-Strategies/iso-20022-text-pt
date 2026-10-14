@@ -1,0 +1,14 @@
+{
+  "isoType": "Quantity4Code",
+  "definition": "Especifica a quantidade de um instrumento financeiro.",
+  "isoCodes": {
+    "UKWN": {
+      "name": "Quantidade desconhecida",
+      "definition": "A quantidade é desconhecida do remetente ou não foi estabelecida."
+    },
+    "ANYA": {
+      "name": "Qualquer e todos",
+      "definition": "A instrução aplica-se à totalidade do saldo elegível dos valores mobiliários subjacentes."
+    }
+  }
+}

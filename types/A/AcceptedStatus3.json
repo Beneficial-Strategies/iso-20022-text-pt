@@ -1,0 +1,12 @@
+{
+  "isoType": "AcceptedStatus3",
+  "definition": "Informações de estado e de quantidade relativas a um pedido de instrução aceite.",
+  "isoElements": {
+    "AcceptedQuantity": {
+      "definition": "Quantidade de valores mobiliários instruídos que foi aceite para processamento posterior."
+    },
+    "AcceptedReason": {
+      "definition": "Motivo do estado aceite."
+    }
+  }
+}

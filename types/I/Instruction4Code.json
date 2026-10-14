@@ -1,0 +1,14 @@
+{
+  "isoType": "Instruction4Code",
+  "definition": "Especifica instruções adicionais relativas ao tratamento de uma instrução de pagamento, fornecidas pelo agente de compensação emissor ao(s) agente(s) seguinte(s).",
+  "isoCodes": {
+    "PHOA": {
+      "name": "Telefonar à instituição seguinte",
+      "definition": "Queira avisar/contactar o agente seguinte por telefone."
+    },
+    "TELA": {
+      "name": "Telecomunicar à instituição seguinte",
+      "definition": "Queira avisar/contactar o agente seguinte pelo meio de telecomunicação mais eficiente."
+    }
+  }
+}

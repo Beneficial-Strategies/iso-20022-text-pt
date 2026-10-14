@@ -1,0 +1,12 @@
+{
+  "isoType": "RelativeDistinguishedName1",
+  "definition": "Nome distinto relativo definido pelas normas X.500 e X.509.",
+  "isoElements": {
+    "AttributeType": {
+      "definition": "Tipo de atributo de um nome distinto (ver X.500)."
+    },
+    "AttributeValue": {
+      "definition": "Valor do atributo de um nome distinto (ver X.500)."
+    }
+  }
+}

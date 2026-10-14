@@ -1,0 +1,9 @@
+{
+  "isoType": "CommunicationAddress12",
+  "definition": "Número do dispositivo de comunicação ou endereço eletrónico utilizado para comunicação.",
+  "isoElements": {
+    "URLAddress": {
+      "definition": "Endereço do localizador universal de recursos (URL), utilizado, por exemplo, no serviço www (HTTP)."
+    }
+  }
+}

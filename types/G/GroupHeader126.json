@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader126",
+  "definition": "Conjunto de características comuns a todos os registos individuais de encargos incluídos na mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte instruidora e enviada à parte seguinte da cadeia para identificar inequivocamente a mensagem.|Usage: A parte instruidora tem de assegurar que MessageIdentification é único por parte instruída durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    },
+    "ChargesRequestor": {
+      "definition": "Instituição que solicita os encargos, se diferente do remetente."
+    },
+    "TotalCharges": {
+      "definition": "Total dos encargos reclamados através desta mensagem."
+    },
+    "ChargesAccount": {
+      "definition": "Identifica a conta que foi debitada ou creditada pelos encargos, juros ou outros ajustes."
+    },
+    "ChargesAccountOwner": {
+      "definition": "Instituição titular da conta de encargos."
+    }
+  }
+}

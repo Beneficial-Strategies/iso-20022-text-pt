@@ -1,0 +1,12 @@
+{
+  "isoType": "RateFormat32Choice",
+  "definition": "Escolha entre uma taxa ou uma taxa não especificada.",
+  "isoElements": {
+    "Rate": {
+      "definition": "O valor é expresso como uma taxa."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valor da taxa não especificado."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Tracking4Choice",
+  "definition": "Escolha do formato das informações de acompanhamento.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica se o empréstimo e/ou a garantia são acompanhados."
+    },
+    "Proprietary": {
+      "definition": "Informações de acompanhamento expressas como um código próprio."
+    }
+  }
+}

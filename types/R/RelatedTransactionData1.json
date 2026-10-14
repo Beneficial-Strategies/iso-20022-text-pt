@@ -1,0 +1,12 @@
+{
+  "isoType": "RelatedTransactionData1",
+  "definition": "Fornece informações sobre as operações individuais em que a instrução de pagamento foi dividida.",
+  "isoElements": {
+    "MasterUETR": {
+      "definition": "Identificador único universal que fornece uma referência de ponta a ponta de uma operação de pagamento principal, à qual podem ser associadas uma ou várias operações de pagamento secundárias."
+    },
+    "SubUETR": {
+      "definition": "Identificador único universal que fornece uma referência de ponta a ponta de uma operação de pagamento secundária que pode estar associada a uma operação de pagamento principal."
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "isoType": "InvestmentAccountOwnershipInformation17",
+  "definition": "Características da titularidade de uma conta de investimento.",
+  "isoElements": {
+    "Party": {
+      "definition": "Informações sobre a organização ou a pessoa singular."
+    },
+    "MoneyLaunderingCheck": {
+      "definition": "Estado de uma verificação de identidade para prevenir o branqueamento de capitais. Inclui a verificação de combate ao terrorismo."
+    },
+    "ModifiedInvestorProfileValidation": {
+      "definition": "Informações relativas ao perfil da parte a inserir ou eliminar."
+    },
+    "OwnershipBeneficiaryRate": {
+      "definition": "Percentagem de titularidade ou de titularidade efetiva das ações/unidades de participação na conta. Todas as subscrições ou compras e/ou resgates ou vendas subsequentes serão afetados utilizando a mesma percentagem."
+    },
+    "ClientIdentification": {
+      "definition": "Identificação única, atribuída por uma organização, para identificar inequivocamente uma parte."
+    },
+    "FiscalExemption": {
+      "definition": "Indica se um titular da conta pode beneficiar de uma isenção ou amnistia fiscal, por exemplo, ao declarar investimentos no estrangeiro."
+    },
+    "SignatoryRightIndicator": {
+      "definition": "Indica se a assinatura do titular da conta é necessária para autorizar operações na conta."
+    },
+    "MiFIDClassification": {
+      "definition": "Pormenores sobre a classificação MiFID do titular da conta."
+    },
+    "Notification": {
+      "definition": "Tipo de informação que deve ser fornecida ao titular da conta."
+    },
+    "FATCAFormType": {
+      "definition": "Tipo de formulário da Foreign Account Tax Compliance Act (FATCA) apresentado pelo investidor ou titular da conta."
+    },
+    "FATCAStatus": {
+      "definition": "Estatuto da Foreign Account Tax Compliance Act (FATCA) do investidor ou titular da conta."
+    },
+    "FATCAReportingDate": {
+      "definition": "Data fornecida pelo titular da conta para informar a instituição gestora da conta da data em que as posições devem ser declaradas antes do encerramento subsequente da conta."
+    },
+    "CRSFormType": {
+      "definition": "Tipo de formulário do Common Reporting Standard (CRS) apresentado pelo investidor ou titular da conta."
+    },
+    "CRSStatus": {
+      "definition": "Estatuto do Common Reporting Standard (CRS) do investidor ou titular da conta."
+    },
+    "CRSReportingDate": {
+      "definition": "Data fornecida pelo titular da conta para informar a instituição gestora da conta da data em que as posições devem ser declaradas antes do encerramento subsequente da conta."
+    },
+    "OtherIdentification": {
+      "definition": "Identificação alternativa, por exemplo, número de identificação de registo nacional, número de passaporte, número de identificação fiscal. Pode ser um número de conta utilizado para identificar mais precisamente o beneficiário efetivo, por exemplo, uma conta do Central Provident Fund (CFP), conforme exigido em Singapura."
+    },
+    "TaxExemption": {
+      "definition": "Vantagem fiscal específica da parte da conta."
+    },
+    "TaxReporting": {
+      "definition": "Pormenores para a declaração de impostos, por exemplo, o país de tributação."
+    },
+    "Language": {
+      "definition": "Língua em que a organização ou pessoa comunica."
+    },
+    "MailType": {
+      "definition": "Método utilizado para o envio postal."
+    },
+    "CountryAndResidentialStatus": {
+      "definition": "País e estatuto de residência da organização ou pessoa singular."
+    },
+    "MonetaryWealth": {
+      "definition": "Património anual da pessoa singular ou valor do capital social da pessoa coletiva e data em que o património anual da pessoa singular foi registado ou declarado, ou data em que o valor das ações da organização foi registado."
+    },
+    "EquityValue": {
+      "definition": "Montante do total de ativos menos passivos da pessoa singular ou montante da diferença entre ativos e passivos acrescida dos direitos sobre as obrigações (capital próprio líquido) da organização e data em que o valor do capital próprio foi registado."
+    },
+    "WorkingCapital": {
+      "definition": "Recurso ou valor detido ou utilizado por uma sociedade terceira e data em que o montante do fundo de maneio foi registado."
+    },
+    "CompanyLink": {
+      "definition": "Ligação do titular da conta à parte negociadora ou corretora."
+    },
+    "ElectronicMailingServiceReference": {
+      "definition": "Referência a indicar quando uma carta, por exemplo, uma confirmação de ordem, é enviada por um sistema de correio automatizado."
+    },
+    "PrimaryCommunicationAddress": {
+      "definition": "Número do dispositivo de comunicação ou endereço eletrónico utilizado para comunicação."
+    },
+    "SecondaryCommunicationAddress": {
+      "definition": "Número do dispositivo de comunicação ou endereço eletrónico utilizado para comunicação."
+    },
+    "AdditionalRegulatoryInformation": {
+      "definition": "Informações regulamentares adicionais sobre o investidor ou titular da conta, exigidas em alguns mercados para apoiar as leis de combate ao branqueamento de capitais."
+    },
+    "AccountingStatus": {
+      "definition": "Especifica se a parte da conta é considerada nacional ou não nacional para efeitos de declaração."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais, como observações ou notas, que devem ser transmitidas sobre a parte e/ou limitações e restrições."
+    },
+    "ControllingParty": {
+      "definition": "A parte é a pessoa que exerce o controlo. |(Para uma entidade que seja pessoa coletiva, o termo “Pessoas que exercem o controlo” designa a(s) pessoa(s) singular(es) que exerce(m) o controlo sobre a entidade. O “controlo” sobre uma entidade é geralmente exercido pela(s) pessoa(s) singular(es) que detém(êm), em última instância, uma participação de controlo na entidade. Uma “participação de controlo” depende da estrutura de propriedade da pessoa coletiva e é normalmente identificada com base num limiar, aplicando uma abordagem baseada no risco (por exemplo, qualquer pessoa que detenha mais de uma determinada percentagem da pessoa coletiva, como 25%). Quando nenhuma pessoa singular exerce o controlo através de participações, a(s) pessoa(s) que exerce(m) o controlo da entidade será(ão) a(s) pessoa(s) singular(es) que exerce(m) o controlo da entidade por outros meios. Quando nenhuma pessoa singular for identificada como exercendo o controlo da entidade, a(s) pessoa(s) que exerce(m) o controlo da entidade será(ão) a(s) pessoa(s) singular(es) que ocupa(m) o cargo de dirigente superior.)."
+    }
+  }
+}

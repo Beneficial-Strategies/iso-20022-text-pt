@@ -1,0 +1,12 @@
+{
+  "isoType": "ProceedsQuantityBreakdown1",
+  "definition": "Fornece informações sobre a decomposição das quantidades.",
+  "isoElements": {
+    "TransferOfReceivedProceedsQuantity": {
+      "definition": "Quantidade de produto em valores mobiliários transferida em resultado da reclamação de mercado."
+    },
+    "CashCompensationQuantity": {
+      "definition": "Quantidade de produto em valores mobiliários compensada em numerário em resultado da reclamação de mercado."
+    }
+  }
+}

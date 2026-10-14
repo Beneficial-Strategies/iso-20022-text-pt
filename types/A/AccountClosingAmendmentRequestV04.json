@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountClosingAmendmentRequestV04",
+  "definition": "A mensagem AccountClosingAmendmentRequest é enviada por uma organização a uma instituição financeira no âmbito do processo de encerramento de conta. É enviada em resposta a um pedido da instituição financeira para o envio de informações adicionais."
+}

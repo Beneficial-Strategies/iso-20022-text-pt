@@ -1,0 +1,27 @@
+{
+  "isoType": "Pension6",
+  "definition": "Atributos de uma pensão.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação da apólice, plano ou regime de pensões."
+    },
+    "Type": {
+      "definition": "Tipo de apólice, plano ou regime de pensões."
+    },
+    "TransferScope": {
+      "definition": "Âmbito da transferência da apólice, plano ou regime de pensões."
+    },
+    "TaxReference": {
+      "definition": "Referência fiscal atribuída à apólice, plano ou regime de pensões por uma organização central."
+    },
+    "DrawdownTrancheIdentification": {
+      "definition": "Referência do levantamento."
+    },
+    "NonWrapperTransfer": {
+      "definition": "Indica que a transferência diz respeito apenas aos ativos subjacentes e que a transferência do invólucro ocorrerá em separado."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a apólice, plano ou regime de pensões."
+    }
+  }
+}

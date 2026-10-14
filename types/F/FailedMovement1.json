@@ -1,0 +1,26 @@
+{
+  "isoType": "FailedMovement1",
+  "definition": "Fornece informações sobre um movimento cuja liquidação falhou.",
+  "isoElements": {
+    "CashAmount": {
+      "definition": "Montante de numerário."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Quantidade do instrumento financeiro."
+    },
+    "SecurityIdentification": {
+      "definition": "Identificação do instrumento financeiro."
+    },
+    "Reason": {
+      "definition": "O motivo da falha de liquidação."
+    }
+  },
+  "isoRules": {
+    "CashAmountOrSecuritiesQuantityRule": {
+      "definition": "Tem de estar presente CashAmount ou SecuritiesQuantity."
+    },
+    "CashAmountOrSecuritiesQuantityRuleNotBoth": {
+      "definition": "Tem de estar presente CashAmount ou SecuritiesQuantity."
+    }
+  }
+}

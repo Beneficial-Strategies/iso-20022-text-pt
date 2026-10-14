@@ -1,0 +1,12 @@
+{
+  "isoType": "StatusAndReason49",
+  "definition": "Estado e motivo de uma ordem instruída.",
+  "isoElements": {
+    "StatusAndReason": {
+      "definition": "Estado e motivo da operação."
+    },
+    "Transaction": {
+      "definition": "Detalhes das operações reportadas."
+    }
+  }
+}

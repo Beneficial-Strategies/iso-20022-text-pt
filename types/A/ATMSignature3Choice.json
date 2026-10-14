@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMSignature3Choice",
+  "definition": "Elemento que contém a assinatura.",
+  "isoElements": {
+    "DigitalSignature": {
+      "definition": "Assinatura digital de dados implícitos, consoante o procedimento de descarregamento do esquema de segurança."
+    },
+    "TRRelatedData": {
+      "definition": "Bloco de dados de um bloco TR31 ou TR34, em que o bloco não contém uma chave (por exemplo, o unbind TR34, que contém os dados de autorização assinados)."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "DataModification1Code",
+  "definition": "Especifica o tipo de modificação a aplicar a um conjunto de dados.",
+  "isoCodes": {
+    "INSE": {
+      "name": "Inserir novo conjunto de dados",
+      "definition": "Inserir um novo conjunto de dados."
+    },
+    "UPDT": {
+      "name": "Atualizar detalhes do conjunto de dados",
+      "definition": "Atualizar os detalhes de um conjunto de dados existente."
+    },
+    "DELT": {
+      "name": "Eliminar conjunto de dados",
+      "definition": "Eliminar um conjunto de dados existente."
+    }
+  }
+}

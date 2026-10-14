@@ -1,0 +1,18 @@
+{
+  "isoType": "Cheque12",
+  "definition": "Conjunto de características relativas a uma instrução de cheque, como o tipo de cheque ou o número do cheque.",
+  "isoElements": {
+    "Number": {
+      "definition": "Identificador único e inequívoco do cheque, atribuído pela instituição financeira."
+    },
+    "PayeeIdentification": {
+      "definition": "Parte a favor da qual o cheque é emitido."
+    },
+    "DraweeIdentification": {
+      "definition": "Instituição financeira sobre a qual o cheque é sacado, ou seja, a instituição financeira que gere a conta da entidade que emitiu o cheque."
+    },
+    "DrawerIdentification": {
+      "definition": "Titular da conta que emite o cheque, ordenando ao banco sacado que pague um montante determinado, à vista, ao beneficiário."
+    }
+  }
+}

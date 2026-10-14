@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationAdviceV03",
+  "definition": "A mensagem ATMReconciliationAdvice é enviada por um ATM a um adquirente ou ao seu agente para enviar todos os contadores do ATM. Pode ser enviada por uma função de operador ou como resposta a um comando enviado por um agente ou um servidor."
+}

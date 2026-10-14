@@ -1,0 +1,22 @@
+{
+  "isoType": "MemberStatus1Code",
+  "definition": "Especifica o estado de atividade de um membro de um sistema.",
+  "isoCodes": {
+    "ENBL": {
+      "name": "Ativado",
+      "definition": "O membro está ativo no sistema."
+    },
+    "DSBL": {
+      "name": "Desativado",
+      "definition": "O membro está temporariamente inativo no sistema."
+    },
+    "DLTD": {
+      "name": "Eliminado",
+      "definition": "O membro já não está ativo no sistema."
+    },
+    "JOIN": {
+      "name": "Em adesão",
+      "definition": "O membro está a aderir e será em breve ativado no sistema."
+    }
+  }
+}

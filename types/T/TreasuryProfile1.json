@@ -1,0 +1,15 @@
+{
+  "isoType": "TreasuryProfile1",
+  "definition": "Perfil de negociação de tesouraria.",
+  "isoElements": {
+    "Date": {
+      "definition": "Data de execução da negociação de obrigações do tesouro."
+    },
+    "TraderType": {
+      "definition": "Tipo de parte que efetua operações de negociação, por exemplo, investidor ou depositário."
+    },
+    "Rate": {
+      "definition": "Taxa de imposto."
+    }
+  }
+}

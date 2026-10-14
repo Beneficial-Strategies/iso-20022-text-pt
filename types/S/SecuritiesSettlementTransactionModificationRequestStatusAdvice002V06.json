@@ -1,0 +1,20 @@
+{
+  "isoType": "SecuritiesSettlementTransactionModificationRequestStatusAdvice002V06",
+  "definition": "Âmbito|Uma instituição gestora de contas envia uma SecuritiesSettlementTransactionModificationRequestStatusAdvice a um titular de conta para o informar do estado de uma mensagem SecuritiesSettlementModificationRequest enviada anteriormente pelo titular da conta.|A instituição gestora de contas pode ser:|- uma central de valores mobiliários ou outra infraestrutura de mercado de liquidação que gere operações de liquidação de valores mobiliários em nome dos seus participantes|- um custodiante que atua como agente de contabilização e/ou de liquidação.||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada pelo titular da conta à instituição gestora da conta,|- fornecer a um terceiro uma cópia de uma mensagem enviada pelo titular da conta, para informação,|- reenviar a um terceiro uma cópia de uma mensagem enviada pelo titular da conta, para informação|utilizando os elementos pertinentes do Business Application Header.",
+  "isoElements": {
+    "ModificationRequestReference": {
+      "definition": "Referência à identificação inequívoca do pedido de cancelamento, conforme atribuída pelo titular da conta."
+    }
+  },
+  "isoRules": {
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount deve estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isoType": "TransferInstruction1",
+  "definition": "Fornece informações adicionais necessárias para a mudança de conta.",
+  "isoElements": {
+    "TransferIndicator": {
+      "definition": "Indica se um acordo de pagamento é transferível.||Utilização: O valor por omissão de TransferIndicator é falso."
+    },
+    "Code": {
+      "definition": "Especifica um parâmetro adicional a aplicar ao calendário de operações solicitado."
+    },
+    "Proprietary": {
+      "definition": "Especifica um parâmetro adicional a aplicar ao calendário de operações num formato proprietário."
+    },
+    "StartDateTime": {
+      "definition": "A data e hora em que tem início o evento especificado por Code."
+    },
+    "StartDate": {
+      "definition": "A data em que tem início o evento especificado por Code."
+    },
+    "Description": {
+      "definition": "Parâmetros adicionais da mudança em formato de texto livre."
+    }
+  }
+}

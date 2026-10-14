@@ -1,0 +1,154 @@
+{
+  "isoType": "RejectionReason75Code",
+  "definition": "Especifica o motivo pelo qual a instrução de liquidação tem o estado de rejeitada.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Rejeição da conta de guarda",
+      "definition": "Conta de custódia do remetente da mensagem não reconhecida ou inválida."
+    },
+    "DQUA": {
+      "name": "Rejeição da quantidade",
+      "definition": "Quantidade instruída não reconhecida ou inválida."
+    },
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "DSEC": {
+      "name": "Valor mobiliário inválido",
+      "definition": "Identificação do instrumento financeiro não reconhecida ou inválida."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "CASH": {
+      "name": "Conta de numerário",
+      "definition": "Conta de numerário não reconhecida ou inválida."
+    },
+    "DDEA": {
+      "name": "Preço do negócio",
+      "definition": "Preço da transação não reconhecido ou inválido."
+    },
+    "DTRD": {
+      "name": "Data de negociação",
+      "definition": "Data da negociação, data de negociação solicitada ou data de negociação futura não reconhecida ou inválida."
+    },
+    "PLCE": {
+      "name": "Local de negociação",
+      "definition": "Local de negociação não reconhecido ou inválido."
+    },
+    "RTGS": {
+      "name": "Impossível utilizar o sistema RTGS indicado",
+      "definition": "Não é possível utilizar o sistema RTGS instruído (NRTG ou YRTG)."
+    },
+    "NCRR": {
+      "name": "Rejeição da moeda do montante de liquidação",
+      "definition": "Moeda do montante de liquidação não reconhecida ou inválida."
+    },
+    "PHYS": {
+      "name": "Liquidação física impossível",
+      "definition": "A liquidação física é impossível para o instrumento financeiro instruído."
+    },
+    "REFE": {
+      "name": "Rejeição por referência",
+      "definition": "A instrução tem uma referência idêntica à de outra instrução recebida anteriormente."
+    },
+    "DMON": {
+      "name": "Rejeição do montante de liquidação",
+      "definition": "Montante de liquidação não reconhecido ou inválido."
+    },
+    "MINO": {
+      "name": "Quantidade mínima de liquidação",
+      "definition": "A quantidade instruída é inferior à quantidade mínima de liquidação existente para o instrumento financeiro."
+    },
+    "BATC": {
+      "name": "Rejeição do lote de processamento",
+      "definition": "Lote de processamento não reconhecido ou inválido, isto é, diurno/tempo real quando só é possível liquidar em lote noturno."
+    },
+    "MUNO": {
+      "name": "Múltiplo da quantidade de liquidação",
+      "definition": "A quantidade instruída não é múltipla de um lote de quantidade de liquidação existente para o instrumento financeiro."
+    },
+    "TXST": {
+      "name": "Rejeição do estatuto fiscal",
+      "definition": "Regime fiscal dos valores mobiliários instruídos não reconhecido ou inválido."
+    },
+    "SETS": {
+      "name": "Rejeição do método do sistema de liquidação",
+      "definition": "Sistema/método de liquidação instruído não reconhecido ou inválido."
+    },
+    "IIND": {
+      "name": "Rejeição da referência comum",
+      "definition": "Referência comum não reconhecida, inválida ou em falta."
+    },
+    "CAEV": {
+      "name": "Rejeição de operação sobre títulos",
+      "definition": "Evento societário pendente sobre o instrumento financeiro instruído."
+    },
+    "CASY": {
+      "name": "Sistema de liquidação de numerário impossível",
+      "definition": "Disposições permanentes impossíveis prevalecem sobre a instrução para o sistema de liquidação em numerário."
+    },
+    "DDAT": {
+      "name": "Rejeição da data de liquidação",
+      "definition": "Data de liquidação não reconhecida ou inválida."
+    },
+    "SETR": {
+      "name": "Rejeição da operação de liquidação",
+      "definition": "Tipo de operação de liquidação não reconhecido ou inválido."
+    },
+    "SDUT": {
+      "name": "Falta de imposto do selo",
+      "definition": "Faltam as informações exigidas sobre o imposto do selo."
+    },
+    "INPS": {
+      "name": "Local de guarda",
+      "definition": "Local de custódia não reconhecido, inválido ou em falta."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "ICUS": {
+      "name": "Parte recetora ou entregadora 2",
+      "definition": "Cliente da parte 1 entregadora ou recetora não reconhecido ou inválido."
+    },
+    "ICAG": {
+      "name": "Parte recetora ou entregadora 1",
+      "definition": "Participante do depositário entregador ou recetor não reconhecido ou inválido."
+    },
+    "DEPT": {
+      "name": "Depositário recetor ou entregador",
+      "definition": "Depositário não reconhecido ou inválido."
+    },
+    "IEXE": {
+      "name": "Parte recetora ou entregadora 3",
+      "definition": "Cliente da parte 2 entregadora ou recetora não reconhecido ou inválido."
+    },
+    "INVB": {
+      "name": "Saldo inválido",
+      "definition": "A instrução visa utilizar um saldo inválido."
+    },
+    "INVL": {
+      "name": "Associação inválida",
+      "definition": "Associação inválida ou não reconhecida."
+    },
+    "INVN": {
+      "name": "Número de lote inválido",
+      "definition": "Número de lote inválido ou não reconhecido."
+    },
+    "VALR": {
+      "name": "Regra inválida",
+      "definition": "Rejeição por regra de validação da instituição gestora da conta."
+    },
+    "INVE": {
+      "name": "Parte investidora inválida",
+      "definition": "Parte investidora não reconhecida ou inválida. Pode ser utilizado por uma parte de execução para rejeitar uma instrução relativa a um investidor (ou carteira) em nome do qual não está autorizada a atuar."
+    },
+    "PLIS": {
+      "name": "Local de cotação",
+      "definition": "Local de cotação não reconhecido ou inválido. Utilizado quando o valor mobiliário identificado não está cotado no mercado indicado."
+    }
+  }
+}

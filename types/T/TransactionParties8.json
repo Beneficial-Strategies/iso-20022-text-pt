@@ -1,0 +1,95 @@
+{
+  "isoType": "TransactionParties8",
+  "definition": "Fornece detalhes adicionais sobre as partes específicas da operação individual.",
+  "isoElements": {
+    "UltimateDebtor": {
+      "definition": "Parte final que deve um montante em dinheiro ao credor (final)."
+    },
+    "Debtor": {
+      "definition": "Parte que deve um montante em dinheiro ao credor (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificação inequívoca da conta do devedor a debitar em resultado da operação."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia o pagamento.|Utilização: Pode ser o devedor ou uma parte que inicia a transferência em nome do devedor."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do devedor junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "PreviousInstructingAgent1": {
+      "definition": "Agente imediatamente anterior ao agente instruidor."
+    },
+    "PreviousInstructingAgent1Account": {
+      "definition": "Identificação inequívoca da conta do agente instrutor anterior junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "PreviousInstructingAgent2": {
+      "definition": "Agente imediatamente anterior ao agente instruidor."
+    },
+    "PreviousInstructingAgent2Account": {
+      "definition": "Identificação inequívoca da conta do agente instrutor anterior junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "PreviousInstructingAgent3": {
+      "definition": "Agente imediatamente anterior ao agente instruidor."
+    },
+    "PreviousInstructingAgent3Account": {
+      "definition": "Identificação inequívoca da conta do agente instrutor anterior junto do seu agente prestador de serviços na cadeia de pagamento."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor.||Utilização: Se existir mais do que uma instituição intermediária, IntermediaryAgent1 identifica a instituição entre DebtorAgent e IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 1 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor.||Utilização: Se existirem mais do que duas instituições intermediárias, IntermediaryAgent2 identifica a instituição entre IntermediaryAgent1 e IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 2 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Agente entre a instituição do devedor e a instituição do credor.||Utilização: Se IntermediaryAgent3 estiver presente, identifica o agente entre o IntermediaryAgent 2 e o CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 3 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do credor junto da sua instituição gestora, a creditar em resultado da operação de pagamento."
+    },
+    "Creditor": {
+      "definition": "Parte a quem é devido um montante em dinheiro."
+    },
+    "CreditorAccount": {
+      "definition": "Identificação inequívoca da conta do credor a creditar em resultado da operação de pagamento."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a quem é devido um montante em dinheiro."
+    }
+  },
+  "isoRules": {
+    "IntermediaryAgent1AccountRule": {
+      "definition": "Se IntermediaryAgent1Account estiver presente, então IntermediaryAgent1 tem de estar presente."
+    },
+    "IntermediaryAgent2AccountRule": {
+      "definition": "Se IntermediaryAgent2Account estiver presente, então IntermediaryAgent2 tem de estar presente."
+    },
+    "IntermediaryAgent3AccountRule": {
+      "definition": "Se IntermediaryAgent3Account estiver presente, então IntermediaryAgent3 tem de estar presente."
+    },
+    "PreviousInstructingAgent1AccountRule": {
+      "definition": "Se PreviousInstructingAgent1Account estiver presente, PreviousInstructingAgent1 tem de estar presente."
+    },
+    "PreviousInstructingAgent2AccountRule": {
+      "definition": "Se PreviousInstructingAgent2Account estiver presente, PreviousInstructingAgent2 tem de estar presente."
+    },
+    "PreviousInstructingAgent3AccountRule": {
+      "definition": "Se PreviousInstructingAgent3Account estiver presente, PreviousInstructingAgent3 tem de estar presente."
+    }
+  }
+}

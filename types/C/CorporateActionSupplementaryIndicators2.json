@@ -1,0 +1,38 @@
+{
+  "isoType": "CorporateActionSupplementaryIndicators2",
+  "definition": "Identificação de um elemento de dados suplementares.",
+  "isoElements": {
+    "ConditionalPaymentApplicableIndicator": {
+      "definition": "Indica se o pagamento efetuado pelo emitente está sujeito a uma condição declarada.|Sim: aplicável.|Não: não aplicável.|Quando ausente, significa Não."
+    },
+    "SolicitationDealerFeeIndicator": {
+      "definition": "Indica se existe uma comissão de solicitação no evento. Esta comissão é paga pelo intermediário solicitante.|Sim: aplicável.|Não: não aplicável.|Quando ausente, significa Não."
+    },
+    "SurrenderSharesToAgentIndicator": {
+      "definition": "Indica se as ações fora da DTC têm de ser entregues ao agente para receber o direito.|Sim: aplicável.|Não: não aplicável.|Quando ausente, significa Não."
+    },
+    "StepUpPrivilegeIndicator": {
+      "definition": "Indica que o detentor tem o privilégio de comprar direitos adicionais. Ao exercer este privilégio, o detentor pode subscrever uma ação adicional do novo valor mobiliário em substituição das frações de ações a que de outro modo teria direito.|Sim: aplicável.|Não: não aplicável.|Quando ausente, significa Não."
+    },
+    "RightsOversubscriptionIndicator": {
+      "definition": "Indica se os detentores de direitos terão a oportunidade de subscrever a compra de ações extra que não sejam subscritas pelos restantes detentores.|Sim: aplicável.|Não: não aplicável.|Quando ausente, significa Não."
+    },
+    "RightsRoundUpPrivilegeIndicator": {
+      "definition": "Indica se o acionista poderá arredondar por excesso a sua subscrição caso os seus direitos sejam inferiores ao exigido.|Sim: aplicável.|Não: não aplicável.|Quando ausente, significa Não."
+    },
+    "RightsTransferableIndicator": {
+      "definition": "Indica se os direitos podem ser transferidos.|Sim: aplicável.|Não: não aplicável.|Quando ausente, significa Não."
+    },
+    "EscrowToMaturityIndicator": {
+      "definition": "Para eventos de Partial Defeasance, indica se existe um acordo de caução (escrow) em vigor."
+    },
+    "ConcurrentCallIndicator": {
+      "definition": "Indica a presença de um evento de reembolso adicional que ocorre com a mesma data de publicação, data de pagamento e valor mobiliário subjacente que o evento anunciado."
+    }
+  },
+  "isoRules": {
+    "ConcurrentCallRule": {
+      "definition": "Se ConcurrentCallIndicator for Sim, então Lottery FeatureType deve estar presente."
+    }
+  }
+}

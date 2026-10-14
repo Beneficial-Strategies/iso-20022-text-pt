@@ -1,0 +1,21 @@
+{
+  "isoType": "CustomerPaymentReversalV13",
+  "definition": "Âmbito|A mensagem CustomerPaymentReversal é enviada pela parte iniciadora à parte seguinte na cadeia de pagamento. Destina-se a reverter um pagamento executado anteriormente.|Utilização|A mensagem CustomerPaymentReversal é trocada entre um cliente que não é instituição financeira e uma instituição para reverter uma mensagem CustomerDirectDebitInitiation que foi liquidada. O resultado será um crédito na conta do devedor.|A mensagem CustomerPaymentReversal refere-se à mensagem CustomerDirectDebitInitiation original apenas por meio de referências ou por meio de referências e de um conjunto de elementos da instrução original.|A mensagem CustomerPaymentReversal pode ser utilizada em cenários nacionais e transfronteiras.",
+  "isoRules": {
+    "GroupReversalAndPaymentInformationNotPresentRule": {
+      "definition": "Se GroupHeader/GroupReversal for true, então OriginalPaymentInformationAndReversal não é permitido."
+    },
+    "GroupReversalAndReasonRule": {
+      "definition": "Se GroupHeader/GroupReversal for verdadeiro, OriginalGroupInformation/ReversalReasonInformation/Reason tem de estar presente."
+    },
+    "GroupReversalAndNumberOfTransactionsGuideline": {
+      "definition": "Se GroupHeader/GroupReversal for false e OriginalPaymentInformationAndReversal[*]/PaymentInformationReversal for false, então NumberOfTransactions deve ser igual ao número de ocorrências de OriginalPaymentInformationAndReversal[*]/TransactionInformation."
+    },
+    "GroupReversalAndPaymentInformationPresentRule": {
+      "definition": "Se GroupHeader/GroupReversal for false, então deve estar presente pelo menos uma ocorrência de OriginalPaymentInformationAndReversal."
+    },
+    "SupplementaryDataRule": {
+      "definition": "O bloco SupplementaryData ao nível da mensagem não pode ser utilizado para fornecer informações adicionais sobre uma operação. O elemento SupplementaryData ao nível da operação deve ser utilizado para esse efeito."
+    }
+  }
+}

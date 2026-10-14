@@ -1,0 +1,4 @@
+{
+  "isoType": "CreateStandingOrderV03",
+  "definition": "Scope|A mensagem CreateStandingOrder é enviada por um membro ao administrador de operações.|É utilizada para criar uma ordem permanente de transferência de fundos entre duas contas pertencentes ao mesmo membro e mantidas junto do administrador de operações.|Usage|Com base nos critérios definidos na mensagem CreateStandingOrder, o administrador de operações executará ou rejeitará a criação solicitada e responderá com uma mensagem Receipt em resposta ao pedido."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionOrderType1Choice",
+  "definition": "Escolha de formatos para um tipo de ordem de pensão.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de ordem associada à apólice, ao plano ou ao regime de pensões expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de ordem associada à apólice, ao plano ou ao regime de pensões expresso sob a forma de código proprietário."
+    }
+  }
+}

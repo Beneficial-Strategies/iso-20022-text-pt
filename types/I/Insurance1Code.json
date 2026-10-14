@@ -1,0 +1,14 @@
+{
+  "isoType": "Insurance1Code",
+  "definition": "Especifica o tipo de seguro.",
+  "isoCodes": {
+    "LIFE": {
+      "name": "Seguro de vida",
+      "definition": "Seguro de vida."
+    },
+    "PDIS": {
+      "name": "Seguro de invalidez permanente",
+      "definition": "Seguro de invalidez permanente."
+    }
+  }
+}

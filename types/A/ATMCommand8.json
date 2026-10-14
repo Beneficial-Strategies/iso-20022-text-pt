@@ -1,0 +1,24 @@
+{
+  "isoType": "ATMCommand8",
+  "definition": "Resultado do comando de reinicialização dos contadores de operações.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comando a executar pelo ATM."
+    },
+    "RequiredDateTime": {
+      "definition": "Data e hora em que foi pedido que o comando fosse executado."
+    },
+    "ProcessedDateTime": {
+      "definition": "Data e hora em que o comando foi executado."
+    },
+    "CommandIdentification": {
+      "definition": "Identificação da entidade que emite o comando."
+    },
+    "Result": {
+      "definition": "Resultado final do comando processado no ATM."
+    },
+    "AdditionalErrorInformation": {
+      "definition": "Informação adicional sobre a falha a registar para análise posterior."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "isoType": "InvestigationRejection1Code",
+  "definition": "Especifica o motivo da rejeição de um processo de investigação.",
+  "isoCodes": {
+    "NFND": {
+      "name": "Pagamento subjacente não encontrado",
+      "definition": "Não é possível encontrar a instrução subjacente."
+    },
+    "NAUT": {
+      "name": "Sem autorização para investigar",
+      "definition": "O destinatário do processo não está autorizado a investigar esta instrução, ou uma parte foi ignorada na cadeia de pagamento, ou não foi estabelecido nenhum acordo bilateral para este tipo de consulta."
+    },
+    "UKNW": {
+      "name": "Processo desconhecido",
+      "definition": "O processo nunca foi atribuído anteriormente."
+    },
+    "PCOR": {
+      "name": "Pagamento previamente cancelado ou rejeitado",
+      "definition": "Utilizado quando a instrução de pagamento foi previamente anulada ou rejeitada."
+    },
+    "WMSG": {
+      "name": "Mensagem errada",
+      "definition": "Foi utilizada a mensagem errada no fluxo de trabalho da investigação."
+    },
+    "RNCR": {
+      "name": "Rejeitar não relacionado com numerário",
+      "definition": "Utilizado para rejeitar uma consulta não relacionada com numerário que não está abrangida no fluxo de trabalho."
+    },
+    "MROI": {
+      "name": "Falta de resolução da investigação",
+      "definition": "Não foi recebida a Resolution of Investigation num processo reaberto."
+    }
+  }
+}

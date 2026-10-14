@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMCommand4Code",
+  "definition": "Tipo de comando a executar por um ATM.",
+  "isoCodes": {
+    "ABAL": {
+      "name": "Saldo do ATM",
+      "definition": "Fornecer os contadores do ATM, repondo a zero os que forem aplicáveis."
+    },
+    "ASTS": {
+      "name": "Atualização do estado do ATM",
+      "definition": "Estado do ATM exigido pelo gestor do ATM."
+    },
+    "CFGT": {
+      "name": "Atualização da configuração",
+      "definition": "Atualizar os parâmetros de configuração do ATM."
+    },
+    "CCNT": {
+      "name": "Consulta de contadores",
+      "definition": "Pedir o valor dos contadores do ATM."
+    },
+    "DISC": {
+      "name": "Desligar",
+      "definition": "Efetuar uma desligação seguida de uma religação."
+    },
+    "SNDM": {
+      "name": "Enviar mensagem",
+      "definition": "Enviar uma mensagem específica para iniciar um processo."
+    },
+    "RPTC": {
+      "name": "Relatório de contadores",
+      "definition": "Fornecer o valor dos contadores do ATM, sem reinicialização dos contadores."
+    }
+  }
+}

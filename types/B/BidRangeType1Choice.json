@@ -1,0 +1,12 @@
+{
+  "isoType": "BidRangeType1Choice",
+  "definition": "Tipo de intervalo de licitação como escolha entre um valor codificado definido ou um valor proprietário.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de intervalo de licitação expresso como valor codificado."
+    },
+    "Proprietary": {
+      "definition": "Tipo de intervalo de licitação expresso como valor proprietário."
+    }
+  }
+}

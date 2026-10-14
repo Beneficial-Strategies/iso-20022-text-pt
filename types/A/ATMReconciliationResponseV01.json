@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMReconciliationResponseV01",
+  "definition": "O ATMReconciliationResponse é enviado por um anfitrião de manutenção a um ATM para identificar as contagens que têm de ser atualizadas."
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ReversedStatus2Choice",
+  "definition": "Motivo do estado revertido.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motivo do estado de reversão."
+    },
+    "DataSourceScheme": {
+      "definition": "Identificação proprietária do motivo do estado revertido."
+    },
+    "NoSpecifiedReason": {
+      "definition": "Indica que não existe motivo disponível ou a reportar."
+    }
+  }
+}

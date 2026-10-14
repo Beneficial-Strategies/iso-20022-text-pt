@@ -1,0 +1,4 @@
+{
+  "isoType": "RemittanceLocationAdviceV03",
+  "definition": "A mensagem RemittanceLocationAdvice permite ao ordenante da mensagem identificar onde se encontra o aviso de remessa de um pagamento relacionado."
+}

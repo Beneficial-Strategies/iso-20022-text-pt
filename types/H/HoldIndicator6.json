@@ -1,0 +1,12 @@
+{
+  "isoType": "HoldIndicator6",
+  "definition": "Especifica se a operação está retida/bloqueada/congelada.",
+  "isoElements": {
+    "Indicator": {
+      "definition": "Especifica se a operação está retida/bloqueada/congelada."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo do estado de registo."
+    }
+  }
+}

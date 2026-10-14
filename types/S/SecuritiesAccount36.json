@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesAccount36",
+  "definition": "Conta a ou de que é efetuado um lançamento de valores mobiliários.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de conta de valores mobiliários."
+    },
+    "Name": {
+      "definition": "Descrição da conta."
+    },
+    "Designation": {
+      "definition": "Informações de registo suplementares aplicáveis a um bloco específico de unidades para efeitos de negociação e de reporte. As informações de registo suplementares podem ser utilizadas quando todas as unidades estão registadas, por exemplo, numa plataforma de fundos, mas as posições de cada investidor têm de ser reconciliadas individualmente."
+    }
+  }
+}

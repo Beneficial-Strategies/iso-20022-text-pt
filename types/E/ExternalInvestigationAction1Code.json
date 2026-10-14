@@ -1,0 +1,22 @@
+{
+  "isoType": "ExternalInvestigationAction1Code",
+  "definition": "Especifica a ação solicitada, conforme publicada num conjunto de códigos externo de ações de investigação.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "RQCL": {
+      "name": "Pedido de encerramento da investigação",
+      "definition": "Solicita-se ao respondente que encerre a investigação. Todos os pedidos de investigação relativos à investigação podem ser ignorados."
+    },
+    "RQST": {
+      "name": "Pedido de estado da investigação",
+      "definition": "Solicita-se ao respondente que forneça o estado da investigação."
+    },
+    "RQOB": {
+      "name": "Pedido de objeção",
+      "definition": "Solicita-se ao respondente que reveja uma resposta anterior, uma vez que o requerente se opõe à mesma."
+    },
+    "RQRO": {
+      "name": "Pedido de reabertura da investigação",
+      "definition": "Solicita-se ao respondente que reabra a investigação."
+    }
+  }
+}

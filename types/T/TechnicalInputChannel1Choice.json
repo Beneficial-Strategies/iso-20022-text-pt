@@ -1,0 +1,12 @@
+{
+  "isoType": "TechnicalInputChannel1Choice",
+  "definition": "Especifica o canal técnico de entrada.",
+  "isoElements": {
+    "Code": {
+      "definition": "Canal técnico de entrada, tal como publicado numa lista de códigos externa de canais técnicos de entrada."
+    },
+    "Proprietary": {
+      "definition": "Canal técnico utilizado para introduzir a instrução, sob forma proprietária."
+    }
+  }
+}

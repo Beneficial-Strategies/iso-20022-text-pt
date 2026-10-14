@@ -1,0 +1,18 @@
+{
+  "isoType": "QueryType3Code",
+  "definition": "Especifica a natureza do pedido, isto é, se deve ser devolvida toda a informação ou apenas a informação que se alterou desde que foi devolvido o último pedido semelhante.",
+  "isoCodes": {
+    "ALLL": {
+      "name": "Todos",
+      "definition": "Especifica que a consulta solicita que sejam devolvidos todos os itens correspondentes."
+    },
+    "CHNG": {
+      "name": "Alterado",
+      "definition": "Especifica que a consulta solicita que sejam devolvidos apenas os novos itens correspondentes desde a última consulta semelhante."
+    },
+    "MODF": {
+      "name": "Modificado",
+      "definition": "Especifica que a consulta solicita que sejam devolvidos apenas os itens que foram alterados desde a última consulta."
+    }
+  }
+}

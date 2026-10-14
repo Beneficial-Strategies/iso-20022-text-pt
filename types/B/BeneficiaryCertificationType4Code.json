@@ -1,0 +1,46 @@
+{
+  "isoType": "BeneficiaryCertificationType4Code",
+  "definition": "Especifica o tipo de certificação exigida.",
+  "isoCodes": {
+    "ACCI": {
+      "name": "Investidor acreditado",
+      "definition": "O titular do valor mobiliário tem de certificar, de forma irrevogável, que é um Investidor Qualificado (Accredited Investor) na aceção da Regulation D da Securities and Exchange Commission dos US."
+    },
+    "DOMI": {
+      "name": "País de domicílio",
+      "definition": "O titular do valor mobiliário tem de certificar o seu domicílio."
+    },
+    "NDOM": {
+      "name": "País de não domicílio",
+      "definition": "O titular do valor mobiliário tem de certificar, em conformidade com os termos da operação sobre títulos, que não tem domicílio no país indicado."
+    },
+    "FULL": {
+      "name": "Discriminação completa dos beneficiários efetivos",
+      "definition": "O titular do valor mobiliário tem de fornecer os dados do seu beneficiário efetivo para efeitos de divulgação/instrução."
+    },
+    "NCOM": {
+      "name": "Não sociedade",
+      "definition": "O titular do valor mobiliário tem de certificar que é uma pessoa não relacionada com a sociedade."
+    },
+    "QIBB": {
+      "name": "Certificação QIB",
+      "definition": "O titular do valor mobiliário tem de certificar, de forma irrevogável, que é um Comprador Institucional Qualificado (Qualified Institutional Buyer) na aceção da Rule 144A da Securities and Exchange Commission dos US."
+    },
+    "TRBD": {
+      "name": "Discriminação por taxa de imposto",
+      "definition": "O titular do valor mobiliário tem de fornecer dados básicos sobre os valores nominais e a taxa de imposto associada a utilizar pelo prestador de serviços da conta."
+    },
+    "PAPW": {
+      "name": "Documentação do beneficiário efetivo",
+      "definition": "Indica se o beneficiário efetivo é responsável pelo preenchimento da documentação."
+    },
+    "PABD": {
+      "name": "Discriminação por participante ICSD",
+      "definition": "O (I)CSD tem de fornecer os dados dos seus participantes ao emitente/agente do emitente para efeitos de divulgação."
+    },
+    "FRAC": {
+      "name": "Discriminação por frações",
+      "definition": "Indica que a regra de arredondamento do componente Fraction Disposition ao nível da opção pode ser oferecida ao nível do beneficiário efetivo."
+    }
+  }
+}

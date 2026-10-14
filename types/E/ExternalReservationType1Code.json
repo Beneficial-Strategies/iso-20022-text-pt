@@ -1,0 +1,30 @@
+{
+  "isoType": "ExternalReservationType1Code",
+  "definition": "Especifica o tipo de reserva, conforme publicado num conjunto de códigos externo de tipos de reserva.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "BLKD": {
+      "name": "Bloqueado",
+      "definition": "Montante bloqueado ou congelado devido a circunstâncias externas, como uma ordem judicial, o falecimento do beneficiário ou do titular da conta, ou a falência."
+    },
+    "CARE": {
+      "name": "Reserva de numerário",
+      "definition": "Montante reservado por um participante para constituir liquidez a partir da sua própria conta, exclusivamente ou para a execução de levantamentos de numerário."
+    },
+    "HPAR": {
+      "name": "Reserva de pagamento de máxima urgência",
+      "definition": "Montante reservado por um participante para constituir liquidez a partir da sua própria conta, exclusivamente para a execução de pagamentos de caráter muito urgente."
+    },
+    "NSSR": {
+      "name": "Reserva líquida SSS",
+      "definition": "Montante reservado por um participante para constituir liquidez a partir da sua própria conta, exclusivamente para a liquidação do saldo multilateral em numerário proveniente do Net Security Settlement System."
+    },
+    "THRE": {
+      "name": "Limiar para investimento",
+      "definition": "Montante acima do qual os fundos serão destinados a investimento."
+    },
+    "UPAR": {
+      "name": "Reserva de pagamento urgente",
+      "definition": "Montante reservado por um participante para constituir liquidez a partir da sua própria conta, exclusivamente para a execução de pagamentos críticos designados pagamentos urgentes."
+    }
+  }
+}

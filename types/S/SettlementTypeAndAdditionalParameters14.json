@@ -1,0 +1,21 @@
+{
+  "isoType": "SettlementTypeAndAdditionalParameters14",
+  "definition": "Fornece informações sobre o tipo e a identificação da operação.",
+  "isoElements": {
+    "SecuritiesMovementType": {
+      "definition": "Especifica se o movimento numa conta de valores mobiliários resulta de uma instrução de entrega ou de receção."
+    },
+    "Payment": {
+      "definition": "Especifica a forma como a operação deve ser liquidada, por exemplo, contra pagamento."
+    },
+    "CommonIdentification": {
+      "definition": "Referência única acordada entre as duas contrapartes da negociação para identificar a negociação."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificação atribuída pela instituição gestora da conta para identificar inequivocamente um evento societário."
+    },
+    "ReconciliationIndicator": {
+      "definition": "Indica se a operação de liquidação já foi enviada para o mercado e se é apenas enviada por um titular de conta a um prestador de serviços de conta para efeitos de reconciliação."
+    }
+  }
+}

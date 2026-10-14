@@ -1,0 +1,22 @@
+{
+  "isoType": "TMSContactLevel2Code",
+  "definition": "Urgência do comando.",
+  "isoCodes": {
+    "ASAP": {
+      "name": "O mais cedo possível",
+      "definition": "O sistema de gestão de terminais deve ser contactado logo que possível (por exemplo, após a reconciliação)."
+    },
+    "CRIT": {
+      "name": "Crítico",
+      "definition": "O sistema de gestão de terminais deve ser contactado antes da operação seguinte."
+    },
+    "DTIM": {
+      "name": "Data e hora",
+      "definition": "O sistema de gestão de terminais deve ser contactado na data e hora indicadas."
+    },
+    "ENCS": {
+      "name": "Fim da sessão do cliente",
+      "definition": "Após o fim da sessão do cliente."
+    }
+  }
+}

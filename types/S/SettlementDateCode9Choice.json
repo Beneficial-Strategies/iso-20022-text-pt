@@ -1,0 +1,12 @@
+{
+  "isoType": "SettlementDateCode9Choice",
+  "definition": "Escolha do formato do código da data de liquidação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Data de liquidação expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Data de liquidação expressa como um código proprietário."
+    }
+  }
+}

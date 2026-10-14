@@ -1,0 +1,12 @@
+{
+  "isoType": "NumberOrPercentage2Choice",
+  "definition": "Escolha entre uma percentagem e um número para um limiar.",
+  "isoElements": {
+    "ThresholdPercentage": {
+      "definition": "Limiar fornecido como taxa percentual."
+    },
+    "ThresholdNumber": {
+      "definition": "Limiar fornecido como número decimal."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationProcessingStatus2",
+  "definition": "Estado que informa sobre o tratamento do pedido de cancelamento.",
+  "isoElements": {
+    "Status": {
+      "definition": "Código de estado."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o estado."
+    }
+  }
+}

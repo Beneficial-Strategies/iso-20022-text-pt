@@ -1,0 +1,12 @@
+{
+  "isoType": "InformationQualifierType1",
+  "definition": "Qualifica melhor a informação prestada quanto à sua importância e ao seu formato.",
+  "isoElements": {
+    "IsFormatted": {
+      "definition": "Indica se a informação está formatada."
+    },
+    "Priority": {
+      "definition": "Prioridade da informação."
+    }
+  }
+}

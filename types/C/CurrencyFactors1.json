@@ -1,0 +1,21 @@
+{
+  "isoType": "CurrencyFactors1",
+  "definition": "Fatores específicos da moeda.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Moeda dos montantes e rácios específicos da moeda subjacentes utilizados no cálculo do calendário de pay-in."
+    },
+    "ShortPositionLimit": {
+      "definition": "Posição curta máxima permitida na moeda durante a liquidação."
+    },
+    "MinimumPayInAmount": {
+      "definition": "Montante mínimo pago num único pagamento, exceto se a posição curta for inferior ao mínimo."
+    },
+    "VolatilityMargin": {
+      "definition": "Margem utilizada para diminuir as posições longas e aumentar as posições curtas durante o cálculo do risco."
+    },
+    "Rate": {
+      "definition": "Taxa de câmbio utilizada no cálculo do calendário de pay-in."
+    }
+  }
+}

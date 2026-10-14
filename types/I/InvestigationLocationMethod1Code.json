@@ -1,0 +1,30 @@
+{
+  "isoType": "InvestigationLocationMethod1Code",
+  "definition": "Especifica o método utilizado para entregar/obter as informações da investigação.",
+  "isoCodes": {
+    "EDIC": {
+      "name": "Intercâmbio eletrónico de dados",
+      "definition": "Os dados relativos à investigação têm de ser enviados através de intercâmbio eletrónico de dados (EDI)."
+    },
+    "EMAL": {
+      "name": "Correio eletrónico",
+      "definition": "Os dados relativos à investigação têm de ser enviados por correio eletrónico."
+    },
+    "FAXI": {
+      "name": "Fax",
+      "definition": "Os dados relativos à investigação têm de ser enviados por fax."
+    },
+    "POST": {
+      "name": "Correio postal",
+      "definition": "Os dados relativos à investigação têm de ser enviados pelos serviços postais."
+    },
+    "SMSM": {
+      "name": "SMS",
+      "definition": "Os dados relativos à investigação têm de ser enviados por telefone como mensagem curta (SMS)."
+    },
+    "URID": {
+      "name": "Identificador uniforme de recursos",
+      "definition": "Os dados relativos à investigação têm de ser enviados para um Uniform Resource Identifier (URI). Um URI é uma cadeia compacta de caracteres que identifica de forma única um recurso abstrato ou físico. Os URI são o superconjunto de identificadores, como URL, endereços de correio eletrónico, sítios ftp, etc., e, como tal, fornecem a sintaxe para todos os esquemas de identificação."
+    }
+  }
+}

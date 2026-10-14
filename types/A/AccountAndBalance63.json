@@ -1,0 +1,35 @@
+{
+  "isoType": "AccountAndBalance63",
+  "definition": "Fornece informações sobre a conta e o saldo.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Conta onde os instrumentos financeiros são mantidos."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Endereço blockchain ou carteira onde os ativos digitais são mantidos. É o equivalente da conta de custódia para os ativos digitais."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "SafekeepingPlace": {
+      "definition": "Local onde os instrumentos financeiros se encontram/serão guardados em custódia."
+    },
+    "Balance": {
+      "definition": "Fornece informações sobre o saldo relacionado com uma ação societária."
+    }
+  },
+  "isoRules": {
+    "SafekeepingPlaceRule": {
+      "definition": "O SafekeepingPlace só deve ser utilizado por custodiantes globais que permitam aos seus clientes especificar onde os valores mobiliários devem ser detidos, por exemplo, numa conta num ICSD em vez de numa conta no CSD local."
+    },
+    "SafekeepingAccountOrBlockChainAddress1Rule": {
+      "definition": "Deve estar presente SafekeepingAccount ou BlockChainAddressOrWallet, mas não ambos."
+    },
+    "SafekeepingAccountOrBlockChainAddress2Rule": {
+      "definition": "Se BlockChainAddressOrWallet estiver presente, SafekeepingAccount tem de estar ausente."
+    },
+    "SafekeepingAccountOrBlockChainAddress3Rule": {
+      "definition": "Se SafekeepingAccount estiver presente, BlockChainAddressOrWallet tem de estar ausente."
+    }
+  }
+}

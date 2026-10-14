@@ -1,0 +1,90 @@
+{
+  "isoType": "PendingReason37Code",
+  "definition": "Especifica o motivo pelo qual a operação/instrução está pendente ou em incumprimento de liquidação. Se a liquidação na data de liquidação instruída ainda for possível, o estado é pendente. Se a liquidação na data de liquidação instruída já não for possível, o estado é em incumprimento.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "A instrução foi recebida depois do prazo limite da entidade gestora da conta. Será gerida de acordo com o acordo de serviço bilateral entre a entidade gestora da conta e o titular da conta."
+    },
+    "WCTF": {
+      "name": "A aguardar resposta da contraparte",
+      "definition": "Foi enviada uma alegação à contraparte. A aguardar a sua resposta."
+    },
+    "BSTR": {
+      "name": "Antes do período de instrução",
+      "definition": "A instrução é submetida antes da data de início da instrução."
+    },
+    "BUMM": {
+      "name": "Divergência na proteção do comprador",
+      "definition": "Desacordo da contraparte quanto ao resultado escolhido da operação sobre títulos."
+    },
+    "DQCS": {
+      "name": "Desacordo quanto ao montante em numerário",
+      "definition": "Montante em numerário instruído não reconhecido ou inválido."
+    },
+    "ECRD": {
+      "name": "Prazo de resposta da eleição para a contraparte não cumprido",
+      "definition": "Recebida após o prazo de resposta à escolha junto da contraparte."
+    },
+    "NTAX": {
+      "name": "Taxa de imposto inconsistente",
+      "definition": "A taxa de imposto não é coerente com a documentação existente."
+    },
+    "ITAX": {
+      "name": "Taxa de imposto incorreta",
+      "definition": "A taxa de imposto fornecida está incorreta. Está fora dos valores aceitáveis para esse país de investimento."
+    },
+    "IPED": {
+      "name": "Instrução anterior à data do direito",
+      "definition": "A instrução foi recebida antes da data de direito."
+    },
+    "MONY": {
+      "name": "Fundos insuficientes",
+      "definition": "Fundos insuficientes na sua conta."
+    },
+    "IPAW": {
+      "name": "Documentação inválida",
+      "definition": "A documentação exigida é inválida, incompleta ou está em falta."
+    },
+    "LACK": {
+      "name": "Falta de valores mobiliários",
+      "definition": "Instrumentos financeiros insuficientes na sua conta."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "A instrução foi recebida após o prazo limite do mercado."
+    },
+    "MCER": {
+      "name": "Certificação em falta",
+      "definition": "A aguardar a receção de certificação adequada."
+    },
+    "MTAX": {
+      "name": "Taxa de imposto em falta",
+      "definition": "A taxa de imposto está em falta."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "FULL": {
+      "name": "Dados do beneficiário efetivo pendentes",
+      "definition": "A aguardar a receção dos dados do titular beneficiário."
+    },
+    "PENR": {
+      "name": "Receção pendente",
+      "definition": "A instrução aguarda a receção de valores mobiliários, por exemplo, de uma compra ou de um empréstimo."
+    },
+    "DQUA": {
+      "name": "Desacordo quanto à quantidade",
+      "definition": "A quantidade de instrumentos financeiros não corresponde."
+    },
+    "SNAV": {
+      "name": "Sistema não disponível",
+      "definition": "O sistema não está disponível. A instrução é enviada fora do horário de funcionamento."
+    },
+    "CERT": {
+      "name": "Números de certificados incorretos",
+      "definition": "Erro no número do certificado."
+    }
+  }
+}

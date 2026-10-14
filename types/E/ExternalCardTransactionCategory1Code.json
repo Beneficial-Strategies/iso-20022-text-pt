@@ -1,0 +1,4 @@
+{
+  "isoType": "ExternalCardTransactionCategory1Code",
+  "definition": "Especifica a categoria da operação com cartão, sob a forma de cadeia de carateres com um máximo de 4 carateres.|A lista de códigos válidos é uma lista de códigos externa publicada separadamente.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org."
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "MovementInstruction1",
+  "definition": "Detalhes das instruções de movimento.",
+  "isoElements": {
+    "MovementGeneralInformation": {
+      "definition": "Fornece informações gerais sobre o movimento."
+    },
+    "UnderlyingSecuritiesMovementDetails": {
+      "definition": "Fornece informações sobre o movimento dos valores mobiliários subjacentes."
+    },
+    "UnderlyingCashMovementDetails": {
+      "definition": "Fornece informações sobre o movimento de numerário subjacente."
+    },
+    "ProceedsMovementDetails": {
+      "definition": "Fornece informações sobre o produto, isto é, os recursos resultantes."
+    }
+  }
+}

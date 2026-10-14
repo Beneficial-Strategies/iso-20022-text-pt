@@ -1,0 +1,35 @@
+{
+  "isoType": "IndividualPerson8",
+  "definition": "Entidade humana, por oposição a uma entidade coletiva (por vezes designada «pessoa artificial»).",
+  "isoElements": {
+    "Name": {
+      "definition": "Nome pelo qual uma parte é conhecida e que é normalmente utilizado para identificar essa parte."
+    },
+    "GivenName": {
+      "definition": "Nome próprio de uma pessoa."
+    },
+    "NamePrefix": {
+      "definition": "Especifica o tratamento utilizado para se dirigir formalmente a uma pessoa."
+    },
+    "NameSuffix": {
+      "definition": "Informações adicionais sobre uma pessoa que se seguem ao nome da pessoa, por exemplo, uma qualificação como Doutor em Filosofia (PhD)."
+    },
+    "Gender": {
+      "definition": "Especifica o género da pessoa."
+    },
+    "BirthDate": {
+      "definition": "Data em que uma pessoa nasceu."
+    },
+    "SocialSecurityNumber": {
+      "definition": "Número atribuído por um organismo de segurança social."
+    },
+    "IndividualInvestorAddress": {
+      "definition": "Endereço postal de uma parte."
+    }
+  },
+  "isoRules": {
+    "SocialSecurityNumberGuideline": {
+      "definition": "O UK Insurance Number tem de ser indicado sem espaços."
+    }
+  }
+}

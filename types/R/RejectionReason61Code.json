@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason61Code",
+  "definition": "Especifica o motivo pelo qual o pedido de cancelamento da reclamação de mercado tem um estado de rejeitado.",
+  "isoCodes": {
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "ULNK": {
+      "name": "Referência inválida",
+      "definition": "A referência associada é desconhecida."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "DCAN": {
+      "name": "Rejeitado por já ter sido cancelado",
+      "definition": "O pedido de cancelamento foi rejeitado, uma vez que a instrução já foi cancelada."
+    },
+    "DSET": {
+      "name": "Recusado por já ter sido liquidado",
+      "definition": "O pedido de cancelamento foi recusado porque a instrução já tinha sido liquidada."
+    },
+    "DPRG": {
+      "name": "Rejeitado por estar em curso",
+      "definition": "O pedido de cancelamento foi rejeitado porque o processo da instrução está em curso ou já foi processado."
+    }
+  }
+}

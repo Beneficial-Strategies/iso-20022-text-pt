@@ -1,0 +1,21 @@
+{
+  "isoType": "GeneralInvestment2",
+  "definition": "Informações sobre um investimento geral.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de investimento."
+    },
+    "OwnershipType": {
+      "definition": "Especifica se a conta está, por exemplo, em nome de um mandatário ou em nome próprio."
+    },
+    "CurrentInvestmentAmount": {
+      "definition": "Montante de dinheiro investido."
+    },
+    "EstimatedValue": {
+      "definition": "Valor estimado dos ativos."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a carteira."
+    }
+  }
+}

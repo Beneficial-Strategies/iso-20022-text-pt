@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountOrRate3Choice",
+  "definition": "Escolha entre um montante e uma taxa.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante em dinheiro."
+    },
+    "Rate": {
+      "definition": "Taxa utilizada para calcular o montante."
+    }
+  }
+}

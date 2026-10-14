@@ -1,0 +1,12 @@
+{
+  "isoType": "FromToPercentageRange1",
+  "definition": "Intervalo de taxas percentuais.",
+  "isoElements": {
+    "From": {
+      "definition": "Limite inferior de um intervalo de taxas percentuais."
+    },
+    "To": {
+      "definition": "Limite superior de um intervalo de taxas percentuais."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountingStatementOfHoldingsCancellationV02",
+  "definition": "Âmbito|Um intermediário da conta, por exemplo, um agente de transferências, envia a mensagem AccountingStatementofHoldingsCancellation ao titular da conta, por exemplo, um gestor de fundos ou o agente designado do titular da conta, para notificar o cancelamento de uma mensagem AccountingStatementOfHoldings enviada anteriormente.|Utilização|A mensagem AccountingStatementOfHoldingsCancellation é utilizada para cancelar uma mensagem AccountingStatementOfHoldings enviada anteriormente. Esta mensagem deve conter a referência da mensagem a cancelar.|Esta mensagem pode também conter todos os detalhes da mensagem a cancelar, mas tal não é recomendado."
+}

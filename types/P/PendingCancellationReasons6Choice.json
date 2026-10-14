@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingCancellationReasons6Choice",
+  "definition": "Escolha do formato do motivo de cancelamento pendente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual o pedido de cancelamento está pendente."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo pelo qual o pedido de cancelamento está pendente."
+    }
+  }
+}

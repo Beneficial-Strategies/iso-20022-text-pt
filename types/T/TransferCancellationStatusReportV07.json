@@ -1,0 +1,12 @@
+{
+  "isoType": "TransferCancellationStatusReportV07",
+  "definition": "Âmbito|A mensagem TransferCancellationStatusReport é enviada por uma parte executante, por exemplo, um agente de transferências, à parte ordenante, por exemplo, um gestor de investimentos ou um dos seus representantes autorizados, para fornecer o estado de uma instrução de cancelamento de transferência recebida anteriormente.|Utilização|A mensagem TransferCancellationStatusReport é utilizada para comunicar o estado de um pedido de cancelamento de transferência de entrada ou de saída.|A referência da instrução de transferência para a qual é comunicado o estado do cancelamento é identificada em TransferReference. O identificador da mensagem de pedido de cancelamento de transferência em que a instrução de transferência foi transmitida pode também ser indicado em RelatedReference.|O identificador da mensagem de pedido de instrução de transferência em que a instrução de transferência foi transmitida pode também ser indicado em RelatedReference.|Pode ser comunicado um dos seguintes estados:|- o cancelamento da transferência é aceite, ou,|- o cancelamento da transferência foi enviado à parte seguinte, ou,|- o cancelamento da transferência está concluído e o motivo do estado,|- o cancelamento da transferência está pendente e o motivo do estado,|- o cancelamento da transferência é rejeitado e o motivo do estado.",
+  "isoRules": {
+    "OtherReferenceRule": {
+      "definition": "Reference/OtherReference deve ser utilizado para fazer referência a uma «mensagem» de pedido de cancelamento de transferência enviada de forma proprietária ou utilizada como referência de sistema. Se Reference/OtherReference estiver presente, References/OtherReference/MessageName tem de conter, por exemplo, «fax» ou «phone» ou «email»."
+    },
+    "RelatedReferenceRule": {
+      "definition": "Se Reference/RelatedReference/MessageName estiver presente, tem de começar por sese.002, sese.006, sese.009 ou sese.014."
+    }
+  }
+}

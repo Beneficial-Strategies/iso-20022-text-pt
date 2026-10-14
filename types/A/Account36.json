@@ -1,0 +1,30 @@
+{
+  "isoType": "Account36",
+  "definition": "Conta entre um ou mais investidores e uma sociedade gestora ou um fundo. A conta pode conter participações em qualquer fundo de investimento ou classe de fundo de investimento gerido (ou distribuído) pela sociedade gestora, dentro da mesma família de fundos.",
+  "isoElements": {
+    "OwnerIdentification": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "AccountDesignation": {
+      "definition": "Informações de registo suplementares aplicáveis a um bloco específico de unidades para efeitos de negociação e de reporte. As informações de registo suplementares podem ser utilizadas quando todas as unidades estão registadas, por exemplo, numa plataforma de fundos, mas as posições de cada investidor têm de ser reconciliadas individualmente."
+    },
+    "AccountName": {
+      "definition": "Nome da conta. Constitui um meio adicional de identificação e é designado pela instituição gestora da conta de acordo com o titular da conta."
+    },
+    "Type": {
+      "definition": "Especifica o tipo de conta de valores mobiliários."
+    },
+    "Servicer": {
+      "definition": "Instituição que mantém os registos onde a conta é detida."
+    },
+    "SubAccountDetails": {
+      "definition": "Subconta da conta principal ou conta coletiva."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Conta digital onde os ativos digitais ou tokens digitais podem ser armazenados e onde é efetuado um registo."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Registration10Choice",
+  "definition": "Escolha do formato da informação de registo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informação de registo expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Informação de registo expressa como um código proprietário."
+    }
+  }
+}

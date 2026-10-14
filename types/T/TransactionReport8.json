@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionReport8",
+  "definition": "Fornece detalhes sobre as operações de pagamento.",
+  "isoElements": {
+    "PaymentIdentification": {
+      "definition": "Referência à instrução relacionada com o pagamento sobre o qual são pedidas informações."
+    },
+    "TransactionOrError": {
+      "definition": "Informações pedidas sobre a operação de pagamento quando as informações não foram encontradas."
+    }
+  }
+}

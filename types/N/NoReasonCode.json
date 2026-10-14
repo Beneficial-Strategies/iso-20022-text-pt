@@ -1,0 +1,10 @@
+{
+  "isoType": "NoReasonCode",
+  "definition": "Especifica que não existe motivo disponível.",
+  "isoCodes": {
+    "NORE": {
+      "name": "Sem motivo",
+      "definition": "Sem motivo a reportar ou sem motivo disponível para reportar."
+    }
+  }
+}

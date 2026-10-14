@@ -1,0 +1,18 @@
+{
+  "isoType": "Priority3Code",
+  "definition": "Especifica o nível de prioridade de um evento.",
+  "isoCodes": {
+    "URGT": {
+      "name": "Urgente",
+      "definition": "O nível de prioridade é urgente (a prioridade mais elevada possível)."
+    },
+    "HIGH": {
+      "name": "Alto",
+      "definition": "O nível de prioridade é alto."
+    },
+    "NORM": {
+      "name": "Normal",
+      "definition": "O nível de prioridade é normal."
+    }
+  }
+}

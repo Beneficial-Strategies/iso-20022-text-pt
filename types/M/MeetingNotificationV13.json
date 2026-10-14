@@ -1,0 +1,33 @@
+{
+  "isoType": "MeetingNotificationV13",
+  "definition": "Âmbito|A mensagem MeetingNotification é enviada por uma parte notificadora, por exemplo, um emitente, o seu agente ou um intermediário, a outro intermediário, a uma parte titular do direito de voto, a um titular registado de valores mobiliários ou a um titular beneficiário, para anunciar uma assembleia.|Utilização|A mensagem MeetingNotification é utilizada para anunciar uma assembleia; por exemplo, fornece informações sobre os pormenores de participação e os requisitos da assembleia, os parâmetros de votação e as deliberações. A mensagem MeetingNotification também pode ser utilizada para anunciar uma atualização.|Esta definição de mensagem destina-se a ser utilizada com o Business Application Header (BAH).",
+  "isoRules": {
+    "Resolution1Guideline": {
+      "definition": "Quando um ponto da ordem de trabalhos tem de ser associado a uma deliberação, recomenda-se que as informações da deliberação sigam diretamente as informações do ponto da ordem de trabalhos a que a deliberação está associada, como ilustrado no exemplo seguinte:|Resolution/IssuerLabel = Agenda item 1|Description = <Item description.>|ForInformationOnly = True|Type =.||Seguido diretamente de||Resolution/IssuerLabel = Resolution 1|Description = <Resolution description.>|ForInformationOnly = False|Type =.|."
+    },
+    "VoteInstructionType1Guideline": {
+      "definition": "Se todos os tipos de instrução de voto forem iguais para todas as deliberações, recomenda-se que seja utilizado apenas o elemento Vote/VoteInstructionType. Se os tipos de instrução de voto não forem iguais para cada deliberação, recomenda-se que seja utilizado apenas o elemento Resolution/VoteInstructionType em cada ocorrência de Resolution."
+    },
+    "EntitlementDate1Guideline": {
+      "definition": "Se Meeting/EntitlementFixingDate e Security/Position/HoldingBalance/Date estiverem ambos presentes, recomenda-se que os dois valores de data sejam idênticos."
+    },
+    "PreviousNotificationIdentificationRule": {
+      "definition": "Se NotificationGeneralInformation/NotificationType for REPL (Replacement) e Pagination/PageNumber for igual a 1, então NotificationUpdate/PreviousNotificationIdentification tem de estar presente."
+    },
+    "AgentRole1Rule": {
+      "definition": "IssuerAgent/Role PRIN (PrincipalAgent) só pode estar presente numa única ocorrência de IssuerAgent."
+    },
+    "VoteAsPerIntermediary1Rule": {
+      "definition": "Se o valor de código de Vote/VoteMethod/VoteThroughNetwork/VoteChannel for VOPI (VoteAsPerIntermediaryInformation), então tem de estar presente pelo menos uma ocorrência de AdditionalInformation/ProcessingTextForNextIntermediary."
+    },
+    "PaginationRule": {
+      "definition": "Se a paginação estiver presente, então NotificationGeneralInformation/NotificationIdentification tem de estar presente."
+    },
+    "AttendeeEmailRequiredIndicator1Rule": {
+      "definition": "Se o método de participação for VIRT, então AttendeeEmailRequiredIndicator tem de ser definido como Y."
+    },
+    "AttendeeEmailRequiredIndicator2Rule": {
+      "definition": "Se o método de participação for VIRT, então o endereço de correio eletrónico da parte que assistirá à assembleia virtual tem de ser fornecido na Meeting Instruction."
+    }
+  }
+}

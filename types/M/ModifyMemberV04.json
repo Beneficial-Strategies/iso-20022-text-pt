@@ -1,0 +1,9 @@
+{
+  "isoType": "ModifyMemberV04",
+  "definition": "Âmbito|A mensagem ModifyMember é enviada por um membro ao administrador de operações.|É utilizada para solicitar alterações aos dados estáticos relativos ao perfil de um membro que o administrador de operações mantém.|Utilização|O administrador de operações é responsável por fornecer aos membros informações de negócio. O termo informações de negócio abrange todas as informações relativas à gestão do sistema, ou seja, não relacionadas com as operações efetuadas no sistema. O tipo de informações de negócio disponíveis pode variar consoante o sistema. Entre outras coisas, pode referir-se a informações sobre a adesão ao sistema.|Em qualquer momento durante o horário de funcionamento do sistema, o membro pode solicitar ao administrador de operações que modifique as informações que este mantém sobre o membro.|O membro submete uma mensagem a solicitar alterações a um ou mais dos seguintes critérios:|- identificação do membro|- dados de contacto da organização membro: endereço postal, endereço de correio eletrónico, número de telefone ou de fax|- identificação das pessoas de contacto do membro, a sua função e/ou os seus dados (endereço postal, endereço de correio eletrónico, número de telefone ou de fax)|Com base nos critérios recebidos na mensagem Modify Member, o administrador de operações executa ou rejeita as alterações solicitadas.|Em princípio, o administrador de operações pode enviar uma mensagem Receipt como resposta ao pedido ModifyMember. Para verificar o resultado do pedido, o membro pode submeter uma mensagem GetMember com os critérios de pesquisa adequados.",
+  "isoRules": {
+    "MandatoryValueRule": {
+      "definition": "O NewMemberValueSet é composto por um MemberReturnAddress, um CommunicationAddress ou uma ContactReference. Pelo menos um destes elementos tem de estar presente."
+    }
+  }
+}

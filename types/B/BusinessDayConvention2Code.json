@@ -1,0 +1,30 @@
+{
+  "isoType": "BusinessDayConvention2Code",
+  "definition": "Especifica a forma como uma data é ajustada quando coincide com um dia não útil.",
+  "isoCodes": {
+    "FWNG": {
+      "name": "Seguinte",
+      "definition": "A data será o primeiro dia seguinte que seja um dia útil."
+    },
+    "FRNC": {
+      "name": "Convenção das obrigações de taxa variável",
+      "definition": "Convenção das obrigações de taxa variável."
+    },
+    "MODF": {
+      "name": "Seguinte modificado",
+      "definition": "A data será o primeiro dia seguinte que seja um dia útil, exceto se esse dia recair no mês civil seguinte, caso em que a data será o primeiro dia anterior que seja um dia útil."
+    },
+    "NEAR": {
+      "name": "Mais próximo",
+      "definition": "A data será o primeiro dia anterior que seja um dia útil, exceto se esse dia recair num dia que não seja domingo nem segunda-feira, e será o primeiro dia seguinte que seja um dia útil, se a data em causa recair num domingo ou numa segunda-feira."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outra convenção de dia útil."
+    },
+    "PREC": {
+      "name": "Anterior",
+      "definition": "O dia não útil será ajustado para o primeiro dia anterior que seja um dia útil."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "BlockedReason2Code",
+  "definition": "Especifica o motivo pelo qual uma conta está bloqueada.",
+  "isoCodes": {
+    "BKRP": {
+      "name": "Falência",
+      "definition": "Falência."
+    },
+    "CMMT": {
+      "name": "Compromisso",
+      "definition": "Compromisso."
+    },
+    "CNFS": {
+      "name": "Confisco",
+      "definition": "Confiscação."
+    },
+    "MORT": {
+      "name": "Mortis causa",
+      "definition": "Reservado em previsão de óbito."
+    },
+    "PCOM": {
+      "name": "Verificação de conformidade pendente",
+      "definition": "Pendente de verificação de conformidade."
+    },
+    "PLDG": {
+      "name": "Empenhado",
+      "definition": "Penhorado."
+    },
+    "TRPE": {
+      "name": "Novo registo",
+      "definition": "Novo registo."
+    },
+    "SANC": {
+      "name": "Sanções",
+      "definition": "Existem sanções em vigor."
+    },
+    "TRAN": {
+      "name": "Transferência",
+      "definition": "Transferência."
+    }
+  }
+}

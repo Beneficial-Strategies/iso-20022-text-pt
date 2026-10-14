@@ -1,0 +1,27 @@
+{
+  "isoType": "ProcessingStatus71Choice",
+  "definition": "Escolha do formato do estado de tratamento.",
+  "isoElements": {
+    "AcknowledgedAccepted": {
+      "definition": "O pedido foi confirmado pela instituição gestora da conta."
+    },
+    "Pending": {
+      "definition": "A modificação está pendente. Não se sabe neste momento se a modificação poderá ser efetuada."
+    },
+    "Rejected": {
+      "definition": "O pedido de modificação foi rejeitado para tratamento posterior."
+    },
+    "Repair": {
+      "definition": "A instrução ou o pedido é aceite, mas está em reparação."
+    },
+    "Denied": {
+      "definition": "O pedido de modificação não será executado."
+    },
+    "Completed": {
+      "definition": "O pedido de modificação foi concluído."
+    },
+    "Proprietary": {
+      "definition": "Estado que não pode ser comunicado através de um dos estados normalizados disponíveis."
+    }
+  }
+}

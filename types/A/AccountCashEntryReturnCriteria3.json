@@ -1,0 +1,30 @@
+{
+  "isoType": "AccountCashEntryReturnCriteria3",
+  "definition": "Define os critérios utilizados para elaborar relatórios sobre o movimento de caixa.",
+  "isoElements": {
+    "EntryReferenceIndicator": {
+      "definition": "Indica se a referência do movimento é solicitada."
+    },
+    "AccountTypeIndicator": {
+      "definition": "Indica se o tipo de conta é solicitado."
+    },
+    "EntryAmountIndicator": {
+      "definition": "Indica se o montante do movimento é solicitado."
+    },
+    "AccountCurrencyIndicator": {
+      "definition": "Indica se a moeda da conta é solicitada."
+    },
+    "EntryStatusIndicator": {
+      "definition": "Indica se o estado do movimento é solicitado."
+    },
+    "EntryDateIndicator": {
+      "definition": "Indica se a data do movimento é solicitada."
+    },
+    "AccountServicerIndicator": {
+      "definition": "Indica se a instituição gestora da conta é solicitada."
+    },
+    "AccountOwnerIndicator": {
+      "definition": "Indica se o titular da conta é solicitado."
+    }
+  }
+}

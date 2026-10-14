@@ -1,0 +1,9 @@
+{
+  "isoType": "EligibilityDates1",
+  "definition": "Datas que determinam o direito.",
+  "isoElements": {
+    "EntitlementFixingDate": {
+      "definition": "Data em que as posições são apuradas para determinar quais as partes que receberão o direito, por exemplo, data de registo, data de encerramento dos livros."
+    }
+  }
+}

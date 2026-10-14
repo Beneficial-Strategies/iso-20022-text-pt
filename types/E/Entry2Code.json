@@ -1,0 +1,18 @@
+{
+  "isoType": "Entry2Code",
+  "definition": "Especifica o tipo de um lançamento num relatório.",
+  "isoCodes": {
+    "TRIA": {
+      "name": "Experimental",
+      "definition": "Calendário de pay-in experimental."
+    },
+    "OFFI": {
+      "name": "Oficial",
+      "definition": "Calendário de pay-in oficial."
+    },
+    "REQU": {
+      "name": "Solicitado",
+      "definition": "Calendário de pay-in a pedido."
+    }
+  }
+}

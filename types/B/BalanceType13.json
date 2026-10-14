@@ -1,0 +1,12 @@
+{
+  "isoType": "BalanceType13",
+  "definition": "Conjunto de elementos utilizados para definir o tipo e o subtipo de saldo.",
+  "isoElements": {
+    "CodeOrProprietary": {
+      "definition": "Tipo de saldo em formato codificado ou proprietário."
+    },
+    "SubType": {
+      "definition": "Especifica o subtipo de saldo."
+    }
+  }
+}

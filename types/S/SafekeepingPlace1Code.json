@@ -1,0 +1,22 @@
+{
+  "isoType": "SafekeepingPlace1Code",
+  "definition": "Especifica o tipo de local de guarda.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Valores mantidos junto do depositário local",
+      "definition": "Instrumentos financeiros detidos junto de um custodiante local."
+    },
+    "ICSD": {
+      "name": "Valores mantidos junto do ICSD",
+      "definition": "Instrumentos financeiros detidos junto de uma central internacional de depósito de valores mobiliários."
+    },
+    "NCSD": {
+      "name": "Valores mantidos junto do NCSD",
+      "definition": "Instrumentos financeiros detidos junto de uma central nacional de depósito de valores mobiliários."
+    },
+    "SHHE": {
+      "name": "Valores mantidos noutro local",
+      "definition": "Utilizado para certos instrumentos financeiros, por exemplo, fundos mútuos dos US, em que a liquidação é apenas interna, isto é, não há movimento externo de valores mobiliários."
+    }
+  }
+}

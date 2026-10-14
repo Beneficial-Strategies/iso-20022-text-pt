@@ -1,0 +1,30 @@
+{
+  "isoType": "AuthenticationEntity2Code",
+  "definition": "Entidade ou dispositivo que realizou a verificação.",
+  "isoCodes": {
+    "ICCD": {
+      "name": "ICC",
+      "definition": "Aplicação no cartão com chip (Integrated Circuit Card), por exemplo uma verificação offline de PIN."
+    },
+    "AGNT": {
+      "name": "Agente autorizado",
+      "definition": "Agente de autorização do emitente."
+    },
+    "MERC": {
+      "name": "Comerciante",
+      "definition": "Comerciante (por exemplo, verificação da assinatura pelo funcionário)."
+    },
+    "ACQR": {
+      "name": "Adquirente",
+      "definition": "Adquirente da operação."
+    },
+    "ISSR": {
+      "name": "Emissor",
+      "definition": "Emitente do cartão."
+    },
+    "TRML": {
+      "name": "Terminal",
+      "definition": "Aplicação segura no terminal."
+    }
+  }
+}

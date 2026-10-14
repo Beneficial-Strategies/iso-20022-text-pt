@@ -1,0 +1,18 @@
+{
+  "isoType": "PaymentInstruction33",
+  "definition": "Fornece detalhes sobre a instrução de pagamento.",
+  "isoElements": {
+    "Instruction": {
+      "definition": "Informações adicionais relacionadas com o tratamento da instrução de pagamento. A instrução pode referir-se a um nível de serviço entre o banco e o cliente, ou dar instruções a partes específicas da cadeia de pagamento e para estas.|."
+    },
+    "Type": {
+      "definition": "Tipo, ou natureza, do pagamento, por exemplo, um pagamento urgente."
+    },
+    "Priority": {
+      "definition": "Urgência ou ordem de importância que o ordenante pretende que o destinatário da instrução de pagamento aplique ao tratamento da instrução de pagamento.|."
+    },
+    "ProcessingValidityTime": {
+      "definition": "Intervalo de data e hora dentro do qual a instrução de pagamento deve ser tratada.|."
+    }
+  }
+}

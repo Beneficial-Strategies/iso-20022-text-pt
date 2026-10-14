@@ -1,0 +1,12 @@
+{
+  "isoType": "PledgeeTypeAndText1",
+  "definition": "Identificação da entidade a favor da qual os instrumentos financeiros são penhorados, expressa como um código e uma descrição narrativa.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Informações adicionais sobre a entidade a favor da qual os instrumentos financeiros são penhorados."
+    },
+    "PledgeeType": {
+      "definition": "Entidade a favor da qual os instrumentos financeiros são penhorados, expressa como um código."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "AuthenticationEntity1Code",
+  "definition": "Entidade ou objeto responsável por verificar a autenticidade do titular do cartão.",
+  "isoCodes": {
+    "ICCD": {
+      "name": "ICC",
+      "definition": "Aplicação no cartão com chip (cartão de circuito integrado), por exemplo uma verificação de PIN offline."
+    },
+    "AGNT": {
+      "name": "Agente autorizado",
+      "definition": "Agente de autorização do emitente."
+    },
+    "MERC": {
+      "name": "Comerciante",
+      "definition": "Comerciante (por exemplo, verificação da assinatura pelo operador)."
+    }
+  }
+}

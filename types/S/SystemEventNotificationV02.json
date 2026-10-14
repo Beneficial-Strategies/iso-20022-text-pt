@@ -1,0 +1,4 @@
+{
+  "isoType": "SystemEventNotificationV02",
+  "definition": "Âmbito|A mensagem SystemEventNotification é enviada por um sistema central para notificar a ocorrência de um evento num sistema central.|Utilização|A mensagem pode ser utilizada por um sistema central de liquidação para informar os seus participantes de um evento que vai ocorrer no sistema, por exemplo, que o sistema estará indisponível a determinada hora, etc."
+}

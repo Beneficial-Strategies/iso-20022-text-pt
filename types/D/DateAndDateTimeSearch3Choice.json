@@ -1,0 +1,12 @@
+{
+  "isoType": "DateAndDateTimeSearch3Choice",
+  "definition": "Escolha entre uma data ou um padrão de data e hora como critério de seleção da pesquisa.",
+  "isoElements": {
+    "DateTimeSearch": {
+      "definition": "Padrões para pesquisar uma data e hora."
+    },
+    "DateSearch": {
+      "definition": "Padrões para pesquisar uma data."
+    }
+  }
+}

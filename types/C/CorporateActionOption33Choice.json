@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionOption33Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de opção expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de opção expresso como identificação proprietária."
+    }
+  }
+}

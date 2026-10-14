@@ -1,0 +1,18 @@
+{
+  "isoType": "PriceValueType9Code",
+  "definition": "Especifica um tipo de valor de preço.",
+  "isoCodes": {
+    "TBSP": {
+      "name": "A especificar",
+      "definition": "Preço a especificar pelo titular da conta."
+    },
+    "UNSP": {
+      "name": "Não especificado",
+      "definition": "Não é exigido que o preço seja especificado pelo titular da conta."
+    },
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "O preço é desconhecido do remetente ou não foi estabelecido."
+    }
+  }
+}

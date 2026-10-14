@@ -1,0 +1,154 @@
+{
+  "isoType": "PendingSettlementStatusReason2Code",
+  "definition": "Especifica o motivo do estado de liquidação pendente de uma instrução de transferência ou de liquidação.",
+  "isoCodes": {
+    "AWSH": {
+      "name": "A aguardar ações da contraparte",
+      "definition": "Os valores mobiliários ainda não foram recebidos da contraparte."
+    },
+    "BLOC": {
+      "name": "Conta bloqueada",
+      "definition": "A sua conta está bloqueada, nenhuma instrução pode ser liquidada através da conta."
+    },
+    "CAIS": {
+      "name": "A aguardar valores mobiliários",
+      "definition": "A aguardar valores mobiliários de uma emissão de uma operação sobre títulos ou de outros procedimentos, por exemplo, conversão, desmaterialização, troca, registo, selagem, fracionamento, etc."
+    },
+    "CLAC": {
+      "name": "Valores mobiliários insuficientes da contraparte",
+      "definition": "Valores mobiliários entregáveis insuficientes na conta da contraparte, ou a contraparte não detém os valores mobiliários."
+    },
+    "DOCC": {
+      "name": "A aguardar documentos ou endossos da contraparte",
+      "definition": "A aguardar documentos ou endossos da contraparte."
+    },
+    "DOCY": {
+      "name": "A aguardar documentos ou endossos da sua parte",
+      "definition": "A aguardar documentos ou endossos da sua parte."
+    },
+    "IAAD": {
+      "name": "Investigação do motivo do estado",
+      "definition": "O motivo da pendência está a ser investigado."
+    },
+    "LACK": {
+      "name": "Falta de valores mobiliários",
+      "definition": "Valores mobiliários entregáveis insuficientes na sua conta."
+    },
+    "LINK": {
+      "name": "Instrução associada pendente",
+      "definition": "A sua instrução está pendente de liquidação porque a instrução associada está pendente."
+    },
+    "PHCK": {
+      "name": "Verificação de valores mobiliários físicos",
+      "definition": "Os títulos físicos foram recebidos e está a ser verificada a sua autenticidade."
+    },
+    "PHSE": {
+      "name": "Atraso na entrega física",
+      "definition": "A liquidação é física e os valores mobiliários estão a ser entregues."
+    },
+    "SBLO": {
+      "name": "Valores mobiliários bloqueados",
+      "definition": "A liquidação está pendente. Os valores mobiliários estão bloqueados devido, por exemplo, a um evento de operação sobre títulos ou a um reajustamento."
+    },
+    "MINF": {
+      "name": "Informações em falta",
+      "definition": "Faltam informações, por exemplo, o número de telefone ou a pessoa de contacto."
+    },
+    "ACOP": {
+      "name": "Conta não aberta",
+      "definition": "A conta tem de estar já aberta para que a transferência possa ser processada."
+    },
+    "IINV": {
+      "name": "Em investigação",
+      "definition": "O intermediário está a investigar o motivo pelo qual a transferência está pendente."
+    },
+    "CINV": {
+      "name": "Em investigação pelo cliente",
+      "definition": "O cliente foi informado de um problema e está a investigar."
+    },
+    "AINV": {
+      "name": "Em investigação pelo agente de transferências",
+      "definition": "O agente de transferência está a investigar."
+    },
+    "WTRF": {
+      "name": "A aguardar o estado do agente de transferências",
+      "definition": "A transferência está a ser processada pelo agente de transferência; aguarda-se o estado do agente de transferência."
+    },
+    "USUA": {
+      "name": "Prazo habitual da operação",
+      "definition": "Prazo de processamento habitual do agente de transferência."
+    },
+    "ASTA": {
+      "name": "A aguardar o estado",
+      "definition": "A seu pedido, o intermediário está a verificar junto do agente de transferência o estado da sua instrução."
+    },
+    "AFST": {
+      "name": "Formulário de pedido enviado",
+      "definition": "O formulário de pedido foi enviado ao agente de transferência."
+    },
+    "STST": {
+      "name": "Formulário de transferência de títulos enviado",
+      "definition": "O formulário de transferência de títulos foi enviado à contraparte para que o assine e o reencaminhe ao agente de transferência."
+    },
+    "LPRO": {
+      "name": "Processamento mais prolongado",
+      "definition": "Prazo de processamento mais longo para este tipo de transferência, devido a requisitos de documentação."
+    },
+    "ADRQ": {
+      "name": "Documentos adicionais solicitados",
+      "definition": "O agente de transferência solicitou documentos adicionais."
+    },
+    "ADS1": {
+      "name": "Documentos adicionais enviados 1",
+      "definition": "Foram enviados documentos adicionais."
+    },
+    "ADS2": {
+      "name": "Documentos adicionais enviados 2",
+      "definition": "A pedido do agente de transferência, o intermediário enviou documentos adicionais. O agente de transferência confirmou que dispõe agora de todas as informações necessárias."
+    },
+    "DRJC": {
+      "name": "Documentos rejeitados",
+      "definition": "Os documentos foram rejeitados pelo agente de transferência."
+    },
+    "CYIN": {
+      "name": "A aguardar a receção pela contraparte",
+      "definition": "A contraparte não enviou uma instrução de receção. Verificar junto da contraparte."
+    },
+    "CYDV": {
+      "name": "A aguardar a entrega pela contraparte",
+      "definition": "A contraparte não enviou uma instrução de entrega nem entregou os títulos. Verificar junto da contraparte."
+    },
+    "OVER": {
+      "name": "Prazo normal de processamento ultrapassado",
+      "definition": "O prazo normal de processamento da instrução expirou. O agente de transferência foi ou será contactado."
+    },
+    "WCPA": {
+      "name": "Conta da contraparte incorreta",
+      "definition": "Dados da conta da contraparte incorretos."
+    },
+    "SDUT": {
+      "name": "Falta de informação sobre imposto do selo",
+      "definition": "A instrução está pendente por falta de informação sobre o imposto de selo."
+    },
+    "TAPR": {
+      "name": "Processamento pelo agente de transferências",
+      "definition": "A transferência está a ser processada pelo agente de transferência."
+    },
+    "XCNF": {
+      "name": "Confirmação esperada",
+      "definition": "Aguarda-se a confirmação do agente de transferência."
+    },
+    "ESCA": {
+      "name": "Escalonamento",
+      "definition": "Está em curso um acompanhamento especial."
+    },
+    "NRCP": {
+      "name": "Não receção pelo agente de transferências",
+      "definition": "O agente de transferência alega não ter recebido os títulos físicos."
+    },
+    "FVER": {
+      "name": "Verificação final",
+      "definition": "Confirmado, mas o caráter definitivo ainda tem de ser verificado."
+    }
+  }
+}

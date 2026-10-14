@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceBreakdown1",
+  "definition": "Posição líquida de uma posição segregada de um único instrumento financeiro no âmbito da posição global detida na conta de valores mobiliários, por exemplo, subsaldo por estado.",
+  "isoElements": {
+    "SubBalanceType": {
+      "definition": "Motivo do subsaldo."
+    },
+    "Quantity": {
+      "definition": "Quantidade de instrumento financeiro no subsaldo."
+    }
+  }
+}

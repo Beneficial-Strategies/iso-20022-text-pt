@@ -1,0 +1,14 @@
+{
+  "isoType": "PledgeeType1Code",
+  "definition": "Especifica o tipo de credor pignoratício.",
+  "isoCodes": {
+    "CPTY": {
+      "name": "Contraparte",
+      "definition": "Os instrumentos financeiros são penhorados a favor de uma contraparte."
+    },
+    "REGB": {
+      "name": "Organismo regulador",
+      "definition": "Os instrumentos financeiros são penhorados a favor de uma entidade reguladora."
+    }
+  }
+}

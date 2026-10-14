@@ -1,0 +1,190 @@
+{
+  "isoType": "SecuritiesTransactionType27Code",
+  "definition": "Especifica informações subjacentes relativas ao tipo de operação de liquidação.",
+  "isoCodes": {
+    "BSBK": {
+      "name": "Compra com acordo de revenda",
+      "definition": "Diz respeito a uma operação de buy sell back."
+    },
+    "BYIY": {
+      "name": "Compra forçada (buy-in)",
+      "definition": "Diz respeito a uma compra forçada (buy-in) pelo mercado na sequência da falha de uma operação de entrega."
+    },
+    "CNCB": {
+      "name": "Operação de garantia do banco central",
+      "definition": "Diz respeito a uma entrega/receção de garantias a um banco central nacional para operações de crédito do banco central."
+    },
+    "COLI": {
+      "name": "Garantia recebida",
+      "definition": "Diz respeito a uma operação de garantias, do ponto de vista do beneficiário da garantia ou do seu agente."
+    },
+    "COLO": {
+      "name": "Garantia entregue",
+      "definition": "Diz respeito a uma operação de garantias, do ponto de vista do prestador da garantia ou do seu agente."
+    },
+    "CONV": {
+      "name": "Conversão de certificados de depósito",
+      "definition": "Diz respeito à conversão de certificados de depósito."
+    },
+    "FCTA": {
+      "name": "Atualização de fator",
+      "definition": "Diz respeito a uma atualização de fator."
+    },
+    "INSP": {
+      "name": "Movimentação de existências",
+      "definition": "Diz respeito a um movimento de ações para dentro ou para fora de uma conta agrupada."
+    },
+    "ISSU": {
+      "name": "Emissão",
+      "definition": "Diz respeito à emissão de um valor mobiliário, como uma ação ou um certificado de depósito."
+    },
+    "MKDW": {
+      "name": "Redução de preço",
+      "definition": "Diz respeito à diminuição das posições detidas por uma central internacional de valores mobiliários (ICSD) junto do depositário comum devido a operações de custódia (recompra, pré-libertação, produto de eventos societários realinhado)."
+    },
+    "MKUP": {
+      "name": "Aumento de preço",
+      "definition": "Diz respeito ao aumento das posições detidas por uma central internacional de valores mobiliários (ICSD) junto do depositário comum devido a operações de custódia (recompra, pré-libertação, produto de eventos societários realinhado)."
+    },
+    "NETT": {
+      "name": "Compensação (netting)",
+      "definition": "Diz respeito à compensação por saldos líquidos (netting) de instruções de liquidação."
+    },
+    "NSYN": {
+      "name": "Não sindicado",
+      "definition": "Diz respeito à emissão de papel comercial de médio e curto prazo (CP, CD, MTN, notes) no âmbito de um programa e sem acordo de sindicato."
+    },
+    "OWNE": {
+      "name": "Transferência para conta externa",
+      "definition": "Diz respeito a uma transferência de conta que envolve mais do que uma parte instrutora (remetente da mensagem) e/ou prestador de serviços de conta (destinatário das mensagens)."
+    },
+    "OWNI": {
+      "name": "Transferência para conta interna",
+      "definition": "Diz respeito a uma transferência de conta que envolve uma parte instrutora (remetente da mensagem) junto de um prestador de serviços de conta (destinatário das mensagens)."
+    },
+    "PAIR": {
+      "name": "Compensação de posições opostas",
+      "definition": "Diz respeito a um pair-off: a operação é emparelhada e compensada com uma ou mais operações anteriores."
+    },
+    "PLAC": {
+      "name": "Colocação",
+      "definition": "Diz respeito à colocação/nova emissão de um instrumento financeiro."
+    },
+    "PORT": {
+      "name": "Movimentação de carteira",
+      "definition": "Diz respeito à transferência de uma carteira de um gestor de investimentos para outro e/ou de um prestador de serviços de conta para outro. É geralmente cobrada de forma diferente de outra transferência de conta, daí a necessidade de identificar este tipo de transferência como tal."
+    },
+    "REAL": {
+      "name": "Realinhamento",
+      "definition": "Diz respeito a um realinhamento de posições."
+    },
+    "REDI": {
+      "name": "Levantamento",
+      "definition": "Diz respeito ao levantamento de montantes especificados de subcontas especificadas."
+    },
+    "REDM": {
+      "name": "Resgate",
+      "definition": "Diz respeito a um resgate de fundos (apenas no setor dos fundos)."
+    },
+    "RELE": {
+      "name": "Cancelamento da emissão de certificados de depósito",
+      "definition": "Diz respeito a uma operação de libertação (para/a partir do local) de certificados de depósito."
+    },
+    "REPU": {
+      "name": "Operação de reporte",
+      "definition": "Diz respeito a uma operação de acordo de recompra."
+    },
+    "RODE": {
+      "name": "Devolução de entrega sem correspondência",
+      "definition": "Diz respeito à devolução de instrumentos financeiros resultante de uma entrega rejeitada sem operação correspondente."
+    },
+    "RVPO": {
+      "name": "Acordo de recompra inversa",
+      "definition": "Diz respeito a uma operação de acordo de recompra inversa."
+    },
+    "SBBK": {
+      "name": "Venda com acordo de recompra",
+      "definition": "Diz respeito a uma operação de sell buy back."
+    },
+    "SBRE": {
+      "name": "Reafetação de empréstimo tomado",
+      "definition": "Reafetação interna de uma posição tomada de empréstimo de uma conta de custódia para outra."
+    },
+    "SECB": {
+      "name": "Tomada de empréstimo de valores mobiliários",
+      "definition": "Diz respeito a uma operação de contração de empréstimo de valores mobiliários."
+    },
+    "SECL": {
+      "name": "Concessão de empréstimo de valores mobiliários",
+      "definition": "Diz respeito a uma operação de concessão de empréstimo de valores mobiliários."
+    },
+    "SLRE": {
+      "name": "Reafetação de empréstimo concedido",
+      "definition": "Reafetação interna de uma posição cedida por empréstimo de uma conta de custódia para outra."
+    },
+    "SUBS": {
+      "name": "Subscrição",
+      "definition": "Diz respeito a uma subscrição de fundos (apenas no setor dos fundos)."
+    },
+    "SYND": {
+      "name": "Subscritores do sindicato",
+      "definition": "Diz respeito à emissão de instrumentos financeiros através de um sindicato de subscritores e de um gestor principal."
+    },
+    "TBAC": {
+      "name": "Encerramento de operação a anunciar (TBA)",
+      "definition": "Diz respeito a uma operação de fecho de To Be Announced (TBA)."
+    },
+    "TRAD": {
+      "name": "Negócio",
+      "definition": "Diz respeito à liquidação de uma transação."
+    },
+    "TRPO": {
+      "name": "Reporte tripartido",
+      "definition": "Diz respeito a um acordo de recompra tripartido."
+    },
+    "TRVO": {
+      "name": "Reporte inverso tripartido",
+      "definition": "Diz respeito a um acordo de recompra inversa tripartido."
+    },
+    "TURN": {
+      "name": "Operação de reversão rápida",
+      "definition": "Diz respeito a um turnaround: o mesmo valor mobiliário é comprado e vendido para liquidação no mesmo dia, a ou de corretores diferentes."
+    },
+    "CLAI": {
+      "name": "Reclamação de mercado",
+      "definition": "Diz respeito a uma reclamação de mercado."
+    },
+    "CORP": {
+      "name": "Operação sobre títulos",
+      "definition": "Diz respeito a uma operação sobre títulos."
+    },
+    "AUTO": {
+      "name": "Colateralização automática",
+      "definition": "Diz respeito a um movimento de autocolateralização."
+    },
+    "SWIF": {
+      "name": "Transferência de origem",
+      "definition": "A operação é uma mudança de um investimento de um subfundo para outro subfundo (componente de resgate)."
+    },
+    "SWIT": {
+      "name": "Transferência de destino",
+      "definition": "A operação é uma mudança de um investimento de um subfundo para outro subfundo (componente de subscrição)."
+    },
+    "ETFT": {
+      "name": "Fundos negociados em bolsa",
+      "definition": "Diz respeito à criação ou ao resgate de um ETF."
+    },
+    "REBL": {
+      "name": "Reequilíbrio",
+      "definition": "Diz respeito a uma operação reequilibrada."
+    },
+    "TRIN": {
+      "name": "Transferência de entrada",
+      "definition": "A operação é um crédito de entrada numa conta do registo de acionistas e não está associada a uma alteração de investimento (subscrição ou conversão), mas à gestão da conta."
+    },
+    "TOUT": {
+      "name": "Transferência de saída",
+      "definition": "A operação é um débito numa conta do registo de acionistas e não está associada a uma alteração de investimento (resgate ou conversão), mas à gestão da conta."
+    }
+  }
+}

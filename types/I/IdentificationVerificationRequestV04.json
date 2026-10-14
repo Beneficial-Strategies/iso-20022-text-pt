@@ -1,0 +1,4 @@
+{
+  "isoType": "IdentificationVerificationRequestV04",
+  "definition": "Âmbito|A mensagem IdentificationVerificationRequest é enviada por um atribuidor a um destinatário da atribuição. É utilizada para solicitar a verificação de informações de identificação da parte e/ou da conta.|Utilização|A mensagem IdentificationVerificationRequest é enviada antes do envio de uma ou várias mensagens de operações.|A mensagem IdentificationVerificationRequest pode conter um ou vários pedidos de verificação."
+}

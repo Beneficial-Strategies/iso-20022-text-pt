@@ -1,0 +1,12 @@
+{
+  "isoType": "FATCAForm1Choice",
+  "definition": "Escolha de formatos para o tipo de formulário do Foreign Account Tax Compliance Act (FATCA).",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de formulário do Foreign Account Tax Compliance Act (FATCA) expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de formulário do Foreign Account Tax Compliance Act (FATCA) expresso sob a forma de código proprietário."
+    }
+  }
+}

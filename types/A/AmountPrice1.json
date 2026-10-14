@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountPrice1",
+  "definition": "Preço expresso como montante.",
+  "isoElements": {
+    "AmountPriceType": {
+      "definition": "Tipo de preço em montante."
+    },
+    "PriceValue": {
+      "definition": "Valor do preço."
+    }
+  }
+}

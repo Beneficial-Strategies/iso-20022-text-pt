@@ -1,0 +1,4 @@
+{
+  "isoType": "ReportQueryRequestV02",
+  "definition": "A mensagem ReportQueryRequest é trocada entre um membro do sistema e o administrador de transações do sistema.|Destina-se a consultar os dados mais recentes disponíveis de um relatório de um tipo específico. Um relatório é armazenado e fica disponível para consulta até o evento ocorrer novamente e o relatório ser substituído."
+}

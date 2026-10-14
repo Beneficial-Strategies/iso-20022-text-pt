@@ -1,0 +1,47 @@
+{
+  "isoType": "IntraPositionDetails61",
+  "definition": "Detalhes do movimento intraposição.",
+  "isoElements": {
+    "SettledQuantity": {
+      "definition": "Quantidade de instrumento financeiro efetivamente liquidada."
+    },
+    "SecuritiesSubBalanceIdentification": {
+      "definition": "Número que identifica um tipo de subsaldo de valores mobiliários, por exemplo, a identificação de uma restrição."
+    },
+    "CollateralMonitorAmount": {
+      "definition": "Valor da garantia disponível para o processo de liquidação de entrega ao nível da conta."
+    },
+    "PreviouslySettledQuantity": {
+      "definition": "Quantidade de instrumento financeiro previamente liquidada."
+    },
+    "RemainingToBeSettledQuantity": {
+      "definition": "Quantidade de instrumento financeiro que resta liquidar."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários foram movimentados."
+    },
+    "AvailableDate": {
+      "definition": "Data/hora a partir da qual os valores mobiliários ficam disponíveis para venda (se os valores mobiliários se tornarem indisponíveis, especifica a data/hora em que voltarão a estar disponíveis)."
+    },
+    "CorporateActionEventType": {
+      "definition": "Especifica o tipo de evento societário."
+    },
+    "BalanceFrom": {
+      "definition": "Saldo de origem dos valores mobiliários a movimentar."
+    },
+    "BalanceTo": {
+      "definition": "Saldo de destino dos valores mobiliários a movimentar."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fornece informações adicionais sobre o tratamento da liquidação que não podem ser incluídas nos campos estruturados da mensagem."
+    }
+  },
+  "isoRules": {
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acordo bilateral entre o remetente e o destinatário, se InstructionProcessingAdditionalDetails estiver presente, não deve conter informações que possam ser fornecidas num campo estruturado."
+    },
+    "BalanceFromToRule": {
+      "definition": "BalanceFrom/Type deve ser diferente de BalanceTo/Type."
+    }
+  }
+}

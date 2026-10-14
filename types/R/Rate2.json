@@ -1,0 +1,17 @@
+{
+  "isoType": "Rate2",
+  "definition": "Conjunto de elementos que qualificam a taxa de juro.",
+  "isoElements": {
+    "Sign": {
+      "definition": "Indica o sinal da taxa."
+    },
+    "Rate": {
+      "definition": "Percentagem cobrada pela utilização de um montante em dinheiro, normalmente expressa em taxa anual. A taxa de juro é o rácio entre o montante de juros pagos durante um determinado período e o montante de capital do instrumento financeiro que vence juros."
+    }
+  },
+  "isoRules": {
+    "SignRule": {
+      "definition": "Quando Sign estiver presente, a taxa não deve ser zero."
+    }
+  }
+}

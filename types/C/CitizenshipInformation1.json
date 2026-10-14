@@ -1,0 +1,18 @@
+{
+  "isoType": "CitizenshipInformation1",
+  "definition": "Detalhes do estatuto de um sujeito legalmente reconhecido ou de um nacional de um determinado país.",
+  "isoElements": {
+    "Nationality": {
+      "definition": "Especifica o país onde uma pessoa nasceu ou é legalmente aceite como pertencendo a esse país."
+    },
+    "MinorIndicator": {
+      "definition": "Indica se a pessoa é legalmente menor. Pode depender da nacionalidade, do país de domicílio ou da operação em que a pessoa está envolvida."
+    },
+    "StartDate": {
+      "definition": "Data de início da cidadania."
+    },
+    "EndDate": {
+      "definition": "Data de fim da cidadania."
+    }
+  }
+}

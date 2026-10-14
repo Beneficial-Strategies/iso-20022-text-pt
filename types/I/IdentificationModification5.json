@@ -1,0 +1,18 @@
+{
+  "isoType": "IdentificationModification5",
+  "definition": "Fornece os detalhes dos dados de identificação cuja modificação é aconselhada.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única, atribuída por uma parte remetente, para identificar inequivocamente o grupo de informações de identificação da parte e da conta na mensagem."
+    },
+    "OriginalPartyAndAccountIdentification": {
+      "definition": "Fornece informações de identificação da parte e/ou da conta tal como constam da mensagem original."
+    },
+    "UpdatedPartyAndAccountIdentification": {
+      "definition": "Fornece informações de identificação da parte e/ou da conta atualizadas."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais, em texto livre, para complementar as informações de modificação."
+    }
+  }
+}

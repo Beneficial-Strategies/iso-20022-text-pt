@@ -1,0 +1,18 @@
+{
+  "isoType": "CancelledStatusReason3Code",
+  "definition": "Especifica o motivo subjacente ao cancelamento da operação associada.",
+  "isoCodes": {
+    "CNTA": {
+      "name": "Cancelado pelo agente de transferências",
+      "definition": "A operação é cancelada pelo agente de transferência."
+    },
+    "CNCL": {
+      "name": "Cancelado pelo cliente",
+      "definition": "A operação é cancelada pelo cliente."
+    },
+    "CNIN": {
+      "name": "Cancelado pelo intermediário",
+      "definition": "A operação é cancelada pelo intermediário."
+    }
+  }
+}

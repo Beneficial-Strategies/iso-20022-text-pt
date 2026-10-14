@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAStandingInstructionCancellationRequestV01",
+  "definition": "Âmbito|Esta mensagem é enviada por um CSD ao agente do emitente para solicitar o cancelamento de uma Agent Corporate Action Standing Instruction enviada anteriormente.|Utilização|Esta mensagem é utilizada para solicitar o cancelamento de uma instrução permanente.|Esta mensagem tem de conter a identificação da instrução permanente a cancelar. Pode também conter os detalhes da instrução permanente a cancelar, mas tal não é recomendado."
+}

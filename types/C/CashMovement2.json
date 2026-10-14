@@ -1,0 +1,12 @@
+{
+  "isoType": "CashMovement2",
+  "definition": "Fornece informações sobre o movimento de numerário.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante em numerário."
+    },
+    "AccountDetails": {
+      "definition": "Fornece informações sobre a conta que é debitada/creditada."
+    }
+  }
+}

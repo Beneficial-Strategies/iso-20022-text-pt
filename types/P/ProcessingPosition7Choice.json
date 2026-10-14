@@ -1,0 +1,17 @@
+{
+  "isoType": "ProcessingPosition7Choice",
+  "definition": "Escolha do formato da posição de processamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Posição de processamento expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Posição de processamento expressa como um código proprietário."
+    }
+  },
+  "isoRules": {
+    "WithLinkageRule": {
+      "definition": "Se o código WITH for utilizado, as uma ou mais instruções associadas ficam vinculadas e devem ser executadas em conjunto. Mesmo que uma única operação/instrução/notificação não possa ser executada, todas as restantes operações/instruções/notificações devem também ser mantidas pendentes. Por conseguinte, a utilização do código WITH deve limitar-se à combinação de até 2 ou 3 operações/instruções/notificações."
+    }
+  }
+}

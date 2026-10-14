@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestigationResponse23",
+  "definition": "Fornece detalhes da resposta à investigação.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pelo respondente e enviada ao requerente para identificar inequivocamente a mensagem.|Utilização: o respondente tem de garantir que a MessageIdentification é única por requerente durante um período previamente acordado."
+    },
+    "ResponderInvestigationIdentification": {
+      "definition": "Identificação única, atribuída pelo respondente, para identificar inequivocamente a referência do respondente para a investigação."
+    },
+    "InvestigationStatus": {
+      "definition": "Estado do pedido de investigação."
+    },
+    "NextResponder": {
+      "definition": "Identificação da parte ou instituição de quem o respondente aguarda uma resposta.||Utilização: quando o Responder tiver reencaminhado a investigação para outra parte, recomenda-se que indique o elemento NextResponder."
+    },
+    "InvestigationData": {
+      "definition": "Fornece a resposta ao pedido."
+    }
+  }
+}

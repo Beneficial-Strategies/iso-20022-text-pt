@@ -1,0 +1,54 @@
+{
+  "isoType": "CardholderVerificationCapability1Code",
+  "definition": "Capacidades de verificação do titular do cartão do POI (número de identificação pessoal) que realiza a operação.",
+  "isoCodes": {
+    "MNSG": {
+      "name": "Assinatura manual",
+      "definition": "Verificação manual da assinatura."
+    },
+    "NPIN": {
+      "name": "PIN online",
+      "definition": "PIN online (número de identificação pessoal)."
+    },
+    "FCPN": {
+      "name": "PIN offline em claro",
+      "definition": "PIN offline em claro (número de identificação pessoal)."
+    },
+    "FEPN": {
+      "name": "PIN offline cifrado",
+      "definition": "PIN offline cifrado (número de identificação pessoal)."
+    },
+    "FDSG": {
+      "name": "Assinatura digital offline",
+      "definition": "Análise de assinatura digital offline."
+    },
+    "FBIO": {
+      "name": "Dados biométricos offline",
+      "definition": "Dados biométricos offline."
+    },
+    "MNVR": {
+      "name": "Verificação manual",
+      "definition": "Outra verificação manual, por exemplo passaporte ou carta de condução."
+    },
+    "FBIG": {
+      "name": "Dados biográficos offline",
+      "definition": "Dados biográficos offline."
+    },
+    "APKI": {
+      "name": "Assinatura digital da conta",
+      "definition": "Assinatura digital baseada na conta."
+    },
+    "PKIS": {
+      "name": "Assinatura PKI",
+      "definition": "Assinatura digital baseada em PKI (infraestrutura de chave pública)."
+    },
+    "CHDT": {
+      "name": "Dados do titular do cartão",
+      "definition": "Dados de autenticação do titular do cartão."
+    },
+    "SCEC": {
+      "name": "Comércio eletrónico seguro",
+      "definition": "Three domain secure (autenticação do titular do cartão por three domain secure)."
+    }
+  }
+}

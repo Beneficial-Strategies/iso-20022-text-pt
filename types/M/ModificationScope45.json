@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope45",
+  "definition": "Âmbito da modificação a aplicar a um conjunto de informações identificado.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Tipo de modificação a aplicar."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais, como observações ou notas, que devem ser transmitidas sobre a parte e/ou limitações e restrições."
+    }
+  }
+}

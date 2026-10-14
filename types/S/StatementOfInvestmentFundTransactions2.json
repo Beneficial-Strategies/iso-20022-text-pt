@@ -1,0 +1,26 @@
+{
+  "isoType": "StatementOfInvestmentFundTransactions2",
+  "definition": "Informações sobre um extrato de operações de fundos de investimento.",
+  "isoElements": {
+    "StatementGeneralDetails": {
+      "definition": "Informações gerais relativas ao extrato de operações de fundos de investimento que está a ser cancelado."
+    },
+    "InvestmentAccountDetails": {
+      "definition": "Informações relativas a uma conta de investimento do extrato que está a ser cancelado."
+    },
+    "TransactionOnAccount": {
+      "definition": "Criação/cancelamento de unidades de participação nos registos do fundo ou do seu agente designado, em resultado da execução de uma ordem de fundo de investimento."
+    },
+    "SubAccountDetails": {
+      "definition": "Subconta da conta de custódia ou de investimento."
+    },
+    "Extension": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "TransactionOnAccountOrSubAccountDetailsRule": {
+      "definition": "Se StatementGeneralDetails/ActivityIndicator for \"true\" ou \"1\" (Sim), então TransactionOnAccount ou SubAccountDetails tem de estar presente. Se StatementGeneralDetails/ActivityIndicator for \"false\" ou \"0\" (Não), então TransactionOnAccount e SubAccountDetails não são permitidos."
+    }
+  }
+}

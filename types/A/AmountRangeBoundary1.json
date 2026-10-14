@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountRangeBoundary1",
+  "definition": "Limite de um intervalo de montantes.",
+  "isoElements": {
+    "BoundaryAmount": {
+      "definition": "Valor do montante do limite do intervalo."
+    },
+    "Included": {
+      "definition": "Indica se o montante-limite está incluído no intervalo de valores do montante."
+    }
+  }
+}

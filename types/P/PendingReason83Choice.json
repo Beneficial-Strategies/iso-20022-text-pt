@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingReason83Choice",
+  "definition": "Escolha entre um código normalizado e um código proprietário para especificar o motivo pelo qual a instrução/evento tem o estado de pendente.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o motivo pelo qual a instrução/evento tem um estado pendente."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do motivo pelo qual a instrução/evento tem um estado pendente."
+    }
+  }
+}

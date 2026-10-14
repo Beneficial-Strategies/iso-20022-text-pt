@@ -1,0 +1,12 @@
+{
+  "isoType": "DiscountAmountType1Choice",
+  "definition": "Especifica o tipo de montante.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o tipo de montante, sob forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Especifica o tipo de montante, em texto livre."
+    }
+  }
+}

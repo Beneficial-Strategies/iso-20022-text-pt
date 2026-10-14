@@ -1,0 +1,42 @@
+{
+  "isoType": "CreditTransfer13",
+  "definition": "Instrumento de pagamento entre um devedor e um credor, que circula através de uma ou mais instituições financeiras ou sistemas.",
+  "isoElements": {
+    "Debtor": {
+      "definition": "Parte que devia um montante de dinheiro ao credor (final). No contexto do modelo de pagamento, o devedor é também o titular da conta de débito."
+    },
+    "DebtorAccount": {
+      "definition": "Identificação inequívoca da conta do devedor na qual foi efetuado um lançamento a débito em resultado da operação."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que presta serviços à conta do devedor."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identifica a conta da instituição do devedor."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 1 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 2 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que presta serviços à conta do credor."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do credor junto do seu prestador de serviços, na qual foi efetuado um lançamento a crédito em resultado da operação de pagamento."
+    },
+    "Creditor": {
+      "definition": "Parte que recebeu um montante de dinheiro do devedor. No contexto do modelo de pagamento, o credor é também o titular da conta de crédito."
+    },
+    "CreditorAccount": {
+      "definition": "Identificação inequívoca da conta do credor na qual foi efetuado um lançamento a crédito em resultado da operação de pagamento."
+    }
+  }
+}

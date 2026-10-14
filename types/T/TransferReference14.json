@@ -1,0 +1,24 @@
+{
+  "isoType": "TransferReference14",
+  "definition": "Referência de uma transferência e de um cancelamento de transferência.",
+  "isoElements": {
+    "TransferReference": {
+      "definition": "Identificador único e inequívoco da instrução de transferência de carteira, atribuído pela parte ordenante."
+    },
+    "ClientReference": {
+      "definition": "Identificação única e inequívoca da transferência de carteira pelo investidor. Esta referência pode tipicamente ser utilizada num cenário de hub para indicar a referência da transferência atribuída pelo cliente subjacente."
+    },
+    "CounterpartyReference": {
+      "definition": "Identificação inequívoca da transferência de carteira atribuída pela contraparte."
+    },
+    "TransferConfirmationReference": {
+      "definition": "Identificador único e inequívoco da execução da transferência de carteira, atribuído pela parte que confirma."
+    },
+    "CancellationReference": {
+      "definition": "Identificador único e inequívoco do cancelamento da transferência de carteira, atribuído pela parte ordenante."
+    },
+    "CancellationReason": {
+      "definition": "Motivo do cancelamento."
+    }
+  }
+}

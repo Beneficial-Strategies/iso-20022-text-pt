@@ -1,0 +1,18 @@
+{
+  "isoType": "NetDividendRateFormat39Choice",
+  "definition": "Escolha entre um montante ou uma taxa não especificada.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Número de unidades monetárias especificado numa moeda."
+    },
+    "AmountAndRateStatus": {
+      "definition": "Especifica um montante e um estado da taxa."
+    },
+    "RateTypeAndAmountAndRateStatus": {
+      "definition": "Especifica diferentes formatos para a taxa de dividendo líquido."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Valor da taxa não especificado."
+    }
+  }
+}

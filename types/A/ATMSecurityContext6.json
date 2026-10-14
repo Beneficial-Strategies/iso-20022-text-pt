@@ -1,0 +1,21 @@
+{
+  "isoType": "ATMSecurityContext6",
+  "definition": "Informação relativa aos comandos de segurança.",
+  "isoElements": {
+    "CurrentSecurityScheme": {
+      "definition": "Esquema de segurança de troca de chaves ativo no ATM para o gestor do anfitrião."
+    },
+    "SecuritySchemeCapabilities": {
+      "definition": "Esquemas de segurança de troca de chaves implementados no módulo de segurança de hardware do ATM."
+    },
+    "SecurityDevice": {
+      "definition": "Módulo de segurança de hardware do ATM."
+    },
+    "Key": {
+      "definition": "Chaves criptográficas armazenadas no módulo de segurança de hardware do ATM."
+    },
+    "HostChallenge": {
+      "definition": "Valor aleatório do anfitrião fornecido durante uma troca anterior."
+    }
+  }
+}

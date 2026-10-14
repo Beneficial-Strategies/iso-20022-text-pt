@@ -1,0 +1,12 @@
+{
+  "isoType": "DefaultProcessingOrStandingInstruction2Choice",
+  "definition": "Escolha entre processamento por defeito ou instrução permanente.",
+  "isoElements": {
+    "DefaultOptionIndicator": {
+      "definition": "Indica se a opção, por exemplo, a opção de moeda, será selecionada por defeito se o titular da conta não fornecer nenhuma instrução."
+    },
+    "StandingInstructionIndicator": {
+      "definition": "Indica se o titular da conta deu uma ordem permanente para selecionar esta opção de ação societária.|A instrução permanente pode ou não ser substituída, consoante os termos da conta ou do evento."
+    }
+  }
+}

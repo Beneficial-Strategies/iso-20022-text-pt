@@ -1,0 +1,12 @@
+{
+  "isoType": "BankToCustomerDebitCreditNotificationV14",
+  "definition": "Âmbito|A mensagem BankToCustomerDebitCreditNotification é enviada pela instituição gestora da conta a um titular da conta ou a uma parte autorizada pelo titular da conta para receber a mensagem. Pode ser utilizada para informar o titular da conta, ou a parte autorizada, de um ou vários lançamentos a débito e/ou a crédito comunicados na conta.|Utilização|A mensagem BankToCustomerDebitCreditNotification pode conter relatórios de mais de uma conta. Fornece informações para a gestão de tesouraria e/ou reconciliação.|A mensagem BankToCustomerDebitCreditNotification pode ser utilizada para: |- comunicar itens pendentes e contabilizados;|- notificar um ou mais lançamentos a débito;|- notificar um ou mais lançamentos a crédito;|- notificar uma combinação de lançamentos a débito e a crédito.|Pode incluir pormenores subjacentes das operações que foram incluídas no lançamento.|É possível que o destinatário da mensagem não seja o titular da conta, mas uma parte habilitada pelo titular da conta a receber as informações da conta (também designada destinatário).|Não contém informações sobre o saldo.",
+  "isoRules": {
+    "MessageOrNotificationPaginationRule": {
+      "definition": "MessagePagination pode estar presente ou NotificationPagination pode estar presente, mas não ambos."
+    },
+    "SupplementaryDataRule": {
+      "definition": "O bloco SupplementaryData ao nível da mensagem não deve ser utilizado para fornecer informações adicionais sobre uma operação. Para esse fim, deve ser utilizado o elemento SupplementaryData ao nível da operação."
+    }
+  }
+}

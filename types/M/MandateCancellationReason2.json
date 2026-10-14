@@ -1,0 +1,15 @@
+{
+  "isoType": "MandateCancellationReason2",
+  "definition": "Fornece detalhes adicionais sobre o motivo do pedido de cancelamento do mandato.",
+  "isoElements": {
+    "Originator": {
+      "definition": "Parte que emite o pedido de cancelamento."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo do pedido de cancelamento."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalhes adicionais sobre o motivo do pedido de cancelamento."
+    }
+  }
+}

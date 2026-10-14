@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification289",
+  "definition": "Identificação de uma parte.",
+  "isoElements": {
+    "PartyIdentification": {
+      "definition": "Fornece informações sobre o beneficiário efetivo dos valores mobiliários."
+    },
+    "ContactPerson": {
+      "definition": "Informações de contacto detalhadas do cliente."
+    },
+    "ContactPersonAddress": {
+      "definition": "Endereço do cliente."
+    }
+  }
+}

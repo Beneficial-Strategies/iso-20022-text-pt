@@ -1,0 +1,12 @@
+{
+  "isoType": "PensionTransferScope1Choice",
+  "definition": "Escolha de formatos para o âmbito de uma transferência de pensão.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de âmbito da transferência da apólice, plano ou regime de pensões expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de âmbito da transferência da apólice, plano ou regime de pensões expresso sob a forma de código proprietário."
+    }
+  }
+}

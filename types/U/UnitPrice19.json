@@ -1,0 +1,12 @@
+{
+  "isoType": "UnitPrice19",
+  "definition": "Montante em dinheiro pelo qual são oferecidos, vendidos ou comprados bens ou serviços.",
+  "isoElements": {
+    "PriceType": {
+      "definition": "Tipo de preço."
+    },
+    "Value": {
+      "definition": "Valor do preço, isto é, como uma moeda e um valor."
+    }
+  }
+}

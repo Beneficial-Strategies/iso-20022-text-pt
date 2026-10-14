@@ -1,0 +1,14 @@
+{
+  "isoType": "CRSSourceStatus1Code",
+  "definition": "Especifica a origem do estatuto do Common Reporting Standard (CRS).",
+  "isoCodes": {
+    "CALC": {
+      "name": "Calculado",
+      "definition": "A origem do estatuto do Common Reporting Standard (CRS) é calculada."
+    },
+    "DECL": {
+      "name": "Declarado",
+      "definition": "A origem do estatuto do Common Reporting Standard (CRS) é a declarada pelo investidor."
+    }
+  }
+}

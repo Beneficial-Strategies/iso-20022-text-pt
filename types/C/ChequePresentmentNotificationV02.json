@@ -1,0 +1,4 @@
+{
+  "isoType": "ChequePresentmentNotificationV02",
+  "definition": "A mensagem ChequePresentmentNotification é enviada por um banco sacador, ou por um banco que age em nome do banco sacador, ao banco sobre o qual um ou vários cheques foram sacados (o banco sacado).|É utilizada para informar o banco sacado, ou confirmar a um banco requerente, os detalhes relativos ao(s) cheque(s) a que a mensagem se refere."
+}

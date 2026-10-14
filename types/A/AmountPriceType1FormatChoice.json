@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountPriceType1FormatChoice",
+  "definition": "Escolha de formatos para exprimir o tipo de preço do montante.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de preço do montante."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir o tipo de preço do montante."
+    }
+  }
+}

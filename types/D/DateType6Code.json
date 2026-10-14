@@ -1,0 +1,18 @@
+{
+  "isoType": "DateType6Code",
+  "definition": "Especifica o tipo de datas.",
+  "isoCodes": {
+    "OPEN": {
+      "name": "Aberto",
+      "definition": "Data em aberto, o que indica que a data não foi estabelecida."
+    },
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "A data é desconhecida do remetente ou não foi estabelecida."
+    },
+    "ONGO": {
+      "name": "Em curso",
+      "definition": "Base contínua, que indica que a data é determinada por um processo de \"base contínua\", por exemplo \"au fil de l'eau\"."
+    }
+  }
+}

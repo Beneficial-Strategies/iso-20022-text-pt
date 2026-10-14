@@ -1,0 +1,38 @@
+{
+  "isoType": "TransactionIndividualStatus1Code",
+  "definition": "Especifica o estado de uma única operação de pagamento.",
+  "isoCodes": {
+    "ACTC": {
+      "name": "Aceite, validação técnica",
+      "definition": "A autenticação e a validação sintática e semântica foram bem-sucedidas."
+    },
+    "RJCT": {
+      "name": "Rejeitado",
+      "definition": "A iniciação do pagamento ou uma operação individual incluída na iniciação do pagamento foi rejeitada."
+    },
+    "PDNG": {
+      "name": "Pendente",
+      "definition": "A iniciação do pagamento ou uma operação individual incluída na iniciação do pagamento está pendente. Serão efetuadas verificações adicionais e uma atualização do estado."
+    },
+    "ACCP": {
+      "name": "Perfil do cliente aceite",
+      "definition": "A verificação técnica prévia da validação foi bem-sucedida. A verificação do perfil do cliente também foi bem-sucedida."
+    },
+    "ACSP": {
+      "name": "Aceite, liquidação em curso",
+      "definition": "Todas as verificações anteriores, como a validação técnica e o perfil do cliente, foram bem-sucedidas, pelo que a iniciação do pagamento foi aceite para execução."
+    },
+    "ACSC": {
+      "name": "Aceite, liquidação concluída",
+      "definition": "A liquidação na conta do devedor foi concluída. ||Utilização: pode ser utilizado pela primeira instituição para informar o devedor de que a operação foi concluída. Aviso: este estado destina-se a indicar o estado da operação, não a fornecer informação financeira. Só pode ser utilizado após acordo bilateral."
+    },
+    "ACCR": {
+      "name": "Pedido de anulação aceite",
+      "definition": "O cancelamento foi aceite."
+    },
+    "ACWC": {
+      "name": "Aceite com alteração",
+      "definition": "A instrução é aceite, mas será efetuada uma alteração, por exemplo da data ou da informação de remessa não enviada."
+    }
+  }
+}

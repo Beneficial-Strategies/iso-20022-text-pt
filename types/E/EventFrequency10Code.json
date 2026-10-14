@@ -1,0 +1,14 @@
+{
+  "isoType": "EventFrequency10Code",
+  "definition": "Especifica a regularidade de um evento.",
+  "isoCodes": {
+    "DAIL": {
+      "name": "Diário",
+      "definition": "O evento ocorre todos os dias."
+    },
+    "ADHO": {
+      "name": "Ad hoc",
+      "definition": "O evento ocorre sempre que necessário."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "OtherAsset2Choice",
+  "definition": "Escolha de formatos para um tipo de outro ativo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de outro ativo especificado como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de outro ativo especificado como código proprietário."
+    }
+  }
+}

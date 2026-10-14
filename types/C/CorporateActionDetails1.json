@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionDetails1",
+  "definition": "Informações essenciais sobre o evento de operação sobre títulos conexo.",
+  "isoElements": {
+    "CorporateActionGeneralInformation": {
+      "definition": "Informações gerais sobre o evento de operação sobre valores mobiliários."
+    },
+    "CorporateActionOption": {
+      "definition": "Opções de instruções de proteção do comprador selecionadas."
+    }
+  }
+}

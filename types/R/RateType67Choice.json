@@ -1,0 +1,12 @@
+{
+  "isoType": "RateType67Choice",
+  "definition": "Escolha entre um código e ou um esquema de fonte de dados para determinar a taxa.",
+  "isoElements": {
+    "Code": {
+      "definition": "Taxa expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Taxa expressa como código proprietário."
+    }
+  }
+}

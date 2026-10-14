@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesSettlementStatus2Code",
+  "definition": "Indica o estado de liquidação de uma instrução.",
+  "isoCodes": {
+    "PEND": {
+      "name": "Pendente",
+      "definition": "A instrução está pendente. A liquidação na data de liquidação instruída ainda é possível."
+    },
+    "PENF": {
+      "name": "Em falha",
+      "definition": "A instrução está em incumprimento. A liquidação na data de liquidação instruída já não é possível."
+    },
+    "USET": {
+      "name": "Não liquidado",
+      "definition": "A instrução não está liquidada."
+    },
+    "SETT": {
+      "name": "Liquidado",
+      "definition": "Liquidação total."
+    },
+    "PAIN": {
+      "name": "Liquidação parcial",
+      "definition": "Parte da instrução permanece por liquidar."
+    }
+  }
+}

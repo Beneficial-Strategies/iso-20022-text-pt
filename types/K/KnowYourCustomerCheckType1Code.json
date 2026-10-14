@@ -1,0 +1,18 @@
+{
+  "isoType": "KnowYourCustomerCheckType1Code",
+  "definition": "Especifica o tipo de diligência devida de Know Your Customer (KYC) ou de combate ao branqueamento de capitais a que o investidor foi sujeito.",
+  "isoCodes": {
+    "ENHA": {
+      "name": "Reforçado",
+      "definition": "Verificação reforçada, normalmente realizada em contas consideradas de risco elevado."
+    },
+    "ORDN": {
+      "name": "Ordinário",
+      "definition": "Verificação ordinária, normalmente realizada em contas normais."
+    },
+    "SIMP": {
+      "name": "Simples",
+      "definition": "Verificação simplificada, normalmente realizada em contas com baixo risco de branqueamento de capitais, como uma conta detida por uma instituição financeira."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "FundIntention1Code",
+  "definition": "Especifica se o fundo se destina a investidores qualificados.",
+  "isoCodes": {
+    "YQUA": {
+      "name": "Qualificado",
+      "definition": "Qualificado."
+    },
+    "NQUA": {
+      "name": "Não qualificado",
+      "definition": "Não qualificado."
+    }
+  }
+}

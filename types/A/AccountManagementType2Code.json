@@ -1,0 +1,18 @@
+{
+  "isoType": "AccountManagementType2Code",
+  "definition": "Refere-se a uma instrução de gestão de conta, isto é, uma instrução de abertura de conta, uma instrução de alteração de conta ou uma mensagem de obtenção de detalhes da conta.",
+  "isoCodes": {
+    "ACCO": {
+      "name": "Abertura de conta",
+      "definition": "Refere-se a uma mensagem de instrução de abertura de conta."
+    },
+    "ACCM": {
+      "name": "Alteração de conta",
+      "definition": "Refere-se a uma mensagem de instrução de alteração de conta."
+    },
+    "GACC": {
+      "name": "Obter detalhes da conta",
+      "definition": "Refere-se a uma mensagem de obtenção de detalhes da conta."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "BalanceTransferWindow1Code",
+  "definition": "Especifica a janela de processamento em que a transferência de saldo será tratada na data da mudança.",
+  "isoCodes": {
+    "DAYH": {
+      "name": "Dentro do horário",
+      "definition": "Indica processamento dentro do horário de funcionamento."
+    },
+    "EARL": {
+      "name": "Fora do horário",
+      "definition": "Indica processamento fora do horário de funcionamento."
+    }
+  }
+}

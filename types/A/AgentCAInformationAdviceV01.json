@@ -1,0 +1,4 @@
+{
+  "isoType": "AgentCAInformationAdviceV01",
+  "definition": "Âmbito|Esta mensagem é enviada por um CSD a um emitente (ou ao seu agente) para fornecer informações sobre a certificação e/ou os detalhes de entrega ao emitente (ou ao seu agente).|Utilização|Esta mensagem pode ser utilizada no caso de um evento societário sem eleição.|Esta mensagem também pode ser utilizada no caso de um evento societário com eleição, quando os detalhes da eleição e as informações adicionais não puderem ser fornecidos na mesma mensagem. Neste caso, deve ser utilizada a Agent Corporate Action Election Advice Identification para associar esta mensagem ao aviso de eleição para o qual são fornecidas informações adicionais."
+}

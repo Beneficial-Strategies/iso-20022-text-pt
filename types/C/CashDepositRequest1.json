@@ -1,0 +1,45 @@
+{
+  "isoType": "CashDepositRequest1",
+  "definition": "Especifica os detalhes de um pedido de depósito de numerário.",
+  "isoElements": {
+    "OrderReference": {
+      "definition": "Identificação única da ordem."
+    },
+    "CashSenderReference": {
+      "definition": "Identificação única, atribuída pelo remetente do numerário, para o depósito de numerário."
+    },
+    "AmendmentIndicator": {
+      "definition": "Indica se esta mensagem altera uma mensagem de pedido anterior.||Utilização: quando é indicado o valor Yes, a OrderReference e a CashSenderReference devem permanecer iguais às da mensagem original. Quando este elemento não é utilizado, a mensagem não é considerada uma alteração."
+    },
+    "ExpectedValueDate": {
+      "definition": "Data em que o remetente do numerário espera que o numerário chegue ao destinatário do numerário e seja creditado na sua conta."
+    },
+    "Account": {
+      "definition": "Identificação inequívoca da conta na qual o numerário será depositado."
+    },
+    "CashDeposit": {
+      "definition": "Fornece os detalhes de um depósito de numerário correspondente a um montante em dinheiro em notas e/ou moedas."
+    },
+    "DeliveryMethod": {
+      "definition": "Especifica o método de entrega do depósito de numerário."
+    },
+    "DeliveryAddress": {
+      "definition": "Especifica o endereço para o qual o depósito de numerário é entregue."
+    },
+    "DepositContact": {
+      "definition": "Parte que transporta o numerário a depositar."
+    },
+    "SecureCarrierName": {
+      "definition": "Identificação da transportadora de valores."
+    },
+    "SecureCarrierReference": {
+      "definition": "Identificação única, atribuída pela transportadora de valores para o depósito."
+    },
+    "InsuranceIndicator": {
+      "definition": "Indica se o depósito em trânsito está segurado.||Utilização: quando este elemento não é utilizado, o depósito não está segurado."
+    },
+    "AdditionalInformation": {
+      "definition": "Detalhes adicionais do depósito de numerário."
+    }
+  }
+}

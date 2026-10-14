@@ -1,0 +1,12 @@
+{
+  "isoType": "Disclosure3Choice",
+  "definition": "Escolha entre uma indicação de não divulgação e o fornecimento de informações de divulgação de participações.",
+  "isoElements": {
+    "NoDisclosure": {
+      "definition": "As informações de participação não são divulgadas."
+    },
+    "SafekeepingAccountAndHoldings": {
+      "definition": "Pormenores da conta, das subcontas e das posições."
+    }
+  }
+}

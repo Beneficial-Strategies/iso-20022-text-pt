@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalInvestigationServiceLevel1Code",
+  "definition": "Especifica o nível de serviço da investigação, conforme publicado num conjunto externo de códigos de níveis de serviço de investigação.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "R01D": {
+      "name": "Responder no prazo de um dia útil",
+      "definition": "Resposta esperada no prazo de um dia útil."
+    },
+    "R03D": {
+      "name": "Responder no prazo de três dias úteis",
+      "definition": "Resposta esperada no prazo de três dias úteis."
+    },
+    "R05D": {
+      "name": "Responder no prazo de cinco dias úteis",
+      "definition": "Resposta esperada no prazo de cinco dias úteis."
+    },
+    "R10D": {
+      "name": "Responder no prazo de dez dias úteis",
+      "definition": "Resposta esperada no prazo de dez dias úteis."
+    },
+    "R15D": {
+      "name": "Responder no prazo de quinze dias úteis",
+      "definition": "Resposta esperada no prazo de quinze dias úteis."
+    }
+  }
+}

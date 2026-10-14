@@ -1,0 +1,14 @@
+{
+  "isoType": "ProcessedStatus5Code",
+  "definition": "Especifica o estado de tratamento de um pedido.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Recebido",
+      "definition": "A instrução/o pedido foi recebido."
+    },
+    "PACK": {
+      "name": "Aceite",
+      "definition": "O pedido é aceite."
+    }
+  }
+}

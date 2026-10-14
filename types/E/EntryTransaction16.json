@@ -1,0 +1,98 @@
+{
+  "isoType": "EntryTransaction16",
+  "definition": "Identifica a operação subjacente.",
+  "isoElements": {
+    "References": {
+      "definition": "Fornece a identificação da operação subjacente."
+    },
+    "Amount": {
+      "definition": "Montante em dinheiro na operação de caixa."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se a operação é uma operação a crédito ou a débito."
+    },
+    "AmountDetails": {
+      "definition": "Fornece informações pormenorizadas sobre o montante original.||Utilização: este componente (ao nível da operação) deve ser utilizado quando o lançamento corresponde a uma única operação e o montante original é diferente do montante do lançamento. Também pode ser utilizado quando são fornecidos montantes originais individuais no caso de um lançamento em lote ou agregado."
+    },
+    "Availability": {
+      "definition": "Indica quando o montante lançado ficará disponível, ou seja, quando poderá ser acedido e começará a vencer juros. ||Utilização: este tipo de informação é utilizado nos EUA (US) e está associado a determinados instrumentos, como os cheques.|Exemplo: quando um cheque é depositado, é lançado no dia do depósito, mas o montante só ficará acessível a partir do dia de disponibilidade indicado (de acordo com a regulamentação bancária nacional)."
+    },
+    "BankTransactionCode": {
+      "definition": "Conjunto de elementos utilizados para identificar integralmente o tipo de operação subjacente que dá origem a um lançamento."
+    },
+    "Charges": {
+      "definition": "Fornece informações sobre os encargos, pré-avisados ou incluídos no montante do lançamento.||Utilização: este componente (ao nível da operação) pode ser utilizado quando o lançamento corresponde a uma única operação e os encargos estão incluídos no montante do lançamento. Também pode ser utilizado quando são aplicados montantes de encargos individuais a operações individuais no caso de um lançamento em lote ou de montante agregado."
+    },
+    "Interest": {
+      "definition": "Fornece os pormenores do montante de juros incluído no montante do lançamento.||Utilização: este componente (ao nível da operação) pode ser utilizado se o lançamento corresponder a uma única operação e o montante de juros estiver incluído no montante do lançamento. Também pode ser utilizado se forem aplicados montantes de juros individuais a operações individuais no caso de um lançamento em lote ou de montante agregado."
+    },
+    "RelatedParties": {
+      "definition": "Conjunto de elementos utilizados para identificar as partes relacionadas com a operação subjacente."
+    },
+    "RelatedAgents": {
+      "definition": "Conjunto de elementos utilizados para identificar as instituições relacionadas com a operação subjacente."
+    },
+    "LocalInstrument": {
+      "definition": "Instrumento específico da comunidade de utilizadores.|Utilização: este elemento é utilizado para especificar um instrumento local, uma opção de compensação local e/ou para qualificar melhor o serviço ou o nível de serviço."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar melhor o tipo de operação."
+    },
+    "Purpose": {
+      "definition": "Motivo subjacente da operação de pagamento.|Utilização: a finalidade é utilizada pelos clientes finais, ou seja, a parte iniciadora e o devedor/credor (final), para fornecer informações sobre a natureza do pagamento. A finalidade é um elemento de conteúdo, não utilizado para tratamento por nenhuma das instituições envolvidas na cadeia de pagamento."
+    },
+    "RelatedRemittanceInformation": {
+      "definition": "Fornece informações relacionadas com o tratamento das informações de remessa por qualquer uma das instituições na cadeia de tratamento da operação."
+    },
+    "RemittanceInformation": {
+      "definition": "Informações estruturadas que permitem a correspondência, ou seja, a reconciliação, de um pagamento com os itens que o pagamento se destina a liquidar, por exemplo, faturas comerciais num sistema de contas a receber."
+    },
+    "RelatedDates": {
+      "definition": "Conjunto de elementos utilizados para identificar as datas relacionadas com as operações subjacentes."
+    },
+    "RelatedPrice": {
+      "definition": "Conjunto de elementos utilizados para identificar as informações de preço relacionadas com a operação subjacente."
+    },
+    "RelatedQuantities": {
+      "definition": "Conjunto de elementos utilizados para identificar as quantidades relacionadas, por exemplo, de valores mobiliários, na operação subjacente."
+    },
+    "FinancialInstrumentIdentification": {
+      "definition": "Identificação de um valor mobiliário, atribuída ao abrigo de um esquema de identificação formal ou proprietário."
+    },
+    "Tax": {
+      "definition": "Fornece pormenores sobre o imposto."
+    },
+    "ReturnInformation": {
+      "definition": "Fornece as informações da devolução."
+    },
+    "RelatedCorporateAction": {
+      "definition": "Conjunto de elementos utilizados para identificar a operação sobre títulos subjacente."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta de custódia ou de investimento. Uma conta de custódia é uma conta na qual é efetuado um lançamento de valores mobiliários. Uma conta de investimento é uma conta entre um ou mais investidores e um gestor de fundos ou um fundo. A conta pode conter posições em qualquer fundo de investimento ou classe de fundo de investimento gerido (ou distribuído) pelo gestor de fundos, dentro da mesma família de fundos."
+    },
+    "UnderlyingAllocation": {
+      "definition": "Fornece informações sobre as imputações subjacentes que compõem o pagamento.||Utilização: apenas utilizado pelo setor dos valores mobiliários."
+    },
+    "CashDeposit": {
+      "definition": "Fornece os pormenores de um depósito de um montante em dinheiro, em notas e/ou moedas."
+    },
+    "CardTransaction": {
+      "definition": "Fornece os dados relativos ao cartão (número, esquema), ao terminal (número, identificação) e à operação, utilizados para identificar de forma única uma operação com cartão."
+    },
+    "InstructionCopy": {
+      "definition": "Cópia da instrução original, em texto livre.||Utilização: quando a instrução copiada é uma mensagem ISO 20022 em sintaxe XML, tem de ser utilizado o formato CDATA."
+    },
+    "AdditionalTransactionInformation": {
+      "definition": "Mais pormenores sobre a operação."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "PaymentTypeOrLocalInstrumentRule": {
+      "definition": "PaymentTypeInformation ou LocalInstrument tem de estar ausente; ambos podem estar ausentes."
+    }
+  }
+}

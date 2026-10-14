@@ -1,0 +1,12 @@
+{
+  "isoType": "NotificationPendingStatus1",
+  "definition": "Fornece informações sobre o estado pendente de um aviso de notificação.",
+  "isoElements": {
+    "Status": {
+      "definition": "O estado de processamento."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o estado."
+    }
+  }
+}

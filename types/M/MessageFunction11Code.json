@@ -1,0 +1,154 @@
+{
+  "isoType": "MessageFunction11Code",
+  "definition": "Identifica o tipo de processo relacionado com uma mensagem ATM.",
+  "isoCodes": {
+    "BALN": {
+      "name": "Saldo do ATM",
+      "definition": "Fornecer os contadores do ATM, repondo a zero os que forem aplicáveis."
+    },
+    "CMPA": {
+      "name": "Confirmação de conclusão do ATM",
+      "definition": "Confirmação de um aviso de conclusão."
+    },
+    "CMPD": {
+      "name": "Aviso de conclusão do ATM",
+      "definition": "Aviso de conclusão de uma operação ATM."
+    },
+    "ACMD": {
+      "name": "Controlo do ATM",
+      "definition": "Comandos globais do ATM."
+    },
+    "DVCC": {
+      "name": "Controlo de dispositivos do ATM",
+      "definition": "Comandos de manutenção a executar."
+    },
+    "DIAQ": {
+      "name": "Pedido de diagnóstico do ATM",
+      "definition": "Pedido de diagnóstico."
+    },
+    "DIAP": {
+      "name": "Resposta de diagnóstico do ATM",
+      "definition": "Resposta a um pedido de diagnóstico."
+    },
+    "GSTS": {
+      "name": "Estado global do ATM",
+      "definition": "Estado global do ATM."
+    },
+    "INQQ": {
+      "name": "Pedido de consulta do ATM",
+      "definition": "Pedido de consulta."
+    },
+    "INQP": {
+      "name": "Resposta de consulta do ATM",
+      "definition": "Resposta a um pedido de consulta."
+    },
+    "KYAQ": {
+      "name": "Pedido de descarregamento de chave do ATM",
+      "definition": "Pedido de descarregamento de chave."
+    },
+    "KYAP": {
+      "name": "Resposta de descarregamento de chave do ATM",
+      "definition": "Resposta a um descarregamento de chave."
+    },
+    "PINQ": {
+      "name": "Pedido de gestão de PIN do ATM",
+      "definition": "Pedido de gestão do PIN do titular do cartão."
+    },
+    "PINP": {
+      "name": "Resposta de gestão de PIN do ATM",
+      "definition": "Resposta a um pedido de gestão do PIN do titular do cartão."
+    },
+    "RJAQ": {
+      "name": "Rejeição do pedido do ATM",
+      "definition": "Mensagem de pedido rejeitada."
+    },
+    "RJAP": {
+      "name": "Rejeição da resposta do ATM",
+      "definition": "Mensagem de resposta rejeitada."
+    },
+    "WITV": {
+      "name": "Aviso de levantamento do ATM",
+      "definition": "Resposta de uma operação de levantamento."
+    },
+    "WITK": {
+      "name": "Confirmação de levantamento do ATM",
+      "definition": "Confirmação de um aviso de operação de levantamento."
+    },
+    "WITQ": {
+      "name": "Pedido de levantamento do ATM",
+      "definition": "Pedido de operação de levantamento."
+    },
+    "WITP": {
+      "name": "Resposta de levantamento do ATM",
+      "definition": "Resposta a um pedido de operação de levantamento."
+    },
+    "INQC": {
+      "name": "Consulta de contadores",
+      "definition": "Pedir o valor dos contadores do ATM."
+    },
+    "H2AP": {
+      "name": "Confirmação do anfitrião para o ATM",
+      "definition": "Confirmação de um pedido de um anfitrião a um ATM para estabelecer contacto."
+    },
+    "H2AQ": {
+      "name": "Pedido do anfitrião para o ATM",
+      "definition": "Pedido de um anfitrião a um ATM para que este ATM seja contactado."
+    },
+    "TMOP": {
+      "name": "Operação do ATM",
+      "definition": "Operação lógica ou física no ATM."
+    },
+    "CSEC": {
+      "name": "Controlo de segurança",
+      "definition": "Comandos de segurança."
+    },
+    "DSEC": {
+      "name": "Detalhes de segurança",
+      "definition": "Relatório detalhado de segurança."
+    },
+    "SKSC": {
+      "name": "Conclusão de chave de segurança",
+      "definition": "Resultado do descarregamento de chave com o estado das chaves descarregadas, incluindo os valores de verificação das chaves."
+    },
+    "SSTS": {
+      "name": "Estado da chave de segurança",
+      "definition": "Estado das chaves criptográficas."
+    },
+    "DPSK": {
+      "name": "Confirmação de conclusão de depósito do ATM",
+      "definition": "Confirmação de um aviso de conclusão de depósito."
+    },
+    "DPSV": {
+      "name": "Aviso de conclusão de depósito do ATM",
+      "definition": "Aviso de conclusão de uma operação de depósito ATM."
+    },
+    "DPSQ": {
+      "name": "Pedido de depósito do ATM",
+      "definition": "Pedido de depósito."
+    },
+    "DPSP": {
+      "name": "Resposta de depósito do ATM",
+      "definition": "Resposta a um pedido de depósito."
+    },
+    "EXPK": {
+      "name": "Confirmação de exceção do ATM",
+      "definition": "Confirmação de um aviso de exceção."
+    },
+    "EXPV": {
+      "name": "Aviso de exceção do ATM",
+      "definition": "Aviso de uma exceção do ATM."
+    },
+    "TRFQ": {
+      "name": "Pedido de transferência do ATM",
+      "definition": "Pedido de transferência de fundos."
+    },
+    "TRFP": {
+      "name": "Resposta de transferência do ATM",
+      "definition": "Resposta a um pedido de transferência de fundos."
+    },
+    "RPTC": {
+      "name": "Relatório de contadores",
+      "definition": "Fornecer o valor dos contadores do ATM, sem reinicialização dos contadores."
+    }
+  }
+}

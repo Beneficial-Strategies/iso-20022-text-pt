@@ -1,0 +1,26 @@
+{
+  "isoType": "AttributeType1Code",
+  "definition": "Tipo de atributo de um nome distinto (DN).",
+  "isoCodes": {
+    "CNAT": {
+      "name": "Nome comum",
+      "definition": "Nome comum do atributo (ASN.1 Object Identifier: id-at-commonName)."
+    },
+    "LATT": {
+      "name": "Localidade",
+      "definition": "Localidade do atributo (ASN.1 Object Identifier: id-at-localityName)."
+    },
+    "OATT": {
+      "name": "Nome da organização",
+      "definition": "Nome da organização do atributo (ASN.1 Object Identifier: id-at-organizationName)."
+    },
+    "OUAT": {
+      "name": "Nome da unidade organizacional",
+      "definition": "Nome da unidade organizacional do atributo (ASN.1 Object Identifier: id-at-organizationalUnitName)."
+    },
+    "CATT": {
+      "name": "Nome do país",
+      "definition": "Nome do país do atributo (ASN.1 Object Identifier: id-at-countryName)."
+    }
+  }
+}

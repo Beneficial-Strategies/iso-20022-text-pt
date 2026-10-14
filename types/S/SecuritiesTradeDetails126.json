@@ -1,0 +1,53 @@
+{
+  "isoType": "SecuritiesTradeDetails126",
+  "definition": "Detalhes da negociação de valores mobiliários.",
+  "isoElements": {
+    "TradeIdentification": {
+      "definition": "Referência atribuída à negociação pelo investidor ou pela parte negociadora. Esta referência será utilizada ao longo de todo o ciclo de vida da negociação para aceder aos detalhes da negociação ou os atualizar."
+    },
+    "CollateralTransactionIdentification": {
+      "definition": "Identificação inequívoca de uma operação de garantia atribuída pela parte instrutora."
+    },
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificação de uma operação do titular da conta que poderá corresponder à alegação notificada."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador da instrução que não seja o titular da conta, o prestador de serviços de conta nem a infraestrutura de mercado."
+    },
+    "PlaceOfTrade": {
+      "definition": "Mercado em que foi executada uma operação de negociação."
+    },
+    "PlaceOfClearing": {
+      "definition": "Infraestrutura que pode ser uma componente de uma câmara de compensação e que facilita a compensação e a liquidação para os seus membros, interpondo-se entre o comprador e o vendedor. Pode compensar operações em base líquida e substitui-se como contraparte de liquidação para cada posição."
+    },
+    "TradeDate": {
+      "definition": "Especifica a data/hora em que a operação foi executada."
+    },
+    "SettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários devem ser entregues ou recebidos."
+    },
+    "DealPrice": {
+      "definition": "Especifica o preço do instrumento financeiro negociado.|Este é o preço de negócio da operação individual.|Se houver apenas uma operação para a execução da negociação, o preço de negócio pode ser igual ao preço da negociação executada (salvo se, por exemplo, o preço incluir comissões ou arredondamentos, ou se tiver sido aplicado outro fator ao preço de negócio ou ao preço da negociação executada, ou a ambos)."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de dias em que a taxa de juro é acumulada (título de acumulação diária)."
+    },
+    "TradeTransactionCondition": {
+      "definition": "Indica as condições em que a ordem/negociação deve ser/foi executada."
+    },
+    "TypeOfPrice": {
+      "definition": "Especifica o tipo de preço e as informações sobre o preço."
+    }
+  },
+  "isoRules": {
+    "PlaceOfTradeRule": {
+      "definition": "Se PlaceOfTrade for utilizado e existir um MIC ISO 10383 para o mercado a identificar, então tem de ser utilizado o Market Identifier Code (MIC) ISO 10383."
+    },
+    "TradeDateTimeUTCRule": {
+      "definition": "Se Trade Date/Time for utilizado com uma hora ou uma hora + indicador UTC, então deve ser a hora local do local da negociação, por exemplo, da bolsa de valores, ou do corretor vendedor no caso de OTC."
+    },
+    "LateDeliveryDateRule": {
+      "definition": "Se LateDeliveryDate for utilizada, então a operação tem de ser uma operação de pool resultante da TBA (To Be Announced) original. A TBA original seria compensada por uma operação oposta e substituída por compras ou vendas de pools individuais. É uma data posterior à data de liquidação indicada na operação, para pools concebidos para liquidação tardia."
+    }
+  }
+}

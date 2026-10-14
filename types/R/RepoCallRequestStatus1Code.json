@@ -1,0 +1,14 @@
+{
+  "isoType": "RepoCallRequestStatus1Code",
+  "definition": "Especifica informações adicionais sobre o estado da instrução processada de pedido de resgate de acordo de recompra.",
+  "isoCodes": {
+    "CACK": {
+      "name": "Reconhecido e aceite",
+      "definition": "O pedido de resgate de acordo de recompra foi reconhecido/aceite."
+    },
+    "DEND": {
+      "name": "Recusado",
+      "definition": "O pedido de resgate de acordo de recompra foi recusado."
+    }
+  }
+}

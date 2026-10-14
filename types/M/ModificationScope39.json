@@ -1,0 +1,12 @@
+{
+  "isoType": "ModificationScope39",
+  "definition": "Âmbito da modificação a aplicar a um conjunto de informações identificado.",
+  "isoElements": {
+    "ModificationScopeIndication": {
+      "definition": "Especifica o tipo de modificação a aplicar a um conjunto de informações."
+    },
+    "Citizenship": {
+      "definition": "Nacionalidade e estatuto jurídico (menor ou maior)."
+    }
+  }
+}

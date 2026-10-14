@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionOrError6Choice",
+  "definition": "Escolha entre os detalhes da operação ou um erro de negócio quando os dados pedidos não podem ser obtidos.",
+  "isoElements": {
+    "Transaction": {
+      "definition": "Informações pedidas sobre a operação de pagamento."
+    },
+    "BusinessError": {
+      "definition": "Motivo pelo qual as informações de negócio pedidas não são fornecidas."
+    }
+  }
+}

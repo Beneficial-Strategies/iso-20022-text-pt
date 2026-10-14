@@ -1,0 +1,12 @@
+{
+  "isoType": "MatchingStatus28Choice",
+  "definition": "Escolha do formato para o estado de correspondência.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fornece o estado de correspondência da instrução."
+    },
+    "Proprietary": {
+      "definition": "Fornece o estado de correspondência da instrução."
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "isoType": "TransactionAgents6",
+  "definition": "Fornece mais pormenores sobre as instituições específicas da operação individual.",
+  "isoElements": {
+    "InstructingAgent": {
+      "definition": "Instituição que dá à parte seguinte na cadeia a instrução de executar a(s) instrução(ões)."
+    },
+    "InstructedAgent": {
+      "definition": "Instituição que recebe da parte anterior na cadeia a instrução de executar a(s) instrução(ões)."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Instituição situada entre a instituição do devedor e a instituição do credor.||Utilização: se existir mais do que uma instituição intermediária, IntermediaryAgent1 identifica a instituição situada entre DebtorAgent e IntermediaryAgent2."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Instituição situada entre a instituição do devedor e a instituição do credor.||Utilização: se existirem mais de duas instituições intermediárias, IntermediaryAgent2 identifica a instituição situada entre IntermediaryAgent1 e IntermediaryAgent3."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Instituição situada entre a instituição do devedor e a instituição do credor.||Utilização: se IntermediaryAgent3 estiver presente, identifica a instituição situada entre IntermediaryAgent 2 e CreditorAgent."
+    },
+    "ReceivingAgent": {
+      "definition": "Parte que recebe os valores mobiliários da instituição entregadora no local de liquidação, por exemplo, uma central de valores mobiliários.|Pode também ser utilizada no contexto de operações de tesouraria."
+    },
+    "DeliveringAgent": {
+      "definition": "Parte que entrega os valores mobiliários à instituição recetora no local de liquidação, por exemplo, uma central de valores mobiliários.|Pode também ser utilizada no contexto de operações de tesouraria."
+    },
+    "IssuingAgent": {
+      "definition": "Pessoa coletiva com direito a emitir valores mobiliários."
+    },
+    "SettlementPlace": {
+      "definition": "Local onde se realiza a liquidação dos valores mobiliários.|Utilização: é tipificado por uma identificação de instituição financeira, por ser a forma normalizada de identificar uma instituição de liquidação de valores mobiliários ou um sistema central."
+    },
+    "Proprietary": {
+      "definition": "Instituição proprietária relativa à operação subjacente."
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "isoType": "CorporateActionOption252",
+  "definition": "Fornece informações sobre a opção de operação sobre títulos.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica como serão tratadas as frações resultantes de valores mobiliários derivados ou como serão arredondadas as decisões objeto de rateio, se for fornecida uma taxa de rateio."
+    },
+    "OfferType": {
+      "definition": "Especifica as condições aplicáveis à oferta."
+    },
+    "OptionFeatures": {
+      "definition": "Especifica as características que podem aplicar-se a uma opção de evento societário."
+    },
+    "OptionAvailabilityStatus": {
+      "definition": "Especifica o estado da opção."
+    },
+    "CertificationBreakdownType": {
+      "definition": "Tipo de certificação/discriminação."
+    },
+    "NonDomicileCountry": {
+      "definition": "O titular do valor mobiliário tem de certificar, em conformidade com os termos da ação societária, que não tem domicílio no país indicado."
+    },
+    "ValidDomicileCountry": {
+      "definition": "País de domicílio em que a opção de ação societária é válida. O titular do valor mobiliário tem de certificar que tem domicílio no país indicado."
+    },
+    "CurrencyOption": {
+      "definition": "Moeda em que o produto em numerário deve ser creditado ou debitado."
+    },
+    "DefaultProcessingOrStandingInstruction": {
+      "definition": "Indica se o movimento da ação societária é um processamento por defeito ou uma instrução permanente."
+    },
+    "ChargesAppliedIndicator": {
+      "definition": "Indica se são aplicáveis encargos de resgate."
+    },
+    "CertificationBreakdownIndicator": {
+      "definition": "Indica se é exigida certificação/discriminação ao titular da conta. |Sim: certificação exigida |Não: certificação não exigida."
+    },
+    "WithdrawalAllowedIndicator": {
+      "definition": "Indica se a retirada da instrução é permitida."
+    },
+    "ChangeAllowedIndicator": {
+      "definition": "Indica se é permitida a alteração da instrução."
+    },
+    "AppliedOptionIndicator": {
+      "definition": "Indica se a opção, diferente da opção por defeito, deve ser aplicada pelo titular da conta."
+    },
+    "SecurityIdentification": {
+      "definition": "Identifica o instrumento financeiro."
+    },
+    "DateDetails": {
+      "definition": "Fornece informações sobre as datas relacionadas com uma opção de operação sobre títulos."
+    },
+    "RateAndAmountDetails": {
+      "definition": "Fornece informações sobre taxas e montantes relacionados com uma opção de operação sobre títulos."
+    },
+    "PriceDetails": {
+      "definition": "Fornece informações sobre os preços relacionados com uma opção de operação sobre títulos."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Fornece informações sobre a quantidade de valores mobiliários relacionada com uma opção de operação sobre ativos."
+    },
+    "SecuritiesMovementDetails": {
+      "definition": "Fornece informações sobre o movimento de valores mobiliários relacionado com uma opção de operação sobre ativos."
+    },
+    "CashMovementDetails": {
+      "definition": "Fornece informações sobre o movimento de numerário associado à opção de operação sobre títulos."
+    },
+    "AdditionalInformation": {
+      "definition": "Fornece informações adicionais sobre o movimento da operação sobre ativos."
+    }
+  },
+  "isoRules": {
+    "AdditionalTextRule": {
+      "definition": "Se OptionType/Code for OTHR (Other), então AdditionalInformation/AdditionalText/AdditionalInformation deve estar presente.|(MT564 NVR C5)."
+    },
+    "OptionNumberGuideline": {
+      "definition": "Para diferenciar entre opções, recomenda-se a utilização de OptionNumber em vez de OptionType, por exemplo, no caso de duas ou mais ofertas poderem ser descritas pelo mesmo código de opção de operação sobre títulos."
+    },
+    "RevocabilityPeriodRule": {
+      "definition": "Se WithdrawalAllowedIndicator ou ChangeAllowedIndicator estiver presente e for 'true' ou '1' (Yes), PeriodDetails/RevocabilityPeriod tem de estar presente para indicar o período durante o qual é permitida a alteração ou a retirada da instrução."
+    },
+    "AppliedOptionRule": {
+      "definition": "Se DefaultProcessingOrStandingInstruction/DefaultOptionIndicator estiver presente e o seu valor for '1' ou 'true' (Yes), o valor de AppliedOptionIndicator não pode ser '1' nem 'true' (Yes)."
+    },
+    "InstructCashAmountRule": {
+      "definition": "Se OptionFeatures/Code QCAS (InstructCashAmount) não estiver presente, então nenhum dos elementos da mensagem constantes da lista (PriceDetails/MaximumCashToInstruct, PriceDetails/MinimumCashToInstruct, PriceDetails/MinimumMutipleCashToInstruct) pode estar presente.|(MT564 NVR C20)."
+    },
+    "DissenterRights1Rule": {
+      "definition": "Se o valor de OfferType/Code for igual a DISS (DissenterRights), então um valor de OfferType/Code igual a NDIS (DissenterRightsNotApplicable) não é permitido em nenhuma ocorrência de OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2Rule": {
+      "definition": "Se o valor de OfferType/Code for igual a NDISS (DissenterRightsNotApplicable), então um valor de OfferType/Code igual a DISS (DissenterRights) não é permitido em nenhuma ocorrência de OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights1UGRule": {
+      "definition": "Se o valor de OfferType/Code for igual a DISS (DissenterRights), então um valor de OfferType/Code igual a NDIS (DissenterRightsNotApplicable) não é permitido em nenhuma ocorrência de OfferType.|(MT 564 NVR C27)"
+    },
+    "DissenterRights2UGRule": {
+      "definition": "Se o valor de OfferType/Code for igual a NDIS (DissenterRightsNotApplicable), então um valor de OfferType/Code igual a DISS (DissenterRights) não é permitido em nenhuma ocorrência de OfferType.|(MT 564 NVR C27)"
+    }
+  }
+}

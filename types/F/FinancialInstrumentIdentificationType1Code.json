@@ -1,0 +1,102 @@
+{
+  "isoType": "FinancialInstrumentIdentificationType1Code",
+  "definition": "Especifica o tipo de identificação do instrumento financeiro.",
+  "isoCodes": {
+    "BELC": {
+      "name": "Código SRW Secretariaat voor Roerende Waarden ou SVM Secrétariat des Valeurs Mobilières",
+      "definition": "Número nacional de identificação de valores mobiliários para BE, emitido pela Associação Nacional de Numeração SIX Telekurs Belgium."
+    },
+    "BLOM": {
+      "name": "Bloomberg",
+      "definition": "Código do tipo ticker atribuído pela Bloomberg para identificar instrumentos financeiros."
+    },
+    "CCCD": {
+      "name": "Outro número nacional de identificação de valores mobiliários",
+      "definition": "Número nacional de identificação de valores mobiliários emitido pela Associação Nacional de Numeração de um país para o qual ainda não existe um código específico de tipo de identificação de instrumento financeiro. As duas primeiras letras do código representam o código do país (por exemplo, EGDC para o NSIN egípcio). A utilizar apenas até o código ser acrescentado à lista ISO ExternalFinancialInstrumentIdentificationType1Code."
+    },
+    "CMED": {
+      "name": "Chicago Mercantile Exchange (CME)",
+      "definition": "Código do tipo ticker atribuído pela Chicago Mercantile Exchange para identificar instrumentos derivados cotados."
+    },
+    "COMM": {
+      "name": "Código comum",
+      "definition": "Número nacional de identificação de valores mobiliários para ICSD, emitido pela Associação Nacional de Numeração Clearstream e Euroclear."
+    },
+    "CTAC": {
+      "name": "Consolidated Tape Association (CTA)",
+      "definition": "Código do tipo ticker atribuído pela Consolidated Tape Association para identificar instrumentos financeiros."
+    },
+    "CUSP": {
+      "name": "Committee on Uniform Security Identification Procedures (CUSIP)",
+      "definition": "Número nacional de identificação de valores mobiliários para US e CA, emitido pela Associação Nacional de Numeração Standard & Poor´s - CUSIP Global Services."
+    },
+    "FIGC": {
+      "name": "Identificador global de instrumento financeiro compósito",
+      "definition": "Um Financial Instrument Global Identifier Composite (FIGC) é uma cadeia única e persistente de doze caracteres que serve para identificar instrumentos financeiros em todas as classes de ativos ao nível composto, e que está associada a um ou mais identificadores FIGI ao nível da plataforma de negociação e a um único identificador ao nível da classe de ações (ID)."
+    },
+    "FIGG": {
+      "name": "Identificador global de instrumento financeiro da classe de ações",
+      "definition": "Um Financial Instrument Global Identifier Share Class (FIGG) é uma cadeia única e persistente de doze caracteres que serve para identificar instrumentos financeiros em todas as classes de ativos ao nível global da classe de ações, e que está associada a um ou mais identificadores ao nível composto (ID)."
+    },
+    "FIGI": {
+      "name": "Identificador global de instrumento financeiro",
+      "definition": "Um Financial Instrument Global Identifier (FIGI) é uma cadeia única e persistente de doze caracteres que serve para identificar instrumentos financeiros em todas as classes de ativos ao nível da plataforma de negociação. Está associado a um identificador composto (ID)."
+    },
+    "ISDU": {
+      "name": "URL de produto ISDA e FpML no identificador do valor mobiliário",
+      "definition": "URL na descrição para identificar instrumentos derivados OTC."
+    },
+    "ISDX": {
+      "name": "Especificação de produto ISDA e FpML em XML na descrição codificada do valor mobiliário",
+      "definition": "XML na descrição para identificar instrumentos derivados OTC."
+    },
+    "LCHD": {
+      "name": "LCH Clearnet",
+      "definition": "Código do tipo ticker atribuído pela LCH para identificar instrumentos derivados cotados."
+    },
+    "OCCS": {
+      "name": "Options Clearing Corp (OCC)",
+      "definition": "Código do tipo ticker atribuído pela Options Clearing Corporation para identificar instrumentos financeiros."
+    },
+    "OPRA": {
+      "name": "Options Price Reporting Authority (OPRA)",
+      "definition": "Código do tipo ticker atribuído pela Options Price Reporting Authority para identificar instrumentos financeiros."
+    },
+    "RCMD": {
+      "name": "Código Markit RED",
+      "definition": "Código do tipo ticker atribuído pela Markit para identificar instrumentos derivados cotados."
+    },
+    "RICC": {
+      "name": "Reuters Instrument Code (RIC)",
+      "definition": "Código do tipo ticker atribuído pela Thomson Reuters para identificar instrumentos financeiros."
+    },
+    "SEDL": {
+      "name": "Stock Exchange Daily Official List (SEDOL)",
+      "definition": "Número nacional de identificação de valores mobiliários para GB, emitido pela Associação Nacional de Numeração London Stock Exchange."
+    },
+    "SICC": {
+      "name": "Comité do código de identificação de valores mobiliários",
+      "definition": "Número nacional de identificação de valores mobiliários para JP, emitido pela Associação Nacional de Numeração 6 Stock Exchanges e JASDEC (Securities Identification Ticker-like code Committee)."
+    },
+    "TIKR": {
+      "name": "Símbolo de cotação (TS)",
+      "definition": "Código ticker atribuído por uma bolsa para identificar instrumentos financeiros."
+    },
+    "VALO": {
+      "name": "VALOR",
+      "definition": "Número nacional de identificação de valores mobiliários para CH e LI, emitido pela Associação Nacional de Numeração SIX Telekurs Ltd."
+    },
+    "WKNR": {
+      "name": "Wertpapierkennnummer (WKN)",
+      "definition": "Número nacional de identificação de valores mobiliários para DE, emitido pela Associação Nacional de Numeração WM Datenservice."
+    },
+    "CCDC": {
+      "name": "Lista de códigos de identificação de obrigações da China",
+      "definition": "Número nacional de identificação de obrigações para a China, emitido pela CHINA CENTRAL DEPOSITORY & CLEARING CO., Limited."
+    },
+    "DTID": {
+      "name": "Identificador de token digital",
+      "definition": "Identificador de ativo digital (Digital Token Identifier), conforme definido na ISO 24165."
+    }
+  }
+}

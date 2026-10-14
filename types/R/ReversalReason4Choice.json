@@ -1,0 +1,12 @@
+{
+  "isoType": "ReversalReason4Choice",
+  "definition": "Especifica o motivo da reversão da operação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo da reversão, tal como publicado numa lista externa de códigos de motivos."
+    },
+    "Proprietary": {
+      "definition": "Motivo da reversão, em formato proprietário."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "BillingMethod2",
+  "definition": "Fornece os detalhes do método B de cálculo do imposto.",
+  "isoElements": {
+    "ServiceChargeHostAmount": {
+      "definition": "Montante do encargo original expresso na moeda de origem."
+    },
+    "ServiceTax": {
+      "definition": "Prevê os impostos regionais sobre o serviço. Podem ser definidos até três impostos regionais para o mesmo serviço."
+    },
+    "TaxIdentification": {
+      "definition": "Prevê a identificação específica do imposto na mesma região fiscal. ||Utilização: este elemento permite um máximo de três impostos regionais sobre o mesmo serviço."
+    }
+  }
+}

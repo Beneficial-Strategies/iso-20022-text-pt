@@ -1,0 +1,12 @@
+{
+  "isoType": "UpdateType4Choice",
+  "definition": "Escolha do formato para as informações de atualização.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de atualização expresso em forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Tipo de atualização expresso como código proprietário."
+    }
+  }
+}

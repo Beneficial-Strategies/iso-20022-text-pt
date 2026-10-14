@@ -1,0 +1,12 @@
+{
+  "isoType": "PartyRole6Choice",
+  "definition": "Escolha entre um código e/ou um esquema de fonte de dados para determinar a função da parte.",
+  "isoElements": {
+    "Code": {
+      "definition": "Papel expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Papel expresso sob a forma de código proprietário."
+    }
+  }
+}

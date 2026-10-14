@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalInvestigationActionReason1Code",
+  "definition": "Especifica a ação solicitada, conforme publicada num conjunto de códigos externo de ações de investigação.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "IRSI": {
+      "name": "Pedido de investigação enviado por engano",
+      "definition": "Solicita-se o encerramento, uma vez que o pedido de investigação foi enviado por engano."
+    },
+    "IRRR": {
+      "name": "Pedido de investigação resolvido",
+      "definition": "Solicita-se o encerramento, uma vez que o pedido de investigação foi resolvido pelo requerente."
+    },
+    "IRCD": {
+      "name": "Resposta à investigação com compensação contestada",
+      "definition": "É levantada objeção, uma vez que o montante de compensação indicado na resposta à investigação parece incorreto."
+    },
+    "IRIC": {
+      "name": "Resposta à investigação incompleta",
+      "definition": "É levantada objeção, uma vez que os dados fornecidos na resposta à investigação são insuficientes para dar resposta ao pedido original."
+    },
+    "NARR": {
+      "name": "Descritivo",
+      "definition": "Consulte o elemento AdditionalInformation para o motivo da ação."
+    }
+  }
+}

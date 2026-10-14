@@ -1,0 +1,98 @@
+{
+  "isoType": "ExternalBillingBalanceType1Code",
+  "definition": "Especifica o saldo do serviço de faturação, conforme publicado numa lista externa de códigos de saldos de faturação.|As listas externas de códigos podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "ABRR": {
+      "name": "Reserva obrigatória adicional sobre saldo",
+      "definition": "A diferença entre o saldo investível excedentário/(deficitário) e o saldo cobrado excedentário/(deficitário) devida ao requisito de reservas. Este saldo não é utilizado se a taxa de crédito de rendimentos da conta for líquida de reservas. Pode ser utilizado quando a taxa de bonificação de rendimentos não é ajustada das reservas. Pode acontecer que as reservas tenham sido subtraídas ao saldo cobrado para determinar o saldo investível. Por conseguinte, têm de ser adicionadas de novo ao saldo investível excedentário/(deficitário) para determinar a posição do saldo cobrado. A apresentação deste cálculo é facultativa. Código AFP=00 04 21"
+    },
+    "BEQU": {
+      "name": "Saldo equivalente",
+      "definition": "Saldo necessário para compensar os encargos dos serviços compensáveis por saldo do período de análise corrente. O equivalente em saldo pode ser calculado de duas formas diferentes. A primeira consiste simplesmente em multiplicar o total dos encargos dos serviços compensáveis por saldo pelo multiplicador.  A segunda incorpora todos os elementos do cálculo do multiplicador. Note-se que este cálculo pode resultar num valor ligeiramente diferente devido à precisão decimal e ao arredondamento utilizados no cálculo: Código AFP=00 04 00"
+    },
+    "CBAM": {
+      "name": "Saldo cobrado médio negativo",
+      "definition": "A soma apenas dos saldos cobrados finais diários NEGATIVOS dividida pelo número de dias do período do extrato. O saldo negativo médio, se existir, tem sempre sinal positivo. Os saldos são líquidos dos ajustamentos do período corrente. Note-se que um saldo NEGATIVO é igual ao saldo POSITIVO menos o saldo LÍQUIDO. Note-se que uma taxa de juro de saldo cobrado NEGATIVO pode ser aplicada a este saldo para apurar um encargo de juros de descoberto. Código AFP=00 00 13 (NEGATIVE) (POSITIVE) (NET) (OD)"
+    },
+    "CBAN": {
+      "name": "Saldo cobrado médio líquido",
+      "definition": "A soma dos saldos cobrados finais diários (positivos e negativos) dividida pelo número de dias do período do extrato.  Um valor com sinal negativo indica um saldo LÍQUIDO médio negativo.  Se for utilizada uma taxa de bonificação/crédito de rendimentos ajustada das reservas, este saldo pode ser igual ao saldo investível (00 00 40).  Os saldos são líquidos dos ajustamentos do período corrente. Os saldos cobrados representam dinheiro depositado que foi cobrado e excluem qualquer dinheiro em float. Note-se que um saldo LÍQUIDO é igual ao saldo POSITIVO menos o saldo NEGATIVO. Note-se que uma taxa de juro de descoberto de saldo cobrado LÍQUIDO (00 01 43) pode ser aplicada a este saldo, se for negativo, para apurar um encargo de juros de descoberto.  Código AFP=00 00 10 (NET) (POSITIVE) (NEGATIVE) (OD)"
+    },
+    "CBAP": {
+      "name": "Saldo cobrado médio positivo",
+      "definition": "A soma apenas dos saldos cobrados finais diários POSITIVOS dividida pelo número de dias do período do extrato.  Os saldos são líquidos dos ajustamentos do período corrente. Os saldos cobrados representam dinheiro depositado que foi cobrado e excluem qualquer dinheiro em float. Note-se que um saldo POSITIVO é igual ao saldo LÍQUIDO mais o saldo NEGATIVO. Código AFP=00 00 11 (POSITIVE) (NET) (NEGATIVE)"
+    },
+    "DABR": {
+      "name": "Reserva obrigatória sobre saldo de conta de depósito à ordem",
+      "definition": "A parte do saldo da conta à ordem que tem de ser reservada pelo banco para cumprir os requisitos de reservas. Código AFP=00 04 20"
+    },
+    "EDCB": {
+      "name": "Excesso ou défice de saldo cobrado",
+      "definition": "Saldo cobrado remanescente depois de deduzido o saldo necessário para compensar os encargos dos serviços compensáveis por saldo do período de análise corrente.  Se for negativo (défice), representa o saldo cobrado adicional necessário para compensar integralmente os encargos dos serviços compensáveis por saldo do período corrente.  Se for positivo (excedente), representa o excedente de saldo cobrado após a compensação dos encargos dos serviços compensáveis por saldo do período corrente. Código AFP=00 04 12"
+    },
+    "EDIB": {
+      "name": "Excesso ou défice de saldo investível",
+      "definition": "Saldo investível remanescente depois de deduzido o saldo necessário para compensar os encargos dos serviços compensáveis por saldo do período de análise corrente.  Se for negativo (défice), representa o saldo investível adicional necessário para compensar integralmente os encargos dos serviços compensáveis por saldo do período corrente.  Se for positivo (excedente), representa o excedente de saldo investível após a compensação dos encargos dos serviços compensáveis por saldo do período corrente. Consoante o tipo de conta subjacente, pode ser aplicada uma taxa de juro fixa a um excedente de saldo, resultando num crédito de juros fixos na conta subjacente. Código AFP=00 04 10"
+    },
+    "FDIC": {
+      "name": "Saldo de avaliação FDIC",
+      "definition": "O saldo da conta utilizado para calcular o encargo de avaliação da FDIC. Código AFP=00 00 50"
+    },
+    "FLBA": {
+      "name": "Saldo flutuante médio",
+      "definition": "A soma do montante diário em dólares dos itens em processo de cobrança dividida pelo número de dias do período do extrato.  Código AFP=00 00 30"
+    },
+    "FLPP": {
+      "name": "Ajustamento de saldo por média flutuante do período anterior",
+      "definition": "Soma dos ajustamentos ao float médio num ou em vários períodos anteriores.  Um valor com sinal negativo indica uma redução do saldo. Este saldo pode também ser utilizado para ajustar os saldos cobrados médios, uma vez que o dinheiro em float tem um efeito direto nos saldos cobrados. Código AFP=00 00 61"
+    },
+    "IBAL": {
+      "name": "Saldo investível",
+      "definition": "Saldo ao qual é aplicada a taxa de bonificação/crédito de rendimentos.  Este valor pode ter sinal positivo ou negativo.  Um saldo com sinal negativo indica uma insuficiência de fundos investíveis e pode resultar num encargo. Código AFP=00 00 40"
+    },
+    "IBIB": {
+      "name": "Saldo investível remunerado",
+      "definition": "O saldo investível médio que pode ser utilizado para indicar o saldo de base para o cálculo de juros fixos creditados. Trata-se de um crédito de juros fixos, por oposição a um crédito de rendimentos. Código AFP=00 00 75"
+    },
+    "IBLB": {
+      "name": "Saldo contabilístico remunerado",
+      "definition": "O saldo contabilístico médio que pode ser utilizado para indicar o saldo de base para o cálculo de juros fixos creditados. Trata-se de um crédito de juros fixos, por oposição a um crédito de rendimentos. Código AFP=00 00 70"
+    },
+    "IBNC": {
+      "name": "Saldo cobrado líquido remunerado",
+      "definition": "O saldo cobrado líquido médio que pode ser utilizado para indicar o saldo de base para o cálculo de juros fixos creditados. Trata-se de um crédito de juros fixos, por oposição a um crédito de rendimentos. Código AFP=00 00 71"
+    },
+    "IBNG": {
+      "name": "Saldo cobrado negativo remunerado",
+      "definition": "O saldo cobrado negativo médio que pode ser utilizado para indicar o saldo de base para o cálculo de juros fixos debitados. Trata-se de um débito de juros fixos, por oposição a um débito de crédito de rendimentos. Código AFP=00 00 73"
+    },
+    "IBPC": {
+      "name": "Saldo cobrado positivo remunerado",
+      "definition": "O saldo cobrado positivo médio que pode ser utilizado para indicar o saldo de base para o cálculo de juros fixos creditados. Trata-se de um crédito de juros fixos, por oposição a um crédito de rendimentos. Código AFP=00 00 72"
+    },
+    "IBRR": {
+      "name": "Saldo de reservas obrigatórias remunerado",
+      "definition": "O saldo médio do requisito de reservas que pode ser utilizado para indicar o saldo de base para o cálculo de juros fixos creditados. Trata-se de um crédito de juros fixos, por oposição a um crédito de rendimentos. Código AFP=00 00 74"
+    },
+    "LBAN": {
+      "name": "Saldo contabilístico médio líquido",
+      "definition": "A soma dos saldos contabilísticos finais diários (positivos e negativos) dividida pelo número de dias do período do extrato.  Um valor com sinal negativo indica um saldo LÍQUIDO médio negativo. Os saldos são líquidos dos ajustamentos do período corrente. O saldo contabilístico inclui qualquer dinheiro depositado que não tenha sido cobrado, i.e., dinheiro em float. Note-se que um saldo LÍQUIDO é igual ao saldo POSITIVO menos o saldo NEGATIVO. Note-se que uma taxa de juro de descoberto de saldo contabilístico LÍQUIDO pode ser aplicada a este saldo, se for negativo, para apurar um encargo de juros de descoberto.  Código AFP=00 00 00 (NET) (POSITIVE) (NEGATIVE) (OD)"
+    },
+    "LBAP": {
+      "name": "Saldo contabilístico médio positivo",
+      "definition": "A soma apenas dos saldos contabilísticos finais diários POSITIVOS dividida pelo número de dias do período do extrato.  Os saldos são líquidos dos ajustamentos do período corrente. O saldo contabilístico inclui qualquer dinheiro depositado que não tenha sido cobrado, i.e., dinheiro em float. Note-se que um saldo POSITIVO é igual ao saldo LÍQUIDO mais o saldo NEGATIVO. Código AFP=00 00 01 (POSITIVE) (NET) (NEGATIVE)"
+    },
+    "LBME": {
+      "name": "Saldo contabilístico de fim de mês",
+      "definition": "Valor do saldo contabilístico no final do mês civil. Código AFP=00 00 05"
+    },
+    "LBNM": {
+      "name": "Saldo contabilístico médio negativo",
+      "definition": "A soma apenas dos saldos contabilísticos finais diários NEGATIVOS dividida pelo número de dias do período do extrato. O saldo negativo médio, se existir, tem sempre sinal positivo. Os saldos são líquidos dos ajustamentos do período corrente. Note-se que um saldo NEGATIVO é igual ao saldo POSITIVO menos o saldo LÍQUIDO. Note-se que uma taxa de juro de saldo contabilístico NEGATIVO pode ser aplicada a este saldo para apurar um encargo de juros de descoberto. Código AFP=00 00 03 (NEGATIVE) (POSITIVE) (NET) (OD)"
+    },
+    "UCFU": {
+      "name": "Fundos não cobrados utilizados",
+      "definition": "A parte do saldo que corresponde à diferença entre o saldo cobrado negativo médio e o saldo contabilístico negativo médio.  É utilizada para isolar a parte do saldo cobrado negativo que representa a utilização de fundos não cobrados.  Os saldos são líquidos dos ajustamentos do período corrente. Note-se que a taxa de utilização de fundos não cobrados pode ser aplicada a este saldo para apurar um encargo de juros de descoberto sobre fundos não cobrados.  Código AFP=00 00 15 (OD)"
+    }
+  }
+}

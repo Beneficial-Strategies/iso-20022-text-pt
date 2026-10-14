@@ -1,0 +1,18 @@
+{
+  "isoType": "GenericIdentification56",
+  "definition": "Informações proprietárias relativas a um saldo.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Informação proprietária, frequentemente um código, emitida pelo emitente do esquema da fonte de dados."
+    },
+    "Issuer": {
+      "definition": "Entidade que atribui a identificação."
+    },
+    "SchemeName": {
+      "definition": "Breve descrição textual do esquema."
+    },
+    "Balance": {
+      "definition": "Valor do saldo."
+    }
+  }
+}

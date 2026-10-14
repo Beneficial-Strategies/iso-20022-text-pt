@@ -1,0 +1,14 @@
+{
+  "isoType": "OptionAvailabilityStatus1Code",
+  "definition": "Especifica o estado da disponibilidade da opção.",
+  "isoCodes": {
+    "INTV": {
+      "name": "Inativo",
+      "definition": "A opção não está ativa e já não pode ser objeto de resposta. Quaisquer respostas já processadas relativamente a esta opção permanecem válidas, por exemplo, opção expirada."
+    },
+    "CANC": {
+      "name": "Cancelado",
+      "definition": "A opção não é válida; foi cancelada pelo mercado ou pelo prestador de serviços e não pode ser objeto de resposta. Quaisquer respostas já processadas relativamente a esta opção são consideradas nulas e serão necessárias novas respostas."
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "isoType": "PensionSchemeType3Code",
+  "definition": "Especifica um tipo de regime de pensões.",
+  "isoCodes": {
+    "AAVC": {
+      "name": "Contribuição voluntária adicional",
+      "definition": "O plano de pensões é um plano de contribuições voluntárias adicionais."
+    },
+    "DBEN": {
+      "name": "Benefício definido",
+      "definition": "O plano de pensões é um plano de benefício definido."
+    },
+    "EXPP": {
+      "name": "Plano de pensões para quadros dirigentes",
+      "definition": "O plano de pensões é um plano de pensões para quadros dirigentes."
+    },
+    "FAVC": {
+      "name": "Contribuição voluntária adicional autónoma",
+      "definition": "O plano de pensões é um plano autónomo de contribuições voluntárias adicionais."
+    },
+    "GPPS": {
+      "name": "Pensão pessoal de grupo",
+      "definition": "A pensão é uma pensão pessoal de grupo."
+    },
+    "SIPG": {
+      "name": "Pensão de grupo autogerida",
+      "definition": "O plano de pensões é um plano de pensões de grupo autoinvestido."
+    },
+    "STKG": {
+      "name": "Stakeholder de grupo",
+      "definition": "O plano de pensões é um plano de pensões stakeholder de grupo."
+    },
+    "IPST": {
+      "name": "Pensão individual com benefício fiscal",
+      "definition": "A pensão é um plano individual de poupança-reforma com benefício fiscal. É conhecido como Individual Pension Schema (IPS) em alguns mercados."
+    },
+    "STKI": {
+      "name": "Stakeholder individual",
+      "definition": "O plano de pensões é uma pensão stakeholder individual."
+    },
+    "OTPM": {
+      "name": "Pensão profissional obrigatória",
+      "definition": "A pensão é uma pensão profissional obrigatória. É conhecida como Obligatory Occupation Pension (OTP) em alguns mercados."
+    },
+    "OCDC": {
+      "name": "Contribuição definida profissional",
+      "definition": "O plano de pensões é um plano profissional de contribuição definida."
+    },
+    "PPNS": {
+      "name": "Pensão pessoal",
+      "definition": "A pensão é um plano de pensões pessoal."
+    },
+    "EPKA": {
+      "name": "Conta de pensão pessoal",
+      "definition": "A pensão é uma conta de pensões pessoal. É conhecida como Employee Pension Kapital (EPK) em alguns mercados."
+    },
+    "ITPO": {
+      "name": "Pensão profissional privada",
+      "definition": "A pensão é uma pensão profissional privada. É conhecida como pensão complementar da indústria e do comércio (ITP) em alguns mercados."
+    },
+    "REAN": {
+      "name": "Renda de reforma",
+      "definition": "O plano de pensões é uma renda de reforma."
+    },
+    "SC32": {
+      "name": "Secção 32",
+      "definition": "Tipo de pensão abrangido pela secção 32."
+    },
+    "S32A": {
+      "name": "Secção 32A",
+      "definition": "Tipo de pensão abrangido pela secção 32A."
+    },
+    "SIPP": {
+      "name": "Pensão pessoal autogerida",
+      "definition": "A pensão é um plano de pensões pessoal autoinvestido."
+    },
+    "SSAS": {
+      "name": "Pequeno regime autoadministrado",
+      "definition": "A pensão é um pequeno regime de pensões autoadministrado."
+    },
+    "NWRP": {
+      "name": "Pensão fora de invólucro",
+      "definition": "Indica que a parte não opera o invólucro da pensão."
+    }
+  }
+}

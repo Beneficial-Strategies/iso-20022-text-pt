@@ -1,0 +1,15 @@
+{
+  "isoType": "TaxCharges2",
+  "definition": "Montante devido ao Estado ou à autoridade fiscal, de acordo com vários parâmetros predefinidos, como limiares ou rendimentos.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Referência única para identificar de forma inequívoca a natureza do imposto cobrado, como o Imposto sobre o Valor Acrescentado (IVA, VAT)."
+    },
+    "Rate": {
+      "definition": "Taxa utilizada para calcular o imposto."
+    },
+    "Amount": {
+      "definition": "Montante resultante do cálculo do imposto."
+    }
+  }
+}

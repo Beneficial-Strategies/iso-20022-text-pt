@@ -1,0 +1,286 @@
+{
+  "isoType": "ExternalSystemBalanceType1Code",
+  "definition": "Especifica o tipo de saldo do sistema, tal como publicado num conjunto de códigos externo de tipos de saldo do sistema.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "ADJT": {
+      "name": "Ajustamento",
+      "definition": "Saldo médio a manter na conta de liquidação no final de cada dia para cumprir a reserva devida.|A aproximação será sempre feita por excesso."
+    },
+    "ADWR": {
+      "name": "DMV disponível para acordo de recompra na janela de desconto",
+      "definition": "O saldo representa o valor de mercado descontado disponível para a recompra (repo) da janela de desconto."
+    },
+    "AIDR": {
+      "name": "DMV disponível para acordo de recompra intradiário",
+      "definition": "O saldo representa o valor de mercado descontado disponível para a recompra (repo) intradiária."
+    },
+    "AVLB": {
+      "name": "Disponível",
+      "definition": "Saldo de dinheiro ou de valores mobiliários à disposição do titular da conta na data especificada."
+    },
+    "BLCK": {
+      "name": "Bloqueado",
+      "definition": "Saldo que representa a reserva obrigatória que uma instituição financeira deve manter junto da instituição gestora da conta, por exemplo, o saldo credor mínimo que uma instituição financeira deve manter junto do seu banco central para efeitos de reservas obrigatórias. Em alguns países, um saldo bloqueado é designado saldo de «reserva»."
+    },
+    "BLOC": {
+      "name": "Operações bloqueadas",
+      "definition": "Saldo que representa o total projetado de todas as componentes de numerário das operações a liquidar através de uma central de depósito de valores mobiliários que foram emparelhadas mas bloqueadas para não serem liquidadas. Estas operações bloqueadas são incluídas no cálculo da liquidação (por exemplo, para evitar descobertos).|Regra de utilização: o bloqueio pode ser efetuado pelo titular da conta ou pelas suas contrapartes. Normalmente, é feito para encadear operações ou para dar prioridade a outras operações. As operações bloqueadas têm um indicador que impede a sua liquidação. Uma vez emparelhadas, podem ser liquidadas sempre que o bloqueio for levantado. Nesse caso, passarão para FSET. O bloqueio pode ser levantado a qualquer momento do dia e a operação será liquidada no ciclo de liquidação seguinte, que pode ser o mesmo dia se a central de depósito de valores mobiliários (internacional) operar vários ciclos de liquidação por dia."
+    },
+    "BOOK": {
+      "name": "Contabilístico",
+      "definition": "Saldo registado nos livros da instituição gestora da conta."
+    },
+    "BSCC": {
+      "name": "Crédito CMUP de liquidação em bloco",
+      "definition": "O saldo representa o total do crédito da liquidação em bloco e do processador da unidade central do mercado monetário."
+    },
+    "BSCD": {
+      "name": "Débito CMUP de liquidação em bloco",
+      "definition": "O saldo representa o total do débito da liquidação em bloco e do processador da unidade central do mercado monetário."
+    },
+    "CCPS": {
+      "name": "Contraparte central",
+      "definition": "Saldo que representa a previsão do total de todas as componentes de numerário das operações negociadas em bolsas que operam com a função de contraparte central."
+    },
+    "CLSG": {
+      "name": "Fecho",
+      "definition": "Saldo da conta no final do dia útil da instituição gestora da conta. É a soma do saldo de abertura no início do dia com todos os lançamentos contabilizados na conta durante o dia útil da instituição gestora da conta."
+    },
+    "COHB": {
+      "name": "Crédito retido",
+      "definition": "Saldo que representa o total dos pagamentos recebidos que foram colocados em espera porque o limite de crédito foi excedido."
+    },
+    "COLC": {
+      "name": "Cobrança de dividendos",
+      "definition": "Saldo que representa o montante total projetado de todas as obrigações de pagamento ao participante (banco), com base na sua função de principal agente pagador."
+    },
+    "CPBL": {
+      "name": "Crédito processado",
+      "definition": "Saldo que representa o total dos pagamentos recebidos que foram processados e aguardam liquidação."
+    },
+    "CRDT": {
+      "name": "Crédito",
+      "definition": "Saldo que representa a soma de todos os lançamentos a crédito contabilizados numa conta."
+    },
+    "CRRT": {
+      "name": "Corrente",
+      "definition": "Saldo da conta num momento preciso."
+    },
+    "CUSA": {
+      "name": "Custódia efetiva",
+      "definition": "Saldo que representa o total efetivo de todas as operações de serviço de ativos, como dividendos, equivalentes de eventos societários de rendimento, restituições de impostos, reembolsos, etc."
+    },
+    "CUST": {
+      "name": "Custódia",
+      "definition": "Saldo que representa o total projetado de todas as operações de serviço de ativos, como dividendos, equivalentes de eventos societários de rendimento, restituições de impostos, etc."
+    },
+    "DBIT": {
+      "name": "Débito",
+      "definition": "Saldo que representa a soma de todos os lançamentos a débito contabilizados numa conta."
+    },
+    "DLOD": {
+      "name": "Descoberto intradiário",
+      "definition": "Saldo que representa o descoberto intradiário concedido pelo banco central às instituições financeiras participantes num sistema RTGS. Este saldo pode variar ao longo do tempo e deve ser compensado no final do dia."
+    },
+    "DOHB": {
+      "name": "Débito retido",
+      "definition": "Saldo que representa o total dos pagamentos enviados que foram colocados em espera porque o limite de débito foi excedido."
+    },
+    "DPBL": {
+      "name": "Débito processado",
+      "definition": "Saldo que representa o total dos pagamentos enviados que foram processados e aguardam liquidação."
+    },
+    "DSET": {
+      "name": "Valores mobiliários liquidados definitivamente",
+      "definition": "Saldo que representa o equivalente em numerário de todas as operações com valores mobiliários liquidadas."
+    },
+    "DWRD": {
+      "name": "Utilizações de acordo de recompra na janela de desconto",
+      "definition": "O saldo representa as utilizações de recompra (repo) da janela de desconto."
+    },
+    "EAST": {
+      "name": "Ativos elegíveis",
+      "definition": "Saldo que representa o empréstimo potencial que um banco central concederia em numerário se a garantia fosse constituída, por exemplo, os valores mobiliários disponíveis e elegíveis como garantia junto do banco central."
+    },
+    "EXRE": {
+      "name": "Excesso de reservas, escalão isento do limiar de isenção",
+      "definition": "O código define o limiar do saldo de isenção da reserva excedentária entre os escalões isento e não isento da reserva excedentária."
+    },
+    "EXRR": {
+      "name": "Excesso de reservas, escalão não isento do saldo de remuneração",
+      "definition": "O código define o saldo para além do limiar de isenção da reserva excedentária no saldo médio periódico das reservas mínimas. Assim, esta parte da reserva excedentária continua a ser remunerada."
+    },
+    "FCOL": {
+      "name": "Colateralização firme",
+      "definition": "Saldo que representa a previsão do equivalente em numerário resultante da avaliação das posições existentes na central de depósito de valores mobiliários que são elegíveis para servir de garantia."
+    },
+    "FCOU": {
+      "name": "Montantes utilizados na colateralização firme",
+      "definition": "Saldo que representa o equivalente em numerário resultante da avaliação das posições existentes no CSD que são elegíveis para servir de garantia e que foram utilizadas como garantia."
+    },
+    "FORC": {
+      "name": "Previsão de tesouraria",
+      "definition": "Saldo que representa o total de todos os tipos de saldo relativos a operações a liquidar, itens bloqueados e operações de custódia."
+    },
+    "FSET": {
+      "name": "Liquidação prevista",
+      "definition": "Saldo que representa a previsão do total de todas as componentes de numerário das operações prontas a liquidar através de uma central de depósito de valores mobiliários. Os montantes apresentados continuam sujeitos ao processamento da liquidação de valores mobiliários."
+    },
+    "FUND": {
+      "name": "Financiamento líquido",
+      "definition": "Saldo que representa o montante líquido a financiar resultante de todas as operações com impacto na necessidade de financiamento."
+    },
+    "FUTB": {
+      "name": "Total futuro",
+      "definition": "Saldo que representa o total dos pagamentos com data de processamento futura."
+    },
+    "INTM": {
+      "name": "Intercalar",
+      "definition": "Saldo calculado durante o dia útil da instituição gestora da conta, à hora especificada, e sujeito a alterações adicionais durante o dia útil. O saldo intercalar é calculado com base nos lançamentos a crédito e a débito contabilizados durante a hora ou o período de cálculo especificado."
+    },
+    "IRDR": {
+      "name": "Utilizações de acordo de recompra intradiário",
+      "definition": "O saldo representa as utilizações de recompra (repo) intradiária."
+    },
+    "IRLT": {
+      "name": "Limite de acordo de recompra intradiário",
+      "definition": "O saldo representa o limite de recompra (repo) intradiário."
+    },
+    "LACK": {
+      "name": "Operações por falta de posições",
+      "definition": "Saldo que representa o equivalente em numerário das operações com insuficiência de posições."
+    },
+    "LRLD": {
+      "name": "Relacionado com limite",
+      "definition": "Saldo de um valor-limite específico, por exemplo, quando um saldo bilateral é calculado em relação a um determinado limite bilateral."
+    },
+    "LTSF": {
+      "name": "Transferência de liquidez",
+      "definition": "Saldo composto pela soma de todas as transferências de liquidez efetuadas para ou a partir de uma conta."
+    },
+    "MSTR": {
+      "name": "Principal",
+      "definition": "Saldo da conta identificada mais o saldo de todas as suas subcontas."
+    },
+    "NOTE": {
+      "name": "Registado",
+      "definition": "Saldo que representa o montante que uma instituição financeira reservou por um motivo específico e que, por conseguinte, não está disponível."
+    },
+    "NSET": {
+      "name": "Valores mobiliários não liquidados",
+      "definition": "Saldo que representa o equivalente em numerário de todas as operações com valores mobiliários não liquidadas."
+    },
+    "OPNG": {
+      "name": "Abertura",
+      "definition": "Saldo contabilístico da conta no início do dia útil da instituição gestora da conta. É sempre igual ao saldo contabilístico de fecho do dia útil anterior. |Nota: o saldo disponível no início do dia útil da instituição gestora da conta pode ser diferente do saldo contabilístico de fecho do dia útil anterior."
+    },
+    "OTCC": {
+      "name": "Operações OTC garantidas pela CCP",
+      "definition": "Saldo que representa a previsão do total de todas as componentes de numerário das operações de balcão («over the counter», OTC) que passam por funções de contraparte central (CCP)."
+    },
+    "OTCG": {
+      "name": "Operações OTC previstas",
+      "definition": "Saldo que representa a previsão do total de todas as componentes de numerário das operações negociadas de balcão («over the counter», OTC)."
+    },
+    "OTCN": {
+      "name": "Operações OTC não garantidas pela CCP",
+      "definition": "Saldo que representa a previsão do total de todas as componentes de numerário das operações negociadas de balcão («over the counter», OTC) que não passam por funções de contraparte central (CCP)."
+    },
+    "OTHB": {
+      "name": "Outras operações bloqueadas",
+      "definition": "Saldo que representa o total projetado de todas as componentes de numerário das operações a liquidar através de uma central de depósito de valores mobiliários que foram emparelhadas mas bloqueadas para não serem liquidadas. Estas operações bloqueadas não são incluídas no cálculo da liquidação."
+    },
+    "PDNG": {
+      "name": "Pendente",
+      "definition": "Saldo de valores mobiliários pendentes de entrega, por exemplo, quando as ordens de venda de valores mobiliários foram executadas mas a liquidação das operações em aberto não foi confirmada."
+    },
+    "PIPO": {
+      "name": "Entrada e saída de fundos",
+      "definition": "Saldo que representa a previsão fictícia de débitos diretos ou pagamentos automáticos com base em acordos permanentes entre uma central de depósito de valores mobiliários e o utilizador.||||Utilização: Os pay-ins e pay-outs podem diferir consoante as instruções de pagamento individuais ou os fundos disponíveis."
+    },
+    "PRAV": {
+      "name": "Média progressiva",
+      "definition": "Média dos saldos diários da conta utilizada para cumprir os requisitos de reserva, calculada desde o início do período de manutenção."
+    },
+    "PYMT": {
+      "name": "Pagamento",
+      "definition": "Saldo que representa a soma dos lançamentos resultantes do processamento de pagamentos. Os lançamentos relativos a comissões, juros ou outros movimentos que não resultem de pagamentos enviados ou recebidos pelo titular da conta não são incluídos."
+    },
+    "REJB": {
+      "name": "Total rejeitado",
+      "definition": "Saldo que representa o total dos pagamentos que foram rejeitados."
+    },
+    "REPC": {
+      "name": "Crédito de acordo de recompra CMUP",
+      "definition": "O saldo representa o total dos créditos de recompra (repo) do processador da unidade central do mercado monetário."
+    },
+    "REPD": {
+      "name": "Débito de acordo de recompra CMUP",
+      "definition": "O saldo representa o total dos débitos de recompra (repo) do processador da unidade central do mercado monetário."
+    },
+    "REST": {
+      "name": "Restrito",
+      "definition": "Saldo de numerário que só pode ser utilizado sob determinadas condições.||O tipo de saldo é utilizado para bloquear valores mobiliários/numerário na conta do cliente, por exemplo quando, no âmbito de determinadas operações societárias, a posição se encontra sob o controlo direto do agente pagador do sistema, o único que pode transferir valores mobiliários para fora deste tipo de saldo.|Também designado por \"saldo de garantia (escrow)\" ou \"saldo sequestrado\"."
+    },
+    "SAPC": {
+      "name": "Montante de crédito direto SAP",
+      "definition": "O saldo representa o montante de crédito direto do processador da conta de liquidação."
+    },
+    "SAPD": {
+      "name": "Montante de débito direto SAP",
+      "definition": "O saldo representa o montante de débito direto do processador da conta de liquidação."
+    },
+    "SAPP": {
+      "name": "Montante em fila SAP",
+      "definition": "O saldo representa o montante em fila de espera do processador da conta de liquidação."
+    },
+    "SCOL": {
+      "name": "Autocolateralização",
+      "definition": "Saldo que representa a previsão do equivalente em numerário resultante da avaliação do saldo líquido de entrada de valores mobiliários elegíveis para servir de garantia, cujas instruções de liquidação estão retidas em."
+    },
+    "SCOU": {
+      "name": "Montantes utilizados na autocolateralização",
+      "definition": "Saldo que representa o equivalente em numerário resultante da avaliação dos valores mobiliários recebidos, elegíveis para servir de garantia e efetivamente utilizados como garantia, que foram liquidados durante o processo de liquidação."
+    },
+    "SELF": {
+      "name": "Próprio",
+      "definition": "Saldo da conta identificada (por oposição ao saldo principal)."
+    },
+    "THRE": {
+      "name": "Limiar",
+      "definition": "Saldo que representa o montante que será destinado a investimento. Diferença entre o saldo disponível e o limiar do limite de investimento."
+    },
+    "TOHB": {
+      "name": "Total retido",
+      "definition": "Saldo que representa o total dos pagamentos que foram colocados em espera porque os limites foram excedidos."
+    },
+    "TPBL": {
+      "name": "Total processado",
+      "definition": "Saldo que representa o total dos pagamentos que foram processados e aguardam liquidação durante o dia."
+    },
+    "XCHC": {
+      "name": "Previsão garantida pela CCP",
+      "definition": "Saldo que representa a previsão do total de todas as componentes de numerário das operações em bolsa que passam por funções de CCP."
+    },
+    "XCHG": {
+      "name": "Previsão de câmbio",
+      "definition": "Saldo que representa a previsão do total de todas as componentes de numerário das operações negociadas em bolsa."
+    },
+    "XCHN": {
+      "name": "Previsão não garantida pela CCP",
+      "definition": "Saldo que representa a previsão do total de todas as componentes de numerário das operações negociadas em bolsa que não passam por funções de contraparte central (CCP)."
+    },
+    "XCRD": {
+      "name": "Crédito esperado",
+      "definition": "Saldo, composto pelos lançamentos contabilizados e pelos itens pendentes conhecidos no momento do cálculo, que projeta o saldo credor de fim de dia se tudo for contabilizado na conta e não for efetuado nenhum outro lançamento a crédito."
+    },
+    "XDBT": {
+      "name": "Débito esperado",
+      "definition": "Saldo, composto pelos lançamentos contabilizados e pelos itens pendentes conhecidos no momento do cálculo, que projeta o saldo devedor de fim de dia se tudo for contabilizado na conta e não for efetuado nenhum outro lançamento a débito."
+    },
+    "XPCD": {
+      "name": "Esperado",
+      "definition": "Saldo, composto pelos lançamentos contabilizados e pelos itens pendentes conhecidos no momento do cálculo, que projeta o saldo de fim de dia se tudo for contabilizado na conta e não for efetuado nenhum outro lançamento."
+    }
+  }
+}

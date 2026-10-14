@@ -1,0 +1,10 @@
+{
+  "isoType": "AmountPriceType2Code",
+  "definition": "Especifica o tipo de preço em montante.",
+  "isoCodes": {
+    "ACTU": {
+      "name": "Montante real",
+      "definition": "Preço expresso como moeda e montante por unidade ou por ação."
+    }
+  }
+}

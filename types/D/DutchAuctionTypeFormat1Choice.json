@@ -1,0 +1,12 @@
+{
+  "isoType": "DutchAuctionTypeFormat1Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o formato do tipo de leilão holandês exigido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de leilão holandês exigido."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de leilão holandês."
+    }
+  }
+}

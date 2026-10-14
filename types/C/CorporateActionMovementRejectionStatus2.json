@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionMovementRejectionStatus2",
+  "definition": "Fornece informações sobre a rejeição de um pedido de cancelamento de movimento.",
+  "isoElements": {
+    "Reason": {
+      "definition": "O motivo da rejeição."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o estado."
+    }
+  }
+}

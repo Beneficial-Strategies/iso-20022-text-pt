@@ -1,0 +1,14 @@
+{
+  "isoType": "ResolutionStatus1Code",
+  "definition": "Especifica se uma deliberação de uma ordem de trabalhos ainda está ativa ou foi eliminada.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Ativo",
+      "definition": "A deliberação da assembleia tem de ser votada pelos participantes numa assembleia geral."
+    },
+    "WDRA": {
+      "name": "Retirado",
+      "definition": "A deliberação da assembleia foi retirada."
+    }
+  }
+}

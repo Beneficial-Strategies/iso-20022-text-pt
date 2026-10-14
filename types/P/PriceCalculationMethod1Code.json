@@ -1,0 +1,26 @@
+{
+  "isoType": "PriceCalculationMethod1Code",
+  "definition": "Código normalizado para especificar o método aplicado para o cálculo do preço.",
+  "isoCodes": {
+    "VWAP": {
+      "name": "Preço médio ponderado pelo volume",
+      "definition": "O preço baseia-se num preço médio ponderado pelo volume, que é o rácio entre o preço acumulado das ações e o volume acumulado negociado durante um determinado período."
+    },
+    "NAVF": {
+      "name": "Valor final do ativo",
+      "definition": "Valor final dos ativos na liquidação do fundo."
+    },
+    "MIMP": {
+      "name": "Preço médio de mercado",
+      "definition": "Preço num determinado período anterior à data em que é anunciado."
+    },
+    "NAVA": {
+      "name": "Valor patrimonial líquido",
+      "definition": "Valor líquido dos ativos de um fundo de investimento menos os seus passivos, dividido pelo número de ações em circulação."
+    },
+    "AVCL": {
+      "name": "Preço médio de fecho",
+      "definition": "Preço do ativo no fecho de um determinado dia."
+    }
+  }
+}

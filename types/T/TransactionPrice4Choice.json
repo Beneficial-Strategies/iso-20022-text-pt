@@ -1,0 +1,12 @@
+{
+  "isoType": "TransactionPrice4Choice",
+  "definition": "Especifica as informações de preço relativas à operação subjacente.",
+  "isoElements": {
+    "DealPrice": {
+      "definition": "Especifica o preço do instrumento financeiro negociado.|Este é o preço de negócio da operação individual.|Se houver apenas uma operação para a execução da negociação, o preço de negócio pode ser igual ao preço da negociação executada (salvo se, por exemplo, o preço incluir comissões ou arredondamentos, ou se tiver sido aplicado outro fator ao preço de negócio ou ao preço da negociação executada, ou a ambos)."
+    },
+    "Proprietary": {
+      "definition": "Especificação do preço proprietário relativa à operação subjacente."
+    }
+  }
+}

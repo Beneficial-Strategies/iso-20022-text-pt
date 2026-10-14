@@ -1,0 +1,18 @@
+{
+  "isoType": "CashAccount17",
+  "definition": "Fornece informações sobre a conta de numerário.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação da conta de numerário."
+    },
+    "PaymentCurrency": {
+      "definition": "Moeda do pagamento."
+    },
+    "AccountOwnerIdentification": {
+      "definition": "Identificação da parte titular da conta."
+    },
+    "CorrespondentBankIdentification": {
+      "definition": "Identificação do banco correspondente de numerário."
+    }
+  }
+}

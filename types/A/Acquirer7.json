@@ -1,0 +1,12 @@
+{
+  "isoType": "Acquirer7",
+  "definition": "Adquirente da operação de levantamento, responsável pela liquidação dos fundos com o emitente.",
+  "isoElements": {
+    "AcquiringInstitution": {
+      "definition": "Identificação do adquirente."
+    },
+    "Branch": {
+      "definition": "Identificação da agência do adquirente."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxableIncomePerShareCalculatedFormat3Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar se o rendimento tributável por ação ou por dividendo é calculado.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar se o fundo calcula o rendimento tributável por dividendo/rendimento tributável por ação (TID/TIS)."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária para especificar se o fundo calcula o rendimento tributável por dividendo/rendimento tributável por ação (TID/TIS)."
+    }
+  }
+}

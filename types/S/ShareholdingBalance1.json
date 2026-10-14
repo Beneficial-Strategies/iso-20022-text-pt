@@ -1,0 +1,21 @@
+{
+  "isoType": "ShareholdingBalance1",
+  "definition": "Fornece informações pormenorizadas sobre o saldo de participações de uma conta.",
+  "isoElements": {
+    "ShareholdingType": {
+      "definition": "Identifica a categoria de participação."
+    },
+    "Quantity": {
+      "definition": "Número de ações deste tipo de participação ou com esta data de participação detidas pelo titular da conta."
+    },
+    "InitialDateOfShareholding": {
+      "definition": "Data a partir da qual as ações são detidas pelo acionista na sua conta."
+    },
+    "ThirdParty": {
+      "definition": "Terceiro autorizado a praticar atos específicos em nome do acionista."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos campos estruturados e/ou em qualquer outro bloco específico."
+    }
+  }
+}

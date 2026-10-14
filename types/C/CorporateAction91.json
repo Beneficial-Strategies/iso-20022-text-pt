@@ -1,0 +1,24 @@
+{
+  "isoType": "CorporateAction91",
+  "definition": "Fornece informações sobre o evento de operação sobre títulos.",
+  "isoElements": {
+    "DateDetails": {
+      "definition": "Fornece informações sobre as datas relacionadas com um evento de operação sobre títulos."
+    },
+    "SecuritiesQuantity": {
+      "definition": "Fornece informações sobre a quantidade de valores mobiliários associada a uma operação sobre títulos."
+    },
+    "EventStage": {
+      "definition": "Fase do ciclo de vida do evento de operação sobre títulos."
+    },
+    "AdditionalBusinessProcessIndicator": {
+      "definition": "Indica se a mensagem está relacionada com uma reclamação sobre o evento de operação sobre ativos associado."
+    },
+    "FollowingEventTypeIndicator": {
+      "definition": "Especifica o tipo de evento do evento seguinte."
+    },
+    "LotteryType": {
+      "definition": "Especifica o tipo de sorteio anunciado."
+    }
+  }
+}

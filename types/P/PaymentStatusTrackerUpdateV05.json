@@ -1,0 +1,15 @@
+{
+  "isoType": "PaymentStatusTrackerUpdateV05",
+  "definition": "A mensagem PaymentStatusTrackerUpdate é enviada por um agente a um serviço de rastreamento para acompanhar o progresso de uma operação comercial e atualizar o seu estado para fins de rastreamento e transparência.||Utilização:|Podem ser comunicados vários estados de operações comerciais numa única mensagem, e cada estado pode incluir todas as informações pertinentes de uma única operação ou de várias operações dos pagamentos rastreados trocados.",
+  "isoRules": {
+    "TrackerInformingPartyRule": {
+      "definition": "GroupHeader/TrackerInformingParty ou TrackerStatusAndTransaction/TrackerInformingParty tem de estar presente."
+    },
+    "TrackerInformedPartyRule": {
+      "definition": "GroupHeader/TrackerInformedParty tem de estar ausente ou TrackerStatusAndTransaction/Transaction/TrackerInformedParty tem de estar ausente."
+    },
+    "TrackerInformingParty2Rule": {
+      "definition": "Se GroupHeader/TrackerInformingParty estiver presente, TrackerStatusAndTransaction/TrackerInformingParty não é permitido."
+    }
+  }
+}

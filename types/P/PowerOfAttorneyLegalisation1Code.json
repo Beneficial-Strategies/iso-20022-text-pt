@@ -1,0 +1,22 @@
+{
+  "isoType": "PowerOfAttorneyLegalisation1Code",
+  "definition": "Indica a restrição legal aplicável à procuração.",
+  "isoCodes": {
+    "NOTA": {
+      "name": "Notário",
+      "definition": "Indica que a procuração tem de ser legalizada por um notário."
+    },
+    "LOCA": {
+      "name": "Autoridade local",
+      "definition": "Indica que a procuração tem de ser legalizada por uma autoridade local."
+    },
+    "APOS": {
+      "name": "Apostilado",
+      "definition": "Indica que a procuração tem de ser legalizada por um oficial de justiça."
+    },
+    "COUN": {
+      "name": "Consularizado",
+      "definition": "Indica que a procuração tem de ser legalizada por um funcionário consular."
+    }
+  }
+}

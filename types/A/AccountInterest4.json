@@ -1,0 +1,21 @@
+{
+  "isoType": "AccountInterest4",
+  "definition": "Fornece mais pormenores sobre os juros que se aplicam à conta num determinado momento.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo de juro."
+    },
+    "Rate": {
+      "definition": "Conjunto de elementos utilizados para qualificar a taxa de juro."
+    },
+    "FromToDate": {
+      "definition": "Intervalo de tempo entre uma data de início e uma data de fim para o cálculo dos juros."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo dos juros."
+    },
+    "Tax": {
+      "definition": "Fornece detalhes sobre o imposto aplicado aos encargos."
+    }
+  }
+}

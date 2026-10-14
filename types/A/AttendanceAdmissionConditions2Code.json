@@ -1,0 +1,42 @@
+{
+  "isoType": "AttendanceAdmissionConditions2Code",
+  "definition": "Especifica as condições de admissão presencial a uma assembleia geral.",
+  "isoCodes": {
+    "MASH": {
+      "name": "Permitido ao acionista",
+      "definition": "Qualquer participante tem de ser ele próprio acionista."
+    },
+    "MASL": {
+      "name": "Permitido se registado no livro de acionistas",
+      "definition": "O participante tem de ser um acionista registado no livro de registo de ações da sociedade."
+    },
+    "MAPO": {
+      "name": "Permitido em representação",
+      "definition": "Os participantes que atuem em nome do titular registado têm de possuir uma procuração (POA) válida e/ou prova de detenção."
+    },
+    "MAAL": {
+      "name": "Permitido com lista de presenças",
+      "definition": "Os participantes serão inscritos numa lista de presenças e têm de trazer consigo identificação com fotografia."
+    },
+    "MALR": {
+      "name": "Permitido com carta de representação",
+      "definition": "Os participantes serão inscritos numa lista de presenças ou receberão uma carta de representação, e têm de trazer consigo identificação com fotografia."
+    },
+    "MAHI": {
+      "name": "Permitido com comprovativo",
+      "definition": "Os participantes têm de solicitar prova de detenção e registar a sua presença diretamente junto do emitente."
+    },
+    "MATK": {
+      "name": "Permitido com bilhete",
+      "definition": "Os participantes receberão um bilhete de admissão e têm de trazer consigo identificação com fotografia."
+    },
+    "MADS": {
+      "name": "Delegado permitido se registado no livro de acionistas",
+      "definition": "O participante tem de ser um delegado do acionista registado no livro de registo de ações da sociedade."
+    },
+    "MANP": {
+      "name": "Não possível",
+      "definition": "A presença na assembleia não é possível."
+    }
+  }
+}

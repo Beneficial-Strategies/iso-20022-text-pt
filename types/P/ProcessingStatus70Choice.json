@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessingStatus70Choice",
+  "definition": "Escolha do formato do estado de tratamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o estado de processamento da instrução num formato codificado."
+    },
+    "Proprietary": {
+      "definition": "Especifica o estado de processamento da instrução num formato próprio."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "TransactionAllocation2",
+  "definition": "Conjunto de elementos utilizados para identificar cada repartição subjacente.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante em dinheiro da repartição."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica se a repartição é um débito ou um crédito."
+    },
+    "Account": {
+      "definition": "Identificação inequívoca da conta à qual a repartição é devida ou da qual provém."
+    },
+    "Purpose": {
+      "definition": "Motivo subjacente da repartição.||Utilização: Aplica-se apenas à repartição, não sendo o motivo subjacente do pagamento."
+    },
+    "Reference": {
+      "definition": "Referência da repartição."
+    },
+    "RelatedReferences": {
+      "definition": "Referência relativa à repartição que é significativa para ambas as partes (por exemplo, a Securities Settlement Transaction Identification original)."
+    }
+  },
+  "isoRules": {
+    "UnderlyingAllocationGuideline": {
+      "definition": "UnderlyingAllocation só pode estar presente se for acordado bilateralmente."
+    }
+  }
+}

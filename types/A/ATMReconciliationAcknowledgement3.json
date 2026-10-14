@@ -1,0 +1,12 @@
+{
+  "isoType": "ATMReconciliationAcknowledgement3",
+  "definition": "Informações relativas ao aviso de receção de uma reconciliação de ATM enviado pelo gestor do ATM.",
+  "isoElements": {
+    "ATM": {
+      "definition": "Informação do ATM."
+    },
+    "Transaction": {
+      "definition": "Informações sobre a resposta de reconciliação."
+    }
+  }
+}

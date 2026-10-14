@@ -1,0 +1,14 @@
+{
+  "isoType": "SenderBusinessRole1Code",
+  "definition": "Especifica se a mensagem é enviada pelo titular da conta ou pelo prestador de serviços da conta.",
+  "isoCodes": {
+    "AOWN": {
+      "name": "Titular da conta",
+      "definition": "O remetente é o titular da conta de custódia. O remetente está a divulgar ao destinatário a discriminação dos titulares subjacentes das posições do remetente."
+    },
+    "ASER": {
+      "name": "Gestor da conta",
+      "definition": "O remetente é o prestador de serviços de uma conta pertencente ao destinatário."
+    }
+  }
+}

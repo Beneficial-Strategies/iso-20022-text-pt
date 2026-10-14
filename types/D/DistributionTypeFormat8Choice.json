@@ -1,0 +1,12 @@
+{
+  "isoType": "DistributionTypeFormat8Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o tipo de distribuição.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar se o produto do evento será distribuído de forma contínua (rolling) e não numa data específica."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de distribuição."
+    }
+  }
+}

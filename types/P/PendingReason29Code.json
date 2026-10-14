@@ -1,0 +1,22 @@
+{
+  "isoType": "PendingReason29Code",
+  "definition": "Código normalizado para especificar o motivo pelo qual a instrução/evento tem um estado pendente.",
+  "isoCodes": {
+    "NPAY": {
+      "name": "Sem pagamento",
+      "definition": "O pagamento não foi efetuado pelo emitente."
+    },
+    "NSEC": {
+      "name": "Não entregue",
+      "definition": "Os instrumentos financeiros não foram entregues pelo emitente."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "AUTH": {
+      "name": "Enviado às autoridades fiscais",
+      "definition": "A instrução/evento está pendente porque a reclamação é enviada às autoridades fiscais."
+    }
+  }
+}

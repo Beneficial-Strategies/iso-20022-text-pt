@@ -1,0 +1,9 @@
+{
+  "isoType": "CorporateActionNarrativeV09",
+  "definition": "Âmbito|A mensagem CorporateActionNarrative é enviada entre um prestador de serviços de conta e um titular de conta ou o seu agente designado para tratar processos que não podem ser geridos através de mensagens como a CorporateActionNotification. Não deve ser utilizada para a narrativa do evento, que deve ser incluída na CorporateActionNotification. Exemplos de situações em que a mensagem CorporateActionNarrative pode ser utilizada incluem reclamações fiscais, restrições, requisitos de documentação. Esta mensagem só deve ser utilizada mediante acordo bilateral. Esta mensagem é bidirecional.|Utilização|A mensagem também pode ser utilizada para:|- reenviar uma mensagem enviada anteriormente (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem para fins informativos (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem para fins informativos (a subfunção da mensagem é Copy Duplicate), utilizando os elementos relevantes no cabeçalho aplicacional de negócio (BAH).",
+  "isoElements": {
+    "AdditionalInformation": {
+      "definition": "Fornece informações adicionais."
+    }
+  }
+}

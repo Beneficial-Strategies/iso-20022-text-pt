@@ -1,0 +1,42 @@
+{
+  "isoType": "CorporateActionDate110",
+  "definition": "Especifica as datas da operação de sociedade.",
+  "isoElements": {
+    "EarlyResponseDeadline": {
+      "definition": "Data/hora que a instituição gestora da conta fixou como prazo para responder, com instruções, a um evento pendente, dando ao detentor elegibilidade para incentivos."
+    },
+    "CoverExpirationDeadline": {
+      "definition": "Último dia em que um detentor pode entregar os valores mobiliários sobre os quais optou e/ou que protegeu anteriormente."
+    },
+    "ProtectDeadline": {
+      "definition": "Última data/hora em que um detentor pode pedir o diferimento da entrega de valores mobiliários nos termos de um aviso de entrega garantida ou de outra documentação exigida."
+    },
+    "MarketDeadline": {
+      "definition": "Prazo do emitente ou do agente do emitente para responder com uma instrução a uma oferta ou privilégio pendente."
+    },
+    "ResponseDeadline": {
+      "definition": "Data/hora em que a instituição gestora da conta fixou o prazo para responder, com instruções, a um evento pendente."
+    },
+    "ExpiryDate": {
+      "definition": "Data/hora em que uma ordem caduca ou em que um privilégio ou oferta termina."
+    },
+    "SubscriptionCostDebitDate": {
+      "definition": "Data/hora até à qual o numerário tem de estar disponível para participar no evento."
+    },
+    "DepositoryCoverExpirationDate": {
+      "definition": "Último dia em que um participante do depositário pode entregar os valores mobiliários sobre os quais optou e/ou que protegeu anteriormente."
+    },
+    "StockLendingDeadline": {
+      "definition": "Data/hora fixada como prazo para responder, com instruções, a um evento pendente, para o qual o valor mobiliário subjacente se encontra emprestado."
+    },
+    "BorrowerStockLendingDeadline": {
+      "definition": "Especifica a parte que toma valores mobiliários de empréstimo e o prazo de empréstimo de valores mobiliários associado atribuído ao mutuário."
+    },
+    "EndOfSecuritiesBlockingPeriod": {
+      "definition": "Data até à qual pode ocorrer o bloqueio de valores mobiliários ao dar instruções para esta opção."
+    },
+    "DocumentationDeadline": {
+      "definition": "Data/hora até à qual a documentação tem de ser fornecida."
+    }
+  }
+}

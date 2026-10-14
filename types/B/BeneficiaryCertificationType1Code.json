@@ -1,0 +1,30 @@
+{
+  "isoType": "BeneficiaryCertificationType1Code",
+  "definition": "Especifica o tipo de certificação do beneficiário.",
+  "isoCodes": {
+    "ACCI": {
+      "name": "Investidor acreditado",
+      "definition": "O titular do valor mobiliário tem de certificar, de forma irrevogável, que é um Investidor Qualificado (Accredited Investor) na aceção da Regulation D da Securities and Exchange Commission dos US."
+    },
+    "DOMI": {
+      "name": "País de domicílio",
+      "definition": "O titular do valor mobiliário tem de certificar o seu domicílio."
+    },
+    "FULL": {
+      "name": "Discriminação completa dos beneficiários efetivos",
+      "definition": "O titular do valor mobiliário tem de fornecer os dados do seu beneficiário efetivo para efeitos de divulgação/instrução."
+    },
+    "QIBB": {
+      "name": "Certificação QIB",
+      "definition": "O titular do valor mobiliário tem de certificar, de forma irrevogável, que é um Comprador Institucional Qualificado (Qualified Institutional Buyer) na aceção da Rule 144A da Securities and Exchange Commission dos US."
+    },
+    "TRBD": {
+      "name": "Discriminação por taxa de imposto",
+      "definition": "O titular do valor mobiliário tem de fornecer dados básicos sobre os valores nominais e a taxa de imposto associada a utilizar pelo prestador de serviços da conta."
+    },
+    "NCOM": {
+      "name": "Não sociedade",
+      "definition": "O titular do valor mobiliário tem de certificar que é uma pessoa não relacionada com a sociedade."
+    }
+  }
+}

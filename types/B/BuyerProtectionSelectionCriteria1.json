@@ -1,0 +1,27 @@
+{
+  "isoType": "BuyerProtectionSelectionCriteria1",
+  "definition": "Critérios de seleção para a consulta de proteção do comprador.",
+  "isoElements": {
+    "FinancialInstitutionIdentification": {
+      "definition": "Identificação única e inequívoca de uma instituição financeira, conforme atribuída ao abrigo de um esquema de identificação reconhecido internacionalmente ou proprietário."
+    },
+    "AccountIdentification": {
+      "definition": "Lista de contas de custódia selecionadas às quais o evento de operação sobre ativos se aplica."
+    },
+    "ISIN": {
+      "definition": "International Securities Identification Number (ISIN). Sistema de numeração concebido pela Organização Internacional de Normalização (ISO) das Nações Unidas. O ISIN é composto por um prefixo de 2 caracteres que representa o país de emissão, seguido do número nacional do valor mobiliário (se existir) e de um dígito de controlo. Cada país tem um organismo nacional de numeração que atribui os números ISIN aos valores mobiliários desse país."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Referência atribuída pela instituição gestora da conta para identificar inequivocamente um evento de operação sobre títulos."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação atribuída por uma infraestrutura de mercado diferente de uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "ProcessorTransactionIdentification": {
+      "definition": "Identificação da operação atribuída pelo processador da instrução que não seja o titular da conta, o intermediário da conta nem a infraestrutura do mercado."
+    },
+    "UniqueTransactionIdentifier": {
+      "definition": "Identificador Único de Operação (UTI) tal como acordado com a outra contraparte."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMOperation2Code",
+  "definition": "Tipo de operação lógica ou física num ATM.",
+  "isoCodes": {
+    "ADJU": {
+      "name": "Ajustar",
+      "definition": "Ajustar os contadores lógicos do cassete."
+    },
+    "INSR": {
+      "name": "Inserir suporte",
+      "definition": "Adicionar fisicamente suportes ao cassete."
+    },
+    "LOAD": {
+      "name": "Carregamento",
+      "definition": "Carregamento do cassete."
+    },
+    "REMV": {
+      "name": "Retirar suporte",
+      "definition": "Subtrair fisicamente suportes do cassete."
+    },
+    "UNLD": {
+      "name": "Descarregamento",
+      "definition": "Descarregamento do cassete."
+    },
+    "RCUP": {
+      "name": "Atualização remota de contador",
+      "definition": "Atualização remota de um contador do ATM."
+    },
+    "SWAP": {
+      "name": "Troca",
+      "definition": "Descarregar todos os cassetes e carregar um novo conjunto de cassetes para os substituir. As estruturas de cassete determinam o que foi retirado e o que foi adicionado."
+    }
+  }
+}

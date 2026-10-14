@@ -1,0 +1,12 @@
+{
+  "isoType": "InterestComputationMethodFormat4Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o tipo de método de cálculo de juros.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o método utilizado para calcular os juros corridos de um instrumento financeiro."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do formato do método de cálculo de juros."
+    }
+  }
+}

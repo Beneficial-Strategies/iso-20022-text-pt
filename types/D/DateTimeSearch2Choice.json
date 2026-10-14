@@ -1,0 +1,21 @@
+{
+  "isoType": "DateTimeSearch2Choice",
+  "definition": "Escolha entre critérios de pesquisa baseados em datas e intervalos de datas.",
+  "isoElements": {
+    "FromDateTime": {
+      "definition": "Data de início do intervalo."
+    },
+    "ToDateTime": {
+      "definition": "Data de fim do intervalo."
+    },
+    "FromToDateTime": {
+      "definition": "Período de tempo específico, definido entre uma data de início e uma data de fim."
+    },
+    "EqualDateTime": {
+      "definition": "Data específica a corresponder."
+    },
+    "NotEqualDateTime": {
+      "definition": "Data específica a excluir da pesquisa."
+    }
+  }
+}

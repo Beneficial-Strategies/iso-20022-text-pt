@@ -1,0 +1,82 @@
+{
+  "isoType": "InvestmentFundFee3Code",
+  "definition": "Especifica o tipo de serviço pelo qual é solicitada ou paga uma comissão.",
+  "isoCodes": {
+    "BEND": {
+      "name": "Comissão de saída",
+      "definition": "Comissão paga pelo investidor ao fundo ou à sociedade gestora do fundo no momento do resgate."
+    },
+    "BRKF": {
+      "name": "Corretagem",
+      "definition": "Comissão paga a um corretor pelos serviços prestados."
+    },
+    "CDSC": {
+      "name": "Encargo de venda diferido contingente",
+      "definition": "Comissão de venda diferida."
+    },
+    "CBCH": {
+      "name": "Encargo do banco correspondente",
+      "definition": "Em fundos de investimento, os encargos do banco correspondente pela transferência de fundos."
+    },
+    "DLEV": {
+      "name": "Imposição de diluição",
+      "definition": "Em fundos de investimento, encargo a pagar pelo investidor que cobre os diferenciais entre preços de compra e de venda e os custos de negociação dos investimentos subjacentes. A taxa de diluição é paga ao fundo em benefício dos restantes participantes."
+    },
+    "FEND": {
+      "name": "Comissão de entrada",
+      "definition": "Comissão paga pelo investidor ao fundo ou à sociedade gestora do fundo no momento da subscrição."
+    },
+    "INIT": {
+      "name": "Encargo inicial",
+      "definition": "Encargo pago no momento da primeira subscrição."
+    },
+    "PREM": {
+      "name": "Prémio",
+      "definition": "Em fundos de investimento, acréscimo previamente acordado ao montante da operação, com base no valor líquido global publicado."
+    },
+    "CHAR": {
+      "name": "Comissão de prestação de serviços",
+      "definition": "Comissão paga pelo investidor a um distribuidor/intermediário ou a outro prestador de serviços pela prestação de serviços financeiros."
+    },
+    "SWIT": {
+      "name": "Conversão",
+      "definition": "Em fundos de investimento, encargo relacionado com uma operação de conversão."
+    },
+    "UCIC": {
+      "name": "Comissão OICVM",
+      "definition": "Encargos pagos pelo investidor à sociedade do fundo por ordens de subscrição e de resgate."
+    },
+    "COMM": {
+      "name": "Comissão",
+      "definition": "Montante pago pelo fundo a um terceiro."
+    },
+    "SHIP": {
+      "name": "Despesas de envio",
+      "definition": "Encargo de expedição, incluindo o seguro dos valores mobiliários."
+    },
+    "POST": {
+      "name": "Despesas de correio",
+      "definition": "Encargo pelo porte do correio."
+    },
+    "CDPL": {
+      "name": "Comissão de colocação",
+      "definition": "Montante em dinheiro devido a um intermediário pela venda de um produto ou serviços a terceiros."
+    },
+    "ADDF": {
+      "name": "Comissão adicional",
+      "definition": "Comissão adicional não abrangida por outro tipo de comissão."
+    },
+    "REGF": {
+      "name": "Taxa regulamentar",
+      "definition": "Comissão cobrada por uma autoridade reguladora, por exemplo, taxas de bolsa e de valores mobiliários."
+    },
+    "PENA": {
+      "name": "Penalização",
+      "definition": "Comissão cobrada ao investidor pelo resgate antecipado do fundo."
+    },
+    "NTWK": {
+      "name": "Comissão de rede",
+      "definition": "Comissão de rede atribuída a uma operação numa rede DLT."
+    }
+  }
+}

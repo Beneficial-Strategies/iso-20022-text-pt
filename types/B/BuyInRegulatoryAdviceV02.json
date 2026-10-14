@@ -1,0 +1,9 @@
+{
+  "isoType": "BuyInRegulatoryAdviceV02",
+  "definition": "Âmbito||Um titular de conta envia uma BuyInRegulatoryAdvice a uma instituição gestora de contas para notificar os resultados das operações de buy-in executadas ao abrigo do regime regulamentar do CSDR.|||A relação entre titular e gestora da conta pode ser:|- um participante de uma central de valores mobiliários que tem uma conta junto de uma central de valores mobiliários.|Pode também ser, se acordado num acordo de nível de serviço:|- um custodiante global que tem uma conta junto do seu agente local (subcustodiante), ou|- uma instituição de gestão de investimentos que gere uma conta de fundo aberta junto de um custodiante, ou|- um corretor que tem uma conta junto de um custodiante, ou|- uma central de valores mobiliários que tem uma conta junto de um custodiante, de outra central de valores mobiliários ou de outra infraestrutura de mercado de liquidação.|A parte destinatária final no termo da cadeia de liquidação é uma central de valores mobiliários ou uma central internacional de valores mobiliários.||||Utilização||A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente,|- fornecer a um terceiro uma cópia de uma mensagem para informação,|- reenviar a um terceiro uma cópia de uma mensagem para informação, utilizando os elementos pertinentes do Business Application Header.",
+  "isoRules": {
+    "SecuritiesMarketPracticeGroupGuideline": {
+      "definition": "O Securities Market Practice Group (SMPG) publicou recomendações de prática de mercado sobre a utilização desta mensagem.|Estas práticas de mercado estão disponíveis em www.smpg.info."
+    }
+  }
+}

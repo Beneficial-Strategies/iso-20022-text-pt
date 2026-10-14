@@ -1,0 +1,14 @@
+{
+  "isoType": "OptionStyle2Code",
+  "definition": "Define a forma como uma opção pode ser exercida.",
+  "isoCodes": {
+    "AMER": {
+      "name": "Americana",
+      "definition": "A opção pode ser exercida antes ou na data de vencimento."
+    },
+    "EURO": {
+      "name": "Europeia",
+      "definition": "Opção que só pode ser exercida na data de vencimento."
+    }
+  }
+}

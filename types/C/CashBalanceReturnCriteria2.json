@@ -1,0 +1,21 @@
+{
+  "isoType": "CashBalanceReturnCriteria2",
+  "definition": "Define os critérios utilizados para informar sobre o saldo de numerário.",
+  "isoElements": {
+    "TypeIndicator": {
+      "definition": "Indica se o tipo de saldo é solicitado."
+    },
+    "StatusIndicator": {
+      "definition": "Indica se o estado do saldo é solicitado."
+    },
+    "ValueDateIndicator": {
+      "definition": "Indica se a data-valor é solicitada."
+    },
+    "ProcessingDateIndicator": {
+      "definition": "Indica se a data de processamento é solicitada."
+    },
+    "NumberOfPaymentsIndicator": {
+      "definition": "Indica se o número de pagamentos é solicitado."
+    }
+  }
+}

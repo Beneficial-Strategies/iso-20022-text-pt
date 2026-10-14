@@ -1,0 +1,26 @@
+{
+  "isoType": "SecuritiesTradeDetails103",
+  "definition": "Detalhes da negociação de valores mobiliários.",
+  "isoElements": {
+    "TradeDate": {
+      "definition": "Especifica a data/hora em que a operação foi executada."
+    },
+    "OpeningSettlementDate": {
+      "definition": "Data e hora em que os valores mobiliários devem ser entregues ou recebidos."
+    },
+    "NumberOfDaysAccrued": {
+      "definition": "Número de dias em que a taxa de juro é acumulada (título de acumulação diária)."
+    },
+    "InstructionProcessingAdditionalDetails": {
+      "definition": "Fornece informações adicionais sobre o tratamento da liquidação que não podem ser incluídas nos campos estruturados da mensagem."
+    }
+  },
+  "isoRules": {
+    "TradeDateTimeUTCRule": {
+      "definition": "Se Trade Date/Time for utilizado com uma hora ou uma hora + indicador UTC, então deve ser a hora local do local da negociação, por exemplo, da bolsa de valores, ou do corretor vendedor no caso de OTC."
+    },
+    "AdditionalDetailsRule": {
+      "definition": "Salvo acordo bilateral entre o remetente e o destinatário, se InstructionProcessingAdditionalDetails estiver presente, não deve conter informações que possam ser fornecidas num campo estruturado."
+    }
+  }
+}

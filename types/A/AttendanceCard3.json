@@ -1,0 +1,20 @@
+{
+  "isoType": "AttendanceCard3",
+  "definition": "Especifica os pormenores relativos ao cartão de presença.",
+  "isoElements": {
+    "AttendanceCardLabelling": {
+      "definition": "Informações a indicar no cartão de presença."
+    },
+    "DeliveryMethod": {
+      "definition": "Especifica onde o cartão de presença deve ser entregue."
+    },
+    "OtherAddress": {
+      "definition": "Nome e morada da parte."
+    }
+  },
+  "isoRules": {
+    "OtherAddressCode1Rule": {
+      "definition": "Se DeliveryMethod for OtherAddress \"OADR\", então OtherAddress tem de estar presente."
+    }
+  }
+}

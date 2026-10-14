@@ -1,0 +1,42 @@
+{
+  "isoType": "Frequency7Code",
+  "definition": "Especifica a regularidade de um evento.",
+  "isoCodes": {
+    "YEAR": {
+      "name": "Anual",
+      "definition": "O evento ocorre todos os anos ou uma vez por ano."
+    },
+    "DAIL": {
+      "name": "Diário",
+      "definition": "O evento ocorre todos os dias."
+    },
+    "MNTH": {
+      "name": "Mensal",
+      "definition": "O evento ocorre todos os meses ou uma vez por mês."
+    },
+    "QURT": {
+      "name": "Trimestral",
+      "definition": "O evento ocorre de três em três meses ou quatro vezes por ano."
+    },
+    "MIAN": {
+      "name": "Semestral",
+      "definition": "O evento ocorre de seis em seis meses ou duas vezes por ano."
+    },
+    "TEND": {
+      "name": "Dez dias",
+      "definition": "O evento ocorre de dez em dez dias úteis."
+    },
+    "MOVE": {
+      "name": "Desencadeado por movimento",
+      "definition": "O evento ocorre no final do dia se tiver havido movimento na conta; caso contrário, não é enviado nada nesse dia."
+    },
+    "WEEK": {
+      "name": "Semanal",
+      "definition": "O evento ocorre uma vez por semana."
+    },
+    "INDA": {
+      "name": "Intradiário",
+      "definition": "O evento ocorre várias vezes por dia."
+    }
+  }
+}

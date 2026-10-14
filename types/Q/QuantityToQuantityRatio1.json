@@ -1,0 +1,12 @@
+{
+  "isoType": "QuantityToQuantityRatio1",
+  "definition": "Rácio expresso como quociente de quantidades.",
+  "isoElements": {
+    "Quantity1": {
+      "definition": "Numerador do quociente de quantidades."
+    },
+    "Quantity2": {
+      "definition": "Denominador do quociente de quantidades."
+    }
+  }
+}

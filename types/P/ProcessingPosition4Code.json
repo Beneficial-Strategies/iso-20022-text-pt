@@ -1,0 +1,18 @@
+{
+  "isoType": "ProcessingPosition4Code",
+  "definition": "Especifica quando uma operação/instrução deve ser executada relativamente a uma operação/instrução ligada.",
+  "isoCodes": {
+    "AFTE": {
+      "name": "Depois",
+      "definition": "Especifica que a operação/instrução deve ser executada após a operação/instrução associada."
+    },
+    "BEFO": {
+      "name": "Antes",
+      "definition": "Especifica que a operação/instrução deve ser executada antes da operação/instrução associada."
+    },
+    "WITH": {
+      "name": "Com",
+      "definition": "Especifica que a operação/instrução deve ser executada em conjunto com a operação/instrução associada."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "BillingCurrencyType2Code",
+  "definition": "Define o tipo de moeda a utilizar na faturação de um serviço.",
+  "isoCodes": {
+    "ACCT": {
+      "name": "Conta",
+      "definition": "O tipo de moeda utilizado na faturação é a moeda da conta."
+    },
+    "STLM": {
+      "name": "Liquidação",
+      "definition": "O tipo de moeda utilizado na faturação é a moeda de liquidação."
+    },
+    "PRCG": {
+      "name": "Preço",
+      "definition": "O tipo de moeda utilizado na faturação é a moeda de tarifação."
+    },
+    "HOST": {
+      "name": "Anfitrião",
+      "definition": "O tipo de moeda utilizado na faturação é a moeda de origem."
+    }
+  }
+}

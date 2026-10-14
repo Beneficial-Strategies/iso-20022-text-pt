@@ -1,0 +1,38 @@
+{
+  "isoType": "FailureReason8Code",
+  "definition": "Exceção ocorrida fora do serviço.",
+  "isoCodes": {
+    "CDRT": {
+      "name": "Cartão retido",
+      "definition": "O cartão foi retido pelo ATM ou pelo terminal."
+    },
+    "CDCP": {
+      "name": "Cartão capturado",
+      "definition": "O gestor do ATM solicitou a captura do cartão."
+    },
+    "CUCL": {
+      "name": "Cancelamento pelo cliente",
+      "definition": "Cancelamento pelo cliente, por exemplo retirando o cartão antes do fim da operação."
+    },
+    "CDFG": {
+      "name": "Cartão esquecido",
+      "definition": "O cliente deixou o cartão no ATM ou num leitor de cartões motorizado."
+    },
+    "MALF": {
+      "name": "Avaria",
+      "definition": "Suspeita de avaria."
+    },
+    "SECU": {
+      "name": "Erro de segurança",
+      "definition": "Ocorreu um erro de segurança na mensagem de resposta de autorização enviada pelo adquirente."
+    },
+    "SFRD": {
+      "name": "Suspeita de fraude",
+      "definition": "A operação de pagamento com cartão falha porque o comerciante suspeita de fraude."
+    },
+    "UCPT": {
+      "name": "Impossível capturar",
+      "definition": "Impossível capturar o cartão conforme solicitado."
+    }
+  }
+}

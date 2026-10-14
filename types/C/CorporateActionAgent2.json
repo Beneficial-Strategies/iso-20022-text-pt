@@ -1,0 +1,33 @@
+{
+  "isoType": "CorporateActionAgent2",
+  "definition": "Informações detalhadas sobre os agentes envolvidos num evento de operação sobre valores mobiliários.",
+  "isoElements": {
+    "IssuerAgent": {
+      "definition": "Parte nomeada para administrar o evento em nome da sociedade emitente/oferente. A parte pode ser contactada para obter mais informações sobre o evento."
+    },
+    "PayingAgent": {
+      "definition": "Agente (agente pagador principal ou fiscal) nomeado para executar o pagamento do evento de operação sobre valores mobiliários em nome da sociedade emitente/oferente."
+    },
+    "Registrar": {
+      "definition": "Parte/agente responsável pela manutenção do registo do valor mobiliário."
+    },
+    "RemarketingAgent": {
+      "definition": "Agente que recoloca o valor mobiliário no mercado sem que o montante em circulação seja reduzido."
+    },
+    "SolicitationAgent": {
+      "definition": "Sociedade fiduciária, banco ou instituição financeira similar designada por um emitente para manter registos dos investidores, dos saldos das contas e das operações para efeitos do consentimento relativo a uma alteração material."
+    },
+    "InformationAgent": {
+      "definition": "Sociedade fiduciária, banco ou instituição financeira similar designada por um emitente para fornecer informações e cópias da documentação da oferta."
+    },
+    "Issuer": {
+      "definition": "Emitente do instrumento financeiro."
+    },
+    "TransferAgent": {
+      "definition": "Sociedade fiduciária, banco ou instituição financeira similar nomeada por uma sociedade gestora de fundos para manter registos dos investidores e dos saldos das contas. O agente de transferências regista as operações, incluindo subscrições, resgates, comutações, transferências e novos registos."
+    },
+    "RedemptionAgent": {
+      "definition": "Depositário ou qualquer banco ou sociedade fiduciária nomeado para receber e enviar o produto do reembolso."
+    }
+  }
+}

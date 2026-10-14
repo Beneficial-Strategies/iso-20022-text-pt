@@ -1,0 +1,12 @@
+{
+  "isoType": "ConfirmationType1Choice",
+  "definition": "Escolha de formatos para um tipo de confirmação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de confirmação expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de confirmação expresso sob a forma de código proprietário."
+    }
+  }
+}

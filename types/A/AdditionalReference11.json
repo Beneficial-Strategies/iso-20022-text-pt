@@ -1,0 +1,15 @@
+{
+  "isoType": "AdditionalReference11",
+  "definition": "Refere uma mensagem relacionada ou fornece outra referência, como uma referência de conjunto, que liga um conjunto de mensagens. A parte que emitiu a referência relacionada pode ser o remetente da mensagem referida ou uma parte diferente do remetente.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Referência que identifica um conjunto de mensagens."
+    },
+    "ReferenceIssuer": {
+      "definition": "Emitente da referência."
+    },
+    "MessageName": {
+      "definition": "Nome da mensagem."
+    }
+  }
+}

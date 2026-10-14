@@ -1,0 +1,12 @@
+{
+  "isoType": "EnabledStatusReason2Choice",
+  "definition": "Escolha de formatos para um código de motivo de estado ativo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo do estado ativo da conta expresso sob a forma de código."
+    },
+    "Proprietary": {
+      "definition": "Motivo do estado ativo da conta expresso sob a forma de código proprietário."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "TaxEfficientProduct4",
+  "definition": "Características de um produto fiscalmente eficiente.",
+  "isoElements": {
+    "TaxEfficientProductType": {
+      "definition": "Tipo de produto fiscalmente eficiente, por exemplo, uma conta de poupança individual (ISA) no UK."
+    },
+    "CurrentYear": {
+      "definition": "Indica que todos os produtos do ano fiscal em curso devem ser incluídos."
+    },
+    "PreviousYears": {
+      "definition": "Planos de investimento emitidos em anos anteriores."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o produto fiscalmente eficiente."
+    }
+  }
+}

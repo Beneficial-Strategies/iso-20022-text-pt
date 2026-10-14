@@ -1,0 +1,14 @@
+{
+  "isoType": "TransactionEnvironment2Code",
+  "definition": "Indica o ambiente do local da operação.",
+  "isoCodes": {
+    "PRIV": {
+      "name": "Privado",
+      "definition": "Ambiente privado."
+    },
+    "PUBL": {
+      "name": "Público",
+      "definition": "Ambiente público."
+    }
+  }
+}

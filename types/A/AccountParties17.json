@@ -1,0 +1,48 @@
+{
+  "isoType": "AccountParties17",
+  "definition": "Informações sobre a conta de uma parte.",
+  "isoElements": {
+    "PrincipalAccountParty": {
+      "definition": "Parte principal associada à conta."
+    },
+    "SecondaryOwner": {
+      "definition": "Entidade que não é o titular principal quando a titularidade da conta de investimento é repartida por vários titulares."
+    },
+    "Beneficiary": {
+      "definition": "Parte final com direito a receber os benefícios da titularidade de um instrumento financeiro, ou a ser paga/creditada em resultado de uma transferência."
+    },
+    "PowerOfAttorney": {
+      "definition": "Entidade a quem outra entidade conferiu poderes para atuar em seu nome."
+    },
+    "LegalGuardian": {
+      "definition": "Entidade nomeada por uma autoridade legal para atuar em nome de uma pessoa julgada incapaz."
+    },
+    "CustodianForMinor": {
+      "definition": "Entidade que detém ações/unidades de participação em nome de um menor. Embora a conta esteja registada em nome do menor, o custodiante mantém o controlo da conta."
+    },
+    "SuccessorOnDeath": {
+      "definition": "Herança do falecido, ou sucessor, para quem será transferida a respetiva percentagem de titularidade por morte de um dos titulares."
+    },
+    "Administrator": {
+      "definition": "Entidade nomeada por uma autoridade legal para atuar em nome de uma pessoa ou organização que se tenha declarado insolvente."
+    },
+    "OtherParty": {
+      "definition": "Outro tipo de parte."
+    },
+    "Granter": {
+      "definition": "Papel de outorgante no setor dos fundos de cobertura."
+    },
+    "Settlor": {
+      "definition": "Entidade que constitui um trust ou lhe confere ativos."
+    },
+    "SeniorManagingOfficial": {
+      "definition": "Parte que toma, ou participa na tomada de, decisões que afetam a totalidade, ou uma parte substancial, da atividade de um cliente de uma entidade declarante, ou que tem capacidade para afetar significativamente a situação financeira de um cliente de uma entidade declarante. Normalmente, trata-se de uma pessoa que exerce o controlo de uma sociedade (tipo de titularidade CORP)."
+    },
+    "Protector": {
+      "definition": "Pessoa nomeada ao abrigo do instrumento do trust para orientar ou limitar os administradores fiduciários relativamente à administração do trust. Normalmente, trata-se de uma pessoa que exerce o controlo de um trust (tipo de titularidade TRUS) ou de outra organização que não seja pessoa singular (tipo de titularidade ONIS)."
+    },
+    "RegisteredShareholderName": {
+      "definition": "Parte que regista o seu nome junto do emitente e o nome utilizado para o registo."
+    }
+  }
+}

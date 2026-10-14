@@ -1,0 +1,134 @@
+{
+  "isoType": "RejectionReason91Code",
+  "definition": "Especifica um motivo pelo qual a instrução tem o estado de rejeitada.",
+  "isoCodes": {
+    "ULNK": {
+      "name": "Referência inválida",
+      "definition": "A referência associada é desconhecida."
+    },
+    "SAFE": {
+      "name": "Rejeição da conta de guarda",
+      "definition": "Conta de custódia do remetente da mensagem não reconhecida ou inválida."
+    },
+    "IPOS": {
+      "name": "Posição insuficiente para o limiar",
+      "definition": "A posição é inferior ao limiar exigido."
+    },
+    "DQUA": {
+      "name": "Rejeição da quantidade",
+      "definition": "Quantidade instruída não reconhecida ou inválida."
+    },
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "SPLT": {
+      "name": "Voto dividido não permitido",
+      "definition": "O voto fracionado não é permitido."
+    },
+    "PART": {
+      "name": "Voto parcial não permitido",
+      "definition": "O voto parcial não é permitido."
+    },
+    "IPOA": {
+      "name": "POA em falta ou inválida",
+      "definition": "Procuração em falta ou inválida."
+    },
+    "PRXY": {
+      "name": "Discrepância no cartão de procuração",
+      "definition": "Informações de mandatário inválidas."
+    },
+    "IREG": {
+      "name": "Discrepância no registo",
+      "definition": "Informações de registo inválidas."
+    },
+    "RBIS": {
+      "name": "Rejeitado pelo emitente ou pelo registador",
+      "definition": "O emitente ou o agente de registo rejeitou a instrução."
+    },
+    "LACK": {
+      "name": "Falta de valores mobiliários",
+      "definition": "A posição instruída excede o saldo elegível."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "OPTY": {
+      "name": "Tipo de opção inválido",
+      "definition": "Tipo de opção inválido."
+    },
+    "EVNM": {
+      "name": "Identificação não reconhecida",
+      "definition": "Número de evento não reconhecido."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    },
+    "FULL": {
+      "name": "Detalhes do beneficiário efetivo em falta",
+      "definition": "Rejeitado por falta dos dados do beneficiário efetivo."
+    },
+    "ADDM": {
+      "name": "Documentação adicional em falta",
+      "definition": "Falta a documentação adicional solicitada."
+    },
+    "MCAN": {
+      "name": "Evento cancelado",
+      "definition": "O evento foi cancelado."
+    },
+    "DREM": {
+      "name": "Prazo de registo ultrapassado",
+      "definition": "O prazo de registo foi ultrapassado."
+    },
+    "NPOS": {
+      "name": "Sem posição registada",
+      "definition": "Posição registada insuficiente ou inexistente."
+    },
+    "RESN": {
+      "name": "Discrepância no número da deliberação",
+      "definition": "Discrepância no número da deliberação fornecido."
+    },
+    "DUPL": {
+      "name": "Instrução duplicada",
+      "definition": "A instrução é rejeitada devido a identificador de mensagem de negócio duplicado."
+    },
+    "LIST": {
+      "name": "Voto a favor inválido na listagem de grupo",
+      "definition": "A instrução é inválida devido a várias deliberações instruídas com voto \"For” e pertencentes ao mesmo número de etiqueta de deliberação do grupo de listagem."
+    },
+    "NOSL": {
+      "name": "Não registado no livro de acionistas",
+      "definition": "Instrução inválida, uma vez que o acionista ou o seu delegado não está inscrito no livro de registo de ações da sociedade."
+    },
+    "PMNS": {
+      "name": "Método de participação não suportado",
+      "definition": "Instrução rejeitada devido a método de participação não suportado pela entidade gestora da conta."
+    },
+    "IPED": {
+      "name": "Instrução anterior à data do direito",
+      "definition": "A instrução foi recebida antes da data de direito."
+    },
+    "NACD": {
+      "name": "Não aceite, endereço de correio eletrónico em falta",
+      "definition": "A instrução para assistir virtualmente à assembleia é rejeitada devido à falta do endereço de correio eletrónico do participante."
+    },
+    "EFDM": {
+      "name": "Data de fixação do direito em falta ou incorreta",
+      "definition": "A data de apuramento do direito está em falta ou é incorreta."
+    },
+    "ADIM": {
+      "name": "Informações adicionais de divulgação em falta",
+      "definition": "A (I)CSD não conseguiu receber (do subjacente) ou fornecer (ao agente do emitente) as informações de divulgação exigidas."
+    },
+    "MINC": {
+      "name": "Dados de classificação do investidor em falta",
+      "definition": "A classificação apresentada na instrução não corresponde à classificação do investidor na notificação."
+    },
+    "DSEC": {
+      "name": "Valor mobiliário inválido",
+      "definition": "Identificação do instrumento financeiro não reconhecida ou inválida."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "TaxVoucher6",
+  "definition": "Especifica os comprovativos fiscais no âmbito de um evento de operação sobre ativos.",
+  "isoElements": {
+    "TaxVoucherReference": {
+      "definition": "Referência única do comprovativo fiscal exigida pelas autoridades fiscais competentes para garantir que qualquer reclamação relativa a este comprovativo fiscal não possa ser duplicada."
+    },
+    "TaxReclaimDocumentationReference": {
+      "definition": "Referência única atribuída pelo titular da conta à documentação fiscal enviada ao prestador de serviços de conta para tratamento."
+    },
+    "BeneficialOwnerReference": {
+      "definition": "Referência única que identifica o beneficiário efetivo a quem se aplica o reembolso, atribuída pelo titular da conta à documentação fiscal enviada ao prestador de serviços de conta para tratamento."
+    }
+  },
+  "isoRules": {
+    "TaxVoucherPresenceRule": {
+      "definition": "Pelo menos um de TaxVoucherReference ou TaxReclaimDocumentationReference ou BeneficialOwnerReference deve estar presente."
+    },
+    "TaxReclaimDocumentationReferencePresenceRule": {
+      "definition": "Se TaxReclaimDocumentationReference estiver presente, então BeneficialOwnerReference deve estar ausente."
+    },
+    "BeneficialOwnerReferencePresenceRule": {
+      "definition": "Se BeneficialOwnerReference estiver presente, então TaxReclaimDocumentationReference deve estar ausente."
+    }
+  }
+}

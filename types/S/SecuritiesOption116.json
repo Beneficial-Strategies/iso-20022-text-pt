@@ -1,0 +1,77 @@
+{
+  "isoType": "SecuritiesOption116",
+  "definition": "Fornece informações sobre a opção de valores mobiliários da operação sobre títulos.",
+  "isoElements": {
+    "SecurityDetails": {
+      "definition": "Fornece a descrição do instrumento financeiro relacionado com o movimento de valores mobiliários."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica se o valor é um débito ou um crédito."
+    },
+    "TemporaryFinancialInstrumentIndicator": {
+      "definition": "Especifica que o valor mobiliário identificado é uma identificação temporária de valor mobiliário utilizada por razões de processamento, por exemplo, o valor mobiliário de contrapartida utilizado nos US."
+    },
+    "NonEligibleProceedsIndicator": {
+      "definition": "Especifica informações relativas a recursos de resultado que não podem ser processados pela central de valores mobiliários (CSD). É exigida uma instrução de entrega especial por parte do titular da conta para que o resultado da operação sobre títulos seja creditado."
+    },
+    "IssuerOfferorTaxabilityIndicator": {
+      "definition": "O produto é tributável de acordo com as informações fornecidas pelo emitente / oferente."
+    },
+    "NewSecuritiesIssuanceIndicator": {
+      "definition": "Especifica a natureza da emissão de valores mobiliários."
+    },
+    "IncomeType": {
+      "definition": "Especifica o tipo de rendimento.|As listas de códigos de tipo de rendimento a utilizar estão disponíveis no sítio Web da SMPG em www.smpg.info."
+    },
+    "OtherIncomeType": {
+      "definition": "Tipo de rendimento a utilizar ao abrigo de outro regime fiscal."
+    },
+    "ExemptionType": {
+      "definition": "Especifica o fundamento da taxa de retenção na fonte reduzida."
+    },
+    "EntitledQuantity": {
+      "definition": "Quantidade de valores mobiliários com base nos termos do evento de operação sobre títulos e no saldo de valores mobiliários subjacentes a que o titular da conta tem direito. (Esta quantidade pode ser positiva ou negativa)."
+    },
+    "SafekeepingPlace": {
+      "definition": "Local onde os instrumentos financeiros se encontram/serão guardados em custódia."
+    },
+    "CountryOfIncomeSource": {
+      "definition": "Indica o país de origem do rendimento."
+    },
+    "FractionDisposition": {
+      "definition": "Especifica como serão tratadas as frações resultantes de valores mobiliários derivados ou como serão arredondadas as decisões objeto de rateio, se for fornecida uma taxa de rateio."
+    },
+    "CurrencyOption": {
+      "definition": "Moeda em que o produto em numerário deve ser creditado ou debitado."
+    },
+    "TradingPeriod": {
+      "definition": "Período durante o qual os valores mobiliários intermédios ou de resultado são transacionáveis num mercado secundário."
+    },
+    "DateDetails": {
+      "definition": "Fornece informações sobre as datas relacionadas com o movimento de valores mobiliários."
+    },
+    "RateDetails": {
+      "definition": "Fornece informações sobre as taxas relacionadas com o movimento de valores mobiliários."
+    },
+    "PriceDetails": {
+      "definition": "Fornece informações sobre os preços relacionados com o movimento de valores mobiliários."
+    },
+    "AmountDetails": {
+      "definition": "Fornece informações sobre os montantes relacionados com um movimento de valores mobiliários."
+    }
+  },
+  "isoRules": {
+    "IssuerOfferorTaxabilityIndicatorUsageRule": {
+      "definition": "O IssuerOfferorTaxabilityIndicator só pode ser utilizado quando não é fornecida nenhuma taxa de imposto na mensagem e não deve ser utilizado em eventos como dividendos ou juros.|A lista de códigos proprietários de IssuerOfferorTaxabilityIndicator que podem ser utilizados consta do documento \" TXAP Taxability Codes\" disponível no sítio web do SMPG em www.smpg.info."
+    },
+    "IncomeTypeUsageRule": {
+      "definition": "As listas de códigos de tipo de rendimento a utilizar em IncomeType são fornecidas no documento \"ETYP-ITYP Exemption & Income Type Codes\", disponível no sítio Web da SMPG em www.smpg.info."
+    },
+    "ExemptionTypeUsageRule": {
+      "definition": "As listas de códigos de tipo de isenção a utilizar em ExemptionType são fornecidas no documento \"ETYP-ITYP Exemption & Income Type Codes\", disponível no sítio Web da SMPG em www.smpg.info."
+    },
+    "IncomeType1Rule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de OtherIncomeType, então IncomeType tem de estar presente."
+    }
+  }
+}

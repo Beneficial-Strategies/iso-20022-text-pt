@@ -1,0 +1,22 @@
+{
+  "isoType": "PenaltyCalculationMethod1Code",
+  "definition": "Especifica o método de cálculo da penalização.",
+  "isoCodes": {
+    "BOTH": {
+      "name": "Ambos",
+      "definition": "Soma da penalização baseada na quantidade de valores mobiliários|cuja entrega falhou e na taxa de penalização dos valores mobiliários com a penalização baseada no montante de numerário cuja entrega falhou e na taxa de desconto da moeda."
+    },
+    "CASH": {
+      "name": "Numerário",
+      "definition": "A penalização baseia-se no montante de numerário cuja entrega falhou e a taxa de penalização é a taxa de desconto da moeda em causa."
+    },
+    "MIXE": {
+      "name": "Misto",
+      "definition": "A penalização baseia-se na quantidade de valores mobiliários cuja entrega falhou e a taxa de penalização é a taxa de desconto da moeda em causa."
+    },
+    "SECU": {
+      "name": "Valores mobiliários",
+      "definition": "A penalização baseia-se na quantidade de valores mobiliários cuja entrega falhou e na taxa de penalização dos valores mobiliários."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "PartyRole1Code",
+  "definition": "Especifica o papel da parte na operação.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Depositário",
+      "definition": "Parte que guarda e administra ativos em nome do titular."
+    },
+    "INVS": {
+      "name": "Investidor",
+      "definition": "Parte, pessoa singular ou organização, cujos ativos estão a ser investidos."
+    }
+  }
+}

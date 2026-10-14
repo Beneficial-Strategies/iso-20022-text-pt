@@ -1,0 +1,12 @@
+{
+  "isoType": "ElectionTypeFormat3Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o tipo de movimento de eleição.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o efeito sobre as posições detidas da eleição de uma opção de ação societária."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de eleição de uma opção de ação societária."
+    }
+  }
+}

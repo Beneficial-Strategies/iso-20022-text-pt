@@ -1,0 +1,39 @@
+{
+  "isoType": "CorporateActionInstructionStatusAdviceV16",
+  "definition": "Âmbito|A mensagem CorporateActionInstructionStatusAdvice é enviada por um prestador de serviços de conta a um titular de conta ou ao seu agente designado, para comunicar o estado de uma instrução de escolha relativa a uma operação sobre títulos recebida.||Esta mensagem é utilizada para comunicar o estado, ou uma alteração de estado, de uma operação relacionada com operações sobre títulos previamente instruída pelo titular da conta, ou executada por sua conta. Isto inclui o aviso de receção/rejeição de uma instrução relativa a uma operação sobre títulos.|Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem enviada anteriormente (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem para informação (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem para informação (a subfunção da mensagem é Copy Duplicate), utilizando os elementos pertinentes do cabeçalho aplicacional de negócio (BAH).",
+  "isoRules": {
+    "AdditionalInformationRule": {
+      "definition": "Todos os elementos no elemento AdditionalInformation não devem conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral."
+    },
+    "BeneficialOwnerBreakdownRequestRule": {
+      "definition": "Se o valor de CorporateActionInstruction/OptionType/Code for BOBD (BeneficialOwnerBreakdownRequest), então o valor de CorporateActionGeneralInformation/EventType/Code tem de ser WTRC (Withholding Tax Relief Certification).|(MT567 NVR C6)"
+    },
+    "StatusQuantity1Rule": {
+      "definition": "Se CorporateActionInstruction/StatusCashAmount estiver presente, então InstructionProcessingStatus/Cancelled/CancelledQuantity, InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity, InstructionProcessingStatus/Rejected e InstructionProcessingStatus/Pending têm de estar ausentes e CorporateActionInstruction/StatusQuantity tem de estar ausente. (MT 567 C5 e C7)."
+    },
+    "StatusQuantity2Rule": {
+      "definition": "Se CorporateActionInstruction/StatusQuantity estiver presente, então InstructionProcessingStatus/Cancelled/CancelledQuantity, InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity, InstructionProcessingStatus/Rejected e InstructionProcessingStatus/Pending têm de estar ausentes e CorporateActionInstruction/StatusCashAmount tem de estar ausente. (MT 567 C5 e C7)."
+    },
+    "StatusQuantity3Rule": {
+      "definition": "Se InstructionProcessingStatus/Cancelled/CancelledQuantity ou InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity ou InstructionProcessingStatus/Rejected ou InstructionProcessingStatus/Pending estiverem presentes, então  CorporateActionInstruction/StatusCashAmount e CorporateActionInstruction/StatusQuantity têm de estar ausentes. (MT 567 C5 e C7)."
+    },
+    "StatusQuantity4Rule": {
+      "definition": "Se CorporateActionInstruction/StatusCashAmount estiver presente, então InstructionProcessingStatus/Forwarded/ForwardedQuantity, InstructionProcessingStatus/Returned/ReturnedQuantity e InstructionProcessingStatus/ReceivedByIssuerOrOfferor/AcceptedByIssuerQuantity têm de estar ausentes."
+    },
+    "StatusQuantity5Rule": {
+      "definition": "Se CorporateActionInstruction/StatusQuantity estiver presente, então InstructionProcessingStatus/Forwarded/ForwardedQuantity ou InstructionProcessingStatus/Returned/ReturnedQuantity ou InstructionProcessingStatus/ReceivedByIssuerOrOfferor/AcceptedByIssuerQuantity não são permitidos."
+    },
+    "StatusQuantity6Rule": {
+      "definition": "Se InstructionProcessingStatus/Forwarded/ForwardedQuantity ou InstructionProcessingStatus/Returned/ReturnedQuantity ou InstructionProcessingStatus/ReceivedByIssuerOrOfferor/AcceptedByIssuerQuantity estiverem presentes, então  CorporateActionInstruction/StatusCashAmount e CorporateActionInstruction/StatusQuantity têm de estar ausentes."
+    },
+    "StatusQuantity1UGRule": {
+      "definition": "Se CorporateActionInstruction/StatusCashAmount estiver presente, então InstructionProcessingStatus/Cancelled/CancelledQuantity, InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity, InstructionProcessingStatus/Rejected e InstructionProcessingStatus/Pending têm de estar ausentes e CorporateActionInstruction/StatusQuantity tem de estar ausente. (MT 567 C5 e C7)."
+    },
+    "StatusQuantity2UGRule": {
+      "definition": "Se CorporateActionInstruction/StatusQuantity estiver presente, então InstructionProcessingStatus/Cancelled/CancelledQuantity, InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity, InstructionProcessingStatus/Rejected e InstructionProcessingStatus/Pending têm de estar ausentes e CorporateActionInstruction/StatusCashAmount tem de estar ausente. (MT 567 C5 e C7)"
+    },
+    "StatusQuantity3UGRule": {
+      "definition": "Se InstructionProcessingStatus/Cancelled/CancelledQuantity ou InstructionProcessingStatus/AcceptedForFurtherProcessing/AcceptedQuantity ou InstructionProcessingStatus/Rejected ou InstructionProcessingStatus/Pending estiverem presentes, então  CorporateActionInstruction/StatusCashAmount e CorporateActionInstruction/StatusQuantity têm de estar ausentes. (MT 567 C5 e C7)."
+    }
+  }
+}

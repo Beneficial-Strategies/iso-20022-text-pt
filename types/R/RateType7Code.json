@@ -1,0 +1,14 @@
+{
+  "isoType": "RateType7Code",
+  "definition": "Especifica o tipo de taxa.",
+  "isoCodes": {
+    "SCHD": {
+      "name": "Programado",
+      "definition": "Taxa do pagamento programado."
+    },
+    "USCD": {
+      "name": "Não programado",
+      "definition": "Taxa do pagamento não programado."
+    }
+  }
+}

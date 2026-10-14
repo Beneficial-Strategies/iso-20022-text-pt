@@ -1,0 +1,106 @@
+{
+  "isoType": "ExternalPaymentTransactionStatus1Code",
+  "definition": "Especifica o estado de uma instrução de pagamento individual, conforme publicado num conjunto de códigos externo de estados de operações de pagamento.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "ACCC": {
+      "name": "Aceite, liquidação concluída na conta do credor",
+      "definition": "A liquidação na conta do credor foi concluída."
+    },
+    "ACCP": {
+      "name": "Perfil do cliente aceite",
+      "definition": "A verificação técnica prévia da validação foi bem-sucedida. A verificação do perfil do cliente também foi bem-sucedida."
+    },
+    "ACFC": {
+      "name": "Aceite, fundos verificados",
+      "definition": "A verificação anterior da validação técnica e do perfil do cliente foi bem-sucedida e a verificação automática de fundos foi positiva."
+    },
+    "ACIS": {
+      "name": "Aceite e cheque emitido",
+      "definition": "A instrução de pagamento para emitir um cheque foi aceite e o cheque foi emitido, mas ainda não foi depositado nem compensado."
+    },
+    "ACSC": {
+      "name": "Aceite, liquidação concluída na conta do devedor",
+      "definition": "Liquidação concluída.|Utilização : pode ser utilizado por uma Infraestrutura de Mercado que comunica a um Participante na Infraestrutura, ou por uma Instituição Gestora de Conta que comunica ao Titular da Conta, para indicar que o lançamento da operação na conta foi concluído.|Aviso : este estado é fornecido para fins de estado da operação, não para informação financeira. Só pode ser utilizado após acordo bilateral"
+    },
+    "ACSP": {
+      "name": "Aceite, liquidação em curso",
+      "definition": "Todas as verificações anteriores, tais como a validação técnica e o perfil do cliente, foram bem-sucedidas e, por conseguinte, a instrução de pagamento foi aceite para execução."
+    },
+    "ACTC": {
+      "name": "Aceite, validação técnica",
+      "definition": "A autenticação e a validação sintática e semântica foram bem-sucedidas"
+    },
+    "ACWC": {
+      "name": "Aceite com alteração",
+      "definition": "A instrução é aceite, mas será efetuada uma alteração, por exemplo da data ou da informação de remessa não enviada."
+    },
+    "ACWP": {
+      "name": "Aceite sem lançamento",
+      "definition": "A instrução de pagamento incluída na transferência a crédito é aceite sem ter sido lançada na conta do cliente credor."
+    },
+    "BLCK": {
+      "name": "Bloqueado",
+      "definition": "A operação de pagamento anteriormente comunicada com o estado 'ACWP' está bloqueada, por exemplo, os fundos não serão lançados na conta do credor nem devolvidos ao devedor."
+    },
+    "CANC": {
+      "name": "Cancelado",
+      "definition": "A iniciação do pagamento foi cancelada com êxito após a receção de um pedido de anulação.|Utilização: código a utilizar apenas no contexto de APIs."
+    },
+    "CPUC": {
+      "name": "Numerário levantado pelo credor",
+      "definition": "O numerário foi levantado pelo credor."
+    },
+    "PATC": {
+      "name": "Parcialmente aceite, tecnicamente correto",
+      "definition": "A iniciação do pagamento requer várias autenticações, das quais algumas, mas ainda não todas, foram realizadas. As validações sintáticas e semânticas foram bem-sucedidas."
+    },
+    "PDNG": {
+      "name": "Pendente",
+      "definition": "A instrução de pagamento está pendente. Serão realizadas mais verificações e atualizações de estado."
+    },
+    "PRES": {
+      "name": "Apresentado",
+      "definition": "O pedido de pagamento foi apresentado ao devedor."
+    },
+    "RCVD": {
+      "name": "Recebido",
+      "definition": "A instrução de pagamento foi recebida."
+    },
+    "RJCT": {
+      "name": "Rejeitado",
+      "definition": "A instrução de pagamento foi rejeitada."
+    },
+    "ACPD": {
+      "name": "Aceite, compensação processada",
+      "definition": "Estado da operação libertada pela instituição do devedor e aceite pela compensação."
+    },
+    "RCVC": {
+      "name": "Recebido, verificação concluída",
+      "definition": "Foi aplicada à operação recebida a verificação do beneficiário, indicando que está concluída sem dados divergentes."
+    },
+    "RVNA": {
+      "name": "Recebido, verificação concluída, não aplicável",
+      "definition": "Foi aplicada à operação recebida a verificação do beneficiário, indicando que está concluída com dados não aplicáveis."
+    },
+    "RVNM": {
+      "name": "Recebido, verificação concluída, sem correspondência",
+      "definition": "Foi aplicada à operação recebida a verificação do beneficiário, indicando que está concluída com dados divergentes."
+    },
+    "RVMC": {
+      "name": "Recebido, verificação concluída, correspondência aproximada",
+      "definition": "Foi aplicada à operação recebida a verificação do beneficiário, indicando que está concluída com dados muito semelhantes."
+    },
+    "ACFW": {
+      "name": "Aceite, fundos verificados, a aguardar confirmação",
+      "definition": "A verificação anterior da validação técnica e do perfil do cliente foi bem-sucedida e a verificação automática de fundos foi positiva, mas está pendente uma confirmação explícita da parte iniciadora."
+    },
+    "RVNC": {
+      "name": "Recebido, verificação não concluída",
+      "definition": "A verificação da parte na operação ainda não está concluída."
+    },
+    "RVCM": {
+      "name": "Recebido, verificação concluída com discrepâncias",
+      "definition": "Foram aplicadas à operação recebida as verificações do beneficiário, indicando que estão concluídas e que contêm dados divergentes."
+    }
+  }
+}

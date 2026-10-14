@@ -1,0 +1,12 @@
+{
+  "isoType": "ExchangeRateOrPercentage1Choice",
+  "definition": "Especifica uma escolha entre uma taxa absoluta e uma taxa percentual.",
+  "isoElements": {
+    "Rate": {
+      "definition": "A taxa é expressa como uma taxa de câmbio."
+    },
+    "Percentage": {
+      "definition": "A taxa é expressa como uma percentagem relativa à taxa de referência."
+    }
+  }
+}

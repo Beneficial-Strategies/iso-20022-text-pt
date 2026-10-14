@@ -1,0 +1,18 @@
+{
+  "isoType": "ExternalInvestigationStatus1Code",
+  "definition": "Especifica o estado da investigação, conforme publicado numa lista externa de códigos de estado de investigação.|As listas externas de códigos podem ser transferidas a partir de www.iso20022.org.",
+  "isoCodes": {
+    "CLSD": {
+      "name": "Investigação encerrada",
+      "definition": "A investigação está encerrada."
+    },
+    "PDNG": {
+      "name": "Investigação pendente",
+      "definition": "A investigação está aberta/pendente."
+    },
+    "RJCT": {
+      "name": "Investigação rejeitada",
+      "definition": "A investigação é rejeitada."
+    }
+  }
+}

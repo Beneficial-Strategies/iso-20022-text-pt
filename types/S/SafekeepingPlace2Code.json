@@ -1,0 +1,14 @@
+{
+  "isoType": "SafekeepingPlace2Code",
+  "definition": "Especifica o tipo de local de guarda.",
+  "isoCodes": {
+    "SHHE": {
+      "name": "Valores mantidos noutro local",
+      "definition": "Utilizado para certos instrumentos financeiros, por exemplo, fundos mútuos dos US, em que a liquidação é apenas interna, isto é, não há movimento externo de valores mobiliários."
+    },
+    "ALLP": {
+      "name": "Todos os locais",
+      "definition": "Todos os locais de custódia onde o instrumento financeiro está detido."
+    }
+  }
+}

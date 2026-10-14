@@ -1,0 +1,24 @@
+{
+  "isoType": "LimitUtilisationJournalSearchCriteria2",
+  "definition": "Define os critérios utilizados para pesquisar um limite.",
+  "isoElements": {
+    "LimitType": {
+      "definition": "Tipo de limite aplicado pelo sistema no momento atual."
+    },
+    "JournalActivityDate": {
+      "definition": "Data em que ocorre a atividade do diário."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "LimitCurrency": {
+      "definition": "Unidade monetária utilizada para especificar o montante do limite."
+    },
+    "AccountOwner": {
+      "definition": "Titular da conta que está a ser consultada."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "definition": "Identificação do membro do sistema para o qual o limite é estabelecido."
+    }
+  }
+}

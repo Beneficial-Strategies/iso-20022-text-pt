@@ -1,0 +1,42 @@
+{
+  "isoType": "InstructedCorporateActionOption22",
+  "definition": "Fornece pormenores da opção da operação sobre ativos relativos ao saldo total instruído.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "InstructedBalance": {
+      "definition": "Saldo da posição instruída."
+    },
+    "DefaultAction": {
+      "definition": "Indica a ação por defeito relativa a um evento de operação sobre ativos."
+    },
+    "OptionAcceptedInstructedBalance": {
+      "definition": "Total diário das instruções aceites recebidas para uma determinada opção."
+    },
+    "OptionCancelledInstructionBalance": {
+      "definition": "Total diário das instruções canceladas para uma determinada opção."
+    },
+    "OptionPendingInstructionBalance": {
+      "definition": "Total diário das instruções pendentes para uma determinada opção. Inclui as instruções com cancelamento pendente."
+    },
+    "OptionRejectedInstructionBalance": {
+      "definition": "Total diário das instruções rejeitadas para uma determinada opção."
+    },
+    "OptionReturnedInstructedBalance": {
+      "definition": "Total diário das instruções devolvidas recebidas para uma determinada opção."
+    },
+    "OptionProtectInstructionBalance": {
+      "definition": "Total diário de todas as instruções de proteção para uma determinada opção."
+    },
+    "EventDeadlines": {
+      "definition": "Fornece informações sobre os prazos relativos a uma opção de operação sobre ativos."
+    },
+    "OptionInstructionDetails": {
+      "definition": "Pormenores das instruções recebidas para a opção em causa."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "AmountAndForeignExchange1",
+  "definition": "Fornece informações sobre o montante da fatura e as condições da operação cambial.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante de dinheiro no lançamento de numerário."
+    },
+    "ForeignExchange": {
+      "definition": "Informações necessárias para processar uma troca ou conversão de moeda."
+    }
+  }
+}

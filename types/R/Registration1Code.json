@@ -1,0 +1,14 @@
+{
+  "isoType": "Registration1Code",
+  "definition": "Especifica se o registo deve ocorrer aquando da receção.",
+  "isoCodes": {
+    "NREG": {
+      "name": "Nome do intermediário",
+      "definition": "Manter os valores mobiliários em street name. Se existir uma instrução permanente para registar aquando da receção, essa instrução permanente deve ser ignorada."
+    },
+    "YREG": {
+      "name": "Nominativo",
+      "definition": "Registar aquando da receção. Se existir uma instrução permanente para manter os valores mobiliários em street name, essa instrução permanente deve ser ignorada."
+    }
+  }
+}

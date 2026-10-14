@@ -1,0 +1,9 @@
+{
+  "isoType": "AdditionalInformation5",
+  "definition": "Contém informações adicionais relacionadas com a mensagem.",
+  "isoElements": {
+    "Information": {
+      "definition": "Contém informações adicionais relacionadas com a mensagem."
+    }
+  }
+}

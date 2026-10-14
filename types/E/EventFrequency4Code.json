@@ -1,0 +1,30 @@
+{
+  "isoType": "EventFrequency4Code",
+  "definition": "Especifica a regularidade de um evento.",
+  "isoCodes": {
+    "YEAR": {
+      "name": "Anual",
+      "definition": "O evento ocorre todos os anos ou uma vez por ano."
+    },
+    "ADHO": {
+      "name": "Ad hoc",
+      "definition": "O evento ocorre sempre que necessário."
+    },
+    "MNTH": {
+      "name": "Mensal",
+      "definition": "O evento ocorre todos os meses ou uma vez por mês."
+    },
+    "DAIL": {
+      "name": "Diário",
+      "definition": "O evento ocorre todos os dias."
+    },
+    "INDA": {
+      "name": "Intradiário",
+      "definition": "O evento ocorre várias vezes por dia."
+    },
+    "WEEK": {
+      "name": "Semanal",
+      "definition": "O evento ocorre uma vez por semana."
+    }
+  }
+}

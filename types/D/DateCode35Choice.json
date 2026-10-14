@@ -1,0 +1,12 @@
+{
+  "isoType": "DateCode35Choice",
+  "definition": "Escolha entre um código ou um código proprietário para um código de data.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de data."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de data."
+    }
+  }
+}

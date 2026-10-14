@@ -1,0 +1,27 @@
+{
+  "isoType": "CorporateActionRate1",
+  "definition": "Especifica taxas.",
+  "isoElements": {
+    "Interest": {
+      "definition": "Taxa anual de um instrumento financeiro."
+    },
+    "RelatedIndex": {
+      "definition": "Taxa de índice relativa à taxa de juro do próximo pagamento de juros."
+    },
+    "PercentageSought": {
+      "definition": "Percentagem de valores mobiliários que o oferente/emitente adquirirá ou resgatará nos termos do evento. Pode ser um número ou a expressão «any and all»."
+    },
+    "ReinvestmentDiscountToMarket": {
+      "definition": "Taxa de desconto dos valores mobiliários adquiridos através de um plano de reinvestimento em comparação com o preço de mercado atual do valor mobiliário."
+    },
+    "Spread": {
+      "definition": "Margem permitida acima ou abaixo de uma determinada taxa."
+    },
+    "BidInterval": {
+      "definition": "Incremento de preço aceitável utilizado para a apresentação de uma oferta de compra."
+    },
+    "Charges": {
+      "definition": "Taxa utilizada para calcular o montante dos encargos/comissões que não podem ser categorizados."
+    }
+  }
+}

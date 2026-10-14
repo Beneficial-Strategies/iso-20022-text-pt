@@ -1,0 +1,15 @@
+{
+  "isoType": "TotalAmountAndCurrency1",
+  "definition": "Conjunto de elementos que indica o montante total de todas as operações.",
+  "isoElements": {
+    "TotalAmount": {
+      "definition": "Montante líquido total de todas as operações consideradas no relatório."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o montante total é um montante a crédito ou a débito."
+    },
+    "Currency": {
+      "definition": "Moeda em que o montante total é expresso."
+    }
+  }
+}

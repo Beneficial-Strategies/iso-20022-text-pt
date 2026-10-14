@@ -1,0 +1,12 @@
+{
+  "isoType": "YieldedOrValueType1Choice",
+  "definition": "Escolha do tipo de valor.",
+  "isoElements": {
+    "Yielded": {
+      "definition": "Indica se o preço é expresso como rendimento."
+    },
+    "ValueType": {
+      "definition": "Tipo de valor em que o preço é expresso."
+    }
+  }
+}

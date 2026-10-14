@@ -1,0 +1,12 @@
+{
+  "isoType": "NettingIdentification2Choice",
+  "definition": "Escolha entre a identificação de um grupo de compensação por saldos líquidos ou uma parte negociadora individual.",
+  "isoElements": {
+    "TradeParty": {
+      "definition": "Descreve a parte negociadora individual."
+    },
+    "NettingGroupIdentification": {
+      "definition": "Descreve o grupo de compensação por saldos líquidos."
+    }
+  }
+}

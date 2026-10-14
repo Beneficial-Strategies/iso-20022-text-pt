@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentRole1Choice",
+  "definition": "Especifica o papel associado a uma parte específica em relação a uma instrução de pagamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Papel da parte no pagamento, em forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Papel da parte no pagamento, em forma proprietária."
+    }
+  }
+}

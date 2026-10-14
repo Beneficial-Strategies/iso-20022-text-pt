@@ -1,0 +1,50 @@
+{
+  "isoType": "ExternalReversalReason1Code",
+  "definition": "Especifica o motivo da reversão, tal como publicado numa lista externa de códigos de motivos de reversão.|As listas de códigos externas podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "AC03": {
+      "name": "Número de conta do credor inválido",
+      "definition": "IBAN errado em SCT"
+    },
+    "AC04": {
+      "name": "Número de conta encerrada",
+      "definition": "O número de conta especificado foi encerrado nos registos do recetor"
+    },
+    "AG02": {
+      "name": "Código de operação bancária inválido",
+      "definition": "O código de operação bancária especificado na mensagem não é válido para o destinatário"
+    },
+    "AM05": {
+      "name": "Duplicação",
+      "definition": "Duplicação"
+    },
+    "AM09": {
+      "name": "Montante errado",
+      "definition": "Montante errado em SCT"
+    },
+    "MD01": {
+      "name": "Sem mandato",
+      "definition": "Sem mandato"
+    },
+    "MD05": {
+      "name": "Cobrança não vencida",
+      "definition": "O credor ou a instituição do credor não deveria ter cobrado o débito direto"
+    },
+    "MS02": {
+      "name": "Motivo não especificado, gerado pelo cliente",
+      "definition": "O motivo não foi especificado pelo cliente final"
+    },
+    "MS03": {
+      "name": "Motivo não especificado gerado pela instituição",
+      "definition": "O motivo não foi especificado pela instituição."
+    },
+    "RC07": {
+      "name": "Identificador BIC do credor inválido",
+      "definition": "BIC errado em SCT"
+    },
+    "TM01": {
+      "name": "Hora-limite",
+      "definition": "A mensagem associada foi recebida após a hora-limite de processamento acordada."
+    }
+  }
+}

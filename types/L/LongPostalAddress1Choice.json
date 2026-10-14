@@ -1,0 +1,12 @@
+{
+  "isoType": "LongPostalAddress1Choice",
+  "definition": "Informações que localizam e identificam um endereço específico, tal como definido pelos serviços postais.",
+  "isoElements": {
+    "Unstructured": {
+      "definition": "Informações que localizam e identificam um endereço específico, tal como definido pelos serviços postais, apresentadas em texto de formato livre."
+    },
+    "Structured": {
+      "definition": "Informações que localizam e identificam um endereço específico, conforme definido pelos serviços postais, apresentadas numa estrutura formal."
+    }
+  }
+}

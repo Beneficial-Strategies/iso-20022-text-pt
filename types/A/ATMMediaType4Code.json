@@ -1,0 +1,46 @@
+{
+  "isoType": "ATMMediaType4Code",
+  "definition": "Tipo de meio no interior de uma cassete de ATM.",
+  "isoCodes": {
+    "CARD": {
+      "name": "Cartões",
+      "definition": "Meio de cartões."
+    },
+    "COIN": {
+      "name": "Moedas",
+      "definition": "Meio de moedas."
+    },
+    "CMDT": {
+      "name": "Mercadoria",
+      "definition": "Valor não fixo do meio, por exemplo ouro, prata."
+    },
+    "CPNS": {
+      "name": "Cupões",
+      "definition": "Meio de cupões."
+    },
+    "NOTE": {
+      "name": "Notas",
+      "definition": "Meio de notas de banco."
+    },
+    "STMP": {
+      "name": "Selos",
+      "definition": "Meio de selos."
+    },
+    "UDTM": {
+      "name": "Indeterminado",
+      "definition": "Meios indeterminados."
+    },
+    "CHCK": {
+      "name": "Cheque",
+      "definition": "Meio de cheques."
+    },
+    "ENVP": {
+      "name": "Envelope",
+      "definition": "Um envelope que contém montantes desconhecidos de itens desconhecidos."
+    },
+    "MLTP": {
+      "name": "Múltiplo",
+      "definition": "Vários itens, fora de envelopes ou em vários envelopes."
+    }
+  }
+}

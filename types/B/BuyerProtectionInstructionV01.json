@@ -1,0 +1,4 @@
+{
+  "isoType": "BuyerProtectionInstructionV01",
+  "definition": "Âmbito|A mensagem BuyeProtectionInstruction é enviada por um titular de conta a uma entidade gestora de contas para instruir uma proteção do comprador numa instrução de liquidação pendente.|||Utilização|A mensagem também pode ser utilizada para:|- reenviar uma mensagem enviada anteriormente (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy Duplicate), utilizando os elementos pertinentes do cabeçalho aplicacional da mensagem (BAH)."
+}

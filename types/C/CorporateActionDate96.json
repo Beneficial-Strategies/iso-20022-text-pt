@@ -1,0 +1,116 @@
+{
+  "isoType": "CorporateActionDate96",
+  "definition": "Especifica as datas da operação de sociedade.",
+  "isoElements": {
+    "AnnouncementDate": {
+      "definition": "Data/hora em que o emitente anunciou que ocorrerá um evento de operação de sociedade."
+    },
+    "CertificationDeadline": {
+      "definition": "Prazo até ao qual a certificação tem de ser enviada."
+    },
+    "CourtApprovalDate": {
+      "definition": "Data em que o tribunal concedeu a aprovação."
+    },
+    "EarlyClosingDate": {
+      "definition": "Primeira data possível de encerramento antecipado de uma oferta, se diferente da data de termo."
+    },
+    "EffectiveDate": {
+      "definition": "Data/hora em que um evento produz oficialmente efeitos na perspetiva do emitente."
+    },
+    "EqualisationDate": {
+      "definition": "Data/hora a partir da qual toda ou parte de qualquer participação adquirida num fundo de investimento (unit trust) fica sujeita a ser tratada como capital e não como rendimento. Normalmente corresponde ao dia seguinte à data ex da distribuição anterior."
+    },
+    "FurtherDetailedAnnouncementDate": {
+      "definition": "Data/hora em que serão anunciadas informações adicionais sobre o evento, por exemplo, a data de anúncio da relação de troca."
+    },
+    "FixingDate": {
+      "definition": "Data/hora em que será determinado um índice / taxa / preço / valor."
+    },
+    "LotteryDate": {
+      "definition": "Data/hora em que o sorteio é realizado e aplicado às posições do titular. Aplica-se também a resgates parciais."
+    },
+    "NewMaturityDate": {
+      "definition": "Data/hora para a qual é prorrogada a data de vencimento de um valor mobiliário que vence juros."
+    },
+    "MeetingDate": {
+      "definition": "Data/hora em que se realizará a assembleia de obrigacionistas ou de acionistas."
+    },
+    "MarginFixingDate": {
+      "definition": "Data/hora em que será determinada a taxa de margem."
+    },
+    "ProrationDate": {
+      "definition": "Data/hora (e hora) em que um emitente determinará o montante/quantidade de rateio de uma oferta."
+    },
+    "RecordDate": {
+      "definition": "Data/hora em que as posições são apuradas no final do dia para determinar quais as partes que receberão o montante de direitos devido a distribuir na data de pagamento."
+    },
+    "RegistrationDeadline": {
+      "definition": "Data/hora em que serão aceites instruções de registo ou dados de registo."
+    },
+    "ResultsPublicationDate": {
+      "definition": "Data/hora em que os resultados são publicados, por exemplo, os resultados de uma oferta."
+    },
+    "DeadlineToSplit": {
+      "definition": "Prazo até ao qual têm de ser recebidas as instruções para fracionar valores mobiliários, por exemplo, de certificados físicos."
+    },
+    "DeadlineForTaxBreakdownInstruction": {
+      "definition": "Data/hora até à qual serão aceites instruções de discriminação fiscal."
+    },
+    "TradingSuspendedDate": {
+      "definition": "Data/hora em que a negociação de um valor mobiliário é suspensa em resultado de um evento."
+    },
+    "UnconditionalDate": {
+      "definition": "Data/hora em que os termos da oferta pública de aquisição se tornam incondicionais quanto às aceitações."
+    },
+    "WhollyUnconditionalDate": {
+      "definition": "Data/hora em que foram cumpridas todas as condições, incluindo regulamentares, legais, etc., relativas à oferta pública de aquisição."
+    },
+    "ExDividendDate": {
+      "definition": "Data/hora a partir da qual a negociação (incluindo a negociação em bolsa e OTC) do valor mobiliário subjacente ocorre sem o benefício."
+    },
+    "OfficialAnnouncementPublicationDate": {
+      "definition": "Data/hora em que a operação de sociedade é legalmente anunciada por uma entidade oficial, por exemplo, por publicação de uma administração pública."
+    },
+    "SpecialExDate": {
+      "definition": "Data/hora a partir da qual os participantes podem começar a utilizar o \"tratamento especial\" para esse evento. O tratamento especial é uma forma de marcar uma operação, que normalmente seria negociada ex ou cum, como negociada cum ou ex, respetivamente; por exemplo, uma operação realizada em regime \"especial\" após a data ex faria com que o comprador tivesse direito ao benefício. É normalmente utilizado nos mercados do UK e da Irlanda."
+    },
+    "GuaranteedParticipationDate": {
+      "definition": "Última data/hora até à qual uma contraparte compradora de uma operação pode ter a certeza de que terá o direito de participar num evento."
+    },
+    "ElectionToCounterpartyMarketDeadline": {
+      "definition": "Prazo até ao qual um titular com direito tem de informar a sua contraparte numa operação da sua escolha relativamente a um evento de operação de sociedade, também conhecido como Buyer Protection Deadline."
+    },
+    "ElectionToCounterpartyResponseDeadline": {
+      "definition": "Data/hora fixada pela instituição gestora da conta como prazo para responder, com instruções, antes do prazo de mercado de escolha para a contraparte."
+    },
+    "LapsedDate": {
+      "definition": "Data/hora em que um evento/oferta é terminado ou caduca."
+    },
+    "PaymentDate": {
+      "definition": "Data/hora em que o movimento deve ocorrer (numerário e/ou valores mobiliários)."
+    },
+    "ThirdPartyDeadline": {
+      "definition": "Data/hora até à qual o titular da conta tem de dar instruções diretamente a outra parte, por exemplo, para fornecer documentação a um agente do emitente."
+    },
+    "EarlyThirdPartyDeadline": {
+      "definition": "Data/hora fixada pelo agente do emitente como primeiro prazo antecipado até ao qual o titular da conta tem de dar instruções diretamente a outra parte, podendo conferir ao titular elegibilidade para incentivos. Por exemplo, para fornecer documentação a um agente do emitente."
+    },
+    "MarketClaimTrackingEndDate": {
+      "definition": "Data até à qual o depositário deixa de acompanhar as atividades do evento, por exemplo, terminam as atividades de contabilização e seguimento das due bills."
+    },
+    "LeadPlaintiffDeadline": {
+      "definition": "Último dia em que um investidor pode tornar-se autor principal (lead plaintiff)."
+    },
+    "FilingDate": {
+      "definition": "Data em que a ação foi intentada no tribunal competente."
+    },
+    "HearingDate": {
+      "definition": "Data da audiência entre o autor e o réu, fixada pelo tribunal."
+    }
+  },
+  "isoRules": {
+    "EffectiveDateRule": {
+      "definition": "A data de produção de efeitos deve ser utilizada em eventos em que não existe o conceito de direito, por exemplo Alteração de Denominação (CHAN) ou Local de Constituição (PLAC), e em eventos em que existe uma noção de elegibilidade mas com obrigação legal, por exemplo Fusão (MRGR)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporationActionMovementProcessingStatus2",
+  "definition": "Fornece o estado de tratamento do pedido de cancelamento de movimento.",
+  "isoElements": {
+    "Status": {
+      "definition": "O estado de processamento."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre o estado."
+    }
+  }
+}

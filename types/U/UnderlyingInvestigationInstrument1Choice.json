@@ -1,0 +1,12 @@
+{
+  "isoType": "UnderlyingInvestigationInstrument1Choice",
+  "definition": "Especifica o tipo de instrumento ou produto a que a investigação diz respeito.",
+  "isoElements": {
+    "Code": {
+      "definition": "Instrumento ou produto subjacente, conforme publicado num conjunto externo de códigos de instrumentos de investigação subjacentes."
+    },
+    "Proprietary": {
+      "definition": "Instrumento ou produto subjacente, numa forma proprietária."
+    }
+  }
+}

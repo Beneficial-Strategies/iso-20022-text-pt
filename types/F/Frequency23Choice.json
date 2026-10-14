@@ -1,0 +1,12 @@
+{
+  "isoType": "Frequency23Choice",
+  "definition": "Escolha do formato de uma periodicidade, por exemplo, uma periodicidade de pagamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Frequência expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Frequência expressa como um código proprietário."
+    }
+  }
+}

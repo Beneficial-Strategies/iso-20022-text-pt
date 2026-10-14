@@ -1,0 +1,12 @@
+{
+  "isoType": "ProprietaryData7",
+  "definition": "Contentor para informações proprietárias. O conteúdo de negócio deste elemento não está especificado.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo de documento proprietário."
+    },
+    "Data": {
+      "definition": "Conteúdo de dados proprietários."
+    }
+  }
+}

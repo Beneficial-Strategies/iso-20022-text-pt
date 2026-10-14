@@ -1,0 +1,48 @@
+{
+  "isoType": "ConfirmationParties7",
+  "definition": "Partes utilizadas para as partes intervenientes que se aplicam à totalidade da mensagem ou a lados individuais.",
+  "isoElements": {
+    "Buyer": {
+      "definition": "Parte que compra bens ou serviços, ou um instrumento financeiro."
+    },
+    "Borrower": {
+      "definition": "Parte que se candidatou, cumpriu requisitos específicos e recebeu de um mutuante um empréstimo em numerário ou em valores mobiliários. A parte que inicia o pedido assina uma nota promissória, comprometendo-se a reembolsar o titular do ónus durante um prazo especificado, pela totalidade do montante do empréstimo acrescido de quaisquer encargos adicionais. O mutuário é legalmente responsável pelo reembolso do empréstimo e está sujeito a quaisquer sanções por falta de reembolso, de acordo com as condições de empréstimo acordadas."
+    },
+    "Seller": {
+      "definition": "Parte que vende bens ou serviços, ou um instrumento financeiro."
+    },
+    "Lender": {
+      "definition": "Entidade privada, pública ou institucional que disponibiliza fundos a terceiros para empréstimo."
+    },
+    "BrokerOfCredit": {
+      "definition": "Sociedade corretora que é o corretor comissionado numa operação com vários corretores."
+    },
+    "IntroducingFirm": {
+      "definition": "Corretor ou outro intermediário com a ligação mais estreita ao investidor."
+    },
+    "StepInFirm": {
+      "definition": "Sociedade corretora designada para receber o crédito da operação por parte da sociedade corretora de step-out."
+    },
+    "StepOutFirm": {
+      "definition": "Sociedade corretora que executa uma ordem, mas atribui a outras sociedades o crédito e parte da comissão da operação."
+    },
+    "ClearingFirm": {
+      "definition": "Parte, também designada corretor de take-up, que liquida operações sobre valores mobiliários de outro corretor mediante o pagamento de uma comissão."
+    },
+    "ExecutingBroker": {
+      "definition": "Parte responsável pela execução de uma ordem (por exemplo, um corretor executante ou de give-up). Normalmente é cobrada ao cliente uma comissão pela execução de uma ordem."
+    },
+    "CMUParty": {
+      "definition": "Parte que envia a mensagem à CMU (Central Matching Utility) para identificar a unidade de negócio efetiva, tal como conhecida da CMU (Central Matching Utility)."
+    },
+    "CMUCounterparty": {
+      "definition": "Unidade de negócio efetiva da contraparte do remetente da mensagem à CMU (Central Matching Utility), tal como conhecida da CMU (Central Matching Utility)."
+    },
+    "AffirmingParty": {
+      "definition": "Parte (comprador ou vendedor) que afirma positivamente os detalhes de uma confirmação de operação sobre valores mobiliários previamente acordada."
+    },
+    "TradeBeneficiaryParty": {
+      "definition": "Parte envolvida num processo judicial, num acordo ou noutra operação."
+    }
+  }
+}

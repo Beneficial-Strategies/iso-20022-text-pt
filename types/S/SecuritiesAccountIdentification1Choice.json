@@ -1,0 +1,12 @@
+{
+  "isoType": "SecuritiesAccountIdentification1Choice",
+  "definition": "Escolha entre uma ou mais contas selecionadas.",
+  "isoElements": {
+    "SafekeepingAccount": {
+      "definition": "Conta onde os instrumentos financeiros são mantidos."
+    },
+    "BlockChainAddressOrWallet": {
+      "definition": "Endereço blockchain ou carteira onde os ativos digitais são mantidos. É o equivalente da conta de custódia para os ativos digitais."
+    }
+  }
+}

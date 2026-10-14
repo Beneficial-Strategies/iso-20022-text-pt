@@ -1,0 +1,12 @@
+{
+  "isoType": "QuantityRangeBoundary1",
+  "definition": "Limite de um intervalo de quantidades.",
+  "isoElements": {
+    "Boundary": {
+      "definition": "Valor da quantidade do limite do intervalo."
+    },
+    "Included": {
+      "definition": "Indica se a quantidade-limite está incluída no intervalo de valores de quantidade."
+    }
+  }
+}

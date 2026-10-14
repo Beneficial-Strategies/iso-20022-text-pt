@@ -1,0 +1,4 @@
+{
+  "isoType": "FundConfirmedCashForecastReportCancellationV03",
+  "definition": "Âmbito|Um prestador de relatórios, como um agente de transferências, envia a mensagem FundConfirmedCashForecastReportCancellation ao utilizador do relatório, como um gestor de investimentos ou agente de avaliação, para cancelar uma mensagem FundConfirmedCashForecastReport enviada anteriormente.|Utilização|A mensagem FundConfirmedCashForecastReportCancellation é utilizada para cancelar na íntegra uma mensagem FundConfirmedCashForecastReport enviada anteriormente pelo prestador de relatórios. Esta mensagem deve conter a referência da mensagem a cancelar.|Esta mensagem pode também conter pormenores da mensagem a cancelar, mas tal não é recomendado."
+}

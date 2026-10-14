@@ -1,0 +1,15 @@
+{
+  "isoType": "PledgeeFormat6Choice",
+  "definition": "Escolha entre formatos para a entidade a favor da qual os instrumentos financeiros são penhorados.",
+  "isoElements": {
+    "TypeAndIdentification": {
+      "definition": "Identificação da entidade a favor da qual os instrumentos financeiros são penhorados, expressa como um código e um BIC."
+    },
+    "Identification": {
+      "definition": "Identificação da entidade a favor da qual os instrumentos financeiros são penhorados, expressa como um código e uma descrição narrativa."
+    },
+    "Proprietary": {
+      "definition": "Identificação da entidade a favor da qual os instrumentos financeiros são penhorados, expressa como um tipo proprietário e uma descrição narrativa."
+    }
+  }
+}

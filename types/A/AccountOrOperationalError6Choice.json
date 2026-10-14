@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountOrOperationalError6Choice",
+  "definition": "Escolha entre os pormenores da conta ou um erro operacional quando os dados solicitados não puderam ser obtidos.",
+  "isoElements": {
+    "AccountReport": {
+      "definition": "Reporta as informações da conta ou um erro funcional."
+    },
+    "OperationalError": {
+      "definition": "Indica que foi emitido um erro operacional durante o processamento do pedido associado."
+    }
+  }
+}

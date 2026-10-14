@@ -1,0 +1,12 @@
+{
+  "isoType": "Vote15",
+  "definition": "Voto expresso para uma deliberação.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Número da deliberação, conforme especificado pelo emitente ou pelo seu agente."
+    },
+    "VoteOption": {
+      "definition": "Voto instruído."
+    }
+  }
+}

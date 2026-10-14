@@ -1,0 +1,38 @@
+{
+  "isoType": "CorporateActionQuantity15",
+  "definition": "Especifica as quantidades de uma operação de sociedade.",
+  "isoElements": {
+    "MaximumQuantity": {
+      "definition": "Número máximo de valores mobiliários que o oferente/emitente está disposto a adquirir ou reembolsar. Pode ser um número ou o termo \"any and all\"."
+    },
+    "MinimumQuantitySought": {
+      "definition": "Quantidade mínima de valores mobiliários que o oferente/emitente está disposto a adquirir ou reembolsar nos termos do evento. Pode ser um número ou o termo \"any and all\"."
+    },
+    "NewBoardLotQuantity": {
+      "definition": "Quantidade de ações que constitui o novo lote de negociação."
+    },
+    "NewDenominationQuantity": {
+      "definition": "Nova denominação das ações na sequência, por exemplo, de um aumento ou diminuição do valor nominal."
+    },
+    "BaseDenomination": {
+      "definition": "Montante integral mínimo de valores mobiliários que cada titular de conta tem de conservar após a aplicação dos montantes resgatados."
+    },
+    "IncrementalDenomination": {
+      "definition": "Montante utilizado quando o montante resgatado não é atingido ao realizar o sorteio com a denominação de base."
+    },
+    "SecurityCalledQuantity": {
+      "definition": "Quantidade total dos valores mobiliários subjacentes resgatados, detidos ou não no depositário."
+    },
+    "NewOutstandingQuantity": {
+      "definition": "Nova quantidade em circulação dos valores mobiliários subjacentes após o tratamento."
+    },
+    "TotalOutstandingQuantity": {
+      "definition": "Quantidade total em circulação dos valores mobiliários subjacentes à data de publicação do aviso."
+    }
+  },
+  "isoRules": {
+    "MaximumAndMinimumQuantitySoughtUsageRule": {
+      "definition": "Quando MaximumQuantity estiver presente, MinimumQuantitySought também tem de estar presente. Quando MinimumQuantitySought estiver presente, MaximumQuantity também tem de estar presente.|Quando MinimumQuantitySought/Code for AnyAndAll, então MaximumQuantity/Code não pode ser AnyAndAll.|Quando MaximumQuantity/Code for AnyAndAll, MinimumQuantitySought/code não pode ser utilizado com o valor AnyAndAll."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxType3FormatChoice",
+  "definition": "Escolha de formatos para expressar o tipo de impostos.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de impostos."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para expressar o tipo de impostos."
+    }
+  }
+}

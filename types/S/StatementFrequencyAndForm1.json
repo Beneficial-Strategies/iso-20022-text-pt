@@ -1,0 +1,18 @@
+{
+  "isoType": "StatementFrequencyAndForm1",
+  "definition": "Especifica uma periodicidade, um formato e um endereço de entrega para os extratos.",
+  "isoElements": {
+    "Frequency": {
+      "definition": "Especifica a periodicidade de envio dos extratos."
+    },
+    "CommunicationMethod": {
+      "definition": "Especifica o método de comunicação dos extratos."
+    },
+    "DeliveryAddress": {
+      "definition": "Especifica o endereço de entrega dos extratos."
+    },
+    "Format": {
+      "definition": "Especifica o formato dos extratos."
+    }
+  }
+}

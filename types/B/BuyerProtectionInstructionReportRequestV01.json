@@ -1,0 +1,9 @@
+{
+  "isoType": "BuyerProtectionInstructionReportRequestV01",
+  "definition": "Âmbito|A mensagem BuyerProtectionInstructionReportRequest é enviada por um titular de conta ou pelo seu agente designado a uma entidade gestora de contas para solicitar um relatório de todas as instruções de proteção do comprador ao nível da conta de custódia, para um ou mais eventos de operações sobre títulos, ou ao nível do evento de operação sobre títulos, para uma ou mais contas de custódia.||Utilização|A mensagem pode também ser utilizada para:|- reenviar uma mensagem anteriormente enviada (a subfunção da mensagem é Duplicate),|- fornecer a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy),|- reenviar a um terceiro uma cópia de uma mensagem a título informativo (a subfunção da mensagem é Copy Duplicate), utilizando os elementos pertinentes do cabeçalho aplicacional de negócio (BAH).",
+  "isoElements": {
+    "QueryReference": {
+      "definition": "Identificação da mensagem SecuritiesStatementQuery enviada para solicitar este extrato."
+    }
+  }
+}

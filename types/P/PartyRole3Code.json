@@ -1,0 +1,10 @@
+{
+  "isoType": "PartyRole3Code",
+  "definition": "Especifica o papel da parte na operação.",
+  "isoCodes": {
+    "GATR": {
+      "name": "Garante",
+      "definition": "Pessoa coletiva, que não o emitente, que presta uma garantia. O garante torna-se responsável em caso de incumprimento."
+    }
+  }
+}

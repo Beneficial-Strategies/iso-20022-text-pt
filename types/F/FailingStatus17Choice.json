@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingStatus17Choice",
+  "definition": "Escolha do estado de incumprimento.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que não existe motivo disponível ou a reportar."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo do estado de incumprimento."
+    }
+  }
+}

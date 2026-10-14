@@ -1,0 +1,12 @@
+{
+  "isoType": "ProcessedStatus5FormatChoice",
+  "definition": "Escolha de formatos para exprimir o estado de tratamento de um pedido.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o estado de tratamento de um pedido."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir o estado de tratamento de um pedido."
+    }
+  }
+}

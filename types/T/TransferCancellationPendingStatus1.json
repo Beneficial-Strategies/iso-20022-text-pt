@@ -1,0 +1,9 @@
+{
+  "isoType": "TransferCancellationPendingStatus1",
+  "definition": "O estado do cancelamento da transferência é pendente.",
+  "isoElements": {
+    "Reason": {
+      "definition": "Motivo do estado de cancelamento pendente."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "TaxationBasis5Code",
+  "definition": "Especifica a base do imposto ou do encargo.",
+  "isoCodes": {
+    "FLAT": {
+      "name": "Montante fixo",
+      "definition": "A base do encargo/imposto é um montante fixo."
+    },
+    "GRAM": {
+      "name": "Montante bruto",
+      "definition": "A base do encargo/comissão/imposto assenta no montante bruto."
+    },
+    "NEAM": {
+      "name": "Montante líquido",
+      "definition": "A base do encargo/comissão/imposto assenta no montante líquido."
+    },
+    "NAVP": {
+      "name": "Preço do valor líquido global",
+      "definition": "A base do encargo/imposto é o preço."
+    },
+    "PERU": {
+      "name": "Por unidade",
+      "definition": "A base dos encargos/imposto é por unidade de instrumento financeiro."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "isoType": "ProcessingPosition3Code",
+  "definition": "Especifica a posição de processamento.",
+  "isoCodes": {
+    "AFTE": {
+      "name": "Depois",
+      "definition": "Especifica que a operação/instrução deve ser executada após a operação/instrução associada."
+    },
+    "WITH": {
+      "name": "Com",
+      "definition": "Especifica que a operação/instrução deve ser executada em conjunto com a operação/instrução associada."
+    },
+    "BEFO": {
+      "name": "Antes",
+      "definition": "Especifica que a operação/instrução deve ser executada antes da operação/instrução associada."
+    },
+    "INFO": {
+      "name": "Informação",
+      "definition": "Especifica que as operações/instruções estão associadas apenas para fins informativos."
+    }
+  }
+}

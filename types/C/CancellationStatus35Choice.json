@@ -1,0 +1,15 @@
+{
+  "isoType": "CancellationStatus35Choice",
+  "definition": "Estado aplicável ao pedido de cancelamento de instrução recebido.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Estado que informa sobre o tratamento do pedido de cancelamento da instrução."
+    },
+    "Rejected": {
+      "definition": "Estado que informa sobre a rejeição do pedido de cancelamento da instrução e o motivo da rejeição."
+    },
+    "PendingCancellation": {
+      "definition": "Estado que informa que o pedido de cancelamento da instrução está pendente e o motivo do estado pendente."
+    }
+  }
+}

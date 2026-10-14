@@ -1,0 +1,21 @@
+{
+  "isoType": "LimitIdentification7",
+  "definition": "Funcionalidade de gestão de tesouraria que limita o risco máximo que uma parte aceita assumir relativamente a uma contraparte ou a um conjunto de contrapartes. Um limite de gestão de risco é bilateral, ou seja, para uma contraparte, ou multilateral, ou seja, para um conjunto de contrapartes ou para todos os outros membros de um sistema. O limite pode também aplicar-se a membros patrocinados, ou seja, membros indiretos. Em princípio, um limite de gestão de risco é calculado sobre a posição líquida entre dois membros e é expresso como um limite de crédito ou de débito, do ponto de vista da parte que define o limite.",
+  "isoElements": {
+    "AccountIdentification": {
+      "definition": "Identificação única, atribuída pela instituição gestora da conta, para identificar inequivocamente a conta."
+    },
+    "Type": {
+      "definition": "Natureza do limite de gestão de risco."
+    },
+    "LimitCurrency": {
+      "definition": "Unidade monetária utilizada para especificar o montante do limite."
+    },
+    "AccountOwner": {
+      "definition": "Titular da conta que está a ser consultada."
+    },
+    "BilateralLimitCounterpartyIdentification": {
+      "definition": "Identificação do membro do sistema para o qual o limite é estabelecido."
+    }
+  }
+}

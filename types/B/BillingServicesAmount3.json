@@ -1,0 +1,12 @@
+{
+  "isoType": "BillingServicesAmount3",
+  "definition": "Conversões para a moeda de origem do montante do encargo de serviço tributável.",
+  "isoElements": {
+    "SourceAmount": {
+      "definition": "Representa o total de todos os serviços tributáveis numa região fiscal específica para uma moeda específica. Por exemplo, todos os serviços tributáveis de uma região fiscal em euros seriam totalizados aqui na moeda euro."
+    },
+    "HostAmount": {
+      "definition": "Representa o total de todos os serviços tributáveis numa região fiscal específica para uma moeda específica e tem uma relação de um para um com o encargo tributável total dos serviços, mas representado na moeda de origem após a conversão."
+    }
+  }
+}

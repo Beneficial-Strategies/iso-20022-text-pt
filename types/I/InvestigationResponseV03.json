@@ -1,0 +1,4 @@
+{
+  "isoType": "InvestigationResponseV03",
+  "definition": "Âmbito|A mensagem InvestigationResponse é enviada entre instituições para fornecer uma resposta ou uma atualização do estado de uma investigação.|Utilização|A mensagem InvestigationResponse deve ser utilizada para responder a uma mensagem InvestigationRequest. As respostas abrangem os seguintes cenários de negócio -|- impossibilidade de aplicação;|- pedido de informações;|- pedido de ajuste da data-valor;|- reclamação de não receção;|- pedido de autorização de débito;|- pedido de utilização de fundos;|- iniciação de pagamento não confirmada;|- cenários de negócio diversos.|A mensagem InvestigationResponse abrange uma e apenas uma operação ou lançamento de cada vez, exceto quando responde a alguns pedidos de informações."
+}

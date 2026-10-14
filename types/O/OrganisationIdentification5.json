@@ -1,0 +1,12 @@
+{
+  "isoType": "OrganisationIdentification5",
+  "definition": "Identificação oficial de uma organização (pessoa coletiva) num registo específico.",
+  "isoElements": {
+    "RegistrationNumber": {
+      "definition": "Nome do registo de pessoas coletivas."
+    },
+    "RegisterName": {
+      "definition": "Nome do registo gerido por uma autoridade de registo."
+    }
+  }
+}

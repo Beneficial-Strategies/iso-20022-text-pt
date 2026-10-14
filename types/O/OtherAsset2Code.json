@@ -1,0 +1,26 @@
+{
+  "isoType": "OtherAsset2Code",
+  "definition": "Especifica um tipo de ativo.",
+  "isoCodes": {
+    "DIMA": {
+      "name": "Discricionário",
+      "definition": "O ativo é uma conta de gestor de investimentos discricionário"
+    },
+    "EXIA": {
+      "name": "Conta externa",
+      "definition": "O ativo é uma conta de investimento externa."
+    },
+    "MOVE": {
+      "name": "Bens móveis",
+      "definition": "Bem que não é imobiliário. Também conhecido como «bens móveis»."
+    },
+    "PROP": {
+      "name": "Bens imóveis",
+      "definition": "Bem que é imobiliário."
+    },
+    "TIPP": {
+      "name": "Plano de investimento do fiduciário",
+      "definition": "O ativo é um plano de investimento de fiduciário (TIP)."
+    }
+  }
+}

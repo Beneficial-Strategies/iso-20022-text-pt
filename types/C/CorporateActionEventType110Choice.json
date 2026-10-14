@@ -1,0 +1,17 @@
+{
+  "isoType": "CorporateActionEventType110Choice",
+  "definition": "Escolha do formato do motivo de correção.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de evento de operação sobre títulos expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Tipo de evento de operação sobre títulos expresso como um código proprietário."
+    }
+  },
+  "isoRules": {
+    "EventTypeRule": {
+      "definition": "A utilização de um código específico de tipo de evento de operação sobre títulos só é permitida se esse evento específico desencadear um movimento de valores mobiliários, de acordo com a Event Interpretation Grid publicada pelo Securities Market Practice Group (SMPG).|O código de indicador de evento de operação sobre títulos OTHR só deve ser utilizado se nenhum outro código de evento de operação sobre títulos for adequado.|O código de indicador de evento de operação sobre títulos CHAN só deve ser utilizado se nenhum outro código de evento de operação sobre títulos for adequado e apenas para um evento relacionado com uma alteração.|O código de indicador de evento de operação sobre títulos REDM só deve ser utilizado quando o reembolso for decidido pelo emitente e não pelos detentores."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "isoType": "SecuritiesFinancingTransactionType2Code",
+  "definition": "Especifica o tipo de operação de financiamento de valores mobiliários.",
+  "isoCodes": {
+    "REPU": {
+      "name": "Operação de reporte",
+      "definition": "Diz respeito a uma operação de acordo de recompra."
+    },
+    "RVPO": {
+      "name": "Acordo de revenda",
+      "definition": "Diz respeito a uma operação de acordo de recompra inversa."
+    },
+    "SECB": {
+      "name": "Tomada de empréstimo de valores mobiliários",
+      "definition": "Diz respeito a uma operação de contração de empréstimo de valores mobiliários."
+    },
+    "SECL": {
+      "name": "Concessão de empréstimo de valores mobiliários",
+      "definition": "Diz respeito a uma operação de concessão de empréstimo de valores mobiliários."
+    },
+    "BSBK": {
+      "name": "Compra com acordo de revenda",
+      "definition": "Diz respeito a uma operação de buy sell back."
+    },
+    "SBBK": {
+      "name": "Venda com acordo de recompra",
+      "definition": "Diz respeito a uma operação de sell buy back."
+    }
+  }
+}

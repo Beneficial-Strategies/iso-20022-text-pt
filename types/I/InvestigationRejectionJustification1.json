@@ -1,0 +1,9 @@
+{
+  "isoType": "InvestigationRejectionJustification1",
+  "definition": "Indica o motivo da rejeição da atribuição do processo.",
+  "isoElements": {
+    "RejectionReason": {
+      "definition": "Motivo da rejeição de uma atribuição de processo, em forma codificada."
+    }
+  }
+}

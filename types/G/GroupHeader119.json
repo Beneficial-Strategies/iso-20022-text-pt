@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader119",
+  "definition": "Conjunto de características comuns a todas as operações individuais incluídas na mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte instrutora e enviada à parte seguinte da cadeia para identificar inequivocamente a mensagem.|Utilização: A parte instrutora tem de garantir que MessageIdentification é único por parte instruída durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a mensagem foi criada."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operações individuais contidas na mensagem."
+    },
+    "ControlSum": {
+      "definition": "Total de todos os montantes individuais incluídos na mensagem, independentemente das moedas."
+    },
+    "InstructingAgent": {
+      "definition": "Instituição que instrui a parte seguinte da cadeia para executar a(s) instrução(ões)."
+    },
+    "InstructedAgent": {
+      "definition": "Instituição instruída pela parte anterior da cadeia para executar a(s) instrução(ões)."
+    }
+  }
+}

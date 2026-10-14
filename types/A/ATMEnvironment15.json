@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMEnvironment15",
+  "definition": "Ambiente do descarregamento de chaves.",
+  "isoElements": {
+    "Acquirer": {
+      "definition": "Adquirente das operações do ATM, responsável pela liquidação dos fundos com o emitente."
+    },
+    "ATMManagerIdentification": {
+      "definition": "Identificação do gestor do ATM."
+    },
+    "HostingEntity": {
+      "definition": "Entidade que aloja o terminal ATM."
+    },
+    "ATM": {
+      "definition": "Informação do ATM."
+    }
+  }
+}

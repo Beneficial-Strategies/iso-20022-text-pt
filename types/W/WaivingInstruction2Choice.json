@@ -1,0 +1,12 @@
+{
+  "isoType": "WaivingInstruction2Choice",
+  "definition": "Escolha de formatos para a instrução de dispensa.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de desconto ou de dispensa expresso como código."
+    },
+    "Proprietary": {
+      "definition": "Tipo de desconto ou de dispensa expresso como código proprietário."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "CancellationIndividualStatus1Code",
+  "definition": "Especifica o estado de um pedido de cancelamento.",
+  "isoCodes": {
+    "RJCR": {
+      "name": "Pedido de anulação rejeitado",
+      "definition": "O pedido de cancelamento foi rejeitado."
+    },
+    "ACCR": {
+      "name": "Pedido de anulação aceite",
+      "definition": "O cancelamento foi aceite."
+    },
+    "PDCR": {
+      "name": "Pedido de anulação pendente",
+      "definition": "O pedido de cancelamento está pendente."
+    }
+  }
+}

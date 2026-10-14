@@ -1,0 +1,14 @@
+{
+  "isoType": "ChargePaymentMethod1Code",
+  "definition": "Especifica como são pagas as despesas.",
+  "isoCodes": {
+    "CASH": {
+      "name": "Numerário",
+      "definition": "O pagamento é efetuado em numerário."
+    },
+    "UNIT": {
+      "name": "Unidade",
+      "definition": "As unidades são resgatadas para cobrir o pagamento."
+    }
+  }
+}

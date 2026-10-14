@@ -1,0 +1,18 @@
+{
+  "isoType": "Conversion4",
+  "definition": "Identificação de um instrumento financeiro.",
+  "isoElements": {
+    "SourceSecurity": {
+      "definition": "Identificação do valor mobiliário de origem."
+    },
+    "TotalUnitsNumber": {
+      "definition": "Número de unidades do valor mobiliário de origem."
+    },
+    "UnitsDetails": {
+      "definition": "Discriminação das unidades do valor mobiliário de origem."
+    },
+    "AdditionalInformation": {
+      "definition": "Informações adicionais sobre a conversão."
+    }
+  }
+}

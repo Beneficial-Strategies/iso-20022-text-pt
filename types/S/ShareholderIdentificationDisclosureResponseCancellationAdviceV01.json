@@ -1,0 +1,9 @@
+{
+  "isoType": "ShareholderIdentificationDisclosureResponseCancellationAdviceV01",
+  "definition": "A mensagem ShareholdersIdentificationDisclosureResponseCancellationAdvice é enviada por qualquer intermediário ao destinatário designado pelo emitente (como um agente do emitente) na mensagem de pedido de divulgação, a fim de cancelar a resposta de divulgação da identificação de acionistas, quer tenha sido enviada anteriormente numa única mensagem quer num conjunto de mensagens de resposta em várias partes/paginadas.",
+  "isoElements": {
+    "DisclosureResponseIdentification": {
+      "definition": "Identificação única da resposta de divulgação para a qual é enviado um aviso de cancelamento.|O mesmo número de identificação da resposta de divulgação deve ser utilizado ao cancelar uma resposta que é dividida em várias mensagens."
+    }
+  }
+}

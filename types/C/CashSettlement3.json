@@ -1,0 +1,12 @@
+{
+  "isoType": "CashSettlement3",
+  "definition": "Partes e contas de liquidação em numerário.",
+  "isoElements": {
+    "CashAccountDetails": {
+      "definition": "Conta a creditar ou a debitar. Quando se trata de uma conta a debitar, destina-se ao pagamento de uma subscrição de um fundo de investimento, de um pagamento de um plano de poupança, da compra de valores mobiliários ou do pagamento de encargos. Quando se trata de uma conta a creditar, destina-se ao pagamento de um montante resultante do resgate de unidades de participação de um fundo de investimento, da venda de valores mobiliários, de juros e de pagamentos de dividendos. Pode ser especificada uma única conta para todos os movimentos de numerário da conta, ou podem ser especificadas contas de numerário para tipos específicos de operações na conta."
+    },
+    "OtherCashSettlementDetails": {
+      "definition": "Método de pagamento diferente de uma conta de numerário."
+    }
+  }
+}

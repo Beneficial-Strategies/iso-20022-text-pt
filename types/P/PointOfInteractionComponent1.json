@@ -1,0 +1,24 @@
+{
+  "isoType": "PointOfInteractionComponent1",
+  "definition": "Dados relativos a um componente do POI que realiza a operação.",
+  "isoElements": {
+    "POIComponentType": {
+      "definition": "Tipo de componente pertencente a um terminal POI."
+    },
+    "ManufacturerIdentification": {
+      "definition": "Identificação do fornecedor de software, hardware ou sistema do componente do POI."
+    },
+    "Model": {
+      "definition": "Identificação de um modelo de componente do POI para um dado fabricante."
+    },
+    "VersionNumber": {
+      "definition": "Versão do componente pertencente a um dado modelo."
+    },
+    "SerialNumber": {
+      "definition": "Número de série de um componente."
+    },
+    "ApprovalNumber": {
+      "definition": "Número de aprovação único de um componente, emitido por um organismo de certificação.|Utilização: pode estar presente mais de um número de aprovação, quando atribuídos por organismos diferentes. A identificação do organismo de certificação tem de constar do número de aprovação (por exemplo, no início do valor)."
+    }
+  }
+}

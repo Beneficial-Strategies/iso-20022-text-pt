@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventStage1FormatChoice",
+  "definition": "Escolha de formatos para exprimir a fase do evento de CA.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar a fase do evento de CA."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir a fase do evento de CA."
+    }
+  }
+}

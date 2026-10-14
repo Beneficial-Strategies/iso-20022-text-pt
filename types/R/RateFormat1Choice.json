@@ -1,0 +1,12 @@
+{
+  "isoType": "RateFormat1Choice",
+  "definition": "Escolha de formato para exprimir uma taxa.",
+  "isoElements": {
+    "Rate": {
+      "definition": "O valor é expresso como uma taxa."
+    },
+    "NotSpecifiedRate": {
+      "definition": "O valor não está especificado."
+    }
+  }
+}

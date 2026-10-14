@@ -1,0 +1,38 @@
+{
+  "isoType": "OfferType5Code",
+  "definition": "Especifica as condições aplicáveis à oferta.",
+  "isoCodes": {
+    "DISS": {
+      "name": "Direitos dos acionistas dissidentes",
+      "definition": "O titular de valores mobiliários tem o direito de discordar de um evento obrigatório. Este direito não é inerente a todas as ofertas e, por conseguinte, só deve ser mencionado nos anúncios quando aplicável."
+    },
+    "NDIS": {
+      "name": "Direitos dos acionistas dissidentes não aplicáveis",
+      "definition": "Os direitos dos acionistas dissidentes não são aplicáveis a esta opção da oferta."
+    },
+    "FINL": {
+      "name": "Oferta final",
+      "definition": "Oferta final ou última oferta aos titulares, sujeita ao cumprimento das condições da oferta, por exemplo, 50 por cento de aceitação numa oferta pública."
+    },
+    "FCFS": {
+      "name": "Por ordem de chegada",
+      "definition": "Os valores mobiliários serão aceites pela ordem em que tenham sido apresentados até se atingir a quantidade-alvo pretendida."
+    },
+    "PART": {
+      "name": "Oferta parcial",
+      "definition": "Oferta feita pelo oferente relativamente a uma parte das ações em circulação que ainda não são detidas pelo oferente."
+    },
+    "ERUN": {
+      "name": "Troca de restrição",
+      "definition": "Troca de restrito para não restrito (ou vice-versa)."
+    },
+    "SQUE": {
+      "name": "Oferta de aquisição potestativa",
+      "definition": "Oferta lançada por uma sociedade, na posse de um grande número das ações (90% - 95%) de uma sociedade (geralmente na sequência de uma oferta pública de aquisição), a fim de adquirir as restantes ações dessa sociedade."
+    },
+    "ACPR": {
+      "name": "Prioridade de aceitação",
+      "definition": "O evento será pago segundo uma prioridade específica indicada na documentação da oferta. Os escalões superiores de valores mobiliários serão pagos antes dos escalões inferiores."
+    }
+  }
+}

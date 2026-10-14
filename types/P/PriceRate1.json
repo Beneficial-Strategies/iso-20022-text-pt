@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceRate1",
+  "definition": "Especifica um preço expresso sob a forma de taxa.",
+  "isoElements": {
+    "RateType": {
+      "definition": "Tipo de taxa, por exemplo, rendimento."
+    },
+    "Rate": {
+      "definition": "Preço expresso como uma taxa, ou seja, uma percentagem."
+    }
+  }
+}

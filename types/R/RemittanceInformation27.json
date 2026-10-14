@@ -1,0 +1,18 @@
+{
+  "isoType": "RemittanceInformation27",
+  "definition": "Informação fornecida para permitir a correspondência/reconciliação de um lançamento com os itens que o pagamento se destina a liquidar, como faturas comerciais num sistema de contas a receber.",
+  "isoElements": {
+    "RemittanceIdentification": {
+      "definition": "Identificação única, atribuída pelo ordenante, para identificar de forma inequívoca as informações de remessa dentro da mensagem."
+    },
+    "Unstructured": {
+      "definition": "Informação fornecida para permitir a correspondência/reconciliação de um lançamento com os itens que o pagamento se destina a liquidar, como faturas comerciais num sistema de contas a receber, sob forma não estruturada."
+    },
+    "Structured": {
+      "definition": "Informação fornecida para permitir a correspondência/reconciliação de um lançamento com os itens que o pagamento se destina a liquidar, como faturas comerciais num sistema de contas a receber, sob forma estruturada."
+    },
+    "OriginalPaymentInformation": {
+      "definition": "Conjunto de elementos utilizados para fornecer informações sobre as operações originais a que a mensagem de remessa se refere."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isoType": "CashBalance14",
+  "definition": "Detalhes do saldo de uma conta de numerário.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica a natureza de um saldo."
+    },
+    "CounterpartyType": {
+      "definition": "Especifica o tipo de contraparte relativamente à qual o saldo é calculado."
+    },
+    "CounterpartyIdentification": {
+      "definition": "Especifica a contraparte relativamente à qual o saldo é calculado."
+    },
+    "ValueDate": {
+      "definition": "Data e hora a partir da qual o saldo está ou estará disponível."
+    },
+    "ProcessingDate": {
+      "definition": "Data ou data e hora em que o saldo foi atualizado pela última vez na sequência de um lançamento efetuado na conta, nos livros da instituição gestora da conta."
+    }
+  },
+  "isoRules": {
+    "CounterpartyIdentification1Rule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de CounterpartyType igual a Multilateral (MULT), não é permitida nenhuma ocorrência de CounterpartyIdentification.|Se CounterpartyType não estiver presente, qualquer ocorrência de CounterpartyIdentification é facultativa."
+    },
+    "CounterpartyIdentification2Rule": {
+      "definition": "Se estiver presente pelo menos uma ocorrência de CounterpartyType igual a Bilateral (BILA), tem de estar presente pelo menos uma ocorrência de CounterpartyIdentification.|Se CounterpartyType não estiver presente, qualquer ocorrência de CounterpartyIdentification é facultativa."
+    }
+  }
+}

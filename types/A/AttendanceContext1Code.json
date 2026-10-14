@@ -1,0 +1,18 @@
+{
+  "isoType": "AttendanceContext1Code",
+  "definition": "Presença humana no local do POI durante a operação.",
+  "isoCodes": {
+    "ATTD": {
+      "name": "Com assistência",
+      "definition": "Pagamento assistido, com um operador."
+    },
+    "SATT": {
+      "name": "Com assistência parcial",
+      "definition": "Semiassistido, incluindo caixa de self-service. Um operador supervisiona vários pagamentos e pode ser chamado para ajudar o titular do cartão."
+    },
+    "UATT": {
+      "name": "Sem assistência",
+      "definition": "Pagamento não assistido, sem operador presente."
+    }
+  }
+}

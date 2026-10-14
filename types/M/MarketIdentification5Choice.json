@@ -1,0 +1,12 @@
+{
+  "isoType": "MarketIdentification5Choice",
+  "definition": "Escolha da identificação do mercado.",
+  "isoElements": {
+    "MarketIdentifierCode": {
+      "definition": "ISO 10383 Market Identification Code."
+    },
+    "Description": {
+      "definition": "Descrição do mercado quando não está disponível nenhum Market Identifier Code."
+    }
+  }
+}

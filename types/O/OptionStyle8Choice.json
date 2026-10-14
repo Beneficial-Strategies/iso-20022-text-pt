@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionStyle8Choice",
+  "definition": "Escolha do formato do estilo da opção.",
+  "isoElements": {
+    "Code": {
+      "definition": "Estilo da opção expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Estilo da opção expresso como um código proprietário."
+    }
+  }
+}

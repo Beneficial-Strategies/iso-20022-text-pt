@@ -1,0 +1,9 @@
+{
+  "isoType": "Parameter5",
+  "definition": "Parâmetros associados a uma função criptográfica geradora de máscara.",
+  "isoElements": {
+    "DigestAlgorithm": {
+      "definition": "Algoritmo de resumo utilizado na função geradora de máscara."
+    }
+  }
+}

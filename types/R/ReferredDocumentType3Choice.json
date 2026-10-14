@@ -1,0 +1,12 @@
+{
+  "isoType": "ReferredDocumentType3Choice",
+  "definition": "Especifica o tipo do documento referido nas informações de remessa.",
+  "isoElements": {
+    "Code": {
+      "definition": "Tipo de documento sob forma codificada."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo do documento de remessa."
+    }
+  }
+}

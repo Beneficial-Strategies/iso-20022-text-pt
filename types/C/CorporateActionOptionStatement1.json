@@ -1,0 +1,15 @@
+{
+  "isoType": "CorporateActionOptionStatement1",
+  "definition": "Informações relativas às opções de instruções de proteção do comprador selecionadas.",
+  "isoElements": {
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "BuyerProtectionInstructionDetails": {
+      "definition": "Informações da instrução de proteção do comprador."
+    }
+  }
+}

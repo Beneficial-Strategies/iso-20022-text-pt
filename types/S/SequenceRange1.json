@@ -1,0 +1,12 @@
+{
+  "isoType": "SequenceRange1",
+  "definition": "Especifica um intervalo de sequências, desde uma sequência inicial até uma sequência final.",
+  "isoElements": {
+    "FromSequence": {
+      "definition": "Sequência inicial do intervalo."
+    },
+    "ToSequence": {
+      "definition": "Sequência final do intervalo."
+    }
+  }
+}

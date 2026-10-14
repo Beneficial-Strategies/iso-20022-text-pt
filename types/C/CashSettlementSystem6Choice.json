@@ -1,0 +1,12 @@
+{
+  "isoType": "CashSettlementSystem6Choice",
+  "definition": "Escolha do formato do sistema de liquidação em numerário.",
+  "isoElements": {
+    "Code": {
+      "definition": "Sistema de liquidação em numerário expresso como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Sistema de liquidação em numerário expresso como um código proprietário."
+    }
+  }
+}

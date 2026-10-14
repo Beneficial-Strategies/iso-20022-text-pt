@@ -1,0 +1,44 @@
+{
+  "isoType": "DetailedInstructionStatus22",
+  "definition": "Informações sobre um voto de instrução de assembleia.",
+  "isoElements": {
+    "SingleInstructionIdentification": {
+      "definition": "Identificação da instrução individual específica da mensagem original de instrução de assembleia para a qual é fornecida a confirmação."
+    },
+    "AccountIdentification": {
+      "definition": "Identificação da conta de custódia."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "SubAccountIdentification": {
+      "definition": "Identificação da subconta no âmbito da conta de custódia."
+    },
+    "RightsHolder": {
+      "definition": "Titular dos direitos de voto."
+    },
+    "Proxy": {
+      "definition": "Identificação da pessoa nomeada pelo titular dos valores mobiliários como mandatário."
+    },
+    "StandingInstruction": {
+      "definition": "Indica se foram aplicadas instruções permanentes ou não."
+    },
+    "ModalityOfCounting": {
+      "definition": "Modalidade através da qual os votos registados e contabilizados foram recebidos pelo emitente, incluindo se foi antes da assembleia ou na assembleia."
+    },
+    "VoteReceiptDateTime": {
+      "definition": "Data ou data e hora em que foram recebidos os votos registados e contabilizados."
+    },
+    "VotePerResolution": {
+      "definition": "Detalhes do voto."
+    }
+  },
+  "isoRules": {
+    "RightsHolderMultiplicity1Guideline": {
+      "definition": "Recomenda-se que RightsHolder só esteja presente mais do que uma vez em caso de propriedade conjunta."
+    },
+    "SubAccount1Rule": {
+      "definition": "Se SubAccountIdentification estiver presente, então AccountIdentification tem de estar presente."
+    }
+  }
+}

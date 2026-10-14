@@ -1,0 +1,62 @@
+{
+  "isoType": "InvestmentFundRole8Code",
+  "definition": "Especifica o papel da parte.",
+  "isoCodes": {
+    "CUST": {
+      "name": "Depositário",
+      "definition": "Parte que guarda e administra ativos em nome do titular."
+    },
+    "DIST": {
+      "name": "Distribuidor",
+      "definition": "Parte que atua como grossista de fundos."
+    },
+    "FMCO": {
+      "name": "Sociedade gestora de fundos",
+      "definition": "Parte que constitui um fundo, decide a estratégia de investimento, nomeia agentes e é responsável pela promoção e comercialização do fundo. Esta parte toma todas as decisões estratégicas relacionadas com um fundo."
+    },
+    "INTR": {
+      "name": "Intermediário",
+      "definition": "Parte que presta serviços a investidores relacionados com produtos financeiros. Estes serviços podem incluir alguns ou todos os seguintes: prestação de informações e aconselhamento sobre produtos, colocação de ordens de investimento, transmissão de pagamentos, custódia de ativos e administração de direitos e benefícios. No quadro específico do setor dos fundos de investimento, um intermediário pode apresentar informações sobre fundos a potenciais investidores e angariar ordens para o fundo. Este intermediário pode facilitar a transmissão de ordens e informações de/para os investidores e/ou outros intermediários. O intermediário recebe uma comissão do fundo e/ou taxas do investidor."
+    },
+    "INVE": {
+      "name": "Gestor de investimentos",
+      "definition": "Parte que implementa a estratégia de investimento, ou seja, seleciona os investimentos da carteira de acordo com os objetivos e a estratégia do prospeto do fundo, e coloca ordens para realizar ou liquidar os investimentos selecionados em função do fluxo líquido de capital que entra ou sai do fundo."
+    },
+    "INVS": {
+      "name": "Investidor",
+      "definition": "Parte, pessoa singular ou organização, cujos ativos estão a ser investidos."
+    },
+    "TRAG": {
+      "name": "Agente de transferência",
+      "definition": "Parte nomeada pela sociedade gestora do fundo. Esta parte atualiza os registos das contas de investidores para refletir as compras, resgates, mudanças, transferências e novos registos diários dos investidores. Assegura a liquidação atempada das operações e pode fornecer informações fiscais ao investidor e/ou aos seus intermediários. Pode calcular, cobrar e reembolsar comissões. Prepara e distribui confirmações que refletem as operações, resultando em movimentos de unidades de participação ou de conta de numerário para o investidor ou para o intermediário do investidor. Responde a pedidos de informação sobre o estado da conta e processa a distribuição de rendimentos."
+    },
+    "TRAN": {
+      "name": "Agente transmissor",
+      "definition": "Parte que transmite a instrução, o aviso, a notificação ou o relatório."
+    },
+    "UCL1": {
+      "name": "Cliente subjacente 1",
+      "definition": "Cliente subjacente do intermediário."
+    },
+    "UCL2": {
+      "name": "Cliente subjacente 2",
+      "definition": "Cliente subjacente do cliente subjacente 1."
+    },
+    "REGI": {
+      "name": "Entidade registadora",
+      "definition": "Parte responsável por manter o registo dos titulares de valores mobiliários. No setor dos fundos de investimento, esta parte mantém o registo de investidores do fundo e administra as contas de investidores e os registos conexos. É nomeada pela sociedade gestora do fundo."
+    },
+    "CACO": {
+      "name": "Correspondente de numerário",
+      "definition": "Instituição financeira que executa transferências de numerário em nome dos seus clientes."
+    },
+    "CONC": {
+      "name": "Concentrador",
+      "definition": "Parte que atua como agregador de fundos, também designada plataforma de fundos."
+    },
+    "DATP": {
+      "name": "Fornecedor de dados",
+      "definition": "Fonte de informação financeira. Fornece notícias e dados financeiros (por exemplo, factos, estatísticas e análises) a investidores profissionais e particulares através de vários meios, por exemplo, a Internet e revistas."
+    }
+  }
+}

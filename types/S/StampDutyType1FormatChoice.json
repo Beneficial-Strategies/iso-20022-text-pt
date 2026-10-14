@@ -1,0 +1,12 @@
+{
+  "isoType": "StampDutyType1FormatChoice",
+  "definition": "Escolha de formatos para exprimir as informações sobre o imposto do selo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar as informações sobre o imposto do selo."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para exprimir as informações sobre o imposto do selo."
+    }
+  }
+}

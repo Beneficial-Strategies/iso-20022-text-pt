@@ -1,0 +1,21 @@
+{
+  "isoType": "TaxCalculation1",
+  "definition": "Especifica os detalhes do cálculo do imposto.",
+  "isoElements": {
+    "HostCurrency": {
+      "definition": "Moeda para a qual todos os totais dos serviços tributáveis devem ser convertidos para calcular os impostos devidos nesta região fiscal. É também a moeda em que o pagamento das obrigações fiscais é geralmente apresentado à autoridade fiscal."
+    },
+    "TaxableServiceChargeConversion": {
+      "definition": "Conversões para a moeda de origem do montante do encargo de serviço tributável. ||Utilização: deve estar presente uma ocorrência por cada moeda de tarifação de serviço diferente no extrato."
+    },
+    "TotalTaxableServiceChargeHostAmount": {
+      "definition": "Total de todos os serviços sujeitos a imposto para uma região fiscal específica. ||Utilização: |Este campo é igual à soma de todos os totais equivalentes separados do encargo fiscal de origem por serviço para cada moeda individual. É expresso na moeda de origem da região fiscal. Este total é utilizado para determinar o imposto devido, calculando com a taxa de cada identificação fiscal."
+    },
+    "TaxIdentification": {
+      "definition": "Prevê a identificação específica do imposto na mesma região fiscal. ||Utilização: podem ser indicadas no máximo três identificações fiscais específicas. Estes elementos utilizam o montante tributável total na moeda de origem como base de cálculo. |Este elemento só é válido para o método C."
+    },
+    "TotalTax": {
+      "definition": "Montante total de todos os impostos de um cliente específico na região fiscal. É a soma de todos os montantes totais de imposto individuais para as identificações fiscais, expressos na moeda de origem da região fiscal."
+    }
+  }
+}

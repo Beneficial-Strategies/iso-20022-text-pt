@@ -1,0 +1,12 @@
+{
+  "isoType": "SafekeepingPlaceTypeAndText8",
+  "definition": "Identificação do local de guarda expressa como um código e uma descrição narrativa.",
+  "isoElements": {
+    "SafekeepingPlaceType": {
+      "definition": "Local de guarda como um código."
+    },
+    "Identification": {
+      "definition": "Informações adicionais sobre o local de guarda."
+    }
+  }
+}

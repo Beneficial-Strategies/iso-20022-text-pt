@@ -1,0 +1,23 @@
+{
+  "isoType": "TransactionCriteria11",
+  "definition": "Define os critérios utilizados para pesquisar uma operação e para elaborar relatórios sobre a mesma. Pode ser atribuído um nome à nova consulta.",
+  "isoElements": {
+    "NewQueryName": {
+      "definition": "Nome da consulta definida pelos critérios de pesquisa e pelos critérios de devolução."
+    },
+    "SearchCriteria": {
+      "definition": "Define os critérios com base nos quais a informação é extraída."
+    },
+    "StatementReport": {
+      "definition": "Indica o formato do relatório solicitado."
+    },
+    "ReturnCriteria": {
+      "definition": "Define o relatório esperado das operações de pagamento."
+    }
+  },
+  "isoRules": {
+    "SearchAndReturnCriteriaAndStatementReportRule": {
+      "definition": "São permitidas as seguintes combinações: apenas Critérios de Pesquisa, ou apenas Critérios de Retorno, ou apenas um Relatório de Extrato, ou uma combinação de Critérios de Pesquisa e de Retorno, ou uma combinação de Critérios de Pesquisa e um Relatório de Extrato.|Justificação da regra: |- Se ReturnCriteria estiver presente, define o relatório esperado.|- Se StatementReport estiver presente, indica que é necessário devolver um relatório do tipo extrato. Neste caso, a mensagem de resposta conterá informações equivalentes às presentes no campo 61 (Linha de Extrato) das normas FIN, por exemplo, data-valor, data do movimento, indicador de débito/crédito, montante, código de identificação do tipo de operação, referência do titular da conta, referência da instituição gestora da conta e detalhes suplementares.|- Se StatementReportIndicator for igual a \"false\" ou \"0\" (Não), isto significa que o tipo de relatório é predefinido entre o administrador de operações e o membro."
+    }
+  }
+}

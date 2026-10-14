@@ -1,0 +1,57 @@
+{
+  "isoType": "Vote20",
+  "definition": "Resultados da votação de uma deliberação.",
+  "isoElements": {
+    "IssuerLabel": {
+      "definition": "Número da deliberação, conforme especificado pelo emitente ou pelo seu agente."
+    },
+    "Description": {
+      "definition": "Língua, título e descrição textual de uma deliberação da ordem de trabalhos."
+    },
+    "ResolutionStatus": {
+      "definition": "Estado de aceitação da deliberação."
+    },
+    "SubStatus": {
+      "definition": "Especifica se a deliberação é nova ou alterada."
+    },
+    "For": {
+      "definition": "Número de votos a favor de uma deliberação."
+    },
+    "Against": {
+      "definition": "Número de votos contra uma deliberação."
+    },
+    "Abstain": {
+      "definition": "Número de abstenções."
+    },
+    "Withhold": {
+      "definition": "Total de votos retidos, por exemplo, no caso em que um acionista não deseja apoiar a eleição de um membro do conselho de administração."
+    },
+    "WithManagement": {
+      "definition": "Número de votos em linha com os votos da administração."
+    },
+    "AgainstManagement": {
+      "definition": "Número de votos contra a recomendação de voto da administração."
+    },
+    "Discretionary": {
+      "definition": "Número de votos cuja decisão é deixada à parte que exercerá o direito de voto."
+    },
+    "OneYear": {
+      "definition": "Número de votos a favor por um ano numa deliberação do tipo \"say on pay\"."
+    },
+    "TwoYears": {
+      "definition": "Número de votos a favor por dois anos numa deliberação do tipo \"say on pay\"."
+    },
+    "ThreeYears": {
+      "definition": "Número de votos a favor por três anos numa deliberação do tipo \"say on pay\"."
+    },
+    "NoAction": {
+      "definition": "Número de votos relativamente aos quais não foi tomada qualquer ação."
+    },
+    "Blank": {
+      "definition": "O voto é emitido em branco, mas é contabilizado."
+    },
+    "Proprietary": {
+      "definition": "Outro tipo de voto expresso sob a forma de código proprietário."
+    }
+  }
+}

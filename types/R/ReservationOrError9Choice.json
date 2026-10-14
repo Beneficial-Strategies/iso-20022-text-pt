@@ -1,0 +1,12 @@
+{
+  "isoType": "ReservationOrError9Choice",
+  "definition": "Comunica informações sobre a reserva ou sobre um erro de negócio.",
+  "isoElements": {
+    "Reservation": {
+      "definition": "Informações pedidas sobre o limite."
+    },
+    "BusinessError": {
+      "definition": "Motivo pelo qual as informações funcionais solicitadas não são fornecidas."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "isoType": "PlanStatus1Code",
+  "definition": "Especifica o estado de um plano.",
+  "isoCodes": {
+    "ACTV": {
+      "name": "Ativo",
+      "definition": "O plano está ativo."
+    },
+    "CLOS": {
+      "name": "Encerrado",
+      "definition": "O plano está encerrado."
+    },
+    "SUSP": {
+      "name": "Suspenso",
+      "definition": "O plano está suspenso."
+    }
+  }
+}

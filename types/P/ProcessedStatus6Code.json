@@ -1,0 +1,18 @@
+{
+  "isoType": "ProcessedStatus6Code",
+  "definition": "Especifica o estado de processamento de uma instrução de desativação.",
+  "isoCodes": {
+    "RECE": {
+      "name": "Recebido",
+      "definition": "A instrução/o pedido foi recebido."
+    },
+    "DEAC": {
+      "name": "A aguardar a data de desativação",
+      "definition": "A aguardar a data de desativação."
+    },
+    "COMP": {
+      "name": "Concluído",
+      "definition": "O pedido foi concluído."
+    }
+  }
+}

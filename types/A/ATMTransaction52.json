@@ -1,0 +1,27 @@
+{
+  "isoType": "ATMTransaction52",
+  "definition": "Informações sobre a resposta de reconciliação.",
+  "isoElements": {
+    "TypeOfOperation": {
+      "definition": "Tipo de operação lógica ou física no ATM para a qual os contadores são calculados."
+    },
+    "TransactionIdentification": {
+      "definition": "Identificação da operação de reconciliação."
+    },
+    "ReconciliationIdentification": {
+      "definition": "Identificação do período de reconciliação atribuída pelo ATM."
+    },
+    "TransactionResponse": {
+      "definition": "Resultado da reconciliação."
+    },
+    "ATMTotals": {
+      "definition": "Totais atuais do ATM."
+    },
+    "Cassette": {
+      "definition": "Informações sobre os cassetes do ATM."
+    },
+    "Command": {
+      "definition": "Comando de manutenção a executar no ATM."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "NetDividendRateFormat42Choice",
+  "definition": "Escolha entre diferentes formatos para expressar um dividendo líquido.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Valor expresso como um montante."
+    },
+    "AmountAndRateStatus": {
+      "definition": "Especifica um montante e um estado da taxa."
+    },
+    "RateTypeAndAmountAndRateStatus": {
+      "definition": "Especifica diferentes formatos para a taxa de dividendo líquido."
+    }
+  }
+}

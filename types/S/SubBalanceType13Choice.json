@@ -1,0 +1,12 @@
+{
+  "isoType": "SubBalanceType13Choice",
+  "definition": "Escolha do formato do subsaldo.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo pelo qual um valor mobiliário não está disponível ou informações adicionais sobre o instrumento financeiro para o qual o saldo é indicado, por exemplo, não registado, registado em nome de um mandatário."
+    },
+    "Proprietary": {
+      "definition": "Motivo pelo qual um valor mobiliário não está disponível ou informações adicionais sobre o instrumento financeiro para o qual o saldo é indicado, por exemplo, não registado, registado em nome de um mandatário."
+    }
+  }
+}

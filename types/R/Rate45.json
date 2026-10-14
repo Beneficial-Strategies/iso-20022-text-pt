@@ -1,0 +1,95 @@
+{
+  "isoType": "Rate45",
+  "definition": "Fornece informações sobre as taxas relacionadas com o movimento de valores mobiliários.",
+  "isoElements": {
+    "AdditionalTax": {
+      "definition": "Taxa utilizada para imposto adicional que não pode ser categorizado."
+    },
+    "ChargesFees": {
+      "definition": "Taxa utilizada para calcular o montante dos encargos/comissões que não podem ser categorizados."
+    },
+    "FiscalStamp": {
+      "definition": "Percentagem de imposto fiscal a aplicar."
+    },
+    "GrossDistributionRate": {
+      "definition": "Taxa de distribuição antes da dedução do imposto."
+    },
+    "EarlySolicitationFeeRate": {
+      "definition": "Taxa em numerário disponibilizada, como incentivo, para além da comissão de solicitação, a fim de incentivar a participação antecipada numa oferta."
+    },
+    "ThirdPartyIncentiveRate": {
+      "definition": "Taxa em numerário disponibilizada num evento para incentivar a participação na oferta. A título informativo, o pagamento é feito a um terceiro que solicitou a uma entidade a participação na oferta."
+    },
+    "GrossInterestRateUsedForPayment": {
+      "definition": "Taxa de juro efetiva antes de impostos utilizada para o pagamento dos juros do período de juros especificado."
+    },
+    "NetDistributionRate": {
+      "definition": "Taxa de distribuição após a dedução do imposto."
+    },
+    "ApplicableRate": {
+      "definition": "Taxa aplicável ao evento anunciado, por exemplo, a taxa de resgate num evento de resgate."
+    },
+    "SolicitationFeeRate": {
+      "definition": "Taxa do prémio em numerário disponibilizado se o titular dos valores mobiliários consentir ou participar num evento, por exemplo, comissões de consentimento ou comissão de solicitação."
+    },
+    "TaxCreditRate": {
+      "definition": "Montante em dinheiro por ação atribuído em resultado de um crédito de imposto."
+    },
+    "WithholdingTaxRate": {
+      "definition": "Percentagem de uma distribuição em numerário que será retida pelas autoridades fiscais da jurisdição do emitente, relativamente à qual poderá ser possível uma redução na fonte e/ou um pedido de reembolso."
+    },
+    "SecondLevelTax": {
+      "definition": "Taxa à qual o rendimento será retido por uma jurisdição diferente da jurisdição do país de constituição fiscal do emitente, relativamente à qual poderá ser possível uma redução na fonte e/ou um pedido de reembolso. É cobrada em complemento ou em compensação da taxa de retenção na fonte (TAXR) cobrada pela jurisdição do domicílio fiscal do emitente."
+    },
+    "TaxOnIncome": {
+      "definition": "Tributação aplicada a um montante claramente identificado como rendimento."
+    },
+    "TaxOnProfits": {
+      "definition": "Tributação aplicada a um montante claramente identificado como lucros de capital, mais-valias."
+    },
+    "TaxReclaimRate": {
+      "definition": "Percentagem do numerário que foi pago em excesso relativamente à obrigação fiscal efetiva e que foi reclamada."
+    },
+    "EqualisationRate": {
+      "definition": "Parte da distribuição do fundo que representa o rendimento corrido médio incluído no preço de compra das unidades de participação adquiridas durante o período contabilístico."
+    },
+    "DeemedRate": {
+      "definition": "Taxa aplicada para o cálculo do produto presumido, que não é pago aos titulares de valores mobiliários mas sobre o qual é aplicável retenção na fonte."
+    }
+  },
+  "isoRules": {
+    "GrossDistributionRate2Rule": {
+      "definition": "Se GrossDistributionRate for repetido, então:|- os valores de RateTypeAndAmountAndRateStatus/RateType/Code devem ser todos diferentes em cada ocorrência de GrossDistributionRate. (MT 566 NVR C4 )."
+    },
+    "NetDistributionRate1Rule": {
+      "definition": "Se NetDistributionRate for repetido, então:|- os valores de RateTypeAndAmountAndRateStatus/RateType/Code devem ser todos diferentes em cada ocorrência de NetDistributionRate. (MT 566 NVR C4 )."
+    },
+    "GrossDistributionRate3Rule": {
+      "definition": "Apenas pode estar presente uma única ocorrência de GrossDistributionRate/Amount ou de GrossDistributionRate/AmountAndRateStatus. Os dois elementos não podem estar presentes em simultâneo. (MT 566 NVR C3)."
+    },
+    "NetDistributionRate2Rule": {
+      "definition": "Apenas pode estar presente uma única ocorrência de NetDistributionRate/Amount. Os dois elementos não podem estar presentes em simultâneo. (MT 566 NVR C3)."
+    },
+    "SecondLevelTax3Rule": {
+      "definition": "Se pelo menos uma ocorrência de SecondLevelTax estiver presente, então pelo menos uma ocorrência de WithholdingTaxRate deve estar presente. (MT 566 NVR C8)."
+    },
+    "SecondLevelTax1Rule": {
+      "definition": "Se SecondLevelTax for repetido, então os valores de SecondLevelTax/RateTypeAndRate/RateType/Code devem ser todos diferentes em cada ocorrência de SecondLevelTax. |(MT 566 NVR C4)."
+    },
+    "SecondLevelTax2Rule": {
+      "definition": "Apenas pode estar presente uma única ocorrência de SecondLevelTax/Amount ou de SecondLevelTax/Rate ou de SecondLevelTax/NotSpecifiedRate, e apenas um destes elementos pode estar presente. |(MT 566 NVR C3)."
+    },
+    "WithholdingTaxRate1Rule": {
+      "definition": "Se WithholdingTaxRate for repetido, então os valores de WithholdingTaxRate/RateTypeAndRate/RateType/Code devem ser todos diferentes em cada ocorrência de WithholdingTaxRate. |(MT 566 NVR C4)."
+    },
+    "WithholdingTaxRate2Rule": {
+      "definition": "Apenas pode estar presente uma única ocorrência de WithholdingTaxRate/Amount ou de WithholdingTaxRate/Rate ou de WithholdingTaxRate/NotSpecifiedRate, e apenas um destes elementos pode estar presente. |(MT 566 NVR C3)."
+    },
+    "DeemedRate1Rule": {
+      "definition": "Se DeemedRate for repetido, então os valores de DeemedRate/RateTypeAndAmountAndRateStatus/RateType/Code e os valores de DeemedRate/RateTypeAndRate/RateType/Code devem ser todos diferentes em cada ocorrência de DeemedRate. |(MT 566 NVR C4)."
+    },
+    "DeemedRate2Rule": {
+      "definition": "Apenas pode estar presente uma única ocorrência de DeemedRate/Amount ou de DeemedRate/Rate, e apenas um destes elementos pode estar presente. |(MT 566 NVR C3)."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "isoType": "ATMExceptionAdvice2",
+  "definition": "Informações relativas a exceções ocorridas no ATM.",
+  "isoElements": {
+    "Environment": {
+      "definition": "Ambiente da exceção."
+    },
+    "Context": {
+      "definition": "Contexto da exceção."
+    },
+    "Transaction": {
+      "definition": "Operação para a qual a exceção é enviada."
+    }
+  }
+}

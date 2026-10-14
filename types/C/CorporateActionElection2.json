@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionElection2",
+  "definition": "Fornece informações sobre um pedido de alteração de uma escolha relativa a uma operação sobre títulos.",
+  "isoElements": {
+    "OptionType": {
+      "definition": "Especifica as opções de eventos societários à disposição do titular da conta."
+    },
+    "OptionNumber": {
+      "definition": "Número que identifica as opções de operação sobre títulos disponíveis."
+    },
+    "NewInstructedQuantity": {
+      "definition": "Nova quantidade de valores mobiliários instruída após a alteração."
+    },
+    "Reason": {
+      "definition": "O motivo do pedido de alteração."
+    }
+  }
+}

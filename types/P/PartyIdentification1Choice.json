@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification1Choice",
+  "definition": "Identificação de uma parte.",
+  "isoElements": {
+    "BICOrBEI": {
+      "definition": "Identificador único e inequívoco de uma organização atribuído por uma instituição."
+    },
+    "ProprietaryIdentification": {
+      "definition": "Identificador único e inequívoco, atribuído a uma instituição financeira através de um esquema de identificação proprietário."
+    },
+    "NameAndAddress": {
+      "definition": "Nome pelo qual uma parte é conhecida e que é normalmente utilizado para identificar essa parte."
+    }
+  }
+}

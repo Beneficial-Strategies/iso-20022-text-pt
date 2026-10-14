@@ -1,0 +1,14 @@
+{
+  "isoType": "OrderQuantityType2Code",
+  "definition": "Especifica a forma como a ordem é dada, por exemplo, por quantidade de unidades ou por montante em dinheiro.",
+  "isoCodes": {
+    "UNIT": {
+      "name": "Unidade",
+      "definition": "A ordem é dada por unidades."
+    },
+    "CASH": {
+      "name": "Montante",
+      "definition": "A ordem é dada por montante em dinheiro."
+    }
+  }
+}

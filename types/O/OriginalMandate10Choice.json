@@ -1,0 +1,12 @@
+{
+  "isoType": "OriginalMandate10Choice",
+  "definition": "Especifica o mandato que está a ser aceite.",
+  "isoElements": {
+    "OriginalMandateIdentification": {
+      "definition": "Identificação única, atribuída pela parte responsável (como o credor) ou pela instituição (como a instituição do devedor), para identificar de forma inequívoca o mandato original."
+    },
+    "OriginalMandate": {
+      "definition": "Fornece os dados do mandato original."
+    }
+  }
+}

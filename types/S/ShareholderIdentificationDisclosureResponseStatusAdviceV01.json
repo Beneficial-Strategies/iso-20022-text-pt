@@ -1,0 +1,9 @@
+{
+  "isoType": "ShareholderIdentificationDisclosureResponseStatusAdviceV01",
+  "definition": "A mensagem ShareholdersIdentificationDisclosureResponseStatusAdvice é enviada por um emitente ou por um terceiro nomeado pelo emitente (como um agente do emitente) ao intermediário de uma cadeia de custódia em resposta a uma mensagem ShareholderIdentificationDisclosureResponse ou a um relatório de resposta em várias partes (enviado com paginação em várias mensagens), a fim de comunicar o estado de aceitação da mensagem/relatório ShareholderIdentificationDisclosureResponse recebido.|Utilização: quando a resposta de divulgação da identificação de acionistas é enviada num relatório de resposta em várias partes (com várias mensagens), só pode ser enviado um único aviso de estado da resposta para o estado de aceitação de todo o relatório.",
+  "isoElements": {
+    "DisclosureResponseIdentification": {
+      "definition": "Identificação única da resposta de divulgação para a qual é enviado o aviso de estado."
+    }
+  }
+}

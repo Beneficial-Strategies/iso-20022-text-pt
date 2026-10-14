@@ -1,0 +1,12 @@
+{
+  "isoType": "TemporaryFinancialInstrumentIndicator4Choice",
+  "definition": "Escolha entre um indicador ou um código proprietário para especificar se o valor mobiliário é um valor mobiliário temporário.",
+  "isoElements": {
+    "TemporaryIndicator": {
+      "definition": "Identificação temporária de instrumento financeiro utilizada por razões de processamento."
+    },
+    "Proprietary": {
+      "definition": "Código proprietário para especificar se o valor mobiliário é um valor mobiliário temporário."
+    }
+  }
+}

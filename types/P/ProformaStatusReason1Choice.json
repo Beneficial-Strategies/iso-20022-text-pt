@@ -1,0 +1,12 @@
+{
+  "isoType": "ProformaStatusReason1Choice",
+  "definition": "Escolha de formatos para um motivo de estado pro forma.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Não existe nenhum motivo disponível ou a comunicar para o estado pro forma da conta."
+    },
+    "Reason": {
+      "definition": "Motivo do estado pro forma da conta."
+    }
+  }
+}

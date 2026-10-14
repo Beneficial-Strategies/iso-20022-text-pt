@@ -1,0 +1,110 @@
+{
+  "isoType": "CreditTransferTransaction66",
+  "definition": "Fornece detalhes adicionais específicos da(s) operação(ões) individual(is) incluída(s) na mensagem.",
+  "isoElements": {
+    "CreditIdentification": {
+      "definition": "Identificação única, atribuída por uma parte emissora, para identificar inequivocamente a instrução de crédito na mensagem."
+    },
+    "BatchBooking": {
+      "definition": "Identifica se é solicitado um lançamento individual por cada operação de débito direto ou um lançamento em lote pela soma dos montantes de todas as operações do grupo de uma mensagem.|Utilização: O lançamento em lote é utilizado para solicitar, e não para ordenar, um eventual lançamento em lote."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Especifica mais pormenorizadamente o tipo de operação."
+    },
+    "TotalInterbankSettlementAmount": {
+      "definition": "Montante em dinheiro movimentado entre a instituição instrutora e a instituição instruída."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Data em que o montante em dinheiro deixa de estar disponível para a instituição que o deve e em que passa a estar disponível para a instituição a quem é devido."
+    },
+    "SettlementTimeIndication": {
+      "definition": "Fornece informações sobre o(s) momento(s) de liquidação ocorrido(s) da operação de pagamento."
+    },
+    "InstructingAgent": {
+      "definition": "Instituição que instrui a parte seguinte da cadeia para executar a(s) instrução(ões)."
+    },
+    "InstructedAgent": {
+      "definition": "Instituição instruída pela parte anterior da cadeia para executar a(s) instrução(ões)."
+    },
+    "IntermediaryAgent1": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor.||Utilização: Se existir mais do que uma instituição intermediária, IntermediaryAgent1 identifica a instituição entre DebtorAgent e IntermediaryAgent2."
+    },
+    "IntermediaryAgent1Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 1 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "IntermediaryAgent2": {
+      "definition": "Instituição entre a instituição do devedor e a instituição do credor.||Utilização: Se existirem mais do que duas instituições intermediárias, IntermediaryAgent2 identifica a instituição entre IntermediaryAgent1 e IntermediaryAgent3."
+    },
+    "IntermediaryAgent2Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 2 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "IntermediaryAgent3": {
+      "definition": "Agente entre a instituição do devedor e a instituição do credor.||Utilização: Se IntermediaryAgent3 estiver presente, identifica o agente entre o IntermediaryAgent 2 e o CreditorAgent."
+    },
+    "IntermediaryAgent3Account": {
+      "definition": "Identificação inequívoca da conta da instituição intermediária 3 junto da sua instituição gestora na cadeia de pagamento."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do credor junto da sua instituição gestora, a creditar em resultado da operação de pagamento."
+    },
+    "Creditor": {
+      "definition": "Instituição financeira que recebe um montante da instituição financeira devedora."
+    },
+    "CreditorAccount": {
+      "definition": "Identificação inequívoca da conta do credor a creditar em resultado da operação de pagamento."
+    },
+    "UltimateCreditor": {
+      "definition": "Instituição financeira final à qual é devido um montante."
+    },
+    "InstructionForCreditorAgent": {
+      "definition": "Informações adicionais relativas ao tratamento da instrução de pagamento, fornecidas pela parte iniciadora e destinadas à instituição do credor."
+    },
+    "DirectDebitTransactionInformation": {
+      "definition": "Fornece informações sobre a(s) operação(ões) de débito individual(is) incluída(s) na mensagem."
+    },
+    "SupplementaryData": {
+      "definition": "Informações adicionais que não podem ser registadas nos elementos estruturados e/ou em qualquer outro bloco específico."
+    }
+  },
+  "isoRules": {
+    "UltimateCreditorGuideline": {
+      "definition": "UltimateCreditor só pode estar presente se for diferente de Creditor."
+    },
+    "IntermediaryAgent2Rule": {
+      "definition": "Se IntermediaryAgent2 estiver presente, então IntermediaryAgent1 tem de estar presente."
+    },
+    "IntermediaryAgent3Rule": {
+      "definition": "Se IntermediaryAgent3 estiver presente, então IntermediaryAgent2 tem de estar presente."
+    },
+    "IntermediaryAgent1Rule": {
+      "definition": "Se IntermediaryAgent1 estiver presente, CreditorAgent tem de estar presente."
+    },
+    "IntermediaryAgent1AccountRule": {
+      "definition": "Se IntermediaryAgent1Account estiver presente, então IntermediaryAgent1 tem de estar presente."
+    },
+    "IntermediaryAgent2AccountRule": {
+      "definition": "Se IntermediaryAgent2Account estiver presente, então IntermediaryAgent2 tem de estar presente."
+    },
+    "IntermediaryAgent3AccountRule": {
+      "definition": "Se IntermediaryAgent3Account estiver presente, então IntermediaryAgent3 tem de estar presente."
+    },
+    "CreditorAgentAccountRule": {
+      "definition": "Se CreditorAgentAccount estiver presente, CreditorAgent tem de estar presente."
+    },
+    "TotalInterbankSettlementAmountRule": {
+      "definition": "Se CreditInformation/TotalInterbankSettlementAmount estiver presente, todas as ocorrências de DirectDebitTransactionInformation/InterbankSettlementAmount têm de ter a mesma moeda que CreditInformation/TotalInterbankSettlementAmount."
+    },
+    "TotalInterbankSettlementAmountAndSumRule": {
+      "definition": "Se TotalInterbankSettlementAmount estiver presente, tem de ser igual à soma de todas as ocorrências de DirectDebitTransactionInformation/InterbankSettlementAmount."
+    },
+    "InterbankSettlementDateRule": {
+      "definition": "Se InterbankSettlementDate estiver presente, DirectDebitTransactionInformation/InterbankSettlementDate não é permitido."
+    },
+    "PaymentTypeInformationRule": {
+      "definition": "Se PaymentTypeInformation estiver presente, DirectDebitTransactionInformation/PaymentTypeInformation não é permitido."
+    }
+  }
+}

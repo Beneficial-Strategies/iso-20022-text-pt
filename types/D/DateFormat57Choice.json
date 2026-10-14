@@ -1,0 +1,12 @@
+{
+  "isoType": "DateFormat57Choice",
+  "definition": "Indica a data.",
+  "isoElements": {
+    "Date": {
+      "definition": "Data expressa como data do calendário."
+    },
+    "DateCode": {
+      "definition": "A data é expressa através de um código."
+    }
+  }
+}

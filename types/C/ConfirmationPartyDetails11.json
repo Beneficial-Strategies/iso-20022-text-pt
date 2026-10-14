@@ -1,0 +1,18 @@
+{
+  "isoType": "ConfirmationPartyDetails11",
+  "definition": "Partes utilizadas para as partes intervenientes que se aplicam à totalidade da mensagem ou a lados individuais.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificador único e inequívoco de uma organização, atribuído por uma instituição, por exemplo, a Dun & Bradstreet Identification."
+    },
+    "AlternateIdentification": {
+      "definition": "Identificação alternativa de uma parte."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identificação inequívoca da operação para a parte identificada."
+    },
+    "AdditionalInformation": {
+      "definition": "Fornece informações adicionais sobre a identificação de uma parte."
+    }
+  }
+}

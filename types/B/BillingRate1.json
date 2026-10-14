@@ -1,0 +1,18 @@
+{
+  "isoType": "BillingRate1",
+  "definition": "Especifica a taxa de faturação.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Define o tipo de taxa ou fator."
+    },
+    "Value": {
+      "definition": "Valor da taxa ou fator identificado na identificação da taxa."
+    },
+    "DaysInPeriod": {
+      "definition": "Número de dias do período do extrato. ||Utilização: utilizado em conjunto com DaysInYear para o valor da taxa anual dependente do tempo."
+    },
+    "DaysInYear": {
+      "definition": "Número de dias do ano.||Utilização: utilizado em conjunto com DaysInPeriod para o valor da taxa anual dependente do tempo."
+    }
+  }
+}

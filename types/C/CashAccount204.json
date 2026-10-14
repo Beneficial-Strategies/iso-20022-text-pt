@@ -1,0 +1,42 @@
+{
+  "isoType": "CashAccount204",
+  "definition": "Conta para a qual ou a partir da qual é efetuado um lançamento de numerário.",
+  "isoElements": {
+    "SettlementCurrency": {
+      "definition": "Moeda associada ao instrumento de pagamento."
+    },
+    "Identification": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "AccountOwner": {
+      "definition": "Parte que é legalmente titular da conta."
+    },
+    "AccountServicer": {
+      "definition": "Parte que gere a conta em nome do titular da conta, ou seja, gere o registo e o lançamento dos movimentos na conta, calcula os saldos da conta e presta informações sobre a conta."
+    },
+    "AccountServicerBranch": {
+      "definition": "Informações que identificam um balcão específico de uma instituição financeira.||Utilização: este componente deve ser utilizado caso as informações de identificação no componente da instituição financeira não permitam a identificação até ao nível do balcão."
+    },
+    "AccountOwnerOtherIdentification": {
+      "definition": "Identificação alternativa, por exemplo, número de identificação de registo nacional, número de passaporte, número de identificação fiscal. Pode ser um número de conta utilizado para identificar mais precisamente o beneficiário efetivo, por exemplo, uma conta do Central Provident Fund (CFP), conforme exigido em Singapura."
+    },
+    "InvestmentAccountType": {
+      "definition": "Tipo de conta."
+    },
+    "CreditDebit": {
+      "definition": "Especifica se a conta é para créditos ou débitos."
+    },
+    "SettlementInstructionReason": {
+      "definition": "Tipo de operação para a qual a conta de numerário é especificada."
+    },
+    "CashAccountPurpose": {
+      "definition": "Finalidade da conta de numerário."
+    },
+    "CashAccountDesignation": {
+      "definition": "Especifica se a conta é a conta principal ou secundária, caso existam duas contas para a mesma finalidade."
+    },
+    "DividendPercentage": {
+      "definition": "Percentagem do pagamento de dividendos que não deve ser reinvestida, isto é, que deve ser paga em numerário."
+    }
+  }
+}

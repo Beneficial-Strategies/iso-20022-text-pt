@@ -1,0 +1,66 @@
+{
+  "isoType": "LimitType3Code",
+  "definition": "Especifica o tipo de limite de gestão de risco.",
+  "isoCodes": {
+    "MULT": {
+      "name": "Multilateral",
+      "definition": "O limite é um valor máximo aplicado a, ou por, um participante relativamente a um conjunto de contrapartes. O limite multilateral é tido em conta pelo administrador de operações para conter o risco no sistema. Com o limite multilateral, o participante direto restringe a utilização de liquidez na compensação de pagamentos com todos os outros participantes diretos para os quais não esteja definido um limite bilateral."
+    },
+    "BILI": {
+      "name": "Bilateral",
+      "definition": "O limite é aplicado por uma parte a uma contraparte específica e corresponde ao montante máximo de tráfego que a parte que define o limite pode enviar a essa contraparte. O limite pode ser expresso como limite de débito ou de crédito. Com o limite bilateral, o participante direto restringe a utilização de liquidez na compensação de pagamentos com outro participante direto."
+    },
+    "MAND": {
+      "name": "Bilateral obrigatório",
+      "definition": "Parte obrigatória do limite bilateral aplicado por uma parte a uma contraparte específica, que corresponde ao montante máximo de tráfego que a parte que define o limite pode enviar a essa contraparte. O limite pode ser expresso como limite de débito ou de crédito. Com o limite bilateral, o participante direto restringe a utilização de liquidez na compensação de pagamentos com outro participante direto."
+    },
+    "DISC": {
+      "name": "Bilateral discricionário",
+      "definition": "Parte discricionária do limite bilateral aplicado por uma parte a uma contraparte específica, que corresponde ao montante máximo de tráfego que a parte que define o limite pode enviar a essa contraparte. O limite pode ser expresso como limite de débito ou de crédito. Com o limite bilateral, o participante direto restringe a utilização de liquidez na compensação de pagamentos com outro participante direto."
+    },
+    "NELI": {
+      "name": "Bilateral líquido",
+      "definition": "O limite é aplicado por uma parte a uma contraparte específica e corresponde ao saldo líquido máximo aceitável pela parte que define o limite. O limite é calculado como a soma aritmética, em valor, dos fluxos bilaterais trocados entre as duas partes. O limite bilateral líquido pode ser expresso como saldo devedor ou credor."
+    },
+    "INBI": {
+      "name": "Bilateral indireto",
+      "definition": "O limite é um valor máximo definido por um participante direto relativamente ao seu participante indireto. O limite representa o montante máximo que o participante indireto pode utilizar para liquidar as suas operações."
+    },
+    "GLBL": {
+      "name": "Global",
+      "definition": "Valor máximo definido pelo administrador de operações ou por um membro para a participação de um membro no sistema. O limite global pode ser expresso como valor máximo de crédito ou de débito e é tido em conta pelo administrador de operações no processamento de operações dentro do sistema. Com o limite global, o participante direto pode restringir a utilização de liquidez na compensação de tipos específicos de pagamentos."
+    },
+    "DIDB": {
+      "name": "Débito direto",
+      "definition": "Limite que não deve ser excedido nas operações de débito direto."
+    },
+    "SPLC": {
+      "name": "Débito direto de cliente individual",
+      "definition": "Limite de pagamento individual de débito direto que não deve ser excedido por nenhuma operação de débito direto individual de um cliente."
+    },
+    "SPLF": {
+      "name": "Débito direto de instituição financeira individual",
+      "definition": "Limite de pagamento individual de débito direto que não deve ser excedido por nenhuma operação de débito direto individual iniciada por uma instituição financeira."
+    },
+    "TDLC": {
+      "name": "Total diário de débitos diretos de clientes",
+      "definition": "Limite diário total de pagamentos para débitos diretos de clientes, que não deve ser excedido pelo total de todas as operações de débito direto iniciadas por clientes."
+    },
+    "TDLF": {
+      "name": "Total diário de débitos diretos de instituições financeiras",
+      "definition": "Limite diário total de pagamentos para débitos diretos de instituições financeiras, que não deve ser excedido pelo total de todas as operações de débito direto iniciadas por instituições financeiras."
+    },
+    "UCDT": {
+      "name": "Crédito não garantido",
+      "definition": "O limite está relacionado com um montante máximo concedido por um banco central nacional ou por um banco liquidador, mas geralmente sem garantia fora da infraestrutura de mercado."
+    },
+    "ACOL": {
+      "name": "Auto-colateralização",
+      "definition": "O limite está relacionado com uma operação de crédito que é ou pode ser acionada quando um comprador não dispõe de montante suficiente para liquidar uma operação sobre valores mobiliários, a fim de melhorar a sua posição de caixa para o ciclo de liquidação seguinte. O crédito concedido pode ser garantido por valores mobiliários já detidos pelo comprador (“carteiras de garantia”) ou pelos valores mobiliários que estão a ser adquiridos (“fluxos de garantia”)."
+    },
+    "EXGT": {
+      "name": "Garantia externa",
+      "definition": "O limite está relacionado com um montante máximo concedido por um banco central nacional ou por um banco liquidador."
+    }
+  }
+}

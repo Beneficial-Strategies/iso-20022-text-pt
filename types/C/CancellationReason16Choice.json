@@ -1,0 +1,12 @@
+{
+  "isoType": "CancellationReason16Choice",
+  "definition": "Especifica o motivo do pedido de cancelamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Motivo do pedido de cancelamento, em formato codificado."
+    },
+    "Proprietary": {
+      "definition": "Motivo do pedido de cancelamento, em formato proprietário."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "PositionEffect3Code",
+  "definition": "Especifica a ordem pela qual os eventos são tratados.",
+  "isoCodes": {
+    "FIFO": {
+      "name": "FIFO",
+      "definition": "First in, first out. Resulta numa posição obtida após a venda prioritária dos valores mobiliários adquiridos cronologicamente."
+    },
+    "LIFO": {
+      "name": "LIFO",
+      "definition": "Last in, last out. Resulta numa posição obtida após a venda prioritária dos valores mobiliários adquiridos cronologicamente."
+    }
+  }
+}

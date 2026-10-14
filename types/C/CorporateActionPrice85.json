@@ -1,0 +1,18 @@
+{
+  "isoType": "CorporateActionPrice85",
+  "definition": "Especifica vários preços de uma operação de sociedade.",
+  "isoElements": {
+    "MaximumPrice": {
+      "definition": "Preço máximo ou limite superior a que um titular pode licitar, por exemplo, numa oferta em leilão holandês."
+    },
+    "MinimumPrice": {
+      "definition": "Preço mínimo ou limite inferior a que um titular pode licitar, por exemplo, numa oferta em leilão holandês."
+    },
+    "FirstBidIncrementPrice": {
+      "definition": "Primeiro preço aceitável após o Preço Mínimo a que um titular pode licitar, por exemplo, numa oferta em leilão holandês."
+    },
+    "LastBidIncrementPrice": {
+      "definition": "Último preço aceitável antes do Preço Máximo a que um titular pode licitar, por exemplo, numa oferta em leilão holandês."
+    }
+  }
+}

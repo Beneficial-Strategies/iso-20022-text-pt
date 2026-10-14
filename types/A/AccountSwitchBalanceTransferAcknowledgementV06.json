@@ -1,0 +1,4 @@
+{
+  "isoType": "AccountSwitchBalanceTransferAcknowledgementV06",
+  "definition": "A mensagem AccountSwitchBalanceTransferAcknowledgement é enviada pela anterior instituição gestora da conta à nova instituição gestora da conta em resposta à mensagem AccountSwitchRequestBalanceTransfer. Confirma o estado da conta anterior e o saldo da conta no encerramento. No caso de um saldo de encerramento negativo, a anterior instituição gestora da conta fornece os detalhes da conta indicada para a qual a nova instituição gestora da conta deve efetuar o pagamento."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "GeneralBusinessReport6",
+  "definition": "Informa sobre as informações de negócio ou sobre um erro de negócio.",
+  "isoElements": {
+    "BusinessInformationReference": {
+      "definition": "Identificação única e inequívoca de um sistema de informações de negócio gerais, atribuída pelo administrador de operações do sistema."
+    },
+    "GeneralBusinessOrError": {
+      "definition": "Informações de negócio solicitadas."
+    }
+  }
+}

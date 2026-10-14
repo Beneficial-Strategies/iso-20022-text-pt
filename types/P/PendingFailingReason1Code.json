@@ -1,0 +1,10 @@
+{
+  "isoType": "PendingFailingReason1Code",
+  "definition": "Especifica o motivo pelo qual a operação/instrução está pendente ou em incumprimento de liquidação. Se a liquidação na data de liquidação instruída ainda for possível, o estado é pendente. Se a liquidação na data de liquidação instruída já não for possível, o estado é em incumprimento.",
+  "isoCodes": {
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    }
+  }
+}

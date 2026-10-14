@@ -1,0 +1,10 @@
+{
+  "isoType": "RejectionReason19Code",
+  "definition": "Especifica o motivo da rejeição de um pedido de autorização de movimento global.",
+  "isoCodes": {
+    "FAIL": {
+      "name": "Validação falhada",
+      "definition": "A validação do aviso/instrução/pedido falhou."
+    }
+  }
+}

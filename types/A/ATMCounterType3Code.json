@@ -1,0 +1,34 @@
+{
+  "isoType": "ATMCounterType3Code",
+  "definition": "Tipo de contadores das cassetes de ATM.",
+  "isoCodes": {
+    "INQU": {
+      "name": "Consulta de contadores",
+      "definition": "Contadores desde a última consulta de contadores."
+    },
+    "CTXN": {
+      "name": "Operação do cliente",
+      "definition": "Contadores de uma operação do cliente."
+    },
+    "CTOF": {
+      "name": "Hora limite",
+      "definition": "Contadores desde o último fecho."
+    },
+    "BDAY": {
+      "name": "Dia útil",
+      "definition": "Contadores desde o início do dia útil."
+    },
+    "PRTN": {
+      "name": "Operação",
+      "definition": "Contadores em resultado de uma operação de reposição efetuada por um operador (por exemplo, adição de numerário a uma unidade de numerário)."
+    },
+    "OPER": {
+      "name": "Ajuste do operador",
+      "definition": "Contadores desde a última atualização por um operador no ATM."
+    },
+    "SLRP": {
+      "name": "Desde o último ponto de reposição",
+      "definition": "Contadores desde o último ponto de reposição."
+    }
+  }
+}

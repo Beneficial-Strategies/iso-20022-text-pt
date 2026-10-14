@@ -1,0 +1,15 @@
+{
+  "isoType": "CashAvailability1",
+  "definition": "Indica quando o montante ficará disponível, ou seja, poderá ser acedido e começar a gerar juros.",
+  "isoElements": {
+    "Date": {
+      "definition": "Indica quando o montante ficará disponível."
+    },
+    "Amount": {
+      "definition": "Identifica o montante disponível."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Indica se o saldo disponível é um saldo credor ou devedor.|Utilização: um saldo nulo é considerado um saldo credor."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "TaxCapacityParty4Choice",
+  "definition": "Escolha do formato da informação sobre a capacidade fiscal.",
+  "isoElements": {
+    "Code": {
+      "definition": "Capacidade fiscal da parte expressa como um código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Capacidade fiscal da parte expressa como um código proprietário."
+    }
+  }
+}

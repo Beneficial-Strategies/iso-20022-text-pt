@@ -1,0 +1,21 @@
+{
+  "isoType": "BreakdownByParty3",
+  "definition": "Especifica os fluxos de caixa de entrada e de saída por parte.",
+  "isoElements": {
+    "Party": {
+      "definition": "Parte, por exemplo, sociedade gestora de fundos, relativamente à qual é comunicado o fluxo de caixa."
+    },
+    "AdditionalParameters": {
+      "definition": "Parâmetro(s) adicional(is) aplicado(s) ao fluxo de caixa por parte."
+    },
+    "CashInForecast": {
+      "definition": "Movimento de caixa de entrada no fundo, resultante de operações sobre ações de um fundo de investimento, por exemplo, subscrições ou entradas por conversão."
+    },
+    "CashOutForecast": {
+      "definition": "Movimento de caixa de saída do fundo, resultante de operações sobre ações de um fundo de investimento, por exemplo, resgates ou saídas por conversão."
+    },
+    "NetCashForecast": {
+      "definition": "Caixa líquida resultante dos fluxos de caixa de entrada e de saída especificados para a parte."
+    }
+  }
+}

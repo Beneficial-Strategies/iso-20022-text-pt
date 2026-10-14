@@ -1,0 +1,12 @@
+{
+  "isoType": "MatchingDenied4Choice",
+  "definition": "Especifica a alteração solicitada ao processamento de emparelhamento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica a execução de um processo de recusa de emparelhamento."
+    },
+    "Proprietary": {
+      "definition": "Especifica a execução de um processo de recusa de emparelhamento."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "RenounceableStatus1Code",
+  "definition": "Especifica o estado de renunciabilidade.",
+  "isoCodes": {
+    "NREN": {
+      "name": "Não renunciável",
+      "definition": "Os valores mobiliários intermédios não podem ser vendidos."
+    },
+    "RENO": {
+      "name": "Renunciável",
+      "definition": "Os valores mobiliários intermédios podem ser vendidos."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "isoType": "PendingStatusReason34",
+  "definition": "Motivos do estado de instrução pendente.",
+  "isoElements": {
+    "ReasonCode": {
+      "definition": "Motivo do estado de pendente."
+    },
+    "AdditionalReasonInformation": {
+      "definition": "Informações adicionais sobre o estado de pendente."
+    }
+  },
+  "isoRules": {
+    "AdditionalReasonInforrmationRule": {
+      "definition": "O elemento AdditionalReasonInformation não pode conter informações que possam ser fornecidas num campo estruturado, salvo acordo bilateral."
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "isoType": "StatusAndReason50",
+  "definition": "Estado e motivo de uma operação.",
+  "isoElements": {
+    "ProcessingStatus": {
+      "definition": "Indica o estado de uma instrução."
+    },
+    "InferredMatchingStatus": {
+      "definition": "Fornece o estado de correspondência de uma instrução conforme conhecido pela entidade gestora da conta com base numa alegação. Nesta altura não houve correspondência no mercado (na CSD/ICSD)."
+    },
+    "MatchingStatus": {
+      "definition": "Fornece o estado de correspondência da instrução."
+    },
+    "SettlementStatus": {
+      "definition": "Fornece o estado da liquidação de uma operação."
+    }
+  },
+  "isoRules": {
+    "SettlementStatusAndMatchedRule": {
+      "definition": "Se o estado/motivo de liquidação for utilizado isoladamente, significa que a operação tem correspondência (se existir um processo de correspondência no mercado em causa ou na entidade gestora da conta em causa)."
+    }
+  }
+}

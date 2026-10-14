@@ -1,0 +1,18 @@
+{
+  "isoType": "IndividualPerson41",
+  "definition": "Entidade humana, por oposição a uma entidade coletiva (por vezes designada «pessoa artificial»).",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única e inequívoca do representante."
+    },
+    "ParticipationMethod": {
+      "definition": "Método de participação na votação da assembleia geral."
+    },
+    "EmployingParty": {
+      "definition": "Organização representada pela pessoa ou para a qual a pessoa trabalha."
+    },
+    "AttendanceCardDetails": {
+      "definition": "Pormenores relativos ao cartão de presença."
+    }
+  }
+}

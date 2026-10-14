@@ -1,0 +1,12 @@
+{
+  "isoType": "Linkages50",
+  "definition": "Informações relativas a uma operação associada.",
+  "isoElements": {
+    "ProcessingPosition": {
+      "definition": "Quando a operação deve ser executada relativamente a uma operação ligada - apenas a título informativo."
+    },
+    "SecuritiesSettlementTransactionIdentification": {
+      "definition": "Identificação inequívoca de uma operação de liquidação de valores mobiliários, tal como conhecida pelo titular da conta (ou pela parte instrutora que age em seu nome)."
+    }
+  }
+}

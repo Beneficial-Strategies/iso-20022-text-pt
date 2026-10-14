@@ -1,0 +1,26 @@
+{
+  "isoType": "PriceInformation20",
+  "definition": "Montante em dinheiro pelo qual bens ou serviços são oferecidos, vendidos ou comprados.",
+  "isoElements": {
+    "Type": {
+      "definition": "Especifica o tipo de preço e as informações sobre o preço."
+    },
+    "Value": {
+      "definition": "Valor do preço, por exemplo, como moeda e valor."
+    },
+    "ValueType": {
+      "definition": "Tipo de valor em que o preço é expresso."
+    },
+    "SourceOfPrice": {
+      "definition": "Local de onde o preço foi obtido."
+    },
+    "QuotationDate": {
+      "definition": "Data em que o preço é obtido. No caso de um fundo de investimento, é a indicada no prospeto."
+    }
+  },
+  "isoRules": {
+    "ValueRule": {
+      "definition": "Se TypeOfPriceCode não for MRKT, Value não pode ser expresso com UnknownIndicator."
+    }
+  }
+}

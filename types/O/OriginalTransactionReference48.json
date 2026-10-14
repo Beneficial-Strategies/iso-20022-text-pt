@@ -1,0 +1,72 @@
+{
+  "isoType": "OriginalTransactionReference48",
+  "definition": "Especifica os elementos principais conforme definidos na operação original.",
+  "isoElements": {
+    "InterbankSettlementAmount": {
+      "definition": "Montante de dinheiro movimentado entre a instituição instrutora e a instituição instruída."
+    },
+    "Amount": {
+      "definition": "Montante de dinheiro a movimentar entre o devedor e o credor, antes da dedução de encargos, expresso na moeda ordenada pela parte iniciadora."
+    },
+    "InterbankSettlementDate": {
+      "definition": "Data em que o montante deixa de estar disponível para a instituição que o deve e em que passa a estar disponível para a instituição a quem é devido."
+    },
+    "RequestedCollectionDate": {
+      "definition": "Data e hora em que o credor solicita que o montante de dinheiro seja cobrado ao devedor."
+    },
+    "RequestedExecutionDate": {
+      "definition": "Data em que a parte iniciadora solicita à instituição de compensação que processe o pagamento. |Utilização: é a data em que a conta do devedor deve ser debitada. No caso de pagamento por cheque, é a data em que o cheque deve ser emitido pelo banco."
+    },
+    "CreditorSchemeIdentification": {
+      "definition": "Parte credora que assina o mandato."
+    },
+    "SettlementInformation": {
+      "definition": "Especifica os detalhes de como foi concluída a liquidação da(s) operação(ões) original(is) entre a instituição instrutora e a instituição instruída."
+    },
+    "PaymentTypeInformation": {
+      "definition": "Conjunto de elementos utilizados para especificar melhor o tipo de operação."
+    },
+    "PaymentMethod": {
+      "definition": "Especifica o meio de pagamento que será utilizado para movimentar o montante."
+    },
+    "MandateRelatedInformation": {
+      "definition": "Fornece detalhes adicionais do mandato assinado entre o credor e o devedor."
+    },
+    "RemittanceInformation": {
+      "definition": "Informação fornecida para permitir a correspondência de um lançamento com os itens que a transferência se destina a liquidar, como faturas comerciais num sistema de contas a receber."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que deve um montante de dinheiro ao credor (final)."
+    },
+    "Debtor": {
+      "definition": "Parte que deve um montante ao credor (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Identificação inequívoca da conta do devedor a debitar em resultado da operação."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que presta serviços a uma conta do devedor."
+    },
+    "DebtorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do devedor junto da respetiva instituição gestora na cadeia de pagamento."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    },
+    "CreditorAgentAccount": {
+      "definition": "Identificação inequívoca da conta da instituição do credor junto da respetiva instituição gestora, a creditar em resultado da operação de pagamento."
+    },
+    "Creditor": {
+      "definition": "Parte à qual é devido um montante."
+    },
+    "CreditorAccount": {
+      "definition": "Identificação inequívoca da conta do credor a creditar em resultado da operação de pagamento."
+    },
+    "UltimateCreditor": {
+      "definition": "Parte final a quem é devido um montante de dinheiro."
+    },
+    "Purpose": {
+      "definition": "Motivo subjacente à operação de pagamento.||Utilização: |A finalidade é utilizada pelos clientes finais, ou seja, a parte iniciadora, o devedor (final) e o credor (final), para fornecer informações sobre a natureza do pagamento. A finalidade é um elemento de conteúdo, que não é utilizado para processamento por nenhuma das instituições envolvidas na cadeia de pagamento."
+    }
+  }
+}

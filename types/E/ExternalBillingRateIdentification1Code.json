@@ -1,0 +1,82 @@
+{
+  "isoType": "ExternalBillingRateIdentification1Code",
+  "definition": "Especifica o tipo de taxa ou fator de faturação, conforme publicado numa lista externa de códigos de identificação de taxas de faturação.|As listas externas de códigos podem ser descarregadas em www.iso20022.org.",
+  "isoCodes": {
+    "AEAR": {
+      "name": "Taxa de bonificação de rendimentos ajustada",
+      "definition": "Taxa de remuneração anual, ajustada das reservas, aplicada ao saldo investível do período de análise corrente para o cálculo do crédito de bonificação de rendimentos.  A ECR, líquida de reservas, é calculada como:    ECR, líquida de reservas  =  ECR, não líquida (00 01 22) * (1 – Taxa de reserva)"
+    },
+    "ANXE": {
+      "name": "Taxa de rendimentos do mês seguinte ajustada",
+      "definition": "A taxa de bonificação de rendimentos antecipada, conforme ajustada, a utilizar no mês seguinte no cálculo da bonificação de rendimentos. Ver AEAR AdjustedEarningsAllowance Rate"
+    },
+    "CDRA": {
+      "name": "Taxa CD",
+      "definition": "A taxa atual dos CD (certificados de depósito) conforme publicada pelo banco."
+    },
+    "DINR": {
+      "name": "Taxa de juro de insuficiência",
+      "definition": "A taxa anual utilizada para calcular o montante dos juros por insuficiência a pagar ao banco."
+    },
+    "DSCR": {
+      "name": "Taxa de sobretaxa de insuficiência",
+      "definition": "A taxa anual utilizada para calcular uma sobretaxa com base no montante dos juros por insuficiência a pagar ao banco."
+    },
+    "EALR": {
+      "name": "Taxa de bonificação de rendimentos",
+      "definition": "Taxa de remuneração anual aplicada ao saldo investível do período de extrato corrente para o cálculo do crédito de bonificação de rendimentos. O crédito de bonificação de rendimentos é utilizado para compensar os encargos dos serviços compensáveis por saldo. Esta taxa NÃO foi ajustada das reservas. A ECR, não líquida de reservas, é calculada como:    ECR, não líquida  =  ECR, líquida de reservas (00 01 20)  /  (1 – Taxa de reserva)"
+    },
+    "FDIC": {
+      "name": "Taxa FDIC",
+      "definition": "A taxa atual da FDIC utilizada nos US para calcular o prémio do Federal Deposit Insurance pago pelos bancos à FDIC."
+    },
+    "ICDR": {
+      "name": "Taxa de juro creditada",
+      "definition": "Taxa de juro anual utilizada para calcular o montante de juros creditado numa conta designada. O montante de juros creditado, se existir, é reportado numa secção de compensação com um identificador de compensação TtlInterestCredited"
+    },
+    "MULT": {
+      "name": "Multiplicador",
+      "definition": "O saldo cobrado necessário para compensar 1,00 USD de encargos de serviços compensáveis por saldo.  Este fator pode ser utilizado para calcular o equivalente em saldo dos encargos de serviços compensáveis por saldo.  O multiplicador é calculado de uma de três formas diferentes, consoante a taxa de bonificação de rendimentos (ECR) seja ou não ajustada das reservas (líquida de reservas ou não) e, no caso de a ECR não ser ajustada das reservas, consoante o multiplicador seja ou não ajustado das reservas (1.00)."
+    },
+    "NCBO": {
+      "name": "Taxa de descoberto sobre saldo cobrado líquido",
+      "definition": "Taxa de juro anual utilizada para calcular a compensação por descoberto sobre um saldo cobrado líquido médio que é negativo (saldo AFP 00 00 10).  Um saldo LÍQUIDO médio é negativo quando a soma dos saldos finais diários POSITIVOS e NEGATIVOS é negativa (NET) (POSITIVE) (NEGATIVE)."
+    },
+    "NGCO": {
+      "name": "Taxa de descoberto sobre saldo cobrado negativo",
+      "definition": "Taxa de juro anual aplicada aos saldos cobrados NEGATIVOS (saldo AFP 00 00 13) para o cálculo da compensação por descoberto (NEGATIVE)."
+    },
+    "NGLO": {
+      "name": "Taxa de descoberto sobre saldo contabilístico negativo",
+      "definition": "Taxa de juro anual aplicada aos saldos contabilísticos NEGATIVOS (saldo AFP 00 00 03) para o cálculo da compensação por descoberto (NEGATIVE)."
+    },
+    "NLBO": {
+      "name": "Taxa de descoberto sobre saldo contabilístico líquido",
+      "definition": "Taxa de juro anual utilizada para calcular a compensação por descoberto sobre um saldo contabilístico líquido médio que é negativo (saldo AFP 00 00 00).  Um saldo LÍQUIDO médio é negativo quando a soma dos saldos finais diários POSITIVOS e NEGATIVOS é negativa (NET) (POSITIVE) (NEGATIVE)."
+    },
+    "NXME": {
+      "name": "Taxa de bonificação de rendimentos do mês seguinte",
+      "definition": "A taxa de bonificação de rendimentos antecipada a utilizar no mês seguinte no cálculo da bonificação de rendimentos. Ver EALR EarningsAllowance Rate"
+    },
+    "NXMU": {
+      "name": "Multiplicador do mês seguinte",
+      "definition": "O multiplicador antecipado a utilizar no mês seguinte. Ver MULT Multiplier."
+    },
+    "PRIR": {
+      "name": "Taxa preferencial (prime rate)",
+      "definition": "A taxa Prime anual atual conforme publicada pelo banco."
+    },
+    "RRQR": {
+      "name": "Taxa de reservas obrigatórias não DDA",
+      "definition": "A taxa de reserva anual aplicada a contas de depósito que não são à ordem, como depósitos a prazo ou contas de CD."
+    },
+    "RSRV": {
+      "name": "Taxa de reservas obrigatórias",
+      "definition": "Taxa de juro anual utilizada para calcular a parte do CollectedBal-AvgPositive que os bancos dos US têm de manter em depósito na US Federal Reserve."
+    },
+    "UFUR": {
+      "name": "Taxa de utilização de fundos não cobrados",
+      "definition": "Taxa de juro anual cobrada sobre a parte do saldo da conta que corresponde à diferença entre o saldo contabilístico negativo médio e o saldo cobrado negativo médio (saldo AFP 00 00 15).  Esta taxa é utilizada para cobrar compensação sobre a parte do saldo cobrado negativo que representa a utilização de fundos não cobrados."
+    }
+  }
+}

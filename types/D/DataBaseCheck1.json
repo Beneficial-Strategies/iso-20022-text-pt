@@ -1,0 +1,12 @@
+{
+  "isoType": "DataBaseCheck1",
+  "definition": "Informações sobre uma base de dados.",
+  "isoElements": {
+    "DatabaseCheck": {
+      "definition": "Indica se o particular ou a organização consta de uma base de dados global em linha de Know Your Customer (KYC)."
+    },
+    "Identification": {
+      "definition": "Identificação da base de dados."
+    }
+  }
+}

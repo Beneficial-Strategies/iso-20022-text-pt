@@ -1,0 +1,34 @@
+{
+  "isoType": "RejectionReason74Code",
+  "definition": "Depositário não reconhecido ou inválido.",
+  "isoCodes": {
+    "SAFE": {
+      "name": "Rejeição da conta de guarda",
+      "definition": "Conta de custódia do remetente da mensagem não reconhecida ou inválida."
+    },
+    "ADEA": {
+      "name": "Prazo do prestador da conta ultrapassado",
+      "definition": "Operação/instrução recebida após o prazo limite especificado pela instituição gestora da conta."
+    },
+    "LATE": {
+      "name": "Prazo do mercado ultrapassado",
+      "definition": "Recebida após o prazo limite do mercado."
+    },
+    "NRGN": {
+      "name": "Rejeição por não encontrado",
+      "definition": "Não foi possível encontrar a instrução."
+    },
+    "REFE": {
+      "name": "Rejeição por referência",
+      "definition": "A instrução tem uma referência idêntica à de outra instrução recebida anteriormente."
+    },
+    "NRGM": {
+      "name": "Sem correspondência",
+      "definition": "Mais do que uma instrução corresponde aos critérios."
+    },
+    "OTHR": {
+      "name": "Outro",
+      "definition": "Outro. Ver Narrative."
+    }
+  }
+}

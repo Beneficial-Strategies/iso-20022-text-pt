@@ -1,0 +1,29 @@
+{
+  "isoType": "SecuritiesCancellation2",
+  "definition": "Fornece as operações do relatório.",
+  "isoElements": {
+    "AccountOwner": {
+      "definition": "Parte que é titular da conta."
+    },
+    "SafekeepingAccount": {
+      "definition": "Conta para a qual ou da qual é efetuado um lançamento de valores mobiliários."
+    },
+    "ProcessingStatus": {
+      "definition": "Estado e motivo do estado da operação."
+    },
+    "Cancellation": {
+      "definition": "Identifica a operação individual."
+    }
+  },
+  "isoRules": {
+    "ProcessingStatusRule": {
+      "definition": "ProcessingStatus deve estar presente ou Cancellation(*)/ProcessingStatus deve estar presente, mas não ambos."
+    },
+    "SafekeepingAccountRule": {
+      "definition": "SafekeepingAccount tem de estar presente ou Cancellation(*)/SafekeepingAccount tem de estar presente, mas não ambos."
+    },
+    "AccountOwnerRule": {
+      "definition": "AccountOwner tem de estar presente ou Cancellation(*)/AccountOwner tem de estar presente, mas não ambos."
+    }
+  }
+}

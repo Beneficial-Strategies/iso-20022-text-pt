@@ -1,0 +1,20 @@
+{
+  "isoType": "PriceDetails37",
+  "definition": "Fornece informações sobre os preços relacionados com uma opção de operação sobre títulos.",
+  "isoElements": {
+    "GenericCashPricePaidPerProduct": {
+      "definition": "Preço genérico em numerário pago por produto pelo detentor do valor mobiliário subjacente, sob a forma de percentagem, montante ou número de pontos acima de um índice, por exemplo, preço de reinvestimento, preço de exercício e preço de execução."
+    },
+    "GenericCashPriceReceivedPerProduct": {
+      "definition": "Preço genérico em numerário recebido por produto pelo detentor do valor mobiliário subjacente, sob a forma de percentagem ou montante, por exemplo, preço de resgate."
+    },
+    "CashInLieuOfSharePrice": {
+      "definition": "Pagamento em numerário em vez de ações; normalmente em vez de uma quantidade fracionária."
+    }
+  },
+  "isoRules": {
+    "GenericCashPricePerProductGuideline": {
+      "definition": "GenericCashPriceReceivedPerProduct e GenericCashPricePaidPerProduct são preços recebidos ou pagos no decurso de um evento. O significado específico (preço de resgate, preço de subscrição, preço de reinvestimento, ETC.) é derivado do tipo de evento."
+    }
+  }
+}

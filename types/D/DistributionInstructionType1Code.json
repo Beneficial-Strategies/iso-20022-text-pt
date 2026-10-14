@@ -1,0 +1,26 @@
+{
+  "isoType": "DistributionInstructionType1Code",
+  "definition": "Especifica o tipo de instrução de distribuição.",
+  "isoCodes": {
+    "GDEB": {
+      "name": "Ordem de débito global",
+      "definition": "Instrução para debitar as posições detidas em todas as contas de clientes nos recursos subjacentes do evento e da opção em causa. Esta ordem aplica-se a todos os clientes que são elegíveis para participar no evento da CA."
+    },
+    "IDEB": {
+      "name": "Ordem individual",
+      "definition": "Uma instrução, cliente a cliente, para debitar a posição detida nos recursos subjacentes (valores mobiliários e/ou numerário) e/ou para creditar o produto (valores mobiliários e/ou numerário)."
+    },
+    "GRET": {
+      "name": "Ordem de devolução global",
+      "definition": "Instrução para transferir valores mobiliários dos saldos sequestrados dos clientes de volta para os respetivos saldos disponíveis."
+    },
+    "CHAN": {
+      "name": "Ordem de alteração de opção",
+      "definition": "Instrução para transferir a posição de um saldo sequestrado (relativo a uma opção da CA) para outro saldo sequestrado (relativo a outra opção da CA)."
+    },
+    "IRET": {
+      "name": "Ordem de devolução individual",
+      "definition": "Instrução para transferir valores mobiliários de um saldo sequestrado de um cliente de volta para o respetivo saldo disponível."
+    }
+  }
+}

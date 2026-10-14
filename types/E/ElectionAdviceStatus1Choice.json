@@ -1,0 +1,12 @@
+{
+  "isoType": "ElectionAdviceStatus1Choice",
+  "definition": "Escolha entre os diferentes estados de um aviso de escolha.",
+  "isoElements": {
+    "ProcessedStatus": {
+      "definition": "Fornece informações sobre o estado de processamento do aviso."
+    },
+    "RejectedStatus": {
+      "definition": "Fornece informações sobre o estado de rejeição."
+    }
+  }
+}

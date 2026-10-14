@@ -1,0 +1,12 @@
+{
+  "isoType": "StatementFrequencyAndFormModification1",
+  "definition": "Especifica o tipo de alteração da periodicidade e da forma dos extratos.",
+  "isoElements": {
+    "ModificationCode": {
+      "definition": "Especifica o tipo de alteração."
+    },
+    "StatementFrequencyAndForm": {
+      "definition": "Especifica a periodicidade, o formato e o endereço de entrega dos extratos."
+    }
+  }
+}

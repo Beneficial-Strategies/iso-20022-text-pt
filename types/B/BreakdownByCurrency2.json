@@ -1,0 +1,18 @@
+{
+  "isoType": "BreakdownByCurrency2",
+  "definition": "Especifica os fluxos de caixa de entrada e de saída por moeda.",
+  "isoElements": {
+    "Currency": {
+      "definition": "Moeda relativamente à qual é comunicado o fluxo de caixa."
+    },
+    "CashOutForecast": {
+      "definition": "Movimento de caixa de saída do fundo, resultante de operações sobre ações de um fundo de investimento, por exemplo, resgates ou saídas por conversão."
+    },
+    "CashInForecast": {
+      "definition": "Movimento de caixa de entrada no fundo, resultante de operações sobre ações de um fundo de investimento, por exemplo, subscrições ou entradas por conversão."
+    },
+    "NetCashForecast": {
+      "definition": "Caixa líquida resultante dos fluxos de caixa de entrada e de saída especificados para a moeda."
+    }
+  }
+}

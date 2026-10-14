@@ -1,0 +1,14 @@
+{
+  "isoType": "DistributionPolicy1Code",
+  "definition": "Especifica se o rendimento deve ser pago (distribuído) ou retido (acumulado).",
+  "isoCodes": {
+    "DIST": {
+      "name": "Distribuição",
+      "definition": "O rendimento é distribuído aos investidores do fundo."
+    },
+    "ACCU": {
+      "name": "Acumulação",
+      "definition": "O rendimento é adicionado ao capital do fundo."
+    }
+  }
+}

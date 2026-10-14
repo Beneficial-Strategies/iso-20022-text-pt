@@ -1,0 +1,39 @@
+{
+  "isoType": "TaxInformation7",
+  "definition": "Detalhes sobre o imposto pago, ou a pagar, ao Estado em conformidade com a lei, incluindo parâmetros predefinidos como limiares e tipo de conta.",
+  "isoElements": {
+    "Creditor": {
+      "definition": "Parte do lado do crédito da operação à qual o imposto se aplica."
+    },
+    "Debtor": {
+      "definition": "Identifica a parte do lado do débito da operação à qual o imposto se aplica."
+    },
+    "UltimateDebtor": {
+      "definition": "Parte final que deve um montante ao credor (final), neste caso, à autoridade fiscal."
+    },
+    "AdministrationZone": {
+      "definition": "Parte territorial de um país a que se refere o pagamento do imposto."
+    },
+    "ReferenceNumber": {
+      "definition": "Informações de referência fiscal específicas de uma autoridade fiscal."
+    },
+    "Method": {
+      "definition": "Método utilizado para indicar a atividade subjacente ou a forma como o imposto é pago."
+    },
+    "TotalTaxableBaseAmount": {
+      "definition": "Montante total sobre o qual o imposto incide."
+    },
+    "TotalTaxAmount": {
+      "definition": "Montante total resultante do cálculo do imposto."
+    },
+    "Date": {
+      "definition": "Data até à qual o imposto é devido."
+    },
+    "SequenceNumber": {
+      "definition": "Número sequencial da declaração de imposto."
+    },
+    "Record": {
+      "definition": "Registo dos detalhes do imposto."
+    }
+  }
+}

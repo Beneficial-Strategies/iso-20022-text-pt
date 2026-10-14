@@ -1,0 +1,12 @@
+{
+  "isoType": "PaymentInstrument22",
+  "definition": "Partes do pagamento para a transferência de numerário do devedor para o credor.",
+  "isoElements": {
+    "Reference": {
+      "definition": "Informações fornecidas para permitir a correspondência de um lançamento com os itens que a transferência se destina a liquidar, como faturas comerciais num sistema de contas a receber."
+    },
+    "CreditTransferDetails": {
+      "definition": "Instrumento de pagamento entre um devedor e um credor que circula através de uma ou mais instituições financeiras ou sistemas."
+    }
+  }
+}

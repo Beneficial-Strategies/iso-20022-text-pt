@@ -1,0 +1,24 @@
+{
+  "isoType": "ParticipationMethod3",
+  "definition": "Método de participação na votação de uma assembleia geral.",
+  "isoElements": {
+    "ParticipationMethod": {
+      "definition": "Método de participação na votação da assembleia geral."
+    },
+    "AttendeeEmailRequiredIndicator": {
+      "definition": "Indica se o endereço de correio eletrónico da parte que assistirá à assembleia virtual deve ser fornecido na instrução de assembleia."
+    },
+    "IssuerDeadlineForVoting": {
+      "definition": "Prazo para votar as deliberações da ordem de trabalhos da assembleia geral."
+    },
+    "SupportedByAccountServicer": {
+      "definition": "Indica se o método de participação específico proposto pelo emitente é suportado pela instituição gestora da conta."
+    },
+    "ResponseDeadlineForVoting": {
+      "definition": "Prazo da instituição gestora da conta para votar as deliberações da ordem de trabalhos da assembleia geral."
+    },
+    "InvestorTypeIdentification": {
+      "definition": "Tipos de investidor que podem ou não participar no evento."
+    }
+  }
+}

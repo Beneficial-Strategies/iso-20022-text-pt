@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionPrice2",
+  "definition": "Especifica preços.",
+  "isoElements": {
+    "MaximumPrice": {
+      "definition": "Preço máximo ou limite superior a que um titular pode licitar, por exemplo, numa oferta de leilão holandês."
+    },
+    "MinimumPrice": {
+      "definition": "Preço mínimo ou limite inferior a que um titular pode licitar, por exemplo, numa oferta de leilão holandês."
+    }
+  }
+}

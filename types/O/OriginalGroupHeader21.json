@@ -1,0 +1,38 @@
+{
+  "isoType": "OriginalGroupHeader21",
+  "definition": "Fornece pormenores sobre o grupo original a que a mensagem se refere.",
+  "isoElements": {
+    "GroupCancellationIdentification": {
+      "definition": "Identificação única, atribuída pelo cedente, para identificar inequivocamente o pedido de cancelamento de grupo.||Utilização: a identificação do pedido de cancelamento de grupo pode ser utilizada para reconciliação ou para ligar tarefas relacionadas com o pedido de cancelamento."
+    },
+    "Case": {
+      "definition": "Identifica de forma única e inequívoca uma exceção ou um fluxo de trabalho de investigação."
+    },
+    "OriginalMessageIdentification": {
+      "definition": "Referência ponto a ponto, atribuída pela parte instrutora original, para identificar de forma inequívoca a mensagem original."
+    },
+    "OriginalMessageNameIdentification": {
+      "definition": "Especifica o identificador do nome da mensagem original a que a mensagem se refere."
+    },
+    "OriginalCreationDateTime": {
+      "definition": "Data e hora em que a mensagem original foi criada."
+    },
+    "NumberOfTransactions": {
+      "definition": "Número de operações individuais contidas na mensagem original."
+    },
+    "ControlSum": {
+      "definition": "Total de todos os montantes individuais incluídos na mensagem, independentemente das moedas."
+    },
+    "GroupCancellation": {
+      "definition": "Indica se o pedido de cancelamento se aplica a um grupo completo de operações ou a operações individuais dentro de um grupo original."
+    },
+    "CancellationReasonInformation": {
+      "definition": "Fornece informações pormenorizadas sobre o motivo do cancelamento."
+    }
+  },
+  "isoRules": {
+    "GroupCancellationAndReasonRule": {
+      "definition": "Se GroupCancellation for verdadeiro, CancellationReasonInformation/Reason tem de estar presente."
+    }
+  }
+}

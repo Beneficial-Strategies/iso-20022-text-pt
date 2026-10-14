@@ -1,0 +1,15 @@
+{
+  "isoType": "MemberIdentification3Choice",
+  "definition": "Conjunto de elementos utilizados para identificar uma instituição financeira.",
+  "isoElements": {
+    "BICFI": {
+      "definition": "Código de identificação de empresa (BIC) da instituição financeira membro."
+    },
+    "ClearingSystemMemberIdentification": {
+      "definition": "Informação utilizada para identificar um membro num sistema de compensação."
+    },
+    "Other": {
+      "definition": "Identificação única de uma instituição, atribuída por uma instituição, utilizando um esquema de identificação."
+    }
+  }
+}

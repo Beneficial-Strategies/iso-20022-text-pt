@@ -1,0 +1,15 @@
+{
+  "isoType": "CashBreakdown1",
+  "definition": "Montante em dinheiro definido em notas e/ou moedas.",
+  "isoElements": {
+    "NoteDetails": {
+      "definition": "Especifica os detalhes das notas."
+    },
+    "CoinDetails": {
+      "definition": "Especifica os detalhes das moedas."
+    },
+    "TotalAmount": {
+      "definition": "Montante total de todas as notas e moedas."
+    }
+  }
+}

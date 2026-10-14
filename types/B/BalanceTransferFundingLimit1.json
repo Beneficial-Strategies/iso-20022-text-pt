@@ -1,0 +1,9 @@
+{
+  "isoType": "BalanceTransferFundingLimit1",
+  "definition": "Valor máximo que o novo banco pagará ao banco anterior quando o saldo de encerramento no banco anterior for negativo.",
+  "isoElements": {
+    "CurrencyAmount": {
+      "definition": "Valor máximo e moeda correspondente que podem ser enviados pela nova instituição gestora da conta à anterior instituição gestora da conta em caso de saldo de encerramento negativo."
+    }
+  }
+}

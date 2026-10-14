@@ -1,0 +1,17 @@
+{
+  "isoType": "Extension1",
+  "definition": "Informações adicionais que não podem ser registadas nos campos estruturados e/ou em qualquer outro bloco específico.",
+  "isoElements": {
+    "PlaceAndName": {
+      "definition": "Nome que qualifica as informações fornecidas no campo Text e local onde estas informações devem ser inseridas."
+    },
+    "Text": {
+      "definition": "Texto da extensão."
+    }
+  },
+  "isoRules": {
+    "ExtensionRule": {
+      "definition": "Este componente não pode ser utilizado sem a aprovação explícita da Autoridade de Registo e sem regras de utilização estritas publicadas pela Autoridade de Registo."
+    }
+  }
+}

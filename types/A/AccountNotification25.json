@@ -1,0 +1,51 @@
+{
+  "isoType": "AccountNotification25",
+  "definition": "Fornece mais pormenores da notificação da conta.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Identificação única, atribuída pela instituição gestora da conta, para identificar inequivocamente a notificação da conta."
+    },
+    "NotificationPagination": {
+      "definition": "Fornece pormenores sobre o número de página da notificação.||Utilização: a paginação da notificação só é permitida quando acordada entre as partes."
+    },
+    "ElectronicSequenceNumber": {
+      "definition": "Número sequencial da notificação, atribuído pela instituição gestora da conta. |Utilização: o número sequencial é incrementado por cada notificação enviada eletronicamente."
+    },
+    "ReportingSequence": {
+      "definition": "Especifica o intervalo de números de sequência de identificação, tal como fornecido no pedido."
+    },
+    "LegalSequenceNumber": {
+      "definition": "Número sequencial legal da notificação, atribuído pela instituição gestora da conta. É incrementado por cada notificação enviada."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que a notificação foi criada."
+    },
+    "FromToDate": {
+      "definition": "Intervalo de tempo entre uma data de início e uma data de fim para o qual a notificação da conta é emitida."
+    },
+    "CopyDuplicateIndicator": {
+      "definition": "Indica se o documento é uma cópia, um duplicado ou um duplicado de uma cópia."
+    },
+    "ReportingSource": {
+      "definition": "Especifica a aplicação utilizada para gerar o reporte."
+    },
+    "Account": {
+      "definition": "Identificação inequívoca da conta na qual são efetuados lançamentos a crédito e a débito."
+    },
+    "RelatedAccount": {
+      "definition": "Identifica a conta principal da conta para a qual a notificação foi emitida."
+    },
+    "Interest": {
+      "definition": "Fornece informações gerais sobre os juros que se aplicam à conta num determinado momento."
+    },
+    "TransactionsSummary": {
+      "definition": "Fornece informações resumidas sobre os lançamentos."
+    },
+    "Entry": {
+      "definition": "Especifica um lançamento na notificação de débito/crédito.|Utilização: tem de ser fornecida pelo menos uma referência para identificar o lançamento e a(s) operação(ões) subjacente(s).||Regra de utilização: no caso de uma operação de retificação (R-transaction) de pagamentos, o credor/devedor referenciado nas mensagens originais de iniciação de pagamento é também utilizado para o reporte da R-transaction. O devedor/credor original no reporte de R-transactions não é invertido. |Os seguintes elementos, todos definidos em TransactionDetails, em RelatedParties ou RelatedAgents, são afetados por esta regra de utilização:|Creditor, UltimateCreditor, CreditorAccount, CreditorAgent, Debtor, UltimateDebtor, DebtorAccount e DebtorAgent."
+    },
+    "AdditionalNotificationInformation": {
+      "definition": "Mais pormenores da notificação da conta."
+    }
+  }
+}

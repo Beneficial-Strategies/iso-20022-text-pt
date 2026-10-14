@@ -1,0 +1,18 @@
+{
+  "isoType": "ErrorHandling1Code",
+  "definition": "Códigos de erro gerados quando a resposta a uma consulta excede a dimensão máxima ou os dados não estão disponíveis.",
+  "isoCodes": {
+    "X020": {
+      "name": "Dados ainda não disponíveis",
+      "definition": "Especifica o código de erro quando os dados pedidos ainda não estão disponíveis."
+    },
+    "X030": {
+      "name": "Limite de tamanho da mensagem excedido",
+      "definition": "Especifica o código de erro quando os dados pedidos geram uma mensagem de dimensão que excede a capacidade de tratamento."
+    },
+    "X050": {
+      "name": "Dados não disponíveis",
+      "definition": "Especifica o código de erro quando os dados pedidos não foram encontrados."
+    }
+  }
+}

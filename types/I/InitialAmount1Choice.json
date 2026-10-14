@@ -1,0 +1,12 @@
+{
+  "isoType": "InitialAmount1Choice",
+  "definition": "Escolha entre um montante inicial ou um número de prestações pré-pagas.",
+  "isoElements": {
+    "InitialNumberOfInstalments": {
+      "definition": "Número de períodos de prestações pré-pagas no momento da criação do plano de investimento."
+    },
+    "Amount": {
+      "definition": "Montante a pagar ou a resgatar no momento da criação do plano de investimento."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "PendingStatus3",
+  "definition": "Informações de estado e de quantidade relativas a um pedido de instrução pendente.",
+  "isoElements": {
+    "PendingQuantity": {
+      "definition": "Quantidade de valores mobiliários instruídos para a qual o processamento está pendente."
+    },
+    "PendingReason": {
+      "definition": "Motivo do estado de pendente."
+    }
+  }
+}

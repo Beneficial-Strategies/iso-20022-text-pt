@@ -1,0 +1,24 @@
+{
+  "isoType": "CashOption109",
+  "definition": "Fornece informações sobre a opção em numerário.",
+  "isoElements": {
+    "CreditDebitIndicator": {
+      "definition": "Indica se o valor é um débito ou um crédito."
+    },
+    "Account": {
+      "definition": "Escolha entre uma conta de numerário, uma conta de encargos ou uma conta de impostos."
+    },
+    "PostingDate": {
+      "definition": "Data/hora do lançamento (crédito ou débito) na conta."
+    },
+    "OriginalPostingDate": {
+      "definition": "Data/hora do lançamento (crédito ou débito) na conta que foi inicialmente comunicada na confirmação."
+    },
+    "ValueDate": {
+      "definition": "Data/hora do cálculo do benefício económico para um montante em numerário."
+    },
+    "PostingAmount": {
+      "definition": "Montante em dinheiro a lançar/lançado na conta."
+    }
+  }
+}

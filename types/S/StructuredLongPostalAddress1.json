@@ -1,0 +1,47 @@
+{
+  "isoType": "StructuredLongPostalAddress1",
+  "definition": "Endereço de uma parte expresso numa estrutura formal, normalmente de acordo com as especificações dos serviços postais do país.",
+  "isoElements": {
+    "BuildingName": {
+      "definition": "Nome do edifício ou da casa."
+    },
+    "StreetName": {
+      "definition": "Nome de uma rua ou via."
+    },
+    "StreetBuildingIdentification": {
+      "definition": "Número que identifica a posição de um edifício numa rua."
+    },
+    "Floor": {
+      "definition": "Andar ou piso de um edifício."
+    },
+    "TownName": {
+      "definition": "Nome de uma zona urbanizada, com limites definidos, e de uma administração local."
+    },
+    "DistrictName": {
+      "definition": "Nome de um bairro, isto é, uma parte de uma cidade ou região."
+    },
+    "RegionIdentification": {
+      "definition": "Identificação de uma divisão administrativa de um país, estado ou território."
+    },
+    "State": {
+      "definition": "Comunidade política organizada ou área que faz parte de uma federação."
+    },
+    "CountyIdentification": {
+      "definition": "Identificador de um condado."
+    },
+    "Country": {
+      "definition": "Nação com governo próprio."
+    },
+    "PostCodeIdentification": {
+      "definition": "Identificador constituído por um grupo de letras e/ou números que é acrescentado a um endereço postal para facilitar a triagem do correio."
+    },
+    "PostOfficeBox": {
+      "definition": "Caixa numerada numa estação de correios, atribuída a uma pessoa ou organização, onde as cartas são guardadas até serem levantadas."
+    }
+  },
+  "isoRules": {
+    "StreetNameAndOrPostOfficeBoxRule": {
+      "definition": "Se StreetName não estiver presente, então PostOfficeBox é obrigatório. Se StreetName estiver presente, então PostOfficeBox é opcional."
+    }
+  }
+}

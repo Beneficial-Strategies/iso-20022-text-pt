@@ -1,0 +1,21 @@
+{
+  "isoType": "PaymentTypeInformation29",
+  "definition": "Fornece mais pormenores sobre o tipo de pagamento.",
+  "isoElements": {
+    "InstructionPriority": {
+      "definition": "Indicador da urgência ou da ordem de importância que a parte instrutora pretende que a parte instruída aplique ao tratamento da instrução."
+    },
+    "ServiceLevel": {
+      "definition": "Acordo ou regras ao abrigo dos quais a operação deve ser tratada."
+    },
+    "LocalInstrument": {
+      "definition": "Instrumento específico da comunidade de utilizadores.||Utilização: Este elemento é utilizado para especificar um instrumento local, uma opção de compensação local e/ou para qualificar melhor o serviço ou o nível de serviço."
+    },
+    "SequenceType": {
+      "definition": "Identifica a sequência do débito direto, como primeiro, recorrente, final ou pontual."
+    },
+    "CategoryPurpose": {
+      "definition": "Especifica a finalidade de alto nível da instrução com base num conjunto de categorias predefinidas.|Utilização: É utilizado pela parte iniciadora para fornecer informações relativas ao tratamento do pagamento. É suscetível de desencadear um tratamento especial por qualquer das instituições envolvidas na cadeia de pagamento."
+    }
+  }
+}

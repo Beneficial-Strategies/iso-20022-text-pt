@@ -1,0 +1,12 @@
+{
+  "isoType": "InvestmentFundOrder4",
+  "definition": "Identifica uma ordem associada à abertura de uma conta.",
+  "isoElements": {
+    "OrderReference": {
+      "definition": "Identificador único e inequívoco de uma ordem, atribuído pela parte instruidora."
+    },
+    "MasterReference": {
+      "definition": "Identificador único e inequívoco de um grupo de ordens individuais, atribuído pela parte instruidora. Este identificador associa as ordens individuais entre si."
+    }
+  }
+}

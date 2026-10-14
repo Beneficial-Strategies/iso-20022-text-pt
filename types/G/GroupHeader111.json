@@ -1,0 +1,24 @@
+{
+  "isoType": "GroupHeader111",
+  "definition": "Conjunto de características comuns a todas as operações individuais incluídas na mensagem.",
+  "isoElements": {
+    "MessageIdentification": {
+      "definition": "Referência ponto a ponto atribuída pela parte instrutora e enviada à parte seguinte na cadeia para identificar de forma inequívoca a mensagem.||Utilização: a parte instrutora deve garantir que 'MessageIdentification' é única por parte instruída durante um período previamente acordado."
+    },
+    "CreationDateTime": {
+      "definition": "Data e hora em que o relatório de estado foi criado pela parte instrutora."
+    },
+    "InitiatingParty": {
+      "definition": "Parte que inicia o pedido de ativação de pagamento do credor. Pode ser o próprio credor ou a parte que inicia o pedido em nome do credor."
+    },
+    "ForwardingAgent": {
+      "definition": "Instituição financeira que recebe a instrução da parte iniciadora e a reencaminha para a instituição seguinte na cadeia de pagamento para execução."
+    },
+    "DebtorAgent": {
+      "definition": "Instituição financeira que gere uma conta do devedor."
+    },
+    "CreditorAgent": {
+      "definition": "Instituição financeira que gere uma conta do credor."
+    }
+  }
+}

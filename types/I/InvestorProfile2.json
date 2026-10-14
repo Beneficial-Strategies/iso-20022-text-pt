@@ -1,0 +1,21 @@
+{
+  "isoType": "InvestorProfile2",
+  "definition": "Informações sobre as ações que podem ser realizadas numa conta.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de perfil."
+    },
+    "Status": {
+      "definition": "Estado do perfil."
+    },
+    "Treasury": {
+      "definition": "Informações sobre o perfil de negociação de tesouraria."
+    },
+    "HighFrequencyTrading": {
+      "definition": "Informações sobre o perfil de negociação de alta frequência."
+    },
+    "MarketMaker": {
+      "definition": "Informações sobre o perfil de um criador de mercado."
+    }
+  }
+}

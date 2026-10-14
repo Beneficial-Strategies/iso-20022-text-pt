@@ -1,0 +1,22 @@
+{
+  "isoType": "ModalityOfCounting1Code",
+  "definition": "Especifica a modalidade através da qual os votos foram registados e contabilizados.",
+  "isoCodes": {
+    "EVAM": {
+      "name": "Eletrónico na assembleia",
+      "definition": "Voto eletrónico registado e contabilizado na assembleia."
+    },
+    "EVBM": {
+      "name": "Eletrónico antes da assembleia",
+      "definition": "Voto eletrónico registado e contabilizado antes da assembleia."
+    },
+    "PVBM": {
+      "name": "Em papel antes da assembleia",
+      "definition": "Voto em papel registado e contabilizado antes da assembleia."
+    },
+    "PVAM": {
+      "name": "Presencial na assembleia",
+      "definition": "Presença física com voto na assembleia."
+    }
+  }
+}

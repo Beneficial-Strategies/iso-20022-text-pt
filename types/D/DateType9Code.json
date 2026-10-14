@@ -1,0 +1,38 @@
+{
+  "isoType": "DateType9Code",
+  "definition": "A data é especificada como um valor de código fixo.",
+  "isoCodes": {
+    "PWAL": {
+      "name": "Bloqueio até ao fim do período de escolha",
+      "definition": "O bloqueio ocorre até ao fim do período de eleição da opção, inclusive."
+    },
+    "MKDT": {
+      "name": "Bloqueio até ao prazo de mercado",
+      "definition": "O bloqueio ocorre até ao prazo de mercado da opção, inclusive."
+    },
+    "MEET": {
+      "name": "Bloqueio até à data da assembleia",
+      "definition": "O bloqueio ocorre até à data da assembleia, inclusive."
+    },
+    "PAYD": {
+      "name": "Bloqueio até à data de pagamento",
+      "definition": "O desbloqueio ocorrerá na data de pagamento da opção."
+    },
+    "RDTE": {
+      "name": "Bloqueio até à data de registo",
+      "definition": "O bloqueio ocorre até à data de registo do evento, inclusive."
+    },
+    "RDDT": {
+      "name": "Bloqueio até ao prazo de resposta",
+      "definition": "O bloqueio ocorre até ao prazo da instituição gestora da conta para a opção, inclusive."
+    },
+    "NARR": {
+      "name": "Data de desbloqueio descritiva",
+      "definition": "Consultar o elemento de informação adicional para a data até à qual os valores mobiliários estão bloqueados."
+    },
+    "UKWN": {
+      "name": "Desconhecido",
+      "definition": "A data é desconhecida do remetente ou não foi estabelecida."
+    }
+  }
+}

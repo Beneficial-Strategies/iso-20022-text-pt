@@ -1,0 +1,12 @@
+{
+  "isoType": "RejectionStatus27Choice",
+  "definition": "Escolha de estado de rejeição.",
+  "isoElements": {
+    "NoSpecifiedReason": {
+      "definition": "Indica que não existe motivo disponível ou a reportar."
+    },
+    "Reason": {
+      "definition": "Especifica o motivo do estado de rejeição ou reparação."
+    }
+  }
+}

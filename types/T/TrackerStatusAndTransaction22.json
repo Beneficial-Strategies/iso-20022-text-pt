@@ -1,0 +1,17 @@
+{
+  "isoType": "TrackerStatusAndTransaction22",
+  "definition": "Fornece informações detalhadas sobre a operação e o seu estado a atualizar no rastreador.",
+  "isoElements": {
+    "TransactionStatus": {
+      "definition": "Fornece informações detalhadas sobre o estado da operação a atualizar no rastreador."
+    },
+    "Transaction": {
+      "definition": "Elementos-chave utilizados para identificar a(s) operação(ões) original(ais) a que se faz referência."
+    }
+  },
+  "isoRules": {
+    "RejectReturnReasonRule": {
+      "definition": "TransactionStatus/RejectReturnReason tem de estar ausente ou Transaction/RejectReturnReason tem de estar ausente."
+    }
+  }
+}

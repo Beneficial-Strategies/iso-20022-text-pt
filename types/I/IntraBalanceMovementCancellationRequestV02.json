@@ -1,0 +1,4 @@
+{
+  "isoType": "IntraBalanceMovementCancellationRequestV02",
+  "definition": "A mensagem IntraBalanceMovementCancellationRequest é enviada por um titular da conta/requerente a uma infraestrutura de liquidação para solicitar o cancelamento de uma mensagem IntraBalanceMovementInstruction enviada anteriormente.||Utilização: |A mensagem pode ser utilizada para:|- reenviar uma mensagem enviada anteriormente (a subfunção da mensagem é \"Duplicate\")|- fornecer a um terceiro uma cópia de uma mensagem, a título informativo (a subfunção da mensagem é \"Copy\")|- reenviar a um terceiro uma cópia de uma mensagem, a título informativo (a subfunção da mensagem é \"CopyDuplicate\")."
+}

@@ -1,0 +1,10 @@
+{
+  "isoType": "OptionNumber1Code",
+  "definition": "Código que identifica números especiais de opção da operação sobre títulos.",
+  "isoCodes": {
+    "UNSO": {
+      "name": "Não solicitado",
+      "definition": "A instrução relativa à operação sobre títulos não foi solicitada, isto é, a instrução não foi precedida de uma notificação de operação sobre títulos."
+    }
+  }
+}

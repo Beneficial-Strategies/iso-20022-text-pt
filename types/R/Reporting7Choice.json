@@ -1,0 +1,12 @@
+{
+  "isoType": "Reporting7Choice",
+  "definition": "Escolha de formato para o tipo de comunicação.",
+  "isoElements": {
+    "Code": {
+      "definition": "Informações de comunicação por terceiros expressas sob a forma de código ISO 20022."
+    },
+    "Proprietary": {
+      "definition": "Informações de comunicação por terceiros expressas sob a forma de código proprietário."
+    }
+  }
+}

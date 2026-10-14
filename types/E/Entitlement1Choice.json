@@ -1,0 +1,12 @@
+{
+  "isoType": "Entitlement1Choice",
+  "definition": "Escolha do método de cálculo do direito.",
+  "isoElements": {
+    "EntitlementRatio": {
+      "definition": "Número de votos atribuídos a um valor mobiliário."
+    },
+    "EntitlementDescription": {
+      "definition": "Especifica o método de cálculo do número de votos atribuídos a um valor mobiliário. Este elemento deve ser utilizado quando a regra de cálculo do direito é complexa."
+    }
+  }
+}

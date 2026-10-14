@@ -1,0 +1,24 @@
+{
+  "isoType": "PartyIdentification162",
+  "definition": "Identificação de uma parte.",
+  "isoElements": {
+    "Identification": {
+      "definition": "Forma única e inequívoca de identificar uma organização."
+    },
+    "LEI": {
+      "definition": "Identificação da entidade jurídica como identificação alternativa de uma parte."
+    },
+    "AlternateIdentification": {
+      "definition": "Identificação alternativa de uma parte."
+    },
+    "ProcessingDate": {
+      "definition": "Data/hora em que a instrução foi tratada pela parte especificada."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identificação inequívoca da operação para a parte identificada."
+    },
+    "AdditionalInformation": {
+      "definition": "Fornece informações adicionais sobre a identificação de uma parte."
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "isoType": "Fee11",
+  "definition": "Montante em dinheiro associado a um serviço.",
+  "isoElements": {
+    "Type": {
+      "definition": "Tipo de comissão (encargo/comissão)."
+    },
+    "Basis": {
+      "definition": "Método utilizado para calcular a comissão (encargo/comissão)."
+    },
+    "StandardAmount": {
+      "definition": "Montante da comissão (encargo/comissão) normal, conforme especificado no prospeto do fundo ou acordado para a conta."
+    },
+    "StandardRate": {
+      "definition": "Taxa da comissão (encargo/comissão) normal utilizada para calcular o montante do encargo ou da comissão, conforme especificado no prospeto do fundo ou acordado para a conta."
+    },
+    "DiscountDetails": {
+      "definition": "Desconto ou dispensa aplicado à comissão (encargo/comissão)."
+    },
+    "AppliedAmount": {
+      "definition": "Montante da comissão (encargo/comissão) aplicado à operação."
+    },
+    "AppliedRate": {
+      "definition": "Taxa final utilizada para calcular o montante da comissão (encargo/comissão)."
+    },
+    "NonStandardSLAReference": {
+      "definition": "Referência a um acordo de venda que prevalece sobre o tratamento normal ou sobre o acordo de nível de serviço (SLA), como, por exemplo, uma comissão (encargo/comissão)."
+    },
+    "RecipientIdentification": {
+      "definition": "Parte com direito ao montante em dinheiro resultante de uma comissão (encargo/comissão)."
+    },
+    "InformativeIndicator": {
+      "definition": "Indica que a informação é fornecida apenas a título informativo. Quando o valor é ‘false’ ou ‘0’, o montante fornecido é tido em consideração nos custos gerais da operação. Quando o valor é ‘true’ ou ‘1’, o montante fornecido não é tido em consideração nos custos gerais da operação."
+    }
+  },
+  "isoRules": {
+    "AppliedAmountRule": {
+      "definition": "Se InformativeIndicator for \"false\" ou \"0\" (Não), então AppliedAmount tem de estar presente."
+    }
+  }
+}

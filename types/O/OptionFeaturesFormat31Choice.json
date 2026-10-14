@@ -1,0 +1,12 @@
+{
+  "isoType": "OptionFeaturesFormat31Choice",
+  "definition": "Escolha entre um código normalizado e um código proprietário para especificar as características que podem aplicar-se a uma opção de evento societário.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar as características que podem aplicar-se a uma opção de evento societário."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária das características que podem aplicar-se a uma opção de evento societário."
+    }
+  }
+}

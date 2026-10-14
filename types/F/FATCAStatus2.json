@@ -1,0 +1,12 @@
+{
+  "isoType": "FATCAStatus2",
+  "definition": "Informações sobre o estatuto da Foreign Account Tax Compliance Act (FATCA).",
+  "isoElements": {
+    "Type": {
+      "definition": "Estatuto da Foreign Account Tax Compliance Act (FATCA)."
+    },
+    "Source": {
+      "definition": "Origem do estatuto da Foreign Account Tax Compliance Act (FATCA)."
+    }
+  }
+}

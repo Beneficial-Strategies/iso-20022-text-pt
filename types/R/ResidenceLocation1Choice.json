@@ -1,0 +1,12 @@
+{
+  "isoType": "ResidenceLocation1Choice",
+  "definition": "Escolha da localização da residência de uma parte.",
+  "isoElements": {
+    "Country": {
+      "definition": "Especifica o país de residência do titular da conta."
+    },
+    "Area": {
+      "definition": "Especifica a região ou área geográfica de residência do titular da conta."
+    }
+  }
+}

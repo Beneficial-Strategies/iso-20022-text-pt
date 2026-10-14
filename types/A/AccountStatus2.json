@@ -1,0 +1,59 @@
+{
+  "isoType": "AccountStatus2",
+  "definition": "Estado de uma conta.",
+  "isoElements": {
+    "Enabled": {
+      "definition": "A conta pode ser utilizada para o fim a que se destina."
+    },
+    "Disabled": {
+      "definition": "A conta não pode ser temporariamente utilizada para o fim a que se destina."
+    },
+    "Pending": {
+      "definition": "A alteração da conta aguarda aprovação."
+    },
+    "PendingOpening": {
+      "definition": "A abertura da conta está pendente."
+    },
+    "Proforma": {
+      "definition": "A conta é temporária e pode ser parcialmente utilizada para o fim a que se destina. A conta ficará totalmente disponível para utilização quando o prestador de serviços da conta tiver recebido todos os documentos relevantes."
+    },
+    "Closed": {
+      "definition": "A conta está encerrada."
+    },
+    "ClosurePending": {
+      "definition": "O encerramento da conta está pendente."
+    },
+    "Other": {
+      "definition": "O estado é um estado acordado bilateralmente."
+    }
+  },
+  "isoRules": {
+    "ClosedStatus1Rule": {
+      "definition": "Se Closed estiver presente, então Enabled não é permitido."
+    },
+    "EnabledDisabledStatus1Rule": {
+      "definition": "Se Enabled estiver presente, então Disabled não é permitido."
+    },
+    "EnabledDisabledStatus2Rule": {
+      "definition": "Se Disabled estiver presente, então Enabled não é permitido."
+    },
+    "ClosedStatus3Rule": {
+      "definition": "Se Closed estiver presente, então Pending não é permitido."
+    },
+    "ClosedStatus2Rule": {
+      "definition": "Se Closed estiver presente, então Disabled não é permitido."
+    },
+    "ClosedStatus4Rule": {
+      "definition": "Se Closed estiver presente, então PendingOpening não é permitido."
+    },
+    "ClosedStatus5Rule": {
+      "definition": "Se Closed estiver presente, então Proforma não é permitido."
+    },
+    "ClosedStatus6Rule": {
+      "definition": "Se Closed estiver presente, então ClosurePending não é permitido."
+    },
+    "StatusElementRule": {
+      "definition": "Um dos elementos (Enabled, Disabled, Pending, PendingOpening, Proforma, Closed, ClosurePending, Other) tem de estar presente."
+    }
+  }
+}

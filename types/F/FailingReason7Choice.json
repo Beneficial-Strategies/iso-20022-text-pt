@@ -1,0 +1,12 @@
+{
+  "isoType": "FailingReason7Choice",
+  "definition": "Escolha do formato do motivo de incumprimento.",
+  "isoElements": {
+    "Code": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de liquidação em incumprimento."
+    },
+    "Proprietary": {
+      "definition": "Especifica o motivo pelo qual a instrução tem o estado de liquidação em incumprimento."
+    }
+  }
+}

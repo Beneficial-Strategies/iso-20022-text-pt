@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventProcessingType3Choice",
+  "definition": "Escolha entre um código normalizado ou um código proprietário para especificar o tipo de processamento de um evento de ação societária.",
+  "isoElements": {
+    "Code": {
+      "definition": "Código normalizado para especificar o tipo de processamento de um evento de ação societária."
+    },
+    "Proprietary": {
+      "definition": "Identificação proprietária do tipo de processamento de um evento de ação societária."
+    }
+  }
+}

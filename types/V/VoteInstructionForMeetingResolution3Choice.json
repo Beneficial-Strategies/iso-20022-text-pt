@@ -1,0 +1,12 @@
+{
+  "isoType": "VoteInstructionForMeetingResolution3Choice",
+  "definition": "Instrução de voto aplicável às deliberações acrescentadas durante a assembleia.",
+  "isoElements": {
+    "VoteIndication": {
+      "definition": "Recomendação de voto para as deliberações acrescentadas durante a assembleia."
+    },
+    "Shareholder": {
+      "definition": "Nome e endereço do acionista a quem são transferidos os direitos de voto relativos às deliberações acrescentadas durante a assembleia."
+    }
+  }
+}

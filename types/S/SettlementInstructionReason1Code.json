@@ -1,0 +1,62 @@
+{
+  "isoType": "SettlementInstructionReason1Code",
+  "definition": "Especifica o tipo de operação.",
+  "isoCodes": {
+    "CSHI": {
+      "name": "Todos os créditos",
+      "definition": "Liquidação de todos os montantes a crédito."
+    },
+    "ALLL": {
+      "name": "Todos os créditos e débitos",
+      "definition": "Liquidação de todos os montantes a crédito e a débito."
+    },
+    "CSHO": {
+      "name": "Todos os débitos",
+      "definition": "Liquidação de todos os montantes a débito."
+    },
+    "CHAR": {
+      "name": "Encargos",
+      "definition": "Liquidação de encargos."
+    },
+    "DIVI": {
+      "name": "Dividendo",
+      "definition": "Liquidação de dividendos."
+    },
+    "INTE": {
+      "name": "Juros",
+      "definition": "Liquidação de juros."
+    },
+    "SAVP": {
+      "name": "Plano de poupança-investimento",
+      "definition": "Liquidação de investimentos num plano de poupança."
+    },
+    "REDM": {
+      "name": "Resgate",
+      "definition": "Liquidação de resgates ou de componentes de resgate de uma operação de conversão (switch)."
+    },
+    "SAVE": {
+      "name": "Plano de poupança",
+      "definition": "Liquidação de investimentos num plano de poupança e de levantamentos de um plano de poupança."
+    },
+    "BUYI": {
+      "name": "Compra de valores mobiliários",
+      "definition": "Liquidação de compras de valores mobiliários."
+    },
+    "SELL": {
+      "name": "Venda de valores mobiliários",
+      "definition": "Liquidação de vendas de valores mobiliários."
+    },
+    "SUBS": {
+      "name": "Subscrição",
+      "definition": "Liquidação de subscrições ou de componentes de subscrição de uma operação de conversão (switch)."
+    },
+    "WTHP": {
+      "name": "Plano de levantamento de poupança",
+      "definition": "Liquidação de levantamentos de um plano de poupança."
+    },
+    "CORP": {
+      "name": "Operação sobre títulos",
+      "definition": "Liquidação de eventos societários."
+    }
+  }
+}

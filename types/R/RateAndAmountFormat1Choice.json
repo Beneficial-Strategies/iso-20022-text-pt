@@ -1,0 +1,15 @@
+{
+  "isoType": "RateAndAmountFormat1Choice",
+  "definition": "Escolha de formato entre taxa, montante e não especificado.",
+  "isoElements": {
+    "Rate": {
+      "definition": "O valor é expresso sob a forma de taxa."
+    },
+    "Amount": {
+      "definition": "O valor é expresso sob a forma de moeda e montante."
+    },
+    "NotSpecifiedRate": {
+      "definition": "Não é especificado nenhum valor."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "RepoCallRequestStatus8Choice",
+  "definition": "Escolha de formato para o reconhecimento do pedido de resgate de acordo de recompra.",
+  "isoElements": {
+    "Code": {
+      "definition": "Fornece o estado do pedido de resgate de acordo de recompra."
+    },
+    "Proprietary": {
+      "definition": "Fornece o estado do pedido de resgate de acordo de recompra."
+    }
+  }
+}

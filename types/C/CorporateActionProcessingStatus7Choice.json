@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionProcessingStatus7Choice",
+  "definition": "Especifica o estado dos detalhes do evento da operação de sociedade.",
+  "isoElements": {
+    "ForInformationOnly": {
+      "definition": "Indica se as informações sobre o evento societário são fornecidas apenas a título informativo."
+    },
+    "EventInformationStatus": {
+      "definition": "Estado das informações fornecidas sobre o evento de operação sobre valores mobiliários."
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "isoType": "ReversalCode",
+  "definition": "Especifica se uma operação é o resultado de uma operação de estorno.",
+  "isoCodes": {
+    "RVCD": {
+      "name": "Crédito de reversão",
+      "definition": "Lançamento a débito utilizado para estornar um lançamento a crédito previamente registado."
+    },
+    "RVDB": {
+      "name": "Débito de reversão",
+      "definition": "Lançamento a crédito utilizado para estornar um lançamento a débito previamente registado."
+    }
+  }
+}

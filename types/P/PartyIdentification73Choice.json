@@ -1,0 +1,15 @@
+{
+  "isoType": "PartyIdentification73Choice",
+  "definition": "Identificação de uma parte através de uma escolha entre um BIC, um nome e endereço ou um LEI.",
+  "isoElements": {
+    "NameAndAddress": {
+      "definition": "Identificação da parte expressa como nome e, opcionalmente, um endereço e um identificador alternativo."
+    },
+    "AnyBIC": {
+      "definition": "Identificação da parte expressa como um BIC e um identificador alternativo opcional."
+    },
+    "PartyIdentification": {
+      "definition": "Identificação da parte especificada como lista de valores por elemento."
+    }
+  }
+}

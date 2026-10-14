@@ -1,0 +1,18 @@
+{
+  "isoType": "SecuritiesTransactionReferences1",
+  "definition": "Identifica a operação sobre valores mobiliários subjacente.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação sobre valores mobiliários conhecida pelo titular da conta de valores mobiliários (ou pela parte instrutora que gere a conta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação sobre valores mobiliários conhecida pela instituição gestora da conta de valores mobiliários."
+    },
+    "MarketInfrastructureTransactionIdentification": {
+      "definition": "Identificação de uma operação sobre valores mobiliários atribuída por uma infraestrutura de mercado que não seja uma central de depósito de valores mobiliários, por exemplo, o Target2-Securities."
+    },
+    "ProcessingIdentification": {
+      "definition": "Identificação da operação sobre valores mobiliários atribuída pelo processador da instrução que não seja o titular da conta de valores mobiliários, a instituição gestora da conta de valores mobiliários nem a infraestrutura de mercado."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "CardholderAuthentication2",
+  "definition": "Dados relativos à autenticação do titular do cartão.",
+  "isoElements": {
+    "AuthenticationMethod": {
+      "definition": "Método utilizado para autenticar o titular do cartão."
+    },
+    "AuthenticationEntity": {
+      "definition": "Entidade ou objeto responsável por verificar a autenticidade do titular do cartão."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "ATMKeyDownloadResponseV05",
+  "definition": "A mensagem ATMKeyDownloadResponse é enviada por um adquirente a um ATM em resposta a uma mensagem ATMKeyDownloadRequest, para descarregar uma ou várias chaves criptográficas."
+}

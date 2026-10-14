@@ -1,0 +1,15 @@
+{
+  "isoType": "Account10Choice",
+  "definition": "Escolha entre uma conta de numerário, uma conta de encargos ou uma conta de impostos.",
+  "isoElements": {
+    "CashAccount": {
+      "definition": "Conta na qual o numerário é mantido."
+    },
+    "ChargesAccount": {
+      "definition": "Conta a utilizar para os encargos, se diferente da conta para pagamento."
+    },
+    "TaxAccount": {
+      "definition": "Conta a utilizar para os impostos, se diferente da conta para pagamento."
+    }
+  }
+}

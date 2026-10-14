@@ -1,0 +1,12 @@
+{
+  "isoType": "Period6Choice",
+  "definition": "Escolha entre um período ou um código de período.",
+  "isoElements": {
+    "Period": {
+      "definition": "Intervalo de tempo definido por uma data e hora de início e uma data e hora de fim."
+    },
+    "PeriodCode": {
+      "definition": "Código normalizado para especificar o tipo de período."
+    }
+  }
+}

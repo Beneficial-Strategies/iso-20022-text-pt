@@ -1,0 +1,18 @@
+{
+  "isoType": "ATMEnvironment6",
+  "definition": "Ambiente da operação.",
+  "isoElements": {
+    "Acquirer": {
+      "definition": "Adquirente da operação ATM, responsável pela liquidação dos fundos com o emitente."
+    },
+    "ATMManagerIdentification": {
+      "definition": "Identificação do gestor do ATM."
+    },
+    "HostingEntity": {
+      "definition": "Entidade que aloja o terminal ATM."
+    },
+    "ATM": {
+      "definition": "Informação do ATM."
+    }
+  }
+}

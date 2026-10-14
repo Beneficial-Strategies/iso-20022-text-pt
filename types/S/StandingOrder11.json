@@ -1,0 +1,66 @@
+{
+  "isoType": "StandingOrder11",
+  "definition": "Define os atributos detalhados de uma ordem permanente.",
+  "isoElements": {
+    "Amount": {
+      "definition": "Montante e moeda a transferir quando é criada uma instrução de pagamento em resultado de uma ordem permanente."
+    },
+    "CreditDebitIndicator": {
+      "definition": "Especifica se a conta é debitada ou creditada pela ordem permanente."
+    },
+    "Currency": {
+      "definition": "Identificação única e inequívoca de uma ordem permanente, atribuída pela instituição gestora da conta ou pelo titular da conta."
+    },
+    "Type": {
+      "definition": "Tipo da ordem permanente."
+    },
+    "AssociatedPoolAccount": {
+      "definition": "Conta de origem ou de destino da transferência de liquidez, pertencente ao conjunto de contas geridas pelo requerente."
+    },
+    "Reference": {
+      "definition": "Identificação única e inequívoca de uma ordem permanente, atribuída pela instituição gestora da conta ou pelo titular da conta."
+    },
+    "Frequency": {
+      "definition": "Periodicidade com que as instruções de pagamento devem ser criadas e processadas em resultado da ordem permanente, como diária, semanal ou mensal."
+    },
+    "ValidityPeriod": {
+      "definition": "Datas durante as quais a ordem permanente está em vigor."
+    },
+    "SystemMember": {
+      "definition": "Especifica se a conta é debitada ou creditada pela ordem permanente."
+    },
+    "ResponsibleParty": {
+      "definition": "Identificação única e inequívoca da conta entre o titular da conta e a instituição gestora da conta."
+    },
+    "LinkSetIdentification": {
+      "definition": "Identificação única para identificar inequivocamente o conjunto de ligações em que a ordem permanente está definida. O conjunto de ligações é uma coleção de ordens permanentes definidas numa sequência específica."
+    },
+    "LinkSetOrderIdentification": {
+      "definition": "Identificação única para identificar inequivocamente a ordem permanente de transferência de liquidez no conjunto de ligações."
+    },
+    "LinkSetOrderSequence": {
+      "definition": "Especifica a sequência segundo a qual o sistema executará as ordens permanentes de transferência de liquidez no conjunto de ligações quando for necessária liquidez adicional."
+    },
+    "ExecutionType": {
+      "definition": "Define se a ordem permanente é executada por um acionador temporal ou por um acionador baseado em eventos."
+    },
+    "Creditor": {
+      "definition": "Parte à qual é devido um montante."
+    },
+    "CreditorAccount": {
+      "definition": "Conta de numerário creditada por um mecanismo de ordem permanente."
+    },
+    "Debtor": {
+      "definition": "Parte que deve um montante ao credor (final)."
+    },
+    "DebtorAccount": {
+      "definition": "Conta de numerário debitada por um mecanismo de ordem permanente."
+    },
+    "TotalsPerStandingOrder": {
+      "definition": "Montante global das ordens de transferência de liquidez predefinidas «ainda não executadas» ou «definidas» por um participante do sistema na sua esfera de responsabilidade no sistema."
+    },
+    "ZeroSweepIndicator": {
+      "definition": "Indica se a ordem permanente de transferência de liquidez está definida como ordem de saldo zero (zero sweeping). Quando verdadeiro, a ordem permanente de transferência de liquidez transferirá todo o montante da conta, de modo que o saldo resultante seja zero."
+    }
+  }
+}

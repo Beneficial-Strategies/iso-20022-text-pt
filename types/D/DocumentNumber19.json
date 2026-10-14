@@ -1,0 +1,17 @@
+{
+  "isoType": "DocumentNumber19",
+  "definition": "Identificação do estado solicitado.",
+  "isoElements": {
+    "Number": {
+      "definition": "Número utilizado para identificar uma mensagem ou um documento."
+    },
+    "References": {
+      "definition": "Referências da operação para a qual o estado é solicitado."
+    }
+  },
+  "isoRules": {
+    "ReferenceRule": {
+      "definition": "A referência utilizada para identificar a operação tem de estar em conformidade com a identificação disponível para o aviso de estado solicitado pelo SecuritiesTransactionStatusQuery. Por exemplo, um SecuritiesTransactionStatusQuery não deve solicitar um SecuritiesSettlementTransactionStatusAdvice utilizando um CorporateActionEventIdentification."
+    }
+  }
+}

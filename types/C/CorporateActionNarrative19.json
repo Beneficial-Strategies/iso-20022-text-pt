@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionNarrative19",
+  "definition": "Fornece informações adicionais, tais como as condições de informação.",
+  "isoElements": {
+    "AdditionalText": {
+      "definition": "Fornece informações adicionais ou especifica de forma mais detalhada o conteúdo de uma mensagem. Este campo só pode ser utilizado quando a informação a transmitir não puder ser codificada."
+    },
+    "PartyContactNarrative": {
+      "definition": "Fornece informações adicionais sobre a parte, por exemplo, a unidade de contacto ou a pessoa responsável pela operação identificada na mensagem."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "isoType": "IdentificationVerificationReportV04",
+  "definition": "Âmbito|A mensagem IdentificationVerificationReport é enviada por um atribuidor a um destinatário da atribuição. É utilizada para confirmar se as informações de identificação da parte e/ou da conta apresentadas estão ou não corretas.|Utilização|A mensagem IdentificationVerificationReport é enviada como resposta a uma mensagem IdentificationVerificationRequest.|A mensagem IdentificationVerificationReport pode conter um ou vários relatórios.|A mensagem IdentificationVerificationReport pode incluir um motivo se se confirmar que as informações de identificação da parte e/ou da conta apresentadas estão incorretas.|A mensagem IdentificationVerificationReport pode incluir as informações corretas de identificação da parte e/ou da conta."
+}

@@ -1,0 +1,12 @@
+{
+  "isoType": "Counterparty16Choice",
+  "definition": "Escolha entre comprador e vendedor.",
+  "isoElements": {
+    "Seller": {
+      "definition": "Parte que vende bens ou serviços, ou um instrumento financeiro."
+    },
+    "Buyer": {
+      "definition": "Parte que compra bens ou serviços, ou um instrumento financeiro."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "isoType": "ExternalSystemMemberType1Code",
+  "definition": "Especifica a natureza da adesão de uma parte a um sistema, tal como publicada num conjunto externo de códigos de tipos de membros do sistema.|Os conjuntos de códigos externos podem ser descarregados em www.iso20022.org.",
+  "isoCodes": {
+    "DRCT": {
+      "name": "Direto",
+      "definition": "O membro tem plenos direitos no sistema. Em princípio, este estatuto de membro implica responsabilidade financeira pelas suas próprias operações e pelas operações dos membros patrocinados submetidas ao sistema."
+    },
+    "IDRT": {
+      "name": "Indireto",
+      "definition": "O membro tem direitos limitados nas especificações do sistema. Em princípio, este estatuto de membro não implica responsabilidade financeira pelas operações que submete ao sistema."
+    },
+    "RMTE": {
+      "name": "Remoto",
+      "definition": "O membro tem acesso ao sistema a partir de um local remoto ou por meios técnicos remotos."
+    },
+    "EURO": {
+      "name": "EURO1",
+      "definition": "O membro tem direito a aceder ao sistema Euro1 da Euro Banking Association (EBA)."
+    },
+    "STEP": {
+      "name": "STEP1",
+      "definition": "O membro tem direito a aceder ao sistema Step1 da Euro Banking Association (EBA)."
+    }
+  }
+}

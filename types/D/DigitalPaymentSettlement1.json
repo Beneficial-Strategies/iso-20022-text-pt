@@ -1,0 +1,15 @@
+{
+  "isoType": "DigitalPaymentSettlement1",
+  "definition": "Especifica as informações relativas à liquidação de pagamentos digitais.",
+  "isoElements": {
+    "FinancialInstrumentIdentification": {
+      "definition": "Instrumento financeiro que representa um conjunto de direitos do investidor face ao emitente."
+    },
+    "Quantity": {
+      "definition": "Escolha entre diferentes quantidades relacionadas com o pagamento em ativos digitais."
+    },
+    "CashSettlementSystemPlace": {
+      "definition": "Local onde o pagamento é/será efetuado."
+    }
+  }
+}

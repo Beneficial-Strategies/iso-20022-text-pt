@@ -1,0 +1,18 @@
+{
+  "isoType": "RepurchaseType6Code",
+  "definition": "Especifica o tipo de operação de recompra.",
+  "isoCodes": {
+    "CADJ": {
+      "name": "Troca",
+      "definition": "Refere-se a uma troca/substituição (Swap/Substitution)."
+    },
+    "TOPU": {
+      "name": "Reforço",
+      "definition": "Diz respeito à renovação (rollover) de um repo de uma posição que prorroga a data de encerramento ou de vencimento."
+    },
+    "WTHD": {
+      "name": "Levantamento",
+      "definition": "Diz respeito à renovação (rollover) de um repo de uma posição que prorroga a data de encerramento ou de vencimento."
+    }
+  }
+}

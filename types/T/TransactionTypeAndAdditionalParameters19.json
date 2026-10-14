@@ -1,0 +1,35 @@
+{
+  "isoType": "TransactionTypeAndAdditionalParameters19",
+  "definition": "Especifica as condições em que a ordem/transação deve ser liquidada.",
+  "isoElements": {
+    "AccountOwnerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação (única por unidade de garantia) conforme conhecida pelo titular da conta (ou pela parte instruidora que gere a conta)."
+    },
+    "AccountServicerTransactionIdentification": {
+      "definition": "Identificação inequívoca da operação (única por unidade de garantia) conforme conhecida pela instituição gestora da conta."
+    },
+    "SecuritiesFinancingTransactionType": {
+      "definition": "Especifica o tipo de operação de financiamento de valores mobiliários, ou seja, acordo de recompra, acordo de recompra inversa, empréstimo de valores mobiliários ou contração de empréstimo de valores mobiliários."
+    },
+    "SecuritiesMovementType": {
+      "definition": "Especifica se o movimento numa conta de valores mobiliários resulta de uma instrução de entrega ou de receção."
+    },
+    "Payment": {
+      "definition": "Especifica a forma como a operação deve ser liquidada, por exemplo, contra pagamento."
+    },
+    "CommonIdentification": {
+      "definition": "Referência única acordada entre as duas contrapartes da negociação para identificar a negociação."
+    },
+    "PoolIdentification": {
+      "definition": "Referência coletiva que identifica um conjunto de mensagens."
+    },
+    "CorporateActionEventIdentification": {
+      "definition": "Identificação atribuída pela instituição gestora da conta para identificar inequivocamente um evento societário."
+    }
+  },
+  "isoRules": {
+    "TwoLegTransactionOpeningClosingRule": {
+      "definition": "Para operações liquidadas em duas fases (financiamento de valores mobiliários), as informações de abertura/iniciação e de encerramento/devolução da operação são fornecidas através do envio da combinação abaixo de códigos SecuritiesMovementType e códigos SecuritiesFinancingTransactionType:||Abertura de Repo|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: Repo (REPU)|Encerramento de Repo|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: Repo (REPU)||Abertura de Reverse Repo|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: ReverseRepo (RVPO)|Encerramento de Reverse Repo|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: ReverseRepo (RVPO)||Iniciação de Empréstimo de Valores Mobiliários|SecuritiesMovementType: Delivery (DELI)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)|Devolução de Empréstimo de Valores Mobiliários|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesLending (SECL)||Iniciação de Contração de Empréstimo de Valores Mobiliários|SecuritiesMovementType: Receive (RECE)|SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)|Devolução de Contração de Empréstimo de Valores Mobiliários|SecuritiesMovementType: Delivery (DELI) |SecuritiesFinancingTransactionType: SecuritiesBorrowing (SECB)."
+    }
+  }
+}

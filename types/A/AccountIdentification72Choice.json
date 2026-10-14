@@ -1,0 +1,12 @@
+{
+  "isoType": "AccountIdentification72Choice",
+  "definition": "Escolha entre todas as contas (GENR - General na ISO 15022) ou uma ou mais contas selecionadas e informações de saldo.",
+  "isoElements": {
+    "ForAllAccounts": {
+      "definition": "Todas as contas de custódia que detêm o instrumento financeiro subjacente."
+    },
+    "AccountsListAndBalanceDetails": {
+      "definition": "Lista de contas de custódia selecionadas (e, opcionalmente, informações de saldo) às quais se aplica o evento de ação societária."
+    }
+  }
+}

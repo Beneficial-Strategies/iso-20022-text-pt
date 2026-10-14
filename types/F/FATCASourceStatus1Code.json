@@ -1,0 +1,14 @@
+{
+  "isoType": "FATCASourceStatus1Code",
+  "definition": "Especifica a origem do estado do Foreign Account Tax Compliance Act (FATCA).",
+  "isoCodes": {
+    "CALC": {
+      "name": "Calculado",
+      "definition": "Origem do estado do Foreign Account Tax Compliance Act (FATCA) calculado."
+    },
+    "DECL": {
+      "name": "Declarado",
+      "definition": "A origem do estado do Foreign Account Tax Compliance Act (FATCA) é a declarada pelo investidor."
+    }
+  }
+}

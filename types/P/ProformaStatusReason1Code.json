@@ -1,0 +1,14 @@
+{
+  "isoType": "ProformaStatusReason1Code",
+  "definition": "Especifica o motivo do estado pro forma.",
+  "isoCodes": {
+    "MODI": {
+      "name": "Alteração em curso",
+      "definition": "Está em curso uma alteração aos dados da conta."
+    },
+    "RIGH": {
+      "name": "Direitos",
+      "definition": "A abertura da conta está a aguardar as informações do titular de direitos."
+    }
+  }
+}

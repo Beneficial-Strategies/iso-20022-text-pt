@@ -1,0 +1,15 @@
+{
+  "isoType": "AmountPricePerFinancialInstrumentQuantity10",
+  "definition": "Especifica um rácio: preço em montante por quantidade de instrumento financeiro.",
+  "isoElements": {
+    "AmountPriceType": {
+      "definition": "Tipo de preço em montante."
+    },
+    "PriceValue": {
+      "definition": "Valor do preço."
+    },
+    "FinancialInstrumentQuantity": {
+      "definition": "Quantidade de instrumento financeiro."
+    }
+  }
+}

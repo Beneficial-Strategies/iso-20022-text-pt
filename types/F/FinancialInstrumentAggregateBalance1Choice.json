@@ -1,0 +1,12 @@
+{
+  "isoType": "FinancialInstrumentAggregateBalance1Choice",
+  "definition": "Escolha entre o indicador de posições e a posição agregada das posições.",
+  "isoElements": {
+    "HoldingsIndicator": {
+      "definition": "Indica se existem posições."
+    },
+    "HoldingBalance": {
+      "definition": "Saldo das posições."
+    }
+  }
+}

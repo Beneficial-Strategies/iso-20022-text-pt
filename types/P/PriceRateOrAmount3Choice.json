@@ -1,0 +1,12 @@
+{
+  "isoType": "PriceRateOrAmount3Choice",
+  "definition": "Escolha de formatos para o preço.",
+  "isoElements": {
+    "Rate": {
+      "definition": "Preço expresso como taxa, ou seja, percentagem."
+    },
+    "Amount": {
+      "definition": "Preço expresso como moeda e valor."
+    }
+  }
+}

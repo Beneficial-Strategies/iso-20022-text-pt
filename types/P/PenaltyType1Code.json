@@ -1,0 +1,14 @@
+{
+  "isoType": "PenaltyType1Code",
+  "definition": "Especifica o tipo de penalização.",
+  "isoCodes": {
+    "LMFP": {
+      "name": "Penalização por correspondência tardia falhada",
+      "definition": "Aplica-se desde a data de liquidação prevista até à data de correspondência.|A penalização é imputada ao participante que foi o último a introduzir ou modificar a instrução de liquidação relevante (por exemplo, o \"accepted timestamp\" é posterior ao da instrução da contraparte) relativamente aos períodos entre a data de liquidação prevista e o dia da correspondência da instrução."
+    },
+    "SEFP": {
+      "name": "Penalização por falha de liquidação",
+      "definition": "As penalizações aplicam-se às instruções que não são liquidadas na data de liquidação prevista. Uma instrução de liquidação que \"não é liquidada nesse dia útil\" deve ser entendida como uma instrução de liquidação que não está cancelada e que permanece por liquidar, total ou parcialmente, no momento do|fim do processamento do respetivo cut-off."
+    }
+  }
+}

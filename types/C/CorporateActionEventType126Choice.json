@@ -1,0 +1,12 @@
+{
+  "isoType": "CorporateActionEventType126Choice",
+  "definition": "Escolha entre um tipo de evento societário ou um tipo de evento societário alargado.",
+  "isoElements": {
+    "PlainCorporateEventType": {
+      "definition": "Tipo de evento de operação sobre títulos."
+    },
+    "ExtendedCorporateEventType": {
+      "definition": "Lista alargada de tipos de evento de operação sobre valores mobiliários."
+    }
+  }
+}
