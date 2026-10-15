@@ -56,5 +56,8 @@ effort toward an accurate text, but it is not verified by a professional transla
 repository. We intend to improve them over time (named maintainers per area, required reviews, release checks) should the libraries gain adoption
 and sponsorship. Taking over the care of a language, or of an area of one, is welcome.
 
-The English text this repository translates or adapts is ISO's, and ISO's own terms apply to it. The license above covers what is written
-in this repository, not ISO's text. This is not legal advice.
+The English text this repository translates or adapts is ISO's.
+
+**ISO 20022 material.** The ISO 20022 specification, its schemas, code sets and their text are ISO's. ISO and its Registration Authority publish them to be used and reproduced freely under the [ISO 20022 Terms of use](https://www.iso20022.org/terms-use) and the [Intellectual Property Rights Policy](https://www.iso20022.org/intellectual-property-rights). **This is not the official ISO 20022 site. The sole source of up-to-date material is <https://www.iso20022.org/>.** ISO's material is provided "as is", without warranty. The license of this repository covers what we wrote, not ISO's material. This is not legal advice.
+
+**Translations.** Translated versions are machine translated, may contain errors, and are provided for convenience only. They are not binding. All matters are to be resolved on the untranslated English (US) version, under United States law.
