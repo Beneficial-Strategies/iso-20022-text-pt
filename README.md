@@ -35,6 +35,7 @@ This repository deploys the `pt` text host, `https://iso-20022-text-pt.beneficia
 through Cloudflare Workers Builds: the `main` branch deploys, and every other branch gets a preview address. The build fetches the
 [hub](https://github.com/Beneficial-Strategies/iso-20022-text) (`HUB_REF` and `HUB_REPO` choose another version of it, for a preview) and lays this repository
 over it, so a change in the hub reaches this host the next time this repository builds.
+The hub's [README](https://github.com/Beneficial-Strategies/iso-20022-text#deployment) has a worked example of previewing this host against a hub branch.
 
 ## Help keep this text maintained
 
